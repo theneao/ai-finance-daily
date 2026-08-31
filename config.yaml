@@ -9,7 +9,8 @@ project:
   min_popular_stars: 100
   weekly_star_growth: 20
   star_growth_days: 7
-  archive_keep_days: 365
+  archive_keep_days: 90
+  historical_min_stars: 500
 
 code_sources:
   papers_with_code: true

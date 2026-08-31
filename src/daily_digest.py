@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = ROOT / "data" / "state.json"
 LATEST_PATH = ROOT / "data" / "latest.json"
 ARCHIVE_DIR = ROOT / "archive"
+HISTORY_DIR = ROOT / "history"
 ARXIV_API = "https://export.arxiv.org/api/query"
 GITHUB_API = "https://api.github.com"
 ATOM = {"a": "http://www.w3.org/2005/Atom"}
@@ -554,7 +555,7 @@ def render_readme(
 
 项目满足 **Star ≥ 100**，或**近 7 天增长 ≥ 20 Star**；新库创建 7 天内达到 20 Star 也会立即进入榜单。
 
-每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。完整结构化数据位于 [`data/state.json`](data/state.json)，每日快照位于 [`archive/`](archive/)。搜索词和阈值可在 [`config.yaml`](config.yaml) 调整。
+每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。当天多次运行会合并去重，不覆盖已收集内容。最近 90 天完整日报见 [`archive/index.md`](archive/index.md)，更早内容转入精简月度历史；搜索词和阈值可在 [`config.yaml`](config.yaml) 调整。
 
 ---
 
@@ -562,16 +563,205 @@ def render_readme(
 """
 
 
-def prune_archives(keep_days: int, today: dt.date) -> None:
-    if not ARCHIVE_DIR.exists():
-        return
-    cutoff = today - dt.timedelta(days=keep_days)
-    for path in ARCHIVE_DIR.glob("*.md"):
+def ensure_state_schema(state: dict[str, Any], run_date: str) -> None:
+    state.setdefault("schema_version", 2)
+    state.setdefault("papers", {})
+    state.setdefault("repositories", {})
+    state.setdefault("topic_papers", {})
+    state.setdefault("topic_repositories", {})
+    state.setdefault("repo_star_history", {})
+    seen = state.setdefault("seen", {"paper_ids": [], "repository_names": []})
+    paper_ids = set(seen.setdefault("paper_ids", []))
+    repo_names = set(seen.setdefault("repository_names", []))
+
+    for paper in state["papers"].values():
+        paper.setdefault("first_seen", run_date)
+        paper_ids.add(paper["id"])
+    for topic in state["topic_papers"].values():
+        for paper in topic.values():
+            paper.setdefault("first_seen", run_date)
+            paper_ids.add(paper["id"])
+    for repo in state["repositories"].values():
+        repo.setdefault("first_seen", run_date)
+        repo_names.add(repo["full_name"])
+    for topic in state["topic_repositories"].values():
+        for repo in topic.values():
+            repo.setdefault("first_seen", run_date)
+            repo_names.add(repo["full_name"])
+    seen["paper_ids"] = sorted(paper_ids)
+    seen["repository_names"] = sorted(repo_names)
+
+
+def prune_recent_state(state: dict[str, Any], cutoff: dt.date) -> None:
+    def prune(items: dict[str, dict[str, Any]]) -> None:
+        for key, item in list(items.items()):
+            first_seen = item.get("first_seen")
+            if first_seen and dt.date.fromisoformat(first_seen) < cutoff:
+                del items[key]
+
+    prune(state["papers"])
+    prune(state["repositories"])
+    for items in state["topic_papers"].values():
+        prune(items)
+    for items in state["topic_repositories"].values():
+        prune(items)
+    state["repo_star_history"] = {
+        name: points for name, points in state["repo_star_history"].items() if points
+    }
+
+
+def archive_paths(run_date: str) -> tuple[Path, Path]:
+    date = dt.date.fromisoformat(run_date)
+    directory = ARCHIVE_DIR / f"{date.year:04d}" / f"{date.month:02d}"
+    return directory / f"{run_date}.md", directory / f"{run_date}.json"
+
+
+def merge_daily_results(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    def merge_items(
+        old: list[dict[str, Any]], new: list[dict[str, Any]], key: str
+    ) -> list[dict[str, Any]]:
+        merged = {item[key]: item for item in old}
+        merged.update({item[key]: item for item in new})
+        return list(merged.values())
+
+    merged = {
+        "run_date": incoming["run_date"],
+        "papers": merge_items(existing.get("papers", []), incoming.get("papers", []), "id"),
+        "repositories": merge_items(
+            existing.get("repositories", []), incoming.get("repositories", []), "full_name"
+        ),
+        "topic_papers": {},
+        "topic_repositories": {},
+    }
+    paper_topics = set(existing.get("topic_papers", {})) | set(incoming.get("topic_papers", {}))
+    repo_topics = set(existing.get("topic_repositories", {})) | set(
+        incoming.get("topic_repositories", {})
+    )
+    for topic in paper_topics:
+        merged["topic_papers"][topic] = merge_items(
+            existing.get("topic_papers", {}).get(topic, []),
+            incoming.get("topic_papers", {}).get(topic, []),
+            "id",
+        )
+    for topic in repo_topics:
+        repos = merge_items(
+            existing.get("topic_repositories", {}).get(topic, []),
+            incoming.get("topic_repositories", {}).get(topic, []),
+            "full_name",
+        )
+        merged["topic_repositories"][topic] = sorted(
+            repos, key=lambda item: item.get("stars", 0), reverse=True
+        )
+    merged["repositories"].sort(key=lambda item: item.get("stars", 0), reverse=True)
+    merged["papers"].sort(key=lambda item: item.get("published", ""), reverse=True)
+    for papers in merged["topic_papers"].values():
+        papers.sort(key=lambda item: item.get("published", ""), reverse=True)
+    return merged
+
+
+def migrate_flat_archives() -> None:
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    for path in ARCHIVE_DIR.glob("????-??-??.md"):
         try:
-            if dt.date.fromisoformat(path.stem) < cutoff:
-                path.unlink()
+            md_path, _ = archive_paths(path.stem)
         except ValueError:
             continue
+        md_path.parent.mkdir(parents=True, exist_ok=True)
+        if not md_path.exists():
+            path.replace(md_path)
+        else:
+            path.unlink()
+
+
+def compact_history(result: dict[str, Any], min_stars: int, growth_min: int) -> dict[str, Any]:
+    papers: dict[str, dict[str, Any]] = {}
+    repos: dict[str, dict[str, Any]] = {}
+
+    paper_groups = {"finance": result.get("papers", [])} | result.get("topic_papers", {})
+    repo_groups = {"finance": result.get("repositories", [])} | result.get(
+        "topic_repositories", {}
+    )
+    for topic, items in paper_groups.items():
+        for paper in items:
+            papers[f"{topic}:{paper['id']}"] = {
+                "id": paper["id"],
+                "title": paper["title"],
+                "published": paper["published"],
+                "paper_url": paper["paper_url"],
+                "code_url": paper.get("code_url"),
+                "topic": topic,
+            }
+    for topic, items in repo_groups.items():
+        for repo in items:
+            growth = repo.get("star_growth_7d")
+            if repo["stars"] < min_stars and (growth is None or growth < growth_min):
+                continue
+            key = f"{topic}:{repo['full_name']}"
+            repos[key] = {
+                "full_name": repo["full_name"],
+                "url": repo["url"],
+                "stars": repo["stars"],
+                "star_growth_7d": growth,
+                "language": repo.get("language"),
+                "topic": topic,
+            }
+    return {"papers": papers, "repositories": repos}
+
+
+def rollup_expired_archives(today: dt.date, project: dict[str, Any]) -> None:
+    cutoff = today - dt.timedelta(days=int(project["archive_keep_days"]))
+    for json_path in sorted(ARCHIVE_DIR.glob("????/??/????-??-??.json")):
+        try:
+            archive_date = dt.date.fromisoformat(json_path.stem)
+        except ValueError:
+            continue
+        if archive_date >= cutoff:
+            continue
+        result = load_json(json_path, {})
+        compact = compact_history(
+            result, int(project["historical_min_stars"]), int(project["weekly_star_growth"])
+        )
+        month_path = HISTORY_DIR / f"{archive_date.year:04d}" / f"{archive_date.month:02d}.json"
+        month = load_json(
+            month_path,
+            {
+                "month": archive_date.strftime("%Y-%m"),
+                "dates": [],
+                "papers": {},
+                "repositories": {},
+            },
+        )
+        if json_path.stem not in month["dates"]:
+            month["dates"].append(json_path.stem)
+            month["dates"].sort()
+        month["papers"].update(compact["papers"])
+        month["repositories"].update(compact["repositories"])
+        save_json(month_path, month)
+        json_path.unlink()
+        md_path = json_path.with_suffix(".md")
+        if md_path.exists():
+            md_path.unlink()
+
+
+def rebuild_archive_index() -> None:
+    daily = sorted(ARCHIVE_DIR.glob("????/??/????-??-??.md"), reverse=True)
+    monthly = sorted(HISTORY_DIR.glob("????/??.json"), reverse=True)
+    lines = [
+        "# 历史归档",
+        "",
+        "最近 90 天保留完整 Markdown 与 JSON；更早内容转为精简月度 JSON。",
+        "",
+        "## 最近 90 天",
+        "",
+    ]
+    lines.extend(f"- [{path.stem}]({path.relative_to(ARCHIVE_DIR).as_posix()})" for path in daily)
+    lines.extend(["", "## 精简月度历史", ""])
+    lines.extend(
+        f"- [{path.parent.name}-{path.stem}](../{path.relative_to(ROOT).as_posix()})"
+        for path in monthly
+    )
+    lines.append("")
+    (ARCHIVE_DIR / "index.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
@@ -581,48 +771,57 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     run_date = today_cn.isoformat()
     cutoff = now - dt.timedelta(days=config["project"]["lookback_days"])
     state = load_json(STATE_PATH, {"papers": {}, "repositories": {}, "last_run": None})
-    state.setdefault("papers", {})
-    state.setdefault("repositories", {})
-    state.setdefault("topic_papers", {})
-    state.setdefault("topic_repositories", {})
-    state.setdefault("repo_star_history", {})
+    ensure_state_schema(state, run_date)
+    seen_paper_ids = set(state["seen"]["paper_ids"])
+    seen_repo_names = set(state["seen"]["repository_names"])
     client = Client(os.getenv("GITHUB_TOKEN"))
 
     papers = fetch_papers(client, config["papers"], cutoff)
-    papers = [paper for paper in papers if paper["id"] not in state["papers"]]
+    papers = [paper for paper in papers if paper["id"] not in seen_paper_ids]
     papers = papers[: config["project"]["max_papers_per_run"]]
     for paper in papers:
+        paper["first_seen"] = run_date
         paper["code_url"], paper["code_match"] = find_code(
             client, paper, config.get("code_sources")
         )
+        seen_paper_ids.add(paper["id"])
 
     repo_candidates = fetch_repositories(client, config["github"], cutoff.date().isoformat(), now)
     repos = apply_star_thresholds(
         repo_candidates, state["repo_star_history"], run_date, config["project"]
     )
-    repos = [repo for repo in repos if repo["full_name"] not in state["repositories"]]
+    repos = [repo for repo in repos if repo["full_name"] not in seen_repo_names]
     repos = repos[: config["project"]["max_repos_per_run"]]
+    for repo in repos:
+        repo["first_seen"] = run_date
+        seen_repo_names.add(repo["full_name"])
 
     topic_papers: dict[str, list[dict[str, Any]]] = {}
     topic_repos: dict[str, list[dict[str, Any]]] = {}
     for key, topic in config.get("topics", {}).items():
-        seen_papers = state["topic_papers"].setdefault(key, {})
+        state["topic_papers"].setdefault(key, {})
         selected_papers = fetch_topic_papers(client, topic, cutoff)
-        selected_papers = [paper for paper in selected_papers if paper["id"] not in seen_papers]
+        selected_papers = [paper for paper in selected_papers if paper["id"] not in seen_paper_ids]
         selected_papers = selected_papers[: config["project"]["max_topic_papers_per_run"]]
         for paper in selected_papers:
+            paper["first_seen"] = run_date
             paper["code_url"], paper["code_match"] = find_code(
                 client, paper, config.get("code_sources")
             )
+            seen_paper_ids.add(paper["id"])
         topic_papers[key] = selected_papers
 
-        seen_repos = state["topic_repositories"].setdefault(key, {})
+        state["topic_repositories"].setdefault(key, {})
         candidates = fetch_repositories(client, topic["github"], cutoff.date().isoformat(), now)
         selected_repos = apply_star_thresholds(
             candidates, state["repo_star_history"], run_date, config["project"]
         )
-        selected_repos = [repo for repo in selected_repos if repo["full_name"] not in seen_repos]
-        topic_repos[key] = selected_repos[: config["project"]["max_topic_repos_per_run"]]
+        selected_repos = [repo for repo in selected_repos if repo["full_name"] not in seen_repo_names]
+        selected_repos = selected_repos[: config["project"]["max_topic_repos_per_run"]]
+        for repo in selected_repos:
+            repo["first_seen"] = run_date
+            seen_repo_names.add(repo["full_name"])
+        topic_repos[key] = selected_repos
 
     result = {
         "run_date": run_date,
@@ -645,17 +844,45 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     for key, selected_repos in topic_repos.items():
         for repo in selected_repos:
             state["topic_repositories"][key][repo["full_name"]] = repo
+    state["seen"]["paper_ids"] = sorted(seen_paper_ids)
+    state["seen"]["repository_names"] = sorted(seen_repo_names)
     state["last_run"] = now.isoformat()
+    recent_cutoff = today_cn - dt.timedelta(days=int(config["project"]["archive_keep_days"]))
+    prune_recent_state(state, recent_cutoff)
     save_json(STATE_PATH, state)
+    migrate_flat_archives()
+    md_path, json_path = archive_paths(run_date)
+    md_path.parent.mkdir(parents=True, exist_ok=True)
+    existing = load_json(json_path, {})
+    if not existing:
+        latest = load_json(LATEST_PATH, {})
+        if latest.get("run_date") == run_date:
+            existing = latest
+    result = merge_daily_results(existing, result)
     save_json(LATEST_PATH, result)
-    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
-    digest = render_digest(run_date, papers, repos, topic_papers, topic_repos, config["topics"])
-    (ARCHIVE_DIR / f"{run_date}.md").write_text(digest, encoding="utf-8")
+    save_json(json_path, result)
+    digest = render_digest(
+        run_date,
+        result["papers"],
+        result["repositories"],
+        result["topic_papers"],
+        result["topic_repositories"],
+        config["topics"],
+    )
+    md_path.write_text(digest, encoding="utf-8")
     (ROOT / "README.md").write_text(
-        render_readme(run_date, papers, repos, topic_papers, topic_repos, config["topics"]),
+        render_readme(
+            run_date,
+            result["papers"],
+            result["repositories"],
+            result["topic_papers"],
+            result["topic_repositories"],
+            config["topics"],
+        ),
         encoding="utf-8",
     )
-    prune_archives(config["project"]["archive_keep_days"], today_cn)
+    rollup_expired_archives(today_cn, config["project"])
+    rebuild_archive_index()
     return result
 
 

@@ -6,7 +6,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from daily_digest import apply_star_thresholds, qualifies_paper, repo_score, title_similarity
+from daily_digest import (
+    apply_star_thresholds,
+    compact_history,
+    merge_daily_results,
+    qualifies_paper,
+    repo_score,
+    title_similarity,
+)
 
 
 PAPER_CONFIG = {
@@ -83,6 +90,68 @@ class DailyDigestTests(unittest.TestCase):
         )
         growing = next(repo for repo in selected if repo["full_name"] == "x/growing")
         self.assertEqual(growing["star_growth_7d"], 25)
+
+    def test_daily_reruns_merge_without_overwriting(self):
+        existing = {
+            "run_date": "2026-08-31",
+            "papers": [{"id": "1", "published": "2026-08-30"}],
+            "repositories": [{"full_name": "x/old", "stars": 100}],
+            "topic_papers": {"ai_infra": []},
+            "topic_repositories": {},
+        }
+        incoming = {
+            "run_date": "2026-08-31",
+            "papers": [{"id": "2", "published": "2026-08-31"}],
+            "repositories": [{"full_name": "x/new", "stars": 200}],
+            "topic_papers": {},
+            "topic_repositories": {},
+        }
+        merged = merge_daily_results(existing, incoming)
+        self.assertEqual([paper["id"] for paper in merged["papers"]], ["2", "1"])
+        self.assertEqual(
+            [repo["full_name"] for repo in merged["repositories"]], ["x/new", "x/old"]
+        )
+
+    def test_cold_history_drops_low_star_repositories(self):
+        result = {
+            "papers": [
+                {
+                    "id": "1",
+                    "title": "Useful paper",
+                    "published": "2026-01-01",
+                    "paper_url": "https://arxiv.org/abs/1",
+                    "code_url": None,
+                }
+            ],
+            "repositories": [
+                {
+                    "full_name": "x/keep",
+                    "url": "https://github.com/x/keep",
+                    "stars": 600,
+                    "star_growth_7d": None,
+                    "language": "Python",
+                },
+                {
+                    "full_name": "x/drop",
+                    "url": "https://github.com/x/drop",
+                    "stars": 120,
+                    "star_growth_7d": 2,
+                    "language": "Python",
+                },
+                {
+                    "full_name": "x/growing",
+                    "url": "https://github.com/x/growing",
+                    "stars": 80,
+                    "star_growth_7d": 25,
+                    "language": "Go",
+                },
+            ],
+        }
+        compact = compact_history(result, min_stars=500, growth_min=20)
+        self.assertEqual(
+            set(compact["repositories"]), {"finance:x/keep", "finance:x/growing"}
+        )
+        self.assertIn("finance:1", compact["papers"])
 
 
 if __name__ == "__main__":
