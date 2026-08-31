@@ -132,6 +132,15 @@ topics:
       - education
       - tool
       - benchmark
+    title_terms:
+      - code
+      - coding
+      - software
+      - developer
+      - repository
+      - programming
+      - agent plugin
+      - agent workflow
     github:
       per_query: 10
       min_stars: 5
@@ -188,6 +197,26 @@ topics:
       - evaluation
       - observability
       - production
+    title_terms:
+      - inference
+      - serving
+      - cache
+      - decoding
+      - deployment
+      - runtime
+      - scheduling
+      - throughput
+      - latency
+      - LLM evaluation
+      - observability
+      - agent infrastructure
+      - RAG
+    exclude_terms:
+      - video generation
+      - image generation
+      - audio generation
+      - audio-LLM
+      - diffusion model
     github:
       per_query: 10
       min_stars: 5

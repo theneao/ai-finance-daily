@@ -82,7 +82,7 @@ class Client:
     def quick_get(self, url: str, **kwargs: Any) -> requests.Response | None:
         """Best-effort optional source lookup without retrying a slow/down service."""
         try:
-            response = self.session.get(url, timeout=8, **kwargs)
+            response = self.session.get(url, timeout=5, **kwargs)
             if response.ok:
                 return response
         except requests.RequestException:
@@ -221,6 +221,12 @@ def fetch_topic_papers(
         if published < cutoff or not contains_term(text, terms):
             continue
         if not contains_term(text, config["application_terms"]):
+            continue
+        title_hit = contains_term(title, terms)
+        contextual_title_hit = contains_term(title, config.get("title_terms", []))
+        if not title_hit and not contextual_title_hit:
+            continue
+        if contains_term(text, config.get("exclude_terms", [])):
             continue
         abs_url = entry.findtext("a:id", "", ATOM).replace("http://", "https://")
         arxiv_id = abs_url.rsplit("/", 1)[-1].split("v", 1)[0]
