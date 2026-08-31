@@ -103,7 +103,27 @@ def qualifies_paper(title: str, abstract: str, config: dict[str, Any]) -> bool:
     text = f"{title} {abstract}"
     title_lower = normalize(title)
     has_ai = contains_term(text, config["ai_terms"])
-    has_investment = contains_term(text, config["investment_terms"])
+    # Generic market context alone is not an investment method. Require a direct
+    # investing term, or a market context plus an actionable research objective.
+    generic_context = {"stock market", "financial market"}
+    direct_terms = [term for term in config["investment_terms"] if term not in generic_context]
+    action_terms = [
+        "predict",
+        "forecast",
+        "trade",
+        "trading",
+        "portfolio",
+        "invest",
+        "allocation",
+        "return",
+        "price",
+        "signal",
+        "timing",
+        "strategy",
+    ]
+    has_investment = contains_term(text, direct_terms) or (
+        contains_term(text, list(generic_context)) and contains_term(text, action_terms)
+    )
     excluded = contains_term(text, config.get("exclude_terms", []))
     # An exclusion in the abstract is allowed only when the title is explicitly about investing.
     return has_ai and has_investment and (not excluded or contains_term(title_lower, config["investment_terms"]))
@@ -180,8 +200,13 @@ def find_code(client: Client, paper: dict[str, Any]) -> tuple[str | None, str | 
         return embedded.group(0).rstrip(".,);]"), "paper-link"
 
     by_id = client.github_search(f'"{paper["id"]}" in:readme', per_page=5)
-    if by_id:
-        return by_id[0]["html_url"], "arxiv-id"
+    # An ID alone often finds paper lists and daily aggregators. Also require the
+    # repository name/description to overlap with the paper title.
+    id_candidates = [(title_similarity(paper["title"], repo), repo) for repo in by_id]
+    if id_candidates:
+        score, repo = max(id_candidates, key=lambda item: item[0])
+        if score >= 0.35:
+            return repo["html_url"], "arxiv-id"
 
     significant = sorted(title_tokens(paper["title"]), key=len, reverse=True)[:8]
     if not significant:

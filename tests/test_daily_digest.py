@@ -44,6 +44,15 @@ class DailyDigestTests(unittest.TestCase):
             )
         )
 
+    def test_rejects_generic_financial_compliance(self):
+        self.assertFalse(
+            qualifies_paper(
+                "Evaluating LLM Rule Grounding in Financial Compliance",
+                "A large language model agent follows regulations in financial markets.",
+                PAPER_CONFIG,
+            )
+        )
+
     def test_title_similarity_prefers_related_repo(self):
         repo = {"name": "rl-portfolio-optimization", "description": "reinforcement learning for portfolios"}
         self.assertGreaterEqual(
