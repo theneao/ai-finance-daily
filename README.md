@@ -13,7 +13,7 @@
 
 # AI 投资研究日报 · 2026-08-31
 
-本期新增：**8 篇论文**（其中 1 篇找到可能的代码）和 **30 个 GitHub 项目**。
+本期新增：**7 篇论文**（其中 1 篇找到可能的代码）和 **30 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
@@ -25,7 +25,6 @@
 | 2026-08-25 | [Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows](https://arxiv.org/abs/2608.24842) | Miao Liu, Zhizhe Liu | — |
 | 2026-08-24 | [(Mis)Understanding Benign Overfitting in Equity Return Prediction](https://arxiv.org/abs/2608.23761) | Hui Guo, Jiawei Huang, Runze Li 等 | [标题匹配](https://github.com/Jiawei98/BenignOverfitting) |
 | 2026-08-24 | [Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron](https://arxiv.org/abs/2608.22852) | Sahong Park, Suhwan Park, Hoyoung Lee 等 | — |
-| 2026-08-20 | [ReguSim: Evaluating LLM Agent Rule Grounding in Financial Compliance](https://arxiv.org/abs/2608.19974) | Yiyang Luo, Yihang Jiang, Qijun Xie 等 | — |
 | 2026-08-20 | [Automated Summarization of Financial News Using Large Language Models and Retrieval-Augmented Generation: An Early Empirical Study (Fall 2023)](https://arxiv.org/abs/2608.19526) | Pranav Chandaliya | — |
 
 
