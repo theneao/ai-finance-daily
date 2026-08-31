@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-31T09:13:58.723941+00:00",
+  "last_run": "2026-08-31T09:29:17.093561+00:00",
   "papers": {
     "2608.19526": {
       "abstract": "Stock market analysts and investors face a daily challenge: too much financial news, too little time. Manually reading and synthesizing hundreds of company-specific articles is impractical, yet missing key information can directly affect investment decisions. This project, conducted at George Washington University in Fall 2023, explores whether Large Language Models can automate this process reliably. We built a pipeline that pulls news articles from the News API, company background from Wikipedia, and stock price data from Yahoo Finance for ten major companies (AAPL, MSFT, GOOGL, AMZN, META, TSLA, JPM, NVDA, WMT, DIS). Because LLMs cannot directly process numerical tables, we developed a simple but effective template that converts stock data into natural language narratives. We then tested two summarization approaches (Summarize Chains and Retrieval-Augmented Generation with FAISS) across three open-source models (Falcon-7B-Instruct, DistilBART-CNN-12-6, BART-Large-XSum) for news, and GPT (text-davinci-003) for stock summaries. Falcon-7B with Summarize Chains gave the best results, covering all news events accurately and coherently. RAG, while promising in theory, caused severe repetition in Falcon and hallucinated facts in BART-Large when k was large. Both LLM-based approaches outperformed a simple Lead-3 baseline on ROUGE-1. We also built a Streamlit dashboard for interactive stock visualization. The work was done in Fall 2023, before RAG-based financial tools became widespread, and the failure modes we document, particularly hallucination under RAG in smaller models, remain relevant today.",
@@ -211,7 +211,7 @@
       "2026-08-31": 1707
     },
     "BerriAI/litellm": {
-      "2026-08-31": 57656
+      "2026-08-31": 57657
     },
     "CHENG-LIANG1/real-company-interview-ai-coding-projects": {
       "2026-08-31": 277
@@ -220,7 +220,7 @@
       "2026-08-31": 8
     },
     "CodeGraphContext/CodeGraphContext": {
-      "2026-08-31": 4140
+      "2026-08-31": 4141
     },
     "DRose-Devs/zonk": {
       "2026-08-31": 3
@@ -241,7 +241,7 @@
       "2026-08-31": 223
     },
     "FarzamHabibi/pre-production-checklist": {
-      "2026-08-31": 9
+      "2026-08-31": 10
     },
     "Ferousco-dev/ilana": {
       "2026-08-31": 7
@@ -253,7 +253,7 @@
       "2026-08-31": 2773
     },
     "Fission-AI/OpenSpec": {
-      "2026-08-31": 66767
+      "2026-08-31": 66772
     },
     "GamePhanesStudio/GamePhanes": {
       "2026-08-31": 540
@@ -277,7 +277,7 @@
       "2026-08-31": 31
     },
     "HiThink-Tech/Financial-API": {
-      "2026-08-31": 2047
+      "2026-08-31": 2049
     },
     "High-Performance-AI-Lab/kvpack": {
       "2026-08-31": 5
@@ -381,6 +381,9 @@
     "SemiAnalysisAI/InferenceX": {
       "2026-08-31": 1592
     },
+    "Senseishibewitch/Atas-Trading": {
+      "2026-08-31": 26
+    },
     "Spielewoy/autoprompt-skill": {
       "2026-08-31": 941
     },
@@ -406,7 +409,7 @@
       "2026-08-31": 44
     },
     "VoltAgent/voltagent": {
-      "2026-08-31": 10481
+      "2026-08-31": 10485
     },
     "Yevanchen/reclaim-code-entropy": {
       "2026-08-31": 184
@@ -418,7 +421,7 @@
       "2026-08-31": 91023
     },
     "affaan-m/ECC": {
-      "2026-08-31": 244890
+      "2026-08-31": 244894
     },
     "agent-of-empires/agent-of-empires": {
       "2026-08-31": 3165
@@ -433,7 +436,7 @@
       "2026-08-31": 8
     },
     "ai-dynamo/dynamo": {
-      "2026-08-31": 7926
+      "2026-08-31": 7928
     },
     "ajtgjmdjp/awesome-japan-finance-data": {
       "2026-08-31": 20
@@ -490,10 +493,10 @@
       "2026-08-31": 236
     },
     "anomalyco/opencode": {
-      "2026-08-31": 202692
+      "2026-08-31": 202695
     },
     "anthropics/claude-code": {
-      "2026-08-31": 143521
+      "2026-08-31": 143524
     },
     "apache/hertzbeat": {
       "2026-08-31": 7380
@@ -532,7 +535,7 @@
       "2026-08-31": 5958
     },
     "calesthio/OpenMontage": {
-      "2026-08-31": 54806
+      "2026-08-31": 54813
     },
     "cbrock84/headcount": {
       "2026-08-31": 762
@@ -541,7 +544,7 @@
       "2026-08-31": 43812
     },
     "chenhg5/cc-connect": {
-      "2026-08-31": 15286
+      "2026-08-31": 15288
     },
     "chrisleekr/binance-trading-bot": {
       "2026-08-31": 5548
@@ -580,7 +583,7 @@
       "2026-08-31": 11918
     },
     "datawhalechina/easy-vibe": {
-      "2026-08-31": 19193
+      "2026-08-31": 19194
     },
     "dearvn/trading-futures-tradingview-script": {
       "2026-08-31": 249
@@ -601,7 +604,7 @@
       "2026-08-31": 1792
     },
     "earendil-works/pi": {
-      "2026-08-31": 99731
+      "2026-08-31": 99741
     },
     "edison7009/EchoBird": {
       "2026-08-31": 3149
@@ -625,7 +628,7 @@
       "2026-08-31": 1238
     },
     "farion1231/cc-switch": {
-      "2026-08-31": 130317
+      "2026-08-31": 130322
     },
     "fasiondog/hikyuu": {
       "2026-08-31": 3475
@@ -664,13 +667,13 @@
       "2026-08-31": 9
     },
     "heygen-com/hyperframes": {
-      "2026-08-31": 43266
+      "2026-08-31": 43274
     },
     "himself65/finance-skills": {
       "2026-08-31": 3263
     },
     "hkqr/my-free-code": {
-      "2026-08-31": 442
+      "2026-08-31": 445
     },
     "hosseinmoein/DataFrame": {
       "2026-08-31": 2981
@@ -691,7 +694,7 @@
       "2026-08-31": 16
     },
     "jamro/tiny-engineer": {
-      "2026-08-31": 122
+      "2026-08-31": 123
     },
     "jasonjfoster/screen": {
       "2026-08-31": 20
@@ -730,7 +733,7 @@
       "2026-08-31": 5844
     },
     "kunkundi/niuone": {
-      "2026-08-31": 284
+      "2026-08-31": 286
     },
     "kvcache-ai/Mooncake": {
       "2026-08-31": 6445
@@ -745,7 +748,7 @@
       "2026-08-31": 12982
     },
     "langfuse/langfuse": {
-      "2026-08-31": 33968
+      "2026-08-31": 33969
     },
     "laurentshowtime/awesome-ai-developer-arsenal": {
       "2026-08-31": 9
@@ -796,7 +799,7 @@
       "2026-08-31": 20093
     },
     "mukul975/Anthropic-Cybersecurity-Skills": {
-      "2026-08-31": 31762
+      "2026-08-31": 31763
     },
     "nakuljoshidev-coder/Q-Alpha": {
       "2026-08-31": 2
@@ -805,22 +808,22 @@
       "2026-08-31": 12912
     },
     "nexu-io/open-design": {
-      "2026-08-31": 92940
+      "2026-08-31": 92943
     },
     "notnotype/neuro-book": {
       "2026-08-31": 593
     },
     "obra/superpowers": {
-      "2026-08-31": 279841
+      "2026-08-31": 279846
     },
     "okx/agent-trade-kit": {
       "2026-08-31": 416
     },
     "openai/codex": {
-      "2026-08-31": 120302
+      "2026-08-31": 120311
     },
     "openai/openai-agents-python": {
-      "2026-08-31": 29089
+      "2026-08-31": 29090
     },
     "openlake-project/openlake": {
       "2026-08-31": 2347
@@ -904,7 +907,7 @@
       "2026-08-31": 2
     },
     "shy3130/tick-stock-panel": {
-      "2026-08-31": 4008
+      "2026-08-31": 4009
     },
     "simonlin1212/a-stock-data": {
       "2026-08-31": 9390
@@ -940,7 +943,7 @@
       "2026-08-31": 5591
     },
     "thedotmack/claude-mem": {
-      "2026-08-31": 92701
+      "2026-08-31": 92703
     },
     "thesagarmahapatra/VectorFFN": {
       "2026-08-31": 5
@@ -976,7 +979,7 @@
       "2026-08-31": 921
     },
     "vllm-project/vllm": {
-      "2026-08-31": 90568
+      "2026-08-31": 90569
     },
     "vllm-project/vllm-omni": {
       "2026-08-31": 6501
@@ -1015,7 +1018,7 @@
       "2026-08-31": 9533
     },
     "xzf-thu/VoiceMem": {
-      "2026-08-31": 401
+      "2026-08-31": 404
     },
     "yanght27/GPU-Perf-Playground": {
       "2026-08-31": 104
@@ -1027,10 +1030,10 @@
       "2026-08-31": 197
     },
     "yetone/cumora": {
-      "2026-08-31": 3335
+      "2026-08-31": 3336
     },
     "zai-org/GLM-5": {
-      "2026-08-31": 7113
+      "2026-08-31": 7114
     },
     "zeroFhacker/vibeguard": {
       "2026-08-31": 7
@@ -1043,6 +1046,34 @@
     }
   },
   "repositories": {
+    "0xohioism/polymarket-crypto-5m-15min-trading-bot": {
+      "created_at": "2026-08-21",
+      "description": "Polymarket Crypto 5, 15 Min Taker Trading Bot, polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot Polymarket 交易机器人 polymarket robot polymarket bot polymarket bot",
+      "discovery": "new",
+      "forks": 0,
+      "full_name": "0xohioism/polymarket-crypto-5m-15min-trading-bot",
+      "id": 1341833622,
+      "language": null,
+      "license": null,
+      "pushed_at": "2026-08-27",
+      "score": 12.45,
+      "star_growth_7d": null,
+      "stars": 106,
+      "topics": [
+        "15min",
+        "5mi",
+        "bot",
+        "btc",
+        "crypto",
+        "dashboard",
+        "eth",
+        "polymarket",
+        "signal",
+        "sol",
+        "trading"
+      ],
+      "url": "https://github.com/0xohioism/polymarket-crypto-5m-15min-trading-bot"
+    },
     "0xramm/Indian-Stock-Market-API": {
       "created_at": "2025-10-18",
       "description": "Free REST API for NSE and BSE Indian stock market data. Real-time stock prices, company info, and market data via Yahoo Finance. Perfect for n8n, Zapier, trading bots, and automation. No API key required. Python Flask. MIT License.",
@@ -1077,6 +1108,33 @@
       ],
       "url": "https://github.com/0xramm/Indian-Stock-Market-API"
     },
+    "555cute/r20-quantum-trader": {
+      "created_at": "2026-08-30",
+      "description": "⚡ LLM-Native Self-Evolving Quantitative Trading Terminal & Execution Engine (Bloomberg-Style Dark Terminal + 6-Asset AI Brain)",
+      "discovery": "new",
+      "forks": 10,
+      "full_name": "555cute/r20-quantum-trader",
+      "id": 1351469027,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-08-31",
+      "score": 10.97,
+      "star_growth_7d": null,
+      "stars": 30,
+      "topics": [
+        "bloomberg-terminal",
+        "crypto-trading",
+        "deep-reasoning",
+        "fastapi",
+        "llm-agent",
+        "okx-trading-bot",
+        "quantitative-trading",
+        "qwenpaw",
+        "self-evolution",
+        "smart-money"
+      ],
+      "url": "https://github.com/555cute/r20-quantum-trader"
+    },
     "Agentic-Analyst/stock-analyst": {
       "created_at": "2025-07-28",
       "description": "VYNN AI Agent Backend is a standalone agent execution system for financial analysis. It orchestrates LLM-based agents to scrape historical financial data, build valuation models, analyze real-time financial news, and generate structured financial reports, with a focus on modularity and reproducible execution.",
@@ -1100,6 +1158,43 @@
         "tool-use"
       ],
       "url": "https://github.com/Agentic-Analyst/stock-analyst"
+    },
+    "Ali-Marandi/finsight-pro": {
+      "created_at": "2026-07-31",
+      "description": "AI-Powered Financial Analysis Desktop App — 7 Engines, 17+ Ratios, Bankruptcy Prediction, TSETMC Live, 100% Offline",
+      "discovery": "active",
+      "forks": 0,
+      "full_name": "Ali-Marandi/finsight-pro",
+      "id": 1317874183,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-08-26",
+      "score": 12.33,
+      "star_growth_7d": null,
+      "stars": 109,
+      "topics": [
+        "accounting",
+        "ai-copilot",
+        "bankruptcy-prediction",
+        "compliance",
+        "desktop-app",
+        "electron",
+        "fastapi",
+        "financial-analysis",
+        "financial-ratios",
+        "ifrs",
+        "iran",
+        "ocr",
+        "offline",
+        "persian",
+        "privacy",
+        "python",
+        "react",
+        "stock-market",
+        "tsetmc",
+        "typescript"
+      ],
+      "url": "https://github.com/Ali-Marandi/finsight-pro"
     },
     "Barca0412/Introduction-to-Quantitative-Finance": {
       "created_at": "2023-08-04",
@@ -2033,6 +2128,72 @@
       ],
       "url": "https://github.com/coding-kitties/investing-algorithm-framework"
     },
+    "creamylookout/TradingView-Premium-2026": {
+      "created_at": "2026-08-28",
+      "description": "TradingView Premium Desktop workspace reference for traders using advanced Supercharts, multi-chart layouts, alerts, screeners, Pine strategies, Deep Backtesting, watchlists, chart export, and reusable analysis workflows.",
+      "discovery": "new",
+      "forks": 7,
+      "full_name": "creamylookout/TradingView-Premium-2026",
+      "id": 1349054904,
+      "language": "C#",
+      "license": "MIT",
+      "pushed_at": "2026-08-31",
+      "score": 10.79,
+      "star_growth_7d": null,
+      "stars": 27,
+      "topics": [
+        "crypto-analysis",
+        "forex-analysis",
+        "market-tools",
+        "pine-script",
+        "stock-analysis",
+        "strategy-tester",
+        "trading-workspace",
+        "tradingview",
+        "tradingview-advanced-charts",
+        "tradingview-alerts",
+        "tradingview-backtesting",
+        "tradingview-bar-replay",
+        "tradingview-chart-export",
+        "tradingview-multi-chart",
+        "tradingview-premium",
+        "tradingview-price-alerts",
+        "tradingview-screener",
+        "tradingview-strategy",
+        "tradingview-technical-alerts",
+        "tradingview-watchlist"
+      ],
+      "url": "https://github.com/creamylookout/TradingView-Premium-2026"
+    },
+    "csmar432/finai-research": {
+      "created_at": "2026-06-15",
+      "description": "Evidence-first AI workflow for economic and financial research: literature → identification → data → econometrics → verifiable LaTeX. 43 data sources, 58 method modules, 18 AI skills, 30 journal templates.",
+      "discovery": "active",
+      "forks": 2,
+      "full_name": "csmar432/finai-research",
+      "id": 1270094853,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-08-31",
+      "score": 13.2,
+      "star_growth_7d": null,
+      "stars": 111,
+      "topics": [
+        "academic-research",
+        "causal-inference",
+        "did",
+        "difference-in-differences",
+        "econometrics",
+        "empirical-research",
+        "finance",
+        "latex",
+        "open-science",
+        "panel-data",
+        "python",
+        "research-workflow"
+      ],
+      "url": "https://github.com/csmar432/finai-research"
+    },
     "daniel3303/Equibles": {
       "created_at": "2026-03-24",
       "description": "Self-hosted, open-source financial data MCP server for AI agents — SEC filings, XBRL financials, 13F holdings, insider & congressional trades, short interest, FRED, CFTC/CBOE and daily prices across 64 MCP tools. Equibles Cloud adds earnings call transcripts, live quotes, options chains with Greeks, guidance and a screener.",
@@ -2095,6 +2256,32 @@
         "us-stock-market"
       ],
       "url": "https://github.com/dearvn/trading-futures-tradingview-script"
+    },
+    "dewydev10/digital-showcase": {
+      "created_at": "2026-08-25",
+      "description": "Modern Developer Portfolio Template 2026: Responsive, SEO-Optimized",
+      "discovery": "new",
+      "forks": 0,
+      "full_name": "dewydev10/digital-showcase",
+      "id": 1345973209,
+      "language": "HTML",
+      "license": null,
+      "pushed_at": "2026-08-25",
+      "score": 11.16,
+      "star_growth_7d": null,
+      "stars": 55,
+      "topics": [
+        "designer",
+        "developer",
+        "nextjs",
+        "portfolio",
+        "portfolio-website",
+        "project",
+        "tailwindcss",
+        "trainer",
+        "web"
+      ],
+      "url": "https://github.com/dewydev10/digital-showcase"
     },
     "edtechre/pybroker": {
       "created_at": "2023-01-16",
@@ -2804,6 +2991,2195 @@
       "url": "https://github.com/yennanliu/InvestSkill"
     }
   },
-  "topic_papers": {},
-  "topic_repositories": {}
+  "topic_papers": {
+    "ai_infra": {
+      "2608.23843": {
+        "abstract": "Long-context inference in large language models (LLMs) is increasingly limited by the memory required for the key-value (KV) cache. KV cache compression addresses this problem by reducing the storage cost of previous tokens. Among existing approaches, low-rank compression is particularly attractive because it represents every token in reduced dimensions. Previous low-rank methods typically derive fixed projection spaces from model weights, construct fixed spaces from calibration activations, or construct a shared basis over a broad cache region. Such representations may not capture detailed but important information. We partition each per-head KV cache into fixed-length logical pages and observe substantial low-rank structure within individual pages. Based on this observation, we propose PuzzleKV, a training- and calibration-free method that treats each completed page as an independent compression unit. PuzzleKV decomposes pages within each layer and KV head, computes attention directly over dense and factorized pages, and incrementally compresses newly eligible pages during autoregressive decoding. Experiments across models, context lengths, and benchmarks demonstrate the effectiveness of PuzzleKV under matched storage budgets. At approximately 60% of the original KV cache storage, PuzzleKV achieves more than 96% of Full KV performance across both evaluated models and all benchmark settings, with substantial gains over Global SVD on RULER and competitive performance on LongBench. To achieve a more aggressive compression ratio, PuzzleKV can be further combined with quantization while retaining more than 93% of Full KV performance using only 18.7% of the original storage.",
+        "authors": [
+          "Zizhong Wang",
+          "Jieying Wang",
+          "Zhao Zhang",
+          "Jiajia Li"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.23843",
+        "paper_url": "https://arxiv.org/abs/2608.23843",
+        "pdf_url": "https://arxiv.org/pdf/2608.23843",
+        "published": "2026-08-24",
+        "title": "PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression",
+        "updated": "2026-08-24"
+      },
+      "2608.23962": {
+        "abstract": "When an LLM serving deployment runs out of KVcache room, there are two well-established ways out. Tensor parallelism shards the weights and the KV cache across two, four, or eight devices, buying memory headroom at the price of an all-reduce on every layer and a hardware bill that grows with the device count. The algorithms community shrinks the cache in place, with KV quantisation and eviction keeping a single GPU and spending a little quality instead. Compression papers report memory ratios, parallel-scaling papers report throughput curves, and almost nobody puts the two on the same cost axis. We place tensor-parallel configurations (degree 1 to 8) and KV-compressed configurations (16/8/4-bit, keep-ratios down to 0.25) on one costnormalised axis, cost per million tokens against latency, using a profiled simulator calibrated on A100, A40, and H100 hardware, and we go looking for the cost-equivalence crossover. We do not find one. Across two models (Llama-2 at 7B and 70B), three GPU types, and every level of memory relief we could construct, compression is cheaper by 1.20x to 2.00x. A 7B model on an 80 GB device cannot exhaust its KV budget within its own context window, and the boundary that decides between the strategies is model size relative to device memory, at roughly 36B parameters for an 80 GB card. Below that wall, compression dominates and extra GPUs are largely wasted spend; above it, tensor parallelism stops being a choice and becomes an entry ticket: Llama-2-70B is infeasible on one A100 at any KV setting, because the binding resource is weights, which KV compression does not touch. Tensor parallelism is the only lever that improves latency (compression makes per-token latency worse, by 8 to 93%, through batching contention), while compression is the only lever that multiplies capacity per dollar (16.5x, against 1.21x for an eightfold spend on GPUs).",
+        "authors": [
+          "Srikanta Datta Tumkur",
+          "Mehar Simhadri",
+          "Anshu Bansal",
+          "Jay Iyer",
+          "Sai Pavan Kumar",
+          "Sai Kapil Kumar",
+          "Ramesh Nampelly",
+          "Raj Dandekar"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.23962",
+        "paper_url": "https://arxiv.org/abs/2608.23962",
+        "pdf_url": "https://arxiv.org/pdf/2608.23962",
+        "published": "2026-08-25",
+        "title": "More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving",
+        "updated": "2026-08-25"
+      },
+      "2608.24004": {
+        "abstract": "Large language model (LLM)-based agent applications often incur high response time. Speculative decoding is a promising solution to improve the inference efficiency of LLM agents without impacting generation quality. However, state-of-the-art speculative decoding algorithms exhibit substantial speed degradation under large batch sizes, limiting their effectiveness to deploy in real-world agent applications. In this work, we first present a systematic analysis of speculative decoding for LLM agents and identify two dominant factors of speedup degradation: high rejection rate of speculative tokens, and under-utilization of dynamic token budgets.B ased on these observations, we propose AgentSpec, a speculative decoding algorithm that addresses the limitations of existing methods for LLM agents. AgentSpec incorporates structure-isolated drafting that constrains speculation to semantically coherent segments of the agent workflow, reducing the drafts of irrelevant semantic paths and achieving an extremely low rejection rate. Moreover, AgentSpec adopts redundancy-aware budget allocation that exploits agent-level information to better utilize the dynamically-free token budget during the agent inference. We implement and evaluate AgentSpec on five different workloads and four different models from four different LLM families in vLLM. Our results demonstrate the superiority of AgentSpec over state-of-the-arts.",
+        "authors": [
+          "Xin Wang",
+          "Ziming Miao",
+          "Yi Zhu",
+          "Hui Shen",
+          "Zhongwei Wan",
+          "Fan Yang",
+          "Mi Zhang"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.24004",
+        "paper_url": "https://arxiv.org/abs/2608.24004",
+        "pdf_url": "https://arxiv.org/pdf/2608.24004",
+        "published": "2026-08-25",
+        "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
+        "updated": "2026-08-25"
+      },
+      "2608.24063": {
+        "abstract": "While Vision Large Language Models (VLLMs) have achieved remarkable success in multimodal reasoning, their long-context inference remains prohibitively expensive due to the massive computation and memory overhead of visual Key-Value (KV) caches. Existing KV compression methods often apply uniform pruning across visual tokens and layers, leading to substantial information loss and degraded performance.To address this challenge, we propose \\textbf{VisCache}, a plug-and-play framework for coarse-to-fine \\textbf{Vis}ual KV \\textbf{Cache} pruning without training, which consists of two synergistic stages. First, a lightweight VLM filters temporal redundancy by selectively forwarding semantically informative keyframes. Second, we introduce {PruneKV}, a surgical KV compression algorithm tailored to the attention dynamics of VLLMs. Unlike rigid pruning strategies, PruneKV adopts a parabolic layer-wise budget allocation together with an asymmetric update mechanism that selectively prunes keys while fusing values, thereby preserving critical contextual information. Extensive experiments demonstrate that VisCache substantially improves inference efficiency, achieving up to {2.35$\\times$ speedup} and significant memory reduction while maintaining competitive performance with only {19--28\\%} KV cache retention. VisCache consistently outperforms existing baselines, establishing a new Pareto frontier between efficiency and performance for long-context VLLM inference. Code is available at https://github.com/Wlklk/VisCache",
+        "authors": [
+          "Lyuke Wang",
+          "Zhuo Li",
+          "Guangxu Zhu"
+        ],
+        "categories": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/Wlklk/VisCache",
+        "comment": "",
+        "id": "2608.24063",
+        "paper_url": "https://arxiv.org/abs/2608.24063",
+        "pdf_url": "https://arxiv.org/pdf/2608.24063",
+        "published": "2026-08-25",
+        "title": "VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference",
+        "updated": "2026-08-25"
+      },
+      "2608.24650": {
+        "abstract": "System-level simulation is an essential tool for exploring the rapidly expanding design space of LLM serving systems, where real deployments remain costly and often infeasible. However, modern LLM serving now evolves faster than human-driven simulator development can track, and emerging workloads and mechanisms, from agentic workflows to disaggregated serving, no longer fit the monolithic simulation pipeline that existing simulators assume. Each new mechanism therefore demands an invasive rewrite, leaving a widening development gap between deployed serving systems and the simulators that model them. To close this gap, we present Simthesizer, a framework that realizes agent-driven simulator development. Simthesizer introduces a composable simulator infrastructure that uniformly expresses the complete serving workflow, including the control decisions that coordinate it, and realizes it as a unified dynamic graph in Simthesizer simulator. Synthesizer agent, a harnessed coding agent, then lowers natural-language feature requests onto this abstraction under simulator-specific guardrails and fidelity validation, evolving one shared simulator instead of building a new one for every feature. Under the same coding agent and harnesses, extensions built on Simthesizer follow a vLLM-based real system with 2.51% average throughput error, versus 6.03% for extensions built on existing simulators. On identical workloads, Simthesizer also simulates up to 284.96x and 23.19x faster than two state-of-the-art simulators, LLMServingSim2.0 and Vidur, respectively.",
+        "authors": [
+          "Wonung Kim",
+          "Hyunmin Choi",
+          "Minsu Kim",
+          "Jaehong Cho",
+          "Yeongwook Kim",
+          "Jongse Park"
+        ],
+        "categories": [
+          "cs.AR",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.24650",
+        "paper_url": "https://arxiv.org/abs/2608.24650",
+        "pdf_url": "https://arxiv.org/pdf/2608.24650",
+        "published": "2026-08-25",
+        "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
+        "updated": "2026-08-26"
+      },
+      "2608.25053": {
+        "abstract": "Edge LLM deployment is shaped by more than model size and precision: inference backend, hardware platform, memory traffic, and power management all affect latency and efficiency. We present Hydra, a common-schema, phase-aware workload characterization framework for LLM inference on edge SoCs. Hydra instruments HuggingFace Transformers and llama.cpp with a shared per-prompt timing schema and fuses those records with hardware telemetry, enabling a multi-dimensional characterization of performance, system-resource utilization, and efficiency across prefill and decode phases. Using Hydra, we evaluate three consecutive edge System-on-Chip (SoC) generations (AGX Xavier, AGX Orin, and AGX Thor), 13 instruction-tuned LLMs from seven families, five execution formats, and consider input/output-length sensitivity. The resulting artifact contains roughly 107K per-prompt records and is publicly released with Hydra. Our analysis shows that aggregate latency alone hides key deployment effects: backend structure changes where latency is introduced, quantization reduces memory traffic and energy but does not predict power monotonically, and SoC generation changes how utilization and efficiency should be interpreted. By connecting phase-level timing with system-resource utilization and efficiency metrics, Hydra enables reproducible, phase-aware characterization of edge LLM inference. Hydra's source code and the collected per-prompt trace corpus are available open-source at: https://github.com/amirtaherin/hydra",
+        "authors": [
+          "Amir Taherin",
+          "Sana Taghipour Anvari",
+          "Charles Amante",
+          "Yixiao Chen",
+          "Ruben Noroian",
+          "Zlatan Feric",
+          "Nicolas Bohm Agostini",
+          "Pu Zhao",
+          "José Cano",
+          "Bin Ren",
+          "Yanzhi Wang",
+          "David Kaeli"
+        ],
+        "categories": [
+          "cs.AR",
+          "cs.AI",
+          "cs.DC",
+          "cs.PF"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/amirtaherin/hydra",
+        "comment": "",
+        "id": "2608.25053",
+        "paper_url": "https://arxiv.org/abs/2608.25053",
+        "pdf_url": "https://arxiv.org/pdf/2608.25053",
+        "published": "2026-08-25",
+        "title": "Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels",
+        "updated": "2026-08-25"
+      },
+      "2608.25085": {
+        "abstract": "Clinical diagnosis is fundamentally interactive and incremental, yet the dominant paradigm for evaluating Large Language Models (LLMs) in medicine remains static QA benchmarks or template-based dialogues. These benchmarks say little about whether a model can serve as a diagnostic agent in a dynamic clinical encounter, with LLMs showing significant accuracy and reliability degradation in multi-turn settings. To address this issue, we present MTDiag, a large multi-turn diagnostic dialogue dataset constructed from three heterogeneous sources: DDXPlus, MIMIC-IV, and published case reports (AJCR), covering common ED presentations as well as long-tail rare and atypical conditions. All cases are normalized into a canonical schema anchored in the most comprehensive and widely-adopted medical knowledge bases (UMLS concept identifiers, with ICD-10 diagnosis codes). We release the schema, a UserLM-8B-based utterance-generation pipeline, and the physician-validated dataset that converts structured clinical evidence into natural-language utterances. Importantly, we introduce and motivate clinical knowledge-grounded metrics for evaluating LLMs as diagnostic agents, beyond diagnostic accuracy, for the task of multi-turn differential diagnosis.",
+        "authors": [
+          "Pia Chouayfati",
+          "Alexander M. Fichtl",
+          "Miriam Anschütz",
+          "George Doumat",
+          "Georg Groh"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.25085",
+        "paper_url": "https://arxiv.org/abs/2608.25085",
+        "pdf_url": "https://arxiv.org/pdf/2608.25085",
+        "published": "2026-08-25",
+        "title": "MTDiag: A Multi-Turn Diagnostic Dataset Towards Clinically Meaningful LLM Evaluation",
+        "updated": "2026-08-25"
+      },
+      "2608.25431": {
+        "abstract": "LLM serving frameworks process large volumes of user data--often containing sensitive information--on shared infrastructure. Ensuring isolation between users who share the same serving framework (on CPUs) and LLM operators (on GPUs) is critical for privacy protection. This paper presents GIFT, a GPU Information Flow Tracking system that enforces user data isolation in LLM serving with minimal overhead. Moreover, the design of GIFT is non-intrusive and allows CPU-side serving frameworks to evolve freely. It rests on two key insights. First, encryption-as-isolation leverages the observation that CPU components only orchestrate data flow, not content manipulation; thus, per-user encryption can provide isolation without modifying serving logic. Second, GPU kernels exhibit limited and predictable information flows, enabling static flow analysis. GIFT precomputes information flow rules for each kernel and uses decoupled flow tracking, avoiding instrumentation or GPU stalls. Furthermore, we extend GIFT to GIFT-CC, which integrates confidential computing to protect against untrusted operating systems and hypervisors (LLM service providers). Implemented on vLLM and DistServe, GIFT and GIFT-CC enforce user data isolation with a 4-10.7% throughput overhead while maintaining the same latency level.",
+        "authors": [
+          "Jiacheng Shi",
+          "Xunjie Wang",
+          "Cheng Tan",
+          "Jinyu Gu"
+        ],
+        "categories": [
+          "cs.CR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.25431",
+        "paper_url": "https://arxiv.org/abs/2608.25431",
+        "pdf_url": "https://arxiv.org/pdf/2608.25431",
+        "published": "2026-08-26",
+        "title": "Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking",
+        "updated": "2026-08-26"
+      },
+      "2608.25523": {
+        "abstract": "Prefix caching introduces a fundamental tradeoff in multi-agent large language model (LLM) serving: retaining a long system-prompt key-value (KV) cache for an agent accelerates future calls, yet it reduces the GPU memory available for batching concurrent requests. In multi-stage workflows, existing schedulers tend to prioritize either immediate prefix locality or overall workflow progress. However, under a shared KV cache budget, optimizing either objective in isolation can prolong tasklevel job completion time (JCT) through downstream delays or frequent prefix replacement. To strike a balance, we here propose TOPAS, a Task-Oriented Prefix-Aware Scheduler that jointly decides which agent prefixes to keep in the cache and which requests to schedule for execution. TOPAS scores candidate post-decision states by trading off the expected reduction in each task's longest remaining service path against the near-term benefit of downstream prefix reuse, accounting for the costs of prefix movement and preemption. A task-level aging mechanism is also incorporated to prevent starvation. We implement TOPAS within the SGLang framework and assess its performance on three synthetic DAGs and two MetaGPT software-development workflows. Compared with the best performing baseline for each workload and metric, TOPAS reduces the mean/p99 JCT by up to 39.8%/49.4% on the synthetic workloads, while lowering mean JCT by 9.8% on MetaGPT-SOP and mean/p99 JCT by 22.0%/26.6% on MetaGPT-TL.",
+        "authors": [
+          "Hongqiu Ni",
+          "Han Tian",
+          "Chi Zhang",
+          "Guopeng Li",
+          "Haisheng Tan"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.25523",
+        "paper_url": "https://arxiv.org/abs/2608.25523",
+        "pdf_url": "https://arxiv.org/pdf/2608.25523",
+        "published": "2026-08-26",
+        "title": "TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving",
+        "updated": "2026-08-26"
+      },
+      "2608.26004": {
+        "abstract": "Agentic LLM pipelines face escalating inference costs as context accumulates across retrieval, tool use, and multi-turn interactions. To control latency, deployments routinely compress inputs, but this degrades task accuracy. Speculative decoding (SD) accelerates generation losslessly, yet it assumes the drafter and verifier share an identical context, preventing SD from resolving the accuracy-overhead trade-off. We propose AsymSpec, an asymmetric speculative decoding framework that breaks this symmetry: a lightweight drafter reads the full input while the large verifier operates on the compressed view. The drafter steers the verifier via a contrastive $δ$-fusion of logits, modulated by a divergence-aware acceptance gate that preserves verification stability and high draft acceptance rates. Evaluated across four agentic capabilities and two end-to-end agent benchmarks, AsymSpec reaches $\\approx 90\\%$ of full-context accuracy on average, delivering $1.3$--$1.7\\times$ throughput speedups at $0.2$--$0.3\\times$ the compute cost on isolated text capabilities. These results show that asymmetric context access yields substantial gains precisely when compression discards critical reasoning signals.",
+        "authors": [
+          "Sheng Liang",
+          "Yongyue Zhang",
+          "Nathanael Brian",
+          "Hang Lv",
+          "Hao Wang",
+          "Chen Zhang",
+          "Yong Liu"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/USTC-StarTeam/AsymSpec",
+        "comment": "",
+        "id": "2608.26004",
+        "paper_url": "https://arxiv.org/abs/2608.26004",
+        "pdf_url": "https://arxiv.org/pdf/2608.26004",
+        "published": "2026-08-26",
+        "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+        "updated": "2026-08-26"
+      },
+      "2608.26523": {
+        "abstract": "Chunked prefill pipeline parallelism (CPP) is a key technique for LLM inference. However, equal-size chunks exhibit imbalanced latency, as later chunks attend longer prefix KV caches and incur higher attention costs, leading to pipeline bubbles. Existing approaches mitigate this imbalance through dynamic chunk resizing (Dynamic CPP, DCPP), but our measurements show that this trades scheduling overhead for load balancing, which becomes unfavorable on long sequences. In this study, we propose Virtual Pipeline Parallelism (VPP), which keeps chunk sizes fixed and optimizes the pipeline layout through virtual stages. A V-shaped virtual-stage traversal overlaps each chunk's expensive middle stages with the lighter head and tail stages of its neighbors, while asynchronous communication and pipelined packing further reduce communication stalls and cross-request drain bubbles. We implement VPP in vLLM-Ascend and evaluate it on three MoE-based LLMs with sequences up to 1M tokens on 16 Ascend 910C NPUs. VPP improves throughput by up to 13.1% over DCPP on long sequences and 6.7% on mixed workloads, while preserving performance on short sequences. On a 512K-token DeepSeek-V3.1 prefill workload, VPP reduces the pipeline bubble ratio from 6.4% to 0.1%, achieving a 98.0% reduction compared with DCPP.",
+        "authors": [
+          "Yan Shi",
+          "Xiaochao Wang",
+          "Jingchun Gao",
+          "Jintao Luo",
+          "Xinyi Zhou",
+          "Feng Liu",
+          "Kui Luo",
+          "Xushi Li",
+          "Xinjie Guo",
+          "Liangjun Feng"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.26523",
+        "paper_url": "https://arxiv.org/abs/2608.26523",
+        "pdf_url": "https://arxiv.org/pdf/2608.26523",
+        "published": "2026-08-27",
+        "title": "VPP: Virtual Pipeline Parallelism for Efficient Chunked Prefill in Long-Context LLM Inference",
+        "updated": "2026-08-27"
+      },
+      "2608.26612": {
+        "abstract": "Mixture-of-Experts (MoE) models route each token to a few of many expert networks, and that routing is data-dependent in a way standard inference optimizations do not expect. This paper measures what three of them actually deliver on OLMoE-1B-7B, DeepSeek-V2-Lite, and Qwen3-30B-A3B. Fused Triton kernels reach 5.6x to 9.0x in isolation but 0.999x end to end against a measured 1.07x ceiling, because the model spends its time waiting on roughly a thousand kernel launches per forward pass rather than on the arithmetic those kernels improve. INT4 quantization changes on average 0.53 of the eight selected experts per token position, yet replaying exactly those changed routes through full-precision weights reproduces only 2.7% of the quality loss, which makes the experts substitutable rather than specialized. Removing all 23 graph breaks from PyTorch's compiler, the step prior work treats as the structural fix, makes the model three times slower. A fourth result ties the three together: leaving the routers in FP16 lowers drift by 20% while raising loss, so routing fidelity and output quality are separable objectives. Every number recomputes from committed per-token route dumps.",
+        "authors": [
+          "Gokulakannan Sakthivel",
+          "Jerry Wu",
+          "Amogh Rajendra",
+          "Giriprasad Radhakrishnan"
+        ],
+        "categories": [
+          "cs.PF"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.26612",
+        "paper_url": "https://arxiv.org/abs/2608.26612",
+        "pdf_url": "https://arxiv.org/pdf/2608.26612",
+        "published": "2026-08-27",
+        "title": "Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models",
+        "updated": "2026-08-28"
+      },
+      "2608.27128": {
+        "abstract": "Long-context inference is bottlenecked by the memory footprint of the key-value (KV) cache, especially for small models under tight resource budgets. Existing KV cache eviction methods score tokens using the model's attention distribution or, in attention-free variants, each key's distance from a global reference point. Using a controlled leave-one-out probe, we find that attention magnitude is unrelated to a token's causal contribution to the answer (Spearman $ρ=-0.004$), challenging the premise behind dominant eviction methods. We introduce TwinKV, a training-free, attention-free redundancy signal that detects whether a token's key has a near-duplicate elsewhere in context. Rather than replacing existing policies, TwinKV acts as a composable repair pass: given a policy's fixed retained set, it identifies evicted tokens with no surviving duplicate (\\emph{orphans}) and retained tokens whose information is duplicated elsewhere (\\emph{redundant donors}), then swaps them while preserving the original budget and scoring rule. We compose TwinKV with four recent eviction policies across LongBench, LooGLE, RULER, and a short-context MMLU-Pro no-harm control at compression ratios ${0.3,0.5,0.7}$. On Qwen3-4B, TwinKV improves a majority of configurations for two policies, is near-even for a third, and helps only a minority for a fourth adaptive baseline already near a performance ceiling; gains across the three non-ceiling policies are smallest at the loosest ratio. On RULER with Llama-3.2-1B, however, that fourth policy improves in every evaluated cell because its Alone score leaves substantial room to improve. More broadly, Llama-3.2-1B shows a smaller average LongBench gain but a higher fraction of improved cells on LongBench and LooGLE than Qwen3-4B, plus a clean RULER win. We also identify few-shot classification exemplars as a task structure where TwinKV does not help on either model.",
+        "authors": [
+          "Hong Chen",
+          "Yudong Zeng",
+          "Yongwei Huang",
+          "Zuhao Ouyang",
+          "Junyan Zhang",
+          "Xuming Hu"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.27128",
+        "paper_url": "https://arxiv.org/abs/2608.27128",
+        "pdf_url": "https://arxiv.org/pdf/2608.27128",
+        "published": "2026-08-27",
+        "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
+        "updated": "2026-08-27"
+      },
+      "2608.28099": {
+        "abstract": "Real-time classification during language model inference is valuable for safety filtering, behavioral analysis, and model monitoring, but current approaches force a trade-off between accuracy and efficiency. Hidden-state probes are fast but limited: they are either not context-aware: operating on a single vector and cannot model interactions across positions; or they are very costly: having dedicated classifier models (Llama Guard, Qwen Guard, LLM-as-judge) or performing computation on hidden states for all tokens and then pooling the results (MultiMax). This shows an intrinsic trade-off between efficiency and accuracy. However, we find that the speculative-decoding module in recent LLMs can be repurposed for efficient high-quality classification. By appending a trained soft prompt at the end of the target sequence, we can repurpose the speculative-decoding module into a sequence classifier. At inference time in a speculative-decoding pipeline, the KV cache is already in GPU memory, so classification adds negligible overhead. We evaluate on four classification tasks across four models (Qwen3.5-4B, 9B, 27B, MiniCPM4.1-8B). Our small probes consistently outperform zero-shot GPT-5.4-mini and, on multilingual prompt safety, match or beat specialized 8B safety classifiers (Qwen3Guard-Gen-8B, Llama-Guard-3-8B) without running a full LLM.",
+        "authors": [
+          "Collin Zhang",
+          "Tingwei Zhang",
+          "Vitaly Shmatikov"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.28099",
+        "paper_url": "https://arxiv.org/abs/2608.28099",
+        "pdf_url": "https://arxiv.org/pdf/2608.28099",
+        "published": "2026-08-28",
+        "title": "Speculative Probing: LLM Monitoring at Speculative-Decoding Cost",
+        "updated": "2026-08-28"
+      },
+      "2608.28293": {
+        "abstract": "The premise and promise of KV (cache) eviction is simple: higher throughput can be achieved by evicting some entries from the KV cache, at a negligible cost to quality. This holds empirically for many existing methods, though most rely on creative heuristics for selecting which entries to drop. Despite recent advances, the problem of KV eviction has remained informal in the literature. This paper aims to properly formalize this problem through the lens of probabilistic reasoning and reveal what can be learned from this perspective. Concretely, we (1) formalize the problem of KV eviction and, unfortunately, prove that it is computationally hard, (2) show that by framing it probabilistically, KV eviction reduces to the problem of expectation estimation, which can be approximated through sampling, (3) show that through this probabilistic interpretation, correcting for evicted entries during decoding---a previously ignored problem---becomes feasible, and (4) reveal that existing methods in the literature are zero-variance biased estimators that can be easily adapted in order to enable decode time correction. In practice, we show that this probabilistic version of KV eviction coupled with decode time correction is more robust to different tasks compared to existing eviction methods and achieves competitive performance at the same compression budget.",
+        "authors": [
+          "Renato Geh",
+          "Alex Chen",
+          "Daniel Israel",
+          "Aditya Grover",
+          "Guy Van den Broeck"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.28293",
+        "paper_url": "https://arxiv.org/abs/2608.28293",
+        "pdf_url": "https://arxiv.org/pdf/2608.28293",
+        "published": "2026-08-28",
+        "title": "A Probabilistic Interpretation of KV Cache Eviction",
+        "updated": "2026-08-28"
+      }
+    },
+    "vibe_coding": {
+      "2608.24188": {
+        "abstract": "Coding agents re-send large file reads and tool outputs to a frontier LLM every turn, and this context dominates their token bill. General-purpose prompt compressors are trained on prose and suit code poorly: they paraphrase identifiers and drop the exact spans an agent needs to edit. We present Paritok-4B, a 4B LoRA compressor for coding-agent trajectories built on two commitments. It is extractive: it selects spans rather than rewriting them, and 96.0% of the identifiers, paths, and numbers it emits already appear in its input, holding at 96.2% on held-out SWE-bench Lite output. It is intent-conditioned: told the agent's current task, it acts chiefly inside a retained segment, selecting which lines survive (retained lines are +0.067 more intent-relevant than removed ones, paired 95% CI [+0.056, +0.078]) rather than changing how much is retained. We distil a gpt-4.1-mini teacher over 67,074 real OpenHands trajectories into 40,606 validated examples and fine-tune Qwen3-4B. On all 300 SWE-bench Lite instances, Paritok-4B compresses agent context to 25.7% of its size, 2.0x harder than a gpt-4.1-mini compressor (50.2%) and 2.4x harder than gpt-5 (61.9%), while retaining 86.5% of uncompressed single-shot solve quality. Fed the cat -n line-numbered input real agents produce, it compresses slightly less (27.8%) and retains more (89.3%); there the paired test is informative, with 30 instances solved only uncompressed and 17 only compressed, an exact McNemar p=0.079, so at this sample size compressing context to roughly a quarter of its size does not significantly reduce the solve rate. The model is a 264 MB adapter that self-hosts on one 24 GB GPU with no per-token compressor fee, which at list prices decides the economics: gpt-5 as a compressor is net-negative, costing more than the downstream tokens it saves. Weights, data, and evaluation scripts are open (Apache 2.0).",
+        "authors": [
+          "Jiayu Shi",
+          "Luzhuo Chen"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG",
+          "cs.SE"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/Paritok-official/paritok-4b-v1",
+        "comment": "",
+        "id": "2608.24188",
+        "paper_url": "https://arxiv.org/abs/2608.24188",
+        "pdf_url": "https://arxiv.org/pdf/2608.24188",
+        "published": "2026-08-25",
+        "title": "Paritok-4B: Intent-Conditioned Context Compression for Coding Agents",
+        "updated": "2026-08-25"
+      },
+      "2608.24221": {
+        "abstract": "Answering developer questions about a software repository is a critical yet under-explored problem in software engineering. While existing repository understanding methods have advanced the field, they predominantly rely on surface-level code retrieval and lack the ability for deep reasoning over multiple files, complex software architectures, and grounding answers in long-range code dependencies. To address these limitations, we propose DeepRepoQA, a novel question answering (QA) framework for repository-level code understanding. DeepRepoQA builds on an agentic framework where LLM agents find answers through a systematic tree search over the repository structure. A Monte-Carlo Tree Search (MCTS) mechanism is employed to empower agents to dynamically search, navigate, and inspect code, enabling effective multi-hop reasoning over long-range code dependencies. Comprehensive experiments on the SWE-QA benchmark demonstrate substantial performance gains over strong baselines, validating the effectiveness of systematic MCTS-guided exploration for multi-hop repository reasoning.",
+        "authors": [
+          "Weihan Peng",
+          "Yuling Shi",
+          "Yingwei Ma",
+          "Longfei Yun",
+          "Beijun Shen",
+          "Xiaodong Gu"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CL",
+          "cs.PL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.24221",
+        "paper_url": "https://arxiv.org/abs/2608.24221",
+        "pdf_url": "https://arxiv.org/pdf/2608.24221",
+        "published": "2026-08-25",
+        "title": "DeepRepoQA: Code Repository Question Answering with Deep Agent Exploration",
+        "updated": "2026-08-25"
+      },
+      "2608.24644": {
+        "abstract": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for executable program essays, a parser that treats names as first-class objects, an internal name-graph which relates prose, names and executable artifacts, and a binding mechanism for existing languages and testing toolsets. This supports co-location of code with its most relevant natural language and structured data context, making better use of Large Language Model (LLM) context windows. It also provides LLM coding agents with a toolset more analogous to the symbol-aware search and usage information available in human programmer-facing Integrated Development Environments (IDEs). We describe a working implementation with bindings to three established programming languages, and several example programs.",
+        "authors": [
+          "Adam T. Burke"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.PL"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/adamburkegh/notlob",
+        "comment": "",
+        "id": "2608.24644",
+        "paper_url": "https://arxiv.org/abs/2608.24644",
+        "pdf_url": "https://arxiv.org/pdf/2608.24644",
+        "published": "2026-08-25",
+        "title": "A Literate Programming Environment for Human and Machine Agents",
+        "updated": "2026-08-25"
+      },
+      "2608.25174": {
+        "abstract": "Coding agents increase implementation capacity without automatically making project intent, system structure, or acceptance evidence explicit. As implementation becomes abundant relative to engineering judgment, the scarce work shifts toward choosing useful abstractions, producing evidence, and determining which obligations govern acceptance. Existing workflows address parts of this gap through larger prompts, repository retrieval, or perchange review, but still require agents and engineers to reconstruct consequential properties. As an alternative, we present Model-Based Agentic Software Engineering (MAGE). MAGE is a framework and a theory for building trustworthy autonomy from commodity intelligence. MAGE addresses a representation problem and an authority problem: it externalizes the smallest purposeful representation needed to answer an engineering question, then gives settled obligations proportionate authority through constraints, sensors, validators, and gates. It keeps uncertain intent open and turns recurring reconstruction and judgment into durable engineering structure that later work can inherit. We developed MAGE from a longitudinal case and refined it through six independently reported industrial accounts. Across these sources, MAGE explains how externalized knowledge, bounded action, independent evaluation, and retained human authority can compose into a governed engineering environment, and proposes tests of when that environment turns commodity intelligence into durable engineering progress.",
+        "authors": [
+          "James C. Davis",
+          "Kelechi Kalu",
+          "Huiyun Peng",
+          "Parth V. Patil"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.25174",
+        "paper_url": "https://arxiv.org/abs/2608.25174",
+        "pdf_url": "https://arxiv.org/pdf/2608.25174",
+        "published": "2026-08-25",
+        "title": "Model-Based Agentic Software Engineering",
+        "updated": "2026-08-25"
+      },
+      "2608.25241": {
+        "abstract": "Coding agents increase development velocity but also technical debt. Prior work reports only average effects across adopters, hiding wide differences between teams. We introduce RAMP (Repository AI Maturity Profile), a four-level cumulative maturity model grounded in version-controlled artifacts that teams commit to configure AI tools. RAMP runs from behavioral rules and coding standards through named agent definitions to multi-agent orchestration, with observed practice concentrated in the first three levels. Across 441 repositories the levels behave as a cumulative scale, and independent human annotation reproduces RAMP's repository-level labels on 97% of a held-out sample. Adoption is cumulative, forward-only, and set-and-forget: 73.8% of artifacts are committed once and never modified. Re-estimating an existing agent-adoption panel within each stratum, agents accelerate development regardless of maturity (28-38% more commits), but quality diverges: among agent-first repositories, where the contrast is identified, those without committed AI configuration show roughly twice the increase in cognitive complexity (+53% versus +27%) and 1.7x the increase in static-analysis warnings. Because maturity is observational, correlated engineering discipline or model capability may explain part of the gap; we present these findings as hypothesis-generating and release RAMP as a reusable instrument.",
+        "authors": [
+          "Yegor Denisov-Blanch",
+          "Shyam Agarwal",
+          "Pavel Azaletskiy",
+          "Hao He",
+          "Rylan Schaeffer",
+          "Brando Miranda",
+          "Bogdan Vasilescu",
+          "Sanmi Koyejo"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.25241",
+        "paper_url": "https://arxiv.org/abs/2608.25241",
+        "pdf_url": "https://arxiv.org/pdf/2608.25241",
+        "published": "2026-08-26",
+        "title": "A Few Pages of Markdown: Committed AI Configuration and Lower Quality Cost after Coding-Agent Adoption",
+        "updated": "2026-08-26"
+      },
+      "2608.25776": {
+        "abstract": "Self-evolving LLM coding agents write their own tools by imitating retrieved skills from shared skill libraries. We identify a vulnerability in this loop: during authoring, a retrieved malicious skill can become the template for a new skill that preserves the payload. We call this self-poisoning: the agent authors, stores, and runs the resulting malicious skill. We exploit it through EvoMal, an attack that amplifies self-poisoning by wrapping an interchangeable payload in a banner, a set of benign-looking structural elements that induces an imitating agent to reproduce the enclosed code. The attacker plants malicious skills in the library without invoking them. The agent then authors and executes new skills carrying the harmful code. Each authored copy can re-enter the library and be imitated again, forming a self-propagating worm that persists after the planted skills are removed. We define the agent self-poisoning rate (ASPR) as the fraction of tasks that add a newly authored malicious skill to the library. Across six models on 153 tool-relevant SWE-bench Verified tasks, ASPR ranges from 20.3% to 41.8%, and the poisoned libraries hold 4.9 to 9.0 times as many malicious skills as were planted. The vulnerability also appears without a banner: DeepSeek-V4-Pro reaches 11.1% ASPR with the payload alone. Tailoring the planted skill descriptions to one task family raises ASPR to 86.7%. After the planted skills are removed, Qwen3 retains a round-5 ASPR of 68% because agent-authored copies remain. These copies evade existing defenses, which focus on attacker-submitted names, code, and signatures. We propose counter-prompt, a defense that discourages banner-style copying and reduces EvoMal's ASPR to at most 6.7% with no significant task-completion loss.",
+        "authors": [
+          "Xiaodong Wu",
+          "Yu Shi",
+          "Qi Li",
+          "Zhimin Zhao",
+          "Xiangman Li",
+          "Bram Adams",
+          "Ahmed E. Hassan",
+          "Jianbing Ni"
+        ],
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "code_match": "title-match",
+        "code_url": "https://github.com/YuxingLu613/awesome-agentic-evolution",
+        "comment": "",
+        "id": "2608.25776",
+        "paper_url": "https://arxiv.org/abs/2608.25776",
+        "pdf_url": "https://arxiv.org/pdf/2608.25776",
+        "published": "2026-08-26",
+        "title": "EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
+        "updated": "2026-08-26"
+      },
+      "2608.25817": {
+        "abstract": "A coding agent edits files and executes shell commands with its developer's privileges, allowing malicious requests to translate directly into harmful actions or functional malware. Existing defenses have complementary limitations: weight-level alignment is unavailable to API-only deployers, whereas input filters and execution-boundary monitors require auxiliary classification or checking components along the agent's trajectory. We therefore introduce SkillShield, a system-prompt defense that synthesizes security skills offline from known attacks or recorded agent failures. These skills are injected into the system prompt at session start and remain active throughout the tool-use loop. Unlike a reference monitor, they protect the system by defining the security policies the model should follow during execution. Due to the limited system-prompt space, we examine three fixed-budget provisioning scopes: all-classes, with one skill covering all threat classes, per-bundle, with one skill targeting a related subset, and per-class, with one skill dedicated to a single known class and used as the upper-bound reference. None requires runtime request classification or routing. Across six large language models on RedCode, the default all-classes skill reduces malware-generation severity from 3.37 to 0.58 and achieves a 43.6% execution attack success rate, comparable to Llama Guard 3's 42.7% without its separate 8B classifier. The per-bundle and class-fixed per-class settings further reduce this rate to 36.2% and 14.5%, respectively. Under two non-adaptive jailbreak families, SkillShield continues to outperform all baselines on malware generation. Across 731 benign task descriptions, SkillShield yields a mean safety-refusal rate of 0.14%. These results demonstrate the potential of prompt-space security skills to prevent harmful actions and malware generation for LLM coding agents.",
+        "authors": [
+          "Xiaodong Wu",
+          "Zhimin Zhao",
+          "Qi Li",
+          "Xiangman Li",
+          "Yu Shi",
+          "Bram Adams",
+          "Jianbing Ni"
+        ],
+        "categories": [
+          "cs.CR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.25817",
+        "paper_url": "https://arxiv.org/abs/2608.25817",
+        "pdf_url": "https://arxiv.org/pdf/2608.25817",
+        "published": "2026-08-26",
+        "title": "SkillShield: Prompt-Space Security Skills for LLM Coding Agents",
+        "updated": "2026-08-26"
+      },
+      "2608.25927": {
+        "abstract": "World models aim to simulate how complex environments evolve under actions and events, yet existing video-based world models primarily learn dynamics from visual observations, which reveal outcomes rather than the underlying knowledge, rules, and mechanisms governing world evolution. This makes it difficult to maintain persistent consequences and support coherent, open-ended evolution. We introduce Code World Model, a framework that separates world evolution from visual realization by combining the reasoning and coding capabilities of language models with the generative priors of video models. A coding agent serves as the world brain, reasoning about events and their consequences and generating executable code to maintain persistent world state and perform rule-consistent evolution. To connect executable state with visual generation, we introduce a proxy representation that encodes frame-wise spatiotemporal constraints and is compiled into a proxy video, which conditions a video model to render high-fidelity visual observations. We further develop data pipelines for constructing aligned proxy-observation pairs from gameplay and real-world videos. After fine-tuning on paired gameplay data, MiniMax-H3 follows proxy-based spatiotemporal specifications from simple interactive worlds built by the coding agent while preserving rich visual details and dynamics. These results demonstrate the potential of combining code for persistent world evolution with video models for flexible visual realization, providing a new path toward open-ended world models.",
+        "authors": [
+          "Yiwen Chen",
+          "Guosheng Lin",
+          "Chi Zhang"
+        ],
+        "categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.25927",
+        "paper_url": "https://arxiv.org/abs/2608.25927",
+        "pdf_url": "https://arxiv.org/pdf/2608.25927",
+        "published": "2026-08-26",
+        "title": "Code World Model: Coding Agent as World Brain",
+        "updated": "2026-08-26"
+      },
+      "2608.26031": {
+        "abstract": "Reliable code retrieval is crucial for developer productivity and effective code reuse. However, current neural code language models (CLMs) powering search tools are susceptible to adversarial attacks targeting non-functional textual elements. In this paper, we introduce a programming language-agnostic, transferable, adversarial attack that exploits this CLM vulnerability. Our approach perturbs identifiers within a code snippet without altering the snippet's functionality to artificially align the code with a target query. We demonstrate that our attack, even when computed using smaller code embedding models, such as CodeT5+, is highly effective and transferable to larger, closed-source embedding models, like Voyage-code-3, or LLMs like Gemini-3.1-Pro. Our attack can increase the similarity between the query and arbitrary, irrelevant code snippets, consequently degrading key retrieval metrics such as the Mean Reciprocal Rank (MRR) of state-of-the-art models by up to 77%. The experimental results highlight the fragility of current code search methods and underscore the need for more robust, semantic-aware approaches.",
+        "authors": [
+          "Kaicheng Wang",
+          "Liyan Huang",
+          "Jesse Thomason",
+          "Weihang Wang"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.26031",
+        "paper_url": "https://arxiv.org/abs/2608.26031",
+        "pdf_url": "https://arxiv.org/pdf/2608.26031",
+        "published": "2026-08-26",
+        "title": "Vulnerable Code Search: Transferable Attack for Code Language Models",
+        "updated": "2026-08-26"
+      },
+      "2608.26218": {
+        "abstract": "A coding agent combines a model with a harness, which decides what the model sees, which tools it can use, and how the work continues. We ask whether changing the harness changes the result when the model and task stay fixed. We compare two configurations of the same harness on three coding benchmarks. The control supplies the full conversation in time order, while the treatment keeps the same record but mechanically shortens older tool results as the context fills and responds to repeated or stalled work. Under tight context, the treatment raises mean per-task fail-to-pass fraction (F2PF) in all three pressure comparisons and increases complete solutions on SWE-bench Verified and SWE-bench Pro. The tight-window Verified comparison uses 169 tasks, a 20,480-token window, and a fixed 480-second attempt endpoint; on this cohort, treatment raises mean per-task F2PF from 28 percent to 49 percent and complete solutions from 43 to 72. Without model-specific retuning, the same frozen treatment also raises both endpoints on the same cohort for three additional models with different designs. In the wide-window Qwen3.6 comparisons, observed arm outcomes are close on Verified and Pro, while FeatureBench retains a higher mean per-task F2PF under treatment. On the wide-window Verified cohort, treatment also serves fewer prompt tokens per turn. Because changing the harness changed what unchanged model weights could accomplish, coding-agent evaluations should treat the model and harness together as the tested solver.",
+        "authors": [
+          "Sydney Lewis"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.SE"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/sydches/yuj",
+        "comment": "",
+        "id": "2608.26218",
+        "paper_url": "https://arxiv.org/abs/2608.26218",
+        "pdf_url": "https://arxiv.org/pdf/2608.26218",
+        "published": "2026-08-26",
+        "title": "Same Model, Different Harness: Different Coding-Agent Results",
+        "updated": "2026-08-26"
+      },
+      "2608.26602": {
+        "abstract": "Large software repositories are often beyond model context limits. Training repository knowledge into models is costly and quickly stale, while local retrieval can miss scattered requirements, and explicit relation graphs add ongoing maintenance burden. We propose an entity-only external interface with task-conditioned relation materialization during inference. A two-layer index separates global routing from local entity focus and is evaluated on DeepSeek-V4-Flash and SWE-bench Verified. The base, one-layer, and two-layer conditions achieve 92.1%, 94.2%, and 95.6% success, respectively, under zero pre-built entity-relation edges.",
+        "authors": [
+          "Fei Ding"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.26602",
+        "paper_url": "https://arxiv.org/abs/2608.26602",
+        "pdf_url": "https://arxiv.org/pdf/2608.26602",
+        "published": "2026-08-27",
+        "title": "The Thousand-Graph Hypothesis: A Testable Hypothesis of Task-Conditioned Relation Materialization in Repository-Level Code Reasoning",
+        "updated": "2026-08-27"
+      },
+      "2608.27703": {
+        "abstract": "Integrating Large Language Models (LLMs) into the Software Development Life Cycle (SDLC) can improve developer productivity, but it also introduces security, privacy, and compliance risks during model selection. Regulations and frameworks such as the EU AI Act, the NIST AI Risk Management Framework (RMF), the General Data Protection Regulation (GDPR), the Lei Geral de Proteção de Dados (LGPD), and ISO/IEC 42001 establish obligations that are often difficult to translate into operational criteria for technical decision-making. This paper proposes a model to support governance and compliance in LLM selection for software engineering projects. The model is developed through Design Science Research (DSR) and is structured in three layers: (i) regulatory requirements, (ii) organizational governance capabilities, instantiated by a multi-criteria decision matrix with knock-out and weighted scoring criteria, and (iii) productivity and sustainability outcomes, operationalized by the LLM governance assessment protocol (PAG-LLM). A regulatory feedback loop connects operational results back to the normative layer, enabling iterative refinement of the model. A pilot evaluation with 20 adversarial scenarios based on Common Weakness Enumeration (CWE) and the OWASP Top 10 suggests distinct risk profiles between commercial cloud-based LLMs and local open-source LLMs. The results provide preliminary evidence that regulatory disqualification logic, particularly K.O. criteria, can prevent the selection of technically competitive models that nonetheless pose unacceptable compliance risks, demonstrating the feasibility of governance-oriented LLM selection in software engineering projects.",
+        "authors": [
+          "Jonysberg Quintino",
+          "Hermano Moura",
+          "Filipe Calegário"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.27703",
+        "paper_url": "https://arxiv.org/abs/2608.27703",
+        "pdf_url": "https://arxiv.org/pdf/2608.27703",
+        "published": "2026-08-27",
+        "title": "Operationalizing Regulations into Code: A Model to Enhance Governance and Compliance in LLM Selection for Software Engineering",
+        "updated": "2026-08-27"
+      },
+      "2608.27831": {
+        "abstract": "Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitHub issues--long, structured, and information-rich. Real user requests, however, are typically far shorter and less structured. To characterize this gap, we define a six-category information taxonomy and four dimensions of linguistic style, and apply them to real user prompts from SWE-chat and problem statements from SWE-bench Verified and Pro. We find that requests carrying only a problem statement, alone or with limited additional context, account for 88% of real prompts but just 7% of benchmark problems. Furthermore, 87% of real prompts are casually written whereas 94% of benchmark problems are formal. Guided by these observations, we introduce sys, 381 multi-variant task families derived from SWE-bench Verified and Pro. Variants within each family share the same underlying task and gold patch while differing only in information composition and linguistic style. Evaluating seven contemporary LLMs with sys, we find that i) realistic inputs reduce resolution rates by 6.4 pp on average and can change model rankings. Controlled analysis further shows that ii) including Desired Behavior and Motivation significantly affects performance, whereas Environment Information and Reproduction Steps merely add tokens without measurable benefit; iii) linguistic style has only small, model-dependent effects. These findings provide actionable guidance for users and agents: explicitly stating the desired behavior and motivation--which most real prompts omit--substantially improves the LLM's software engineering performance.",
+        "authors": [
+          "Gyuhyeong Kim",
+          "Hyojung Gwon",
+          "Jeonghyeon Kim",
+          "Kyuhong Shim",
+          "Sunjae Lee"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.27831",
+        "paper_url": "https://arxiv.org/abs/2608.27831",
+        "pdf_url": "https://arxiv.org/pdf/2608.27831",
+        "published": "2026-08-28",
+        "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
+        "updated": "2026-08-28"
+      },
+      "2608.27969": {
+        "abstract": "Long-horizon coding agents operate over evolving repository states while increasingly relying on heterogeneous capabilities, delegated agents, and multi-agent coordination. These trends pose two complementary challenges for the agent harness. First, developers need to compose capabilities, reconfigure execution logic, and scale increasingly complex agent systems without repeatedly rebuilding orchestration. Second, complex coding tasks continuously produce new evidence---such as semantic diagnostics, execution outcomes, task progress, and changing context relevance---that should dynamically influence subsequent runtime decisions. We characterize these challenges as Structural Composability and Runtime Adaptivity. We present openJiuwen, an open-source harness designed for both developer composability and adaptive task execution. openJiuwen provides a shared execution substrate and Rail-based capability composition across single agents, delegated sub-agents, and Swarm Flow, enabling developers to construct sophisticated agent harnesses under common execution semantics. It further adapts framework-controlled runtime decisions around a fixed model policy, allowing evolving evidence to dynamically affect context, feedback, and task control toward successful completion. We systematically evaluate openJiuwen on SWE-bench Verified and Terminal-Bench 2.1, where it achieves 82.6% and 87.19%, respectively, exceeding the strongest selected official-leaderboard point estimates by 3.4 and 3.39 percentage points. These results show that openJiuwen achieves strong performance on complex coding tasks while providing a composable and adaptive harness design.",
+        "authors": [
+          " openJiuwen Team",
+          "Tao Yu",
+          "Xinyu Zhang",
+          "Qianqian Chen",
+          "Xiaoneng Xiang",
+          "Chia Kwangyang",
+          "Xingchen Huang",
+          "Ran Chen",
+          "Yangkai Ding",
+          "Zheng Wang",
+          "Yeo Boon Hong",
+          "Bingzheng Gan",
+          "Enrui Hu",
+          "Shuo Cheng",
+          "Deyang Li",
+          "Ruifeng Shi",
+          "Hongbo Wang",
+          "Qi Ye",
+          "Xuefeng Jin",
+          "Zhangchun Zhao"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.27969",
+        "paper_url": "https://arxiv.org/abs/2608.27969",
+        "pdf_url": "https://arxiv.org/pdf/2608.27969",
+        "published": "2026-08-28",
+        "title": "openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents",
+        "updated": "2026-08-28"
+      },
+      "2608.28497": {
+        "abstract": "AI coding agents, software tools that automate development tasks through reasoning and tool use, are increasingly extended through plugin marketplaces, yet the structure, maintenance, and co-evolution dynamics of these emerging repositories remain empirically unexplored. Unlike traditional software packages that deliver functionality through source code, agent plugins deliver functionality through a combination of natural-language instruction files, scripts, and configuration files, raising the question of whether these plugins are maintained artifacts that co-evolve across components, or one-off artifacts that developers write once and do not need to revisit. To study the maintenance and co-evolution of agent plugins, we conduct an empirical study of 1,926 repositories hosting Claude Code plugin marketplaces, analyzing 8,351 plugins and 77,773 commits across 2,018 marketplaces. We find that the marketplace is expanding rapidly, plugin-touching commit activity growing 8.8x over six months after the October 2025 launch, and plugins targeting Software Engineering tasks accounting for 61.3% of all plugins. Plugin development is predominantly feature-driven, with feature commits occurring at more than twice the rate of conventional open-source software (OSS) (39.6% vs. 17.2%). Claude co-authors 34.9% of all commits, and four commit types (docs, perf, style, and refactor) carry substantially different meanings in plugin repositories than in traditional software. Most component types evolve independently, but within skills directories, natural-language instruction files and implementation scripts co-evolve at above-chance rates, with 78% of co-changes being functionally coupled, representing a new class of maintenance dependency not observed in traditional software engineering.",
+        "authors": [
+          "Ahmed Hereiz",
+          "Yingzhe Lyu",
+          "Hao Li",
+          "Bram Adams",
+          "Ahmed E. Hassan"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "id": "2608.28497",
+        "paper_url": "https://arxiv.org/abs/2608.28497",
+        "pdf_url": "https://arxiv.org/pdf/2608.28497",
+        "published": "2026-08-28",
+        "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+        "updated": "2026-08-28"
+      }
+    }
+  },
+  "topic_repositories": {
+    "ai_infra": {
+      "AstrBotDevs/AstrBot": {
+        "created_at": "2022-12-08",
+        "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+        "discovery": "active",
+        "forks": 2858,
+        "full_name": "AstrBotDevs/AstrBot",
+        "id": 575865240,
+        "language": "Python",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-08-31",
+        "score": 23.4,
+        "star_growth_7d": null,
+        "stars": 39839,
+        "topics": [
+          "agent",
+          "ai",
+          "astrbot",
+          "chatbot",
+          "chatgpt",
+          "discord",
+          "docker",
+          "gemini",
+          "gpt",
+          "llama",
+          "llm",
+          "mcp",
+          "openai",
+          "python",
+          "qq",
+          "qqbot",
+          "telegram"
+        ],
+        "url": "https://github.com/AstrBotDevs/AstrBot"
+      },
+      "BerriAI/litellm": {
+        "created_at": "2023-07-27",
+        "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+        "discovery": "active",
+        "forks": 11039,
+        "full_name": "BerriAI/litellm",
+        "id": 671269505,
+        "language": "Python",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-08-31",
+        "score": 24.04,
+        "star_growth_7d": null,
+        "stars": 57657,
+        "topics": [
+          "ai-gateway",
+          "anthropic",
+          "azure-openai",
+          "bedrock",
+          "gateway",
+          "langchain",
+          "litellm",
+          "llm",
+          "llm-gateway",
+          "llmops",
+          "mcp-gateway",
+          "openai",
+          "openai-proxy",
+          "rust",
+          "rust-ai",
+          "vertex-ai"
+        ],
+        "url": "https://github.com/BerriAI/litellm"
+      },
+      "HKUDS/RAG-Anything": {
+        "created_at": "2025-06-06",
+        "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+        "discovery": "active",
+        "forks": 2682,
+        "full_name": "HKUDS/RAG-Anything",
+        "id": 997220241,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-20",
+        "score": 20.79,
+        "star_growth_7d": null,
+        "stars": 23119,
+        "topics": [
+          "multi-modal-rag",
+          "retrieval-augmented-generation"
+        ],
+        "url": "https://github.com/HKUDS/RAG-Anything"
+      },
+      "HKUDS/nanobot": {
+        "created_at": "2026-02-01",
+        "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+        "discovery": "active",
+        "forks": 8392,
+        "full_name": "HKUDS/nanobot",
+        "id": 1147094660,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 23.71,
+        "star_growth_7d": null,
+        "stars": 47560,
+        "topics": [
+          "agent-framework",
+          "ai-agent",
+          "ai-agents",
+          "chatbot",
+          "chatops",
+          "discord-bot",
+          "llm-agents",
+          "llms",
+          "local-llm",
+          "mcp",
+          "model-context-protocol",
+          "multi-agent",
+          "openai-compatible",
+          "openclaw",
+          "personal-ai-assistant",
+          "python",
+          "self-hosted",
+          "telegram-bot-ai-assistant",
+          "webui",
+          "workflow-automation"
+        ],
+        "url": "https://github.com/HKUDS/nanobot"
+      },
+      "NirDiamant/agents-towards-production": {
+        "created_at": "2025-06-16",
+        "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
+        "discovery": "active",
+        "forks": 2837,
+        "full_name": "NirDiamant/agents-towards-production",
+        "id": 1003143578,
+        "language": "Jupyter Notebook",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-08-28",
+        "score": 21.98,
+        "star_growth_7d": null,
+        "stars": 21351,
+        "topics": [
+          "agent",
+          "agent-framework",
+          "agentic-ai",
+          "agents",
+          "ai-agents",
+          "deployment",
+          "genai",
+          "generative-ai",
+          "langgraph",
+          "llm",
+          "llms",
+          "mcp",
+          "mlops",
+          "multi-agent-systems",
+          "observability",
+          "production",
+          "python",
+          "rag",
+          "tutorials"
+        ],
+        "url": "https://github.com/NirDiamant/agents-towards-production"
+      },
+      "crewAIInc/crewAI": {
+        "created_at": "2023-10-27",
+        "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+        "discovery": "active",
+        "forks": 8288,
+        "full_name": "crewAIInc/crewAI",
+        "id": 710601088,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 24.05,
+        "star_growth_7d": null,
+        "stars": 57860,
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "aiagentframework",
+          "llms"
+        ],
+        "url": "https://github.com/crewAIInc/crewAI"
+      },
+      "deepset-ai/haystack": {
+        "created_at": "2019-11-14",
+        "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+        "discovery": "active",
+        "forks": 3057,
+        "full_name": "deepset-ai/haystack",
+        "id": 221654678,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 22.68,
+        "star_growth_7d": null,
+        "stars": 26368,
+        "topics": [
+          "agent-framework",
+          "agentic-ai",
+          "agentic-rag",
+          "agents",
+          "ai",
+          "ai-agents",
+          "context-engineering",
+          "framework",
+          "genai",
+          "generative-ai",
+          "information-retrieval",
+          "large-language-models",
+          "llm",
+          "mcp",
+          "multi-agent",
+          "orchestration",
+          "python",
+          "rag",
+          "retrieval-augmented-generation",
+          "semantic-search"
+        ],
+        "url": "https://github.com/deepset-ai/haystack"
+      },
+      "elizaOS/eliza": {
+        "created_at": "2024-07-09",
+        "description": "Open source agentic operating system",
+        "discovery": "active",
+        "forks": 5710,
+        "full_name": "elizaOS/eliza",
+        "id": 826170402,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 22.13,
+        "star_growth_7d": null,
+        "stars": 19217,
+        "topics": [
+          "agent",
+          "agentic",
+          "ai",
+          "autonomous",
+          "chatbot",
+          "crypto",
+          "discord",
+          "eliza",
+          "elizaos",
+          "framework",
+          "plugins",
+          "rag",
+          "slack",
+          "swarm",
+          "telegram"
+        ],
+        "url": "https://github.com/elizaOS/eliza"
+      },
+      "heygen-com/hyperframes": {
+        "created_at": "2026-03-10",
+        "description": "Write HTML. Render video. Built for agents.",
+        "discovery": "active",
+        "forks": 4159,
+        "full_name": "heygen-com/hyperframes",
+        "id": 1177402105,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 23.54,
+        "star_growth_7d": null,
+        "stars": 43274,
+        "topics": [
+          "ai",
+          "animation",
+          "ffmpeg",
+          "framework",
+          "gsap",
+          "html",
+          "mcp",
+          "puppeteer",
+          "rendering",
+          "typescript",
+          "video"
+        ],
+        "url": "https://github.com/heygen-com/hyperframes"
+      },
+      "langchain-ai/langchain": {
+        "created_at": "2022-10-17",
+        "description": "The agent engineering platform.",
+        "discovery": "active",
+        "forks": 24250,
+        "full_name": "langchain-ai/langchain",
+        "id": 552661142,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 25.65,
+        "star_growth_7d": null,
+        "stars": 145323,
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "deepagents",
+          "enterprise",
+          "framework",
+          "gemini",
+          "generative-ai",
+          "langchain",
+          "langgraph",
+          "llm",
+          "multiagent",
+          "open-source",
+          "openai",
+          "pydantic",
+          "python",
+          "rag",
+          "typescript"
+        ],
+        "url": "https://github.com/langchain-ai/langchain"
+      },
+      "langchain-ai/langgraph": {
+        "created_at": "2023-08-09",
+        "description": "Build resilient agents.",
+        "discovery": "active",
+        "forks": 6873,
+        "full_name": "langchain-ai/langgraph",
+        "id": 676672661,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-30",
+        "score": 23.27,
+        "star_growth_7d": null,
+        "stars": 40762,
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "chatgpt",
+          "deepagents",
+          "enterprise",
+          "framework",
+          "gemini",
+          "generative-ai",
+          "langchain",
+          "langgraph",
+          "llm",
+          "multiagent",
+          "open-source",
+          "openai",
+          "pydantic",
+          "python",
+          "rag"
+        ],
+        "url": "https://github.com/langchain-ai/langgraph"
+      },
+      "langfuse/langfuse": {
+        "created_at": "2023-05-18",
+        "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+        "discovery": "active",
+        "forks": 3667,
+        "full_name": "langfuse/langfuse",
+        "id": 642497346,
+        "language": "TypeScript",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-08-31",
+        "score": 23.12,
+        "star_growth_7d": null,
+        "stars": 33969,
+        "topics": [
+          "analytics",
+          "autogen",
+          "evaluation",
+          "langchain",
+          "large-language-models",
+          "llama-index",
+          "llm",
+          "llm-evaluation",
+          "llm-observability",
+          "llmops",
+          "monitoring",
+          "observability",
+          "open-source",
+          "openai",
+          "playground",
+          "prompt-engineering",
+          "prompt-management",
+          "self-hosted",
+          "ycombinator"
+        ],
+        "url": "https://github.com/langfuse/langfuse"
+      },
+      "mastra-ai/mastra": {
+        "created_at": "2024-08-06",
+        "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+        "discovery": "active",
+        "forks": 2714,
+        "full_name": "mastra-ai/mastra",
+        "id": 839037098,
+        "language": "TypeScript",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-08-31",
+        "score": 22.76,
+        "star_growth_7d": null,
+        "stars": 27585,
+        "topics": [
+          "agents",
+          "ai",
+          "chatbots",
+          "evals",
+          "javascript",
+          "llm",
+          "mcp",
+          "nextjs",
+          "nodejs",
+          "reactjs",
+          "tts",
+          "typescript",
+          "workflows"
+        ],
+        "url": "https://github.com/mastra-ai/mastra"
+      },
+      "mlflow/mlflow": {
+        "created_at": "2018-06-05",
+        "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+        "discovery": "active",
+        "forks": 6236,
+        "full_name": "mlflow/mlflow",
+        "id": 136202695,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 22.77,
+        "star_growth_7d": null,
+        "stars": 27744,
+        "topics": [
+          "agentops",
+          "agents",
+          "ai",
+          "ai-governance",
+          "apache-spark",
+          "evaluation",
+          "langchain",
+          "llm-evaluation",
+          "llmops",
+          "machine-learning",
+          "ml",
+          "mlflow",
+          "mlops",
+          "model-management",
+          "observability",
+          "open-source",
+          "openai",
+          "prompt-engineering"
+        ],
+        "url": "https://github.com/mlflow/mlflow"
+      },
+      "modelscope/FunASR": {
+        "created_at": "2022-11-24",
+        "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
+        "discovery": "active",
+        "forks": 2009,
+        "full_name": "modelscope/FunASR",
+        "id": 569959091,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 22.21,
+        "star_growth_7d": null,
+        "stars": 20093,
+        "topics": [
+          "asr",
+          "audio",
+          "chinese",
+          "emotion-recognition",
+          "funasr",
+          "mcp-server",
+          "multilingual-asr",
+          "openai-compatible-api",
+          "paraformer",
+          "punctuation",
+          "pytorch",
+          "real-time-asr",
+          "speaker-diarization",
+          "speech-recognition",
+          "speech-to-text",
+          "streaming-asr",
+          "transcription",
+          "vllm",
+          "voice-activity-detection",
+          "whisper-alternative"
+        ],
+        "url": "https://github.com/modelscope/FunASR"
+      },
+      "mukul975/Anthropic-Cybersecurity-Skills": {
+        "created_at": "2026-02-25",
+        "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+        "discovery": "active",
+        "forks": 3828,
+        "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+        "id": 1166506614,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 23.01,
+        "star_growth_7d": null,
+        "stars": 31763,
+        "topics": [
+          "ai-agents",
+          "claude-code",
+          "cloud-security",
+          "cybersecurity",
+          "devsecops",
+          "ethical-hacking",
+          "incident-response",
+          "infosec",
+          "llm",
+          "malware-analysis",
+          "mcp",
+          "mitre-attack",
+          "nist-csf",
+          "osint",
+          "penetration-testing",
+          "red-team",
+          "security",
+          "security-automation",
+          "threat-hunting",
+          "threat-intelligence"
+        ],
+        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+      },
+      "obra/superpowers": {
+        "created_at": "2025-10-09",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "discovery": "active",
+        "forks": 25086,
+        "full_name": "obra/superpowers",
+        "id": 1073224795,
+        "language": "Shell",
+        "license": "MIT",
+        "pushed_at": "2026-08-29",
+        "score": 26.45,
+        "star_growth_7d": null,
+        "stars": 279846,
+        "topics": [
+          "ai",
+          "brainstorming",
+          "coding",
+          "obra",
+          "sdlc",
+          "skills",
+          "subagent-driven-development",
+          "superpowers"
+        ],
+        "url": "https://github.com/obra/superpowers"
+      },
+      "openai/openai-agents-python": {
+        "created_at": "2025-03-11",
+        "description": "A lightweight, powerful framework for multi-agent workflows",
+        "discovery": "active",
+        "forks": 4641,
+        "full_name": "openai/openai-agents-python",
+        "id": 946380199,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 22.86,
+        "star_growth_7d": null,
+        "stars": 29090,
+        "topics": [
+          "agents",
+          "ai",
+          "framework",
+          "harness",
+          "llm",
+          "openai",
+          "python"
+        ],
+        "url": "https://github.com/openai/openai-agents-python"
+      },
+      "openobserve/openobserve": {
+        "created_at": "2023-02-02",
+        "description": "Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
+        "discovery": "active",
+        "forks": 1062,
+        "full_name": "openobserve/openobserve",
+        "id": 596377730,
+        "language": "TypeScript",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-08-31",
+        "score": 22.34,
+        "star_growth_7d": null,
+        "stars": 21580,
+        "topics": [
+          "analytics",
+          "apm",
+          "datadog",
+          "elasticsearch",
+          "grafana",
+          "jaeger",
+          "kibana",
+          "log-analytics",
+          "log-management",
+          "log-search",
+          "logs",
+          "metrics",
+          "monitoring",
+          "observability",
+          "openobserve",
+          "opentelemetry",
+          "prometheus",
+          "rust-lang",
+          "splunk",
+          "traces"
+        ],
+        "url": "https://github.com/openobserve/openobserve"
+      },
+      "pathwaycom/pathway": {
+        "created_at": "2022-11-27",
+        "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+        "discovery": "active",
+        "forks": 1684,
+        "full_name": "pathwaycom/pathway",
+        "id": 571186647,
+        "language": "Python",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-08-31",
+        "score": 24.18,
+        "star_growth_7d": null,
+        "stars": 62363,
+        "topics": [
+          "batch-processing",
+          "data-analytics",
+          "data-pipelines",
+          "data-processing",
+          "dataflow",
+          "etl",
+          "etl-framework",
+          "iot-analytics",
+          "kafka",
+          "machine-learning-algorithms",
+          "pathway",
+          "python",
+          "real-time",
+          "rust",
+          "stream-processing",
+          "streaming",
+          "time-series-analysis"
+        ],
+        "url": "https://github.com/pathwaycom/pathway"
+      },
+      "ray-project/ray": {
+        "created_at": "2016-10-25",
+        "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+        "discovery": "active",
+        "forks": 7982,
+        "full_name": "ray-project/ray",
+        "id": 71932349,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 23.56,
+        "star_growth_7d": null,
+        "stars": 43664,
+        "topics": [
+          "data-science",
+          "deep-learning",
+          "deployment",
+          "distributed",
+          "hyperparameter-optimization",
+          "hyperparameter-search",
+          "large-language-models",
+          "llm",
+          "llm-inference",
+          "llm-serving",
+          "machine-learning",
+          "optimization",
+          "parallel",
+          "python",
+          "pytorch",
+          "ray",
+          "reinforcement-learning",
+          "rllib",
+          "serving",
+          "tensorflow"
+        ],
+        "url": "https://github.com/ray-project/ray"
+      },
+      "run-llama/llama_index": {
+        "created_at": "2022-11-02",
+        "description": "LlamaIndex is the leading document agent and OCR platform",
+        "discovery": "active",
+        "forks": 8055,
+        "full_name": "run-llama/llama_index",
+        "id": 560704231,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-29",
+        "score": 23.7,
+        "star_growth_7d": null,
+        "stars": 51931,
+        "topics": [
+          "agents",
+          "application",
+          "data",
+          "fine-tuning",
+          "framework",
+          "llamaindex",
+          "llm",
+          "multi-agents",
+          "rag",
+          "vector-database"
+        ],
+        "url": "https://github.com/run-llama/llama_index"
+      },
+      "sgl-project/sglang": {
+        "created_at": "2024-01-08",
+        "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+        "discovery": "active",
+        "forks": 8390,
+        "full_name": "sgl-project/sglang",
+        "id": 740303686,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 23.07,
+        "star_growth_7d": null,
+        "stars": 32971,
+        "topics": [
+          "attention",
+          "blackwell",
+          "cuda",
+          "deepseek",
+          "diffusion",
+          "glm",
+          "gpt-oss",
+          "inference",
+          "llama",
+          "llm",
+          "minimax",
+          "moe",
+          "qwen",
+          "qwen-image",
+          "reinforcement-learning",
+          "transformer",
+          "vlm",
+          "wan"
+        ],
+        "url": "https://github.com/sgl-project/sglang"
+      },
+      "stas00/ml-engineering": {
+        "created_at": "2020-09-02",
+        "description": "Machine Learning Engineering Open Book",
+        "discovery": "active",
+        "forks": 1231,
+        "full_name": "stas00/ml-engineering",
+        "id": 292374787,
+        "language": "Python",
+        "license": "CC-BY-SA-4.0",
+        "pushed_at": "2026-08-31",
+        "score": 22.1,
+        "star_growth_7d": null,
+        "stars": 18847,
+        "topics": [
+          "ai",
+          "debugging",
+          "gpus",
+          "inference",
+          "large-language-models",
+          "llm",
+          "machine-learning",
+          "machine-learning-engineering",
+          "mlops",
+          "network",
+          "pytorch",
+          "scalability",
+          "slurm",
+          "storage",
+          "training",
+          "transformers"
+        ],
+        "url": "https://github.com/stas00/ml-engineering"
+      },
+      "vllm-project/vllm": {
+        "created_at": "2023-02-09",
+        "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "discovery": "active",
+        "forks": 21464,
+        "full_name": "vllm-project/vllm",
+        "id": 599547518,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 24.83,
+        "star_growth_7d": null,
+        "stars": 90569,
+        "topics": [
+          "amd",
+          "blackwell",
+          "cuda",
+          "deepseek",
+          "deepseek-v3",
+          "gpt",
+          "gpt-oss",
+          "inference",
+          "kimi",
+          "llama",
+          "llm",
+          "llm-serving",
+          "model-serving",
+          "moe",
+          "openai",
+          "pytorch",
+          "qwen",
+          "qwen3",
+          "tpu",
+          "transformer"
+        ],
+        "url": "https://github.com/vllm-project/vllm"
+      }
+    },
+    "vibe_coding": {
+      "CodeGraphContext/CodeGraphContext": {
+        "created_at": "2025-08-16",
+        "description": "An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants.",
+        "discovery": "active",
+        "forks": 826,
+        "full_name": "CodeGraphContext/CodeGraphContext",
+        "id": 1039237865,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-08-26",
+        "score": 18.8,
+        "star_growth_7d": null,
+        "stars": 4141,
+        "topics": [
+          "hacktoberfest2025",
+          "social-winter-of-code"
+        ],
+        "url": "https://github.com/CodeGraphContext/CodeGraphContext"
+      },
+      "Fission-AI/OpenSpec": {
+        "created_at": "2025-08-05",
+        "description": "Spec-driven development (SDD) for AI coding assistants.",
+        "discovery": "active",
+        "forks": 4601,
+        "full_name": "Fission-AI/OpenSpec",
+        "id": 1032459340,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 24.3,
+        "star_growth_7d": null,
+        "stars": 66772,
+        "topics": [
+          "ai",
+          "context-engineering",
+          "engineering",
+          "planning",
+          "prd",
+          "sdd",
+          "sdlc",
+          "spec",
+          "spec-driven-development",
+          "specification"
+        ],
+        "url": "https://github.com/Fission-AI/OpenSpec"
+      },
+      "addyosmani/agent-skills": {
+        "created_at": "2026-02-15",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "discovery": "active",
+        "forks": 9727,
+        "full_name": "addyosmani/agent-skills",
+        "id": 1158722119,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-08-28",
+        "score": 24.5,
+        "star_growth_7d": null,
+        "stars": 91023,
+        "topics": [
+          "agent-skills",
+          "antigravity",
+          "claude-code",
+          "codex",
+          "cursor",
+          "skills"
+        ],
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "affaan-m/ECC": {
+        "created_at": "2026-01-18",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "discovery": "active",
+        "forks": 37007,
+        "full_name": "affaan-m/ECC",
+        "id": 1136590548,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 26.56,
+        "star_growth_7d": null,
+        "stars": 244894,
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ],
+        "url": "https://github.com/affaan-m/ECC"
+      },
+      "anomalyco/opencode": {
+        "created_at": "2025-04-30",
+        "description": "The open source coding agent.",
+        "discovery": "active",
+        "forks": 26372,
+        "full_name": "anomalyco/opencode",
+        "id": 975734319,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 26.23,
+        "star_growth_7d": null,
+        "stars": 202695,
+        "topics": [],
+        "url": "https://github.com/anomalyco/opencode"
+      },
+      "anthropics/claude-code": {
+        "created_at": "2025-02-22",
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "discovery": "active",
+        "forks": 22962,
+        "full_name": "anthropics/claude-code",
+        "id": 937253475,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-08-28",
+        "score": 25.29,
+        "star_growth_7d": null,
+        "stars": 143524,
+        "topics": [],
+        "url": "https://github.com/anthropics/claude-code"
+      },
+      "calesthio/OpenMontage": {
+        "created_at": "2026-03-29",
+        "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+        "discovery": "active",
+        "forks": 6835,
+        "full_name": "calesthio/OpenMontage",
+        "id": 1195360525,
+        "language": "Python",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-08-22",
+        "score": 22.62,
+        "star_growth_7d": null,
+        "stars": 54813,
+        "topics": [
+          "agent",
+          "agentic-ai",
+          "ai",
+          "claude",
+          "copilot",
+          "cursor",
+          "elevenlabs",
+          "ffmpeg",
+          "flux",
+          "image-generation",
+          "open-source",
+          "openai",
+          "python",
+          "remotion",
+          "stable-diffusion",
+          "text-to-speech",
+          "text-to-video",
+          "video-generation",
+          "video-production"
+        ],
+        "url": "https://github.com/calesthio/OpenMontage"
+      },
+      "chenhg5/cc-connect": {
+        "created_at": "2026-02-28",
+        "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
+        "discovery": "active",
+        "forks": 1515,
+        "full_name": "chenhg5/cc-connect",
+        "id": 1168978399,
+        "language": "Go",
+        "license": null,
+        "pushed_at": "2026-08-29",
+        "score": 21.4,
+        "star_growth_7d": null,
+        "stars": 15288,
+        "topics": [],
+        "url": "https://github.com/chenhg5/cc-connect"
+      },
+      "cloudflare/vibesdk": {
+        "created_at": "2025-08-25",
+        "description": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack ",
+        "discovery": "active",
+        "forks": 1251,
+        "full_name": "cloudflare/vibesdk",
+        "id": 1044360605,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 19.91,
+        "star_growth_7d": null,
+        "stars": 5340,
+        "topics": [
+          "ai",
+          "cloudflare-workers",
+          "coding-agent",
+          "durable-objects",
+          "text-to-app",
+          "vibe-coding"
+        ],
+        "url": "https://github.com/cloudflare/vibesdk"
+      },
+      "datawhalechina/easy-vibe": {
+        "created_at": "2025-12-28",
+        "description": "💻  vibe coding 101｜The first course for AI-native product builders.",
+        "discovery": "active",
+        "forks": 1835,
+        "full_name": "datawhalechina/easy-vibe",
+        "id": 1124249918,
+        "language": "JavaScript",
+        "license": null,
+        "pushed_at": "2026-08-25",
+        "score": 21.13,
+        "star_growth_7d": null,
+        "stars": 19194,
+        "topics": [
+          "agent",
+          "ai",
+          "coding",
+          "course",
+          "deepseek",
+          "gemini",
+          "genai",
+          "gpt",
+          "llm",
+          "low-code",
+          "mcp",
+          "nextjs",
+          "no-code",
+          "openai",
+          "programming",
+          "tutorial",
+          "vibe-coding",
+          "vibecoding",
+          "vscode",
+          "workflow"
+        ],
+        "url": "https://github.com/datawhalechina/easy-vibe"
+      },
+      "earendil-works/pi": {
+        "created_at": "2025-08-09",
+        "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+        "discovery": "active",
+        "forks": 12374,
+        "full_name": "earendil-works/pi",
+        "id": 1035029907,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 25.0,
+        "star_growth_7d": null,
+        "stars": 99741,
+        "topics": [],
+        "url": "https://github.com/earendil-works/pi"
+      },
+      "farion1231/cc-switch": {
+        "created_at": "2025-08-04",
+        "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+        "discovery": "active",
+        "forks": 8949,
+        "full_name": "farion1231/cc-switch",
+        "id": 1031912724,
+        "language": "Rust",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 25.46,
+        "star_growth_7d": null,
+        "stars": 130322,
+        "topics": [
+          "ai-tools",
+          "claude-code",
+          "codex",
+          "desktop-app",
+          "grok",
+          "grokbuild",
+          "hermes",
+          "hermes-agent",
+          "mcp",
+          "open-source",
+          "openclaw",
+          "openclaw-ui",
+          "opencode",
+          "pi",
+          "provider-management",
+          "rust",
+          "skills",
+          "skills-management",
+          "tauri",
+          "wsl-support"
+        ],
+        "url": "https://github.com/farion1231/cc-switch"
+      },
+      "github/CopilotForXcode": {
+        "created_at": "2024-09-19",
+        "description": "AI coding assistant for Xcode",
+        "discovery": "active",
+        "forks": 1997,
+        "full_name": "github/CopilotForXcode",
+        "id": 860035177,
+        "language": "Swift",
+        "license": "MIT",
+        "pushed_at": "2026-08-28",
+        "score": 19.69,
+        "star_growth_7d": null,
+        "stars": 6289,
+        "topics": [
+          "ai-assistant",
+          "github-copilot",
+          "intelligence",
+          "ios",
+          "macos",
+          "objective-c",
+          "swift",
+          "swiftui",
+          "xcode"
+        ],
+        "url": "https://github.com/github/CopilotForXcode"
+      },
+      "google/agents-cli": {
+        "created_at": "2026-04-08",
+        "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+        "discovery": "active",
+        "forks": 633,
+        "full_name": "google/agents-cli",
+        "id": 1205137520,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-28",
+        "score": 19.71,
+        "star_growth_7d": null,
+        "stars": 5765,
+        "topics": [
+          "adk",
+          "agent-development-kit",
+          "agents",
+          "coding-agent",
+          "gemini",
+          "gemini-enterprise-agent-platform",
+          "generative-ai",
+          "google-cloud"
+        ],
+        "url": "https://github.com/google/agents-cli"
+      },
+      "iOfficeAI/AionUi": {
+        "created_at": "2025-08-07",
+        "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
+        "discovery": "active",
+        "forks": 3333,
+        "full_name": "iOfficeAI/AionUi",
+        "id": 1033778670,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-28",
+        "score": 22.71,
+        "star_growth_7d": null,
+        "stars": 32457,
+        "topics": [
+          "acp",
+          "agent-team",
+          "ai",
+          "ai-agent",
+          "chat",
+          "chatbot",
+          "claude-code",
+          "clawdbot",
+          "codex",
+          "cowork",
+          "gemini",
+          "gemini-cli",
+          "hermes",
+          "llm",
+          "nano-banana",
+          "office",
+          "openclaw",
+          "opencode",
+          "skills",
+          "webui"
+        ],
+        "url": "https://github.com/iOfficeAI/AionUi"
+      },
+      "liyupi/ai-guide": {
+        "created_at": "2025-02-13",
+        "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
+        "discovery": "active",
+        "forks": 2185,
+        "full_name": "liyupi/ai-guide",
+        "id": 931950959,
+        "language": "JavaScript",
+        "license": null,
+        "pushed_at": "2026-08-21",
+        "score": 20.48,
+        "star_growth_7d": null,
+        "stars": 19335,
+        "topics": [
+          "ai",
+          "artificial-intelligence",
+          "chatgpt",
+          "claude",
+          "codex",
+          "cursor",
+          "deep-learning",
+          "deepseek",
+          "gemini",
+          "generative-ai",
+          "gpt",
+          "llm",
+          "mcp",
+          "openai",
+          "python",
+          "rag",
+          "vibe-coding",
+          "vibecoding",
+          "vue",
+          "vuepress"
+        ],
+        "url": "https://github.com/liyupi/ai-guide"
+      },
+      "mistralai/mistral-vibe": {
+        "created_at": "2025-12-08",
+        "description": "Minimal CLI coding agent by Mistral",
+        "discovery": "active",
+        "forks": 682,
+        "full_name": "mistralai/mistral-vibe",
+        "id": 1112533539,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-27",
+        "score": 19.26,
+        "star_growth_7d": null,
+        "stars": 4898,
+        "topics": [],
+        "url": "https://github.com/mistralai/mistral-vibe"
+      },
+      "nexu-io/open-design": {
+        "created_at": "2026-04-28",
+        "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+        "discovery": "active",
+        "forks": 10720,
+        "full_name": "nexu-io/open-design",
+        "id": 1223170290,
+        "language": null,
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 24.87,
+        "star_growth_7d": null,
+        "stars": 92943,
+        "topics": [
+          "agent-skills",
+          "ai-design",
+          "byok",
+          "claude-code-for-design",
+          "claude-design",
+          "codex-design",
+          "coding-agents",
+          "cursor-design",
+          "deepseek",
+          "deepseek-harness",
+          "design-systems",
+          "desktop-app",
+          "dsh",
+          "dsh-plugin",
+          "figma-alternative",
+          "hermes-agent",
+          "local-first",
+          "prototyping",
+          "ui-generator",
+          "vibe-coding"
+        ],
+        "url": "https://github.com/nexu-io/open-design"
+      },
+      "obra/superpowers": {
+        "created_at": "2025-10-09",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "discovery": "active",
+        "forks": 25086,
+        "full_name": "obra/superpowers",
+        "id": 1073224795,
+        "language": "Shell",
+        "license": "MIT",
+        "pushed_at": "2026-08-29",
+        "score": 26.45,
+        "star_growth_7d": null,
+        "stars": 279842,
+        "topics": [
+          "ai",
+          "brainstorming",
+          "coding",
+          "obra",
+          "sdlc",
+          "skills",
+          "subagent-driven-development",
+          "superpowers"
+        ],
+        "url": "https://github.com/obra/superpowers"
+      },
+      "openai/codex": {
+        "created_at": "2025-04-13",
+        "description": "Lightweight coding agent that runs in your terminal",
+        "discovery": "active",
+        "forks": 18386,
+        "full_name": "openai/codex",
+        "id": 965415649,
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 25.32,
+        "star_growth_7d": null,
+        "stars": 120311,
+        "topics": [],
+        "url": "https://github.com/openai/codex"
+      },
+      "shanraisshan/claude-code-best-practice": {
+        "created_at": "2025-10-31",
+        "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+        "discovery": "active",
+        "forks": 6514,
+        "full_name": "shanraisshan/claude-code-best-practice",
+        "id": 1087192965,
+        "language": "HTML",
+        "license": "MIT",
+        "pushed_at": "2026-08-31",
+        "score": 24.26,
+        "star_growth_7d": null,
+        "stars": 65412,
+        "topics": [
+          "agentic-ai",
+          "agentic-coding",
+          "agentic-engineering",
+          "agentic-workflow",
+          "ai",
+          "ai-agents",
+          "anthropic",
+          "best-practices",
+          "boris",
+          "claude",
+          "claude-ai",
+          "claude-code",
+          "claude-code-agents",
+          "claude-code-best-practices",
+          "claude-code-commands",
+          "claude-code-skills",
+          "context-engineering",
+          "pakistan",
+          "pakistani-developer",
+          "vibe-coding"
+        ],
+        "url": "https://github.com/shanraisshan/claude-code-best-practice"
+      },
+      "the-open-agent/openagent": {
+        "created_at": "2020-05-29",
+        "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
+        "discovery": "active",
+        "forks": 653,
+        "full_name": "the-open-agent/openagent",
+        "id": 267749451,
+        "language": "Go",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-20",
+        "score": 18.32,
+        "star_growth_7d": null,
+        "stars": 5591,
+        "topics": [
+          "agent",
+          "agentic",
+          "agentic-ai",
+          "agi",
+          "chatbot",
+          "chatgpt",
+          "gpt",
+          "harness",
+          "hermes-agent",
+          "knowledge-base",
+          "langchain",
+          "llm",
+          "mcp",
+          "model-context-protocol",
+          "multi-agent",
+          "openagent",
+          "openai",
+          "openclaw",
+          "rag"
+        ],
+        "url": "https://github.com/the-open-agent/openagent"
+      },
+      "thedotmack/claude-mem": {
+        "created_at": "2025-08-31",
+        "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "discovery": "active",
+        "forks": 8157,
+        "full_name": "thedotmack/claude-mem",
+        "id": 1048065319,
+        "language": "JavaScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-31",
+        "score": 24.87,
+        "star_growth_7d": null,
+        "stars": 92703,
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-memory",
+          "anthropic",
+          "artificial-intelligence",
+          "chromadb",
+          "claude",
+          "claude-agent-sdk",
+          "claude-agents",
+          "claude-code",
+          "claude-code-plugin",
+          "claude-skills",
+          "embeddings",
+          "long-term-memory",
+          "mem0",
+          "memory-engine",
+          "openmemory",
+          "rag",
+          "sqlite",
+          "supermemory"
+        ],
+        "url": "https://github.com/thedotmack/claude-mem"
+      },
+      "tiann/hapi": {
+        "created_at": "2025-12-24",
+        "description": "App for Codex / Claude Code / Pi / OpenCode / Kimi Code / Grok Build, vibe coding anytime, anywhere",
+        "discovery": "active",
+        "forks": 551,
+        "full_name": "tiann/hapi",
+        "id": 1122242121,
+        "language": "TypeScript",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-08-29",
+        "score": 19.6,
+        "star_growth_7d": null,
+        "stars": 4914,
+        "topics": [
+          "app",
+          "claude-code",
+          "codex",
+          "gemini-cli",
+          "opencode",
+          "remote-control"
+        ],
+        "url": "https://github.com/tiann/hapi"
+      },
+      "zai-org/GLM-5": {
+        "created_at": "2026-02-09",
+        "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+        "discovery": "active",
+        "forks": 925,
+        "full_name": "zai-org/GLM-5",
+        "id": 1153372704,
+        "language": null,
+        "license": "Apache-2.0",
+        "pushed_at": "2026-08-27",
+        "score": 19.91,
+        "star_growth_7d": null,
+        "stars": 7114,
+        "topics": [
+          "agentic-ai",
+          "coding",
+          "llm",
+          "long-horizon"
+        ],
+        "url": "https://github.com/zai-org/GLM-5"
+      }
+    }
+  }
 }
