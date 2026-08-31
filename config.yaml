@@ -1,0 +1,87 @@
+project:
+  title: AI Finance Daily
+  timezone: Asia/Shanghai
+  lookback_days: 14
+  max_papers_per_run: 30
+  max_repos_per_run: 30
+  archive_keep_days: 365
+
+papers:
+  max_arxiv_results: 150
+  ai_terms:
+    - artificial intelligence
+    - machine learning
+    - deep learning
+    - reinforcement learning
+    - large language model
+    - llm
+    - transformer
+    - neural network
+    - foundation model
+    - generative ai
+    - multi-agent
+    - autonomous agent
+    - graph neural network
+  investment_terms:
+    - algorithmic trading
+    - quantitative trading
+    - stock trading
+    - crypto trading
+    - financial trading
+    - portfolio optimization
+    - portfolio management
+    - asset allocation
+    - investment strategy
+    - investment decision
+    - stock prediction
+    - stock market
+    - financial market
+    - market forecasting
+    - return prediction
+    - price prediction
+    - alpha generation
+    - wealth management
+    - robo-advisor
+  exclude_terms:
+    - fraud detection
+    - credit scoring
+    - credit risk
+    - anti-money laundering
+    - insurance claim
+    - payment fraud
+
+github:
+  per_query: 12
+  min_stars: 2
+  new_repo_queries:
+    - 'AI quantitative trading'
+    - 'machine learning trading'
+    - 'LLM finance agent'
+    - 'reinforcement learning trading'
+    - 'portfolio optimization'
+    - 'algorithmic trading'
+    - 'stock analysis tool'
+    - 'financial data analysis'
+    - 'backtesting framework'
+    - 'crypto trading bot'
+    - 'stock market data API'
+    - 'financial data source'
+    - 'A-share stock data'
+    - 'futures market data'
+    - 'fund flow stock'
+    - 'capital flow trading'
+    - 'order flow trading'
+    - 'quantitative strategy'
+    - 'trading strategy backtest'
+  active_repo_queries:
+    - 'quantitative trading stars:>=100'
+    - 'financial analysis stars:>=100'
+    - 'backtesting stars:>=100'
+    - 'stock market data API stars:>=50'
+    - 'financial data source stars:>=50'
+    - 'fund flow trading stars:>=20'
+    - 'order flow trading stars:>=20'
+    - 'quantitative strategy stars:>=50'
+    - 'A-share data stars:>=20'
+    - 'futures trading stars:>=50'
+    - 'crypto trading stars:>=100'
