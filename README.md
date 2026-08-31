@@ -2,67 +2,174 @@
 
 [![Daily update](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml/badge.svg)](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml)
 
-每天自动搜集两类内容：
+每天自动搜集三类应用型内容：
 
-1. **论文**：严格要求同时涉及 AI 方法和投资、交易、资产配置或市场预测；来源至少包含 arXiv，并自动搜索对应 GitHub 代码。
-2. **项目**：近期创建或活跃的量化交易、金融分析、行情/财务数据源、资金流/订单流、回测、自研策略、投资 Agent 等 GitHub 工具，按 Star 数优先排行。
+1. **AI 投资与金融工具**：投资、交易、资产配置、行情/财务数据、资金流、回测与策略。
+2. **Vibe Coding**：Coding Agent、代码库理解、工作流自动化、工作学习与开发能力增强。
+3. **AI Infra**：vLLM、SGLang、推理服务、KV Cache、PD 分离、部署、RAG/Agent 基础设施、评测与可观测性。
+
+项目满足 **Star ≥ 100**，或**近 7 天增长 ≥ 20 Star**；新库创建 7 天内达到 20 Star 也会立即进入榜单。
 
 每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。完整结构化数据位于 [`data/state.json`](data/state.json)，每日快照位于 [`archive/`](archive/)。搜索词和阈值可在 [`config.yaml`](config.yaml) 调整。
 
 ---
 
-# AI 投资研究日报 · 2026-08-31
+# AI 应用研究日报 · 2026-08-31
 
-本期新增：**7 篇论文**（其中 1 篇找到可能的代码）和 **30 个 GitHub 项目**。
+本期新增：**0 篇论文**（其中 0 篇找到可能的代码）和 **30 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
-| 日期 | 论文 | 作者 | 代码 |
-|---|---|---|---|
-| 2026-08-28 | [RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents](https://arxiv.org/abs/2608.28399) | Yupeng Zhang, Liuyuan Jiang, Hongyi Huang 等 | — |
-| 2026-08-28 | [Regime-Aware Portfolio Management via Retrieval-Augmented LLM-Guided Expert Switching](https://arxiv.org/abs/2608.28252) | Ahmad Asadi, Reza Safabakhsh | — |
-| 2026-08-27 | [Tabular Deep Learning for Algorithmic Trading: Cross-Regime Bayesian Optimisation for Equity Signal Generation](https://arxiv.org/abs/2608.27076) | Joshua Le Grice | — |
-| 2026-08-25 | [Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows](https://arxiv.org/abs/2608.24842) | Miao Liu, Zhizhe Liu | — |
-| 2026-08-24 | [(Mis)Understanding Benign Overfitting in Equity Return Prediction](https://arxiv.org/abs/2608.23761) | Hui Guo, Jiawei Huang, Runze Li 等 | [标题匹配](https://github.com/Jiawei98/BenignOverfitting) |
-| 2026-08-24 | [Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron](https://arxiv.org/abs/2608.22852) | Sahong Park, Suhwan Park, Hoyoung Lee 等 | — |
-| 2026-08-20 | [Automated Summarization of Financial News Using Large Language Models and Retrieval-Augmented Generation: An Early Empirical Study (Fall 2023)](https://arxiv.org/abs/2608.19526) | Pranav Chandaliya | — |
+本期没有发现通过严格双重筛选的新论文。
 
 
 ## GitHub 金融与交易工具
 
-| 项目 | 简介 | ⭐ | 语言 | 类型 |
-|---|---|---:|---|---|
-| [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | Free, open source crypto trading bot | 53851 | Python | 近期活跃 |
-| [ccxt/ccxt](https://github.com/ccxt/ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java  | 43813 | Python | 近期活跃 |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | 32131 | Python | 近期活跃 |
-| [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution. | 20740 | Jupyter Notebook | 近期活跃 |
-| [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and deploy high-frequency crypto trading bots | 19711 | Python | 近期活跃 |
-| [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading. | 14075 | Python | 近期活跃 |
-| [NoFxAiOS/nofx](https://github.com/NoFxAiOS/nofx) | Your AI trading terminal assistant for US stocks, commodities, forex, and crypto. | 12788 | Go | 近期活跃 |
-| [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading | 11249 | Python | 近期活跃 |
-| [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 10669 | C# | 近期活跃 |
-| [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) | A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 \| Full-stack China A-share data toolkit for AI agents — 11 layers, 54 endpoints, 19 sources, zero-auth | 9382 |  | 近期活跃 |
-| [jesse-ai/jesse](https://github.com/jesse-ai/jesse) | An advanced crypto trading bot written in Python | 8397 | Python | 近期活跃 |
-| [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) | Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit. | 6860 | TypeScript | 近期活跃 |
-| [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities | 6737 | Python | 近期活跃 |
-| [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface. | 6494 | Python | 近期活跃 |
-| [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) | Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments. | 5633 | JavaScript | 近期活跃 |
-| [chrisleekr/binance-trading-bot](https://github.com/chrisleekr/binance-trading-bot) | Automated Binance trading bot with pluggable strategies, historical backtesting, and a live dashboard | 5548 | TypeScript | 近期活跃 |
-| [JerBouma/FinanceToolkit](https://github.com/JerBouma/FinanceToolkit) | Transparent and Efficient Financial Analysis | 5276 | Python | 近期活跃 |
-| [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) | A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, and more \| 量化交易 \| 量化投资 | 5051 | HTML | 近期活跃 |
-| [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | 4305 | Python | 近期活跃 |
-| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 ,非第三方官方项目 | 4000 | Python | 近期活跃 |
-| [edtechre/pybroker](https://github.com/edtechre/pybroker) | Algorithmic Trading in Python with Machine Learning | 3520 | Python | 近期活跃 |
-| [himself65/finance-skills](https://github.com/himself65/finance-skills) | A collection of skills for AI financial analysis. | 3263 | JavaScript | 近期活跃 |
-| [hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) | C++ DataFrame for statistical, financial, and ML analysis in modern C++ | 2981 | C++ | 近期活跃 |
-| [akfamily/akquant](https://github.com/akfamily/akquant) | AKQuant is a high-performance quantitative research and trading framework built on Rust and Python! 开源量化回测框架 | 2110 | Python | 近期活跃 |
-| [enarjord/passivbot](https://github.com/enarjord/passivbot) | Trading bot running on Bybit, Bitget, OKX, GateIO, Binance, Kucoin, WEEX and Hyperliquid | 2085 | Python | 近期活跃 |
-| [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) | 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development. | 2039 | TypeScript | 近期活跃 |
-| [coding-kitties/investing-algorithm-framework](https://github.com/coding-kitties/investing-algorithm-framework) | Framework for quantitative trading. Complete framework for development, backtesting, and deploying automated trading algorithms and trading bots. | 2027 | Python | 近期活跃 |
-| [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) | Backtestable AI trading agents and Python algorithmic trading strategies for stocks, options, crypto, futures, forex, SEC filings, FRED macro data, and real brokers. | 2014 | Python | 近期活跃 |
-| [Barca0412/Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance) | AI+金融（量化）：1.多因子股票量化框架开源教程 2.学界和业界的经典资料收录 3.AI + 金融的相关工作，包括LLM, Agent, benchmark(evaluation), etc. | 1706 | Python | 近期活跃 |
-| [arrobalytics/django-ledger](https://github.com/arrobalytics/django-ledger) | Django Ledger is a double entry accounting system and financial analysis engine built on the Django Web Framework. | 1374 | Python | 近期活跃 |
+| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
+|---|---|---:|---:|---|---|
+| [fasiondog/hikyuu](https://github.com/fasiondog/hikyuu) | Hikyuu Quant Framework 基于C++/Python的超高速开源量化交易研究框架，同时可基于策略部件进行资产重用，快速累积策略资产。 | 3475 | — | C++ | 近期活跃 |
+| [FinMind/FinMind](https://github.com/FinMind/FinMind) | Open Data, more than 50 financial data. 提供超過 50 個金融資料(台股為主)，每天更新 https://finmind.github.io/ | 2773 | — | HTML | 近期活跃 |
+| [barter-rs/barter-rs](https://github.com/barter-rs/barter-rs) | Open-source Rust framework for building event-driven live-trading & backtesting systems | 2247 | — | Rust | 近期活跃 |
+| [cinar/indicator](https://github.com/cinar/indicator) | Indicator Go delivers a rich set of technical analysis indicators, customizable strategies, and a powerful backtesting framework. No dependencies, just pure simplicity. ✨ See how! 👀 | 1633 | — | Go | 近期活跃 |
+| [facioquo/stock-indicators-dotnet](https://github.com/facioquo/stock-indicators-dotnet) | Stock Indicators for .NET is a C# NuGet package that transforms raw equity, commodity, forex, or cryptocurrency financial market price quotes into technical indicators and trading insights. You'll need this essential data in the investment tools that you're building for algorithmic trading, technical analysis, machine learning, or visual charting. | 1238 | — | C# | 近期活跃 |
+| [JKorf/Binance.Net](https://github.com/JKorf/Binance.Net) | C#/.NET client library for the Binance.com cryptocurrency exchange REST and WebSocket APIs, supporting Spot and Futures trading and market data with strongly typed models. | 1172 | — | C# | 近期活跃 |
+| [FinHackCN/finhack](https://github.com/FinHackCN/finhack) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | 1150 | — | Python | 近期活跃 |
+| [bennycode/trading-signals](https://github.com/bennycode/trading-signals) | Technical indicators to run technical analysis with JavaScript & TypeScript. 📈 | 989 | — | TypeScript | 近期活跃 |
+| [quarkfin/qf-lib](https://github.com/quarkfin/qf-lib) | Modular Python library that provides an advanced event driven backtester and a set of high quality tools for quantitative finance. Integrated with various data vendors and brokers, supports Crypto, Stocks and Futures. | 957 | — | Python | 近期活跃 |
+| [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude. | 838 | — | TypeScript | 近期活跃 |
+| [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) | 🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice. | 706 | — | Python | 近期活跃 |
+| [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) | A curated list of awesome resources for quantitative investment and trading strategies focusing on artificial intelligence and machine learning applications in finance. | 583 | — | Jupyter Notebook | 近期活跃 |
+| [cinar/indicatorts](https://github.com/cinar/indicatorts) | Indicator TS delivers a rich set of technical analysis indicators, customizable strategies, and a powerful backtesting framework. No dependencies, just pure simplicity. ✨ See how! 👀 | 468 | — | TypeScript | 近期活跃 |
+| [okx/agent-trade-kit](https://github.com/okx/agent-trade-kit) | OKX trading MCP server — connect AI agents to spot, swap, futures, options & grid bots via the Model Context Protocol.   | 416 | — | TypeScript | 近期活跃 |
+| [agiprolabs/claude-trading-skills](https://github.com/agiprolabs/claude-trading-skills) | 67 trading, DeFi, and quantitative finance Agent Skills. Works with Claude Code, Cursor, Codex, Gemini CLI, and 30+ other tools. | 332 | — | Python | 近期活跃 |
+| [kunkundi/niuone](https://github.com/kunkundi/niuone) | An intelligent market research workspace centered on simulated A-share trading, integrating market data aggregation, strategy research, and portfolio tracking \| 一套以 A 股模拟交易为核心，融合行情聚合、策略研究与账户跟踪的智能市场研究工作台。 | 284 | — | Python | 近期活跃 |
+| [evelyyyyynnnnn/3.0-Financial-Ai-Systems](https://github.com/evelyyyyynnnnn/3.0-Financial-Ai-Systems) | Machine learning and optimization models designed to enhance financial system stability through portfolio optimization, risk forecasting, and network-based financial risk analysis. | 284 | — | HTML | 近期活跃 |
+| [finos/common-domain-model](https://github.com/finos/common-domain-model) | The CDM is a model for financial products, trades in those products, and the lifecycle events of those trades. It is an open source standard that aligns data, systems and processes and is available as code in multiple languages for easy implementation across technologies. | 275 | — | Java | 近期活跃 |
+| [Lqz13Th/extrema_infra](https://github.com/Lqz13Th/extrema_infra) | A high-performance quantitative trading infrastructure built in Rust. | 265 | — | Rust | 近期活跃 |
+| [dearvn/trading-futures-tradingview-script](https://github.com/dearvn/trading-futures-tradingview-script) | I write pine script to trade futures ES1 NQ1 with signal IN (accurate 90%) and now I am trading on that | 249 | — |  | 近期活跃 |
+| [rsandx/AlphaSuite](https://github.com/rsandx/AlphaSuite) | AlphaSuite is an open-source quantitative analysis platform that gives you the power to build, test, and deploy professional-grade trading strategies. It's designed for traders and analysts who want to move beyond simple backtests and develop a genuine, data-driven edge in the financial markets. | 237 | — | Python | 近期活跃 |
+| [FLOX-Foundation/flox](https://github.com/FLOX-Foundation/flox) | AI-native framework for building trading systems with polyglot bindings. | 223 | — | C++ | 近期活跃 |
+| [wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil) | ultra low latency graph based stream processing framework | 217 | — | Rust | 近期活跃 |
+| [daniel3303/Equibles](https://github.com/daniel3303/Equibles) | Self-hosted, open-source financial data MCP server for AI agents — SEC filings, XBRL financials, 13F holdings, insider & congressional trades, short interest, FRED, CFTC/CBOE and daily prices across 64 MCP tools. Equibles Cloud adds earnings call transcripts, live quotes, options chains with Greeks, guidance and a screener. | 203 | — | C# | 近期活跃 |
+| [yennanliu/InvestSkill](https://github.com/yennanliu/InvestSkill) | US stock analysis skills for LLMs (Claude code, Gemini ...)  \| #AI | 197 | — | JavaScript | 近期活跃 |
+| [OnePunchMonk/AgentQuant](https://github.com/OnePunchMonk/AgentQuant) | Autonomous quantitative trading research platform with self-improving AI agents using adaptive harness evolution, transforms stock lists into fully backtested strategies without coding | 182 | — | Python | 近期活跃 |
+| [cloudQuant/backtrader](https://github.com/cloudQuant/backtrader) | High-performance Python backtesting & live-trading framework: 45%+ faster than upstream, 50+ indicators, tick-to-daily strategies, plus an AI-native workflow (MCP server, agent skills, web platform). | 159 | — | Python | 近期活跃 |
+| [0xramm/Indian-Stock-Market-API](https://github.com/0xramm/Indian-Stock-Market-API) | Free REST API for NSE and BSE Indian stock market data. Real-time stock prices, company info, and market data via Yahoo Finance. Perfect for n8n, Zapier, trading bots, and automation. No API key required. Python Flask. MIT License. | 135 | — | JavaScript | 近期活跃 |
+| [Agentic-Analyst/stock-analyst](https://github.com/Agentic-Analyst/stock-analyst) | VYNN AI Agent Backend is a standalone agent execution system for financial analysis. It orchestrates LLM-based agents to scrape historical financial data, build valuation models, analyze real-time financial news, and generate structured financial reports, with a focus on modularity and reproducible execution. | 124 | — | Python | 近期活跃 |
+| [alihaskar/pycharting](https://github.com/alihaskar/pycharting) | A high-performance, open-source Python charting library for visualizing financial data with technical indicators. Built with FastAPI, uPlot, and modern web technologies. | 116 | — | Python | 近期活跃 |
 
 
-> 代码链接由规则自动匹配；“标题匹配”需要人工复核。本仓库只做研究信息整理，不构成投资建议。
+## Vibe Coding · 工作与学习增强
+
+新增 **15 篇论文**（4 篇找到代码）和 **25 个项目**。
+
+### 论文
+
+| 日期 | 论文 | 作者 | 代码 |
+|---|---|---|---|
+| 2026-08-28 | [On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces](https://arxiv.org/abs/2608.28497) | Ahmed Hereiz, Yingzhe Lyu, Hao Li 等 | — |
+| 2026-08-28 | [Prove2Me: An Open Collaborative Platform for Scaling Math Formalization](https://arxiv.org/abs/2608.28433) | Shuze Chen, Kunal Marwaha, Xiaoyang Lu 等 | — |
+| 2026-08-28 | [LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering](https://arxiv.org/abs/2608.28281) | Yi Wang, Haopeng Zhang, Chengxiang Huang 等 | [论文链接](https://github.com/AMAP-ML/LoopArena) |
+| 2026-08-28 | [openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents](https://arxiv.org/abs/2608.27969) |  openJiuwen Team, Tao Yu, Xinyu Zhang 等 | — |
+| 2026-08-28 | [RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests](https://arxiv.org/abs/2608.27831) | Gyuhyeong Kim, Hyojung Gwon, Jeonghyeon Kim 等 | — |
+| 2026-08-28 | [Credo: Reusable Declarative Primitives for Agentic Workflows](https://arxiv.org/abs/2608.27790) | Duo Lu, Andrew Crotty, Uğur Çetintemel | — |
+| 2026-08-27 | [Operationalizing Regulations into Code: A Model to Enhance Governance and Compliance in LLM Selection for Software Engineering](https://arxiv.org/abs/2608.27703) | Jonysberg Quintino, Hermano Moura, Filipe Calegário | — |
+| 2026-08-27 | [The Thousand-Graph Hypothesis: A Testable Hypothesis of Task-Conditioned Relation Materialization in Repository-Level Code Reasoning](https://arxiv.org/abs/2608.26602) | Fei Ding | — |
+| 2026-08-26 | [Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role](https://arxiv.org/abs/2608.26093) | Ahmad Khan, Akram Bin Sediq, Sara Azadegi Naeini 等 | — |
+| 2026-08-26 | [Vulnerable Code Search: Transferable Attack for Code Language Models](https://arxiv.org/abs/2608.26031) | Kaicheng Wang, Liyan Huang, Jesse Thomason 等 | — |
+| 2026-08-26 | [Code World Model: Coding Agent as World Brain](https://arxiv.org/abs/2608.25927) | Yiwen Chen, Guosheng Lin, Chi Zhang | — |
+| 2026-08-26 | [SkillShield: Prompt-Space Security Skills for LLM Coding Agents](https://arxiv.org/abs/2608.25817) | Xiaodong Wu, Zhimin Zhao, Qi Li 等 | — |
+| 2026-08-26 | [EVOMAL: Self-Poisoning in Self-Evolving Coding Agents](https://arxiv.org/abs/2608.25776) | Xiaodong Wu, Yu Shi, Qi Li 等 | [标题匹配](https://github.com/YuxingLu613/awesome-agentic-evolution) |
+| 2026-08-26 | [Same Model, Different Harness: Different Coding-Agent Results](https://arxiv.org/abs/2608.26218) | Sydney Lewis | [arXiv 页面](https://github.com/sydches/yuj) |
+| 2026-08-26 | [A Taxonomy of Construction Task Activities for Robot Workers](https://arxiv.org/abs/2608.25395) | Sadman Sakib, Zhangyi None Peng, Yujie Pang 等 | [论文链接](https://github.com/AICPS/TARCAT-Taxonomy) |
+
+
+### GitHub 项目
+
+| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
+|---|---|---:|---:|---|---|
+| [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | 279841 | — | Shell | 近期活跃 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 244890 | — | JavaScript | 近期活跃 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | 202692 | — | TypeScript | 近期活跃 |
+| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 143521 | — | Python | 近期活跃 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io | 130317 | — | Rust | 近期活跃 |
+| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | 120302 | — | Rust | 近期活跃 |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 99731 | — | TypeScript | 近期活跃 |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK. | 92940 | — |  | 近期活跃 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More | 92701 | — | JavaScript | 近期活跃 |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents. | 91023 | — | JavaScript | 近期活跃 |
+| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec-driven development (SDD) for AI coding assistants. | 66767 | — | TypeScript | 近期活跃 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | from vibe coding to agentic engineering - practice makes claude perfect | 65412 | — | HTML | 近期活跃 |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. | 54806 | — | Python | 近期活跃 |
+| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent \| Customize your assistants \| Team them up｜Star if you like it! | 32457 | — | TypeScript | 近期活跃 |
+| [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站 | 19335 | — | JavaScript | 近期活跃 |
+| [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) | 💻  vibe coding 101｜The first course for AI-native product builders. | 19193 | — | JavaScript | 近期活跃 |
+| [chenhg5/cc-connect](https://github.com/chenhg5/cc-connect) | Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. | 15286 | — | Go | 近期活跃 |
+| [zai-org/GLM-5](https://github.com/zai-org/GLM-5) | GLM-5: From Vibe Coding to Agentic Engineering | 7113 | — |  | 近期活跃 |
+| [github/CopilotForXcode](https://github.com/github/CopilotForXcode) | AI coding assistant for Xcode | 6289 | — | Swift | 近期活跃 |
+| [google/agents-cli](https://github.com/google/agents-cli) | The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud. | 5765 | — | Python | 近期活跃 |
+| [the-open-agent/openagent](https://github.com/the-open-agent/openagent) | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org | 5591 | — | Go | 近期活跃 |
+| [cloudflare/vibesdk](https://github.com/cloudflare/vibesdk) | An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack  | 5340 | — | TypeScript | 近期活跃 |
+| [tiann/hapi](https://github.com/tiann/hapi) | App for Codex / Claude Code / Pi / OpenCode / Kimi Code / Grok Build, vibe coding anytime, anywhere | 4914 | — | TypeScript | 近期活跃 |
+| [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe) | Minimal CLI coding agent by Mistral | 4898 | — | Python | 近期活跃 |
+| [CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext) | An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants. | 4140 | — | Python | 近期活跃 |
+
+
+## AI Infra · 推理部署与应用基础设施
+
+新增 **15 篇论文**（3 篇找到代码）和 **25 个项目**。
+
+### 论文
+
+| 日期 | 论文 | 作者 | 代码 |
+|---|---|---|---|
+| 2026-08-28 | [A Probabilistic Interpretation of KV Cache Eviction](https://arxiv.org/abs/2608.28293) | Renato Geh, Alex Chen, Daniel Israel 等 | — |
+| 2026-08-28 | [Speculative Probing: LLM Monitoring at Speculative-Decoding Cost](https://arxiv.org/abs/2608.28099) | Collin Zhang, Tingwei Zhang, Vitaly Shmatikov | — |
+| 2026-08-28 | [Cross-Session Decomposition Attacks: Scaling Risk and Intent-Aligned Retrieval Defense](https://arxiv.org/abs/2608.27945) | Disen Liao, Yihan Wang, Freda Shi 等 | [论文链接](https://github.com/liaodisen/Cross-Session-Decomposition-Attacks) |
+| 2026-08-28 | [DensityKV: Density-Guided KV Cache Compression for Long Video Generation](https://arxiv.org/abs/2608.27922) | Wenqu Zhao, Xuemin Chi, Xin Zhang 等 | [arXiv 页面](https://github.com/ZhaoWQQ/DensityKV) |
+| 2026-08-28 | [Auditing Generative Audio Calls for Known-Task Audio-LLM Evaluation](https://arxiv.org/abs/2608.27817) | Mengzhe Geng | — |
+| 2026-08-27 | [TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy](https://arxiv.org/abs/2608.27128) | Hong Chen, Yudong Zeng, Yongwei Huang 等 | — |
+| 2026-08-27 | [Trajectory-Level Speculative Decoding for Diffusion Language Models](https://arxiv.org/abs/2608.27514) | Tianxiang Pan, Baitao Gong, Mo Guang 等 | — |
+| 2026-08-27 | [DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization](https://arxiv.org/abs/2608.27513) | Tao Zhang, Jianchao Tan, Pingwei Sun 等 | — |
+| 2026-08-27 | [RECAP-Forcing: Retaining Content Appearances for Long Video Generation](https://arxiv.org/abs/2608.26671) | Haiyang Xu, Zheng Ding, Zhuowen Tu | — |
+| 2026-08-27 | [Launch-Bound and Substitutable: Why Three Inference Optimizations Fail to Pay Off in Mixture-of-Experts Models](https://arxiv.org/abs/2608.26612) | Gokulakannan Sakthivel, Jerry Wu, Amogh Rajendra 等 | — |
+| 2026-08-27 | [VPP: Virtual Pipeline Parallelism for Efficient Chunked Prefill in Long-Context LLM Inference](https://arxiv.org/abs/2608.26523) | Yan Shi, Xiaochao Wang, Jingchun Gao 等 | — |
+| 2026-08-26 | [AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs](https://arxiv.org/abs/2608.26004) | Sheng Liang, Yongyue Zhang, Nathanael Brian 等 | [ID 命中](https://github.com/USTC-StarTeam/AsymSpec) |
+| 2026-08-26 | [Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence](https://arxiv.org/abs/2608.25869) | Ante Kapetanovic, Kemal Altwlkany, Andro Mercep 等 | — |
+| 2026-08-26 | [Key Point Analysis Needs Structure Recovery: Task Definition, Dataset Diagnosis, and a Structure-Aware Benchmark](https://arxiv.org/abs/2608.25854) | Zhiqiang Shi, Oana Cocarascu | — |
+| 2026-08-26 | [LMSM: LLM Security Framework Inspired by Linux Security Modules](https://arxiv.org/abs/2608.25697) | XiuYu Zhang, Bonan Ruan, Junfeng Fang 等 | — |
+
+
+### GitHub 项目
+
+| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
+|---|---|---:|---:|---|---|
+| [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | 279841 | — | Shell | 近期活跃 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | The agent engineering platform. | 145323 | — | Python | 近期活跃 |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs | 90568 | — | Python | 近期活跃 |
+| [pathwaycom/pathway](https://github.com/pathwaycom/pathway) | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. | 62363 | — | Python | 近期活跃 |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks. | 57860 | — | Python | 近期活跃 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM] | 57656 | — | Python | 近期活跃 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | LlamaIndex is the leading document agent and OCR platform | 51931 | — | Python | 近期活跃 |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps | 47560 | — | Python | 近期活跃 |
+| [ray-project/ray](https://github.com/ray-project/ray) | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. | 43664 | — | Python | 近期活跃 |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML. Render video. Built for agents. | 43266 | — | TypeScript | 近期活跃 |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Build resilient agents. | 40762 | — | Python | 近期活跃 |
+| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨ | 39839 | — | Python | 近期活跃 |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23  | 33968 | — | TypeScript | 近期活跃 |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | 32971 | — | Python | 近期活跃 |
+| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0 | 31762 | — | Python | 近期活跃 |
+| [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent workflows | 29089 | — | Python | 近期活跃 |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data. | 27744 | — | Python | 近期活跃 |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | Mastra is the modern TypeScript framework for AI-powered applications and agents. | 27585 | — | TypeScript | 近期活跃 |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems. | 26368 | — | Python | 近期活跃 |
+| [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | 23119 | — | Python | 近期活跃 |
+| [openobserve/openobserve](https://github.com/openobserve/openobserve) | Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment. | 21580 | — | TypeScript | 近期活跃 |
+| [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. | 21351 | — | Jupyter Notebook | 近期活跃 |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving. | 20093 | — | Python | 近期活跃 |
+| [elizaOS/eliza](https://github.com/elizaOS/eliza) | Open source agentic operating system | 19217 | — | TypeScript | 近期活跃 |
+| [stas00/ml-engineering](https://github.com/stas00/ml-engineering) | Machine Learning Engineering Open Book | 18847 | — | Python | 近期活跃 |
+
+
+> 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。
 
