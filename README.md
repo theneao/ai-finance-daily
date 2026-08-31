@@ -13,7 +13,7 @@
 
 # AI 投资研究日报 · 2026-08-31
 
-本期新增：**8 篇论文**（其中 3 篇找到可能的代码）和 **30 个 GitHub 项目**。
+本期新增：**8 篇论文**（其中 1 篇找到可能的代码）和 **30 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
@@ -22,11 +22,11 @@
 | 2026-08-28 | [RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents](https://arxiv.org/abs/2608.28399) | Yupeng Zhang, Liuyuan Jiang, Hongyi Huang 等 | — |
 | 2026-08-28 | [Regime-Aware Portfolio Management via Retrieval-Augmented LLM-Guided Expert Switching](https://arxiv.org/abs/2608.28252) | Ahmad Asadi, Reza Safabakhsh | — |
 | 2026-08-27 | [Tabular Deep Learning for Algorithmic Trading: Cross-Regime Bayesian Optimisation for Equity Signal Generation](https://arxiv.org/abs/2608.27076) | Joshua Le Grice | — |
-| 2026-08-25 | [Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows](https://arxiv.org/abs/2608.24842) | Miao Liu, Zhizhe Liu | [ID 命中](https://github.com/InsomaniacElf/sg-tamil-tts-resources-) |
+| 2026-08-25 | [Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows](https://arxiv.org/abs/2608.24842) | Miao Liu, Zhizhe Liu | — |
 | 2026-08-24 | [(Mis)Understanding Benign Overfitting in Equity Return Prediction](https://arxiv.org/abs/2608.23761) | Hui Guo, Jiawei Huang, Runze Li 等 | [标题匹配](https://github.com/Jiawei98/BenignOverfitting) |
 | 2026-08-24 | [Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron](https://arxiv.org/abs/2608.22852) | Sahong Park, Suhwan Park, Hoyoung Lee 等 | — |
 | 2026-08-20 | [ReguSim: Evaluating LLM Agent Rule Grounding in Financial Compliance](https://arxiv.org/abs/2608.19974) | Yiyang Luo, Yihang Jiang, Qijun Xie 等 | — |
-| 2026-08-20 | [Automated Summarization of Financial News Using Large Language Models and Retrieval-Augmented Generation: An Early Empirical Study (Fall 2023)](https://arxiv.org/abs/2608.19526) | Pranav Chandaliya | [ID 命中](https://github.com/phuthiendao/RAG-arxiv-daily) |
+| 2026-08-20 | [Automated Summarization of Financial News Using Large Language Models and Retrieval-Augmented Generation: An Early Empirical Study (Fall 2023)](https://arxiv.org/abs/2608.19526) | Pranav Chandaliya | — |
 
 
 ## GitHub 金融与交易工具
@@ -38,11 +38,11 @@
 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | 32131 | Python | 近期活跃 |
 | [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution. | 20740 | Jupyter Notebook | 近期活跃 |
 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and deploy high-frequency crypto trading bots | 19711 | Python | 近期活跃 |
-| [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading. | 14074 | Python | 近期活跃 |
+| [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading. | 14075 | Python | 近期活跃 |
 | [NoFxAiOS/nofx](https://github.com/NoFxAiOS/nofx) | Your AI trading terminal assistant for US stocks, commodities, forex, and crypto. | 12788 | Go | 近期活跃 |
-| [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading | 11247 | Python | 近期活跃 |
+| [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading | 11249 | Python | 近期活跃 |
 | [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 10669 | C# | 近期活跃 |
-| [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) | A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 \| Full-stack China A-share data toolkit for AI agents — 11 layers, 54 endpoints, 19 sources, zero-auth | 9381 |  | 近期活跃 |
+| [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) | A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 \| Full-stack China A-share data toolkit for AI agents — 11 layers, 54 endpoints, 19 sources, zero-auth | 9382 |  | 近期活跃 |
 | [jesse-ai/jesse](https://github.com/jesse-ai/jesse) | An advanced crypto trading bot written in Python | 8397 | Python | 近期活跃 |
 | [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) | Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit. | 6860 | TypeScript | 近期活跃 |
 | [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities | 6737 | Python | 近期活跃 |
@@ -58,7 +58,7 @@
 | [hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) | C++ DataFrame for statistical, financial, and ML analysis in modern C++ | 2981 | C++ | 近期活跃 |
 | [akfamily/akquant](https://github.com/akfamily/akquant) | AKQuant is a high-performance quantitative research and trading framework built on Rust and Python! 开源量化回测框架 | 2110 | Python | 近期活跃 |
 | [enarjord/passivbot](https://github.com/enarjord/passivbot) | Trading bot running on Bybit, Bitget, OKX, GateIO, Binance, Kucoin, WEEX and Hyperliquid | 2085 | Python | 近期活跃 |
-| [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) | 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development. | 2037 | TypeScript | 近期活跃 |
+| [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) | 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development. | 2039 | TypeScript | 近期活跃 |
 | [coding-kitties/investing-algorithm-framework](https://github.com/coding-kitties/investing-algorithm-framework) | Framework for quantitative trading. Complete framework for development, backtesting, and deploying automated trading algorithms and trading bots. | 2027 | Python | 近期活跃 |
 | [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) | Backtestable AI trading agents and Python algorithmic trading strategies for stocks, options, crypto, futures, forex, SEC filings, FRED macro data, and real brokers. | 2014 | Python | 近期活跃 |
 | [Barca0412/Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance) | AI+金融（量化）：1.多因子股票量化框架开源教程 2.学界和业界的经典资料收录 3.AI + 金融的相关工作，包括LLM, Agent, benchmark(evaluation), etc. | 1706 | Python | 近期活跃 |
