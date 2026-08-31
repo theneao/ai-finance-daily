@@ -4,7 +4,18 @@ project:
   lookback_days: 14
   max_papers_per_run: 30
   max_repos_per_run: 30
+  max_topic_papers_per_run: 15
+  max_topic_repos_per_run: 25
+  min_popular_stars: 100
+  weekly_star_growth: 20
+  star_growth_days: 7
   archive_keep_days: 365
+
+code_sources:
+  papers_with_code: true
+  research_code: true
+  arxiv_page: true
+  github_search: true
 
 papers:
   max_arxiv_results: 150
@@ -87,3 +98,120 @@ github:
     - 'A-share data stars:>=20'
     - 'futures trading stars:>=50'
     - 'crypto trading stars:>=100'
+  growth_repo_queries:
+    - 'quantitative trading'
+    - 'financial data API'
+    - 'backtesting framework'
+    - 'fund flow trading'
+
+topics:
+  vibe_coding:
+    title: Vibe Coding · 工作与学习增强
+    paper_terms:
+      - coding agent
+      - software engineering agent
+      - code generation agent
+      - repository-level code
+      - codebase understanding
+      - AI programming assistant
+      - developer productivity
+      - human-AI programming
+      - agentic software engineering
+      - automated software development
+    application_terms:
+      - agent
+      - assistant
+      - workflow
+      - repository
+      - codebase
+      - developer
+      - productivity
+      - debugging
+      - testing
+      - learning
+      - education
+      - tool
+      - benchmark
+    github:
+      per_query: 10
+      min_stars: 5
+      new_repo_queries:
+        - 'vibe coding'
+        - 'coding agent'
+        - 'AI coding assistant'
+        - 'agentic software engineering'
+        - 'codebase agent'
+        - 'developer productivity AI'
+        - 'AI learning assistant coding'
+      active_repo_queries:
+        - 'vibe coding stars:>=100'
+        - 'coding agent stars:>=500'
+        - 'AI coding assistant stars:>=500'
+        - 'software engineering agent stars:>=200'
+        - 'developer productivity AI stars:>=100'
+      growth_repo_queries:
+        - 'vibe coding'
+        - 'coding agent'
+        - 'AI coding assistant'
+
+  ai_infra:
+    title: AI Infra · 推理部署与应用基础设施
+    paper_terms:
+      - vllm
+      - sglang
+      - LLM serving
+      - LLM inference engine
+      - large language model serving
+      - inference optimization
+      - speculative decoding
+      - KV cache
+      - prefix caching
+      - disaggregated inference
+      - prefill decode disaggregation
+      - LLM deployment
+      - agent infrastructure
+      - RAG infrastructure
+      - LLM observability
+      - LLM evaluation
+    application_terms:
+      - serving
+      - inference
+      - deployment
+      - throughput
+      - latency
+      - scheduling
+      - cache
+      - engine
+      - runtime
+      - system
+      - framework
+      - evaluation
+      - observability
+      - production
+    github:
+      per_query: 10
+      min_stars: 5
+      new_repo_queries:
+        - 'vllm'
+        - 'sglang'
+        - 'LLM inference engine'
+        - 'LLM serving framework'
+        - 'speculative decoding'
+        - 'KV cache LLM'
+        - 'AI agent infrastructure'
+        - 'RAG infrastructure'
+        - 'LLM observability'
+        - 'LLM evaluation framework'
+      active_repo_queries:
+        - 'vllm stars:>=100'
+        - 'sglang stars:>=100'
+        - 'LLM serving stars:>=500'
+        - 'LLM inference engine stars:>=500'
+        - 'AI agent framework stars:>=500'
+        - 'RAG framework stars:>=500'
+        - 'LLM observability stars:>=100'
+      growth_repo_queries:
+        - 'vllm'
+        - 'sglang'
+        - 'LLM inference engine'
+        - 'LLM serving framework'
