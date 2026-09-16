@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-12T04:54:08.006618+00:00",
+  "last_run": "2026-09-16T05:06:28.585232+00:00",
   "papers": {
     "2608.19526": {
       "abstract": "Stock market analysts and investors face a daily challenge: too much financial news, too little time. Manually reading and synthesizing hundreds of company-specific articles is impractical, yet missing key information can directly affect investment decisions. This project, conducted at George Washington University in Fall 2023, explores whether Large Language Models can automate this process reliably. We built a pipeline that pulls news articles from the News API, company background from Wikipedia, and stock price data from Yahoo Finance for ten major companies (AAPL, MSFT, GOOGL, AMZN, META, TSLA, JPM, NVDA, WMT, DIS). Because LLMs cannot directly process numerical tables, we developed a simple but effective template that converts stock data into natural language narratives. We then tested two summarization approaches (Summarize Chains and Retrieval-Augmented Generation with FAISS) across three open-source models (Falcon-7B-Instruct, DistilBART-CNN-12-6, BART-Large-XSum) for news, and GPT (text-davinci-003) for stock summaries. Falcon-7B with Summarize Chains gave the best results, covering all news events accurately and coherently. RAG, while promising in theory, caused severe repetition in Falcon and hallucinated facts in BART-Large when k was large. Both LLM-based approaches outperformed a simple Lead-3 baseline on ROUGE-1. We also built a Streamlit dashboard for interactive stock visualization. The work was done in Fall 2023, before RAG-based financial tools became widespread, and the failure modes we document, particularly hallucination under RAG in smaller models, remain relevant today.",
@@ -402,6 +402,97 @@
       "published": "2026-09-07",
       "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
       "updated": "2026-09-07"
+    },
+    "2609.12137": {
+      "abstract": "Measuring the preferences of human users remains a fundamental challenge of AI alignment. Existing elicitation approaches struggle to efficiently discover multidimensional preferences or accurately ground these inferences in domain knowledge. To address this, we introduce GUIDE, an LLM-driven elicitation architecture that infers user preferences through conversations by combining Bayesian adaptive sampling for question selection and symbolic representation learning to initialize domain-specific preference models. GUIDE generalizes adaptive sampling to diverse elicitation questions through an extensible type system of transforms on a parameterized preference state. GUIDE produces domain-specific preference representations through an initialization process using symbolic rule-based learning to capture world knowledge and set priors over preference dimensions grounded in data about decision alternatives. The architecture provides observability and steerability to facilitate deployment and analyze elicitation processes. In silico experiments on investment portfolio optimization demonstrate that GUIDE improves cold-start and minimizes recommendation regret consistently within early elicitation interactions across user personas compared to prior work, LLM-only baselines, and ablated GUIDE versions.",
+      "authors": [
+        "Anagha Tiwari",
+        "Alexander G. Gray",
+        "Nick Feamster",
+        "Brian Jabarian",
+        "Alex Imas",
+        "Alex Kale"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-09-16",
+      "id": "2609.12137",
+      "paper_url": "https://arxiv.org/abs/2609.12137",
+      "pdf_url": "https://arxiv.org/pdf/2609.12137",
+      "published": "2026-09-10",
+      "title": "GUIDE: Generative Utility Inference and Decision Engine",
+      "updated": "2026-09-10"
+    },
+    "2609.12793": {
+      "abstract": "Stock price prediction remains challenging due to the non-stationary and noisy nature of financial time series. Existing deep learning models often rely on rigid decision-level fusion, ad hoc hyperparameter tuning, and compressed final-layer outputs, causing information loss, overfitting, and limited cross-market generalization. We propose VertiFuseX, a hybrid LSTM architecture using penultimate-layer vertical fusion of multi-scale temporal representations. VertiFuseX stacks and reweights penultimate features from LSTM, Bi-LSTM, and St-LSTM branches, integrates a parallel DNN stream, and jointly optimizes all components via backpropagation under a fixed hyperparameter configuration. This preserves richer intermediate temporal information across scales. Evaluated on 15 years (2010-2024) of closing prices from 10 global equity indices using strict chronological out-of-sample testing with the final 365 trading days held out, VertiFuseX achieves 30-54% MAPE reductions and over 40% improvements in MAE and RMSE versus LSTM-based baselines, and outperforms seven state-of-the-art models across 33 metric-dataset comparisons. Ablation studies confirm penultimate-layer fusion drives these gains over final-layer fusion and decision-level ensembling. Gradient-based saliency analysis shows consistent emphasis on mid-range dependencies at lags 9-15 days. Economic validation via algorithmic trading simulation under extreme market regimes shows reduced maximum drawdowns and superior risk-adjusted returns. With 675k parameters, a 2.6 MB memory footprint, and 1.5 ms/sample inference latency, VertiFuseX offers a lightweight, interpretable, deployment-ready framework for robust financial forecasting.",
+      "authors": [
+        "Aashish Bohra",
+        "Vivek Vijay"
+      ],
+      "categories": [
+        "cs.LG",
+        "q-fin.ST"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-09-16",
+      "id": "2609.12793",
+      "paper_url": "https://arxiv.org/abs/2609.12793",
+      "pdf_url": "https://arxiv.org/pdf/2609.12793",
+      "published": "2026-09-11",
+      "title": "VertiFuseX: Generalizable Financial Forecasting via Multi-Stream Temporal Fusion",
+      "updated": "2026-09-11"
+    },
+    "2609.16846": {
+      "abstract": "This study proposes a Large Language Model-Driven Differential Evolution (LLMDE) algorithm to reduce the reliance on handcrafted hyperparameter design. The proposed algorithm leverages a prompt engineering strategy, allowing large language models (LLMs) to dynamically select mutation strategies and configure control parameters guided by optimization feedback, thus enhancing the performance of the DE algorithm. We evaluate the performance of LLMDE on the CEC2022 benchmark suite, comparing it with standard DE and representative metaheuristics. Furthermore, we employ factor analysis and K-means clustering for stock selection, and then apply LLMDE to solve the Conditional Value at Risk (CVaR) portfolio optimization problem using the selected stocks, subject to budget and minimum expected return constraints. Experimental results demonstrate that LLMDE achieves competitive performance on the benchmark suite while continuously generating high-quality solutions for complex constrained optimization tasks. These outcomes successfully demonstrate the viability of embedding LLMs within metaheuristics, paving a promising path toward the design of advanced LLM-assisted optimization techniques.",
+      "authors": [
+        "Rong Chai",
+        "Vaclav Snasel",
+        "Xiaopeng Wang",
+        "Seyedali Mirjalili",
+        "Crina Grosan"
+      ],
+      "categories": [
+        "cs.NE"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-09-16",
+      "id": "2609.16846",
+      "paper_url": "https://arxiv.org/abs/2609.16846",
+      "pdf_url": "https://arxiv.org/pdf/2609.16846",
+      "published": "2026-09-15",
+      "title": "LLMDE: A Large Language Model-Driven Differential Evolution Algorithm for Portfolio Optimization",
+      "updated": "2026-09-15"
+    },
+    "2609.17193": {
+      "abstract": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge servers. However, heterogeneous communication and computing capabilities, together with dynamically evolving inference states, make the edge server selection for each incoming request time-varying and tightly coupled across slots. In this paper, we investigate an online request scheduling framework for edge LLM inference that jointly minimizes long-term average end-to-end latency and regulates workload distribution across heterogeneous edge servers. Two main challenges arise in this context. First, conventional latency models cannot accurately capture the fine-grained dynamics of multi-stage LLM execution. Second, the latency consequence of a scheduling decision is observed only after request completion, making immediate decision evaluation difficult. To address these challenges, we develop a cross-slot inference model that captures transmission, prefill, iteration-level decoding, and key-value (KV) cache evolution for each diverse request, and characterize server workload through a KV cache memory-time consumption metric. We propose the LYREO approach that transforms the long-term load-balancing constraint via Lyapunov optimization and employs reward redistribution with sequencebased return prediction to convert delayed outcomes into timely learning signals for earlier decisions. Simulations under various configurations demonstrate that LYREO consistently achieves lower latency and more balanced load distribution than representative learning-based and heuristic baseline schemes.",
+      "authors": [
+        "Zhen Li",
+        "Jun Cai",
+        "Haoran Gao",
+        "An Li",
+        "Tan Li"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-09-16",
+      "id": "2609.17193",
+      "paper_url": "https://arxiv.org/abs/2609.17193",
+      "pdf_url": "https://arxiv.org/pdf/2609.17193",
+      "published": "2026-09-15",
+      "title": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
+      "updated": "2026-09-15"
     }
   },
   "repo_star_history": {
@@ -458,7 +549,6 @@
       "2026-09-01": 135
     },
     "555cute/r20-quantum-trader": {
-      "2026-08-31": 33,
       "2026-09-01": 39,
       "2026-09-02": 51,
       "2026-09-03": 52,
@@ -469,7 +559,8 @@
       "2026-09-09": 163,
       "2026-09-10": 167,
       "2026-09-11": 169,
-      "2026-09-12": 172
+      "2026-09-12": 172,
+      "2026-09-16": 182
     },
     "ARahim3/kaggle-tpu-lab": {
       "2026-09-04": 31,
@@ -482,7 +573,6 @@
       "2026-09-12": 180
     },
     "AgamiAI/agami-core": {
-      "2026-08-31": 29,
       "2026-09-01": 29,
       "2026-09-02": 29,
       "2026-09-03": 29,
@@ -493,10 +583,10 @@
       "2026-09-09": 29,
       "2026-09-10": 29,
       "2026-09-11": 29,
-      "2026-09-12": 29
+      "2026-09-12": 29,
+      "2026-09-16": 29
     },
     "Agent-Field/SWE-AF": {
-      "2026-08-31": 988,
       "2026-09-01": 988,
       "2026-09-02": 989,
       "2026-09-03": 989,
@@ -505,14 +595,16 @@
       "2026-09-06": 991,
       "2026-09-10": 993,
       "2026-09-11": 993,
-      "2026-09-12": 994
+      "2026-09-12": 994,
+      "2026-09-16": 1001
     },
     "Agenta-AI/awesome-ai-agent-platforms": {
       "2026-09-06": 207,
       "2026-09-07": 234,
       "2026-09-10": 211,
       "2026-09-11": 226,
-      "2026-09-12": 194
+      "2026-09-12": 194,
+      "2026-09-16": 199
     },
     "Agentic-Analyst/stock-analyst": {
       "2026-08-31": 124,
@@ -540,7 +632,8 @@
       "2026-09-09": 142,
       "2026-09-10": 142,
       "2026-09-11": 142,
-      "2026-09-12": 142
+      "2026-09-12": 142,
+      "2026-09-16": 142
     },
     "AllAboutAI-YT/jane-street-secret-ai-trading-skills": {
       "2026-08-31": 2,
@@ -558,7 +651,11 @@
       "2026-09-09": 612,
       "2026-09-10": 612,
       "2026-09-11": 613,
-      "2026-09-12": 612
+      "2026-09-12": 612,
+      "2026-09-16": 613
+    },
+    "Alpha-Park/genpark-agent-speculative-decoding-orchestrator-skill": {
+      "2026-09-16": 7
     },
     "Alpha-Park/genpark-automated-llm-judge-feedback-evaluator-skill": {
       "2026-09-04": 8,
@@ -568,25 +665,29 @@
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "Alpha-Park/genpark-speculative-decoding-draft-acceptance-evaluator-skill": {
       "2026-09-07": 8,
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "Alpha-Park/genpark-speculative-decoding-draft-verifier-skill": {
       "2026-09-07": 8,
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "Alpha-Park/genpark-top-trading-cycles-ttc-skill": {
       "2026-09-11": 7,
-      "2026-09-12": 7
+      "2026-09-12": 7,
+      "2026-09-16": 7
     },
     "Alpha-Park/genpark-vibe-coding-ast-component-patcher-skill": {
       "2026-09-05": 8,
@@ -595,13 +696,14 @@
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "ApocData/ApocData-skill": {
-      "2026-09-12": 26
+      "2026-09-12": 26,
+      "2026-09-16": 56
     },
     "AstrBotDevs/AstrBot": {
-      "2026-08-31": 39843,
       "2026-09-01": 39876,
       "2026-09-02": 39910,
       "2026-09-03": 39958,
@@ -612,7 +714,8 @@
       "2026-09-09": 40249,
       "2026-09-10": 40301,
       "2026-09-11": 40351,
-      "2026-09-12": 40387
+      "2026-09-12": 40387,
+      "2026-09-16": 40559
     },
     "Atanasseri/agentic-engineering-assurance-system": {
       "2026-08-31": 5,
@@ -633,7 +736,6 @@
       "2026-09-12": 2
     },
     "Barca0412/Introduction-to-Quantitative-Finance": {
-      "2026-08-31": 1708,
       "2026-09-01": 1710,
       "2026-09-02": 1713,
       "2026-09-03": 1721,
@@ -644,13 +746,13 @@
       "2026-09-09": 1737,
       "2026-09-10": 1737,
       "2026-09-11": 1738,
-      "2026-09-12": 1738
+      "2026-09-12": 1738,
+      "2026-09-16": 1750
     },
     "BeforeWave/agent-helm-extensions": {
       "2026-09-04": 8
     },
     "BerriAI/litellm": {
-      "2026-08-31": 57662,
       "2026-09-01": 57722,
       "2026-09-02": 57782,
       "2026-09-03": 57882,
@@ -661,7 +763,14 @@
       "2026-09-09": 58325,
       "2026-09-10": 58409,
       "2026-09-11": 58477,
-      "2026-09-12": 58541
+      "2026-09-12": 58541,
+      "2026-09-16": 58840
+    },
+    "BloopAI/vibe-kanban": {
+      "2026-09-16": 28090
+    },
+    "Boriwatopal/agent-skill-remotion-motion-graphics": {
+      "2026-09-16": 15
     },
     "CHENG-LIANG1/real-company-interview-ai-coding-projects": {
       "2026-08-31": 277,
@@ -685,7 +794,6 @@
       "2026-09-07": 8
     },
     "CodeGraphContext/CodeGraphContext": {
-      "2026-08-31": 4141,
       "2026-09-01": 4142,
       "2026-09-02": 4148,
       "2026-09-03": 4152,
@@ -696,13 +804,15 @@
       "2026-09-09": 4177,
       "2026-09-10": 4178,
       "2026-09-11": 4179,
-      "2026-09-12": 4184
+      "2026-09-12": 4184,
+      "2026-09-16": 4196
     },
     "Consensys-Incorporated/linea-attestation-registry": {
       "2026-09-09": 176,
       "2026-09-10": 176,
       "2026-09-11": 176,
-      "2026-09-12": 176
+      "2026-09-12": 176,
+      "2026-09-16": 176
     },
     "Continuum-AI-Corp/OrcaReplay": {
       "2026-09-02": 21,
@@ -716,6 +826,12 @@
       "2026-09-11": 219,
       "2026-09-12": 229
     },
+    "Cortex-Arbitrage-Lab/cortex-ai-trading-bot": {
+      "2026-09-16": 16
+    },
+    "CosmosMind-ai/RSI-Harness": {
+      "2026-09-16": 431
+    },
     "DRose-Devs/zonk": {
       "2026-08-31": 3
     },
@@ -728,7 +844,8 @@
       "2026-09-09": 35,
       "2026-09-10": 35,
       "2026-09-11": 35,
-      "2026-09-12": 35
+      "2026-09-12": 35,
+      "2026-09-16": 36
     },
     "DiegoSalazar/AiSyncing": {
       "2026-08-31": 6,
@@ -746,7 +863,8 @@
       "2026-09-09": 132437,
       "2026-09-10": 133688,
       "2026-09-11": 134980,
-      "2026-09-12": 135947
+      "2026-09-12": 135947,
+      "2026-09-16": 139567
     },
     "DocPang/qwen38-k100ai-int8-optimization": {
       "2026-09-01": 11,
@@ -755,7 +873,8 @@
     },
     "Dr-Liu23/korean-stock-fund-flow": {
       "2026-09-11": 3,
-      "2026-09-12": 3
+      "2026-09-12": 3,
+      "2026-09-16": 3
     },
     "DrDroidLab/marmot": {
       "2026-09-02": 5,
@@ -770,7 +889,6 @@
       "2026-09-12": 6
     },
     "Drakkar-Software/OctoBot": {
-      "2026-08-31": 6496,
       "2026-09-01": 6499,
       "2026-09-02": 6505,
       "2026-09-03": 6506,
@@ -781,10 +899,12 @@
       "2026-09-09": 6545,
       "2026-09-10": 6548,
       "2026-09-11": 6555,
-      "2026-09-12": 6560
+      "2026-09-12": 6560,
+      "2026-09-16": 6580
     },
     "DresdenGman/EPSILON-trading-simulator": {
-      "2026-09-11": 139
+      "2026-09-11": 139,
+      "2026-09-16": 155
     },
     "Dyluhn/R9V": {
       "2026-09-10": 31,
@@ -795,7 +915,8 @@
       "2026-09-09": 7,
       "2026-09-10": 7,
       "2026-09-11": 7,
-      "2026-09-12": 7
+      "2026-09-12": 7,
+      "2026-09-16": 7
     },
     "EfficientStreet/hindsight": {
       "2026-08-31": 8,
@@ -806,7 +927,8 @@
     "Epistates/pmetal": {
       "2026-09-10": 311,
       "2026-09-11": 311,
-      "2026-09-12": 311
+      "2026-09-12": 311,
+      "2026-09-16": 314
     },
     "Evangeline668/forex-market-balance-trading-system": {
       "2026-09-01": 75,
@@ -868,7 +990,6 @@
       "2026-09-02": 1152
     },
     "FinMind/FinMind": {
-      "2026-08-31": 2773,
       "2026-09-01": 2773,
       "2026-09-02": 2774,
       "2026-09-03": 2779,
@@ -879,10 +1000,10 @@
       "2026-09-09": 2783,
       "2026-09-10": 2784,
       "2026-09-11": 2787,
-      "2026-09-12": 2788
+      "2026-09-12": 2788,
+      "2026-09-16": 2790
     },
     "Fission-AI/OpenSpec": {
-      "2026-08-31": 66789,
       "2026-09-01": 66856,
       "2026-09-02": 66965,
       "2026-09-03": 67081,
@@ -893,7 +1014,8 @@
       "2026-09-09": 67691,
       "2026-09-10": 67819,
       "2026-09-11": 67915,
-      "2026-09-12": 68033
+      "2026-09-12": 68033,
+      "2026-09-16": 68412
     },
     "GamePhanesStudio/GamePhanes": {
       "2026-08-31": 540,
@@ -937,7 +1059,6 @@
       "2026-09-11": 8
     },
     "HKUDS/RAG-Anything": {
-      "2026-08-31": 23120,
       "2026-09-01": 23131,
       "2026-09-02": 23138,
       "2026-09-03": 23150,
@@ -948,10 +1069,10 @@
       "2026-09-09": 23266,
       "2026-09-10": 23281,
       "2026-09-11": 23288,
-      "2026-09-12": 23296
+      "2026-09-12": 23296,
+      "2026-09-16": 23333
     },
     "HKUDS/Vibe-Trading": {
-      "2026-08-31": 32152,
       "2026-09-01": 32195,
       "2026-09-02": 32275,
       "2026-09-03": 32337,
@@ -962,10 +1083,10 @@
       "2026-09-09": 33074,
       "2026-09-10": 33148,
       "2026-09-11": 33215,
-      "2026-09-12": 33263
+      "2026-09-12": 33263,
+      "2026-09-16": 33521
     },
     "HKUDS/nanobot": {
-      "2026-08-31": 47567,
       "2026-09-01": 47590,
       "2026-09-02": 47626,
       "2026-09-03": 47663,
@@ -976,10 +1097,12 @@
       "2026-09-09": 47910,
       "2026-09-10": 47962,
       "2026-09-11": 48007,
-      "2026-09-12": 48037
+      "2026-09-12": 48037,
+      "2026-09-16": 48199
     },
     "HaberstrohSystems/qwen3.8-flash-next-24gb-sglang": {
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 10
     },
     "HajibagheriLabs/Web-Vibe-Security": {
       "2026-09-02": 5,
@@ -987,7 +1110,6 @@
       "2026-09-10": 5
     },
     "Helicone/helicone": {
-      "2026-08-31": 6117,
       "2026-09-01": 6118,
       "2026-09-02": 6123,
       "2026-09-03": 6129,
@@ -998,7 +1120,8 @@
       "2026-09-09": 6136,
       "2026-09-10": 6141,
       "2026-09-11": 6144,
-      "2026-09-12": 6149
+      "2026-09-12": 6149,
+      "2026-09-16": 6159
     },
     "HephaestLab/TraderHarness": {
       "2026-08-31": 31,
@@ -1009,7 +1132,6 @@
       "2026-09-05": 34
     },
     "HiThink-Tech/Financial-API": {
-      "2026-08-31": 2054,
       "2026-09-01": 2084,
       "2026-09-02": 2131,
       "2026-09-03": 2173,
@@ -1020,7 +1142,8 @@
       "2026-09-09": 2950,
       "2026-09-10": 3009,
       "2026-09-11": 3092,
-      "2026-09-12": 3164
+      "2026-09-12": 3164,
+      "2026-09-16": 3395
     },
     "High-Performance-AI-Lab/kvpack": {
       "2026-08-31": 5,
@@ -1035,7 +1158,6 @@
       "2026-09-10": 7
     },
     "InternLM/lmdeploy": {
-      "2026-08-31": 8036,
       "2026-09-01": 8035,
       "2026-09-02": 8039,
       "2026-09-03": 8041,
@@ -1046,10 +1168,10 @@
       "2026-09-09": 8050,
       "2026-09-10": 8054,
       "2026-09-11": 8056,
-      "2026-09-12": 8060
+      "2026-09-12": 8060,
+      "2026-09-16": 8075
     },
     "JKorf/Binance.Net": {
-      "2026-08-31": 1172,
       "2026-09-01": 1172,
       "2026-09-02": 1172,
       "2026-09-03": 1172,
@@ -1060,10 +1182,15 @@
       "2026-09-09": 1172,
       "2026-09-10": 1172,
       "2026-09-11": 1172,
-      "2026-09-12": 1172
+      "2026-09-12": 1172,
+      "2026-09-16": 1173
+    },
+    "JKorf/Kraken.Net": {
+      "2026-09-16": 119
     },
     "JakeATX/llamAmpere": {
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 81
     },
     "Jardy1999/CodeNexus": {
       "2026-09-01": 16,
@@ -1082,7 +1209,6 @@
       "2026-08-31": 2
     },
     "JerBouma/FinanceToolkit": {
-      "2026-08-31": 5279,
       "2026-09-01": 5278,
       "2026-09-02": 5280,
       "2026-09-03": 5282,
@@ -1093,10 +1219,14 @@
       "2026-09-09": 5308,
       "2026-09-10": 5312,
       "2026-09-11": 5318,
-      "2026-09-12": 5324
+      "2026-09-12": 5324,
+      "2026-09-16": 5346
     },
     "JetBrains/benjamin-plus-skill": {
       "2026-08-31": 297
+    },
+    "JivkoJelev91/code-lens-ai": {
+      "2026-09-16": 7
     },
     "Joel12Sucre432/hyperliquid-order-flow-bot": {
       "2026-09-03": 2,
@@ -1109,6 +1239,12 @@
       "2026-09-11": 7,
       "2026-09-12": 8
     },
+    "JuliusBrussee/caveman": {
+      "2026-09-16": 105824
+    },
+    "Kerneta/daidocs": {
+      "2026-09-16": 23
+    },
     "KinomotoMio/dsh-context-lens": {
       "2026-08-31": 5
     },
@@ -1117,7 +1253,6 @@
       "2026-09-01": 6
     },
     "LMCache/LMCache": {
-      "2026-08-31": 11582,
       "2026-09-01": 11591,
       "2026-09-02": 11614,
       "2026-09-03": 11625,
@@ -1128,7 +1263,8 @@
       "2026-09-09": 11711,
       "2026-09-10": 11734,
       "2026-09-11": 11749,
-      "2026-09-12": 11762
+      "2026-09-12": 11762,
+      "2026-09-16": 11821
     },
     "LYiHub/pub-ai-inputs": {
       "2026-08-31": 16,
@@ -1164,7 +1300,6 @@
       "2026-09-01": 6
     },
     "Lqz13Th/extrema_infra": {
-      "2026-08-31": 265,
       "2026-09-01": 266,
       "2026-09-02": 266,
       "2026-09-03": 266,
@@ -1175,14 +1310,15 @@
       "2026-09-09": 267,
       "2026-09-10": 267,
       "2026-09-11": 267,
-      "2026-09-12": 268
+      "2026-09-12": 268,
+      "2026-09-16": 268
     },
     "LukePrior/Australian-Open-Banking-Data-Database": {
       "2026-09-11": 188,
-      "2026-09-12": 188
+      "2026-09-12": 188,
+      "2026-09-16": 189
     },
     "Lumiwealth/lumibot": {
-      "2026-08-31": 2016,
       "2026-09-01": 2019,
       "2026-09-02": 2032,
       "2026-09-03": 2035,
@@ -1193,13 +1329,13 @@
       "2026-09-09": 2050,
       "2026-09-10": 2051,
       "2026-09-11": 2054,
-      "2026-09-12": 2055
+      "2026-09-12": 2055,
+      "2026-09-16": 2067
     },
     "Lxxz666/lxz-25buy": {
       "2026-08-31": 2
     },
     "MehdiZare/fmp-data": {
-      "2026-08-31": 30,
       "2026-09-01": 30,
       "2026-09-02": 30,
       "2026-09-03": 30,
@@ -1210,7 +1346,11 @@
       "2026-09-09": 30,
       "2026-09-10": 30,
       "2026-09-11": 30,
-      "2026-09-12": 30
+      "2026-09-12": 30,
+      "2026-09-16": 30
+    },
+    "MervinPraison/PraisonAI": {
+      "2026-09-16": 9058
     },
     "Meykiio/yalidine-integration-skill": {
       "2026-09-05": 5
@@ -1238,7 +1378,8 @@
     "MikeCaldera/intel-arc-pro-b70-qwen38-vllm": {
       "2026-09-10": 27,
       "2026-09-11": 29,
-      "2026-09-12": 32
+      "2026-09-12": 32,
+      "2026-09-16": 35
     },
     "MirroS-Lab/Code-as-World": {
       "2026-09-01": 344,
@@ -1261,7 +1402,6 @@
       "2026-09-11": 1253
     },
     "ModelTC/LightLLM": {
-      "2026-08-31": 4255,
       "2026-09-01": 4255,
       "2026-09-02": 4259,
       "2026-09-03": 4260,
@@ -1272,10 +1412,10 @@
       "2026-09-09": 4276,
       "2026-09-10": 4276,
       "2026-09-11": 4279,
-      "2026-09-12": 4280
+      "2026-09-12": 4280,
+      "2026-09-16": 4290
     },
     "NVIDIA/srt-slurm-recipes": {
-      "2026-08-31": 8,
       "2026-09-01": 8,
       "2026-09-02": 8,
       "2026-09-03": 8,
@@ -1286,7 +1426,8 @@
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "Nanako0129/sepia": {
       "2026-08-31": 1112,
@@ -1302,7 +1443,6 @@
       "2026-09-11": 2533
     },
     "Natively-AI-assistant/natively-cluely-ai-assistant": {
-      "2026-08-31": 2391,
       "2026-09-01": 2396,
       "2026-09-02": 2406,
       "2026-09-03": 2420,
@@ -1313,7 +1453,8 @@
       "2026-09-09": 2458,
       "2026-09-10": 2467,
       "2026-09-11": 2478,
-      "2026-09-12": 2482
+      "2026-09-12": 2482,
+      "2026-09-16": 2519
     },
     "Nehanth/swarmllm": {
       "2026-09-09": 72,
@@ -1322,7 +1463,6 @@
       "2026-09-12": 254
     },
     "NirDiamant/agents-towards-production": {
-      "2026-08-31": 21352,
       "2026-09-01": 21365,
       "2026-09-02": 21381,
       "2026-09-03": 21389,
@@ -1333,10 +1473,10 @@
       "2026-09-09": 21431,
       "2026-09-10": 21439,
       "2026-09-11": 21443,
-      "2026-09-12": 21446
+      "2026-09-12": 21446,
+      "2026-09-16": 21460
     },
     "NoFxAiOS/nofx": {
-      "2026-08-31": 12789,
       "2026-09-01": 12792,
       "2026-09-02": 12798,
       "2026-09-03": 12803,
@@ -1346,10 +1486,10 @@
       "2026-09-09": 12844,
       "2026-09-10": 12855,
       "2026-09-11": 12873,
-      "2026-09-12": 12886
+      "2026-09-12": 12886,
+      "2026-09-16": 12912
     },
     "OnePunchMonk/AgentQuant": {
-      "2026-08-31": 183,
       "2026-09-01": 184,
       "2026-09-02": 186,
       "2026-09-03": 186,
@@ -1360,13 +1500,13 @@
       "2026-09-09": 194,
       "2026-09-10": 195,
       "2026-09-11": 195,
-      "2026-09-12": 196
+      "2026-09-12": 196,
+      "2026-09-16": 200
     },
     "OpenBMB/UltraRAG": {
       "2026-08-31": 5676
     },
     "OpenByteInc/QuantDinger": {
-      "2026-08-31": 11260,
       "2026-09-01": 11271,
       "2026-09-02": 11288,
       "2026-09-03": 11304,
@@ -1377,13 +1517,14 @@
       "2026-09-09": 11430,
       "2026-09-10": 11454,
       "2026-09-11": 11485,
-      "2026-09-12": 11528
+      "2026-09-12": 11528,
+      "2026-09-16": 11676
     },
     "OpenByteInc/QuantDinger_Codex_Plugin": {
-      "2026-09-12": 2
+      "2026-09-12": 2,
+      "2026-09-16": 2
     },
     "OpenMOSS/MOSS-TTSD": {
-      "2026-08-31": 1391,
       "2026-09-01": 1391,
       "2026-09-02": 1394,
       "2026-09-03": 1394,
@@ -1394,21 +1535,23 @@
       "2026-09-09": 1394,
       "2026-09-10": 1393,
       "2026-09-11": 1393,
-      "2026-09-12": 1394
+      "2026-09-12": 1394,
+      "2026-09-16": 1398
     },
     "OpenRLHF/OpenRLHF": {
       "2026-09-11": 9994,
-      "2026-09-12": 9994
+      "2026-09-12": 9994,
+      "2026-09-16": 10007
     },
     "OpenUpSA/municipal-data": {
-      "2026-08-31": 52,
       "2026-09-01": 52,
       "2026-09-02": 52,
       "2026-09-03": 52,
       "2026-09-04": 52,
       "2026-09-05": 52,
       "2026-09-06": 52,
-      "2026-09-07": 52
+      "2026-09-07": 52,
+      "2026-09-16": 52
     },
     "OuterDelegateCrimp/pinescript-trading-script": {
       "2026-09-06": 2,
@@ -1417,6 +1560,9 @@
       "2026-09-10": 3,
       "2026-09-11": 3,
       "2026-09-12": 3
+    },
+    "PFund-Software-Ltd/pfund": {
+      "2026-09-16": 67
     },
     "ParnazAli/investment-portfolio-analysis": {
       "2026-09-05": 3,
@@ -1429,7 +1575,8 @@
     },
     "RH-RunningHub/MiniMax-H3-MultiGPU-Lightning": {
       "2026-09-11": 41,
-      "2026-09-12": 67
+      "2026-09-12": 67,
+      "2026-09-16": 89
     },
     "Redhatvale/Nvidia-Tesla-v100-nvfp4-pcie": {
       "2026-08-31": 9,
@@ -1466,6 +1613,9 @@
       "2026-09-03": 2,
       "2026-09-04": 2
     },
+    "Schaka/fsr4-gfx803": {
+      "2026-09-16": 6
+    },
     "Sebastianmaxter/ai-profit-sniper-strategy": {
       "2026-09-01": 72,
       "2026-09-02": 81,
@@ -1475,10 +1625,10 @@
     },
     "Selim09hub/QuantMaster-V17-HFT-Core": {
       "2026-09-11": 2,
-      "2026-09-12": 2
+      "2026-09-12": 2,
+      "2026-09-16": 2
     },
     "SemiAnalysisAI/InferenceX": {
-      "2026-08-31": 1593,
       "2026-09-01": 1599,
       "2026-09-02": 1611,
       "2026-09-03": 1613,
@@ -1489,7 +1639,8 @@
       "2026-09-09": 1639,
       "2026-09-10": 1651,
       "2026-09-11": 1665,
-      "2026-09-12": 1669
+      "2026-09-12": 1669,
+      "2026-09-16": 1705
     },
     "Senseishibewitch/Atas-Trading": {
       "2026-08-31": 100,
@@ -1510,7 +1661,8 @@
       "2026-09-09": 6,
       "2026-09-10": 6,
       "2026-09-11": 6,
-      "2026-09-12": 6
+      "2026-09-12": 6,
+      "2026-09-16": 6
     },
     "Signal-Execution-Labs/forex-trading-ai-agent": {
       "2026-09-04": 134,
@@ -1524,7 +1676,6 @@
       "2026-08-31": 941
     },
     "StockSharp/StockSharp": {
-      "2026-08-31": 10670,
       "2026-09-01": 10674,
       "2026-09-02": 10679,
       "2026-09-03": 10686,
@@ -1535,10 +1686,10 @@
       "2026-09-09": 10717,
       "2026-09-10": 10724,
       "2026-09-11": 10730,
-      "2026-09-12": 10732
+      "2026-09-12": 10732,
+      "2026-09-16": 10759
     },
     "Superalgos/Superalgos": {
-      "2026-08-31": 5633,
       "2026-09-01": 5633,
       "2026-09-02": 5636,
       "2026-09-03": 5638,
@@ -1549,7 +1700,8 @@
       "2026-09-09": 5649,
       "2026-09-10": 5648,
       "2026-09-11": 5647,
-      "2026-09-12": 5647
+      "2026-09-12": 5647,
+      "2026-09-16": 5658
     },
     "System64fumo/kappai": {
       "2026-08-31": 5
@@ -1558,6 +1710,9 @@
       "2026-08-31": 8,
       "2026-09-01": 8,
       "2026-09-02": 8
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "2026-09-16": 26792
     },
     "TencentCloud/tencentcloud-agentobs-sdk-dsh": {
       "2026-08-31": 12,
@@ -1589,7 +1744,6 @@
       "2026-09-06": 2218
     },
     "TraderAlice/OpenAlice": {
-      "2026-08-31": 6875,
       "2026-09-01": 6896,
       "2026-09-02": 6907,
       "2026-09-03": 6927,
@@ -1600,13 +1754,13 @@
       "2026-09-09": 7003,
       "2026-09-10": 7012,
       "2026-09-11": 7038,
-      "2026-09-12": 7043
+      "2026-09-12": 7043,
+      "2026-09-16": 7079
     },
     "UnsignedChad/windows-freetoken-mtp": {
       "2026-09-04": 6
     },
     "Verdenroz/finance-query": {
-      "2026-08-31": 44,
       "2026-09-01": 44,
       "2026-09-02": 44,
       "2026-09-03": 44,
@@ -1617,7 +1771,11 @@
       "2026-09-09": 44,
       "2026-09-10": 44,
       "2026-09-11": 44,
-      "2026-09-12": 44
+      "2026-09-12": 44,
+      "2026-09-16": 44
+    },
+    "VincentZhouY/PCB-HiThink-powered-PCB-quant-research-starter": {
+      "2026-09-16": 5
     },
     "Vincentwei1021/video-talkcraft": {
       "2026-09-01": 426,
@@ -1646,12 +1804,14 @@
       "2026-09-09": 2,
       "2026-09-10": 2,
       "2026-09-11": 2,
-      "2026-09-12": 2
+      "2026-09-12": 2,
+      "2026-09-16": 2
     },
     "WellApp-ai/Well": {
       "2026-09-10": 341,
       "2026-09-11": 341,
-      "2026-09-12": 341
+      "2026-09-12": 341,
+      "2026-09-16": 341
     },
     "XHToken/Spark-X2.5": {
       "2026-09-01": 25,
@@ -1661,6 +1821,9 @@
       "2026-09-05": 150,
       "2026-09-06": 152,
       "2026-09-07": 160
+    },
+    "Xu123-Bob/Baize": {
+      "2026-09-16": 70
     },
     "Yevanchen/reclaim-code-entropy": {
       "2026-08-31": 184
@@ -1684,7 +1847,6 @@
       "2026-09-04": 92090
     },
     "affaan-m/ECC": {
-      "2026-08-31": 244931,
       "2026-09-01": 245363,
       "2026-09-02": 245834,
       "2026-09-03": 246473,
@@ -1695,10 +1857,13 @@
       "2026-09-09": 254480,
       "2026-09-10": 255314,
       "2026-09-11": 255997,
-      "2026-09-12": 256613
+      "2026-09-12": 256613,
+      "2026-09-16": 259469
+    },
+    "agent-launch/agent-launcher": {
+      "2026-09-16": 186
     },
     "agent-of-empires/agent-of-empires": {
-      "2026-08-31": 3165,
       "2026-09-01": 3175,
       "2026-09-02": 3181,
       "2026-09-03": 3186,
@@ -1709,7 +1874,8 @@
       "2026-09-09": 3204,
       "2026-09-10": 3208,
       "2026-09-11": 3214,
-      "2026-09-12": 3221
+      "2026-09-12": 3221,
+      "2026-09-16": 3255
     },
     "agentdock-ai/agentdock": {
       "2026-08-31": 6,
@@ -1718,8 +1884,10 @@
       "2026-09-03": 6,
       "2026-09-04": 6
     },
+    "agentverse-os/AgentVerse-OS": {
+      "2026-09-16": 614
+    },
     "agiprolabs/claude-trading-skills": {
-      "2026-08-31": 332,
       "2026-09-01": 332,
       "2026-09-02": 333,
       "2026-09-03": 338,
@@ -1730,7 +1898,8 @@
       "2026-09-09": 351,
       "2026-09-10": 353,
       "2026-09-11": 354,
-      "2026-09-12": 356
+      "2026-09-12": 356,
+      "2026-09-16": 362
     },
     "ahnguyen17/cmp-170hx-vllm": {
       "2026-08-31": 8,
@@ -1739,7 +1908,6 @@
       "2026-09-03": 8
     },
     "ai-dynamo/dynamo": {
-      "2026-08-31": 7929,
       "2026-09-01": 7931,
       "2026-09-02": 7947,
       "2026-09-03": 7954,
@@ -1750,7 +1918,8 @@
       "2026-09-09": 7999,
       "2026-09-10": 8008,
       "2026-09-11": 8021,
-      "2026-09-12": 8037
+      "2026-09-12": 8037,
+      "2026-09-16": 8086
     },
     "ajtgjmdjp/awesome-japan-finance-data": {
       "2026-08-31": 20,
@@ -1762,7 +1931,6 @@
       "2026-09-06": 20
     },
     "akfamily/akquant": {
-      "2026-08-31": 2111,
       "2026-09-01": 2115,
       "2026-09-02": 2149,
       "2026-09-03": 2245,
@@ -1773,7 +1941,8 @@
       "2026-09-09": 2289,
       "2026-09-10": 2292,
       "2026-09-11": 2296,
-      "2026-09-12": 2301
+      "2026-09-12": 2301,
+      "2026-09-16": 2322
     },
     "alberto4442/TensorBond": {
       "2026-08-31": 2,
@@ -1786,8 +1955,10 @@
       "2026-09-07": 2,
       "2026-09-09": 2
     },
+    "alchaincyf/3d-vibe-coding-handbook": {
+      "2026-09-16": 79
+    },
     "alibaba/MNN": {
-      "2026-08-31": 16001,
       "2026-09-01": 16003,
       "2026-09-02": 16013,
       "2026-09-03": 16015,
@@ -1798,7 +1969,8 @@
       "2026-09-09": 16048,
       "2026-09-10": 16053,
       "2026-09-11": 16059,
-      "2026-09-12": 16066
+      "2026-09-12": 16066,
+      "2026-09-16": 16092
     },
     "alibaba/ServeGen": {
       "2026-08-31": 170,
@@ -1820,7 +1992,6 @@
       "2026-09-03": 604
     },
     "almanak-co/sdk": {
-      "2026-08-31": 60,
       "2026-09-01": 60,
       "2026-09-02": 60,
       "2026-09-03": 60,
@@ -1831,7 +2002,11 @@
       "2026-09-09": 60,
       "2026-09-10": 60,
       "2026-09-11": 61,
-      "2026-09-12": 61
+      "2026-09-12": 61,
+      "2026-09-16": 61
+    },
+    "alphaparkinc/genpark-agent-speculative-decoding-orchestrator-skill": {
+      "2026-09-16": 7
     },
     "alphaparkinc/genpark-agentic-multi-file-composer-diff-orchestrator-skill": {
       "2026-08-31": 8,
@@ -1851,7 +2026,8 @@
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "alphaparkinc/genpark-autonomous-repository-refactor-debugger-swe-agent-skill": {
       "2026-08-31": 8,
@@ -1933,18 +2109,21 @@
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "alphaparkinc/genpark-speculative-decoding-draft-verifier-skill": {
       "2026-09-07": 8,
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "alphaparkinc/genpark-top-trading-cycles-ttc-skill": {
       "2026-09-11": 7,
-      "2026-09-12": 7
+      "2026-09-12": 7,
+      "2026-09-16": 7
     },
     "alphaparkinc/genpark-vibe-coding-ast-component-patcher-skill": {
       "2026-09-05": 8,
@@ -1953,10 +2132,10 @@
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 8,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 8
     },
     "alsk1992/CloddsBot": {
-      "2026-08-31": 840,
       "2026-09-01": 848,
       "2026-09-02": 857,
       "2026-09-03": 866,
@@ -1967,7 +2146,8 @@
       "2026-09-09": 918,
       "2026-09-10": 1262,
       "2026-09-11": 1779,
-      "2026-09-12": 2218
+      "2026-09-12": 2218,
+      "2026-09-16": 2746
     },
     "amirhosssein0/ai-platform-lab": {
       "2026-09-02": 5
@@ -1985,7 +2165,6 @@
       "2026-09-07": 2
     },
     "anomalyco/opencode": {
-      "2026-08-31": 202718,
       "2026-09-01": 202896,
       "2026-09-02": 203099,
       "2026-09-03": 203320,
@@ -1996,10 +2175,10 @@
       "2026-09-09": 205997,
       "2026-09-10": 206215,
       "2026-09-11": 206536,
-      "2026-09-12": 206796
+      "2026-09-12": 206796,
+      "2026-09-16": 207720
     },
     "anthropics/claude-code": {
-      "2026-08-31": 143539,
       "2026-09-01": 143600,
       "2026-09-02": 143717,
       "2026-09-03": 143838,
@@ -2010,10 +2189,10 @@
       "2026-09-09": 144491,
       "2026-09-10": 144589,
       "2026-09-11": 144696,
-      "2026-09-12": 144795
+      "2026-09-12": 144795,
+      "2026-09-16": 145218
     },
     "apache/hertzbeat": {
-      "2026-08-31": 7380,
       "2026-09-01": 7380,
       "2026-09-02": 7381,
       "2026-09-03": 7381,
@@ -2024,7 +2203,8 @@
       "2026-09-09": 7388,
       "2026-09-10": 7390,
       "2026-09-11": 7392,
-      "2026-09-12": 7391
+      "2026-09-12": 7391,
+      "2026-09-16": 7397
     },
     "apvcode/Termux-Dev": {
       "2026-08-31": 16,
@@ -2037,7 +2217,6 @@
       "2026-09-07": 19
     },
     "arrobalytics/django-ledger": {
-      "2026-08-31": 1375,
       "2026-09-01": 1375,
       "2026-09-02": 1376,
       "2026-09-03": 1376,
@@ -2048,7 +2227,8 @@
       "2026-09-09": 1381,
       "2026-09-10": 1382,
       "2026-09-11": 1382,
-      "2026-09-12": 1382
+      "2026-09-12": 1382,
+      "2026-09-16": 1385
     },
     "atilaahmettaner/tradingview-mcp": {
       "2026-08-31": 4308,
@@ -2065,7 +2245,6 @@
       "2026-09-12": 4448
     },
     "automazeio/vibeproxy": {
-      "2026-08-31": 3324,
       "2026-09-01": 3325,
       "2026-09-02": 3324,
       "2026-09-03": 3326,
@@ -2076,7 +2255,11 @@
       "2026-09-09": 3343,
       "2026-09-10": 3343,
       "2026-09-11": 3343,
-      "2026-09-12": 3346
+      "2026-09-12": 3346,
+      "2026-09-16": 3357
+    },
+    "avhz/RustQuant": {
+      "2026-09-16": 1822
     },
     "avifenesh/memra": {
       "2026-09-05": 7,
@@ -2105,10 +2288,12 @@
       "2026-09-09": 2,
       "2026-09-10": 2,
       "2026-09-11": 2,
-      "2026-09-12": 2
+      "2026-09-12": 2,
+      "2026-09-16": 2
     },
     "bangtutorial/bang-motion": {
-      "2026-09-12": 148
+      "2026-09-12": 148,
+      "2026-09-16": 336
     },
     "baobach/hft_papers": {
       "2026-09-02": 107,
@@ -2156,7 +2341,6 @@
       "2026-09-12": 8
     },
     "bennycode/trading-signals": {
-      "2026-08-31": 989,
       "2026-09-01": 989,
       "2026-09-02": 990,
       "2026-09-03": 990,
@@ -2167,7 +2351,11 @@
       "2026-09-09": 990,
       "2026-09-10": 990,
       "2026-09-11": 990,
-      "2026-09-12": 990
+      "2026-09-12": 990,
+      "2026-09-16": 991
+    },
+    "benudhar03/agentic-finance-ai": {
+      "2026-09-16": 2
     },
     "bkvargyas/dual-r9700-vllm-proxmox": {
       "2026-08-31": 7,
@@ -2191,10 +2379,10 @@
     },
     "bluenzzz/typescript-engineering": {
       "2026-09-11": 7,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 9
     },
     "boshu2/agentops": {
-      "2026-08-31": 431,
       "2026-09-01": 432,
       "2026-09-02": 434,
       "2026-09-03": 434,
@@ -2205,14 +2393,17 @@
       "2026-09-09": 434,
       "2026-09-10": 434,
       "2026-09-11": 434,
-      "2026-09-12": 435
+      "2026-09-12": 435,
+      "2026-09-16": 440
+    },
+    "bradsmithmba/dgx-spark-qwen38-flash-next-fp8": {
+      "2026-09-16": 5
     },
     "buffer121328/vibe-coding-and-agents": {
       "2026-09-01": 6,
       "2026-09-02": 7
     },
     "cactus-compute/cactus": {
-      "2026-08-31": 5958,
       "2026-09-01": 5963,
       "2026-09-02": 5970,
       "2026-09-03": 5975,
@@ -2223,10 +2414,10 @@
       "2026-09-09": 5991,
       "2026-09-10": 5994,
       "2026-09-11": 6000,
-      "2026-09-12": 6002
+      "2026-09-12": 6002,
+      "2026-09-16": 6016
     },
     "calesthio/OpenMontage": {
-      "2026-08-31": 54848,
       "2026-09-01": 55100,
       "2026-09-02": 55409,
       "2026-09-03": 55750,
@@ -2236,10 +2427,15 @@
       "2026-09-09": 56718,
       "2026-09-10": 56901,
       "2026-09-11": 57081,
-      "2026-09-12": 57500
+      "2026-09-12": 57500,
+      "2026-09-16": 59370
+    },
+    "calmwater998/forex-4d-trader-strategy-guide": {
+      "2026-09-16": 9
     },
     "carollia99/virtual-library-guide": {
-      "2026-09-12": 10
+      "2026-09-12": 10,
+      "2026-09-16": 15
     },
     "cbrock84/headcount": {
       "2026-08-31": 774,
@@ -2255,7 +2451,6 @@
       "2026-09-11": 1355
     },
     "ccxt/ccxt": {
-      "2026-08-31": 43813,
       "2026-09-01": 43821,
       "2026-09-02": 43835,
       "2026-09-03": 43844,
@@ -2266,17 +2461,18 @@
       "2026-09-09": 43928,
       "2026-09-10": 43941,
       "2026-09-11": 43945,
-      "2026-09-12": 43959
+      "2026-09-12": 43959,
+      "2026-09-16": 44007
     },
     "chadhurley25075-png/pd-bridge": {
       "2026-09-07": 38,
       "2026-09-09": 102,
       "2026-09-10": 106,
       "2026-09-11": 108,
-      "2026-09-12": 109
+      "2026-09-12": 109,
+      "2026-09-16": 114
     },
     "chenhg5/cc-connect": {
-      "2026-08-31": 15293,
       "2026-09-01": 15304,
       "2026-09-02": 15310,
       "2026-09-03": 15321,
@@ -2287,7 +2483,8 @@
       "2026-09-09": 15417,
       "2026-09-10": 15437,
       "2026-09-11": 15452,
-      "2026-09-12": 15467
+      "2026-09-12": 15467,
+      "2026-09-16": 15514
     },
     "chennurivarun/asdlc": {
       "2026-08-31": 5,
@@ -2303,8 +2500,13 @@
       "2026-09-11": 6,
       "2026-09-12": 6
     },
+    "chetanap018/QuantEdge": {
+      "2026-09-16": 2
+    },
+    "chigwell/Penelopa.ai": {
+      "2026-09-16": 140
+    },
     "chrisleekr/binance-trading-bot": {
-      "2026-08-31": 5549,
       "2026-09-01": 5550,
       "2026-09-02": 5550,
       "2026-09-03": 5551,
@@ -2315,10 +2517,10 @@
       "2026-09-09": 5557,
       "2026-09-10": 5557,
       "2026-09-11": 5558,
-      "2026-09-12": 5557
+      "2026-09-12": 5557,
+      "2026-09-16": 5559
     },
     "cinar/indicator": {
-      "2026-08-31": 1635,
       "2026-09-01": 1645,
       "2026-09-02": 1651,
       "2026-09-03": 1661,
@@ -2329,10 +2531,10 @@
       "2026-09-09": 1685,
       "2026-09-10": 1685,
       "2026-09-11": 1687,
-      "2026-09-12": 1690
+      "2026-09-12": 1690,
+      "2026-09-16": 1768
     },
     "cinar/indicatorts": {
-      "2026-08-31": 468,
       "2026-09-01": 469,
       "2026-09-02": 469,
       "2026-09-03": 469,
@@ -2343,10 +2545,10 @@
       "2026-09-09": 471,
       "2026-09-10": 471,
       "2026-09-11": 471,
-      "2026-09-12": 471
+      "2026-09-12": 471,
+      "2026-09-16": 473
     },
     "cloudQuant/backtrader": {
-      "2026-08-31": 159,
       "2026-09-01": 160,
       "2026-09-02": 160,
       "2026-09-03": 160,
@@ -2357,10 +2559,10 @@
       "2026-09-09": 171,
       "2026-09-10": 172,
       "2026-09-11": 174,
-      "2026-09-12": 174
+      "2026-09-12": 174,
+      "2026-09-16": 177
     },
     "cloudflare/vibesdk": {
-      "2026-08-31": 5340,
       "2026-09-01": 5342,
       "2026-09-02": 5343,
       "2026-09-03": 5345,
@@ -2371,10 +2573,15 @@
       "2026-09-09": 5351,
       "2026-09-10": 5352,
       "2026-09-11": 5354,
-      "2026-09-12": 5355
+      "2026-09-12": 5355,
+      "2026-09-16": 5360
+    },
+    "coconinja2/layerlens": {
+      "2026-09-16": 5
     },
     "code-philia/agentic-software-engineering-hackathon": {
-      "2026-09-12": 5
+      "2026-09-12": 5,
+      "2026-09-16": 8
     },
     "codebyraiyan/Brownie": {
       "2026-09-05": 5,
@@ -2384,7 +2591,6 @@
       "2026-09-10": 5
     },
     "coding-kitties/investing-algorithm-framework": {
-      "2026-08-31": 2028,
       "2026-09-01": 2031,
       "2026-09-02": 2037,
       "2026-09-03": 2039,
@@ -2395,7 +2601,8 @@
       "2026-09-09": 2060,
       "2026-09-10": 2060,
       "2026-09-11": 2061,
-      "2026-09-12": 2065
+      "2026-09-12": 2065,
+      "2026-09-16": 2070
     },
     "creamylookout/TradingView-Premium-2026": {
       "2026-08-31": 27,
@@ -2403,7 +2610,6 @@
       "2026-09-02": 10
     },
     "crewAIInc/crewAI": {
-      "2026-08-31": 57866,
       "2026-09-01": 57906,
       "2026-09-02": 57976,
       "2026-09-03": 58024,
@@ -2414,10 +2620,10 @@
       "2026-09-09": 58264,
       "2026-09-10": 58309,
       "2026-09-11": 58356,
-      "2026-09-12": 58386
+      "2026-09-12": 58386,
+      "2026-09-16": 58629
     },
     "csmar432/finai-research": {
-      "2026-08-31": 111,
       "2026-09-01": 111,
       "2026-09-02": 111,
       "2026-09-03": 111,
@@ -2428,10 +2634,10 @@
       "2026-09-09": 100,
       "2026-09-10": 100,
       "2026-09-11": 100,
-      "2026-09-12": 100
+      "2026-09-12": 100,
+      "2026-09-16": 100
     },
     "daniel3303/Equibles": {
-      "2026-08-31": 203,
       "2026-09-01": 203,
       "2026-09-02": 203,
       "2026-09-03": 204,
@@ -2442,7 +2648,8 @@
       "2026-09-09": 226,
       "2026-09-10": 226,
       "2026-09-11": 227,
-      "2026-09-12": 230
+      "2026-09-12": 230,
+      "2026-09-16": 230
     },
     "darkdatter/gb10-repo": {
       "2026-08-31": 16,
@@ -2454,7 +2661,6 @@
       "2026-09-06": 18
     },
     "dataelement/bisheng": {
-      "2026-08-31": 11918,
       "2026-09-01": 11919,
       "2026-09-02": 11920,
       "2026-09-03": 11923,
@@ -2465,7 +2671,8 @@
       "2026-09-09": 11940,
       "2026-09-10": 11946,
       "2026-09-11": 11949,
-      "2026-09-12": 11950
+      "2026-09-12": 11950,
+      "2026-09-16": 11971
     },
     "datawhalechina/easy-vibe": {
       "2026-08-31": 19195,
@@ -2485,18 +2692,18 @@
       "2026-09-10": 640
     },
     "davidalmeida90/ML-for-beginners": {
-      "2026-09-12": 2
+      "2026-09-12": 2,
+      "2026-09-16": 4
     },
     "dearvn/trading-futures-tradingview-script": {
-      "2026-08-31": 249,
       "2026-09-01": 249,
       "2026-09-02": 250,
       "2026-09-03": 251,
       "2026-09-04": 251,
-      "2026-09-05": 251
+      "2026-09-05": 251,
+      "2026-09-16": 256
     },
     "deepset-ai/haystack": {
-      "2026-08-31": 26369,
       "2026-09-01": 26377,
       "2026-09-02": 26392,
       "2026-09-03": 26400,
@@ -2507,7 +2714,8 @@
       "2026-09-09": 26450,
       "2026-09-10": 26461,
       "2026-09-11": 26472,
-      "2026-09-12": 26482
+      "2026-09-12": 26482,
+      "2026-09-16": 26518
     },
     "dewydev10/digital-showcase": {
       "2026-08-31": 55,
@@ -2534,7 +2742,8 @@
       "2026-09-09": 1850,
       "2026-09-10": 1852,
       "2026-09-11": 1854,
-      "2026-09-12": 1854
+      "2026-09-12": 1854,
+      "2026-09-16": 1859
     },
     "drowzeys/keys-vLLm.0.27.1-GLM-5.3-Flash-NVFP4-NVFP4KV-1M-Context-Abliterated": {
       "2026-09-01": 27,
@@ -2556,7 +2765,6 @@
       "2026-09-05": 1880
     },
     "earendil-works/pi": {
-      "2026-08-31": 99800,
       "2026-09-01": 100114,
       "2026-09-02": 100654,
       "2026-09-03": 101092,
@@ -2567,7 +2775,8 @@
       "2026-09-09": 103231,
       "2026-09-10": 103575,
       "2026-09-11": 103922,
-      "2026-09-12": 104209
+      "2026-09-12": 104209,
+      "2026-09-16": 105885
     },
     "edison7009/EchoBird": {
       "2026-08-31": 3149,
@@ -2582,7 +2791,6 @@
       "2026-09-12": 3213
     },
     "edtechre/pybroker": {
-      "2026-08-31": 3520,
       "2026-09-01": 3520,
       "2026-09-02": 3520,
       "2026-09-03": 3519,
@@ -2593,10 +2801,10 @@
       "2026-09-09": 3535,
       "2026-09-10": 3537,
       "2026-09-11": 3537,
-      "2026-09-12": 3537
+      "2026-09-12": 3537,
+      "2026-09-16": 3541
     },
     "elizaOS/eliza": {
-      "2026-08-31": 19219,
       "2026-09-01": 19221,
       "2026-09-02": 19225,
       "2026-09-03": 19233,
@@ -2607,10 +2815,13 @@
       "2026-09-09": 19301,
       "2026-09-10": 19312,
       "2026-09-11": 19322,
-      "2026-09-12": 19325
+      "2026-09-12": 19325,
+      "2026-09-16": 19344
+    },
+    "eminsk/awesome-baremetal-ai": {
+      "2026-09-16": 5
     },
     "enarjord/passivbot": {
-      "2026-08-31": 2086,
       "2026-09-01": 2087,
       "2026-09-02": 2087,
       "2026-09-03": 2087,
@@ -2621,7 +2832,8 @@
       "2026-09-09": 2093,
       "2026-09-10": 2094,
       "2026-09-11": 2095,
-      "2026-09-12": 2097
+      "2026-09-12": 2097,
+      "2026-09-16": 2100
     },
     "esp-mosaico/esp-mosaico-vibe": {
       "2026-09-01": 6,
@@ -2636,7 +2848,6 @@
       "2026-08-31": 10
     },
     "evelyyyyynnnnn/3.0-Financial-Ai-Systems": {
-      "2026-08-31": 284,
       "2026-09-01": 284,
       "2026-09-02": 284,
       "2026-09-03": 284,
@@ -2647,7 +2858,8 @@
       "2026-09-09": 284,
       "2026-09-10": 284,
       "2026-09-11": 284,
-      "2026-09-12": 284
+      "2026-09-12": 284,
+      "2026-09-16": 284
     },
     "evidentlyai/evidently": {
       "2026-09-01": 7869,
@@ -2660,10 +2872,10 @@
       "2026-09-09": 7902,
       "2026-09-10": 7903,
       "2026-09-11": 7905,
-      "2026-09-12": 7911
+      "2026-09-12": 7911,
+      "2026-09-16": 7919
     },
     "facioquo/stock-indicators-dotnet": {
-      "2026-08-31": 1238,
       "2026-09-01": 1238,
       "2026-09-02": 1238,
       "2026-09-03": 1241,
@@ -2674,14 +2886,14 @@
       "2026-09-09": 1242,
       "2026-09-10": 1242,
       "2026-09-11": 1242,
-      "2026-09-12": 1243
+      "2026-09-12": 1243,
+      "2026-09-16": 1245
     },
     "fadelmuhmmat883/crypto-trading-bot": {
       "2026-09-06": 48,
       "2026-09-07": 48
     },
     "farion1231/cc-switch": {
-      "2026-08-31": 130338,
       "2026-09-01": 130437,
       "2026-09-02": 130609,
       "2026-09-03": 130791,
@@ -2692,10 +2904,10 @@
       "2026-09-09": 131814,
       "2026-09-10": 132016,
       "2026-09-11": 132231,
-      "2026-09-12": 132404
+      "2026-09-12": 132404,
+      "2026-09-16": 133075
     },
     "fasiondog/hikyuu": {
-      "2026-08-31": 3475,
       "2026-09-01": 3478,
       "2026-09-02": 3482,
       "2026-09-03": 3482,
@@ -2706,16 +2918,20 @@
       "2026-09-09": 3490,
       "2026-09-10": 3494,
       "2026-09-11": 3495,
-      "2026-09-12": 3498
+      "2026-09-12": 3498,
+      "2026-09-16": 3506
     },
     "fdiblen/rseng-agent-skills": {
       "2026-09-09": 10,
       "2026-09-10": 14,
       "2026-09-11": 14,
-      "2026-09-12": 14
+      "2026-09-12": 14,
+      "2026-09-16": 16
+    },
+    "financialdatanet/fdnpy": {
+      "2026-09-16": 51
     },
     "finos/common-domain-model": {
-      "2026-08-31": 275,
       "2026-09-01": 276,
       "2026-09-02": 276,
       "2026-09-03": 275,
@@ -2726,7 +2942,8 @@
       "2026-09-09": 277,
       "2026-09-10": 277,
       "2026-09-11": 277,
-      "2026-09-12": 277
+      "2026-09-12": 277,
+      "2026-09-16": 278
     },
     "fishlikeX/sm70-attn": {
       "2026-09-01": 6
@@ -2739,7 +2956,6 @@
       "2026-09-12": 242
     },
     "flashinfer-ai/flashinfer": {
-      "2026-08-31": 6296,
       "2026-09-01": 6304,
       "2026-09-02": 6314,
       "2026-09-03": 6322,
@@ -2750,10 +2966,10 @@
       "2026-09-09": 6358,
       "2026-09-10": 6363,
       "2026-09-11": 6372,
-      "2026-09-12": 6379
+      "2026-09-12": 6379,
+      "2026-09-16": 6416
     },
     "freqtrade/freqtrade": {
-      "2026-08-31": 53865,
       "2026-09-01": 53877,
       "2026-09-02": 53931,
       "2026-09-03": 53964,
@@ -2764,14 +2980,14 @@
       "2026-09-09": 54180,
       "2026-09-10": 54214,
       "2026-09-11": 54253,
-      "2026-09-12": 54279
+      "2026-09-12": 54279,
+      "2026-09-16": 54430
     },
     "furkankly/zoetrope": {
       "2026-08-31": 714,
       "2026-09-01": 744
     },
     "gaaiyun/joinquant-skill": {
-      "2026-08-31": 77,
       "2026-09-01": 77,
       "2026-09-02": 77,
       "2026-09-03": 77,
@@ -2782,7 +2998,8 @@
       "2026-09-09": 78,
       "2026-09-10": 78,
       "2026-09-11": 79,
-      "2026-09-12": 80
+      "2026-09-12": 80,
+      "2026-09-16": 82
     },
     "gabrielolympie/sglang-flashnext-sm120": {
       "2026-09-09": 24,
@@ -2793,11 +3010,15 @@
     "garnermccloud/sglang-ssd-stream": {
       "2026-09-10": 12
     },
+    "gauravapiscean/agentic-kv-cache": {
+      "2026-09-16": 23
+    },
     "georgezouq/awesome-ai-in-finance": {
       "2026-09-09": 6497,
       "2026-09-10": 6500,
       "2026-09-11": 6526,
-      "2026-09-12": 6554
+      "2026-09-12": 6554,
+      "2026-09-16": 6573
     },
     "getrefined/Qwen3.8-Flash-Next-NVFP4-vLLM-DGX-Spark": {
       "2026-08-31": 8,
@@ -2818,10 +3039,10 @@
     },
     "gitcommit90/glm-5.3-one-spark": {
       "2026-09-11": 29,
-      "2026-09-12": 31
+      "2026-09-12": 31,
+      "2026-09-16": 41
     },
     "github/CopilotForXcode": {
-      "2026-08-31": 6289,
       "2026-09-01": 6291,
       "2026-09-02": 6291,
       "2026-09-03": 6292,
@@ -2832,10 +3053,13 @@
       "2026-09-09": 6291,
       "2026-09-10": 6289,
       "2026-09-11": 6290,
-      "2026-09-12": 6291
+      "2026-09-12": 6291,
+      "2026-09-16": 6298
+    },
+    "giveen/ninfer-studio": {
+      "2026-09-16": 9
     },
     "google/agents-cli": {
-      "2026-08-31": 5768,
       "2026-09-01": 5773,
       "2026-09-02": 5786,
       "2026-09-03": 5794,
@@ -2846,13 +3070,14 @@
       "2026-09-09": 5845,
       "2026-09-10": 5896,
       "2026-09-11": 5904,
-      "2026-09-12": 5914
+      "2026-09-12": 5914,
+      "2026-09-16": 5939
     },
     "google/artemis": {
-      "2026-09-12": 2625
+      "2026-09-12": 2625,
+      "2026-09-16": 6046
     },
     "gpustack/gpustack": {
-      "2026-08-31": 5574,
       "2026-09-01": 5581,
       "2026-09-02": 5585,
       "2026-09-03": 5594,
@@ -2863,7 +3088,8 @@
       "2026-09-09": 5624,
       "2026-09-10": 5647,
       "2026-09-11": 5665,
-      "2026-09-12": 5676
+      "2026-09-12": 5676,
+      "2026-09-16": 5699
     },
     "griddaimyorun/Metatraider-Traiding-Bot": {
       "2026-09-09": 808,
@@ -2905,8 +3131,10 @@
       "2026-09-10": 6,
       "2026-09-11": 7
     },
+    "heubme2020/datasinking": {
+      "2026-09-16": 14
+    },
     "heygen-com/hyperframes": {
-      "2026-08-31": 43295,
       "2026-09-01": 43448,
       "2026-09-02": 43626,
       "2026-09-03": 43742,
@@ -2917,7 +3145,8 @@
       "2026-09-09": 47931,
       "2026-09-10": 48483,
       "2026-09-11": 48830,
-      "2026-09-12": 49055
+      "2026-09-12": 49055,
+      "2026-09-16": 50466
     },
     "himovo/movo": {
       "2026-09-09": 20,
@@ -2950,7 +3179,6 @@
       "2026-09-10": 633
     },
     "hosseinmoein/DataFrame": {
-      "2026-08-31": 2981,
       "2026-09-01": 2981,
       "2026-09-02": 2981,
       "2026-09-03": 2980,
@@ -2961,7 +3189,11 @@
       "2026-09-09": 2982,
       "2026-09-10": 2982,
       "2026-09-11": 2982,
-      "2026-09-12": 2982
+      "2026-09-12": 2982,
+      "2026-09-16": 2983
+    },
+    "howdeploy/LocalForgeLLM": {
+      "2026-09-16": 5
     },
     "hsy23/CLIF-Co-Orchestrating-LLM-Inference-Serving-and-Fine-tuning": {
       "2026-09-03": 41,
@@ -2972,10 +3204,10 @@
       "2026-09-09": 41,
       "2026-09-10": 41,
       "2026-09-11": 41,
-      "2026-09-12": 41
+      "2026-09-12": 41,
+      "2026-09-16": 41
     },
     "hummingbot/hummingbot": {
-      "2026-08-31": 19716,
       "2026-09-01": 19732,
       "2026-09-02": 19753,
       "2026-09-03": 19765,
@@ -2986,7 +3218,8 @@
       "2026-09-09": 19924,
       "2026-09-10": 19948,
       "2026-09-11": 19962,
-      "2026-09-12": 19968
+      "2026-09-12": 19968,
+      "2026-09-16": 20020
     },
     "hyetigran/legacy-skills": {
       "2026-09-03": 7,
@@ -3003,10 +3236,10 @@
       "2026-09-09": 251,
       "2026-09-10": 298,
       "2026-09-11": 331,
-      "2026-09-12": 358
+      "2026-09-12": 358,
+      "2026-09-16": 472
     },
     "iOfficeAI/AionUi": {
-      "2026-08-31": 32457,
       "2026-09-01": 32471,
       "2026-09-02": 32492,
       "2026-09-03": 32521,
@@ -3017,7 +3250,8 @@
       "2026-09-09": 32702,
       "2026-09-10": 32723,
       "2026-09-11": 32744,
-      "2026-09-12": 32762
+      "2026-09-12": 32762,
+      "2026-09-16": 32869
     },
     "ickma2311/FinRunbook": {
       "2026-09-05": 4,
@@ -3026,10 +3260,10 @@
       "2026-09-09": 4,
       "2026-09-10": 4,
       "2026-09-11": 4,
-      "2026-09-12": 4
+      "2026-09-12": 4,
+      "2026-09-16": 4
     },
     "ilchen/US_Economic_Data_Analysis": {
-      "2026-08-31": 87,
       "2026-09-01": 87,
       "2026-09-02": 87,
       "2026-09-03": 87,
@@ -3040,10 +3274,10 @@
       "2026-09-09": 90,
       "2026-09-10": 90,
       "2026-09-11": 90,
-      "2026-09-12": 90
+      "2026-09-12": 90,
+      "2026-09-16": 90
     },
     "intel/auto-round": {
-      "2026-08-31": 1595,
       "2026-09-01": 1596,
       "2026-09-02": 1599,
       "2026-09-03": 1599,
@@ -3054,7 +3288,8 @@
       "2026-09-09": 1609,
       "2026-09-10": 1609,
       "2026-09-11": 1610,
-      "2026-09-12": 1611
+      "2026-09-12": 1611,
+      "2026-09-16": 1616
     },
     "intel/gpu-ai-skills": {
       "2026-08-31": 16,
@@ -3062,6 +3297,9 @@
       "2026-09-02": 18,
       "2026-09-03": 20,
       "2026-09-04": 20
+    },
+    "iterativv/NostalgiaForInfinity": {
+      "2026-09-16": 3413
     },
     "itriones/AI-Quant-Framework": {
       "2026-09-02": 10,
@@ -3074,6 +3312,9 @@
       "2026-09-10": 41,
       "2026-09-11": 41,
       "2026-09-12": 41
+    },
+    "ivyfan-toowell/IvyClaw": {
+      "2026-09-16": 59
     },
     "jamro/tiny-engineer": {
       "2026-08-31": 126,
@@ -3102,12 +3343,12 @@
       "2026-09-07": 123
     },
     "jasonjfoster/screen": {
-      "2026-08-31": 20,
       "2026-09-07": 20,
       "2026-09-09": 20,
       "2026-09-10": 20,
       "2026-09-11": 20,
-      "2026-09-12": 20
+      "2026-09-12": 20,
+      "2026-09-16": 20
     },
     "jbobbink/glippy-webmcp": {
       "2026-08-31": 5,
@@ -3131,7 +3372,6 @@
       "2026-09-07": 8
     },
     "jesse-ai/jesse": {
-      "2026-08-31": 8397,
       "2026-09-01": 8399,
       "2026-09-02": 8405,
       "2026-09-03": 8408,
@@ -3142,7 +3382,8 @@
       "2026-09-09": 8439,
       "2026-09-10": 8442,
       "2026-09-11": 8448,
-      "2026-09-12": 8454
+      "2026-09-12": 8454,
+      "2026-09-16": 8519
     },
     "jiangmuran/vibepanel": {
       "2026-09-09": 6,
@@ -3158,7 +3399,8 @@
       "2026-09-12": 6
     },
     "jnardiello/GLM-5.3-Flash-FP8-4-DGX-Spark-Switchless": {
-      "2026-09-12": 5
+      "2026-09-12": 5,
+      "2026-09-16": 11
     },
     "john79nl/gravity": {
       "2026-08-31": 7,
@@ -3185,6 +3427,9 @@
       "2026-09-06": 50,
       "2026-09-07": 55
     },
+    "kaistmm/OmniKVQuant": {
+      "2026-09-16": 6
+    },
     "kamalesh404/CodeMesa": {
       "2026-09-04": 5,
       "2026-09-05": 5,
@@ -3200,7 +3445,8 @@
     },
     "kay-ou/SimTradeLab": {
       "2026-09-11": 338,
-      "2026-09-12": 338
+      "2026-09-12": 338,
+      "2026-09-16": 340
     },
     "kdheeraj-p/bridgespec": {
       "2026-08-31": 6,
@@ -3232,9 +3478,13 @@
       "2026-09-11": 11,
       "2026-09-12": 11
     },
+    "knownasrazi/code-canvas-board": {
+      "2026-09-16": 6
+    },
     "knownasrazi/django-vibe-blog": {
       "2026-09-11": 5,
-      "2026-09-12": 5
+      "2026-09-12": 5,
+      "2026-09-16": 5
     },
     "knownasrazi/rust-image-sharp": {
       "2026-09-11": 5
@@ -3257,10 +3507,10 @@
       "2026-09-06": 6
     },
     "kruzovic7/ai-data-extractor": {
-      "2026-09-12": 55
+      "2026-09-12": 55,
+      "2026-09-16": 823
     },
     "kserve/kserve": {
-      "2026-08-31": 5844,
       "2026-09-01": 5846,
       "2026-09-02": 5849,
       "2026-09-03": 5852,
@@ -3269,10 +3519,10 @@
       "2026-09-06": 5859,
       "2026-09-07": 5863,
       "2026-09-09": 5866,
-      "2026-09-10": 5868
+      "2026-09-10": 5868,
+      "2026-09-16": 5933
     },
     "kunkundi/niuone": {
-      "2026-08-31": 291,
       "2026-09-01": 293,
       "2026-09-02": 296,
       "2026-09-03": 296,
@@ -3283,15 +3533,16 @@
       "2026-09-09": 301,
       "2026-09-10": 303,
       "2026-09-11": 304,
-      "2026-09-12": 304
+      "2026-09-12": 304,
+      "2026-09-16": 310
     },
     "kunpengtalk/OmniStudio": {
       "2026-09-10": 17,
       "2026-09-11": 26,
-      "2026-09-12": 38
+      "2026-09-12": 38,
+      "2026-09-16": 108
     },
     "kvcache-ai/Mooncake": {
-      "2026-08-31": 6445,
       "2026-09-01": 6452,
       "2026-09-02": 6462,
       "2026-09-03": 6471,
@@ -3302,7 +3553,8 @@
       "2026-09-09": 6529,
       "2026-09-10": 6542,
       "2026-09-11": 6552,
-      "2026-09-12": 6555
+      "2026-09-12": 6555,
+      "2026-09-16": 6581
     },
     "lalaa-a/vibe_remote": {
       "2026-09-09": 5,
@@ -3311,7 +3563,6 @@
       "2026-09-12": 5
     },
     "langchain-ai/langchain": {
-      "2026-08-31": 145332,
       "2026-09-01": 145391,
       "2026-09-02": 145467,
       "2026-09-03": 145542,
@@ -3322,10 +3573,10 @@
       "2026-09-09": 145980,
       "2026-09-10": 146036,
       "2026-09-11": 146098,
-      "2026-09-12": 146156
+      "2026-09-12": 146156,
+      "2026-09-16": 146420
     },
     "langchain-ai/langgraph": {
-      "2026-08-31": 40776,
       "2026-09-01": 40814,
       "2026-09-02": 40884,
       "2026-09-03": 40960,
@@ -3336,10 +3587,10 @@
       "2026-09-09": 41287,
       "2026-09-10": 41354,
       "2026-09-11": 41433,
-      "2026-09-12": 41492
+      "2026-09-12": 41492,
+      "2026-09-16": 41727
     },
     "langchain4j/langchain4j": {
-      "2026-08-31": 12984,
       "2026-09-01": 12988,
       "2026-09-02": 12999,
       "2026-09-03": 13010,
@@ -3350,10 +3601,10 @@
       "2026-09-09": 13056,
       "2026-09-10": 13058,
       "2026-09-11": 13068,
-      "2026-09-12": 13072
+      "2026-09-12": 13072,
+      "2026-09-16": 13106
     },
     "langfuse/langfuse": {
-      "2026-08-31": 33972,
       "2026-09-01": 34013,
       "2026-09-02": 34073,
       "2026-09-03": 34120,
@@ -3364,7 +3615,11 @@
       "2026-09-09": 34375,
       "2026-09-10": 34416,
       "2026-09-11": 34461,
-      "2026-09-12": 34488
+      "2026-09-12": 34488,
+      "2026-09-16": 34667
+    },
+    "langwatch/langwatch": {
+      "2026-09-16": 4796
     },
     "latitude-dev/latitude-llm": {
       "2026-09-11": 4632,
@@ -3385,10 +3640,10 @@
       "2026-09-09": 2,
       "2026-09-10": 2,
       "2026-09-11": 3,
-      "2026-09-12": 3
+      "2026-09-12": 3,
+      "2026-09-16": 4
     },
     "lemonade-sdk/lemonade": {
-      "2026-08-31": 5548,
       "2026-09-01": 5557,
       "2026-09-02": 5571,
       "2026-09-03": 5590,
@@ -3399,15 +3654,15 @@
       "2026-09-09": 5664,
       "2026-09-10": 5675,
       "2026-09-11": 5683,
-      "2026-09-12": 5693
+      "2026-09-12": 5693,
+      "2026-09-16": 5723
     },
     "leoncuhk/awesome-quant-ai": {
-      "2026-08-31": 584,
       "2026-09-01": 586,
-      "2026-09-12": 601
+      "2026-09-12": 601,
+      "2026-09-16": 606
     },
     "lightseekorg/tokenspeed": {
-      "2026-08-31": 2054,
       "2026-09-01": 2058,
       "2026-09-02": 2071,
       "2026-09-03": 2081,
@@ -3418,7 +3673,8 @@
       "2026-09-09": 2106,
       "2026-09-10": 2112,
       "2026-09-11": 2115,
-      "2026-09-12": 2116
+      "2026-09-12": 2116,
+      "2026-09-16": 2134
     },
     "limitedmovie/DeepSeek-Desktop---DeepSeek-AI-Assistant-2026": {
       "2026-08-31": 10,
@@ -3433,20 +3689,22 @@
     },
     "linqiu919/better-context-engine": {
       "2026-09-11": 9,
-      "2026-09-12": 23
+      "2026-09-12": 23,
+      "2026-09-16": 36
     },
     "lisazhou886/Forex-hex-algo-strategy-mt4": {
       "2026-09-10": 3,
       "2026-09-11": 8,
-      "2026-09-12": 9
+      "2026-09-12": 9,
+      "2026-09-16": 21
     },
     "lisazhou886/smart-money-forex-strategy-mt4": {
       "2026-09-10": 3,
       "2026-09-11": 8,
-      "2026-09-12": 9
+      "2026-09-12": 9,
+      "2026-09-16": 21
     },
     "liyupi/ai-guide": {
-      "2026-08-31": 19338,
       "2026-09-01": 19356,
       "2026-09-02": 19398,
       "2026-09-03": 19473,
@@ -3457,7 +3715,8 @@
       "2026-09-09": 19694,
       "2026-09-10": 19759,
       "2026-09-11": 19804,
-      "2026-09-12": 19842
+      "2026-09-12": 19842,
+      "2026-09-16": 19997
     },
     "lnkiai/m3e-canvas": {
       "2026-09-03": 75,
@@ -3468,7 +3727,8 @@
       "2026-09-09": 5308,
       "2026-09-10": 5589,
       "2026-09-11": 5945,
-      "2026-09-12": 6182
+      "2026-09-12": 6182,
+      "2026-09-16": 6972
     },
     "londonstrategicedge/lse-terminal": {
       "2026-09-03": 18,
@@ -3501,10 +3761,10 @@
       "2026-09-09": 53,
       "2026-09-10": 53,
       "2026-09-11": 55,
-      "2026-09-12": 57
+      "2026-09-12": 57,
+      "2026-09-16": 63
     },
     "mastra-ai/mastra": {
-      "2026-08-31": 27591,
       "2026-09-01": 27603,
       "2026-09-02": 27625,
       "2026-09-03": 27658,
@@ -3515,7 +3775,8 @@
       "2026-09-09": 27817,
       "2026-09-10": 27889,
       "2026-09-11": 27926,
-      "2026-09-12": 27957
+      "2026-09-12": 27957,
+      "2026-09-16": 28089
     },
     "maxritter/open-claude-design": {
       "2026-08-31": 6,
@@ -3533,10 +3794,10 @@
     "michaelxu688/ai-trading-signals-engine": {
       "2026-09-10": 2,
       "2026-09-11": 7,
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 20
     },
     "milocaetano/quantick": {
-      "2026-08-31": 31,
       "2026-09-01": 31,
       "2026-09-02": 32,
       "2026-09-03": 32,
@@ -3547,10 +3808,10 @@
       "2026-09-09": 36,
       "2026-09-10": 36,
       "2026-09-11": 36,
-      "2026-09-12": 36
+      "2026-09-12": 36,
+      "2026-09-16": 41
     },
     "mingti-org/phyai": {
-      "2026-08-31": 113,
       "2026-09-01": 116,
       "2026-09-02": 116,
       "2026-09-03": 117,
@@ -3561,7 +3822,8 @@
       "2026-09-09": 120,
       "2026-09-10": 120,
       "2026-09-11": 120,
-      "2026-09-12": 120
+      "2026-09-12": 120,
+      "2026-09-16": 123
     },
     "minimaxh3turbo/MiniMax-H3-Turbo-LoRA-ComfyUI": {
       "2026-09-02": 14,
@@ -3576,7 +3838,6 @@
       "2026-09-02": 646
     },
     "mistralai/mistral-vibe": {
-      "2026-08-31": 4899,
       "2026-09-01": 4901,
       "2026-09-02": 4904,
       "2026-09-03": 4907,
@@ -3587,7 +3848,8 @@
       "2026-09-09": 4928,
       "2026-09-10": 4932,
       "2026-09-11": 4932,
-      "2026-09-12": 4936
+      "2026-09-12": 4936,
+      "2026-09-16": 4956
     },
     "mlc-ai/web-llm": {
       "2026-09-02": 18693,
@@ -3599,10 +3861,10 @@
       "2026-09-09": 19030,
       "2026-09-10": 19042,
       "2026-09-11": 19080,
-      "2026-09-12": 19094
+      "2026-09-12": 19094,
+      "2026-09-16": 19133
     },
     "mlflow/mlflow": {
-      "2026-08-31": 27747,
       "2026-09-01": 27759,
       "2026-09-02": 27768,
       "2026-09-03": 27784,
@@ -3613,10 +3875,10 @@
       "2026-09-09": 27874,
       "2026-09-10": 27893,
       "2026-09-11": 27907,
-      "2026-09-12": 27918
+      "2026-09-12": 27918,
+      "2026-09-16": 27974
     },
     "modelscope/FunASR": {
-      "2026-08-31": 20094,
       "2026-09-01": 20107,
       "2026-09-02": 20125,
       "2026-09-03": 20136,
@@ -3627,7 +3889,8 @@
       "2026-09-09": 20231,
       "2026-09-10": 20256,
       "2026-09-11": 20274,
-      "2026-09-12": 20282
+      "2026-09-12": 20282,
+      "2026-09-16": 20357
     },
     "mohamedhossammohamed/m4-prefill-engine": {
       "2026-09-01": 15,
@@ -3646,13 +3909,15 @@
       "2026-09-09": 8,
       "2026-09-10": 8,
       "2026-09-11": 11,
-      "2026-09-12": 13
+      "2026-09-12": 13,
+      "2026-09-16": 16
     },
     "mosecorg/mosec": {
       "2026-09-09": 902,
       "2026-09-10": 902,
       "2026-09-11": 902,
-      "2026-09-12": 902
+      "2026-09-12": 902,
+      "2026-09-16": 902
     },
     "mpaymenremora/CacheCraft": {
       "2026-09-05": 36,
@@ -3661,17 +3926,20 @@
       "2026-09-09": 33,
       "2026-09-10": 30,
       "2026-09-11": 30,
-      "2026-09-12": 30
+      "2026-09-12": 30,
+      "2026-09-16": 31
     },
     "mratsim/sglang-qwen38fn-sm120-turbo": {
       "2026-09-07": 14,
       "2026-09-09": 14,
       "2026-09-10": 14,
       "2026-09-11": 15,
-      "2026-09-12": 17
+      "2026-09-12": 17,
+      "2026-09-16": 17
     },
     "mratsim/sgtop": {
-      "2026-09-12": 5
+      "2026-09-12": 5,
+      "2026-09-16": 7
     },
     "mukul975/Anthropic-Cybersecurity-Skills": {
       "2026-08-31": 31771,
@@ -3712,7 +3980,6 @@
       "2026-09-12": 9
     },
     "neuml/txtai": {
-      "2026-08-31": 12913,
       "2026-09-01": 12917,
       "2026-09-02": 12917,
       "2026-09-03": 12920,
@@ -3723,10 +3990,10 @@
       "2026-09-09": 12938,
       "2026-09-10": 12941,
       "2026-09-11": 12943,
-      "2026-09-12": 12945
+      "2026-09-12": 12945,
+      "2026-09-16": 12949
     },
     "nexu-io/open-design": {
-      "2026-08-31": 92957,
       "2026-09-01": 93125,
       "2026-09-02": 93413,
       "2026-09-03": 93676,
@@ -3737,10 +4004,13 @@
       "2026-09-09": 94986,
       "2026-09-10": 95227,
       "2026-09-11": 95473,
-      "2026-09-12": 95654
+      "2026-09-12": 95654,
+      "2026-09-16": 96415
+    },
+    "noorxsingh/backtesting-engine": {
+      "2026-09-16": 3
     },
     "notnotype/neuro-book": {
-      "2026-08-31": 593,
       "2026-09-01": 595,
       "2026-09-02": 599,
       "2026-09-03": 606,
@@ -3751,10 +4021,10 @@
       "2026-09-09": 624,
       "2026-09-10": 633,
       "2026-09-11": 635,
-      "2026-09-12": 639
+      "2026-09-12": 639,
+      "2026-09-16": 651
     },
     "obra/superpowers": {
-      "2026-08-31": 279883,
       "2026-09-01": 280128,
       "2026-09-02": 280523,
       "2026-09-03": 280905,
@@ -3765,17 +4035,18 @@
       "2026-09-09": 283475,
       "2026-09-10": 284134,
       "2026-09-11": 284826,
-      "2026-09-12": 285448
+      "2026-09-12": 285448,
+      "2026-09-16": 287257
     },
     "okf-memory/okf-agent-memory": {
       "2026-09-07": 382,
       "2026-09-09": 498,
       "2026-09-10": 523,
       "2026-09-11": 551,
-      "2026-09-12": 580
+      "2026-09-12": 580,
+      "2026-09-16": 670
     },
     "okx/agent-trade-kit": {
-      "2026-08-31": 416,
       "2026-09-01": 416,
       "2026-09-02": 418,
       "2026-09-03": 419,
@@ -3786,7 +4057,8 @@
       "2026-09-09": 420,
       "2026-09-10": 421,
       "2026-09-11": 422,
-      "2026-09-12": 423
+      "2026-09-12": 423,
+      "2026-09-16": 430
     },
     "open-multi-agent/open-multi-agent": {
       "2026-09-05": 6876,
@@ -3795,7 +4067,8 @@
       "2026-09-09": 6894,
       "2026-09-10": 6897,
       "2026-09-11": 6904,
-      "2026-09-12": 6907
+      "2026-09-12": 6907,
+      "2026-09-16": 6929
     },
     "open-spec-config/open-spec-config": {
       "2026-09-05": 6,
@@ -3803,10 +4076,10 @@
       "2026-09-09": 7,
       "2026-09-10": 7,
       "2026-09-11": 7,
-      "2026-09-12": 7
+      "2026-09-12": 7,
+      "2026-09-16": 7
     },
     "openai/codex": {
-      "2026-08-31": 120350,
       "2026-09-01": 120526,
       "2026-09-02": 120767,
       "2026-09-03": 121033,
@@ -3817,10 +4090,10 @@
       "2026-09-09": 122612,
       "2026-09-10": 122920,
       "2026-09-11": 123166,
-      "2026-09-12": 123449
+      "2026-09-12": 123449,
+      "2026-09-16": 124510
     },
     "openai/openai-agents-python": {
-      "2026-08-31": 29094,
       "2026-09-01": 29106,
       "2026-09-02": 29128,
       "2026-09-03": 29148,
@@ -3831,10 +4104,10 @@
       "2026-09-09": 29284,
       "2026-09-10": 29311,
       "2026-09-11": 29342,
-      "2026-09-12": 29376
+      "2026-09-12": 29376,
+      "2026-09-16": 29476
     },
     "openlake-project/openlake": {
-      "2026-08-31": 2347,
       "2026-09-01": 2351,
       "2026-09-02": 2395,
       "2026-09-03": 2402,
@@ -3845,10 +4118,10 @@
       "2026-09-09": 2496,
       "2026-09-10": 2555,
       "2026-09-11": 2567,
-      "2026-09-12": 2579
+      "2026-09-12": 2579,
+      "2026-09-16": 2612
     },
     "openobserve/openobserve": {
-      "2026-08-31": 21582,
       "2026-09-01": 21595,
       "2026-09-02": 21608,
       "2026-09-03": 21615,
@@ -3859,10 +4132,10 @@
       "2026-09-09": 21694,
       "2026-09-10": 21707,
       "2026-09-11": 21730,
-      "2026-09-12": 21751
+      "2026-09-12": 21751,
+      "2026-09-16": 21946
     },
     "openshift-eng/ai-helpers": {
-      "2026-08-31": 114,
       "2026-09-01": 114,
       "2026-09-02": 114,
       "2026-09-03": 114,
@@ -3873,10 +4146,12 @@
       "2026-09-09": 116,
       "2026-09-10": 116,
       "2026-09-11": 116,
-      "2026-09-12": 116
+      "2026-09-12": 116,
+      "2026-09-16": 117
     },
     "oriveo/oriveo": {
-      "2026-09-12": 40
+      "2026-09-12": 40,
+      "2026-09-16": 107
     },
     "ormandj/sglang-glm53-flash-sm120": {
       "2026-09-02": 13,
@@ -3893,7 +4168,8 @@
       "2026-09-04": 1320,
       "2026-09-05": 1329,
       "2026-09-06": 1339,
-      "2026-09-12": 1366
+      "2026-09-12": 1366,
+      "2026-09-16": 1387
     },
     "pangoleen/qwen3.8-27b-dgx-spark-dflash2": {
       "2026-09-03": 14,
@@ -3904,10 +4180,10 @@
       "2026-09-09": 33,
       "2026-09-10": 33,
       "2026-09-11": 33,
-      "2026-09-12": 33
+      "2026-09-12": 33,
+      "2026-09-16": 34
     },
     "paperswithbacktest/awesome-systematic-trading": {
-      "2026-08-31": 14080,
       "2026-09-01": 14091,
       "2026-09-02": 14103,
       "2026-09-03": 14120,
@@ -3918,10 +4194,10 @@
       "2026-09-09": 14202,
       "2026-09-10": 14216,
       "2026-09-11": 14236,
-      "2026-09-12": 14246
+      "2026-09-12": 14246,
+      "2026-09-16": 14283
     },
     "pathwaycom/pathway": {
-      "2026-08-31": 62364,
       "2026-09-01": 62355,
       "2026-09-02": 62350,
       "2026-09-03": 62348,
@@ -3932,7 +4208,8 @@
       "2026-09-09": 62318,
       "2026-09-10": 62313,
       "2026-09-11": 62307,
-      "2026-09-12": 62299
+      "2026-09-12": 62299,
+      "2026-09-16": 62284
     },
     "patrickmfurbert/ai-tools": {
       "2026-09-05": 5,
@@ -3955,6 +4232,12 @@
       "2026-09-04": 82,
       "2026-09-05": 83
     },
+    "pliablepixels/gap-trap": {
+      "2026-09-16": 150
+    },
+    "poisonxa16/pxa": {
+      "2026-09-16": 42
+    },
     "pratikxpanda/agentskills-sdk": {
       "2026-08-31": 23,
       "2026-09-01": 23,
@@ -3974,7 +4257,6 @@
       "2026-09-12": 6
     },
     "pseudo-longinus/quant-buddy-skills": {
-      "2026-08-31": 98,
       "2026-09-01": 104,
       "2026-09-02": 106,
       "2026-09-03": 107,
@@ -3985,7 +4267,8 @@
       "2026-09-09": 111,
       "2026-09-10": 111,
       "2026-09-11": 111,
-      "2026-09-12": 111
+      "2026-09-12": 111,
+      "2026-09-16": 186
     },
     "pydantic/logfire": {
       "2026-08-31": 4448,
@@ -3996,7 +4279,6 @@
       "2026-09-07": 8
     },
     "quant-sentiment-ai/claude-equity-research": {
-      "2026-08-31": 706,
       "2026-09-01": 707,
       "2026-09-02": 707,
       "2026-09-03": 708,
@@ -4007,7 +4289,8 @@
       "2026-09-09": 711,
       "2026-09-10": 712,
       "2026-09-11": 713,
-      "2026-09-12": 714
+      "2026-09-12": 714,
+      "2026-09-16": 713
     },
     "quarkfin/qf-lib": {
       "2026-08-31": 957,
@@ -4026,6 +4309,9 @@
     "r0b0tlab/qwen38-27b-nvfp4-sm121-sglang": {
       "2026-08-31": 18
     },
+    "r0b0tlab/qwen38-flash-next-nvidia-nvfp4-sm121-sglang": {
+      "2026-09-16": 9
+    },
     "ra3orblade/swarm": {
       "2026-08-31": 5,
       "2026-09-01": 5,
@@ -4033,7 +4319,6 @@
       "2026-09-03": 5
     },
     "raullenchai/Rapid-MLX": {
-      "2026-08-31": 3617,
       "2026-09-01": 3628,
       "2026-09-02": 3641,
       "2026-09-03": 3646,
@@ -4044,13 +4329,13 @@
       "2026-09-09": 3707,
       "2026-09-10": 3718,
       "2026-09-11": 3725,
-      "2026-09-12": 3729
+      "2026-09-12": 3729,
+      "2026-09-16": 3757
     },
     "raviwijerathna1/PyBacktestPro": {
       "2026-09-03": 70
     },
     "ray-project/ray": {
-      "2026-08-31": 43665,
       "2026-09-01": 43669,
       "2026-09-02": 43681,
       "2026-09-03": 43688,
@@ -4061,16 +4346,20 @@
       "2026-09-09": 43751,
       "2026-09-10": 43762,
       "2026-09-11": 43770,
-      "2026-09-12": 43785
+      "2026-09-12": 43785,
+      "2026-09-16": 43821
     },
     "rburkholder/trade-frame": {
       "2026-09-09": 675,
       "2026-09-10": 675,
       "2026-09-11": 675,
-      "2026-09-12": 675
+      "2026-09-12": 675,
+      "2026-09-16": 677
+    },
+    "rdilruba/codebase-map": {
+      "2026-09-16": 6
     },
     "ricequant/rqalpha": {
-      "2026-08-31": 6738,
       "2026-09-01": 6739,
       "2026-09-02": 6742,
       "2026-09-03": 6742,
@@ -4081,7 +4370,8 @@
       "2026-09-09": 6756,
       "2026-09-10": 6759,
       "2026-09-11": 6759,
-      "2026-09-12": 6763
+      "2026-09-12": 6763,
+      "2026-09-16": 6769
     },
     "richlearntodo-debug/vibe-flow": {
       "2026-08-31": 40,
@@ -4092,8 +4382,8 @@
       "2026-09-05": 63
     },
     "robert0777/Automate-Financial-Data-Extraction-from-Banxico-into-Google-Sheets": {
-      "2026-08-31": 9,
-      "2026-09-01": 9
+      "2026-09-01": 9,
+      "2026-09-16": 9
     },
     "rokbenko/quackd": {
       "2026-08-31": 74,
@@ -4123,7 +4413,6 @@
       "2026-09-12": 239
     },
     "run-llama/llama_index": {
-      "2026-08-31": 51936,
       "2026-09-01": 51948,
       "2026-09-02": 51973,
       "2026-09-03": 51987,
@@ -4134,7 +4423,8 @@
       "2026-09-09": 52082,
       "2026-09-10": 52106,
       "2026-09-11": 52120,
-      "2026-09-12": 52129
+      "2026-09-12": 52129,
+      "2026-09-16": 52177
     },
     "sahmk-sa/sahmk-python": {
       "2026-08-31": 24,
@@ -4172,10 +4462,10 @@
       "2026-09-06": 31
     },
     "seoan1024/Korean-llm-v4": {
-      "2026-09-12": 8
+      "2026-09-12": 8,
+      "2026-09-16": 26
     },
     "sgl-project/sglang": {
-      "2026-08-31": 32976,
       "2026-09-01": 33009,
       "2026-09-02": 33077,
       "2026-09-03": 33577,
@@ -4186,10 +4476,10 @@
       "2026-09-09": 35665,
       "2026-09-10": 35731,
       "2026-09-11": 35795,
-      "2026-09-12": 35834
+      "2026-09-12": 35834,
+      "2026-09-16": 36017
     },
     "shanraisshan/claude-code-best-practice": {
-      "2026-08-31": 65415,
       "2026-09-01": 65443,
       "2026-09-02": 65517,
       "2026-09-03": 65565,
@@ -4200,13 +4490,15 @@
       "2026-09-09": 65784,
       "2026-09-10": 65804,
       "2026-09-11": 65836,
-      "2026-09-12": 65847
+      "2026-09-12": 65847,
+      "2026-09-16": 65951
     },
     "shashankvemuri/Finance": {
       "2026-09-09": 4216,
       "2026-09-10": 4216,
       "2026-09-11": 4218,
-      "2026-09-12": 4227
+      "2026-09-12": 4227,
+      "2026-09-16": 4267
     },
     "shivangsaxena2211/DEFINN-APP": {
       "2026-08-31": 2,
@@ -4219,10 +4511,10 @@
       "2026-09-09": 104,
       "2026-09-10": 104,
       "2026-09-11": 104,
-      "2026-09-12": 104
+      "2026-09-12": 104,
+      "2026-09-16": 100
     },
     "shy3130/tick-stock-panel": {
-      "2026-08-31": 4013,
       "2026-09-01": 4063,
       "2026-09-02": 4135,
       "2026-09-03": 4220,
@@ -4233,7 +4525,8 @@
       "2026-09-09": 4473,
       "2026-09-10": 4513,
       "2026-09-11": 4543,
-      "2026-09-12": 4595
+      "2026-09-12": 4595,
+      "2026-09-16": 4725
     },
     "sidmanale643/helios": {
       "2026-09-01": 6,
@@ -4247,7 +4540,6 @@
       "2026-09-10": 10
     },
     "simonlin1212/a-stock-data": {
-      "2026-08-31": 9392,
       "2026-09-01": 9409,
       "2026-09-02": 9441,
       "2026-09-03": 9484,
@@ -4258,7 +4550,8 @@
       "2026-09-09": 9720,
       "2026-09-10": 9744,
       "2026-09-11": 9762,
-      "2026-09-12": 9777
+      "2026-09-12": 9777,
+      "2026-09-16": 9859
     },
     "skyf0xx/hedgehog-core-copywriting-prose-engineering": {
       "2026-09-06": 6,
@@ -4266,10 +4559,10 @@
       "2026-09-09": 10,
       "2026-09-10": 11,
       "2026-09-11": 11,
-      "2026-09-12": 11
+      "2026-09-12": 11,
+      "2026-09-16": 11
     },
     "skyzh/tiny-llm": {
-      "2026-08-31": 4532,
       "2026-09-01": 4533,
       "2026-09-02": 4537,
       "2026-09-03": 4537,
@@ -4280,7 +4573,8 @@
       "2026-09-09": 4553,
       "2026-09-10": 4556,
       "2026-09-11": 4558,
-      "2026-09-12": 4560
+      "2026-09-12": 4560,
+      "2026-09-16": 4570
     },
     "sodiumsun/agenttrail": {
       "2026-08-31": 564,
@@ -4314,7 +4608,6 @@
       "2026-09-10": 5
     },
     "spiceai/spiceai": {
-      "2026-08-31": 3074,
       "2026-09-01": 3074,
       "2026-09-02": 3075,
       "2026-09-03": 3075,
@@ -4325,10 +4618,10 @@
       "2026-09-09": 3079,
       "2026-09-10": 3080,
       "2026-09-11": 3080,
-      "2026-09-12": 3080
+      "2026-09-12": 3080,
+      "2026-09-16": 3082
     },
     "srlcarlg/srl-ctrader-indicators": {
-      "2026-08-31": 82,
       "2026-09-01": 82,
       "2026-09-02": 82,
       "2026-09-06": 82,
@@ -4336,7 +4629,8 @@
       "2026-09-09": 83,
       "2026-09-10": 83,
       "2026-09-11": 83,
-      "2026-09-12": 83
+      "2026-09-12": 83,
+      "2026-09-16": 84
     },
     "sssobolevski/polymarket-bots": {
       "2026-08-31": 3,
@@ -4350,7 +4644,6 @@
       "2026-09-09": 3
     },
     "stas00/ml-engineering": {
-      "2026-08-31": 18849,
       "2026-09-01": 18863,
       "2026-09-02": 18875,
       "2026-09-03": 18885,
@@ -4361,10 +4654,10 @@
       "2026-09-09": 18941,
       "2026-09-10": 18950,
       "2026-09-11": 18959,
-      "2026-09-12": 18975
+      "2026-09-12": 18975,
+      "2026-09-16": 19000
     },
     "stefan-jansen/machine-learning-for-trading": {
-      "2026-08-31": 20742,
       "2026-09-01": 20745,
       "2026-09-02": 20750,
       "2026-09-03": 20765,
@@ -4375,10 +4668,10 @@
       "2026-09-09": 20846,
       "2026-09-10": 20852,
       "2026-09-11": 20863,
-      "2026-09-12": 20867
+      "2026-09-12": 20867,
+      "2026-09-16": 20909
     },
     "surajrimal07/NepseAPI-Unofficial": {
-      "2026-08-31": 60,
       "2026-09-01": 60,
       "2026-09-02": 60,
       "2026-09-03": 60,
@@ -4389,7 +4682,8 @@
       "2026-09-09": 61,
       "2026-09-10": 61,
       "2026-09-11": 61,
-      "2026-09-12": 61
+      "2026-09-12": 61,
+      "2026-09-16": 61
     },
     "swcstudiospace/PumpGrok": {
       "2026-09-01": 2,
@@ -4406,7 +4700,6 @@
       "2026-09-11": 13
     },
     "sybil-solutions/local-studio": {
-      "2026-08-31": 1745,
       "2026-09-01": 1747,
       "2026-09-02": 1749,
       "2026-09-03": 1750,
@@ -4417,7 +4710,11 @@
       "2026-09-09": 1755,
       "2026-09-10": 1757,
       "2026-09-11": 1762,
-      "2026-09-12": 1762
+      "2026-09-12": 1762,
+      "2026-09-16": 1765
+    },
+    "talhatahir-10xe/CuQwen": {
+      "2026-09-16": 7
     },
     "tecrodrigocastro/design-system-flutter-template": {
       "2026-09-05": 5,
@@ -4429,7 +4726,6 @@
       "2026-09-12": 5
     },
     "the-open-agent/openagent": {
-      "2026-08-31": 5591,
       "2026-09-01": 5594,
       "2026-09-02": 5597,
       "2026-09-03": 5597,
@@ -4440,7 +4736,8 @@
       "2026-09-09": 5608,
       "2026-09-10": 5610,
       "2026-09-11": 5611,
-      "2026-09-12": 5614
+      "2026-09-12": 5614,
+      "2026-09-16": 5624
     },
     "thedotmack/claude-mem": {
       "2026-08-31": 92714,
@@ -4464,10 +4761,10 @@
       "2026-09-09": 1394,
       "2026-09-10": 1394,
       "2026-09-11": 1394,
-      "2026-09-12": 1395
+      "2026-09-12": 1395,
+      "2026-09-16": 1397
     },
     "tiann/hapi": {
-      "2026-08-31": 4915,
       "2026-09-01": 4915,
       "2026-09-02": 4919,
       "2026-09-03": 4933,
@@ -4478,7 +4775,8 @@
       "2026-09-09": 5007,
       "2026-09-10": 5024,
       "2026-09-11": 5041,
-      "2026-09-12": 5047
+      "2026-09-12": 5047,
+      "2026-09-16": 5070
     },
     "tickflow-org/tickflow": {
       "2026-09-03": 574,
@@ -4505,7 +4803,8 @@
     },
     "tonyd2wild/DeepSeek-V4.1-Flash-vLLM-DGX-Spark": {
       "2026-09-11": 38,
-      "2026-09-12": 53
+      "2026-09-12": 53,
+      "2026-09-16": 74
     },
     "tonyd2wild/GLM-5.3-Flash-NVFP4-DFlash2-2x-DGX-Spark": {
       "2026-08-31": 133,
@@ -4549,7 +4848,11 @@
       "2026-09-09": 956,
       "2026-09-10": 956,
       "2026-09-11": 956,
-      "2026-09-12": 956
+      "2026-09-12": 956,
+      "2026-09-16": 956
+    },
+    "tradecatlabs/vibe-coding-cn": {
+      "2026-09-16": 16241
     },
     "tradingeconomics/tradingeconomics-js": {
       "2026-09-02": 27,
@@ -4585,10 +4888,13 @@
       "2026-09-09": 378,
       "2026-09-10": 378,
       "2026-09-11": 378,
-      "2026-09-12": 378
+      "2026-09-12": 378,
+      "2026-09-16": 378
+    },
+    "trickymind1324/personal-finance-agent": {
+      "2026-09-16": 2
     },
     "tripolskypetr/backtest-kit": {
-      "2026-08-31": 79,
       "2026-09-01": 79,
       "2026-09-02": 79,
       "2026-09-03": 80,
@@ -4599,7 +4905,8 @@
       "2026-09-09": 81,
       "2026-09-10": 81,
       "2026-09-11": 82,
-      "2026-09-12": 82
+      "2026-09-12": 82,
+      "2026-09-16": 83
     },
     "trymirai/uzu": {
       "2026-08-31": 1684,
@@ -4641,11 +4948,11 @@
       "2026-09-10": 7
     },
     "valkor-ai/loom": {
-      "2026-08-31": 922,
       "2026-09-09": 988,
       "2026-09-10": 992,
       "2026-09-11": 995,
-      "2026-09-12": 1006
+      "2026-09-12": 1006,
+      "2026-09-16": 1031
     },
     "vcruz305/GLM-5.3-Flash-EXL3-K2-DGX-Spark-recipe": {
       "2026-09-03": 21
@@ -4654,7 +4961,11 @@
       "2026-09-11": 222
     },
     "viettranx/3dviz-pro-max": {
-      "2026-09-12": 178
+      "2026-09-12": 178,
+      "2026-09-16": 407
+    },
+    "vincent212/kaspar-hft": {
+      "2026-09-16": 20
     },
     "vladyslavmHord/VORTEX": {
       "2026-09-01": 3,
@@ -4667,7 +4978,6 @@
       "2026-09-09": 13
     },
     "vllm-project/vllm": {
-      "2026-08-31": 90577,
       "2026-09-01": 90644,
       "2026-09-02": 90731,
       "2026-09-03": 90828,
@@ -4678,10 +4988,10 @@
       "2026-09-09": 91297,
       "2026-09-10": 91385,
       "2026-09-11": 91455,
-      "2026-09-12": 91530
+      "2026-09-12": 91530,
+      "2026-09-16": 91877
     },
     "vllm-project/vllm-omni": {
-      "2026-08-31": 6503,
       "2026-09-01": 6519,
       "2026-09-02": 6558,
       "2026-09-03": 6599,
@@ -4692,7 +5002,8 @@
       "2026-09-09": 6725,
       "2026-09-10": 6743,
       "2026-09-11": 6762,
-      "2026-09-12": 6767
+      "2026-09-12": 6767,
+      "2026-09-16": 6814
     },
     "vukrosic/speculative-decoding-research": {
       "2026-08-31": 5
@@ -4726,7 +5037,6 @@
       "2026-09-12": 5116
     },
     "webull-inc/webull-openapi-python-sdk": {
-      "2026-08-31": 58,
       "2026-09-01": 58,
       "2026-09-02": 58,
       "2026-09-03": 59,
@@ -4737,7 +5047,8 @@
       "2026-09-09": 61,
       "2026-09-10": 61,
       "2026-09-11": 61,
-      "2026-09-12": 61
+      "2026-09-12": 61,
+      "2026-09-16": 62
     },
     "wilsonfreitas/brasa": {
       "2026-08-31": 54,
@@ -4750,7 +5061,6 @@
       "2026-09-07": 54
     },
     "wingfoil-io/wingfoil": {
-      "2026-08-31": 217,
       "2026-09-01": 218,
       "2026-09-02": 217,
       "2026-09-03": 217,
@@ -4761,28 +5071,29 @@
       "2026-09-09": 217,
       "2026-09-10": 217,
       "2026-09-11": 218,
-      "2026-09-12": 218
+      "2026-09-12": 218,
+      "2026-09-16": 220
     },
     "wodelt-tishellor/web-3d-modeling-workflow": {
       "2026-09-09": 10,
       "2026-09-10": 10,
       "2026-09-11": 10,
-      "2026-09-12": 12
+      "2026-09-12": 12,
+      "2026-09-16": 12
     },
     "xLLM-AI/xllm": {
       "2026-08-31": 1543,
       "2026-09-01": 1546
     },
     "xLLM-AI/xllm-service": {
-      "2026-08-31": 97,
       "2026-09-01": 97,
       "2026-09-09": 98,
       "2026-09-10": 98,
       "2026-09-11": 98,
-      "2026-09-12": 98
+      "2026-09-12": 98,
+      "2026-09-16": 98
     },
     "xLydianSoftware/Qubx": {
-      "2026-08-31": 69,
       "2026-09-01": 69,
       "2026-09-02": 69,
       "2026-09-03": 69,
@@ -4793,7 +5104,8 @@
       "2026-09-09": 69,
       "2026-09-10": 69,
       "2026-09-11": 69,
-      "2026-09-12": 69
+      "2026-09-12": 69,
+      "2026-09-16": 69
     },
     "xhluca/session-migrate": {
       "2026-08-31": 74
@@ -4801,13 +5113,18 @@
     "xiangjiaowei/m3e-canvas": {
       "2026-09-12": 6
     },
+    "xiaomoBoy/pi-bluebook": {
+      "2026-09-16": 226
+    },
+    "xingwudao/equant-rs": {
+      "2026-09-16": 2
+    },
     "xlabsg/prompTrading": {
       "2026-09-10": 2,
       "2026-09-11": 2,
       "2026-09-12": 2
     },
     "xorbitsai/inference": {
-      "2026-08-31": 9534,
       "2026-09-01": 9534,
       "2026-09-02": 9536,
       "2026-09-03": 9539,
@@ -4818,7 +5135,8 @@
       "2026-09-09": 9555,
       "2026-09-10": 9562,
       "2026-09-11": 9565,
-      "2026-09-12": 9567
+      "2026-09-12": 9567,
+      "2026-09-16": 9567
     },
     "xzf-thu/VoiceMem": {
       "2026-08-31": 416
@@ -4840,14 +5158,14 @@
       "2026-09-11": 3
     },
     "yennanliu/InvestSkill": {
-      "2026-08-31": 197,
       "2026-09-01": 198,
       "2026-09-02": 198,
       "2026-09-03": 198,
       "2026-09-04": 199,
       "2026-09-05": 199,
       "2026-09-06": 200,
-      "2026-09-07": 204
+      "2026-09-07": 204,
+      "2026-09-16": 212
     },
     "yetone/cumora": {
       "2026-08-31": 3339
@@ -4855,12 +5173,14 @@
     "yhilpisch/algocolab": {
       "2026-09-10": 2,
       "2026-09-11": 2,
-      "2026-09-12": 2
+      "2026-09-12": 2,
+      "2026-09-16": 5
     },
     "yorkeccak/finance": {
       "2026-09-10": 897,
       "2026-09-11": 897,
-      "2026-09-12": 897
+      "2026-09-12": 897,
+      "2026-09-16": 900
     },
     "zai-org/GLM-5": {
       "2026-08-31": 7114,
@@ -5428,6 +5748,39 @@
         "tradeapi"
       ],
       "url": "https://github.com/JKorf/Binance.Net"
+    },
+    "JKorf/Kraken.Net": {
+      "created_at": "2019-08-29",
+      "description": "C#/.NET client library for the Kraken.com cryptocurrency exchange REST and WebSocket APIs, supporting Spot and Futures trading and market data with strongly typed models.",
+      "discovery": "active",
+      "first_seen": "2026-09-16",
+      "forks": 66,
+      "full_name": "JKorf/Kraken.Net",
+      "id": 205124038,
+      "language": "C#",
+      "license": "MIT",
+      "pushed_at": "2026-09-15",
+      "score": 13.32,
+      "star_growth_7d": null,
+      "stars": 119,
+      "topics": [
+        "crypto",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "cryptocurrency-exchanges",
+        "cryptocurrency-prices",
+        "cryptoexchange-net",
+        "kraken",
+        "kraken-api",
+        "kraken-bot",
+        "kraken-exchange",
+        "kraken-exchange-api",
+        "kraken-net",
+        "kraken-platform",
+        "kraken-sdk",
+        "market-data"
+      ],
+      "url": "https://github.com/JKorf/Kraken.Net"
     },
     "JerBouma/FinanceToolkit": {
       "created_at": "2019-04-08",
@@ -6020,6 +6373,37 @@
         "tradingview"
       ],
       "url": "https://github.com/atilaahmettaner/tradingview-mcp"
+    },
+    "avhz/RustQuant": {
+      "created_at": "2022-08-31",
+      "description": "Rust library for quantitative finance.",
+      "discovery": "active",
+      "first_seen": "2026-09-16",
+      "forks": 213,
+      "full_name": "avhz/RustQuant",
+      "id": 531026987,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-09-12",
+      "score": 17.54,
+      "star_growth_7d": null,
+      "stars": 1822,
+      "topics": [
+        "finance",
+        "machine-learning",
+        "math",
+        "mathematics",
+        "option-pricing",
+        "quantitative-finance",
+        "quantlib",
+        "regression",
+        "rust",
+        "rust-lang",
+        "statistics",
+        "stochastic-processes",
+        "trading"
+      ],
+      "url": "https://github.com/avhz/RustQuant"
     },
     "baobach/hft_papers": {
       "created_at": "2024-05-28",
@@ -6833,6 +7217,23 @@
       ],
       "url": "https://github.com/hummingbot/hummingbot"
     },
+    "iterativv/NostalgiaForInfinity": {
+      "created_at": "2021-07-14",
+      "description": "Trading strategy for the Freqtrade crypto bot",
+      "discovery": "active",
+      "first_seen": "2026-09-16",
+      "forks": 755,
+      "full_name": "iterativv/NostalgiaForInfinity",
+      "id": 386017669,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "pushed_at": "2026-09-15",
+      "score": 19.13,
+      "star_growth_7d": null,
+      "stars": 3413,
+      "topics": [],
+      "url": "https://github.com/iterativv/NostalgiaForInfinity"
+    },
     "itriones/AI-Quant-Framework": {
       "created_at": "2026-08-30",
       "description": "Event-driven quantitative trading backtesting framework with native AI integration",
@@ -6972,6 +7373,90 @@
         "quantitative-finance"
       ],
       "url": "https://github.com/leoncuhk/awesome-quant-ai"
+    },
+    "lisazhou886/Forex-hex-algo-strategy-mt4": {
+      "created_at": "2026-09-09",
+      "description": "Official documentation and guide for Forex HEX Algo Strategy on MetaTrader 4 (MT4). A rule-based, no-martingale quantitative trading solution featuring strict risk control, hard Stop-Loss, and dynamic momentum execution.",
+      "discovery": "new",
+      "first_seen": "2026-09-16",
+      "forks": 0,
+      "full_name": "lisazhou886/Forex-hex-algo-strategy-mt4",
+      "id": 1362600921,
+      "language": null,
+      "license": null,
+      "pushed_at": "2026-09-09",
+      "score": 9.37,
+      "star_growth_7d": null,
+      "stars": 21,
+      "topics": [
+        "algorithmic-tradin",
+        "expert-advisor",
+        "forex",
+        "metatrader4",
+        "mql4",
+        "mt4",
+        "no-martingale-ea",
+        "quant-trading-bot",
+        "trading-bot-2026",
+        "xauusd"
+      ],
+      "url": "https://github.com/lisazhou886/Forex-hex-algo-strategy-mt4"
+    },
+    "lisazhou886/smart-money-forex-strategy-mt4": {
+      "created_at": "2026-09-09",
+      "description": "An institutional Forex Market Balance strategy for MetaTrader 4 (MT4). Automate value area detection, identify order flow imbalances, and trade alongside smart money with high R:R setups.",
+      "discovery": "new",
+      "first_seen": "2026-09-16",
+      "forks": 0,
+      "full_name": "lisazhou886/smart-money-forex-strategy-mt4",
+      "id": 1362612978,
+      "language": null,
+      "license": null,
+      "pushed_at": "2026-09-09",
+      "score": 9.37,
+      "star_growth_7d": null,
+      "stars": 21,
+      "topics": [
+        "forex",
+        "forex-indicators",
+        "forex-trading-ai",
+        "market-profile",
+        "metatrader4",
+        "mt4",
+        "order-flow",
+        "price-action",
+        "smart-money-concepts",
+        "technical-analysis"
+      ],
+      "url": "https://github.com/lisazhou886/smart-money-forex-strategy-mt4"
+    },
+    "michaelxu688/ai-trading-signals-engine": {
+      "created_at": "2026-09-09",
+      "description": "🚀 **AI Profit Sniper** – An automated algorithmic market scanner & signal indicator engine designed to eliminate manual screen-staring and track trading strategies in real time.",
+      "discovery": "new",
+      "first_seen": "2026-09-16",
+      "forks": 1,
+      "full_name": "michaelxu688/ai-trading-signals-engine",
+      "id": 1362671459,
+      "language": null,
+      "license": null,
+      "pushed_at": "2026-09-09",
+      "score": 9.29,
+      "star_growth_7d": null,
+      "stars": 20,
+      "topics": [
+        "ai-trading-system",
+        "algorithmic-tradin",
+        "automated-trading-tool",
+        "backtesting",
+        "market-analysis",
+        "quantitative-finance",
+        "technical-analysis",
+        "trading-bot-2026",
+        "trading-signals-crack",
+        "trading-strategy-discovery"
+      ],
+      "url": "https://github.com/michaelxu688/ai-trading-signals-engine"
     },
     "okx/agent-trade-kit": {
       "created_at": "2026-03-03",
@@ -7805,7 +8290,39 @@
       "2609.11582",
       "2609.11728",
       "2609.11744",
-      "2609.11799"
+      "2609.11799",
+      "2609.12012",
+      "2609.12039",
+      "2609.12137",
+      "2609.12190",
+      "2609.12379",
+      "2609.12742",
+      "2609.12793",
+      "2609.13299",
+      "2609.15359",
+      "2609.15504",
+      "2609.15627",
+      "2609.15847",
+      "2609.15877",
+      "2609.15922",
+      "2609.16096",
+      "2609.16161",
+      "2609.16206",
+      "2609.16215",
+      "2609.16287",
+      "2609.16302",
+      "2609.16491",
+      "2609.16639",
+      "2609.16739",
+      "2609.16846",
+      "2609.16936",
+      "2609.17008",
+      "2609.17109",
+      "2609.17184",
+      "2609.17193",
+      "2609.17241",
+      "2609.17394",
+      "2609.17475"
     ],
     "repository_names": [
       "0xohioism/polymarket-crypto-5m-15min-trading-bot",
@@ -7821,10 +8338,12 @@
       "AstrBotDevs/AstrBot",
       "Barca0412/Introduction-to-Quantitative-Finance",
       "BerriAI/litellm",
+      "BloopAI/vibe-kanban",
       "CHENG-LIANG1/real-company-interview-ai-coding-projects",
       "CodeGraphContext/CodeGraphContext",
       "Consensys-Incorporated/linea-attestation-registry",
       "Continuum-AI-Corp/OrcaReplay",
+      "CosmosMind-ai/RSI-Harness",
       "Datura-ai/lium-localmaxxing",
       "DietrichGebert/ponytail",
       "Drakkar-Software/OctoBot",
@@ -7844,12 +8363,16 @@
       "HiThink-Tech/Financial-API",
       "InternLM/lmdeploy",
       "JKorf/Binance.Net",
+      "JKorf/Kraken.Net",
       "JerBouma/FinanceToolkit",
       "JetBrains/benjamin-plus-skill",
+      "JuliusBrussee/caveman",
+      "Kerneta/daidocs",
       "LMCache/LMCache",
       "Lqz13Th/extrema_infra",
       "LukePrior/Australian-Open-Banking-Data-Database",
       "Lumiwealth/lumibot",
+      "MervinPraison/PraisonAI",
       "MiaAI-Lab/Qwen3.8-Flash-Next-Dual-DGX-Sparks",
       "MikeCaldera/intel-arc-pro-b70-qwen38-vllm",
       "MirroS-Lab/Code-as-World",
@@ -7873,6 +8396,7 @@
       "Spielewoy/autoprompt-skill",
       "StockSharp/StockSharp",
       "Superalgos/Superalgos",
+      "TencentCloud/TencentDB-Agent-Memory",
       "The-Vibe-Company/Quivr",
       "The-Vibe-Company/quivr",
       "TommyLemon/APIAuto",
@@ -7882,14 +8406,18 @@
       "Vuk97/forward-implementation-first",
       "WellApp-ai/Well",
       "XHToken/Spark-X2.5",
+      "Xu123-Bob/Baize",
       "Yevanchen/reclaim-code-entropy",
       "acryldev/acryl",
       "addyosmani/agent-skills",
       "affaan-m/ECC",
+      "agent-launch/agent-launcher",
       "agent-of-empires/agent-of-empires",
+      "agentverse-os/AgentVerse-OS",
       "agiprolabs/claude-trading-skills",
       "ai-dynamo/dynamo",
       "akfamily/akquant",
+      "alchaincyf/3d-vibe-coding-handbook",
       "alibaba/MNN",
       "alibaba/ServeGen",
       "alihaskar/pycharting",
@@ -7903,6 +8431,7 @@
       "arrobalytics/django-ledger",
       "atilaahmettaner/tradingview-mcp",
       "automazeio/vibeproxy",
+      "avhz/RustQuant",
       "aws/amazon-q-developer-cli",
       "bangtutorial/bang-motion",
       "baobach/hft_papers",
@@ -7915,6 +8444,7 @@
       "ccxt/ccxt",
       "chadhurley25075-png/pd-bridge",
       "chenhg5/cc-connect",
+      "chigwell/Penelopa.ai",
       "chrisleekr/binance-trading-bot",
       "cinar/indicator",
       "cinar/indicatorts",
@@ -7950,6 +8480,7 @@
       "flashinfer-ai/flashinfer",
       "freqtrade/freqtrade",
       "furkankly/zoetrope",
+      "gauravapiscean/agentic-kv-cache",
       "georgezouq/awesome-ai-in-finance",
       "github/CopilotForXcode",
       "google/agents-cli",
@@ -7966,7 +8497,9 @@
       "i-am-manware/Manware-s-AI-Learning-Toolkit",
       "iOfficeAI/AionUi",
       "intel/auto-round",
+      "iterativv/NostalgiaForInfinity",
       "itriones/AI-Quant-Framework",
+      "ivyfan-toowell/IvyClaw",
       "jamro/tiny-engineer",
       "janushendersonassetallocation/loman",
       "jesse-ai/jesse",
@@ -7983,14 +8516,18 @@
       "langchain-ai/langgraph",
       "langchain4j/langchain4j",
       "langfuse/langfuse",
+      "langwatch/langwatch",
       "latitude-dev/latitude-llm",
       "lemonade-sdk/lemonade",
       "leoncuhk/awesome-quant-ai",
       "lightseekorg/tokenspeed",
       "linqiu919/better-context-engine",
+      "lisazhou886/Forex-hex-algo-strategy-mt4",
+      "lisazhou886/smart-money-forex-strategy-mt4",
       "liyupi/ai-guide",
       "lnkiai/m3e-canvas",
       "mastra-ai/mastra",
+      "michaelxu688/ai-trading-signals-engine",
       "mingti-org/phyai",
       "missuo/herdrm",
       "mistralai/mistral-vibe",
@@ -8014,10 +8551,12 @@
       "openlake-project/openlake",
       "openobserve/openobserve",
       "openshift-eng/ai-helpers",
+      "oriveo/oriveo",
       "ovg-project/kvcached",
       "pangoleen/qwen3.8-27b-dgx-spark-dflash2",
       "paperswithbacktest/awesome-systematic-trading",
       "pathwaycom/pathway",
+      "pliablepixels/gap-trap",
       "pseudo-longinus/quant-buddy-skills",
       "pydantic/logfire",
       "quant-sentiment-ai/claude-equity-research",
@@ -8031,6 +8570,7 @@
       "run-llama/llama_index",
       "samuelcardillo/glm-5.3-flash-2x-rtx-pro-6000-blackwell",
       "seanyourhighness/vllm-sm12x-nvfp4-dflash2",
+      "seoan1024/Korean-llm-v4",
       "sgl-project/sglang",
       "shanraisshan/claude-code-best-practice",
       "shashankvemuri/Finance",
@@ -8055,6 +8595,7 @@
       "tonyd2wild/Qwen3.8-Flash-Next-NVFP4-DGX-Spark",
       "tractorjuice/arc-kit",
       "tradecatlabs/tradecat-public",
+      "tradecatlabs/vibe-coding-cn",
       "tradingeconomics/tradingeconomics-python",
       "tradingstrategy-ai/trading-strategy",
       "trymirai/uzu",
@@ -8068,6 +8609,7 @@
       "wangzhe3224/awesome-systematic-trading",
       "wingfoil-io/wingfoil",
       "xLLM-AI/xllm",
+      "xiaomoBoy/pi-bluebook",
       "xorbitsai/inference",
       "yennanliu/InvestSkill",
       "yetone/cumora",
@@ -10374,6 +10916,368 @@
         "published": "2026-09-10",
         "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
         "updated": "2026-09-10"
+      },
+      "2609.15359": {
+        "abstract": "The surge of large language model (LLM) applications on personal devices imposes massive, bursty workloads on cloud serving infrastructure. While prefill-decode disaggregation improves throughput and scalability, memory-bound decode instances often suffer from persistent load imbalance, as output lengths are unknown when requests arrive at the cloud. To address this, we propose MAPS, a Memory-Aware Predictive Scheduling framework tailored for disaggregated LLM serving. MAPS performs device-assisted speculative output length prediction overlapped with cloud-side prefilling, incurring negligible latency overhead. To handle generation uncertainty, MAPS applies uncertainty-aware calibration to derive output-length upper bounds with target coverage, enabling safe scheduling decisions. Building on these bounds, MAPS employs a hierarchical global-local scheduling strategy to mitigate inter-decoder queue buildup and intra-decoder head-of-line blocking. Extensive experiments on two real-world workloads and two LLMs show that MAPS significantly outperforms three state-of-the-art systems, reducing average end-to-end latency by 42.6 and tail latency by up to 84.8.",
+        "authors": [
+          "Tiancheng Zhang",
+          "Yulin Chen",
+          "Yunfeng Zhao",
+          "Shaoyuan Huang",
+          "Cheng Zhang",
+          "Xiaofei Wang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.15359",
+        "paper_url": "https://arxiv.org/abs/2609.15359",
+        "pdf_url": "https://arxiv.org/pdf/2609.15359",
+        "published": "2026-09-14",
+        "title": "MAPS: Memory-Aware Predictive Scheduling Framework for Large Language Model Serving",
+        "updated": "2026-09-14"
+      },
+      "2609.15504": {
+        "abstract": "Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by generating multiple tokens in parallel while using a frozen autoregressive backbone. Its central claim is that an intra-model consensus mechanism enables lossless speculative decoding, producing the same output sequence as the autoregressive model. We independently reproduce Orthrus and examine this claim under different numerical precisions. Under BF16 inference, exact trajectory matching occurs in only 45% of cases for the authors' checkpoint and 43% for our independently trained model across 1,190 prompts from 12 domains. The probability of exact matching is also strongly associated with the response-conditional perplexity of the reference model. Despite this trajectory divergence, Orthrus does not show systematic degradation on downstream lm-eval-harness benchmarks. In contrast, repeating the trajectory evaluation with FP32 yields exact trajectory matching on all evaluated prompts. These results show that the practical losslessness of Orthrus depends on numerical precision and that exact trajectory equivalence should be evaluated separately from downstream task performance.",
+        "authors": [
+          "Ilya Koziev",
+          "Leonid Sinev",
+          "Ivan Oseledets"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.15504",
+        "paper_url": "https://arxiv.org/abs/2609.15504",
+        "pdf_url": "https://arxiv.org/pdf/2609.15504",
+        "published": "2026-09-14",
+        "title": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
+        "updated": "2026-09-14"
+      },
+      "2609.15627": {
+        "abstract": "We present the enablement, correctness recovery, and performance engineering of DeepSeek-V4-Flash inference on AMD Instinct MI250 GPUs using the gfx90a/CDNA2 architecture. The system integrates native safetensors loading, tensor and expert parallelism, FP4 routed mixture-of-experts computation, FP8 dense projections, sparse attention, HIP graph execution, and OpenAI-compatible serving within SGLang. An initially fast execution path was found to be numerically incorrect because of a routed-expert W2 layout mismatch. We identify the output permutation, repair the weight layout at load time, and establish fixed-token and hash-based correctness checks before further optimization. On the corrected path, decode performance is improved through packed FP4 weights, INT8 activation quantization, CDNA2 dot-product instructions, peer-read all-reduce, and topology-aware kernel geometry. Prefill is accelerated using CDNA2 MFMA kernels, improved packed-weight reuse, reduced sparse-attention overhead, larger chunks, and retuned expert sorting. On four MI250 GCDs, TP4/EP1 native autoregressive decode reaches approximately 74.5 tok/s, while a 4,604-token prompt reaches 2.061-2.062 s TTFT, or approximately 2,234 input tok/s. The results show that efficient DeepSeek-V4-Flash inference on CDNA2 is limited not only by memory bandwidth, but also by FP4 execution-format mismatch, low-M utilization, and per-layer synchronization costs.",
+        "authors": [
+          "Siming Huang"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.AR",
+          "cs.PF"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.15627",
+        "paper_url": "https://arxiv.org/abs/2609.15627",
+        "pdf_url": "https://arxiv.org/pdf/2609.15627",
+        "published": "2026-09-14",
+        "title": "DeepSeek-V4-Flash on AMD gfx90a: Correctness Recovery and Inference Performance Engineering",
+        "updated": "2026-09-14"
+      },
+      "2609.15847": {
+        "abstract": "This paper proposes FREDI (Fair Resource Allocation for Edge Dual-Threshold Inference), a secure wireless edge-intelligence framework for event-triggered inference in a cooperative user equipment (UE)--edge server (ES)--cloud system. Each UE performs early-exit convolutional neural network (CNN) screening using dual confidence thresholds, while critical events are securely offloaded to an edge server for detailed classification. We formulate a proportionally-fair utility maximization problem that jointly optimizes UE--ES association, wireless and processing resources, and confidence thresholds. FREDI decomposes the problem into proportional-fair resource allocation and dual-threshold inference optimization. We prove that the detected-critical event set is set-monotone non-increasing in both thresholds, and exploit the finite empirical confidence domain for exact threshold optimization. An empirical resource--utility response envelope yields a computable global suboptimality bound and a sufficient condition for global optimality. By pre-eliminating infeasible UE--ES pairs and exactly projecting out bandwidth and transmit-power variables, the resource-allocation subproblem is reduced to a mixed-integer exponential-cone program solvable to the certified global optimality within a prescribed gap. Numerical results with early-exit MobileNetV2 and ShuffleNetV2 demonstrate near-perfect UE fairness with aggregate utility close to a Sum-Utility benchmark, reveal security-induced resource fragmentation, and demonstrate the Stage-A scalability from 6 to 144 UEs with median solving time below 0.1~s in the tested configurations.",
+        "authors": [
+          "Thai T. Vu",
+          "John Le",
+          "Tu N. Nguyen",
+          "Jun Shen",
+          "Quang Vinh Duong",
+          "Ha Nguyen"
+        ],
+        "categories": [
+          "cs.NI",
+          "cs.CV",
+          "cs.ET",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.15847",
+        "paper_url": "https://arxiv.org/abs/2609.15847",
+        "pdf_url": "https://arxiv.org/pdf/2609.15847",
+        "published": "2026-09-14",
+        "title": "Proportional-Fair Resource Allocation and Dual-Threshold Early-Exit Inference for Secure Cooperative Multi-Layer Edge Intelligence",
+        "updated": "2026-09-14"
+      },
+      "2609.16161": {
+        "abstract": "Large Language Models (LLMs) have shown impressive capabilities across a range of natural language processing tasks, and LLM inference has emerged as a critical workload for enabling downstream applications. The demands of serving LLM inference are becoming increasingly challenging as requests shift toward longer sequences and heavier inference, driven by retrieval-augmented generation, inference-time compute scaling, and long-context applications. Additionally, these challenges are compounded by hardware trends, as memory capacity and communication bandwidth are not scaling as fast as increases in workload complexity. Compute-in-Flash is a promising solution to address memory bandwidth limitations by moving computation close to memory, and to exploit the large capacity of SSD technologies. However, it is challenging to deploy LLMs on these systems as they lack support for high-precision floating point operations and have limited write endurance. In our work, we aim to address these challenges by designing inference algorithms to enable LLM inference on Flash compute-in-memory devices. We present an end-to-end integer-only quantization approach to eliminate expensive floating-point computations. To address the limited write endurance, we design a dictionary-based KV cache compression strategy based on sparse dictionary coding that represents each KV vector as a linear combination of static dictionary vectors. These algorithmic improvements enable us to exploit the benefits of Compute-in-Flash for both model weights and KV cache, and to minimize expensive data transfer operations. Across Llama-3.1-8B and Qwen-2.5-7B, our combined method exhibits limited accuracy degradation while reducing dynamic KV cache traffic by 15$\\times$.",
+        "authors": [
+          "Sebastian Zhao",
+          "Minseo Kim",
+          "Coleman Hooper",
+          "Luca Manolache",
+          "Michael W. Mahoney",
+          "Yakun Sophia Shao",
+          "Kurt Keutzer",
+          "Amir Gholami"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16161",
+        "paper_url": "https://arxiv.org/abs/2609.16161",
+        "pdf_url": "https://arxiv.org/pdf/2609.16161",
+        "published": "2026-09-14",
+        "title": "LLM Inference in a Flash!",
+        "updated": "2026-09-14"
+      },
+      "2609.16206": {
+        "abstract": "Disaggregated LLM serving places compute heavy prefill and memory heavy decode on separate GPU pools. Systems such as DistServe, Splitwise, and Mooncake make this separation fast, but routing still determines which instances handle each request. We study a router that estimates the additional completion time on each instance using exact prompt length, predicted output length, post admission KV cache pressure, and SLO class. We develop the policy in a discrete event simulator and validate it on eight NVIDIA A40 GPUs, each running a vLLM engine, with NIXL transferring KV caches between pools. All workloads run at measured saturation. Across three mixed, bursty arrival traces, the calibrated router achieves the highest mean goodput at 0.864, compared with 0.835 to 0.847 for round robin, least loaded, and a length heuristic. It also shows the lowest variance across traces. It beats round robin and the length heuristic on all three traces and least loaded on two. On the third, it trails by 0.003, within run to run noise. Hardware calibration matters: simulator derived constants cost 4.5 goodput points and roughly 40 percent of the tail latency advantage, reducing the scorer to little more than queue counting. Benefits grow with decode pool size and traffic heterogeneity but disappear in pools with three instances, where queue counts are often enough. Under extreme scarcity, greedy cost minimization concentrates requests on the cheapest scored instance, and blind spreading performs better. With calibrated costs, the learned router matches the goodput of round robin using six GPUs instead of seven.",
+        "authors": [
+          "Srikanta Datta Tumkur",
+          "Jay Iyer",
+          "Mehar Simhadri",
+          "Sai Pavan Kumar",
+          "Sai Kapil Kumar",
+          "Ramesh Nampelly"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16206",
+        "paper_url": "https://arxiv.org/abs/2609.16206",
+        "pdf_url": "https://arxiv.org/pdf/2609.16206",
+        "published": "2026-09-14",
+        "title": "Calibrate, Then Route: A Measured Study of Learned Request Routing for Disaggregated LLM Serving",
+        "updated": "2026-09-14"
+      },
+      "2609.16215": {
+        "abstract": "GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate state. Systems such as Mooncake, LMCache, FlexGen, InfiniGen, and AttentionStore extend GPU memory with CPU DRAM and SSD. The harder question is which blocks belong in each tier, when to move or evict them, and whether prefetching helps. We study these choices in a discrete event simulator spanning GPU HBM, CPU DRAM, and SSD, calibrated against a random forest execution time predictor. We compare recency, reuse frequency, predicted reuse, and an EWMA predictor with prefetch lookahead across chat, agent, and document question answering workloads. Tiering supports 73.02 times more concurrent sessions per GPU and lowers cost per session by 62.04 times. These gains come from tier capacities of 1 plus 8 plus 64, not placement policy. Decode is compute bound at batch size one in our setup, so placement barely affects throughput. It mainly changes PCIe migration traffic and time to first token. Recency produces 2.30 times less migration traffic than reuse frequency for chat. Reuse frequency performs best for agents and document question answering. The existing predicted reuse policy is byte identical to recency, making its agent recommendation effectively recency. A genuine EWMA predictor changes behavior but still ranks behind reuse frequency on the workloads prediction was expected to help. Prefetching does not justify its bandwidth cost. Across the policy and cache size grid, even an oracle with knowledge of future requests never beats no prefetch on migration traffic. Workload specific placement can reduce data movement, but the predicted reuse and prefetch recommendations are not supported as implemented.",
+        "authors": [
+          "Srikanta Datta Tumkur",
+          "Jay Iyer",
+          "Mehar Simhadri",
+          "Sai Pavan Kumar",
+          "Sai Kapil Kumar",
+          "Ramesh Nampelly"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16215",
+        "paper_url": "https://arxiv.org/abs/2609.16215",
+        "pdf_url": "https://arxiv.org/pdf/2609.16215",
+        "published": "2026-09-14",
+        "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+        "updated": "2026-09-14"
+      },
+      "2609.16491": {
+        "abstract": "LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are increasingly governed by completion time. This shift challenges existing LLM serving designs, which are optimized around token-level SLOs. We revisit scheduling and parallelism under this completion-oriented objective. Through systematic exploration, we show that job completion time (JCT) is governed by the balance between prefill and decode efficiency. Prefill-prioritized scheduling, while achieving the best TTFT and decode throughput, renders suboptimal JCT; across the scheduling-policy space, completion time varies by up to 1.40$\\times$, with the optimum at neither extreme. We further show that pipeline parallelism (PP), previously overlooked due to its limited decode latency advantage, benefits JCT by providing a favorable balance of prefill--decode trade-off. Based on these insights, we build \\name{}, an optimized open-source pipeline-parallel runtime that co-designs scheduling and parallelism through a JCT-aware scheduling layer and pipeline-integrated multi-token prediction. Evaluated on deterministic replays of real coding and web-search agent trajectories with two 360B+ MoE models on 64 H800 GPUs, \\name{} reduces overall JCT by up to 1.45$\\times$ over SGLang wide-EP, 2.33$\\times$ over vLLM PP2, and 1.54$\\times$ over today's state-of-the-art open-source PD-disaggregated deployment.",
+        "authors": [
+          "Shiju Wang",
+          "Fei Ren",
+          "Fangcheng Fu",
+          "Zhanhong Tan",
+          "Kairui Li",
+          "Jingwei Cai",
+          "Kaisheng Ma"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16491",
+        "paper_url": "https://arxiv.org/abs/2609.16491",
+        "pdf_url": "https://arxiv.org/pdf/2609.16491",
+        "published": "2026-09-15",
+        "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic Serving",
+        "updated": "2026-09-15"
+      },
+      "2609.16639": {
+        "abstract": "Continual post-training of large multimodal models should add new capabilities while preserving those from pre-training, and the two goals pull in opposite directions. SFT gives explicit target supervision that learns a task from near-zero accuracy, but its off-policy targets move the model far enough to cause forgetting; on-policy methods such as RLVR and self-distillation preserve policy proximity yet supply little signal when the policy cannot yet solve the task. We introduce ReDraft (Reference-Driven Revision and Fine-Tuning), which obtains both from the model's own failures: using an expert response only as a reference, it has the model revise its own incorrect rollout, keeps the revision only if a verifier accepts it, and fine-tunes on what survives. Each retained target is therefore explicit, yet still close to the current policy. Across Counting, Clock Reading, and Jigsaw on Qwen2.5-VL-3B/7B, two of them with near zero accuracy, ReDraft gains 56.9 points on the target task against SFT's 52.9 while cutting prior-task loss from 16.6 to 1.5 points (11.3x less forgetting), and improves on OPSD along both axes (19.3 gain, 6.2 loss). Data- and parameter-space analyses match the design: revised targets are more probable under the base model, and the updates they induce stay compact and follow SFT's direction more closely than OPSD's. Repairing the model's own output, rather than replacing it with an expert's, is what lets one objective do both.",
+        "authors": [
+          "Zhihao Zhang",
+          "Mingqi Wu",
+          "Qiaole Dong",
+          "Enyu Zhou",
+          "Shuo Li",
+          "Boyang Liu",
+          "Jiazheng Zhang",
+          "Honglin Guo",
+          "Xin Guo",
+          "Shaofan Liu",
+          "Junzhe Wang",
+          "Dingwei Zhu",
+          "Zhiheng Xi",
+          "Minlong Peng",
+          "Yuan Hua",
+          "Qi Zhang",
+          "Tao Gui",
+          "Xuanjing Huang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16639",
+        "paper_url": "https://arxiv.org/abs/2609.16639",
+        "pdf_url": "https://arxiv.org/pdf/2609.16639",
+        "published": "2026-09-15",
+        "title": "ReDraft, Don't Just Distill: Reference-Driven Revision for Continual VLLM Post-Training",
+        "updated": "2026-09-15"
+      },
+      "2609.16739": {
+        "abstract": "Background: Large language models (LLMs) have achieved physician-comparable performance on multiple-choice medical knowledge examinations, but their capabilities in clinical history taking, urgency assessment, and safety remain insufficiently evaluated. We proposed Japanese Stroke LLM Evaluation, a multi-turn conversational benchmark for stroke care in Japanese, and evaluated LLM performance and safety under practice-oriented conditions. Methods: We created 10 stroke and related-condition cases and evaluated LLMs in multi-turn Japanese conversations. The LLM acted as physician, while a board-certified neurosurgeon acted as simulated patient and evaluator. Each case comprised history-taking and action phases scored using pre-specified criteria. Errors that could directly threaten life were defined as critical mistakes. The safety threshold was at least 80% overall with zero critical mistakes. Eighteen models were evaluated in October 2025 and June 2026. Results: Claude Fable 5 achieved the highest score (87.4%) with zero critical mistakes, followed by Claude Opus 4.7 (80.3%) and GLM-5.2 (75.6%). Two leaders met the safety threshold. Eleven models made 17 critical mistakes, including failure to confirm laboratory results or blood glucose before t-PA, surgery before airway stabilization, omission of cervical vascular evaluation, and t-PA outside its indication. History-taking question count correlated with history-taking score (r = 0.648, p = 0.007). Conclusions: Japanese Stroke LLM Evaluation provides a benchmark for LLM performance under practice-oriented conditions, including a cap on history-taking questions. Cases and evaluations were created by neurosurgical specialists rather than using an LLM-as-judge approach. Performance improved across cloud-based and on-premise models in 2026, with some exceeding the safety threshold. Further evaluation using real-world cases is required.",
+        "authors": [
+          "Keisuke Masuda",
+          "Kazutaka Yatsushiro",
+          "Hirohumi Iwamoto",
+          "Hirofumi Hirano",
+          "Ryosuke Hanaya"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16739",
+        "paper_url": "https://arxiv.org/abs/2609.16739",
+        "pdf_url": "https://arxiv.org/pdf/2609.16739",
+        "published": "2026-09-15",
+        "title": "Japanese Stroke LLM Evaluation: A Conversational Benchmark for Safe Stroke Care in Japanese Using Large Language Models",
+        "updated": "2026-09-15"
+      },
+      "2609.17008": {
+        "abstract": "Large language model (LLM) inference is often constrained by both computation and memory, especially in offloading-based deployments where model weights are transferred across memory hierarchies during autoregressive decoding. In this setting, reducing the number of executed layers can lower per-token latency while also avoiding costly weight movement. Motivated by this observation, we present FlexEE, an early exiting framework for resource-constrained and offloading-based LLM inference. FlexEE makes early exiting practical for LLM decoding through layer-wise exit supervision for reliable intermediate-layer prediction, self-speculative decoding over a Top-K local vocabulary for low-cost exit decisions, and dynamic hidden state management for KV-cache-correct and memory-aware execution. Across generative and downstream tasks, FlexEE enables efficient early exit with minimal accuracy degradation, delivering up to 1.27$\\times$/3.16$\\times$ and 1.25$\\times$/2.83$\\times$ end-to-end speedups on Llama2-7B and Llama3-8B under 0\\%/50\\% weight offloading, respectively.",
+        "authors": [
+          "Qihu Xie",
+          "Ziwei Li",
+          "Yi Kang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.17008",
+        "paper_url": "https://arxiv.org/abs/2609.17008",
+        "pdf_url": "https://arxiv.org/pdf/2609.17008",
+        "published": "2026-09-15",
+        "title": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
+        "updated": "2026-09-15"
+      },
+      "2609.17109": {
+        "abstract": "A common small-model deployment runs one shared backbone with several LoRA specialists that answer over the same context. Serving them naively re-prefills that shared context once per specialist. We study a narrow, practical question: for already-trained standard LoRA adapters -- not adapters retrained for cache compatibility -- how much task quality is preserved if the backbone's prefill KV cache is computed once and reused across specialists, and what does that buy in serving cost? On a Qwen3-1.7B backbone with two adapters (extractive QA on HotpotQA, arithmetic reasoning on GSM8K), we sweep the boundary at which the specialist takes over from the reused base cache and measure paired quality differences and serving cost. Full-prefix reuse had the lowest prefill cost and a small quality difference on held-out GSM8K (Delta = -4.6 EM at a 160-token budget; -3.0 at 320 tokens; -0.8 under a second training seed -- all favoring native, only the first excluding zero, and the magnitude not consistent). Partial recomputation provided no demonstrated advantage. Neither quality equivalence nor a general boundary-selection rule is established. We also report a closed-form ridge KV translator that did not beat direct reuse, and specialist-dependence contrasts whose intervals all include zero. The measured serving benefit is warm-cache time-to-first-token, which grows with context (~16x at 8K); two-branch peak memory was only 12% lower and, on inspection, the prefix was never physically shared across branches -- this implementation reuses KV values but copies their storage, so shared-cache memory savings are not achieved.",
+        "authors": [
+          "Dushyant Rajput"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.17109",
+        "paper_url": "https://arxiv.org/abs/2609.17109",
+        "pdf_url": "https://arxiv.org/pdf/2609.17109",
+        "published": "2026-09-15",
+        "title": "Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs",
+        "updated": "2026-09-15"
+      },
+      "2609.17184": {
+        "abstract": "Looped Transformers achieve strong performance with compact parameter sizes by repeatedly applying a shared stack of Transformer blocks across recurrent depths. However, they incur higher decoding latency than standard Transformer models of comparable parameter size because shared weights are accessed at every recurrent depth. To improve decoding efficiency, self-speculative decoding is particularly well suited to Looped Transformers, as their intermediate recurrent states can directly provide draft predictions without an auxiliary draft model. We therefore propose LoopSpec, a training-free self-speculative decoding framework tailored for Looped Transformers. LoopSpec extracts draft tokens from early recurrent states and operates in a pipelined manner, overlapping draft generation of future tokens with target verification of the current token. To improve draft accuracy without excessive compute overhead, we introduce a selective second proposal from deeper recurrent depth while ensuring lossless decoding under both greedy and sampling regimes. Furthermore, we derive the optimal proposal depths in closed form and show the prediction matches measurement. Across reasoning and coding benchmarks, LoopSpec achieves up to 6.83$\\times$ inference speedup across diverse Looped Transformers.",
+        "authors": [
+          "SangLyul Cho",
+          "Langqing Cui",
+          "Sehoon Kim",
+          "Dongsu Han",
+          "Insu Han"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.17184",
+        "paper_url": "https://arxiv.org/abs/2609.17184",
+        "pdf_url": "https://arxiv.org/pdf/2609.17184",
+        "published": "2026-09-15",
+        "title": "LoopSpec: Pipelined Self-Speculative Decoding for Looped Transformers",
+        "updated": "2026-09-15"
+      },
+      "2609.17241": {
+        "abstract": "While draft-model-free speculative decoding offers a promising path to efficient LLM inference, it is frequently constrained by stale draft candidates and the high computational cost of the verification. To address these challenges, we propose ECHO, a hierarchical dual-loop framework that exploits the functional asymmetry between LLM layers. Leveraging the high discriminative efficiency of early layers and the authoritative distribution of final layers, ECHO bifurcates inference into a high-frequency inner loop and a low-frequency outer loop. Within the inner loop, early-layer bonus logits drive rapid, multi-step draft-tree exploration at a minimal cost. Simultaneously, the outer loop performs authoritative full-model verification through a state-reuse mechanism. Crucially, the outer loop also utilizes final-layer bonus logits to correct existing paths and supplement the tree with high-confidence candidates for subsequent cycles. Experimental results across diverse benchmarks demonstrate that ECHO significantly boosts mean accepted tokens and achieves a 2.4$\\times$ to 2.9$\\times$ speedup, outperforming existing state-of-the-art baselines with negligible engineering overhead and no extra deployment parameters, albeit with a one-shot fine-tuning dependency for optimal acceleration. The code is available at https://github.com/whucs21Mzy/ECHO.",
+        "authors": [
+          "Ziyang Ma",
+          "Zihong Zhang",
+          "Zuchao Li",
+          "Lefei Zhang",
+          "Baoyuan Qi",
+          "Siqi Li",
+          "Simin Yu"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/whucs21Mzy/ECHO",
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.17241",
+        "paper_url": "https://arxiv.org/abs/2609.17241",
+        "pdf_url": "https://arxiv.org/pdf/2609.17241",
+        "published": "2026-09-15",
+        "title": "ECHO: Early-layer Collaborative Hierarchical Orchestration with Bonus Logits in Speculative Decoding",
+        "updated": "2026-09-15"
+      },
+      "2609.17475": {
+        "abstract": "Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory. We present JustFit, an MLX-based inference runtime that combines KVExec for compressed KV execution, PhaseSwap for component residency, and StateTrans for state-preserving serving transitions. These mechanisms fuse reconstruction and coordinate just-in-time materialization and release, independently of model-weight quantization. In full-execution capacity tests on a 24 GiB M4 Pro MacBook running Qwen3.8-27B MXFP4, three independent runs complete 196,608 input and 16,384 output tokens, increasing completed single-request context from the mlx-vlm baseline's 30,720 positions to 212,992 (6.93x); a separate two-request run retains 229,376 positions in aggregate. In separate performance tests, a 32K-input, 64-output probe reaches 19.11 tokens/s, and a repeated 32K+6K workload has a median peak process footprint of 16,374 MiB. The integrated runtime answers 29 of 30 AIME 2026 problems correctly, showing how compact state and lifetime-aware execution expand local serving capacity while supporting extended generated reasoning.",
+        "authors": [
+          "Yuhua Chen"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.PF"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.17475",
+        "paper_url": "https://arxiv.org/abs/2609.17475",
+        "pdf_url": "https://arxiv.org/pdf/2609.17475",
+        "published": "2026-09-15",
+        "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
+        "updated": "2026-09-15"
       }
     },
     "vibe_coding": {
@@ -12058,6 +12962,303 @@
         "published": "2026-09-10",
         "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
         "updated": "2026-09-10"
+      },
+      "2609.12012": {
+        "abstract": "Tests increasingly participate in the decisions made by large language models and software engineering agents. They specify intended behavior, guide program construction and repair, select candidates, constrain transformations, and provide execution evidence for software analysis. These uses draw on test-driven development, yet differ substantially in test order, oracle availability, editable artifacts, and the role of execution. We present a structured scoping survey organized around the question of what decision a test changes. The review integrates 87 research and supporting records, with method- or protocol-level extraction for 83 records, alongside a separate collection of five practice resources. We distinguish the Red--Green--Refactor cycle from test-conditioned generation, execution-guided refinement, test-mediated analysis, and evaluation-only testing. We then compare code generation, repair, translation, refactoring, clone detection, code search, localization, training-data construction, and formal-specification validation. A dedicated analysis examines how agent workflows and reusable skills encode testing procedures and how their effects are evaluated. Across these tasks, the evidence supports treating test availability, test validity, feedback use, and evaluation independence as separate properties. Test passing alone does not establish behavioral equivalence, effective feedback, or process adherence; aggregate improvements can also conceal different outcomes across models, tasks, and denominators. We synthesize these distinctions into a mechanism taxonomy, a cross-task comparison, and a protocol-sensitive evidence analysis, and identify research directions in oracle validation, causal evaluation, long-horizon maintenance, and reusable test-driven agent capabilities",
+        "authors": [
+          "Yunhao Liang",
+          "Chengguang Gan",
+          "Ruixuan Ying",
+          "Hanjun Wei",
+          "Zhe Cui",
+          "Shiwen Ni"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.12012",
+        "paper_url": "https://arxiv.org/abs/2609.12012",
+        "pdf_url": "https://arxiv.org/pdf/2609.12012",
+        "published": "2026-09-10",
+        "title": "Test-Driven Approaches to Software Engineering with Large Language Models: A Survey of Phases, Tasks, and Agent Skills",
+        "updated": "2026-09-10"
+      },
+      "2609.12039": {
+        "abstract": "Software development follows an implementation-verification loop in which developers or agents iteratively revise an implementation until an evaluator, such as a test suite, accepts it. The evaluator checks the implementation against a set of requirements under a model of the deployment environment. Yet even a formal proof that the implementation satisfies the requirements under the model cannot guarantee acceptable behavior after deployment. Requirements only approximate stakeholder intent, and the model only approximates the real deployment environment. We call these together - requirement gap and model gap - the two-gap framework, which unifies the main failure modes of agentic software engineer-ing: reward hacking exploits omissions in the requirements or model, while hallucination widens the gaps by fabricating requirements or environment assumptions. Because neither gap can generally be certified closed in an open, changing world, the goal shifts from closing them to continuously narrowing them. We therefore propose an assurance-revision loop that uses deployment evidence to revise the requirements, model, or evaluator when stakeholders reject the resulting behavior. We then cast assured agentic development as a resource-allocation problem over human judgment, agent capability, and compute. The two principal bottlenecks mirror the two gaps: human judgment for the requirement gap and faithful, costly evaluation for the model gap. Reality remains the final verifier: acceptable behavior under actual deployment conditions is the ultimate test, while predeployment evaluations remain proxies for it.",
+        "authors": [
+          "Alexander Krentsel",
+          "Shubham Agarwal",
+          "Mert Cemri",
+          "Shu Liu",
+          "Sidharth Sankhe",
+          "Ziming Mao",
+          "Matei Zaharia",
+          "Ion Stoica"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.12039",
+        "paper_url": "https://arxiv.org/abs/2609.12039",
+        "pdf_url": "https://arxiv.org/pdf/2609.12039",
+        "published": "2026-09-10",
+        "title": "Reality Is the Final Verifier: On Two Key Gaps in Agentic Software Engineering",
+        "updated": "2026-09-10"
+      },
+      "2609.12190": {
+        "abstract": "Large language models have become central to modern coding assistants, but state-of-the-art systems such as Claude Code or Codex rely on very large, cloud-hosted models with significant computational cost and data-privacy implications. This work investigates whether a useful, fully local coding agent can be built around small open-source models by shifting the computational burden away from inference. We develop a Retrieval-Augmented Generation (RAG) system for scientific code understanding that strictly separates an expensive offline ingestion stage parsing, structural graph construction, LLM-generated entity explanations, and embedding from a lightweight online answering stage. The system is evaluated on a 100-question benchmark spanning eleven categories over the IPPL scientific codebase written in C++, with answers scored by an independent frontier model as the judge. Across seven answering models, we find that model family and retrieval quality matter more than parameter count, i.e. a 9B model achieves the highest average score (0.795), outperforming both larger models within our pipeline and the same models embedded in the Claude Code retrieval architecture. The results indicate that front-loading code understanding into a reusable, codebase-specialised vector store enables small local models to deliver grounded and repository-specific answers, making the agent well suited as a privacy-preserving development tool for in-house scientific codebases.",
+        "authors": [
+          "Aaron Nobile",
+          "Andreas Adelmann",
+          "Mohsen Sadr"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.12190",
+        "paper_url": "https://arxiv.org/abs/2609.12190",
+        "pdf_url": "https://arxiv.org/pdf/2609.12190",
+        "published": "2026-09-10",
+        "title": "Retrieval-Augmented Generation for Scientific Code Understanding",
+        "updated": "2026-09-10"
+      },
+      "2609.12379": {
+        "abstract": "Auto-regressive model decode is bandwidth-bound, since every weight and key/value-cache byte crosses high-bandwidth memory once per token. A megakernel is an ideal solution, but existing automatic megakernel generation approaches cannot achieve both generalization across models and correctness guarantees. We present ForgeMegakernel, which generates a per-model high-performance decode megakernel using coding agents. ForgeMegakernel pairs a universal knowledge base of ten progressive milestones with an independent mid-state test oracle. The milestones provide the megakernel's structural properties: a fine-grained instruction stream for each SM, dependency counters replacing the global synchronization, and a shared-memory buffer pool for workload balance across SMs and greater parallelism. The test oracle derives the mid-states of the megakernel and checks the performance, error and precision during the generation process, guaranteeing a correct and trustworthy forged megakernel. We evaluated ForgeMegakernel on 14 representative decoding operations across eight model families spanning 0.6B-13B parameters. The generated megakernels achieved 50.5-85.9% MBU and geometric mean speedups of 1.21x over SGLang 0.5.18 and 1.54x over a megakernel compiler under identical configurations. Inside SGLang, evaluated on GSM8K with ragged prompts, all 14 megakernels decoded faster than the SGLang engine at comparable answer accuracy.",
+        "authors": [
+          "Leshan Li",
+          "Zhui Zhu",
+          "Xianglong Deng",
+          "Yaojian Chen",
+          "Qingfeng He",
+          "Yuxuan Li",
+          "Rong Zhao",
+          "Xu Han",
+          "Zhiyuan Liu"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.12379",
+        "paper_url": "https://arxiv.org/abs/2609.12379",
+        "pdf_url": "https://arxiv.org/pdf/2609.12379",
+        "published": "2026-09-11",
+        "title": "ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels",
+        "updated": "2026-09-11"
+      },
+      "2609.12742": {
+        "abstract": "Coding agents increasingly read repository knowledge from SKILLs --- plain \\texttt{.md} files versioned alongside the code. Recent work synthesizes these files automatically, by optimizing the document against a benchmark. A bare repository comes with no benchmark, and the synthetic tasks prior work builds are small enough that a capable agent saturates them with no document at all. We mine harder tasks --- merged pull requests of the repository, reverted at a single frozen base commit; and score a candidate document by whether the same agent does better with it than without it. On three Kotlin repositories, the documents GEPA finds raise this score by $4.9$pp on average, and the ones SkillOpt finds leave it where it started, $0.1$pp above the seed. The GEPA gain matches what prior work reports with the same optimizer, and at the dataset size a single repository supplies it cannot be separated from the agent's run-to-run variance; settling that would take more tasks than one repository's history yields. The documents themselves read better than the score: a maintainer of one repository found in them knowledge one only gets by working in the project.",
+        "authors": [
+          "Mykhailo Kozyrev",
+          "Andrei Kozyrev",
+          "Anton Podkopaev"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.12742",
+        "paper_url": "https://arxiv.org/abs/2609.12742",
+        "pdf_url": "https://arxiv.org/pdf/2609.12742",
+        "published": "2026-09-11",
+        "title": "Skill Issue: Lessons from Optimizing Repository SKILLs for Coding Agents",
+        "updated": "2026-09-11"
+      },
+      "2609.13299": {
+        "abstract": "Autonomous coding agents can remember an experiment yet carry forward a conclusion it does not justify. We reconstruct how evidence is reused in a 400-task NeuroGolf campaign, with selected wellbore-prediction records from the same operator as cross-domain comparisons. A numerical counterexample exposes an overbroad exclusion; other episodes distinguish what failed, incomplete and revised programs justify doing next. The wellbore records reveal an additional weakness: a coordinator correctly acknowledges a novelty-only rejection, then summarizes it as measured closure. Separately, a prefix-based acceptance gate at three thresholds yields worse target scores than ungated adaptation in the retained experiment. These cases motivate an inspectable handoff linking the tested proposition, its scope, candidate and evaluator identity, check statuses, and reopening condition. A dispatch tree separates investigation, repair, reopening and stopping; a promotion predicate requires that each check both passes and has evidence supporting its use for the requested decision. The practical lesson is to preserve not just experimental results, but their limits on subsequent action.",
+        "authors": [
+          "Bobber Cheng"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.13299",
+        "paper_url": "https://arxiv.org/abs/2609.13299",
+        "pdf_url": "https://arxiv.org/pdf/2609.13299",
+        "published": "2026-09-10",
+        "title": "From Experiments to Decisions: Reusing Evidence in Autonomous Coding Research",
+        "updated": "2026-09-10"
+      },
+      "2609.15877": {
+        "abstract": "Context: Conducting effective code reviews is increasingly challenging due to the growing complexity of software systems and the accelerated code generation by AI coding agents. LLM-based approaches for code reviews have shown promising results in identifying defects and improving code quality. However, existing approaches rarely consider project-specific contextualized knowledge, and few have been evaluated in industrial settings. Objective: In this study, we propose a multi-agent-based solution that provides multifaceted assessments of code changes. Method: Following the Design Science Research Process, we developed and evaluated our solution in an industrial setting. Our solution combines specialized agent skills with context-specific knowledge to identify antipatterns in code changes across four dimensions: readability, maintainability, reliability, and performance. Using our solution, we generated reviews for several code commits and identified more than 200 issues. These issues were then manually validated by the developers of the case company for their correctness and importance. Results: The evaluation results show that our solution achieves 96% accuracy in correctly identifying issues in the investigated code commits. Furthermore, around 69% of the correctly identified issues were rated as important, with approximately 33% rated as severe issues that must be fixed and 36% as important issues that should be fixed. Qualitative feedback from developers corroborates these findings and highlights the usefulness of the generated reviews. Conclusion: Our findings provide empirical evidence from an industrial evaluation that combining specialized agent skills with context-specific knowledge yields accurate, practically useful code reviews.",
+        "authors": [
+          "Muhammad Laiq",
+          "Ricardo Britto",
+          "Muhammad Usman",
+          "Nishrith Saini",
+          "Deepika Badampudi"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.15877",
+        "paper_url": "https://arxiv.org/abs/2609.15877",
+        "pdf_url": "https://arxiv.org/pdf/2609.15877",
+        "published": "2026-09-14",
+        "title": "Using Agentic AI for contextualized and multifaceted code review at Ericsson",
+        "updated": "2026-09-14"
+      },
+      "2609.15922": {
+        "abstract": "Reflection high-energy electron diffraction (RHEED) provides rich information about evolving surfaces during thin-film growth, but non-automated, operator-dependent alignment and fragmented analysis workflows limit its potential in fully autonomous synthesis. Here, we present an open-source hardware and software toolkit that makes RHEED control and quantitative analysis accessible to operators and artificial intelligence (AI) agents. Demonstrated on a pulsed laser deposition system, the toolkit provides programmable electron-optics control, automated beam alignment and rocking-curve acquisition, and a training-free method for crystallographic azimuthal alignment. The auto RHEED application extracts structural and growth-related observables through shared graphical and programmatic interfaces, including a Model Context Protocol (MCP) server. An agent-driven demonstration shows how natural-language requests can guide the selection, configuration, and execution of quantitative analyses. An extensible adapter interface streamlines the incorporation of community-developed methods for AI analysis and RHEED simulation as they emerge, supported by Markdown implementation guides designed for AI coding agents. These capabilities support complementary descriptions of surface evolution through physical measurements and learned image representations while providing a practical route for incorporating new computational methods. Together, these tools reduce barriers to automated and agentic RHEED measurements and establish a foundation for future agentic control of thin-film synthesis guided by the evolving surface.",
+        "authors": [
+          "Asraful Haque",
+          "Christopher M. Rouleau",
+          "Rama K. Vasudevan",
+          "Sumner B. Harris"
+        ],
+        "categories": [
+          "cond-mat.mtrl-sci"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.15922",
+        "paper_url": "https://arxiv.org/abs/2609.15922",
+        "pdf_url": "https://arxiv.org/pdf/2609.15922",
+        "published": "2026-09-14",
+        "title": "An Open-Source Hardware and Software Toolkit to Enable Agentic RHEED-Guided Thin-Film Synthesis",
+        "updated": "2026-09-14"
+      },
+      "2609.16096": {
+        "abstract": "Large language model coding agents have recently become useful for software tasks, but weaker or open-weight agents still struggle to reliably interpret user intent and execute complex multi-step workflows. This gap is especially visible in long-horizon settings, where an agent must repeatedly inspect prior outcomes, diagnose failure, and choose the next code edit under interaction constraints. It motivates a natural question: what can we do to improve the thinking process of a weak code agent? We study this question in CodeClash, a code-arena benchmark where the original work evaluates 8 commercial coding agents across 6 arenas through multi-round tournaments. Since Qwen3 Coder Plus ranks last among them, we take the open-weight Qwen3-Coder-30B as a case study and investigate how to improve it with distilled knowledge from stronger agents. Our analysis shows that Qwen3-Coder-30B is not well optimized for arena-style interaction: it frequently produces syntax and protocol-breaking errors and exhibits weak strategic adaptation across rounds. These failures are difficult to correct with vanilla instruction tuning alone, since offline SFT cannot directly verify whether a generated action is valid or beneficial. To address this, we propose ReAct SFT, which rewrites teacher trajectories into explicit [obs][thought][act] chains, and trajectoryquality weighted SFT, which reweights samples to encourage post-edit checking. ReAct SFT substantially improves strategic behavior, and our fine-tuned model outperforms the original Qwen3 Coder Plus in tournament evaluation.",
+        "authors": [
+          "Ivy Ning Zhang"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16096",
+        "paper_url": "https://arxiv.org/abs/2609.16096",
+        "pdf_url": "https://arxiv.org/pdf/2609.16096",
+        "published": "2026-09-14",
+        "title": "Coaching Qwen3 Coder 30B to Think Like a CodeClash Arena Agent",
+        "updated": "2026-09-14"
+      },
+      "2609.16287": {
+        "abstract": "AI coding agents increasingly rely on execution harnesses to interact with repositories and external tools. However, task success does not guarantee reliable execution. Agents may still modify unrelated files, rewrite tests, issue unsafe commands, or ignore failed validations, motivating behavioral guardrails for reliable execution. We present AgentGuard, an instruction-level guardrail framework that learns conditional execution constraints from anomalous trajectories of coding agents. Rather than relying on manually specified safety rules, AgentGuard automatically extracts recurring execution failure patterns, generalizes them into instruction-level behavioral constraints, and organizes them as a lightweight guardrail skill that dynamically activates only the rules relevant to the current instruction. This design enables behavioral guidance while minimizing unnecessary restrictions on normal execution. We evaluate AgentGuard using 642 documented failure traces collected from real coding-agent executions across 382 repository tasks. Guardrails are learned from 461 traces covering 282 tasks and evaluated on a disjoint set of 100 tasks. Using Claude Code with Claude Haiku 4.5 as the underlying coding agent, we compare the baseline agent with the same agent augmented by AgentGuard. Experimental results show that AgentGuard reduces the Abnormal Execution Rate from 69.0% to 26.7% and increases the Successful Task Completion Rate from 21.7% to 35.0%. These results demonstrate that execution guardrails learned from historical failures can substantially improve the reliability of AI coding agents while highlighting the remaining challenge of balancing safety and task completion.",
+        "authors": [
+          "Wuyang Dai",
+          "Song Wang"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16287",
+        "paper_url": "https://arxiv.org/abs/2609.16287",
+        "pdf_url": "https://arxiv.org/pdf/2609.16287",
+        "published": "2026-09-14",
+        "title": "AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories",
+        "updated": "2026-09-14"
+      },
+      "2609.16302": {
+        "abstract": "When a coding agent returns to existing software, it inherits evidence from earlier engineering work: tests, type checks, proofs, static analyses, and traces. Reloading all of it is wasteful, but dropping a piece the change depends on can leave a required property unsupported. Given the properties a change must preserve, its obligations, we ask which least-cost subset of the available evidence re-establishes them, and we call such a subset a task-conditioned assurance envelope. Evidence and the rules that combine it form a typed inference graph; an obligation is met when forward chaining from the selected evidence reaches it, and we validate every selection by that closure rather than by trusting the optimizer. The software-derived graphs in our evaluation come from preserved outcomes of prior AI coding-agent runs; we freeze those artifacts and ask which accumulated evidence should be restored for a later task. Small graphs from Rust, IronBlocks, and Pong outcomes show that the minimum envelope depends on the task, that none may exist when current evidence cannot re-establish a required property, that some properties need several pieces of evidence together, and that expanding the requirements adds evidence rather than replacing it. A prespecified synthetic benchmark of 249 instances characterizes computation: a baseline that discards the 'several pieces together' structure necessarily fails to re-derive them; every completed exact cross-check agreed with the CP-SAT optimizer; and median solve time stayed below 20 ms at 500-evidence graphs, except that graphs with many alternative derivations per target timed out at far smaller sizes, so structure, not raw size, drives difficulty. The contribution is a bounded application of established optimization to selecting assurance context for a software change; discovering the obligations and downstream agent benefit remain open.",
+        "authors": [
+          "Anjan Goswami"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.PL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16302",
+        "paper_url": "https://arxiv.org/abs/2609.16302",
+        "pdf_url": "https://arxiv.org/pdf/2609.16302",
+        "published": "2026-09-14",
+        "title": "Assurance Envelopes for Autonomous Coding Agents: Minimum-Cost Evidence for Software Change",
+        "updated": "2026-09-14"
+      },
+      "2609.16936": {
+        "abstract": "Large language model (LLM)-powered coding agents have made rapid progress in automating software engineering tasks, yet repository-level issue resolution remains challenging. Beyond generating a plausible patch, an agent must localize relevant code across interdependent files and maintain repository context that is both sufficient and focused. Code graphs expose non-local relations, but linear text interfaces obscure their topology; rendering the full repository graph yields visual representations that are too dense to perceive reliably, whereas a one-shot local view becomes stale as exploration proceeds. We present \\textbf{RepoAtlas}, a training-free module that maintains evolving multimodal repository views through a \\emph{select--project--refresh} loop over a repository code graph. RepoAtlas combines evidence from the issue with the agent's current exploration state to select a task-relevant region under a fixed budget, projects the selected structure into complementary visual and textual representations, and refreshes the view when changes in the exploration state render it outdated. We evaluate RepoAtlas on SWE-bench Verified, where it improves the resolve rate by 2.4 points while reducing input tokens and model calls by 5.8\\% and 7.8\\% on average, relative to the strongest multimodal graph baseline, with consistent gains across three models of different families and scales.",
+        "authors": [
+          "Yunxiang Zhang",
+          "Haiquan Wang",
+          "JiaWei Guo",
+          "Hanyang Xia",
+          "Yan Chen",
+          "Tong Chen",
+          "Zhang Zhiwei",
+          "Junchen Ye"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.16936",
+        "paper_url": "https://arxiv.org/abs/2609.16936",
+        "pdf_url": "https://arxiv.org/pdf/2609.16936",
+        "published": "2026-09-15",
+        "title": "RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views",
+        "updated": "2026-09-15"
+      },
+      "2609.17394": {
+        "abstract": "Small differences on coding-agent leaderboards are often read as an ordering of systems. We audit whether the published verdicts support this reading, using 254 SWE-bench submissions across four splits without running models. On Verified, the leading two entries each resolve 396 of 500 instances. The top ten share 285 successes and 51 failures, leaving 164 instances that distinguish their outcomes. Frontier solution sets have median nesting 0.935 against a score-implied baseline of 0.774, indicating strongly shared successes. Scores also depend on the evaluated model-scaffold pair: observed within-model scaffold ranges reach 29.8 percentage points, compared with the 8.8-point spread of the top thirty. Six of nine cell-mean interaction tests remain significant after Holm correction, although this observational design does not identify causal scaffold effects. Exact paired McNemar tests separate none of the 29 adjacent Verified top-thirty pairs at alpha=0.05, while the larger Test split separates 14 of 23. A stated leader-based rule yields three descriptive tiers, or two after Holm correction; non-rejection does not establish equivalence. We release the partition and a five-step audit protocol that profiles shared outcomes, tests paired differences, reports grouping sensitivity, and estimates the instance budget needed for resolution. The results motivate reporting comparison-set-specific resolution and model-scaffold provenance instead of interpreting small aggregate gaps as established rank differences.",
+        "authors": [
+          "Fengshuo Liu",
+          "Ying Liu",
+          "Ruize Sun",
+          "Lie Luo",
+          "Siyuan Guo"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-09-16",
+        "id": "2609.17394",
+        "paper_url": "https://arxiv.org/abs/2609.17394",
+        "pdf_url": "https://arxiv.org/pdf/2609.17394",
+        "published": "2026-09-15",
+        "title": "Coding Agents Have Converged: Why the SWE-bench Leaderboard Can No Longer Order Its Top Entries, and What to Measure Instead",
+        "updated": "2026-09-15"
       }
     }
   },
@@ -12413,6 +13614,44 @@
         ],
         "url": "https://github.com/LMCache/LMCache"
       },
+      "MervinPraison/PraisonAI": {
+        "created_at": "2024-03-19",
+        "description": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
+        "discovery": "active",
+        "first_seen": "2026-09-16",
+        "forks": 1443,
+        "full_name": "MervinPraison/PraisonAI",
+        "id": 774497032,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-09-15",
+        "score": 20.83,
+        "star_growth_7d": null,
+        "stars": 9058,
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agent-framework",
+          "ai-agent-sdk",
+          "ai-agents",
+          "ai-agents-framework",
+          "ai-agents-sdk",
+          "ai-framwork",
+          "aiagent",
+          "aiagentframework",
+          "aiagents",
+          "aiagentsframework",
+          "framework",
+          "hermes",
+          "hermes-agent",
+          "multi-agent",
+          "multi-agent-system",
+          "multi-agents",
+          "multi-ai-agents",
+          "openclaw"
+        ],
+        "url": "https://github.com/MervinPraison/PraisonAI"
+      },
       "MiaAI-Lab/Qwen3.8-Flash-Next-Dual-DGX-Sparks": {
         "created_at": "2026-08-26",
         "description": "Qwen3.8-Flash-Next-NVFP4-vLLM-Dual-DGX-Spark",
@@ -12727,6 +13966,33 @@
           "vllm"
         ],
         "url": "https://github.com/SemiAnalysisAI/InferenceX"
+      },
+      "TencentCloud/TencentDB-Agent-Memory": {
+        "created_at": "2026-04-07",
+        "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+        "discovery": "active",
+        "first_seen": "2026-09-16",
+        "forks": 2526,
+        "full_name": "TencentCloud/TencentDB-Agent-Memory",
+        "id": 1203558071,
+        "language": "TypeScript",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-09-15",
+        "score": 22.71,
+        "star_growth_7d": null,
+        "stars": 26792,
+        "topics": [
+          "agent",
+          "ai-agent",
+          "embedding",
+          "llm",
+          "local-first",
+          "long-term-memory",
+          "memory",
+          "openclaw-plugin",
+          "vector-search"
+        ],
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       },
       "The-Vibe-Company/Quivr": {
         "created_at": "2023-05-12",
@@ -13346,6 +14612,31 @@
         ],
         "url": "https://github.com/flashinfer-ai/flashinfer"
       },
+      "gauravapiscean/agentic-kv-cache": {
+        "created_at": "2026-09-10",
+        "description": " Reproducing agentic KV-cache policy claims on real traces. 68k requests from 393 Claude Code sessions. LRU is harder to beat than the papers suggest.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 1,
+        "full_name": "gauravapiscean/agentic-kv-cache",
+        "id": 1363812952,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-09-10",
+        "score": 9.69,
+        "star_growth_7d": null,
+        "stars": 23,
+        "topics": [
+          "kv-cache",
+          "llm-agents",
+          "llm-inference",
+          "prefix-caching",
+          "reproducibility",
+          "sglang",
+          "vllm"
+        ],
+        "url": "https://github.com/gauravapiscean/agentic-kv-cache"
+      },
       "gpustack/gpustack": {
         "created_at": "2024-05-11",
         "description": "A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances.",
@@ -13763,6 +15054,40 @@
           "ycombinator"
         ],
         "url": "https://github.com/langfuse/langfuse"
+      },
+      "langwatch/langwatch": {
+        "created_at": "2023-09-09",
+        "description": "The platform for LLM evaluations and AI agent testing",
+        "discovery": "active",
+        "first_seen": "2026-09-16",
+        "forks": 391,
+        "full_name": "langwatch/langwatch",
+        "id": 689299900,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-09-15",
+        "score": 19.72,
+        "star_growth_7d": null,
+        "stars": 4796,
+        "topics": [
+          "agent-testing",
+          "ai",
+          "analytics",
+          "datasets",
+          "dspy",
+          "evaluation",
+          "gpt",
+          "llm",
+          "llm-ops",
+          "llmops",
+          "low-code",
+          "observability",
+          "observability-platform",
+          "openai",
+          "prompt-engineering",
+          "simulation-testing"
+        ],
+        "url": "https://github.com/langwatch/langwatch"
       },
       "latitude-dev/latitude-llm": {
         "created_at": "2024-06-28",
@@ -14346,6 +15671,44 @@
         ],
         "url": "https://github.com/openobserve/openobserve"
       },
+      "oriveo/oriveo": {
+        "created_at": "2026-09-03",
+        "description": "Open-source, bring-your-own-key (BYOK) multi-model AI chat client for iOS, Android and the web. One LLM client for OpenAI, Anthropic, Google Gemini, OpenRouter, DeepSeek and ten more providers, plus any OpenAI-, Anthropic- or Gemini-compatible endpoint — Ollama, LM Studio, llama.cpp, vLLM. Local-first, self-hostable, no account. AGPL-3.0.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 4,
+        "full_name": "oriveo/oriveo",
+        "id": 1355994488,
+        "language": "Swift",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-09-15",
+        "score": 13.13,
+        "star_growth_7d": null,
+        "stars": 107,
+        "topics": [
+          "ai-chat",
+          "ai-chat-client",
+          "ai-client",
+          "android",
+          "anthropic",
+          "bring-your-own-key",
+          "byok",
+          "chatgpt-alternative",
+          "claude",
+          "deepseek",
+          "gemini",
+          "ios",
+          "llama-cpp",
+          "llm-client",
+          "lm-studio",
+          "multi-model",
+          "ollama",
+          "openai",
+          "openrouter",
+          "self-hosted"
+        ],
+        "url": "https://github.com/oriveo/oriveo"
+      },
       "ovg-project/kvcached": {
         "created_at": "2025-05-27",
         "description": "Virtualized Elastic KV Cache for Dynamic GPU Sharing and Beyond",
@@ -14650,6 +16013,38 @@
         "stars": 31,
         "topics": [],
         "url": "https://github.com/seanyourhighness/vllm-sm12x-nvfp4-dflash2"
+      },
+      "seoan1024/Korean-llm-v4": {
+        "created_at": "2026-09-09",
+        "description": "한국어 사전학습과 SFT를 위한 1.09B 파라미터 풀스크래치 LLM — RoPE, KV Cache, BF16·8-bit AdamW 최적화, 데이터셋 캐싱 및 학습 모니터링 지원.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 3,
+        "full_name": "seoan1024/Korean-llm-v4",
+        "id": 1362809792,
+        "language": "Python",
+        "license": "GPL-3.0",
+        "pushed_at": "2026-09-12",
+        "score": 10.23,
+        "star_growth_7d": null,
+        "stars": 26,
+        "topics": [
+          "adamw",
+          "adamw8bit",
+          "bf16",
+          "bitsandbytes",
+          "huggingface",
+          "korean",
+          "model",
+          "python",
+          "pytorch",
+          "rmsnorm",
+          "rope",
+          "swiglu",
+          "tinker",
+          "transformer"
+        ],
+        "url": "https://github.com/seoan1024/Korean-llm-v4"
       },
       "sgl-project/sglang": {
         "created_at": "2024-01-08",
@@ -15179,6 +16574,29 @@
         ],
         "url": "https://github.com/Agenta-AI/awesome-ai-agent-platforms"
       },
+      "BloopAI/vibe-kanban": {
+        "created_at": "2025-06-14",
+        "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+        "discovery": "active",
+        "first_seen": "2026-09-16",
+        "forks": 3007,
+        "full_name": "BloopAI/vibe-kanban",
+        "id": 1002125012,
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-09-15",
+        "score": 22.79,
+        "star_growth_7d": null,
+        "stars": 28090,
+        "topics": [
+          "agent",
+          "ai-agents",
+          "kanban",
+          "management",
+          "task-manager"
+        ],
+        "url": "https://github.com/BloopAI/vibe-kanban"
+      },
       "CHENG-LIANG1/real-company-interview-ai-coding-projects": {
         "created_at": "2026-08-26",
         "description": "三个匿名化真实 AI Coding 面试项目题与一套通用解题方法",
@@ -15221,6 +16639,23 @@
           "social-winter-of-code"
         ],
         "url": "https://github.com/CodeGraphContext/CodeGraphContext"
+      },
+      "CosmosMind-ai/RSI-Harness": {
+        "created_at": "2026-09-03",
+        "description": "RSIH — versionable, shareable agent harness: Pi coding agent + Genome config layer",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 20,
+        "full_name": "CosmosMind-ai/RSI-Harness",
+        "id": 1355730207,
+        "language": "TypeScript",
+        "license": null,
+        "pushed_at": "2026-09-09",
+        "score": 14.54,
+        "star_growth_7d": null,
+        "stars": 431,
+        "topics": [],
+        "url": "https://github.com/CosmosMind-ai/RSI-Harness"
       },
       "DietrichGebert/ponytail": {
         "created_at": "2026-06-12",
@@ -15328,6 +16763,71 @@
         "stars": 297,
         "topics": [],
         "url": "https://github.com/JetBrains/benjamin-plus-skill"
+      },
+      "JuliusBrussee/caveman": {
+        "created_at": "2026-04-04",
+        "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+        "discovery": "active",
+        "first_seen": "2026-09-16",
+        "forks": 6122,
+        "full_name": "JuliusBrussee/caveman",
+        "id": 1201173969,
+        "language": "Go",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-09-15",
+        "score": 25.1,
+        "star_growth_7d": null,
+        "stars": 105824,
+        "topics": [
+          "ai",
+          "anthropic",
+          "caveman",
+          "claude",
+          "claude-code",
+          "llm",
+          "meme",
+          "prompt-engineering",
+          "skill",
+          "tokens"
+        ],
+        "url": "https://github.com/JuliusBrussee/caveman"
+      },
+      "Kerneta/daidocs": {
+        "created_at": "2026-09-13",
+        "description": "Open plain-text file format for AI memory. Your assistant's long-term memory as .dai files on your disk: readable by Claude, GPT, Gemini, Cursor, local models and grep (all LLM models work). MCP server + hooks for Claude Code, Claude Desktop, Cursor, Windsurf, Codex. 83% LongMemEval-S (GPT-4o), 92% (Claude Fable 5), 10x fewer tokens.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 0,
+        "full_name": "Kerneta/daidocs",
+        "id": 1368190389,
+        "language": "JavaScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-09-15",
+        "score": 10.52,
+        "star_growth_7d": null,
+        "stars": 23,
+        "topics": [
+          "agent-memory",
+          "ai-agents",
+          "ai-memory",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "context-engineering",
+          "cursor",
+          "file-format",
+          "llm",
+          "local-first",
+          "long-term-memory",
+          "longmemeval",
+          "mcp",
+          "mcp-server",
+          "memory",
+          "open-standard",
+          "persistent-memory",
+          "plain-text"
+        ],
+        "url": "https://github.com/Kerneta/daidocs"
       },
       "MirroS-Lab/Code-as-World": {
         "created_at": "2026-08-27",
@@ -15551,6 +17051,28 @@
         ],
         "url": "https://github.com/Vuk97/forward-implementation-first"
       },
+      "Xu123-Bob/Baize": {
+        "created_at": "2026-09-12",
+        "description": "白泽 —— 中国古代神话中通晓万物的瑞兽，如今化身为 Vibe Coding 助手。  一个开源的 AI Coding Agent CLI，支持多后端（DeepSeek / OpenAI 兼容 / Ollama 本地），具备工具调用、技能加载、子代理委派、上下文压缩、安全沙箱等完整能力。在终端即可与 AI 结对编程。",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 1,
+        "full_name": "Xu123-Bob/Baize",
+        "id": 1366971725,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-09-16",
+        "score": 12.41,
+        "star_growth_7d": null,
+        "stars": 70,
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "ai-coding"
+        ],
+        "url": "https://github.com/Xu123-Bob/Baize"
+      },
       "Yevanchen/reclaim-code-entropy": {
         "created_at": "2026-08-17",
         "description": "An evidence-first Agent Skill for safely simplifying any codebase.",
@@ -15642,6 +17164,34 @@
         ],
         "url": "https://github.com/affaan-m/ECC"
       },
+      "agent-launch/agent-launcher": {
+        "created_at": "2026-09-10",
+        "description": "Configure and run existing coding-agent CLIs from one desktop app.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 1,
+        "full_name": "agent-launch/agent-launcher",
+        "id": 1364985464,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-09-10",
+        "score": 13.25,
+        "star_growth_7d": null,
+        "stars": 186,
+        "topics": [
+          "ai-agent",
+          "claude-code",
+          "cli",
+          "codex",
+          "cross-platform",
+          "desktop-app",
+          "developer-tools",
+          "electron",
+          "gemini-cli",
+          "macos"
+        ],
+        "url": "https://github.com/agent-launch/agent-launcher"
+      },
       "agent-of-empires/agent-of-empires": {
         "created_at": "2026-01-09",
         "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
@@ -15679,6 +17229,49 @@
           "vibe-coding"
         ],
         "url": "https://github.com/agent-of-empires/agent-of-empires"
+      },
+      "agentverse-os/AgentVerse-OS": {
+        "created_at": "2026-09-12",
+        "description": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing exposed to the internet. Rust core, Svelte UI.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 19,
+        "full_name": "agentverse-os/AgentVerse-OS",
+        "id": 1367577373,
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-09-12",
+        "score": 15.66,
+        "star_growth_7d": null,
+        "stars": 614,
+        "topics": [],
+        "url": "https://github.com/agentverse-os/AgentVerse-OS"
+      },
+      "alchaincyf/3d-vibe-coding-handbook": {
+        "created_at": "2026-09-13",
+        "description": "《3D Vibe Coding 手册》配套仓库：书的 HTML 版、demo 源码、工具脚本与资源包索引",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 13,
+        "full_name": "alchaincyf/3d-vibe-coding-handbook",
+        "id": 1367986547,
+        "language": "HTML",
+        "license": null,
+        "pushed_at": "2026-09-15",
+        "score": 12.61,
+        "star_growth_7d": null,
+        "stars": 79,
+        "topics": [
+          "3d",
+          "ai-3d",
+          "gltf",
+          "image-to-3d",
+          "orange-book",
+          "three-js",
+          "tripo",
+          "vibe-coding"
+        ],
+        "url": "https://github.com/alchaincyf/3d-vibe-coding-handbook"
       },
       "amirmushichge/video-states-website": {
         "created_at": "2026-09-04",
@@ -15918,6 +17511,36 @@
         "stars": 15288,
         "topics": [],
         "url": "https://github.com/chenhg5/cc-connect"
+      },
+      "chigwell/Penelopa.ai": {
+        "created_at": "2026-09-03",
+        "description": "Continuous improvement for AI coding agents: Penelopa analyzes real Codex and Claude Code sessions, finds repeated workflow patterns, and turns them into reusable skills, checks, prompts, and recommendations.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 4,
+        "full_name": "chigwell/Penelopa.ai",
+        "id": 1356156490,
+        "language": "JavaScript",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-09-14",
+        "score": 13.43,
+        "star_growth_7d": null,
+        "stars": 140,
+        "topics": [
+          "agent-improvement",
+          "agent-observability",
+          "ai-agents",
+          "ai-recommendations",
+          "claude-code",
+          "codex",
+          "coding-agents",
+          "continuous-improvement",
+          "developer-productivity",
+          "prompt-engineering",
+          "reusable-skills",
+          "workflow-automation"
+        ],
+        "url": "https://github.com/chigwell/Penelopa.ai"
       },
       "cloudflare/vibesdk": {
         "created_at": "2025-08-25",
@@ -16317,6 +17940,32 @@
         ],
         "url": "https://github.com/iOfficeAI/AionUi"
       },
+      "ivyfan-toowell/IvyClaw": {
+        "created_at": "2026-09-13",
+        "description": "A production-oriented multi-agent AI Agent system for software engineering.  |   面向软件研发任务的多智能体 AI Agent 工程系统",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 4,
+        "full_name": "ivyfan-toowell/IvyClaw",
+        "id": 1367954971,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-09-13",
+        "score": 11.61,
+        "star_growth_7d": null,
+        "stars": 59,
+        "topics": [
+          "ai-agents",
+          "deepagents",
+          "deepagents-langgraph",
+          "llm",
+          "llm-agent",
+          "llm-agents",
+          "multi-agent",
+          "multi-agent-systems"
+        ],
+        "url": "https://github.com/ivyfan-toowell/IvyClaw"
+      },
       "jamro/tiny-engineer": {
         "created_at": "2026-08-21",
         "description": "A small desktop robot that brings an AI coding assistant to life, physically acting out when it reads files, thinks, writes code, and finishes work.",
@@ -16676,6 +18325,44 @@
         "topics": [],
         "url": "https://github.com/openshift-eng/ai-helpers"
       },
+      "pliablepixels/gap-trap": {
+        "created_at": "2026-09-13",
+        "description": "Turns vibe coding into high quality code. Sets up rules and gates in your repo so AI-written code stays correct without you reviewing every line.",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 6,
+        "full_name": "pliablepixels/gap-trap",
+        "id": 1368857095,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-09-15",
+        "score": 13.72,
+        "star_growth_7d": null,
+        "stars": 150,
+        "topics": [
+          "agent-skills",
+          "agentic-coding",
+          "agents-md",
+          "ai-agents",
+          "ai-coding",
+          "ci-cd",
+          "claude-code",
+          "claude-skills",
+          "code-quality",
+          "codex",
+          "coding-agents",
+          "cursor",
+          "developer-tools",
+          "github-actions",
+          "llm",
+          "mutation-testing",
+          "quality-gates",
+          "tdd",
+          "testing",
+          "vibe-coding"
+        ],
+        "url": "https://github.com/pliablepixels/gap-trap"
+      },
       "shanraisshan/claude-code-best-practice": {
         "created_at": "2025-10-31",
         "description": "from vibe coding to agentic engineering - practice makes claude perfect",
@@ -16931,6 +18618,42 @@
         ],
         "url": "https://github.com/tractorjuice/arc-kit"
       },
+      "tradecatlabs/vibe-coding-cn": {
+        "created_at": "2025-11-23",
+        "description": "Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南",
+        "discovery": "active",
+        "first_seen": "2026-09-16",
+        "forks": 1645,
+        "full_name": "tradecatlabs/vibe-coding-cn",
+        "id": 1102195393,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-09-15",
+        "score": 21.84,
+        "star_growth_7d": null,
+        "stars": 16241,
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "ai-coding",
+          "ai-programming",
+          "chinese",
+          "claude-code",
+          "codex",
+          "cursor",
+          "developer-tools",
+          "gemini-cli",
+          "glue-coding",
+          "prompt-engineering",
+          "prompts",
+          "skills",
+          "tutorial",
+          "vibe-coding",
+          "workflow"
+        ],
+        "url": "https://github.com/tradecatlabs/vibe-coding-cn"
+      },
       "useagenthq/useagent": {
         "created_at": "2026-08-29",
         "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
@@ -17049,6 +18772,36 @@
           "visualization"
         ],
         "url": "https://github.com/viettranx/3dviz-pro-max"
+      },
+      "xiaomoBoy/pi-bluebook": {
+        "created_at": "2026-09-08",
+        "description": "Pi Coding Agent 中文学习蓝皮书：从安装与第一个可验收任务开始，逐步掌握 Session、Context、Skill、Extension、Subagent 与长期 Agent 工作流。",
+        "discovery": "new",
+        "first_seen": "2026-09-16",
+        "forks": 15,
+        "full_name": "xiaomoBoy/pi-bluebook",
+        "id": 1361393778,
+        "language": "Markdown",
+        "license": "MIT",
+        "pushed_at": "2026-09-14",
+        "score": 14.26,
+        "star_growth_7d": null,
+        "stars": 226,
+        "topics": [
+          "agent-harness",
+          "agent-skills",
+          "ai-agent",
+          "chinese",
+          "coding-agent",
+          "context-engineering",
+          "learning-path",
+          "pi",
+          "pi-agent",
+          "pi-coding-agent",
+          "tutorial",
+          "vitepress"
+        ],
+        "url": "https://github.com/xiaomoBoy/pi-bluebook"
       },
       "yetone/cumora": {
         "created_at": "2026-08-17",
