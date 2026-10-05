@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-04T06:12:31.480280+00:00",
+  "last_run": "2026-10-05T06:05:05.161836+00:00",
   "papers": {
     "2608.19526": {
       "abstract": "Stock market analysts and investors face a daily challenge: too much financial news, too little time. Manually reading and synthesizing hundreds of company-specific articles is impractical, yet missing key information can directly affect investment decisions. This project, conducted at George Washington University in Fall 2023, explores whether Large Language Models can automate this process reliably. We built a pipeline that pulls news articles from the News API, company background from Wikipedia, and stock price data from Yahoo Finance for ten major companies (AAPL, MSFT, GOOGL, AMZN, META, TSLA, JPM, NVDA, WMT, DIS). Because LLMs cannot directly process numerical tables, we developed a simple but effective template that converts stock data into natural language narratives. We then tested two summarization approaches (Summarize Chains and Retrieval-Augmented Generation with FAISS) across three open-source models (Falcon-7B-Instruct, DistilBART-CNN-12-6, BART-Large-XSum) for news, and GPT (text-davinci-003) for stock summaries. Falcon-7B with Summarize Chains gave the best results, covering all news events accurately and coherently. RAG, while promising in theory, caused severe repetition in Falcon and hallucinated facts in BART-Large when k was large. Both LLM-based approaches outperformed a simple Lead-3 baseline on ROUGE-1. We also built a Streamlit dashboard for interactive stock visualization. The work was done in Fall 2023, before RAG-based financial tools became widespread, and the failure modes we document, particularly hallucination under RAG in smaller models, remain relevant today.",
@@ -741,6 +741,122 @@
       "published": "2026-09-30",
       "title": "From Tweets to Trades: Analyzing the Influence of Public Mood over Stock Market Performance in Turkiye",
       "updated": "2026-09-30"
+    },
+    "2610.02255": {
+      "abstract": "Time series forecasting remains a critical challenge across numerous domains. Despite significant advancements, existing approaches struggle with complex phenomena such as regime shifts, cross-domain knowledge transfer, and multimodal data integration. This paper introduces Multi-Agent Collaborative Time Series Forecasting with Emergent Memory (MACTS-EM), a novel framework where specialised agents collaborate to achieve superior forecasting performance. The MACTS-EM architecture integrates: (1) domain-specialised forecasting agents for pattern recognition, anomaly detection, causal inference, and uncertainty quantification; (2) a meta-cognitive layer for dynamic agent allocation; (3) an emergent memory mechanism enabling cross-domain pattern transfer; (4) multimodal contextual integration; and (5) adversarial robustness components. Evaluation across financial markets, climate patterns, energy consumption, and pandemic propagation demonstrates that MACTS-EM outperforms existing approaches in most scenarios, with 8-12% improvement in forecasting accuracy, 22-27% better zero-shot transfer capability, 16-21% enhanced resilience during regime shifts, and 15-18% faster recovery after distribution shifts. Our findings suggest that collaborative, agentic approaches to time series forecasting represent a promising direction beyond traditional architectures, particularly for complex real-world scenarios requiring multi-resolution temporal understanding and contextual adaptation.",
+      "authors": [
+        "Ahmad Shahi",
+        "Mamehgol Yousefi"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-10-05",
+      "id": "2610.02255",
+      "paper_url": "https://arxiv.org/abs/2610.02255",
+      "pdf_url": "https://arxiv.org/pdf/2610.02255",
+      "published": "2026-09-30",
+      "title": "MACTS-EM: Multi-Agent Collaborative Time Series Forecasting with Emergent Memory",
+      "updated": "2026-09-30"
+    },
+    "2610.02863": {
+      "abstract": "In private wealth management, a manager delegating to artificial intelligence (AI) acts as the client's agent and the system's principal. We introduce a model-independent formulation that combines nested principal--agent delegation with constrained joint maximisation as the task assigned to the AI system. The objective represents client and manager outcomes separately over portfolio--workflow pairs. Legal duties, mandate requirements and evidence sufficiency determine admissibility, with Switzerland, Germany and Austria supplying the legal context. Weights and reference-service floors make the trade-off explicit; concession accounting separates their effects on the client. Analytical constructions and a simulation using public-market observations illustrate the approach. Across eight decision states from four constructed mandates, omitted client liabilities caused two liquidity violations, omitted manager terms caused two capacity violations, and mistranslated weights changed four otherwise admissible choices under faithful optimisation. At the declared weights, six states selected a higher service tier than the client-best alternative, with client concessions of EUR 1,178 to EUR 2,264 and manager gains of EUR 3,062 to EUR 10,381. Three instruction forms each reached all 32 specified decisions under shared numerical, evidence and simulated approval controls; professional instructions matched explicit nested delegation on accuracy and clarification count. Subsequent 2022 exchange-rate and yield paths, combined with constructed growth scenarios, produced lower client outcomes than the reference service although the selected services met the decision-time forecast benchmarks. These examples suggest that the approach could help make mandate choices and their consequences easier to examine. Professional and field studies could assess whether this improves oversight and client outcomes.",
+      "authors": [
+        "Walter Kurz",
+        "Reinhard Magg",
+        "Florian Kollberg",
+        "Wojtek Stricker",
+        "Stefan Marx",
+        "Frank Reinhardt",
+        "Velimir Dedić"
+      ],
+      "categories": [
+        "q-fin.GN",
+        "cs.MA"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-10-05",
+      "id": "2610.02863",
+      "paper_url": "https://arxiv.org/abs/2610.02863",
+      "pdf_url": "https://arxiv.org/pdf/2610.02863",
+      "published": "2026-10-02",
+      "title": "Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management: Mandate Representation and Evidence Control in Switzerland, Germany and Austria",
+      "updated": "2026-10-02"
+    },
+    "2610.02866": {
+      "abstract": "Financial time-series pretraining typically learns from masked observations, contrastive relations, or future outcomes---yet existing objectives struggle to simultaneously avoid future-supervision uncertainty and maintain return-prediction alignment. We propose DIVINE (DIVerse INdicator rEconstruction), a simple cross-market pretraining framework that reconstructs technical indicators from raw OHLCV history. Computed from observed price-volume history, technical indicators provide consistently defined supervision across markets while summarizing diverse market dynamics with established relevance to return prediction. Pretrained jointly on six-equity market datasets, DIVINE reconstructs 77 targets derived from 16 standard indicators and transfers only the learned encoder to downstream stock ranking. Across all six markets, DIVINE achieves the strongest average portfolio performance with a lightweight 0.05M-parameter encoder, outperforming pretraining baselines and matching or exceeding substantially larger financial foundation models, while remaining robust and data-efficient. Systematic analyses show that indicator diversity and market diversity provide complementary gains in transfer. Together, these results suggest that supervision design and cross-market diversity---rather than model scale---are the key drivers of strong, transferable financial representations.",
+      "authors": [
+        "Kuan-Yu Chen",
+        "Shu-Cheng Zheng",
+        "Yu-Chen Den",
+        "Wei-Cheng Liao",
+        "Tien-Hao Chang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-10-05",
+      "id": "2610.02866",
+      "paper_url": "https://arxiv.org/abs/2610.02866",
+      "pdf_url": "https://arxiv.org/pdf/2610.02866",
+      "published": "2026-10-02",
+      "title": "DIVINE: Simple Cross-Market Stock Pretraining via Diverse Indicator Reconstruction",
+      "updated": "2026-10-02"
+    },
+    "2610.03128": {
+      "abstract": "Quantitative trading strategy design aims to discover trading programs from historical data that remain effective in future markets, which can be viewed as a black-box program optimization problem. LLM-based textual gradients offer a promising approach by providing explicit optimization directions for iterative strategy refinement. However, directly applying textual gradients faces two challenges: (1) optimization is myopic, underutilizing experience from previous evaluations; and (2) aggregate backtest feedback overlooks temporal robustness, potentially favoring strategies that perform well only in specific market periods. To address these challenges, we propose TradeGrad, an experience-guided textual-gradient framework for robust trading strategy optimization. TradeGrad leverages accumulated optimization experience to estimate textual gradients and employs multi-scale revisions for both strategy exploration and refinement. It further introduces the Cross-Period Robust Objective (CPRO), which emphasizes performance in unfavorable historical periods to promote temporal robustness. Experiments on cross-sectional and time-series strategy design in Chinese A-share and U.S. equity markets show that TradeGrad achieves the best in-sample and out-of-sample performance across all four settings. Notably, its Chinese cross-sectional strategy achieves 27.99% annualized return, 12.19% maximum drawdown, and a Sharpe ratio of 1.63, approximately 68% higher than the CSI 300 benchmark. Further analyses validate the proposed components and show consistent improvements in both in-sample and out-of-sample performance throughout optimization. The code is available at https://github.com/transcend-0/TradeGrad.",
+      "authors": [
+        "Chaoqun Yang",
+        "Qian Wang",
+        "Fengbin Zhu",
+        "Xinyu Lin",
+        "Bingsheng He",
+        "Roger Zimmermann",
+        "Tat-Seng Chua"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "code_match": "paper-link",
+      "code_url": "https://github.com/transcend-0/TradeGrad",
+      "comment": "",
+      "first_seen": "2026-10-05",
+      "id": "2610.03128",
+      "paper_url": "https://arxiv.org/abs/2610.03128",
+      "pdf_url": "https://arxiv.org/pdf/2610.03128",
+      "published": "2026-10-02",
+      "title": "Trading Strategy Optimization via Textual Gradient",
+      "updated": "2026-10-02"
+    },
+    "2610.03406": {
+      "abstract": "We propose an interactive robo-advising framework that learns personalized risk preferences from scores provided by clients. The resulting preference-learning problem is closely related to inverse reinforcement learning (IRL), as the robo-advisor infers the client's latent reward specification from feedback. The robo-advisor interacts with clients iteratively as follows. At each interaction time, the advisor generates investment advice based on the optimal policy distribution derived from an inferred personalized risk preference. The client scores the advice. The advisor updates its assessment of the client's risk preference based on the feedback. This learning procedure motivates us to investigate discrete-time Predictable Forward Exploratory Reward (PreFER) processes and derive an exploratory investment strategy. By interpreting the score as the acceptance probability of a piece of advice, our inverse learning procedure learns the client's exploratory investment distribution using the acceptance-rejection method pioneered by von Neumann. Under CARA preferences, we show that, even though the scores contain noise, the robo-advisor can identify the client's current risk aversion after a sufficiently large number of interactions. The PreFER process then carries the learned preference forward and generates future recommendations under updated market conditions.",
+      "authors": [
+        "Yuwei Wang",
+        "Hoi Ying Wong"
+      ],
+      "categories": [
+        "q-fin.MF"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-10-05",
+      "id": "2610.03406",
+      "paper_url": "https://arxiv.org/abs/2610.03406",
+      "pdf_url": "https://arxiv.org/pdf/2610.03406",
+      "published": "2026-10-02",
+      "title": "PreFER: Interactive Robo-Advisor with Scoring Mechanism",
+      "updated": "2026-10-02"
     }
   },
   "repo_star_history": {
@@ -751,7 +867,8 @@
     "0xBakeer/TandemLLM": {
       "2026-10-02": 20,
       "2026-10-03": 21,
-      "2026-10-04": 24
+      "2026-10-04": 24,
+      "2026-10-05": 24
     },
     "0xBakeer/inference-atlas": {
       "2026-08-31": 5,
@@ -761,6 +878,9 @@
       "2026-09-04": 10,
       "2026-09-05": 10,
       "2026-09-06": 10
+    },
+    "0xSero/DeepSeek-V4.1-Flash-Two-Sparks": {
+      "2026-10-05": 65
     },
     "0xSero/Inkling-Small-2-Sparks": {
       "2026-08-31": 11,
@@ -808,7 +928,8 @@
     "1115714829/llama.cpp-v100": {
       "2026-10-02": 16,
       "2026-10-03": 18,
-      "2026-10-04": 19
+      "2026-10-04": 19,
+      "2026-10-05": 19
     },
     "555cute/r20-quantum-trader": {
       "2026-09-11": 169,
@@ -865,7 +986,6 @@
       "2026-09-30": 5
     },
     "AgamiAI/agami-core": {
-      "2026-09-19": 29,
       "2026-09-20": 29,
       "2026-09-21": 29,
       "2026-09-22": 28,
@@ -879,10 +999,10 @@
       "2026-09-30": 28,
       "2026-10-02": 28,
       "2026-10-03": 28,
-      "2026-10-04": 28
+      "2026-10-04": 28,
+      "2026-10-05": 28
     },
     "Agent-Field/SWE-AF": {
-      "2026-09-19": 1009,
       "2026-09-20": 1010,
       "2026-09-21": 1011,
       "2026-09-22": 1012,
@@ -896,13 +1016,15 @@
       "2026-09-30": 1020,
       "2026-10-02": 1022,
       "2026-10-03": 1026,
-      "2026-10-04": 1026
+      "2026-10-04": 1026,
+      "2026-10-05": 1028
     },
     "AgentSystemLabs/agent-office": {
       "2026-09-30": 403,
       "2026-10-02": 483,
       "2026-10-03": 538,
-      "2026-10-04": 579
+      "2026-10-04": 579,
+      "2026-10-05": 601
     },
     "Agenta-AI/awesome-ai-agent-platforms": {
       "2026-09-06": 207,
@@ -950,7 +1072,6 @@
       "2026-09-05": 2
     },
     "AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api": {
-      "2026-09-19": 616,
       "2026-09-20": 617,
       "2026-09-21": 617,
       "2026-09-22": 617,
@@ -964,14 +1085,16 @@
       "2026-09-30": 616,
       "2026-10-02": 617,
       "2026-10-03": 617,
-      "2026-10-04": 617
+      "2026-10-04": 617,
+      "2026-10-05": 618
     },
     "Alpha-Park/genpark-agent-codebase-ast-dependency-slicer-skill": {
       "2026-09-29": 7,
       "2026-09-30": 7,
       "2026-10-02": 7,
       "2026-10-03": 7,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 7
     },
     "Alpha-Park/genpark-agent-speculative-decoding-orchestrator-skill": {
       "2026-09-16": 7,
@@ -1031,7 +1154,8 @@
       "2026-09-30": 8,
       "2026-10-02": 8,
       "2026-10-03": 8,
-      "2026-10-04": 8
+      "2026-10-04": 8,
+      "2026-10-05": 8
     },
     "Alpha-Park/genpark-top-trading-cycles-ttc-skill": {
       "2026-09-11": 7,
@@ -1058,6 +1182,9 @@
       "2026-09-17": 8,
       "2026-09-18": 8
     },
+    "AndreasDietzel/moneymoney-mcp-server": {
+      "2026-10-05": 7
+    },
     "AngusKit/AngusKit": {
       "2026-09-26": 235,
       "2026-09-27": 235,
@@ -1066,7 +1193,8 @@
       "2026-09-30": 235,
       "2026-10-02": 234,
       "2026-10-03": 234,
-      "2026-10-04": 234
+      "2026-10-04": 234,
+      "2026-10-05": 234
     },
     "AnsonBQ/Anson-Nyrobrain-Skills": {
       "2026-09-25": 2,
@@ -1077,7 +1205,8 @@
       "2026-09-30": 3,
       "2026-10-02": 3,
       "2026-10-03": 3,
-      "2026-10-04": 4
+      "2026-10-04": 4,
+      "2026-10-05": 4
     },
     "ApocData/ApocData-skill": {
       "2026-09-16": 56,
@@ -1096,7 +1225,6 @@
       "2026-09-29": 102
     },
     "AstrBotDevs/AstrBot": {
-      "2026-09-19": 40679,
       "2026-09-20": 40719,
       "2026-09-21": 40754,
       "2026-09-22": 40802,
@@ -1110,7 +1238,8 @@
       "2026-09-30": 41230,
       "2026-10-02": 41292,
       "2026-10-03": 41322,
-      "2026-10-04": 41366
+      "2026-10-04": 41366,
+      "2026-10-05": 41408
     },
     "Atanasseri/agentic-engineering-assurance-system": {
       "2026-08-31": 5,
@@ -1124,11 +1253,13 @@
       "2026-09-30": 1646,
       "2026-10-02": 1658,
       "2026-10-03": 1662,
-      "2026-10-04": 1670
+      "2026-10-04": 1670,
+      "2026-10-05": 1677
     },
     "BYTEX-TRADE/bytex": {
       "2026-10-03": 20,
-      "2026-10-04": 36
+      "2026-10-04": 36,
+      "2026-10-05": 49
     },
     "Baran-Ozkann/hybrid-quantum-portfolio": {
       "2026-09-01": 2,
@@ -1144,7 +1275,6 @@
       "2026-09-12": 2
     },
     "Barca0412/Introduction-to-Quantitative-Finance": {
-      "2026-09-19": 1756,
       "2026-09-20": 1758,
       "2026-09-21": 1760,
       "2026-09-22": 1765,
@@ -1158,13 +1288,13 @@
       "2026-09-30": 1787,
       "2026-10-02": 1792,
       "2026-10-03": 1790,
-      "2026-10-04": 1792
+      "2026-10-04": 1792,
+      "2026-10-05": 1792
     },
     "BeforeWave/agent-helm-extensions": {
       "2026-09-04": 8
     },
     "BerriAI/litellm": {
-      "2026-09-19": 59119,
       "2026-09-20": 59184,
       "2026-09-21": 59272,
       "2026-09-22": 59364,
@@ -1178,7 +1308,8 @@
       "2026-09-30": 59897,
       "2026-10-02": 60028,
       "2026-10-03": 60069,
-      "2026-10-04": 60107
+      "2026-10-04": 60107,
+      "2026-10-05": 60140
     },
     "BinaryDeliverer/CodexDesk": {
       "2026-09-25": 223
@@ -1270,7 +1401,6 @@
       "2026-10-03": 20
     },
     "CodeGraphContext/CodeGraphContext": {
-      "2026-09-19": 4210,
       "2026-09-20": 4211,
       "2026-09-25": 4224,
       "2026-09-26": 4224,
@@ -1280,10 +1410,10 @@
       "2026-09-30": 4234,
       "2026-10-02": 4242,
       "2026-10-03": 4242,
-      "2026-10-04": 4242
+      "2026-10-04": 4242,
+      "2026-10-05": 4244
     },
     "Consensys-Incorporated/linea-attestation-registry": {
-      "2026-09-19": 176,
       "2026-09-20": 176,
       "2026-09-21": 176,
       "2026-09-26": 176,
@@ -1293,7 +1423,8 @@
       "2026-09-30": 176,
       "2026-10-02": 177,
       "2026-10-03": 177,
-      "2026-10-04": 177
+      "2026-10-04": 177,
+      "2026-10-05": 177
     },
     "Continuum-AI-Corp/OrcaReplay": {
       "2026-09-02": 21,
@@ -1353,7 +1484,8 @@
       "2026-09-30": 19,
       "2026-10-02": 19,
       "2026-10-03": 19,
-      "2026-10-04": 19
+      "2026-10-04": 19,
+      "2026-10-05": 19
     },
     "DarranLiu/Easy-Web-Vibecoding": {
       "2026-09-29": 12,
@@ -1383,7 +1515,8 @@
       "2026-09-27": 5,
       "2026-09-28": 6,
       "2026-10-03": 6,
-      "2026-10-04": 6
+      "2026-10-04": 6,
+      "2026-10-05": 6
     },
     "Davipar/djev-dev": {
       "2026-09-21": 44,
@@ -1401,11 +1534,13 @@
     },
     "Delugeamongestate/cryptohopper-trading-bot": {
       "2026-10-03": 2,
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 2
     },
     "DemonDamon/FinnewsHunter": {
       "2026-10-03": 1495,
-      "2026-10-04": 1495
+      "2026-10-04": 1495,
+      "2026-10-05": 1495
     },
     "DiegoSalazar/AiSyncing": {
       "2026-08-31": 6,
@@ -1417,7 +1552,6 @@
       "2026-09-07": 6
     },
     "DietrichGebert/ponytail": {
-      "2026-09-19": 142113,
       "2026-09-20": 142635,
       "2026-09-21": 143219,
       "2026-09-22": 143846,
@@ -1428,7 +1562,8 @@
       "2026-09-27": 146596,
       "2026-09-28": 147025,
       "2026-10-03": 152013,
-      "2026-10-04": 153737
+      "2026-10-04": 153737,
+      "2026-10-05": 155161
     },
     "DocPang/qwen38-k100ai-int8-optimization": {
       "2026-09-01": 11,
@@ -1458,7 +1593,6 @@
       "2026-09-12": 6
     },
     "Drakkar-Software/OctoBot": {
-      "2026-09-19": 6588,
       "2026-09-20": 6591,
       "2026-09-21": 6594,
       "2026-09-22": 6600,
@@ -1472,10 +1606,10 @@
       "2026-09-30": 6667,
       "2026-10-02": 6677,
       "2026-10-03": 6672,
-      "2026-10-04": 6676
+      "2026-10-04": 6676,
+      "2026-10-05": 6679
     },
     "DresdenGman/EPSILON-trading-simulator": {
-      "2026-09-19": 165,
       "2026-09-20": 168,
       "2026-09-21": 171,
       "2026-09-22": 171,
@@ -1487,7 +1621,8 @@
       "2026-09-30": 171,
       "2026-10-02": 171,
       "2026-10-03": 172,
-      "2026-10-04": 173
+      "2026-10-04": 173,
+      "2026-10-05": 173
     },
     "Drobiazkin/agent-gpu-calculator": {
       "2026-09-26": 7,
@@ -1497,7 +1632,8 @@
       "2026-09-30": 8,
       "2026-10-02": 8,
       "2026-10-03": 8,
-      "2026-10-04": 8
+      "2026-10-04": 8,
+      "2026-10-05": 8
     },
     "Dukkud/AI-QUANTUM-TRADE": {
       "2026-09-24": 2,
@@ -1533,7 +1669,6 @@
       "2026-09-19": 21
     },
     "Epistates/pmetal": {
-      "2026-09-19": 316,
       "2026-09-20": 317,
       "2026-09-21": 318,
       "2026-09-22": 319,
@@ -1547,13 +1682,15 @@
       "2026-09-30": 322,
       "2026-10-02": 323,
       "2026-10-03": 324,
-      "2026-10-04": 324
+      "2026-10-04": 324,
+      "2026-10-05": 324
     },
     "Erio-Harrison/rust-trade": {
       "2026-09-30": 487,
       "2026-10-02": 487,
       "2026-10-03": 486,
-      "2026-10-04": 487
+      "2026-10-04": 487,
+      "2026-10-05": 487
     },
     "Evangeline668/forex-market-balance-trading-system": {
       "2026-09-01": 75,
@@ -1574,7 +1711,6 @@
       "2026-09-07": 99
     },
     "FLOX-Foundation/flox": {
-      "2026-09-19": 225,
       "2026-09-20": 225,
       "2026-09-21": 225,
       "2026-09-22": 225,
@@ -1588,7 +1724,8 @@
       "2026-09-30": 226,
       "2026-10-02": 227,
       "2026-10-03": 227,
-      "2026-10-04": 227
+      "2026-10-04": 227,
+      "2026-10-05": 227
     },
     "FankChen/tracecrate": {
       "2026-09-18": 146,
@@ -1622,7 +1759,6 @@
       "2026-09-02": 1152
     },
     "FinMind/FinMind": {
-      "2026-09-19": 2794,
       "2026-09-20": 2795,
       "2026-09-21": 2794,
       "2026-09-22": 2794,
@@ -1636,10 +1772,10 @@
       "2026-09-30": 2822,
       "2026-10-02": 2827,
       "2026-10-03": 2825,
-      "2026-10-04": 2829
+      "2026-10-04": 2829,
+      "2026-10-05": 2829
     },
     "Fission-AI/OpenSpec": {
-      "2026-09-19": 69424,
       "2026-09-20": 69593,
       "2026-09-21": 69700,
       "2026-09-22": 69789,
@@ -1653,14 +1789,16 @@
       "2026-09-30": 70715,
       "2026-10-02": 70884,
       "2026-10-03": 70944,
-      "2026-10-04": 71000
+      "2026-10-04": 71000,
+      "2026-10-05": 71058
     },
     "Forgesaroj/nepal-reference-data": {
       "2026-09-29": 2,
       "2026-09-30": 3,
       "2026-10-02": 4,
       "2026-10-03": 4,
-      "2026-10-04": 4
+      "2026-10-04": 4,
+      "2026-10-05": 4
     },
     "GamePhanesStudio/GamePhanes": {
       "2026-08-31": 540,
@@ -1674,7 +1812,8 @@
       "2026-09-30": 18,
       "2026-10-02": 19,
       "2026-10-03": 19,
-      "2026-10-04": 19
+      "2026-10-04": 19,
+      "2026-10-05": 19
     },
     "GenericCoding/VibeContainers": {
       "2026-08-31": 25,
@@ -1710,6 +1849,12 @@
       "2026-09-10": 8,
       "2026-09-11": 8
     },
+    "Gloweuriddle/Cortex-AI-Crypto-Arbitrage-Bot": {
+      "2026-10-05": 14
+    },
+    "Gunthor-xie/A-Simple-Quantitative-Trading-Strategy-Analysis-Platform-Based-On-Freqtrade": {
+      "2026-10-05": 2
+    },
     "Gxj230958/TritonAscendBench": {
       "2026-09-22": 12,
       "2026-09-23": 18,
@@ -1738,7 +1883,6 @@
       "2026-09-29": 23448
     },
     "HKUDS/Vibe-Trading": {
-      "2026-09-19": 33665,
       "2026-09-20": 33701,
       "2026-09-21": 33746,
       "2026-09-22": 33801,
@@ -1752,10 +1896,10 @@
       "2026-09-30": 34341,
       "2026-10-02": 34439,
       "2026-10-03": 34453,
-      "2026-10-04": 34512
+      "2026-10-04": 34512,
+      "2026-10-05": 34732
     },
     "HKUDS/nanobot": {
-      "2026-09-19": 48339,
       "2026-09-20": 48372,
       "2026-09-21": 48433,
       "2026-09-22": 48471,
@@ -1769,7 +1913,8 @@
       "2026-09-30": 48691,
       "2026-10-02": 48740,
       "2026-10-03": 48749,
-      "2026-10-04": 48768
+      "2026-10-04": 48768,
+      "2026-10-05": 48790
     },
     "HaberstrohSystems/qwen3.8-flash-next-24gb-sglang": {
       "2026-09-12": 8,
@@ -1784,7 +1929,8 @@
     "Hangzhi/diffusion-jev-sglang": {
       "2026-10-02": 6,
       "2026-10-03": 6,
-      "2026-10-04": 6
+      "2026-10-04": 6,
+      "2026-10-05": 6
     },
     "Helicone/helicone": {
       "2026-09-12": 6149,
@@ -1812,7 +1958,6 @@
       "2026-09-05": 34
     },
     "HiThink-Tech/Financial-API": {
-      "2026-09-19": 3600,
       "2026-09-20": 3646,
       "2026-09-21": 3685,
       "2026-09-22": 3714,
@@ -1826,7 +1971,8 @@
       "2026-09-30": 3914,
       "2026-10-02": 3969,
       "2026-10-03": 3969,
-      "2026-10-04": 3989
+      "2026-10-04": 3989,
+      "2026-10-05": 4005
     },
     "High-Performance-AI-Lab/kvpack": {
       "2026-08-31": 5,
@@ -1847,13 +1993,13 @@
     "InesJemmali/local-financial-agent-rag": {
       "2026-10-02": 3,
       "2026-10-03": 3,
-      "2026-10-04": 3
+      "2026-10-04": 3,
+      "2026-10-05": 3
     },
     "Innei/lody-ios": {
       "2026-09-18": 140
     },
     "InternLM/lmdeploy": {
-      "2026-09-19": 8082,
       "2026-09-20": 8082,
       "2026-09-21": 8084,
       "2026-09-22": 8089,
@@ -1867,10 +2013,10 @@
       "2026-09-30": 8100,
       "2026-10-02": 8103,
       "2026-10-03": 8106,
-      "2026-10-04": 8106
+      "2026-10-04": 8106,
+      "2026-10-05": 8106
     },
     "JKorf/Binance.Net": {
-      "2026-09-19": 1173,
       "2026-09-20": 1173,
       "2026-09-21": 1173,
       "2026-09-22": 1173,
@@ -1884,7 +2030,8 @@
       "2026-09-30": 1173,
       "2026-10-02": 1173,
       "2026-10-03": 1172,
-      "2026-10-04": 1172
+      "2026-10-04": 1172,
+      "2026-10-05": 1172
     },
     "JKorf/Bybit.Net": {
       "2026-09-23": 129,
@@ -1934,7 +2081,6 @@
       "2026-08-31": 2
     },
     "JerBouma/FinanceToolkit": {
-      "2026-09-19": 5355,
       "2026-09-20": 5360,
       "2026-09-21": 5361,
       "2026-09-22": 5367,
@@ -1943,7 +2089,8 @@
       "2026-09-30": 5391,
       "2026-10-02": 5392,
       "2026-10-03": 5393,
-      "2026-10-04": 5396
+      "2026-10-04": 5396,
+      "2026-10-05": 5402
     },
     "JetBrains/benjamin-plus-skill": {
       "2026-08-31": 297
@@ -1973,7 +2120,6 @@
       "2026-09-12": 8
     },
     "JuliusBrussee/caveman": {
-      "2026-09-19": 106630,
       "2026-09-20": 106815,
       "2026-09-21": 107017,
       "2026-09-22": 107211,
@@ -1987,14 +2133,16 @@
       "2026-09-30": 108438,
       "2026-10-02": 108768,
       "2026-10-03": 109188,
-      "2026-10-04": 109613
+      "2026-10-04": 109613,
+      "2026-10-05": 109864
     },
     "Jwuthri/SelfJev": {
       "2026-09-29": 39,
       "2026-09-30": 54,
       "2026-10-02": 61,
       "2026-10-03": 61,
-      "2026-10-04": 65
+      "2026-10-04": 65,
+      "2026-10-05": 76
     },
     "Kerneta/daidocs": {
       "2026-09-16": 23,
@@ -2024,7 +2172,6 @@
       "2026-09-01": 6
     },
     "LMCache/LMCache": {
-      "2026-09-19": 11866,
       "2026-09-20": 11870,
       "2026-09-21": 11877,
       "2026-09-22": 11888,
@@ -2038,7 +2185,8 @@
       "2026-09-30": 11942,
       "2026-10-02": 11949,
       "2026-10-03": 11947,
-      "2026-10-04": 11952
+      "2026-10-04": 11952,
+      "2026-10-05": 11959
     },
     "LYiHub/pub-ai-inputs": {
       "2026-08-31": 16,
@@ -2060,7 +2208,8 @@
       "2026-09-30": 34,
       "2026-10-02": 36,
       "2026-10-03": 36,
-      "2026-10-04": 38
+      "2026-10-04": 38,
+      "2026-10-05": 38
     },
     "Laleeth/The-AI-Engineer-s-Playbook": {
       "2026-09-03": 10,
@@ -2088,7 +2237,8 @@
     },
     "Lesilva/qwen38-flashnext-nvfp4-kv": {
       "2026-10-03": 6,
-      "2026-10-04": 6
+      "2026-10-04": 6,
+      "2026-10-05": 6
     },
     "Liszt-glitch/screener-scraper-pro": {
       "2026-08-31": 6,
@@ -2105,10 +2255,10 @@
     "Louis-CFM/coucou": {
       "2026-10-02": 2564,
       "2026-10-03": 3031,
-      "2026-10-04": 3264
+      "2026-10-04": 3264,
+      "2026-10-05": 3511
     },
     "Lqz13Th/extrema_infra": {
-      "2026-09-19": 268,
       "2026-09-20": 268,
       "2026-09-21": 268,
       "2026-09-22": 268,
@@ -2122,10 +2272,10 @@
       "2026-09-30": 269,
       "2026-10-02": 269,
       "2026-10-03": 269,
-      "2026-10-04": 269
+      "2026-10-04": 269,
+      "2026-10-05": 269
     },
     "LukePrior/Australian-Open-Banking-Data-Database": {
-      "2026-09-19": 189,
       "2026-09-20": 189,
       "2026-09-21": 189,
       "2026-09-22": 190,
@@ -2139,10 +2289,10 @@
       "2026-09-30": 191,
       "2026-10-02": 191,
       "2026-10-03": 191,
-      "2026-10-04": 191
+      "2026-10-04": 191,
+      "2026-10-05": 191
     },
     "Lumiwealth/lumibot": {
-      "2026-09-19": 2074,
       "2026-09-20": 2076,
       "2026-09-21": 2077,
       "2026-09-22": 2079,
@@ -2156,7 +2306,8 @@
       "2026-09-30": 2100,
       "2026-10-02": 2103,
       "2026-10-03": 2098,
-      "2026-10-04": 2103
+      "2026-10-04": 2103,
+      "2026-10-05": 2104
     },
     "Lxxz666/lxz-25buy": {
       "2026-08-31": 2
@@ -2169,7 +2320,8 @@
       "2026-09-30": 5415,
       "2026-10-02": 5432,
       "2026-10-03": 5484,
-      "2026-10-04": 5512
+      "2026-10-04": 5512,
+      "2026-10-05": 5529
     },
     "MaxHaiCom/VibeGauge": {
       "2026-09-24": 16,
@@ -2218,7 +2370,8 @@
     },
     "MhDang/mosaic": {
       "2026-10-03": 6,
-      "2026-10-04": 12
+      "2026-10-04": 12,
+      "2026-10-05": 12
     },
     "MiaAI-Lab/Ornith-1.5-35B-A3B-DGX-Spark": {
       "2026-09-01": 25,
@@ -2275,7 +2428,8 @@
       "2026-09-10": 423
     },
     "Mo7ammedd/LLMProxy": {
-      "2026-10-04": 5
+      "2026-10-04": 5,
+      "2026-10-05": 5
     },
     "ModdySwag/ModFlow-OrderFlow-Analysis-Suite": {
       "2026-09-28": 2,
@@ -2292,7 +2446,6 @@
       "2026-09-11": 1253
     },
     "ModelTC/LightLLM": {
-      "2026-09-19": 4295,
       "2026-09-20": 4295,
       "2026-09-21": 4295,
       "2026-09-22": 4296,
@@ -2306,7 +2459,8 @@
       "2026-09-30": 4305,
       "2026-10-02": 4306,
       "2026-10-03": 4305,
-      "2026-10-04": 4305
+      "2026-10-04": 4305,
+      "2026-10-05": 4305
     },
     "Moeeryani/Vibe-Coding-Production-Kit": {
       "2026-09-25": 21,
@@ -2317,10 +2471,12 @@
       "2026-09-30": 32,
       "2026-10-02": 33,
       "2026-10-03": 33,
-      "2026-10-04": 33
+      "2026-10-04": 33,
+      "2026-10-05": 34
     },
     "Morrowmake/glm53-flash-cmp170hx-recipe": {
-      "2026-10-04": 47
+      "2026-10-04": 47,
+      "2026-10-05": 51
     },
     "NVIDIA/srt-slurm-recipes": {
       "2026-09-17": 8,
@@ -2389,7 +2545,6 @@
       "2026-09-25": 221
     },
     "NirDiamant/agents-towards-production": {
-      "2026-09-19": 21475,
       "2026-09-20": 21481,
       "2026-09-21": 21483,
       "2026-09-22": 21482,
@@ -2403,20 +2558,11 @@
       "2026-09-30": 21514,
       "2026-10-02": 21521,
       "2026-10-03": 21523,
-      "2026-10-04": 21526
+      "2026-10-04": 21526,
+      "2026-10-05": 21528
     },
     "NoFxAiOS/nofx": {
-      "2026-09-05": 12810,
-      "2026-09-06": 12817,
-      "2026-09-07": 12823,
-      "2026-09-09": 12844,
-      "2026-09-10": 12855,
-      "2026-09-11": 12873,
-      "2026-09-12": 12886,
-      "2026-09-16": 12912,
-      "2026-09-17": 12917,
-      "2026-09-18": 12922,
-      "2026-09-19": 12922
+      "2026-10-05": 12998
     },
     "NoizAI/YuE2-Turbo": {
       "2026-09-23": 56,
@@ -2429,11 +2575,13 @@
       "2026-09-30": 74,
       "2026-10-02": 76,
       "2026-10-03": 78,
-      "2026-10-04": 78
+      "2026-10-04": 78,
+      "2026-10-05": 78
     },
     "NovaeonStudio/novaeon-trading-ai": {
       "2026-10-03": 2,
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 2
     },
     "Oldcircle/geo-sleuth": {
       "2026-09-21": 210,
@@ -2449,7 +2597,6 @@
       "2026-10-02": 578
     },
     "OnePunchMonk/AgentQuant": {
-      "2026-09-19": 202,
       "2026-09-20": 204,
       "2026-09-21": 203,
       "2026-09-22": 203,
@@ -2463,13 +2610,13 @@
       "2026-09-30": 207,
       "2026-10-02": 207,
       "2026-10-03": 207,
-      "2026-10-04": 207
+      "2026-10-04": 207,
+      "2026-10-05": 208
     },
     "OpenBMB/UltraRAG": {
       "2026-08-31": 5676
     },
     "OpenByteInc/QuantDinger": {
-      "2026-09-19": 11720,
       "2026-09-20": 11758,
       "2026-09-21": 11858,
       "2026-09-22": 11963,
@@ -2483,7 +2630,8 @@
       "2026-09-30": 12330,
       "2026-10-02": 12366,
       "2026-10-03": 12389,
-      "2026-10-04": 12418
+      "2026-10-04": 12418,
+      "2026-10-05": 12451
     },
     "OpenByteInc/QuantDinger_Codex_Plugin": {
       "2026-09-12": 2,
@@ -2578,7 +2726,8 @@
       "2026-09-30": 196,
       "2026-10-02": 197,
       "2026-10-03": 197,
-      "2026-10-04": 197
+      "2026-10-04": 197,
+      "2026-10-05": 198
     },
     "Qiuner/QCode": {
       "2026-09-19": 197,
@@ -2637,7 +2786,8 @@
     },
     "ResearchForumOnline/TalkToAi-Code": {
       "2026-09-29": 5,
-      "2026-10-04": 5
+      "2026-10-04": 5,
+      "2026-10-05": 5
     },
     "RodriMora/dgx-spark-grafana-dashboard": {
       "2026-08-31": 38
@@ -2668,7 +2818,8 @@
       "2026-09-30": 2,
       "2026-10-02": 2,
       "2026-10-03": 2,
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 2
     },
     "Saadmaan77/Topological-Data-Analysis-TDA-for-Financial-Time-Series-Regime-Prediction": {
       "2026-08-31": 2,
@@ -2705,7 +2856,6 @@
       "2026-09-16": 2
     },
     "SemiAnalysisAI/InferenceX": {
-      "2026-09-19": 1731,
       "2026-09-20": 1736,
       "2026-09-21": 1742,
       "2026-09-22": 1745,
@@ -2719,7 +2869,8 @@
       "2026-09-30": 1788,
       "2026-10-02": 1798,
       "2026-10-03": 1799,
-      "2026-10-04": 1801
+      "2026-10-04": 1801,
+      "2026-10-05": 1803
     },
     "Senseishibewitch/Atas-Trading": {
       "2026-08-31": 100,
@@ -2739,11 +2890,13 @@
       "2026-09-30": 3,
       "2026-10-02": 3,
       "2026-10-03": 3,
-      "2026-10-04": 3
+      "2026-10-04": 3,
+      "2026-10-05": 3
     },
     "ShadowSafin/Synapass": {
       "2026-10-03": 10,
-      "2026-10-04": 12
+      "2026-10-04": 12,
+      "2026-10-05": 12
     },
     "ShanNing-YU/a-share-tdxdata": {
       "2026-09-22": 3,
@@ -2795,7 +2948,6 @@
       "2026-10-04": 164
     },
     "StockSharp/StockSharp": {
-      "2026-09-19": 10773,
       "2026-09-20": 10780,
       "2026-09-21": 10783,
       "2026-09-22": 10786,
@@ -2809,10 +2961,10 @@
       "2026-09-30": 10821,
       "2026-10-02": 10828,
       "2026-10-03": 10824,
-      "2026-10-04": 10827
+      "2026-10-04": 10827,
+      "2026-10-05": 10832
     },
     "Superalgos/Superalgos": {
-      "2026-09-19": 5657,
       "2026-09-20": 5658,
       "2026-09-21": 5660,
       "2026-09-22": 5659,
@@ -2826,16 +2978,21 @@
       "2026-09-30": 5669,
       "2026-10-02": 5675,
       "2026-10-03": 5670,
-      "2026-10-04": 5673
+      "2026-10-04": 5673,
+      "2026-10-05": 5677
     },
     "Synpath-ai/prediction-market-arbitrage-trading-bot": {
       "2026-09-30": 19,
       "2026-10-02": 28,
       "2026-10-03": 31,
-      "2026-10-04": 32
+      "2026-10-04": 32,
+      "2026-10-05": 36
     },
     "System64fumo/kappai": {
       "2026-08-31": 5
+    },
+    "TA-Lib/ta-lib": {
+      "2026-10-05": 1691
     },
     "TarikurRahman/Shopify-Portfolio": {
       "2026-08-31": 8,
@@ -2843,7 +3000,6 @@
       "2026-09-02": 8
     },
     "TencentCloud/TencentDB-Agent-Memory": {
-      "2026-09-19": 26954,
       "2026-09-20": 27009,
       "2026-09-21": 27070,
       "2026-09-22": 27119,
@@ -2857,7 +3013,8 @@
       "2026-09-30": 27560,
       "2026-10-02": 27632,
       "2026-10-03": 27650,
-      "2026-10-04": 27681
+      "2026-10-04": 27681,
+      "2026-10-05": 27694
     },
     "TencentCloud/tencentcloud-agentobs-sdk-dsh": {
       "2026-08-31": 12,
@@ -2867,16 +3024,7 @@
       "2026-09-01": 39437
     },
     "The-Vibe-Company/quivr": {
-      "2026-09-02": 39452,
-      "2026-09-03": 39477,
-      "2026-09-04": 39491,
-      "2026-09-05": 39495,
-      "2026-09-06": 39496,
-      "2026-09-07": 39500,
-      "2026-09-09": 39498,
-      "2026-09-10": 39501,
-      "2026-09-11": 39506,
-      "2026-09-12": 39509
+      "2026-10-05": 39579
     },
     "TheBlitzschnell/cargo-atlas": {
       "2026-09-27": 6,
@@ -2885,7 +3033,8 @@
       "2026-09-30": 7,
       "2026-10-02": 7,
       "2026-10-03": 7,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 8
     },
     "ThinkFlowLab/vllm-rlt": {
       "2026-09-23": 35,
@@ -2901,8 +3050,10 @@
     "TommyLemon/APIAuto": {
       "2026-09-06": 2218
     },
+    "TraceLite-AI/Awesome-Agentic-Environments": {
+      "2026-10-05": 5
+    },
     "TraderAlice/OpenAlice": {
-      "2026-09-19": 7109,
       "2026-09-20": 7113,
       "2026-09-21": 7125,
       "2026-09-22": 7130,
@@ -2916,7 +3067,8 @@
       "2026-09-30": 7198,
       "2026-10-02": 7211,
       "2026-10-03": 7197,
-      "2026-10-04": 7204
+      "2026-10-04": 7204,
+      "2026-10-05": 7208
     },
     "TrustifAI/typed_evals": {
       "2026-09-22": 6,
@@ -2939,10 +3091,10 @@
       "2026-09-30": 17,
       "2026-10-02": 36,
       "2026-10-03": 92,
-      "2026-10-04": 131
+      "2026-10-04": 131,
+      "2026-10-05": 136
     },
     "Verdenroz/finance-query": {
-      "2026-09-19": 45,
       "2026-09-20": 45,
       "2026-09-21": 46,
       "2026-09-22": 46,
@@ -2956,7 +3108,8 @@
       "2026-09-30": 46,
       "2026-10-02": 47,
       "2026-10-03": 47,
-      "2026-10-04": 47
+      "2026-10-04": 47,
+      "2026-10-05": 47
     },
     "VictorAgahi/causalmesh": {
       "2026-09-24": 10,
@@ -2992,6 +3145,9 @@
       "2026-09-04": 647,
       "2026-09-05": 731
     },
+    "VinkyDev/vibestart": {
+      "2026-10-05": 14
+    },
     "VoltAgent/awesome-design-md": {
       "2026-09-22": 117135,
       "2026-09-23": 117369,
@@ -3004,7 +3160,8 @@
       "2026-09-30": 118849,
       "2026-10-02": 119198,
       "2026-10-03": 119294,
-      "2026-10-04": 119447
+      "2026-10-04": 119447,
+      "2026-10-05": 119579
     },
     "VoltAgent/voltagent": {
       "2026-09-28": 10682,
@@ -3012,7 +3169,8 @@
       "2026-09-30": 10706,
       "2026-10-02": 10711,
       "2026-10-03": 10715,
-      "2026-10-04": 10724
+      "2026-10-04": 10724,
+      "2026-10-05": 10726
     },
     "Vuk97/forward-implementation-first": {
       "2026-09-11": 166,
@@ -3020,7 +3178,8 @@
     },
     "WallStreetPete/awesome-open-source-trading": {
       "2026-10-03": 2,
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 2
     },
     "Wcrane-hhy/FinResearch-Agent": {
       "2026-09-09": 2,
@@ -3035,7 +3194,6 @@
       "2026-09-21": 2
     },
     "WellApp-ai/Well": {
-      "2026-09-19": 342,
       "2026-09-20": 343,
       "2026-09-21": 343,
       "2026-09-22": 343,
@@ -3049,7 +3207,8 @@
       "2026-09-30": 345,
       "2026-10-02": 345,
       "2026-10-03": 345,
-      "2026-10-04": 345
+      "2026-10-04": 345,
+      "2026-10-05": 345
     },
     "WilsonZheng0327/learning-sglang": {
       "2026-09-17": 6,
@@ -3099,7 +3258,8 @@
       "2026-09-26": 72
     },
     "Yamz-Labs/kyojin": {
-      "2026-10-04": 14
+      "2026-10-04": 14,
+      "2026-10-05": 24
     },
     "YellowPancake/quant-autoresearch": {
       "2026-09-18": 5,
@@ -3149,7 +3309,8 @@
     "aabrole/claude-trading-desk": {
       "2026-10-02": 11,
       "2026-10-03": 13,
-      "2026-10-04": 14
+      "2026-10-04": 14,
+      "2026-10-05": 18
     },
     "acryldev/acryl": {
       "2026-09-04": 237,
@@ -3172,7 +3333,6 @@
       "2026-09-30": 5
     },
     "affaan-m/ECC": {
-      "2026-09-19": 262185,
       "2026-09-20": 263058,
       "2026-09-21": 263950,
       "2026-09-22": 264846,
@@ -3186,7 +3346,8 @@
       "2026-09-30": 269749,
       "2026-10-02": 270806,
       "2026-10-03": 271486,
-      "2026-10-04": 272399
+      "2026-10-04": 272399,
+      "2026-10-05": 273100
     },
     "agent-launch/agent-launcher": {
       "2026-09-16": 186,
@@ -3200,7 +3361,6 @@
       "2026-09-24": 326
     },
     "agent-of-empires/agent-of-empires": {
-      "2026-09-19": 3270,
       "2026-09-20": 3272,
       "2026-09-21": 3275,
       "2026-09-22": 3283,
@@ -3208,12 +3368,14 @@
       "2026-09-24": 3285,
       "2026-09-26": 3288,
       "2026-09-27": 3291,
-      "2026-10-04": 3316
+      "2026-10-04": 3316,
+      "2026-10-05": 3317
     },
     "agentblazo/blazo": {
       "2026-10-02": 22,
       "2026-10-03": 41,
-      "2026-10-04": 45
+      "2026-10-04": 45,
+      "2026-10-05": 46
     },
     "agentdock-ai/agentdock": {
       "2026-08-31": 6,
@@ -3256,7 +3418,6 @@
       "2026-09-03": 8
     },
     "ai-dynamo/dynamo": {
-      "2026-09-19": 8117,
       "2026-09-20": 8127,
       "2026-09-21": 8135,
       "2026-09-22": 8144,
@@ -3270,7 +3431,11 @@
       "2026-09-30": 8184,
       "2026-10-02": 8205,
       "2026-10-03": 8209,
-      "2026-10-04": 8215
+      "2026-10-04": 8215,
+      "2026-10-05": 8221
+    },
+    "aidaman01/ma-crossover-trading-bot": {
+      "2026-10-05": 4
     },
     "ailenwu2000/ricow": {
       "2026-09-21": 2,
@@ -3318,7 +3483,6 @@
       "2026-09-06": 20
     },
     "akfamily/akquant": {
-      "2026-09-19": 2334,
       "2026-09-20": 2337,
       "2026-09-21": 2342,
       "2026-09-22": 2346,
@@ -3332,7 +3496,8 @@
       "2026-09-30": 2381,
       "2026-10-02": 2385,
       "2026-10-03": 2384,
-      "2026-10-04": 2391
+      "2026-10-04": 2391,
+      "2026-10-05": 2393
     },
     "alberto4442/TensorBond": {
       "2026-08-31": 2,
@@ -3365,10 +3530,10 @@
       "2026-09-30": 101,
       "2026-10-02": 101,
       "2026-10-03": 101,
-      "2026-10-04": 101
+      "2026-10-04": 101,
+      "2026-10-05": 101
     },
     "alibaba/MNN": {
-      "2026-09-19": 16113,
       "2026-09-20": 16117,
       "2026-09-21": 16120,
       "2026-09-22": 16127,
@@ -3382,7 +3547,8 @@
       "2026-09-30": 16158,
       "2026-10-02": 16166,
       "2026-10-03": 16166,
-      "2026-10-04": 16171
+      "2026-10-04": 16171,
+      "2026-10-05": 16174
     },
     "alibaba/ServeGen": {
       "2026-08-31": 170,
@@ -3406,20 +3572,21 @@
       "2026-09-30": 19,
       "2026-10-02": 23,
       "2026-10-03": 23,
-      "2026-10-04": 23
+      "2026-10-04": 23,
+      "2026-10-05": 24
     },
     "alihaskar/pycharting": {
       "2026-09-29": 119,
       "2026-09-30": 119,
       "2026-10-02": 119,
       "2026-10-03": 119,
-      "2026-10-04": 119
+      "2026-10-04": 119,
+      "2026-10-05": 119
     },
     "alltick/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api": {
       "2026-09-03": 604
     },
     "almanak-co/sdk": {
-      "2026-09-19": 61,
       "2026-09-20": 61,
       "2026-09-21": 61,
       "2026-09-22": 61,
@@ -3433,14 +3600,16 @@
       "2026-09-30": 61,
       "2026-10-02": 61,
       "2026-10-03": 61,
-      "2026-10-04": 61
+      "2026-10-04": 61,
+      "2026-10-05": 61
     },
     "alphaparkinc/genpark-agent-codebase-ast-dependency-slicer-skill": {
       "2026-09-29": 7,
       "2026-09-30": 7,
       "2026-10-02": 7,
       "2026-10-03": 7,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 7
     },
     "alphaparkinc/genpark-agent-speculative-decoding-orchestrator-skill": {
       "2026-09-16": 7,
@@ -3585,7 +3754,8 @@
       "2026-09-30": 8,
       "2026-10-02": 8,
       "2026-10-03": 8,
-      "2026-10-04": 8
+      "2026-10-04": 8,
+      "2026-10-05": 8
     },
     "alphaparkinc/genpark-top-trading-cycles-ttc-skill": {
       "2026-09-11": 7,
@@ -3613,7 +3783,6 @@
       "2026-09-18": 8
     },
     "alsk1992/CloddsBot": {
-      "2026-09-19": 2774,
       "2026-09-20": 2799,
       "2026-09-21": 2812,
       "2026-09-22": 2822,
@@ -3627,7 +3796,8 @@
       "2026-09-30": 2906,
       "2026-10-02": 2914,
       "2026-10-03": 2890,
-      "2026-10-04": 2894
+      "2026-10-04": 2894,
+      "2026-10-05": 2897
     },
     "amirhosssein0/ai-platform-lab": {
       "2026-09-02": 5
@@ -3646,7 +3816,8 @@
       "2026-09-30": 450,
       "2026-10-02": 480,
       "2026-10-03": 486,
-      "2026-10-04": 493
+      "2026-10-04": 493,
+      "2026-10-05": 500
     },
     "amitshekhariitbhu/llm-inference-engineering": {
       "2026-08-31": 236,
@@ -3664,7 +3835,8 @@
       "2026-09-30": 62,
       "2026-10-02": 61,
       "2026-10-03": 61,
-      "2026-10-04": 61
+      "2026-10-04": 61,
+      "2026-10-05": 61
     },
     "anna-rud99/energy-portfolio-prediction": {
       "2026-09-05": 2,
@@ -3672,7 +3844,6 @@
       "2026-09-07": 2
     },
     "anomalyco/opencode": {
-      "2026-09-19": 208482,
       "2026-09-20": 208707,
       "2026-09-21": 208942,
       "2026-09-22": 209206,
@@ -3686,10 +3857,10 @@
       "2026-09-30": 210984,
       "2026-10-02": 211373,
       "2026-10-03": 211531,
-      "2026-10-04": 211656
+      "2026-10-04": 211656,
+      "2026-10-05": 211781
     },
     "anthropics/claude-code": {
-      "2026-09-19": 146378,
       "2026-09-20": 146788,
       "2026-09-21": 147240,
       "2026-09-22": 147502,
@@ -3703,17 +3874,18 @@
       "2026-09-30": 148619,
       "2026-10-02": 148896,
       "2026-10-03": 149000,
-      "2026-10-04": 149282
+      "2026-10-04": 149282,
+      "2026-10-05": 149443
     },
     "anzal1/faultline": {
       "2026-09-29": 5,
       "2026-09-30": 5,
       "2026-10-02": 5,
       "2026-10-03": 5,
-      "2026-10-04": 11
+      "2026-10-04": 11,
+      "2026-10-05": 12
     },
     "apache/hertzbeat": {
-      "2026-09-19": 7398,
       "2026-09-20": 7398,
       "2026-09-21": 7399,
       "2026-09-22": 7401,
@@ -3727,7 +3899,8 @@
       "2026-09-30": 7412,
       "2026-10-02": 7414,
       "2026-10-03": 7413,
-      "2026-10-04": 7412
+      "2026-10-04": 7412,
+      "2026-10-05": 7415
     },
     "apimart001a/llm-gateway-comparison": {
       "2026-09-21": 49,
@@ -3767,24 +3940,13 @@
       "2026-10-03": 1388
     },
     "ashafizullah/rpt-mcp": {
-      "2026-10-04": 5
+      "2026-10-04": 5,
+      "2026-10-05": 5
     },
     "atilaahmettaner/tradingview-mcp": {
-      "2026-08-31": 4308,
-      "2026-09-01": 4313,
-      "2026-09-02": 4324,
-      "2026-09-03": 4335,
-      "2026-09-04": 4349,
-      "2026-09-05": 4355,
-      "2026-09-06": 4360,
-      "2026-09-07": 4373,
-      "2026-09-09": 4395,
-      "2026-09-10": 4408,
-      "2026-09-11": 4414,
-      "2026-09-12": 4448
+      "2026-10-05": 4915
     },
     "automazeio/vibeproxy": {
-      "2026-09-19": 3357,
       "2026-09-20": 3359,
       "2026-09-21": 3358,
       "2026-09-22": 3357,
@@ -3798,10 +3960,10 @@
       "2026-09-30": 3361,
       "2026-10-02": 3363,
       "2026-10-03": 3368,
-      "2026-10-04": 3373
+      "2026-10-04": 3373,
+      "2026-10-05": 3376
     },
     "avhz/RustQuant": {
-      "2026-09-19": 1819,
       "2026-09-20": 1819,
       "2026-09-21": 1819,
       "2026-09-22": 1819,
@@ -3809,7 +3971,8 @@
       "2026-09-24": 1820,
       "2026-09-25": 1821,
       "2026-09-26": 1821,
-      "2026-10-04": 1822
+      "2026-10-04": 1822,
+      "2026-10-05": 1821
     },
     "avifenesh/memra": {
       "2026-09-05": 7,
@@ -3837,13 +4000,15 @@
     "awesome-pro/hiqcache": {
       "2026-10-02": 9,
       "2026-10-03": 9,
-      "2026-10-04": 9
+      "2026-10-04": 9,
+      "2026-10-05": 9
     },
     "awesome-pro/miniserve": {
       "2026-09-30": 6,
       "2026-10-02": 10,
       "2026-10-03": 10,
-      "2026-10-04": 10
+      "2026-10-04": 10,
+      "2026-10-05": 10
     },
     "aws/amazon-q-developer-cli": {
       "2026-08-31": 1985,
@@ -3886,7 +4051,8 @@
     "baobach/hft_papers": {
       "2026-10-02": 109,
       "2026-10-03": 109,
-      "2026-10-04": 109
+      "2026-10-04": 109,
+      "2026-10-05": 109
     },
     "barter-rs/barter-rs": {
       "2026-08-31": 2247,
@@ -3922,7 +4088,6 @@
       "2026-09-12": 8
     },
     "bennycode/trading-signals": {
-      "2026-09-19": 992,
       "2026-09-20": 992,
       "2026-09-21": 992,
       "2026-09-22": 992,
@@ -3936,7 +4101,8 @@
       "2026-09-30": 993,
       "2026-10-02": 993,
       "2026-10-03": 993,
-      "2026-10-04": 992
+      "2026-10-04": 992,
+      "2026-10-05": 994
     },
     "benudhar03/agentic-finance-ai": {
       "2026-09-16": 2,
@@ -3994,10 +4160,12 @@
       "2026-09-30": 7,
       "2026-10-02": 11,
       "2026-10-03": 11,
-      "2026-10-04": 11
+      "2026-10-04": 11,
+      "2026-10-05": 12
     },
     "blacksmith-capital/oliya": {
-      "2026-10-04": 6
+      "2026-10-04": 6,
+      "2026-10-05": 6
     },
     "bloomberg-terminal-app/bloomberg-terminal-free": {
       "2026-09-01": 2,
@@ -4039,7 +4207,8 @@
     "budtmo/docker-android": {
       "2026-10-02": 15928,
       "2026-10-03": 15933,
-      "2026-10-04": 15937
+      "2026-10-04": 15937,
+      "2026-10-05": 15938
     },
     "buffer121328/vibe-coding-and-agents": {
       "2026-09-01": 6,
@@ -4048,10 +4217,10 @@
     "business-science/tidyquant": {
       "2026-10-02": 917,
       "2026-10-03": 917,
-      "2026-10-04": 917
+      "2026-10-04": 917,
+      "2026-10-05": 917
     },
     "cactus-compute/cactus": {
-      "2026-09-19": 6027,
       "2026-09-20": 6032,
       "2026-09-21": 6042,
       "2026-09-22": 6041,
@@ -4063,15 +4232,16 @@
       "2026-09-30": 6080,
       "2026-10-02": 6083,
       "2026-10-03": 6085,
-      "2026-10-04": 6092
+      "2026-10-04": 6092,
+      "2026-10-05": 6096
     },
     "caiovicentino/eikos": {
       "2026-09-25": 17
     },
     "calesthio/OpenMontage": {
-      "2026-09-19": 59966,
       "2026-09-20": 60219,
-      "2026-10-04": 62748
+      "2026-10-04": 62748,
+      "2026-10-05": 63367
     },
     "calmwater998/forex-4d-trader-strategy-guide": {
       "2026-09-16": 9,
@@ -4102,7 +4272,8 @@
     "cbecks1212/flexreport-python-client": {
       "2026-10-02": 2,
       "2026-10-03": 2,
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 3
     },
     "cbrock84/headcount": {
       "2026-08-31": 774,
@@ -4118,7 +4289,6 @@
       "2026-09-11": 1355
     },
     "ccxt/ccxt": {
-      "2026-09-19": 44030,
       "2026-09-20": 44051,
       "2026-09-21": 44078,
       "2026-09-22": 44100,
@@ -4132,7 +4302,8 @@
       "2026-09-30": 44217,
       "2026-10-02": 44229,
       "2026-10-03": 44226,
-      "2026-10-04": 44243
+      "2026-10-04": 44243,
+      "2026-10-05": 44257
     },
     "ceyyy427/financial-research-optimizer": {
       "2026-09-29": 23,
@@ -4140,6 +4311,9 @@
       "2026-10-02": 71,
       "2026-10-03": 75,
       "2026-10-04": 80
+    },
+    "ceyyy427/finathink": {
+      "2026-10-05": 93
     },
     "chadhurley25075-png/pd-bridge": {
       "2026-09-07": 38,
@@ -4155,10 +4329,10 @@
     },
     "changdaeoh/sharpening-tax": {
       "2026-10-03": 21,
-      "2026-10-04": 22
+      "2026-10-04": 22,
+      "2026-10-05": 24
     },
     "chenhg5/cc-connect": {
-      "2026-09-19": 15559,
       "2026-09-20": 15572,
       "2026-09-21": 15590,
       "2026-09-22": 15612,
@@ -4172,7 +4346,8 @@
       "2026-09-30": 15706,
       "2026-10-02": 15733,
       "2026-10-03": 15736,
-      "2026-10-04": 15749
+      "2026-10-04": 15749,
+      "2026-10-05": 15759
     },
     "chennurivarun/asdlc": {
       "2026-08-31": 5,
@@ -4203,7 +4378,6 @@
       "2026-09-17": 140
     },
     "chrisleekr/binance-trading-bot": {
-      "2026-09-19": 5558,
       "2026-09-20": 5558,
       "2026-09-21": 5559,
       "2026-09-22": 5562,
@@ -4217,7 +4391,8 @@
       "2026-09-30": 5566,
       "2026-10-02": 5569,
       "2026-10-03": 5571,
-      "2026-10-04": 5572
+      "2026-10-04": 5572,
+      "2026-10-05": 5573
     },
     "cinar/indicator": {
       "2026-09-16": 1768,
@@ -4235,7 +4410,6 @@
       "2026-09-28": 1829
     },
     "cinar/indicatorts": {
-      "2026-09-19": 474,
       "2026-09-20": 474,
       "2026-09-21": 475,
       "2026-09-22": 475,
@@ -4249,17 +4423,18 @@
       "2026-09-30": 477,
       "2026-10-02": 478,
       "2026-10-03": 478,
-      "2026-10-04": 479
+      "2026-10-04": 479,
+      "2026-10-05": 479
     },
     "clawyi-com/china-market-data": {
       "2026-09-29": 7,
       "2026-09-30": 17,
       "2026-10-02": 28,
       "2026-10-03": 35,
-      "2026-10-04": 49
+      "2026-10-04": 49,
+      "2026-10-05": 60
     },
     "cloudQuant/backtrader": {
-      "2026-09-19": 182,
       "2026-09-20": 183,
       "2026-09-21": 184,
       "2026-09-22": 185,
@@ -4273,10 +4448,10 @@
       "2026-09-30": 191,
       "2026-10-02": 191,
       "2026-10-03": 191,
-      "2026-10-04": 191
+      "2026-10-04": 191,
+      "2026-10-05": 192
     },
     "cloudflare/vibesdk": {
-      "2026-09-19": 5371,
       "2026-09-20": 5371,
       "2026-09-21": 5372,
       "2026-09-22": 5377,
@@ -4290,7 +4465,8 @@
       "2026-09-30": 5391,
       "2026-10-02": 5395,
       "2026-10-03": 5396,
-      "2026-10-04": 5397
+      "2026-10-04": 5397,
+      "2026-10-05": 5397
     },
     "coconinja2/layerlens": {
       "2026-09-16": 5,
@@ -4321,7 +4497,6 @@
       "2026-09-10": 5
     },
     "coding-kitties/investing-algorithm-framework": {
-      "2026-09-19": 2077,
       "2026-09-20": 2078,
       "2026-09-21": 2079,
       "2026-09-22": 2080,
@@ -4335,7 +4510,8 @@
       "2026-09-30": 2136,
       "2026-10-02": 2142,
       "2026-10-03": 2157,
-      "2026-10-04": 2157
+      "2026-10-04": 2157,
+      "2026-10-05": 2158
     },
     "coldteadotai/abide": {
       "2026-09-20": 169,
@@ -4353,7 +4529,6 @@
       "2026-09-02": 10
     },
     "crewAIInc/crewAI": {
-      "2026-09-19": 58749,
       "2026-09-20": 58791,
       "2026-09-21": 58837,
       "2026-09-22": 58884,
@@ -4367,7 +4542,8 @@
       "2026-09-30": 59201,
       "2026-10-02": 59277,
       "2026-10-03": 59296,
-      "2026-10-04": 59329
+      "2026-10-04": 59329,
+      "2026-10-05": 59355
     },
     "cristea-iulian/laravel-ai-otel": {
       "2026-09-17": 5,
@@ -4382,7 +4558,6 @@
       "2026-09-27": 6
     },
     "csmar432/finai-research": {
-      "2026-09-19": 102,
       "2026-09-20": 104,
       "2026-09-21": 105,
       "2026-09-22": 106,
@@ -4396,7 +4571,8 @@
       "2026-09-30": 109,
       "2026-10-02": 109,
       "2026-10-03": 109,
-      "2026-10-04": 109
+      "2026-10-04": 109,
+      "2026-10-05": 109
     },
     "cybergeekgyan/Quant-Developers-Resources": {
       "2026-09-19": 3942,
@@ -4425,10 +4601,10 @@
       "2026-09-30": 18,
       "2026-10-02": 19,
       "2026-10-03": 19,
-      "2026-10-04": 19
+      "2026-10-04": 19,
+      "2026-10-05": 19
     },
     "daniel3303/Equibles": {
-      "2026-09-19": 230,
       "2026-09-20": 230,
       "2026-09-21": 230,
       "2026-09-22": 230,
@@ -4442,10 +4618,10 @@
       "2026-09-30": 231,
       "2026-10-02": 231,
       "2026-10-03": 230,
-      "2026-10-04": 230
+      "2026-10-04": 230,
+      "2026-10-05": 230
     },
     "danielvm-git/bigpowers": {
-      "2026-09-19": 206,
       "2026-09-20": 209,
       "2026-09-21": 213,
       "2026-09-22": 217,
@@ -4459,7 +4635,8 @@
       "2026-09-30": 243,
       "2026-10-02": 248,
       "2026-10-03": 249,
-      "2026-10-04": 252
+      "2026-10-04": 252,
+      "2026-10-05": 252
     },
     "darkdatter/gb10-repo": {
       "2026-08-31": 16,
@@ -4471,7 +4648,6 @@
       "2026-09-06": 18
     },
     "dataelement/bisheng": {
-      "2026-09-19": 11979,
       "2026-09-20": 11983,
       "2026-09-21": 11989,
       "2026-09-22": 11993,
@@ -4485,7 +4661,8 @@
       "2026-09-30": 12018,
       "2026-10-02": 12019,
       "2026-10-03": 12020,
-      "2026-10-04": 12023
+      "2026-10-04": 12023,
+      "2026-10-05": 12024
     },
     "datawhalechina/easy-vibe": {
       "2026-08-31": 19195,
@@ -4498,11 +4675,7 @@
       "2026-09-07": 19293
     },
     "datawhalechina/zero-to-sglang": {
-      "2026-09-05": 13,
-      "2026-09-06": 15,
-      "2026-09-07": 29,
-      "2026-09-09": 578,
-      "2026-09-10": 640
+      "2026-10-05": 1375
     },
     "davidalmeida90/ML-for-beginners": {
       "2026-09-12": 2,
@@ -4530,7 +4703,8 @@
       "2026-09-30": 6,
       "2026-10-02": 8,
       "2026-10-03": 8,
-      "2026-10-04": 8
+      "2026-10-04": 8,
+      "2026-10-05": 8
     },
     "dearvn/trading-futures-tradingview-script": {
       "2026-09-16": 256,
@@ -4546,7 +4720,6 @@
       "2026-09-26": 255
     },
     "deepset-ai/haystack": {
-      "2026-09-19": 26545,
       "2026-09-20": 26559,
       "2026-09-21": 26564,
       "2026-09-22": 26576,
@@ -4560,7 +4733,8 @@
       "2026-09-30": 26632,
       "2026-10-02": 26638,
       "2026-10-03": 26645,
-      "2026-10-04": 26648
+      "2026-10-04": 26648,
+      "2026-10-05": 26651
     },
     "dewydev10/digital-showcase": {
       "2026-08-31": 55,
@@ -4580,6 +4754,9 @@
       "2026-09-04": 33,
       "2026-09-05": 33,
       "2026-09-06": 34
+    },
+    "disler/ten-levels-of-jev": {
+      "2026-10-05": 180
     },
     "dphnAI/sonar": {
       "2026-09-10": 1852,
@@ -4618,7 +4795,8 @@
     "dvmazur/async_llm": {
       "2026-10-02": 14,
       "2026-10-03": 14,
-      "2026-10-04": 14
+      "2026-10-04": 14,
+      "2026-10-05": 14
     },
     "dzhng/jevgrep": {
       "2026-09-28": 873,
@@ -4626,10 +4804,10 @@
       "2026-09-30": 1805,
       "2026-10-02": 2013,
       "2026-10-03": 2075,
-      "2026-10-04": 2189
+      "2026-10-04": 2189,
+      "2026-10-05": 2267
     },
     "earendil-works/pi": {
-      "2026-09-19": 107087,
       "2026-09-20": 107408,
       "2026-09-21": 107854,
       "2026-09-22": 108225,
@@ -4643,7 +4821,8 @@
       "2026-09-30": 110490,
       "2026-10-02": 111368,
       "2026-10-03": 111839,
-      "2026-10-04": 112242
+      "2026-10-04": 112242,
+      "2026-10-05": 112496
     },
     "ebraheembinessa-E-vias/community-reels-engine": {
       "2026-09-26": 5,
@@ -4653,7 +4832,8 @@
       "2026-09-30": 6,
       "2026-10-02": 6,
       "2026-10-03": 6,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 8
     },
     "edison7009/EchoBird": {
       "2026-08-31": 3149,
@@ -4668,7 +4848,6 @@
       "2026-09-12": 3213
     },
     "edtechre/pybroker": {
-      "2026-09-19": 3543,
       "2026-09-20": 3543,
       "2026-09-21": 3543,
       "2026-09-22": 3544,
@@ -4682,7 +4861,8 @@
       "2026-09-30": 3549,
       "2026-10-02": 3558,
       "2026-10-03": 3556,
-      "2026-10-04": 3557
+      "2026-10-04": 3557,
+      "2026-10-05": 3559
     },
     "ekzhang/openjev-sglang": {
       "2026-09-18": 66,
@@ -4716,7 +4896,6 @@
       "2026-09-30": 267
     },
     "elizaOS/eliza": {
-      "2026-09-19": 19361,
       "2026-09-20": 19377,
       "2026-09-21": 19401,
       "2026-09-22": 19406,
@@ -4730,10 +4909,12 @@
       "2026-09-30": 19519,
       "2026-10-02": 19532,
       "2026-10-03": 19535,
-      "2026-10-04": 19536
+      "2026-10-04": 19536,
+      "2026-10-05": 19541
     },
     "elzobrito/ESAA-Security": {
-      "2026-10-04": 202
+      "2026-10-04": 202,
+      "2026-10-05": 202
     },
     "eminsk/awesome-baremetal-ai": {
       "2026-09-16": 5,
@@ -4743,10 +4924,10 @@
       "2026-09-30": 8,
       "2026-10-02": 8,
       "2026-10-03": 8,
-      "2026-10-04": 8
+      "2026-10-04": 8,
+      "2026-10-05": 8
     },
     "enarjord/passivbot": {
-      "2026-09-19": 2101,
       "2026-09-20": 2104,
       "2026-09-21": 2106,
       "2026-09-22": 2108,
@@ -4760,12 +4941,17 @@
       "2026-09-30": 2115,
       "2026-10-02": 2117,
       "2026-10-03": 2116,
-      "2026-10-04": 2118
+      "2026-10-04": 2118,
+      "2026-10-05": 2119
+    },
+    "ersinkoc/evidence-audit": {
+      "2026-10-05": 5
     },
     "esengine/DeepSeek-Reasonix": {
       "2026-10-02": 35731,
       "2026-10-03": 35732,
-      "2026-10-04": 35739
+      "2026-10-04": 35739,
+      "2026-10-05": 35739
     },
     "esp-mosaico/esp-mosaico-vibe": {
       "2026-09-01": 6,
@@ -4797,7 +4983,6 @@
       "2026-10-03": 284
     },
     "evidentlyai/evidently": {
-      "2026-09-19": 7926,
       "2026-09-20": 7930,
       "2026-09-21": 7932,
       "2026-09-22": 7932,
@@ -4807,10 +4992,10 @@
       "2026-09-30": 7949,
       "2026-10-02": 7956,
       "2026-10-03": 7962,
-      "2026-10-04": 7968
+      "2026-10-04": 7968,
+      "2026-10-05": 7971
     },
     "facioquo/stock-indicators-dotnet": {
-      "2026-09-19": 1245,
       "2026-09-20": 1245,
       "2026-09-21": 1245,
       "2026-09-22": 1246,
@@ -4824,14 +5009,14 @@
       "2026-09-30": 1246,
       "2026-10-02": 1246,
       "2026-10-03": 1246,
-      "2026-10-04": 1246
+      "2026-10-04": 1246,
+      "2026-10-05": 1247
     },
     "fadelmuhmmat883/crypto-trading-bot": {
       "2026-09-06": 48,
       "2026-09-07": 48
     },
     "farion1231/cc-switch": {
-      "2026-09-19": 133593,
       "2026-09-20": 133722,
       "2026-09-21": 133868,
       "2026-09-22": 134010,
@@ -4845,10 +5030,10 @@
       "2026-09-30": 138837,
       "2026-10-02": 139429,
       "2026-10-03": 139625,
-      "2026-10-04": 139831
+      "2026-10-04": 139831,
+      "2026-10-05": 140078
     },
     "fasiondog/hikyuu": {
-      "2026-09-19": 3516,
       "2026-09-20": 3517,
       "2026-09-21": 3519,
       "2026-09-22": 3521,
@@ -4862,7 +5047,8 @@
       "2026-09-30": 3535,
       "2026-10-02": 3540,
       "2026-10-03": 3540,
-      "2026-10-04": 3542
+      "2026-10-04": 3542,
+      "2026-10-05": 3551
     },
     "fdiblen/rseng-agent-skills": {
       "2026-09-09": 10,
@@ -4886,7 +5072,6 @@
       "2026-09-22": 53
     },
     "finos/common-domain-model": {
-      "2026-09-19": 279,
       "2026-09-20": 279,
       "2026-09-21": 279,
       "2026-09-22": 279,
@@ -4900,7 +5085,8 @@
       "2026-09-30": 281,
       "2026-10-02": 281,
       "2026-10-03": 281,
-      "2026-10-04": 281
+      "2026-10-04": 281,
+      "2026-10-05": 281
     },
     "fishlikeX/sm70-attn": {
       "2026-09-01": 6
@@ -4913,7 +5099,6 @@
       "2026-09-12": 242
     },
     "flashinfer-ai/flashinfer": {
-      "2026-09-19": 6447,
       "2026-09-20": 6455,
       "2026-09-21": 6464,
       "2026-09-22": 6479,
@@ -4927,10 +5112,10 @@
       "2026-09-30": 6522,
       "2026-10-02": 6531,
       "2026-10-03": 6534,
-      "2026-10-04": 6539
+      "2026-10-04": 6539,
+      "2026-10-05": 6546
     },
     "freqtrade/freqtrade": {
-      "2026-09-19": 54513,
       "2026-09-20": 54557,
       "2026-09-21": 54616,
       "2026-09-22": 54642,
@@ -4944,14 +5129,14 @@
       "2026-09-30": 54946,
       "2026-10-02": 54983,
       "2026-10-03": 54979,
-      "2026-10-04": 55010
+      "2026-10-04": 55010,
+      "2026-10-05": 55039
     },
     "furkankly/zoetrope": {
       "2026-08-31": 714,
       "2026-09-01": 744
     },
     "gaaiyun/joinquant-skill": {
-      "2026-09-19": 82,
       "2026-09-20": 82,
       "2026-09-21": 82,
       "2026-09-22": 82,
@@ -4965,7 +5150,8 @@
       "2026-09-30": 84,
       "2026-10-02": 85,
       "2026-10-03": 85,
-      "2026-10-04": 85
+      "2026-10-04": 85,
+      "2026-10-05": 85
     },
     "gabrielolympie/sglang-flashnext-sm120": {
       "2026-09-09": 24,
@@ -5023,7 +5209,6 @@
       "2026-09-16": 41
     },
     "github/CopilotForXcode": {
-      "2026-09-19": 6299,
       "2026-09-20": 6300,
       "2026-09-21": 6306,
       "2026-09-22": 6306,
@@ -5037,7 +5222,8 @@
       "2026-09-30": 6309,
       "2026-10-02": 6313,
       "2026-10-03": 6312,
-      "2026-10-04": 6314
+      "2026-10-04": 6314,
+      "2026-10-05": 6314
     },
     "giveen/ninfer-studio": {
       "2026-09-16": 9,
@@ -5058,10 +5244,10 @@
       "2026-09-30": 3850,
       "2026-10-02": 3853,
       "2026-10-03": 3851,
-      "2026-10-04": 3852
+      "2026-10-04": 3852,
+      "2026-10-05": 3852
     },
     "google/agents-cli": {
-      "2026-09-19": 5962,
       "2026-09-20": 5968,
       "2026-09-21": 5969,
       "2026-09-22": 5974,
@@ -5075,10 +5261,10 @@
       "2026-09-30": 6034,
       "2026-10-02": 6042,
       "2026-10-03": 6043,
-      "2026-10-04": 6047
+      "2026-10-04": 6047,
+      "2026-10-05": 6052
     },
     "google/artemis": {
-      "2026-09-19": 7953,
       "2026-09-20": 8173,
       "2026-09-21": 8448,
       "2026-09-22": 8963,
@@ -5090,10 +5276,10 @@
       "2026-09-30": 10673,
       "2026-10-02": 10833,
       "2026-10-03": 10892,
-      "2026-10-04": 10932
+      "2026-10-04": 10932,
+      "2026-10-05": 10973
     },
     "gpustack/gpustack": {
-      "2026-09-19": 5714,
       "2026-09-20": 5720,
       "2026-09-21": 5725,
       "2026-09-22": 5735,
@@ -5107,7 +5293,8 @@
       "2026-09-30": 5769,
       "2026-10-02": 5776,
       "2026-10-03": 5777,
-      "2026-10-04": 5782
+      "2026-10-04": 5782,
+      "2026-10-05": 5784
     },
     "griddaimyorun/Metatraider-Traiding-Bot": {
       "2026-09-09": 808,
@@ -5119,7 +5306,8 @@
       "2026-09-30": 2,
       "2026-10-02": 2,
       "2026-10-03": 2,
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 2
     },
     "hajdu-patrik/claude-workspace": {
       "2026-09-25": 6,
@@ -5132,7 +5320,8 @@
     "hajdu-patrik/trirouter": {
       "2026-10-02": 11,
       "2026-10-03": 12,
-      "2026-10-04": 14
+      "2026-10-04": 14,
+      "2026-10-05": 16
     },
     "halfrost/Halfrost-Field": {
       "2026-09-20": 13237,
@@ -5148,7 +5337,8 @@
       "2026-09-30": 13239,
       "2026-10-02": 13239,
       "2026-10-03": 13239,
-      "2026-10-04": 13239
+      "2026-10-04": 13239,
+      "2026-10-05": 13240
     },
     "hardbeat920/monocode": {
       "2026-09-02": 310,
@@ -5159,7 +5349,8 @@
       "2026-09-30": 12,
       "2026-10-02": 12,
       "2026-10-03": 12,
-      "2026-10-04": 12
+      "2026-10-04": 12,
+      "2026-10-05": 12
     },
     "hashd1ve/qwen38-flash-next-one-dgx-spark": {
       "2026-09-02": 13,
@@ -5178,7 +5369,8 @@
       "2026-09-30": 15,
       "2026-10-02": 31,
       "2026-10-03": 40,
-      "2026-10-04": 53
+      "2026-10-04": 53,
+      "2026-10-05": 61
     },
     "hectordufau/HADevTeamForFreeModels": {
       "2026-09-09": 6,
@@ -5192,7 +5384,6 @@
       "2026-09-21": 2
     },
     "heubme2020/datasinking": {
-      "2026-09-19": 16,
       "2026-09-20": 16,
       "2026-09-21": 16,
       "2026-09-22": 16,
@@ -5206,10 +5397,10 @@
       "2026-09-30": 19,
       "2026-10-02": 19,
       "2026-10-03": 19,
-      "2026-10-04": 20
+      "2026-10-04": 20,
+      "2026-10-05": 20
     },
     "heygen-com/hyperframes": {
-      "2026-09-19": 51444,
       "2026-09-20": 51700,
       "2026-09-21": 51999,
       "2026-09-22": 52200,
@@ -5223,7 +5414,8 @@
       "2026-09-30": 54313,
       "2026-10-02": 55462,
       "2026-10-03": 55979,
-      "2026-10-04": 56370
+      "2026-10-04": 56370,
+      "2026-10-05": 56879
     },
     "himovo/movo": {
       "2026-09-09": 20,
@@ -5239,7 +5431,8 @@
       "2026-09-30": 3354,
       "2026-10-02": 3364,
       "2026-10-03": 3359,
-      "2026-10-04": 3364
+      "2026-10-04": 3364,
+      "2026-10-05": 3373
     },
     "hkqr/my-free-code": {
       "2026-08-31": 472,
@@ -5254,7 +5447,6 @@
       "2026-09-10": 633
     },
     "hosseinmoein/DataFrame": {
-      "2026-09-19": 2982,
       "2026-09-20": 2982,
       "2026-09-21": 2982,
       "2026-09-22": 2983,
@@ -5268,7 +5460,8 @@
       "2026-09-30": 2986,
       "2026-10-02": 2988,
       "2026-10-03": 2988,
-      "2026-10-04": 2989
+      "2026-10-04": 2989,
+      "2026-10-05": 2989
     },
     "howardc38/motion-fx-lab": {
       "2026-09-30": 7,
@@ -5300,7 +5493,6 @@
       "2026-09-17": 41
     },
     "hummingbot/hummingbot": {
-      "2026-09-19": 20054,
       "2026-09-20": 20077,
       "2026-09-21": 20112,
       "2026-09-22": 20132,
@@ -5314,7 +5506,8 @@
       "2026-09-30": 20274,
       "2026-10-02": 20298,
       "2026-10-03": 20292,
-      "2026-10-04": 20299
+      "2026-10-04": 20299,
+      "2026-10-05": 20308
     },
     "hyetigran/legacy-skills": {
       "2026-09-03": 7,
@@ -5378,7 +5571,8 @@
       "2026-09-30": 19,
       "2026-10-02": 20,
       "2026-10-03": 21,
-      "2026-10-04": 21
+      "2026-10-04": 21,
+      "2026-10-05": 21
     },
     "ikermoel/open-alternative-jev": {
       "2026-09-21": 39,
@@ -5394,7 +5588,6 @@
       "2026-10-02": 58
     },
     "ilchen/US_Economic_Data_Analysis": {
-      "2026-09-19": 90,
       "2026-09-20": 90,
       "2026-09-21": 90,
       "2026-09-22": 90,
@@ -5408,10 +5601,10 @@
       "2026-09-30": 90,
       "2026-10-02": 90,
       "2026-10-03": 90,
-      "2026-10-04": 90
+      "2026-10-04": 90,
+      "2026-10-05": 90
     },
     "intel/auto-round": {
-      "2026-09-19": 1619,
       "2026-09-20": 1621,
       "2026-09-21": 1621,
       "2026-09-22": 1622,
@@ -5425,7 +5618,8 @@
       "2026-09-30": 1627,
       "2026-10-02": 1626,
       "2026-10-03": 1626,
-      "2026-10-04": 1627
+      "2026-10-04": 1627,
+      "2026-10-05": 1627
     },
     "intel/gpu-ai-skills": {
       "2026-08-31": 16,
@@ -5445,6 +5639,9 @@
       "2026-09-28": 5,
       "2026-09-29": 5,
       "2026-09-30": 5
+    },
+    "isoshimodo/ai-data-extractor": {
+      "2026-10-05": 118
     },
     "iterativv/NostalgiaForInfinity": {
       "2026-09-16": 3413,
@@ -5548,14 +5745,16 @@
       "2026-09-19": 20
     },
     "jayleaton/deepseek-v41-tensorfold-spark": {
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 8
     },
     "jayleaton/glm53-tensorfold-spark": {
       "2026-09-29": 8,
       "2026-09-30": 57,
       "2026-10-02": 98,
       "2026-10-03": 99,
-      "2026-10-04": 104
+      "2026-10-04": 104,
+      "2026-10-05": 107
     },
     "jbobbink/glippy-webmcp": {
       "2026-08-31": 5,
@@ -5579,7 +5778,6 @@
       "2026-09-07": 8
     },
     "jesse-ai/jesse": {
-      "2026-09-19": 8529,
       "2026-09-20": 8540,
       "2026-09-21": 8560,
       "2026-09-22": 8565,
@@ -5593,7 +5791,8 @@
       "2026-09-30": 8604,
       "2026-10-02": 8611,
       "2026-10-03": 8605,
-      "2026-10-04": 8610
+      "2026-10-04": 8610,
+      "2026-10-05": 8613
     },
     "jiangmuran/vibepanel": {
       "2026-09-09": 6,
@@ -5617,14 +5816,14 @@
       "2026-09-30": 39,
       "2026-10-02": 40,
       "2026-10-03": 40,
-      "2026-10-04": 40
+      "2026-10-04": 40,
+      "2026-10-05": 40
     },
     "jnardiello/GLM-5.3-Flash-FP8-4-DGX-Spark-Switchless": {
       "2026-09-12": 5,
       "2026-09-16": 11
     },
     "joaquinbejar/market-maker-rs": {
-      "2026-09-19": 101,
       "2026-09-20": 101,
       "2026-09-21": 101,
       "2026-09-22": 101,
@@ -5638,7 +5837,8 @@
       "2026-09-30": 103,
       "2026-10-02": 104,
       "2026-10-03": 104,
-      "2026-10-04": 104
+      "2026-10-04": 104,
+      "2026-10-05": 104
     },
     "john79nl/gravity": {
       "2026-08-31": 7,
@@ -5655,7 +5855,8 @@
       "2026-09-30": 9,
       "2026-10-02": 9,
       "2026-10-03": 9,
-      "2026-10-04": 9
+      "2026-10-04": 9,
+      "2026-10-05": 9
     },
     "jpezzulli/sglang-rtxpro6000": {
       "2026-08-31": 34,
@@ -5670,7 +5871,8 @@
     "juliankang4/spark-scope": {
       "2026-10-02": 12,
       "2026-10-03": 17,
-      "2026-10-04": 18
+      "2026-10-04": 18,
+      "2026-10-05": 19
     },
     "kaist-flexml-lab/loopspec": {
       "2026-09-23": 7,
@@ -5705,7 +5907,8 @@
       "2026-09-30": 7071,
       "2026-10-02": 7079,
       "2026-10-03": 7078,
-      "2026-10-04": 7079
+      "2026-10-04": 7079,
+      "2026-10-05": 7079
     },
     "kay-ou/SimTradeLab": {
       "2026-09-11": 338,
@@ -5776,7 +5979,8 @@
     },
     "kingofspace0wzz/cua-swe": {
       "2026-10-03": 5,
-      "2026-10-04": 5
+      "2026-10-04": 5,
+      "2026-10-05": 5
     },
     "kk-pcl/sglang-qwen38-dual-3080-patch": {
       "2026-09-10": 10,
@@ -5890,7 +6094,6 @@
       "2026-09-23": 163
     },
     "kvcache-ai/Mooncake": {
-      "2026-09-19": 6611,
       "2026-09-20": 6615,
       "2026-09-21": 6622,
       "2026-09-22": 6634,
@@ -5904,7 +6107,8 @@
       "2026-09-30": 6693,
       "2026-10-02": 6702,
       "2026-10-03": 6707,
-      "2026-10-04": 6710
+      "2026-10-04": 6710,
+      "2026-10-05": 6717
     },
     "lalaa-a/vibe_remote": {
       "2026-09-09": 5,
@@ -5913,7 +6117,6 @@
       "2026-09-12": 5
     },
     "langchain-ai/langchain": {
-      "2026-09-19": 146627,
       "2026-09-20": 146696,
       "2026-09-21": 146762,
       "2026-09-22": 146831,
@@ -5927,10 +6130,10 @@
       "2026-09-30": 147292,
       "2026-10-02": 147374,
       "2026-10-03": 147390,
-      "2026-10-04": 147421
+      "2026-10-04": 147421,
+      "2026-10-05": 147451
     },
     "langchain-ai/langgraph": {
-      "2026-09-19": 41912,
       "2026-09-20": 41973,
       "2026-09-21": 42043,
       "2026-09-22": 42104,
@@ -5944,10 +6147,10 @@
       "2026-09-30": 42492,
       "2026-10-02": 42594,
       "2026-10-03": 42644,
-      "2026-10-04": 42687
+      "2026-10-04": 42687,
+      "2026-10-05": 42724
     },
     "langchain4j/langchain4j": {
-      "2026-09-19": 13127,
       "2026-09-20": 13128,
       "2026-09-21": 13133,
       "2026-09-22": 13142,
@@ -5961,10 +6164,10 @@
       "2026-09-30": 13178,
       "2026-10-02": 13192,
       "2026-10-03": 13198,
-      "2026-10-04": 13201
+      "2026-10-04": 13201,
+      "2026-10-05": 13203
     },
     "langfuse/langfuse": {
-      "2026-09-19": 34792,
       "2026-09-20": 34826,
       "2026-09-21": 34866,
       "2026-09-22": 34916,
@@ -5978,10 +6181,11 @@
       "2026-09-30": 35215,
       "2026-10-02": 35292,
       "2026-10-03": 35327,
-      "2026-10-04": 35351
+      "2026-10-04": 35351,
+      "2026-10-05": 35386
     },
     "langwatch/langwatch": {
-      "2026-09-16": 4796
+      "2026-10-05": 4913
     },
     "latitude-dev/latitude-llm": {
       "2026-09-11": 4632,
@@ -6005,6 +6209,9 @@
       "2026-09-12": 3,
       "2026-09-16": 4
     },
+    "leftamber/Polymarket-AI-Trading-Bot": {
+      "2026-10-05": 2
+    },
     "lemomo-ai/lemo-opuscar": {
       "2026-09-28": 410,
       "2026-09-29": 551,
@@ -6013,7 +6220,6 @@
       "2026-10-03": 847
     },
     "lemonade-sdk/lemonade": {
-      "2026-09-19": 5747,
       "2026-09-20": 5748,
       "2026-09-21": 5756,
       "2026-09-22": 5764,
@@ -6027,10 +6233,10 @@
       "2026-09-30": 5800,
       "2026-10-02": 5814,
       "2026-10-03": 5820,
-      "2026-10-04": 5820
+      "2026-10-04": 5820,
+      "2026-10-05": 5824
     },
     "leoncuhk/awesome-quant-ai": {
-      "2026-09-19": 613,
       "2026-09-20": 615,
       "2026-09-21": 616,
       "2026-09-22": 618,
@@ -6044,10 +6250,10 @@
       "2026-09-30": 626,
       "2026-10-02": 629,
       "2026-10-03": 628,
-      "2026-10-04": 629
+      "2026-10-04": 629,
+      "2026-10-05": 629
     },
     "lightseekorg/tokenspeed": {
-      "2026-09-19": 2147,
       "2026-09-20": 2150,
       "2026-09-21": 2152,
       "2026-09-22": 2157,
@@ -6061,7 +6267,8 @@
       "2026-09-30": 2185,
       "2026-10-02": 2189,
       "2026-10-03": 2190,
-      "2026-10-04": 2191
+      "2026-10-04": 2191,
+      "2026-10-05": 2191
     },
     "limitedmovie/DeepSeek-Desktop---DeepSeek-AI-Assistant-2026": {
       "2026-08-31": 10,
@@ -6114,7 +6321,6 @@
       "2026-09-23": 33
     },
     "liyupi/ai-guide": {
-      "2026-09-19": 20189,
       "2026-09-20": 20214,
       "2026-09-21": 20243,
       "2026-09-22": 20296,
@@ -6126,15 +6332,16 @@
       "2026-09-30": 20597,
       "2026-10-02": 20635,
       "2026-10-03": 20644,
-      "2026-10-04": 20658
+      "2026-10-04": 20658,
+      "2026-10-05": 20675
     },
     "llmware-ai/llmware": {
       "2026-10-02": 14825,
       "2026-10-03": 14827,
-      "2026-10-04": 14826
+      "2026-10-04": 14826,
+      "2026-10-05": 14826
     },
     "lnkiai/m3e-canvas": {
-      "2026-09-19": 7434,
       "2026-09-20": 7628,
       "2026-09-21": 7826,
       "2026-09-22": 7948,
@@ -6148,7 +6355,8 @@
       "2026-09-30": 8471,
       "2026-10-02": 8555,
       "2026-10-03": 8593,
-      "2026-10-04": 8646
+      "2026-10-04": 8646,
+      "2026-10-05": 8701
     },
     "londonstrategicedge/lse-terminal": {
       "2026-09-03": 18,
@@ -6221,7 +6429,8 @@
     "maiobarbero/laravel-boost-ddd": {
       "2026-10-02": 7,
       "2026-10-03": 7,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 7
     },
     "major7apps/tiingo-mcp": {
       "2026-09-21": 11,
@@ -6237,7 +6446,6 @@
       "2026-10-04": 11
     },
     "marketcalls/openalgo-charts": {
-      "2026-09-19": 78,
       "2026-09-20": 83,
       "2026-09-21": 91,
       "2026-09-22": 97,
@@ -6251,7 +6459,8 @@
       "2026-09-30": 120,
       "2026-10-02": 129,
       "2026-10-03": 130,
-      "2026-10-04": 131
+      "2026-10-04": 131,
+      "2026-10-05": 132
     },
     "marketcalls/openscript": {
       "2026-09-20": 2,
@@ -6269,7 +6478,6 @@
       "2026-10-03": 11
     },
     "mastra-ai/mastra": {
-      "2026-09-19": 28175,
       "2026-09-20": 28195,
       "2026-09-21": 28221,
       "2026-09-22": 28252,
@@ -6283,7 +6491,8 @@
       "2026-09-30": 28445,
       "2026-10-02": 28491,
       "2026-10-03": 28521,
-      "2026-10-04": 28544
+      "2026-10-04": 28544,
+      "2026-10-05": 28565
     },
     "matthewprice/JobFinderOS": {
       "2026-09-18": 152,
@@ -6297,7 +6506,8 @@
       "2026-09-30": 6,
       "2026-10-02": 6,
       "2026-10-03": 6,
-      "2026-10-04": 6
+      "2026-10-04": 6,
+      "2026-10-05": 6
     },
     "maxritter/open-claude-design": {
       "2026-08-31": 6,
@@ -6305,7 +6515,14 @@
     },
     "mayankjain1815-commits/mayankjain1815-commits": {
       "2026-10-03": 5,
-      "2026-10-04": 5
+      "2026-10-04": 5,
+      "2026-10-05": 5
+    },
+    "mcpHQ/awesome-mcp-servers": {
+      "2026-10-05": 186
+    },
+    "merijjeyn/jive": {
+      "2026-10-05": 177
     },
     "mgcloudweb-cse/Portfolio-ATS-Resume-Builder": {
       "2026-08-31": 2,
@@ -6330,7 +6547,6 @@
       "2026-09-23": 32
     },
     "milocaetano/quantick": {
-      "2026-09-19": 42,
       "2026-09-20": 43,
       "2026-09-21": 43,
       "2026-09-22": 43,
@@ -6344,10 +6560,10 @@
       "2026-09-30": 45,
       "2026-10-02": 48,
       "2026-10-03": 48,
-      "2026-10-04": 48
+      "2026-10-04": 48,
+      "2026-10-05": 49
     },
     "mingti-org/phyai": {
-      "2026-09-19": 124,
       "2026-09-20": 124,
       "2026-09-21": 125,
       "2026-09-28": 127,
@@ -6355,7 +6571,8 @@
       "2026-09-30": 127,
       "2026-10-02": 127,
       "2026-10-03": 127,
-      "2026-10-04": 127
+      "2026-10-04": 127,
+      "2026-10-05": 127
     },
     "minimaxh3turbo/MiniMax-H3-Turbo-LoRA-ComfyUI": {
       "2026-09-02": 14,
@@ -6385,7 +6602,6 @@
       "2026-09-02": 646
     },
     "mistralai/mistral-vibe": {
-      "2026-09-19": 4969,
       "2026-09-20": 4975,
       "2026-09-21": 4981,
       "2026-09-22": 4986,
@@ -6399,7 +6615,8 @@
       "2026-09-30": 5023,
       "2026-10-02": 5027,
       "2026-10-03": 5030,
-      "2026-10-04": 5040
+      "2026-10-04": 5040,
+      "2026-10-05": 5047
     },
     "mitkox/esf": {
       "2026-09-21": 72,
@@ -6411,7 +6628,6 @@
       "2026-09-27": 159
     },
     "mlc-ai/web-llm": {
-      "2026-09-19": 19147,
       "2026-09-20": 19151,
       "2026-09-21": 19157,
       "2026-09-22": 19159,
@@ -6425,10 +6641,10 @@
       "2026-09-30": 19206,
       "2026-10-02": 19213,
       "2026-10-03": 19217,
-      "2026-10-04": 19220
+      "2026-10-04": 19220,
+      "2026-10-05": 19225
     },
     "mlflow/mlflow": {
-      "2026-09-19": 28030,
       "2026-09-20": 28048,
       "2026-09-21": 28063,
       "2026-09-22": 28086,
@@ -6442,7 +6658,8 @@
       "2026-09-30": 28192,
       "2026-10-02": 28222,
       "2026-10-03": 28239,
-      "2026-10-04": 28250
+      "2026-10-04": 28250,
+      "2026-10-05": 28258
     },
     "mmastrac/djev": {
       "2026-09-22": 14,
@@ -6456,7 +6673,8 @@
       "2026-09-30": 111,
       "2026-10-02": 112,
       "2026-10-03": 112,
-      "2026-10-04": 112
+      "2026-10-04": 112,
+      "2026-10-05": 113
     },
     "mode-io/vllm-jev": {
       "2026-09-26": 36,
@@ -6466,10 +6684,10 @@
       "2026-09-30": 134,
       "2026-10-02": 192,
       "2026-10-03": 222,
-      "2026-10-04": 249
+      "2026-10-04": 249,
+      "2026-10-05": 268
     },
     "modelscope/FunASR": {
-      "2026-09-19": 20419,
       "2026-09-20": 20431,
       "2026-09-21": 20451,
       "2026-09-22": 20463,
@@ -6483,7 +6701,8 @@
       "2026-09-30": 20551,
       "2026-10-02": 20570,
       "2026-10-03": 20571,
-      "2026-10-04": 20577
+      "2026-10-04": 20577,
+      "2026-10-05": 20584
     },
     "mohamedhossammohamed/m4-prefill-engine": {
       "2026-09-01": 15,
@@ -6512,7 +6731,6 @@
       "2026-09-22": 16
     },
     "mosecorg/mosec": {
-      "2026-09-19": 902,
       "2026-09-20": 902,
       "2026-09-21": 902,
       "2026-09-22": 902,
@@ -6526,7 +6744,8 @@
       "2026-09-30": 902,
       "2026-10-02": 902,
       "2026-10-03": 902,
-      "2026-10-04": 902
+      "2026-10-04": 902,
+      "2026-10-05": 902
     },
     "mozophe/ComfyUI-Qwen-Image-2.1-PromptEnhancer-MTP": {
       "2026-09-27": 5,
@@ -6535,7 +6754,8 @@
       "2026-09-30": 8,
       "2026-10-02": 14,
       "2026-10-03": 16,
-      "2026-10-04": 17
+      "2026-10-04": 17,
+      "2026-10-05": 17
     },
     "mpaymenremora/CacheCraft": {
       "2026-09-05": 36,
@@ -6603,7 +6823,8 @@
       "2026-09-30": 24,
       "2026-10-02": 24,
       "2026-10-03": 24,
-      "2026-10-04": 24
+      "2026-10-04": 24,
+      "2026-10-05": 24
     },
     "nakuljoshidev-coder/Q-Alpha": {
       "2026-08-31": 2,
@@ -6639,7 +6860,6 @@
       "2026-09-28": 14
     },
     "neuml/txtai": {
-      "2026-09-19": 12964,
       "2026-09-20": 12964,
       "2026-09-21": 12965,
       "2026-09-22": 12966,
@@ -6653,7 +6873,8 @@
       "2026-09-30": 12989,
       "2026-10-02": 12990,
       "2026-10-03": 12990,
-      "2026-10-04": 12991
+      "2026-10-04": 12991,
+      "2026-10-05": 12990
     },
     "nexu-io/open-design": {
       "2026-09-04": 93921,
@@ -6685,7 +6906,8 @@
       "2026-09-30": 965,
       "2026-10-02": 1005,
       "2026-10-03": 1018,
-      "2026-10-04": 1028
+      "2026-10-04": 1028,
+      "2026-10-05": 1036
     },
     "noorxsingh/backtesting-engine": {
       "2026-09-16": 3,
@@ -6702,7 +6924,6 @@
       "2026-09-27": 3
     },
     "notnotype/neuro-book": {
-      "2026-09-19": 677,
       "2026-09-20": 681,
       "2026-09-21": 684,
       "2026-09-22": 687,
@@ -6716,15 +6937,16 @@
       "2026-09-30": 709,
       "2026-10-02": 717,
       "2026-10-03": 717,
-      "2026-10-04": 718
+      "2026-10-04": 718,
+      "2026-10-05": 719
     },
     "nykooi1/vibe-wise": {
       "2026-10-02": 73,
       "2026-10-03": 366,
-      "2026-10-04": 764
+      "2026-10-04": 764,
+      "2026-10-05": 1124
     },
     "obra/superpowers": {
-      "2026-09-19": 288581,
       "2026-09-20": 288896,
       "2026-09-21": 289368,
       "2026-09-22": 289801,
@@ -6738,7 +6960,8 @@
       "2026-09-30": 293096,
       "2026-10-02": 294076,
       "2026-10-03": 294543,
-      "2026-10-04": 294978
+      "2026-10-04": 294978,
+      "2026-10-05": 295351
     },
     "okf-memory/okf-agent-memory": {
       "2026-09-07": 382,
@@ -6752,7 +6975,6 @@
       "2026-09-19": 697
     },
     "okx/agent-trade-kit": {
-      "2026-09-19": 436,
       "2026-09-20": 436,
       "2026-09-21": 436,
       "2026-09-22": 437,
@@ -6766,10 +6988,12 @@
       "2026-09-30": 456,
       "2026-10-02": 458,
       "2026-10-03": 459,
-      "2026-10-04": 461
+      "2026-10-04": 461,
+      "2026-10-05": 462
     },
     "omnirush-ai/omnirush-gui": {
-      "2026-10-04": 670
+      "2026-10-04": 670,
+      "2026-10-05": 1259
     },
     "open-multi-agent/open-multi-agent": {
       "2026-09-16": 6929,
@@ -6805,7 +7029,6 @@
       "2026-09-21": 78
     },
     "openai/codex": {
-      "2026-09-19": 125195,
       "2026-09-20": 125356,
       "2026-09-21": 125577,
       "2026-09-22": 125808,
@@ -6819,10 +7042,10 @@
       "2026-09-30": 127267,
       "2026-10-02": 127565,
       "2026-10-03": 127660,
-      "2026-10-04": 127776
+      "2026-10-04": 127776,
+      "2026-10-05": 127883
     },
     "openai/openai-agents-python": {
-      "2026-09-19": 29554,
       "2026-09-20": 29567,
       "2026-09-21": 29591,
       "2026-09-22": 29624,
@@ -6836,10 +7059,10 @@
       "2026-09-30": 29777,
       "2026-10-02": 29799,
       "2026-10-03": 29814,
-      "2026-10-04": 29826
+      "2026-10-04": 29826,
+      "2026-10-05": 29837
     },
     "openlake-project/openlake": {
-      "2026-09-19": 2660,
       "2026-09-20": 2662,
       "2026-09-21": 2662,
       "2026-09-22": 2662,
@@ -6853,10 +7076,10 @@
       "2026-09-30": 2657,
       "2026-10-02": 2654,
       "2026-10-03": 2654,
-      "2026-10-04": 2654
+      "2026-10-04": 2654,
+      "2026-10-05": 2652
     },
     "openobserve/openobserve": {
-      "2026-09-19": 22018,
       "2026-09-20": 22027,
       "2026-09-21": 22052,
       "2026-09-22": 22070,
@@ -6870,10 +7093,10 @@
       "2026-09-30": 22201,
       "2026-10-02": 22232,
       "2026-10-03": 22235,
-      "2026-10-04": 22239
+      "2026-10-04": 22239,
+      "2026-10-05": 22251
     },
     "openshift-eng/ai-helpers": {
-      "2026-09-19": 117,
       "2026-09-20": 117,
       "2026-09-21": 118,
       "2026-09-22": 119,
@@ -6887,7 +7110,8 @@
       "2026-09-30": 120,
       "2026-10-02": 120,
       "2026-10-03": 120,
-      "2026-10-04": 120
+      "2026-10-04": 120,
+      "2026-10-05": 120
     },
     "oriveo/oriveo": {
       "2026-09-12": 40,
@@ -6917,7 +7141,6 @@
       "2026-10-04": 11
     },
     "ovg-project/kvcached": {
-      "2026-09-19": 1414,
       "2026-09-20": 1432,
       "2026-09-21": 1457,
       "2026-09-22": 1472,
@@ -6931,7 +7154,8 @@
       "2026-09-30": 1512,
       "2026-10-02": 1509,
       "2026-10-03": 1513,
-      "2026-10-04": 1515
+      "2026-10-04": 1515,
+      "2026-10-05": 1515
     },
     "pangoleen/qwen3.8-27b-dgx-spark-dflash2": {
       "2026-09-03": 14,
@@ -6950,16 +7174,17 @@
       "2026-09-30": 14502,
       "2026-10-02": 14525,
       "2026-10-03": 14523,
-      "2026-10-04": 14533
+      "2026-10-04": 14533,
+      "2026-10-05": 14548
     },
     "parkavenue9639/jevloop": {
       "2026-09-30": 5,
       "2026-10-02": 6,
       "2026-10-03": 6,
-      "2026-10-04": 6
+      "2026-10-04": 6,
+      "2026-10-05": 7
     },
     "pathwaycom/pathway": {
-      "2026-09-19": 62265,
       "2026-09-20": 62261,
       "2026-09-21": 62254,
       "2026-09-22": 62252,
@@ -6973,7 +7198,8 @@
       "2026-09-30": 62214,
       "2026-10-02": 62202,
       "2026-10-03": 62193,
-      "2026-10-04": 62185
+      "2026-10-04": 62185,
+      "2026-10-05": 62182
     },
     "patrickmfurbert/ai-tools": {
       "2026-09-05": 5,
@@ -6981,7 +7207,8 @@
       "2026-09-07": 5
     },
     "pawbytes/skill-suites": {
-      "2026-10-04": 107
+      "2026-10-04": 107,
+      "2026-10-05": 108
     },
     "pchuan837-lab/vibe-coding-engineering": {
       "2026-09-03": 7,
@@ -6993,7 +7220,8 @@
     },
     "perkel666/MegaCapybara": {
       "2026-10-03": 11,
-      "2026-10-04": 19
+      "2026-10-04": 19,
+      "2026-10-05": 19
     },
     "pinoox/neuromesh": {
       "2026-08-31": 76,
@@ -7010,7 +7238,8 @@
       "2026-09-30": 7,
       "2026-10-02": 7,
       "2026-10-03": 7,
-      "2026-10-04": 8
+      "2026-10-04": 8,
+      "2026-10-05": 8
     },
     "pliablepixels/gap-trap": {
       "2026-09-16": 150,
@@ -7030,7 +7259,8 @@
       "2026-09-30": 6,
       "2026-10-02": 7,
       "2026-10-03": 10,
-      "2026-10-04": 10
+      "2026-10-04": 10,
+      "2026-10-05": 10
     },
     "poisonxa16/pxa": {
       "2026-09-16": 42,
@@ -7041,7 +7271,6 @@
       "2026-09-21": 47
     },
     "polakowo/vectorbt": {
-      "2026-09-19": 9123,
       "2026-09-20": 9132,
       "2026-09-21": 9140,
       "2026-09-22": 9149,
@@ -7055,7 +7284,8 @@
       "2026-09-30": 9220,
       "2026-10-02": 9258,
       "2026-10-03": 9262,
-      "2026-10-04": 9267
+      "2026-10-04": 9267,
+      "2026-10-05": 9276
     },
     "pratikxpanda/agentskills-sdk": {
       "2026-09-23": 24,
@@ -7068,14 +7298,14 @@
       "2026-09-30": 24,
       "2026-10-02": 24,
       "2026-10-03": 24,
-      "2026-10-04": 24
+      "2026-10-04": 24,
+      "2026-10-05": 24
     },
     "promisezackr/glm53-flash-170hx-pp8": {
       "2026-09-11": 6,
       "2026-09-12": 6
     },
     "pseudo-longinus/quant-buddy-skills": {
-      "2026-09-19": 191,
       "2026-09-20": 190,
       "2026-09-21": 191,
       "2026-09-22": 191,
@@ -7089,7 +7319,8 @@
       "2026-09-30": 192,
       "2026-10-02": 193,
       "2026-10-03": 190,
-      "2026-10-04": 190
+      "2026-10-04": 190,
+      "2026-10-05": 191
     },
     "pydantic/logfire": {
       "2026-08-31": 4448,
@@ -7107,7 +7338,6 @@
       "2026-09-25": 480
     },
     "quant-sentiment-ai/claude-equity-research": {
-      "2026-09-19": 713,
       "2026-09-20": 713,
       "2026-09-21": 713,
       "2026-09-22": 715,
@@ -7121,7 +7351,8 @@
       "2026-09-30": 719,
       "2026-10-02": 721,
       "2026-10-03": 722,
-      "2026-10-04": 723
+      "2026-10-04": 723,
+      "2026-10-05": 724
     },
     "quarkfin/qf-lib": {
       "2026-08-31": 957,
@@ -7140,7 +7371,8 @@
     "qybaihe/mu": {
       "2026-09-27": 237,
       "2026-10-03": 340,
-      "2026-10-04": 344
+      "2026-10-04": 344,
+      "2026-10-05": 355
     },
     "r0b0tlab/qwen38-27b-nvfp4-sm121-sglang": {
       "2026-08-31": 18
@@ -7198,7 +7430,6 @@
       "2026-09-03": 70
     },
     "ray-project/ray": {
-      "2026-09-19": 43867,
       "2026-09-20": 43874,
       "2026-09-21": 43881,
       "2026-09-22": 43888,
@@ -7212,10 +7443,10 @@
       "2026-09-30": 43955,
       "2026-10-02": 43963,
       "2026-10-03": 43965,
-      "2026-10-04": 43967
+      "2026-10-04": 43967,
+      "2026-10-05": 43970
     },
     "rburkholder/trade-frame": {
-      "2026-09-19": 677,
       "2026-09-20": 677,
       "2026-09-21": 677,
       "2026-09-22": 678,
@@ -7229,7 +7460,8 @@
       "2026-09-30": 679,
       "2026-10-02": 679,
       "2026-10-03": 679,
-      "2026-10-04": 679
+      "2026-10-04": 679,
+      "2026-10-05": 679
     },
     "rdilruba/codebase-map": {
       "2026-09-16": 6,
@@ -7244,7 +7476,6 @@
       "2026-09-25": 7
     },
     "residual-lab/alpha-harness": {
-      "2026-09-19": 45,
       "2026-09-20": 45,
       "2026-09-21": 45,
       "2026-09-22": 47,
@@ -7258,10 +7489,10 @@
       "2026-09-30": 79,
       "2026-10-02": 83,
       "2026-10-03": 82,
-      "2026-10-04": 82
+      "2026-10-04": 82,
+      "2026-10-05": 82
     },
     "ricequant/rqalpha": {
-      "2026-09-19": 6777,
       "2026-09-20": 6779,
       "2026-09-21": 6783,
       "2026-09-22": 6786,
@@ -7275,7 +7506,8 @@
       "2026-09-30": 6803,
       "2026-10-02": 6805,
       "2026-10-03": 6807,
-      "2026-10-04": 6807
+      "2026-10-04": 6807,
+      "2026-10-05": 6809
     },
     "richlearntodo-debug/vibe-flow": {
       "2026-08-31": 40,
@@ -7335,7 +7567,6 @@
       "2026-09-29": 507
     },
     "run-llama/llama_index": {
-      "2026-09-19": 52220,
       "2026-09-20": 52237,
       "2026-09-21": 52253,
       "2026-09-22": 52273,
@@ -7349,7 +7580,8 @@
       "2026-09-30": 52367,
       "2026-10-02": 52380,
       "2026-10-03": 52389,
-      "2026-10-04": 52403
+      "2026-10-04": 52403,
+      "2026-10-05": 52413
     },
     "sahmk-sa/sahmk-python": {
       "2026-08-31": 24,
@@ -7388,7 +7620,8 @@
       "2026-09-30": 534,
       "2026-10-02": 534,
       "2026-10-03": 535,
-      "2026-10-04": 537
+      "2026-10-04": 537,
+      "2026-10-05": 537
     },
     "seanyourhighness/vllm-sm12x-nvfp4-dflash2": {
       "2026-08-31": 26,
@@ -7429,7 +7662,6 @@
       "2026-09-22": 21
     },
     "sgl-project/sglang": {
-      "2026-09-19": 36158,
       "2026-09-20": 36187,
       "2026-09-21": 36231,
       "2026-09-22": 36295,
@@ -7443,10 +7675,10 @@
       "2026-09-30": 36620,
       "2026-10-02": 36709,
       "2026-10-03": 36736,
-      "2026-10-04": 36761
+      "2026-10-04": 36761,
+      "2026-10-05": 36790
     },
     "shanraisshan/claude-code-best-practice": {
-      "2026-09-19": 66101,
       "2026-09-20": 66122,
       "2026-09-21": 66134,
       "2026-09-22": 66202,
@@ -7460,7 +7692,8 @@
       "2026-09-30": 66731,
       "2026-10-02": 66972,
       "2026-10-03": 67018,
-      "2026-10-04": 67045
+      "2026-10-04": 67045,
+      "2026-10-05": 67090
     },
     "shashankvemuri/Finance": {
       "2026-09-11": 4218,
@@ -7476,6 +7709,9 @@
       "2026-09-24": 4285,
       "2026-09-25": 4288,
       "2026-09-26": 4290
+    },
+    "shinshin86/mesh-avatar-studio": {
+      "2026-10-05": 173
     },
     "shivangsaxena2211/DEFINN-APP": {
       "2026-08-31": 2,
@@ -7497,7 +7733,8 @@
     "shreyasandurkar/quant-journey": {
       "2026-10-02": 3,
       "2026-10-03": 3,
-      "2026-10-04": 3
+      "2026-10-04": 3,
+      "2026-10-05": 3
     },
     "shtjww/llm-inference-capacity-handbook": {
       "2026-09-05": 76,
@@ -7510,7 +7747,6 @@
       "2026-09-16": 100
     },
     "shy3130/tick-stock-panel": {
-      "2026-09-19": 4802,
       "2026-09-20": 4817,
       "2026-09-21": 4845,
       "2026-09-22": 4868,
@@ -7524,7 +7760,8 @@
       "2026-09-30": 5338,
       "2026-10-02": 5359,
       "2026-10-03": 5431,
-      "2026-10-04": 5509
+      "2026-10-04": 5509,
+      "2026-10-05": 5575
     },
     "sidmanale643/helios": {
       "2026-09-01": 6,
@@ -7538,7 +7775,6 @@
       "2026-09-10": 10
     },
     "simonlin1212/a-stock-data": {
-      "2026-09-19": 9944,
       "2026-09-20": 9965,
       "2026-09-21": 9998,
       "2026-09-22": 10024,
@@ -7552,7 +7788,8 @@
       "2026-09-30": 10447,
       "2026-10-02": 10491,
       "2026-10-03": 10503,
-      "2026-10-04": 10519
+      "2026-10-04": 10519,
+      "2026-10-05": 10554
     },
     "skyf0xx/hedgehog-core-copywriting-prose-engineering": {
       "2026-09-06": 6,
@@ -7565,7 +7802,6 @@
       "2026-09-17": 11
     },
     "skyzh/tiny-llm": {
-      "2026-09-19": 4580,
       "2026-09-20": 4580,
       "2026-09-21": 4582,
       "2026-09-22": 4617,
@@ -7579,7 +7815,8 @@
       "2026-09-30": 4738,
       "2026-10-02": 4745,
       "2026-10-03": 4748,
-      "2026-10-04": 4750
+      "2026-10-04": 4750,
+      "2026-10-05": 4751
     },
     "sno-ai/sno-station": {
       "2026-09-26": 232,
@@ -7601,7 +7838,8 @@
       "2026-09-30": 263,
       "2026-10-02": 263,
       "2026-10-03": 261,
-      "2026-10-04": 263
+      "2026-10-04": 263,
+      "2026-10-05": 263
     },
     "spectrelabo/fanta-lab": {
       "2026-09-03": 3,
@@ -7628,7 +7866,6 @@
       "2026-09-10": 5
     },
     "spiceai/spiceai": {
-      "2026-09-19": 3084,
       "2026-09-20": 3085,
       "2026-09-21": 3086,
       "2026-09-22": 3086,
@@ -7642,7 +7879,8 @@
       "2026-09-30": 3096,
       "2026-10-02": 3098,
       "2026-10-03": 3096,
-      "2026-10-04": 3097
+      "2026-10-04": 3097,
+      "2026-10-05": 3097
     },
     "srlcarlg/srl-ctrader-indicators": {
       "2026-09-06": 82,
@@ -7668,7 +7906,6 @@
       "2026-09-09": 3
     },
     "stas00/ml-engineering": {
-      "2026-09-19": 19011,
       "2026-09-20": 19018,
       "2026-09-21": 19025,
       "2026-09-22": 19030,
@@ -7682,10 +7919,10 @@
       "2026-09-30": 19062,
       "2026-10-02": 19076,
       "2026-10-03": 19088,
-      "2026-10-04": 19095
+      "2026-10-04": 19095,
+      "2026-10-05": 19132
     },
     "stefan-jansen/machine-learning-for-trading": {
-      "2026-09-19": 20930,
       "2026-09-20": 20941,
       "2026-09-21": 20954,
       "2026-09-22": 20968,
@@ -7699,10 +7936,10 @@
       "2026-09-30": 21129,
       "2026-10-02": 21196,
       "2026-10-03": 21200,
-      "2026-10-04": 21211
+      "2026-10-04": 21211,
+      "2026-10-05": 21222
     },
     "surajrimal07/NepseAPI-Unofficial": {
-      "2026-09-19": 61,
       "2026-09-20": 61,
       "2026-09-21": 61,
       "2026-09-22": 61,
@@ -7716,7 +7953,8 @@
       "2026-09-30": 61,
       "2026-10-02": 61,
       "2026-10-03": 61,
-      "2026-10-04": 61
+      "2026-10-04": 61,
+      "2026-10-05": 62
     },
     "swcstudiospace/PumpGrok": {
       "2026-09-01": 2,
@@ -7733,7 +7971,6 @@
       "2026-09-11": 13
     },
     "sybil-solutions/local-studio": {
-      "2026-09-19": 1768,
       "2026-09-20": 1768,
       "2026-09-21": 1770,
       "2026-09-22": 1771,
@@ -7747,7 +7984,8 @@
       "2026-09-30": 1813,
       "2026-10-02": 1813,
       "2026-10-03": 1813,
-      "2026-10-04": 1813
+      "2026-10-04": 1813,
+      "2026-10-05": 1815
     },
     "takumi-sato0209/crypto-ai-trading-bot": {
       "2026-09-24": 3,
@@ -7759,7 +7997,8 @@
       "2026-09-30": 6,
       "2026-10-02": 6,
       "2026-10-03": 7,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 7
     },
     "talhatahir-10xe/CuQwen": {
       "2026-09-16": 7,
@@ -7784,7 +8023,8 @@
       "2026-09-30": 22,
       "2026-10-02": 23,
       "2026-10-03": 23,
-      "2026-10-04": 23
+      "2026-10-04": 23,
+      "2026-10-05": 24
     },
     "taurus42119-stack/GODKILLER-ZERO": {
       "2026-09-19": 8,
@@ -7813,7 +8053,6 @@
       "2026-09-12": 5
     },
     "the-open-agent/openagent": {
-      "2026-09-19": 5628,
       "2026-09-20": 5628,
       "2026-09-21": 5638,
       "2026-09-22": 5641,
@@ -7827,7 +8066,8 @@
       "2026-09-30": 5670,
       "2026-10-02": 5680,
       "2026-10-03": 5684,
-      "2026-10-04": 5687
+      "2026-10-04": 5687,
+      "2026-10-05": 5688
     },
     "thedotmack/claude-mem": {
       "2026-08-31": 92714,
@@ -7847,7 +8087,6 @@
       "2026-08-31": 5
     },
     "thinh-vu/vnstock": {
-      "2026-09-19": 1403,
       "2026-09-20": 1404,
       "2026-09-21": 1404,
       "2026-09-22": 1406,
@@ -7861,10 +8100,10 @@
       "2026-09-30": 1408,
       "2026-10-02": 1408,
       "2026-10-03": 1410,
-      "2026-10-04": 1411
+      "2026-10-04": 1411,
+      "2026-10-05": 1411
     },
     "tiann/hapi": {
-      "2026-09-19": 5085,
       "2026-09-20": 5094,
       "2026-09-21": 5101,
       "2026-09-22": 5111,
@@ -7878,14 +8117,16 @@
       "2026-09-30": 5144,
       "2026-10-02": 5157,
       "2026-10-03": 5165,
-      "2026-10-04": 5174
+      "2026-10-04": 5174,
+      "2026-10-05": 5180
     },
     "tic-top/llm2jev": {
       "2026-09-29": 7,
       "2026-09-30": 7,
       "2026-10-02": 7,
       "2026-10-03": 7,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 7
     },
     "tickflow-org/tickflow": {
       "2026-09-03": 574,
@@ -7913,7 +8154,8 @@
     "titechprabhasolutions/Brahma-Ai-Evo": {
       "2026-10-02": 9,
       "2026-10-03": 17,
-      "2026-10-04": 22
+      "2026-10-04": 22,
+      "2026-10-05": 28
     },
     "tonyd2wild/DeepSeek-V4.1-Flash-vLLM-DGX-Spark": {
       "2026-09-11": 38,
@@ -7949,7 +8191,8 @@
       "2026-09-29": 44,
       "2026-10-02": 43,
       "2026-10-03": 44,
-      "2026-10-04": 44
+      "2026-10-04": 44,
+      "2026-10-05": 45
     },
     "tonyd2wild/Qwen3.8-Flash-Next-NVFP4-DGX-Spark": {
       "2026-08-31": 48,
@@ -7963,7 +8206,6 @@
       "2026-09-09": 87
     },
     "traceloop/openllmetry": {
-      "2026-09-19": 7441,
       "2026-09-20": 7443,
       "2026-09-21": 7441,
       "2026-09-22": 7442,
@@ -7977,7 +8219,8 @@
       "2026-09-30": 7461,
       "2026-10-02": 7465,
       "2026-10-03": 7467,
-      "2026-10-04": 7468
+      "2026-10-04": 7468,
+      "2026-10-05": 7470
     },
     "tractorjuice/arc-kit": {
       "2026-09-23": 2241,
@@ -8006,7 +8249,6 @@
       "2026-09-22": 958
     },
     "tradecatlabs/vibe-coding-cn": {
-      "2026-09-19": 16291,
       "2026-09-20": 16307,
       "2026-09-21": 16323,
       "2026-09-22": 16340,
@@ -8020,7 +8262,8 @@
       "2026-09-30": 16936,
       "2026-10-02": 17026,
       "2026-10-03": 17037,
-      "2026-10-04": 17070
+      "2026-10-04": 17070,
+      "2026-10-05": 17112
     },
     "tradingeconomics/tradingeconomics-js": {
       "2026-09-02": 27,
@@ -8057,7 +8300,8 @@
       "2026-09-30": 379,
       "2026-10-02": 379,
       "2026-10-03": 379,
-      "2026-10-04": 379
+      "2026-10-04": 379,
+      "2026-10-05": 379
     },
     "trickymind1324/personal-finance-agent": {
       "2026-09-16": 2,
@@ -8074,7 +8318,6 @@
       "2026-09-27": 11
     },
     "tripolskypetr/backtest-kit": {
-      "2026-09-19": 84,
       "2026-09-20": 85,
       "2026-09-21": 86,
       "2026-09-22": 86,
@@ -8087,7 +8330,8 @@
       "2026-09-29": 77,
       "2026-09-30": 77,
       "2026-10-02": 77,
-      "2026-10-04": 68
+      "2026-10-04": 68,
+      "2026-10-05": 70
     },
     "trymirai/uzu": {
       "2026-09-23": 1812,
@@ -8099,10 +8343,12 @@
       "2026-09-30": 1817,
       "2026-10-02": 1820,
       "2026-10-03": 1821,
-      "2026-10-04": 1821
+      "2026-10-04": 1821,
+      "2026-10-05": 1822
     },
     "tsaipifong/whirl-llm": {
-      "2026-10-04": 5
+      "2026-10-04": 5,
+      "2026-10-05": 9
     },
     "twinnydotdev/twinny": {
       "2026-09-23": 3650,
@@ -8115,7 +8361,8 @@
       "2026-09-30": 3659,
       "2026-10-02": 3663,
       "2026-10-03": 3662,
-      "2026-10-04": 3662
+      "2026-10-04": 3662,
+      "2026-10-05": 3662
     },
     "ugursertkaya-maker/edge-after-costs": {
       "2026-09-19": 3,
@@ -8145,7 +8392,8 @@
     },
     "useagenthq/threads": {
       "2026-10-03": 28,
-      "2026-10-04": 29
+      "2026-10-04": 29,
+      "2026-10-05": 29
     },
     "useagenthq/useagent": {
       "2026-09-03": 276,
@@ -8179,7 +8427,6 @@
       "2026-09-10": 7
     },
     "valkor-ai/loom": {
-      "2026-09-19": 1053,
       "2026-09-20": 1065,
       "2026-09-21": 1076,
       "2026-09-22": 1087,
@@ -8193,7 +8440,8 @@
       "2026-09-30": 1132,
       "2026-10-02": 1146,
       "2026-10-03": 1151,
-      "2026-10-04": 1158
+      "2026-10-04": 1158,
+      "2026-10-05": 1176
     },
     "vcruz305/GLM-5.3-Flash-EXL3-K2-DGX-Spark-recipe": {
       "2026-09-03": 21
@@ -8238,7 +8486,6 @@
       "2026-09-24": 529
     },
     "vincent212/kaspar-hft": {
-      "2026-09-19": 20,
       "2026-09-20": 20,
       "2026-09-21": 21,
       "2026-09-22": 23,
@@ -8252,7 +8499,8 @@
       "2026-09-30": 29,
       "2026-10-02": 29,
       "2026-10-03": 28,
-      "2026-10-04": 30
+      "2026-10-04": 30,
+      "2026-10-05": 30
     },
     "vinhdang111/french-equities-financial-analysis": {
       "2026-09-27": 2
@@ -8260,6 +8508,9 @@
     "vinilana/jev-gateway": {
       "2026-09-26": 228,
       "2026-09-27": 233
+    },
+    "visualHFT/VisualHFT": {
+      "2026-10-05": 1206
     },
     "vivian-labs/1point3acres-toolkit": {
       "2026-09-25": 10,
@@ -8270,7 +8521,8 @@
       "2026-09-30": 13,
       "2026-10-02": 13,
       "2026-10-03": 13,
-      "2026-10-04": 14
+      "2026-10-04": 14,
+      "2026-10-05": 14
     },
     "vivianaranha/llm-engineering-bootcamp-2026": {
       "2026-09-22": 8,
@@ -8287,7 +8539,6 @@
       "2026-09-09": 13
     },
     "vllm-project/vllm": {
-      "2026-09-19": 92135,
       "2026-09-20": 92204,
       "2026-09-21": 92278,
       "2026-09-22": 92387,
@@ -8301,10 +8552,10 @@
       "2026-09-30": 92975,
       "2026-10-02": 93051,
       "2026-10-03": 93088,
-      "2026-10-04": 93138
+      "2026-10-04": 93138,
+      "2026-10-05": 93192
     },
     "vllm-project/vllm-omni": {
-      "2026-09-19": 6893,
       "2026-09-20": 6915,
       "2026-09-21": 6948,
       "2026-09-22": 6981,
@@ -8318,7 +8569,8 @@
       "2026-09-30": 7143,
       "2026-10-02": 7023,
       "2026-10-03": 7031,
-      "2026-10-04": 7041
+      "2026-10-04": 7041,
+      "2026-10-05": 7048
     },
     "vukrosic/speculative-decoding-research": {
       "2026-08-31": 5
@@ -8341,10 +8593,10 @@
       "2026-09-30": 5224,
       "2026-10-02": 5232,
       "2026-10-03": 5229,
-      "2026-10-04": 5229
+      "2026-10-04": 5229,
+      "2026-10-05": 5234
     },
     "webull-inc/webull-openapi-python-sdk": {
-      "2026-09-19": 63,
       "2026-09-20": 64,
       "2026-09-21": 64,
       "2026-09-22": 64,
@@ -8358,7 +8610,8 @@
       "2026-09-30": 65,
       "2026-10-02": 66,
       "2026-10-03": 67,
-      "2026-10-04": 67
+      "2026-10-04": 67,
+      "2026-10-05": 67
     },
     "werg543/openflow": {
       "2026-09-28": 2,
@@ -8376,7 +8629,6 @@
       "2026-09-07": 54
     },
     "wingfoil-io/wingfoil": {
-      "2026-09-19": 223,
       "2026-09-20": 223,
       "2026-09-21": 223,
       "2026-09-22": 223,
@@ -8390,7 +8642,11 @@
       "2026-09-30": 225,
       "2026-10-02": 225,
       "2026-10-03": 225,
-      "2026-10-04": 226
+      "2026-10-04": 226,
+      "2026-10-05": 228
+    },
+    "wnstnb/foliome": {
+      "2026-10-05": 7
     },
     "wodelt-tishellor/web-3d-modeling-workflow": {
       "2026-09-09": 10,
@@ -8402,6 +8658,9 @@
       "2026-09-18": 12,
       "2026-09-19": 13,
       "2026-09-20": 13
+    },
+    "wshobson/maverick-mcp": {
+      "2026-10-05": 701
     },
     "xLLM-AI/xllm": {
       "2026-08-31": 1543,
@@ -8422,7 +8681,6 @@
       "2026-09-23": 99
     },
     "xLydianSoftware/Qubx": {
-      "2026-09-19": 69,
       "2026-09-20": 69,
       "2026-09-21": 69,
       "2026-09-22": 69,
@@ -8436,7 +8694,8 @@
       "2026-09-30": 70,
       "2026-10-02": 70,
       "2026-10-03": 70,
-      "2026-10-04": 70
+      "2026-10-04": 70,
+      "2026-10-05": 71
     },
     "xhluca/session-migrate": {
       "2026-08-31": 74
@@ -8469,7 +8728,6 @@
       "2026-09-12": 2
     },
     "xorbitsai/inference": {
-      "2026-09-19": 9576,
       "2026-09-20": 9579,
       "2026-09-21": 9581,
       "2026-09-22": 9585,
@@ -8483,7 +8741,8 @@
       "2026-09-30": 9594,
       "2026-10-02": 9596,
       "2026-10-03": 9594,
-      "2026-10-04": 9596
+      "2026-10-04": 9596,
+      "2026-10-05": 9598
     },
     "xsoway/codebase-graph-prd-rules": {
       "2026-09-25": 13,
@@ -8494,7 +8753,8 @@
       "2026-09-30": 22,
       "2026-10-02": 24,
       "2026-10-03": 25,
-      "2026-10-04": 25
+      "2026-10-04": 25,
+      "2026-10-05": 26
     },
     "xzf-thu/VoiceMem": {
       "2026-08-31": 416
@@ -8509,13 +8769,15 @@
       "2026-09-30": 3,
       "2026-10-02": 3,
       "2026-10-03": 3,
-      "2026-10-04": 3
+      "2026-10-04": 3,
+      "2026-10-05": 3
     },
     "yanght27/GPU-Perf-Playground": {
       "2026-08-31": 104
     },
     "yas7122007-create/crypto-signal-bot": {
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 2
     },
     "yashab-cyber/pumpfun": {
       "2026-08-31": 3,
@@ -8539,10 +8801,10 @@
       "2026-09-30": 2,
       "2026-10-02": 2,
       "2026-10-03": 2,
-      "2026-10-04": 2
+      "2026-10-04": 2,
+      "2026-10-05": 2
     },
     "yennanliu/InvestSkill": {
-      "2026-09-19": 215,
       "2026-09-20": 215,
       "2026-09-21": 216,
       "2026-09-22": 217,
@@ -8555,7 +8817,8 @@
       "2026-09-29": 225,
       "2026-09-30": 229,
       "2026-10-02": 230,
-      "2026-10-04": 236
+      "2026-10-04": 236,
+      "2026-10-05": 236
     },
     "yetone/cumora": {
       "2026-08-31": 3339
@@ -8570,7 +8833,8 @@
       "2026-09-30": 3096,
       "2026-10-02": 4127,
       "2026-10-03": 4307,
-      "2026-10-04": 4506
+      "2026-10-04": 4506,
+      "2026-10-05": 4922
     },
     "yhilpisch/algocolab": {
       "2026-09-10": 2,
@@ -8586,7 +8850,8 @@
       "2026-09-30": 9,
       "2026-10-02": 12,
       "2026-10-03": 12,
-      "2026-10-04": 12
+      "2026-10-04": 12,
+      "2026-10-05": 13
     },
     "yorkeccak/finance": {
       "2026-09-10": 897,
@@ -8604,7 +8869,8 @@
     "yukayuchen-star/stock_analyse": {
       "2026-09-30": 7,
       "2026-10-03": 7,
-      "2026-10-04": 7
+      "2026-10-04": 7,
+      "2026-10-05": 7
     },
     "yys9253462-gif/artemis": {
       "2026-09-20": 5,
@@ -8623,7 +8889,8 @@
       "2026-09-30": 7255,
       "2026-10-02": 7267,
       "2026-10-03": 7272,
-      "2026-10-04": 7273
+      "2026-10-04": 7273,
+      "2026-10-05": 7275
     },
     "zai-org/ZCode": {
       "2026-09-21": 3368,
@@ -8661,7 +8928,8 @@
     },
     "zhuyansen/awesome-claude-video-skills": {
       "2026-10-03": 384,
-      "2026-10-04": 398
+      "2026-10-04": 398,
+      "2026-10-05": 412
     },
     "zorost/sparkduet": {
       "2026-08-31": 71,
@@ -8691,7 +8959,8 @@
     "zzhahn/a_stock_level2_data": {
       "2026-10-02": 6,
       "2026-10-03": 6,
-      "2026-10-04": 12
+      "2026-10-04": 12,
+      "2026-10-05": 19
     }
   },
   "repositories": {
@@ -9965,6 +10234,28 @@
       "stars": 28,
       "topics": [],
       "url": "https://github.com/Synpath-ai/prediction-market-arbitrage-trading-bot"
+    },
+    "TA-Lib/ta-lib": {
+      "created_at": "2016-08-20",
+      "description": "Technical analysis library: indicators and candlestick patterns in C, Java, C# and Rust",
+      "discovery": "active",
+      "first_seen": "2026-10-05",
+      "forks": 299,
+      "full_name": "TA-Lib/ta-lib",
+      "id": 66132152,
+      "language": "C",
+      "license": "BSD-3-Clause",
+      "pushed_at": "2026-10-05",
+      "score": 17.91,
+      "star_growth_7d": null,
+      "stars": 1691,
+      "topics": [
+        "financial",
+        "series-analysis",
+        "ta-lib",
+        "technical-analysis"
+      ],
+      "url": "https://github.com/TA-Lib/ta-lib"
     },
     "TraderAlice/OpenAlice": {
       "created_at": "2026-02-18",
@@ -12169,6 +12460,44 @@
       ],
       "url": "https://github.com/tradingstrategy-ai/trading-strategy"
     },
+    "visualHFT/VisualHFT": {
+      "created_at": "2022-09-20",
+      "description": "VisualHFT Terminal: open-source observability and decision terminal for electronic trading desks. Live Level 2 order books, microstructure analytics, and quantitative execution monitoring.",
+      "discovery": "active",
+      "first_seen": "2026-10-05",
+      "forks": 249,
+      "full_name": "visualHFT/VisualHFT",
+      "id": 538784585,
+      "language": "C#",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-05",
+      "score": 17.33,
+      "star_growth_7d": null,
+      "stars": 1206,
+      "topics": [
+        "analytics",
+        "csharp",
+        "high-frequency-analytics",
+        "high-frequency-data",
+        "high-frequency-trading",
+        "limit-order-book",
+        "market-analytics",
+        "market-data",
+        "market-microstructure",
+        "mvvm",
+        "mvvm-architecture",
+        "mvvm-pattern",
+        "orderbook-tick-data",
+        "tca",
+        "trading",
+        "trading-algorithms",
+        "trading-platform",
+        "wpf",
+        "wpf-application",
+        "wpf-ui"
+      ],
+      "url": "https://github.com/visualHFT/VisualHFT"
+    },
     "wangzhe3224/awesome-systematic-trading": {
       "created_at": "2021-12-11",
       "description": "A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, and more | 量化交易 | 量化投资",
@@ -12243,6 +12572,44 @@
         "time-series"
       ],
       "url": "https://github.com/wingfoil-io/wingfoil"
+    },
+    "wshobson/maverick-mcp": {
+      "created_at": "2025-08-24",
+      "description": "Stock market MCP server for Yahoo Finance data, technical analysis, portfolio tracking, and Python backtesting. Runs locally with no API key for core tools.",
+      "discovery": "active",
+      "first_seen": "2026-10-05",
+      "forks": 162,
+      "full_name": "wshobson/maverick-mcp",
+      "id": 1043767874,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-05",
+      "score": 16.39,
+      "star_growth_7d": null,
+      "stars": 701,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "backtesting",
+        "claude",
+        "fastmcp",
+        "finance",
+        "financial-analysis",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "portfolio-tracking",
+        "python",
+        "quantitative-finance",
+        "stock-analysis",
+        "stock-market",
+        "stock-screening",
+        "stocks",
+        "technical-analysis",
+        "yfinance"
+      ],
+      "url": "https://github.com/wshobson/maverick-mcp"
     },
     "yennanliu/InvestSkill": {
       "created_at": "2026-02-16",
@@ -12756,11 +13123,31 @@
       "2610.01769",
       "2610.01784",
       "2610.01950",
-      "2610.02163"
+      "2610.02163",
+      "2610.02255",
+      "2610.02456",
+      "2610.02522",
+      "2610.02800",
+      "2610.02815",
+      "2610.02863",
+      "2610.02866",
+      "2610.02952",
+      "2610.02953",
+      "2610.03007",
+      "2610.03027",
+      "2610.03055",
+      "2610.03088",
+      "2610.03128",
+      "2610.03198",
+      "2610.03228",
+      "2610.03286",
+      "2610.03394",
+      "2610.03406"
     ],
     "repository_names": [
       "0Chencc/clawgod",
       "0xBakeer/TandemLLM",
+      "0xSero/DeepSeek-V4.1-Flash-Two-Sparks",
       "0xohioism/polymarket-crypto-5m-15min-trading-bot",
       "0xramm/Indian-Stock-Market-API",
       "555cute/r20-quantum-trader",
@@ -12866,6 +13253,7 @@
       "StockSharp/StockSharp",
       "Superalgos/Superalgos",
       "Synpath-ai/prediction-market-arbitrage-trading-bot",
+      "TA-Lib/ta-lib",
       "TencentCloud/TencentDB-Agent-Memory",
       "The-Vibe-Company/Quivr",
       "The-Vibe-Company/quivr",
@@ -12880,6 +13268,7 @@
       "WordPress/agent-skills",
       "XHToken/Spark-X2.5",
       "Xu123-Bob/Baize",
+      "Yamz-Labs/kyojin",
       "Yevanchen/reclaim-code-entropy",
       "Yinsongxu/LLM2Jev",
       "acryldev/acryl",
@@ -12951,6 +13340,7 @@
       "dearvn/trading-futures-tradingview-script",
       "deepset-ai/haystack",
       "dewydev10/digital-showcase",
+      "disler/ten-levels-of-jev",
       "dphnAI/sonar",
       "drowzeys/keys-vLLm.0.27.1-GLM-5.3-Flash-NVFP4-NVFP4KV-1M-Context-Abliterated",
       "duty1g/x64dbg-mcp-server",
@@ -12995,6 +13385,7 @@
       "iOfficeAI/AionUi",
       "ikermoel/open-alternative-jev",
       "intel/auto-round",
+      "isoshimodo/ai-data-extractor",
       "iterativv/NostalgiaForInfinity",
       "itriones/AI-Quant-Framework",
       "ivyfan-toowell/IvyClaw",
@@ -13037,6 +13428,8 @@
       "marketcalls/openalgo-charts",
       "mastra-ai/mastra",
       "matthewprice/JobFinderOS",
+      "mcpHQ/awesome-mcp-servers",
+      "merijjeyn/jive",
       "michaelxu688/ai-trading-signals-engine",
       "mingti-org/phyai",
       "mirkovicdev/HFTENGINE",
@@ -13101,6 +13494,7 @@
       "sgl-project/sglang",
       "shanraisshan/claude-code-best-practice",
       "shashankvemuri/Finance",
+      "shinshin86/mesh-avatar-studio",
       "shoemoney/shoemoneyx",
       "shtjww/llm-inference-capacity-handbook",
       "shy3130/tick-stock-panel",
@@ -13140,10 +13534,12 @@
       "vicoa-ai/vicoa",
       "viettranx/3dviz-pro-max",
       "vinilana/jev-gateway",
+      "visualHFT/VisualHFT",
       "vllm-project/vllm",
       "vllm-project/vllm-omni",
       "wangzhe3224/awesome-systematic-trading",
       "wingfoil-io/wingfoil",
+      "wshobson/maverick-mcp",
       "xLLM-AI/xllm",
       "xiaomoBoy/pi-bluebook",
       "xorbitsai/inference",
@@ -19956,6 +20352,266 @@
         "published": "2026-10-01",
         "title": "MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference",
         "updated": "2026-10-01"
+      },
+      "2610.02522": {
+        "abstract": "Within the shared industry vision of AI-RAN, AI-and-RAN seeks to co-locate virtualized radio access network (vRAN) workloads and AI services on shared GPUs. This sharing is inherently asymmetric: vRAN workload is latency-critical, whereas the machine learning (ML) workload is a throughput-oriented, best-effort co-tenant. We present Beaver, a GPU sharing system that jointly manages compute and memory resources while protecting the vRAN's strict processing deadline. Beaver sizes the vRAN's streaming multiprocessor (SM) allocation from each slot's scheduled workload, repartitions SM allocations at slot granularity, and rewrites compiled ML kernels to yield HBM bandwidth during the vRAN's memory-critical phases. We implement Beaver and evaluate it using NVIDIA Aerial with heterogeneous multi-cell workloads, real-world cellular traces, production inference kernels, and full-stack LLM serving. On an H200 GPU, Beaver keeps the vRAN's p99.9 latency within its 1.5ms uplink deadline while retaining 74% of Llama-3.3-70B serving throughput. It also incurs no observed deadline misses under replayed cellular traces, protects a 375us downlink deadline, and generalizes to other GPUs including A100, GB10 and GH200.",
+        "authors": [
+          "Yuncheng Yao",
+          "Zhenzhou Qi",
+          "Junyao Zheng",
+          "Chung-Hsuan Tung",
+          "Danyang Zhuo",
+          "Tingjun Chen"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.NI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.02522",
+        "paper_url": "https://arxiv.org/abs/2610.02522",
+        "pdf_url": "https://arxiv.org/pdf/2610.02522",
+        "published": "2026-10-01",
+        "title": "Beaver: Elastic GPU Sharing between ML and Latency-Critical vRAN Workloads",
+        "updated": "2026-10-01"
+      },
+      "2610.02800": {
+        "abstract": "Speculative decoding accelerates autoregressive generation by using a lightweight draft to propose multiple tokens for parallel verification. However, existing methods often require an additional draft model or weight representation, introducing non-negligible memory overhead on resource-constrained devices. Self-speculative approaches reduce this overhead, yet still face trade-offs between draft quality, target quality, and storage efficiency. We propose BitNest, a bit-nested speculative decoding framework that embeds a low-precision draft directly into the higher-precision target representation. Instead of deriving a draft from a predefined target, BitNest first constructs a strong low-precision base and then recovers the higher-precision target through residual refinement, enabling both models to share a single physical weight representation. BitNest further extends this progressive-precision design to the KV cache for long-context inference. Across multiple 7B--8B edge-friendly LLMs and diverse workloads, BitNest achieves an average speculative acceptance rate of 95.2% while closely preserving higher-precision model quality, and delivers 1.48--1.61x end-to-end speedup over FP16 autoregressive decoding. On the LLaMA models supported by all representative self-speculative baselines, BitNest also achieves consistently competitive or higher decoding speedup.",
+        "authors": [
+          "Chence Yang",
+          "Ningxi Cheng",
+          "Arash Akbari",
+          "Qitao Tan",
+          "Qingchan Zhu",
+          "Ci Zhang",
+          "Changdi Yang",
+          "Yanzhi Wang",
+          "Wei Niu",
+          "Jinhui Wang",
+          "Jin Lu",
+          "Geng Yuan"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.02800",
+        "paper_url": "https://arxiv.org/abs/2610.02800",
+        "pdf_url": "https://arxiv.org/pdf/2610.02800",
+        "published": "2026-10-02",
+        "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference Acceleration",
+        "updated": "2026-10-02"
+      },
+      "2610.02815": {
+        "abstract": "Long chain-of-thought reasoning substantially increases KV-cache memory during autoregressive decoding, as every generated token introduces new key and value states and causes the cache to grow linearly with decoding length. Existing KV-cache compression methods typically control this growth through token eviction, but irreversible deletion can remove historical states that later reasoning may need to revisit. SVD-based low-rank compression provides an alternative by retaining all positions with a more compact representation. However, extending it from a fixed prompt cache to online decoding is non-trivial. Through our investigation, we find that if the basis is updated for new tokens while old tokens keep their coordinates in the old basis, the stored history drifts substantially. Based on this observation, we propose iS-KV, an online low-rank KV-cache compression method for long-horizon reasoning. iS-KV keeps a recent window exact while incrementally folding older states into bounded-rank representations. As the low-rank basis evolves, it synchronizes historical coordinates with the updated basis to maintain representation consistency. On DeepSeek-R1-Distill-Llama-8B, iS-KV achieves 82.6% accuracy at 4.06-fold persistent-KV compression, close to the original model's 83.6%. On Qwen3-8B, it achieves 89.2% accuracy at 5.64-fold compression. Under matched memory budgets, iS-KV consistently outperforms token-eviction baselines.",
+        "authors": [
+          "Yiren Zhao",
+          "Guanghui Song",
+          "Tianrui Qin",
+          "Kejiang Ye",
+          "Cheng-zhong Xu",
+          "Xitong Gao"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.02815",
+        "paper_url": "https://arxiv.org/abs/2610.02815",
+        "pdf_url": "https://arxiv.org/pdf/2610.02815",
+        "published": "2026-10-02",
+        "title": "iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
+        "updated": "2026-10-02"
+      },
+      "2610.02953": {
+        "abstract": "Long-context LLM serving is increasingly bottlenecked by KV-cache memory, especially in resource-constrained scenarios. Among existing KV-cache compression strategies, token-wise methods reduce cached states but risk information loss through eviction or condensation, while feature-wise methods reduce per-token KV dimensions but can require full-dimensional reconstruction to apply positional embedding, limiting decoding speedups. We introduce SlimKV, a question-agnostic joint token-feature KV-cache compression method. SlimKV uses low-rank-aware training to compress long contexts into beacon memory states with latent KV representations, together with layer-adaptive rank allocation. We further uncover a positional asymmetry: removing key-side RoPE affects beacon and raw tokens differently, with much smaller degradation for beacon tokens. Exploiting this asymmetry, SlimKV trains beacon KV projections under a K-RoPE-free constraint and enables latent-space attention during decoding, mitigating reconstruction latency. On LongBench, SlimKV outperforms baselines at 16x/32x compression and remains leading at 4x/8x, where it retains over 96% of the uncompressed model's score. Needle-in-a-Haystack confirms robustness across evidence positions, and efficiency evaluation shows up to 7.34x attention speedup and 3.38x end-to-end decoding speedup over the uncompressed model at 128K length.",
+        "authors": [
+          "Zihan Teng",
+          "Jiayu Zhao",
+          "Wentao Ren",
+          "Minhao Fan",
+          "Tianrui Ma",
+          "Song Chen",
+          "Weichen Liu"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.02953",
+        "paper_url": "https://arxiv.org/abs/2610.02953",
+        "pdf_url": "https://arxiv.org/pdf/2610.02953",
+        "published": "2026-10-02",
+        "title": "SlimKV: Joint Token-Feature KV Cache Compression with Reconstruction-Free Beacon Attention",
+        "updated": "2026-10-02"
+      },
+      "2610.03007": {
+        "abstract": "Long-output reasoning shifts the KV-cache bottleneck from the fixed prompt to the generated trace. Existing reasoning-cache eviction methods largely treat cached entries as routing objects, estimating whether an old key will still be read, will recur, or can be replaced. This routing-only view overlooks two effects: low-attention entries can carry large value payloads whose removal changes future predictions, and newly generated states can appear stale before later queries have had a chance to read them. We introduce AvoKV-E, a training-free eviction policy that first delays eligibility for recent states and then ranks eligible entries using candidate-normalized read pressure, key redundancy, and value-payload potential. According to empirical evaluation across different models and datasets, AvoKV-E matches or exceeds redundancy-aware, recurrence-based, and thought-adaptive eviction baselines at matched active-KV budgets, with its largest gains in the tightest-cache regime. Component and counterfactual analyses further connect these gains to delayed observation, payload-aware scoring, redundancy, and scale-robust normalization. Together, the results show that long-reasoning KV eviction should preserve not only keys that are likely to be read, but also the value payloads that sustain the reasoning trajectory.",
+        "authors": [
+          "Han Yu",
+          "Wenhui Zhu",
+          "Xiwen Chen",
+          "Zhipeng Wang",
+          "Hejian Sang",
+          "Han Shi",
+          "Menglin Zhou",
+          "Xuanzhao Dong",
+          "Minzhou Huang",
+          "Rui Cai",
+          "Hao Wang",
+          "Alborz Geramifard"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03007",
+        "paper_url": "https://arxiv.org/abs/2610.03007",
+        "pdf_url": "https://arxiv.org/pdf/2610.03007",
+        "published": "2026-10-02",
+        "title": "AvoKV-E: Payload-Aware KV Cache Eviction for Long Reasoning",
+        "updated": "2026-10-02"
+      },
+      "2610.03027": {
+        "abstract": "The key-value (KV) cache becomes a major memory bottleneck in long-context LLM inference, placing substantial pressure on memory capacity and bandwidth. To mitigate this bottleneck, vector quantization (VQ) has emerged as a promising approach for aggressive KV cache compression. However, existing VQ methods degrade substantially in the 1-bit regime. At such extreme compression, each codebook must represent a larger group of channels with a limited set of centroids, making effective use of its capacity increasingly challenging. To address this, we introduce $\\textbf{TaSQ}$, which tailors the VQ target space by combining query-guided channel weighting, cross-head normalization, and covariance-aware channel grouping to better reflect the error sensitivity and statistical structure of cached activations. Since these transforms are RoPE-compatible and can be easily merged into projection weights and codebooks, TaSQ preserves the conventional VQ lookup structure and adds negligible serving overhead. Across general, long-chain-of-thought reasoning, and long-context retrieval benchmarks, TaSQ consistently outperforms existing low-bit KV cache VQ baselines while preserving reasoning stability. On a single RTX 6000 Ada GPU, its SGLang implementation supports up to $14\\times$ larger batch sizes and achieves $1.87\\times$ higher peak throughput compared to the BF16 baseline.",
+        "authors": [
+          "Minsoo Cheong",
+          "Donghyun Son",
+          "Sungjoo Yoo"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03027",
+        "paper_url": "https://arxiv.org/abs/2610.03027",
+        "pdf_url": "https://arxiv.org/pdf/2610.03027",
+        "published": "2026-10-02",
+        "title": "Tailoring the Quantization Space for 1-Bit KV Cache Compression",
+        "updated": "2026-10-02"
+      },
+      "2610.03198": {
+        "abstract": "The memory footprint of the key-value (KV) cache constrains the practical use of long-context models, and it dominates cost when one prefilled context must later serve many different queries. In this reusable setting, query-agnostic compression trades cost against quality: lightweight estimators are cheap but less accurate, whereas full-context reconstruction scoring is more accurate yet reprocesses the entire prompt. We introduce KV$^2$, a query-agnostic KV-cache compression method based on selective reconstruction. KV$^2$ first uses a lightweight proxy scorer to identify informative in-context tokens, then reprocesses only this subset to compute final eviction scores. On RULER, Needle-in-a-Haystack, and LongBench, KV$^2$'s margin over baselines widens as the budget tightens: on RULER 16K at a 2% KV-cache budget it improves the average score over the next-best baseline by more than 40 percentage points, and on LongBench it attains the highest average across 2%-10% budgets at lower compression-stage runtime and peak memory than full-context reconstruction. Reusable KV-cache compression thus does not require reprocessing the full context. Our code is available at https://anonymous.4open.science/r/KVsquared-0B97.",
+        "authors": [
+          "Johannes Wesch",
+          "Danni Liu",
+          "Jan Niehues"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03198",
+        "paper_url": "https://arxiv.org/abs/2610.03198",
+        "pdf_url": "https://arxiv.org/pdf/2610.03198",
+        "published": "2026-10-02",
+        "title": "KV$^2$: A Self-Refining KV Cache",
+        "updated": "2026-10-02"
+      },
+      "2610.03228": {
+        "abstract": "Numerical execution paths can change greedy output; a mismatch alone does not predict the remaining trajectory. On the tested B570 stack, we select a draft-free target-only micro-batch-one predictor using exposed discovery data, then freeze complete generated-ID predictions before reserved live speculation. It matches 72/72 capped sequences on 24 repeat-stable prompts, including all 12 runs of four reference-divergent prompts; the same-set reference matches 60/72. The predictor is sufficient for this path, but it neither restores qualification nor identifies a unique numerical cause. Separate B570 same-state forks test intervention effects; RTX proposal/replay programs test reproduction while sharing numerical routines. We assess cost separately. Newly direct-ID-qualified RTX serialization is slower within its instrumented post-prefill boundary ($0.646\\times$ target/serialized latency). At fixed measured progress and target work, 358H remains below parity even with draft and residual costs removed. Qualified M4 Guard beats target-only but loses to fixed speculation. These results give testable diagnoses and engineering decisions about lossless compatibility and complete cost on the measured paths; they establish no portable decoding or control gain.",
+        "authors": [
+          "Chengzhan Li"
+        ],
+        "categories": [
+          "cs.PF"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03228",
+        "paper_url": "https://arxiv.org/abs/2610.03228",
+        "pdf_url": "https://arxiv.org/pdf/2610.03228",
+        "published": "2026-10-02",
+        "title": "Execution-Path Qualification and Realized Costs in Speculative Decoding on Consumer Systems",
+        "updated": "2026-10-02"
+      },
+      "2610.03286": {
+        "abstract": "Agentic Reinforcement Learning (RL) trains LLM agents through multi-turn interactions with external tool environments. Its multi-turn nature exposes two system-level bottlenecks unaddressed by existing agentic RL frameworks. First, end-to-end training throughput is constrained by the slowest trajectories to complete, yet optimizing per-GPU utilization alone scatters rollout progress across many groups, delaying the completion of enough groups to unblock the next training step. Second, tool sandboxes are statically over-provisioned by their declared memory ceilings, leaving most physical memory stranded while replicating near-identical state across sandboxes launched from the same prompt. We present VenusRL, a fully disaggregated agentic RL system that addresses both bottlenecks. VenusRL's priority-aware action scheduler uses length-prediction heuristics to identify sample groups whose completion is most likely to unblock the next training step, and pushes them ahead of others across batch admission, KV Cache residency, and cross-worker request orchestration. VenusRL's environment resource manager combines a memory-aware admission threshold with a template-keyed page-sharing pool, packing more sandboxes per node while preserving strict memory isolation via write-protected page table entry aliasing and copy-on-write. Across representative agentic RL workloads, VenusRL achieves up to 4.24x end-to-end training speedup over state-of-the-art baselines and reduces environment cost by up to 89%.",
+        "authors": [
+          "Mingjun Zhang",
+          "Yucheng Li",
+          "Menghao Zhang",
+          "Shuyong Zhu",
+          "Ping Zhang",
+          "Xiaohe Hu",
+          "Jun Chen",
+          "Zhixin Wang",
+          "Xutong Wang",
+          "He Liu",
+          "Yanmin Jia",
+          "Shengrong Zhu",
+          "Peng Sun",
+          "Mingjie Zhang",
+          "Liming Liu",
+          "Jinlong Hou",
+          "Yuan Cheng",
+          "Yujun Zhang"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03286",
+        "paper_url": "https://arxiv.org/abs/2610.03286",
+        "pdf_url": "https://arxiv.org/pdf/2610.03286",
+        "published": "2026-10-02",
+        "title": "VenusRL: A Fully Disaggregated Agentic RL System with Priority Scheduling and Scalable Interaction",
+        "updated": "2026-10-02"
+      },
+      "2610.03394": {
+        "abstract": "Emerging multi-agent LLMs demand privacy-preserving edge deployment, yet current inference systems struggle with these collaborative workflows. Specifically, the memory-bound decode phase causes severe bus contention on unified memory architectures (UMA), paralyzing naive CPU-GPU co-execution. Furthermore, speculative decoding in multi-agent workloads faces extreme variance in drafting difficulty, alternating between complex reasoning and predictable structured generation. Compounded by frequent tool-induced stalls, this highly fragmented execution severely underutilizes hardware and defeats traditional static batching. We present EdgeAgent, a cross-layer inference system explicitly co-designed for edge UMA and multi-agent workloads. At the micro-architectural level, it bypasses rigid graph-compiler constraints to enable zero-copy UMA-aware tensor parallelism, utilizing asymmetric memory layouts to fully saturate both CPU and GPU compute units. At the scheduling level, it dynamically allocates draft budgets based on real-time sequence predictability to bound bandwidth waste. Concurrently, an asynchronous suspend-and-yield mechanism actively evicts stalled agents, ensuring continuous hardware saturation during unpredictable tool invocations. Extensive evaluations on an Apple M4 SoC demonstrate that the UMA-aware execution alone contributes a 1.29x speedup over batched speculative decoding. Adding the agent-aware scheduling lifts the full EdgeAgent system to a 1.77x speedup under extreme tool-use latencies.",
+        "authors": [
+          "Yuhai Long",
+          "Yuanxin Wei",
+          "Kai Wu",
+          "Jinhui Wei",
+          "Dan Huang",
+          "Jiangsu Du"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.MA"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03394",
+        "paper_url": "https://arxiv.org/abs/2610.03394",
+        "pdf_url": "https://arxiv.org/pdf/2610.03394",
+        "published": "2026-10-02",
+        "title": "EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures",
+        "updated": "2026-10-02"
       }
     },
     "vibe_coding": {
@@ -24272,6 +24928,97 @@
         "published": "2026-10-01",
         "title": "AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents",
         "updated": "2026-10-01"
+      },
+      "2610.02456": {
+        "abstract": "AI coding agents are untrusted system components, yet they require autonomy on the developer machines they run on. This contradiction is a security problem. Sandboxes provide an isolated environment, but for local macOS development, the existing local, open-source options for AI coding agents are few in number and cumbersome to use. I conducted a formative online user survey which indicates that fewer than 40% of AI coding agent users run their agents in a sandbox and identifies the top usability barriers hindering AI coding agent sandbox adoption. These findings are used to develop SideKernel: an open-source, local, microVM-based macOS sandbox for AI coding agents designed for usability. To evaluate SideKernel, I compiled a list of sandboxes available on the market and filtered it against five inclusion criteria. Then I performed a comparative analysis between SideKernel and the sandboxes that satisfy these criteria, across 23 capability tests derived from the usability barriers revealed by the user survey. I discovered that only a few sandboxes are similar to SideKernel, and that among those, Docker Sandboxes and SideKernel score highest on capability features related to usability. A secondary contribution of this paper is a survey of the existing solution space for local, open-source, microVM-based macOS sandboxes for AI coding agents.",
+        "authors": [
+          "Dimitrios Prasakis"
+        ],
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "code_match": "title-match",
+        "code_url": "https://github.com/minoansecurity/sidekernel",
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.02456",
+        "paper_url": "https://arxiv.org/abs/2610.02456",
+        "pdf_url": "https://arxiv.org/pdf/2610.02456",
+        "published": "2026-10-01",
+        "title": "SideKernel: A Usable microVM Sandbox for AI Coding Agents on macOS",
+        "updated": "2026-10-01"
+      },
+      "2610.02952": {
+        "abstract": "Test-driven development gives AI coding agents executable requirements for implementing software. Because these agents can adapt their implementations to the examples they observe, passing a predetermined collection of tests can leave substantial parts of the intended behavior unimplemented. We propose Generative Test-Driven Development (GTDD), a formulation of test-driven development in which a separate testing agent generates new inputs after each candidate implementation is fixed, using a human-specified behavioral contract and the feedback from earlier rounds. A trusted evaluator checks these inputs, returns reduced counterexamples to the coding agent, and saves them for regression testing, so development continually confronts failures beyond the initial examples. We characterize the evidence that this process provides through a finite-population analysis of false acceptance under adaptive candidate selection. The resulting bounds quantify how test visibility and repeated feedback affect acceptance, and show that fresh random audits after candidate commitment control false acceptance across development rounds. In a paired experiment on a stateful key-value store, both policies that regenerated tests during development ended with lower mean failure rates than the policy whose tests were generated once by the same language model, and giving the tester the candidate's source produced no detectable additional improvement. Further conditions requesting equal numbers of tests did not isolate any single feature of the policies as the source of this difference. GTDD combines this adaptive development feedback with established regression tests and an independent acceptance rule.",
+        "authors": [
+          "Masahiro Kato"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.LG",
+          "stat.ME",
+          "stat.ML"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.02952",
+        "paper_url": "https://arxiv.org/abs/2610.02952",
+        "pdf_url": "https://arxiv.org/pdf/2610.02952",
+        "published": "2026-10-02",
+        "title": "GTDD: Generative Test-Driven Development for AI Coding Agents with Adversarial Testing",
+        "updated": "2026-10-02"
+      },
+      "2610.03055": {
+        "abstract": "A coding agent can earn a passing grade by fixing its code, or by deleting the test that exposes the bug. Detecting such reward hacking requires recognizing attempted shortcuts, including those that fail. We release 173,561 annotated multi-turn coding trajectories from Qwen3-8B and show that supervising shortcut behavior independently of exploit success substantially improves detection. We introduce HACKTRACE, a behavior-supervised monitor that reads the internal states the agent already computes while generating code. Reusing these states enables monitoring before a turn is complete, without additional language-model tokens or passes. Combining this evidence with static features of the final files achieves a mean per-problem AUC of 0.997 with 8 ms of monitoring overhead, improving both accuracy and latency over monitors that run the model again on an honesty question and answer. The same generation states also provide an inexpensive monitoring signal for reinforcement learning. With strong GRPO penalties, HACKTRACE reduces the cheating share of passing solutions from 82-91% to 1-5%, while retaining honest, correct solutions and maintaining high detection accuracy as the policy evolves. Our results show that both the supervision target and the source of monitoring evidence matter for turning accurate detection into a useful training signal.",
+        "authors": [
+          "Hao Jiang",
+          "Xin Li",
+          "Annan Wang",
+          "Yichi Zhang",
+          "Weisi Lin"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03055",
+        "paper_url": "https://arxiv.org/abs/2610.03055",
+        "pdf_url": "https://arxiv.org/pdf/2610.03055",
+        "published": "2026-10-02",
+        "title": "hacktrace: behavior-supervised detection of reward hacking during code generation",
+        "updated": "2026-10-02"
+      },
+      "2610.03088": {
+        "abstract": "Coding agents powered by large language models (LLMs) repeatedly alternate between model inference and tool calls, creating long-lived sessions with reusable key-value (KV) states and asynchronous request resumptions. Logical readiness, however, does not ensure efficient admission in a shared serving system. Through direct trace analysis and trace-driven replay, we identify two mismatches: reusable KV states reside across storage tiers and incur unequal computational costs for state preparation, while requests with heterogeneous context lengths can decode inefficiently together. Our central insight is that exploiting admission flexibility can improve serving performance while preserving request progress. We present Coda, a coding-agent serving system that realizes this insight through a readiness-informed admission layer incorporating two mechanisms. Tiered-Aging state admission exploits bounded flexibility in admission order to improve admission efficiency and preserve request progress. Compatibility-Aware execution admission exploits flexibility in attention grouping within each model iteration to reduce mixed-context interference and improve shared decoding efficiency. For multi-worker configurations, Coda introduces a separate routing layer that considers KV-state residency, worker load, and request-to-worker context-length compatibility to guide efficient request placement. We evaluate Coda across different models and workloads against state-of-the-art coding-agent serving systems and vLLM. Across the single-worker and multi-worker experiments, Coda improves output-token and SLO-compliant throughput by 20.3% and 70.5% on average, with peak gains of 29.3% and 140.2%.",
+        "authors": [
+          "Youhe Jiang",
+          "Fangcheng Fu",
+          "Binhang Yuan",
+          "Krishna Malladi",
+          "Ehsan K. Ardestani",
+          "Zhan Shu",
+          "Adnan Aziz",
+          "Yi Xu"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-05",
+        "id": "2610.03088",
+        "paper_url": "https://arxiv.org/abs/2610.03088",
+        "pdf_url": "https://arxiv.org/pdf/2610.03088",
+        "published": "2026-10-02",
+        "title": "Coda: Exploiting Admission Flexibility for Coding-Agent Serving",
+        "updated": "2026-10-02"
       }
     }
   },
@@ -24299,6 +25046,28 @@
           "speculative-decoding"
         ],
         "url": "https://github.com/0xBakeer/TandemLLM"
+      },
+      "0xSero/DeepSeek-V4.1-Flash-Two-Sparks": {
+        "created_at": "2026-10-03",
+        "description": "DeepSeek-V4.1-Flash on two DGX Sparks: EXL3 routed experts, 262k context, 2M-token KV, vision, tools, MTP, bundled with Pi",
+        "discovery": "new",
+        "first_seen": "2026-10-05",
+        "forks": 4,
+        "full_name": "0xSero/DeepSeek-V4.1-Flash-Two-Sparks",
+        "id": 1402924075,
+        "language": "Shell",
+        "license": "MIT",
+        "pushed_at": "2026-10-03",
+        "score": 12.11,
+        "star_growth_7d": null,
+        "stars": 65,
+        "topics": [
+          "deepseek",
+          "dgx-spark",
+          "exl3",
+          "vllm"
+        ],
+        "url": "https://github.com/0xSero/DeepSeek-V4.1-Flash-Two-Sparks"
       },
       "ARahim3/kaggle-tpu-lab": {
         "created_at": "2026-08-31",
@@ -25408,6 +26177,31 @@
           "vllm"
         ],
         "url": "https://github.com/XHToken/Spark-X2.5"
+      },
+      "Yamz-Labs/kyojin": {
+        "created_at": "2026-10-02",
+        "description": "Kyojin: the Yamz inference engine for AMD Strix Halo (ROCm, gfx1151), built on ExLlamaV3. Runs 300B-class MoE models on one 128 GB mini PC.",
+        "discovery": "new",
+        "first_seen": "2026-10-05",
+        "forks": 3,
+        "full_name": "Yamz-Labs/kyojin",
+        "id": 1402338989,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-03",
+        "score": 10.43,
+        "star_growth_7d": null,
+        "stars": 24,
+        "topics": [
+          "amd",
+          "exl3",
+          "inference",
+          "llm",
+          "quantization",
+          "rocm",
+          "strix-halo"
+        ],
+        "url": "https://github.com/Yamz-Labs/kyojin"
       },
       "Yinsongxu/LLM2Jev": {
         "created_at": "2026-09-19",
@@ -30018,6 +30812,23 @@
         ],
         "url": "https://github.com/datawhalechina/easy-vibe"
       },
+      "disler/ten-levels-of-jev": {
+        "created_at": "2026-09-27",
+        "description": "Ten levels of Jev, from one smart if statement to a coding agent that reaches for Jev on its own",
+        "discovery": "new",
+        "first_seen": "2026-10-05",
+        "forks": 53,
+        "full_name": "disler/ten-levels-of-jev",
+        "id": 1391197420,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-09-27",
+        "score": 12.86,
+        "star_growth_7d": null,
+        "stars": 180,
+        "topics": [],
+        "url": "https://github.com/disler/ten-levels-of-jev"
+      },
       "duty1g/x64dbg-mcp-server": {
         "created_at": "2026-08-22",
         "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
@@ -30475,6 +31286,31 @@
         ],
         "url": "https://github.com/iOfficeAI/AionUi"
       },
+      "isoshimodo/ai-data-extractor": {
+        "created_at": "2026-10-03",
+        "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+        "discovery": "new",
+        "first_seen": "2026-10-05",
+        "forks": 38,
+        "full_name": "isoshimodo/ai-data-extractor",
+        "id": 1403406155,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-03",
+        "score": 13.14,
+        "star_growth_7d": null,
+        "stars": 118,
+        "topics": [
+          "ai-data",
+          "claude-code",
+          "cursor-ai",
+          "data-extraction",
+          "data-extractor",
+          "windsurf",
+          "windsurf-ai"
+        ],
+        "url": "https://github.com/isoshimodo/ai-data-extractor"
+      },
       "ivyfan-toowell/IvyClaw": {
         "created_at": "2026-09-13",
         "description": "A production-oriented multi-agent AI Agent system for software engineering.  |   面向软件研发任务的多智能体 AI Agent 工程系统",
@@ -30767,6 +31603,46 @@
         "stars": 152,
         "topics": [],
         "url": "https://github.com/matthewprice/JobFinderOS"
+      },
+      "mcpHQ/awesome-mcp-servers": {
+        "created_at": "2026-05-30",
+        "description": "A curated catalog of Model Context Protocol (MCP) servers for discovering and integrating AI tools, data sources, and services. Explore MCP servers across databases, developer tools, web automation, cloud infrastructure, productivity, AI agents, analytics, and more.",
+        "discovery": "active",
+        "first_seen": "2026-10-05",
+        "forks": 54,
+        "full_name": "mcpHQ/awesome-mcp-servers",
+        "id": 1254642429,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-04",
+        "score": 14.09,
+        "star_growth_7d": null,
+        "stars": 186,
+        "topics": [
+          "mcp",
+          "mcp-app",
+          "mcp-servers",
+          "mcp-tools",
+          "model-context-protocol"
+        ],
+        "url": "https://github.com/mcpHQ/awesome-mcp-servers"
+      },
+      "merijjeyn/jive": {
+        "created_at": "2026-09-21",
+        "description": "A terminal coding agent that plans work as executable graphs",
+        "discovery": "new",
+        "first_seen": "2026-10-05",
+        "forks": 16,
+        "full_name": "merijjeyn/jive",
+        "id": 1379986944,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-09-26",
+        "score": 12.67,
+        "star_growth_7d": null,
+        "stars": 177,
+        "topics": [],
+        "url": "https://github.com/merijjeyn/jive"
       },
       "missuo/herdrm": {
         "created_at": "2026-08-19",
@@ -31277,6 +32153,31 @@
           "vibe-coding"
         ],
         "url": "https://github.com/shanraisshan/claude-code-best-practice"
+      },
+      "shinshin86/mesh-avatar-studio": {
+        "created_at": "2026-10-04",
+        "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+        "discovery": "new",
+        "first_seen": "2026-10-05",
+        "forks": 16,
+        "full_name": "shinshin86/mesh-avatar-studio",
+        "id": 1403847264,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-04",
+        "score": 13.96,
+        "star_growth_7d": null,
+        "stars": 173,
+        "topics": [
+          "2d-animation",
+          "avatar",
+          "claude-code",
+          "codex",
+          "mesh-deformation",
+          "vtuber",
+          "webgl"
+        ],
+        "url": "https://github.com/shinshin86/mesh-avatar-studio"
       },
       "sno-ai/sno-station": {
         "created_at": "2026-09-19",
