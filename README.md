@@ -14,9 +14,9 @@
 
 ---
 
-# AI 应用研究日报 · 2026-10-10
+# AI 应用研究日报 · 2026-10-11
 
-本期新增：**0 篇论文**（其中 0 篇找到可能的代码）和 **0 个 GitHub 项目**。
+本期新增：**0 篇论文**（其中 0 篇找到可能的代码）和 **3 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
@@ -25,7 +25,11 @@
 
 ## GitHub 金融与交易工具
 
-本期没有发现符合条件的新项目。
+| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
+|---|---|---:|---:|---|---|
+| [lrvx/lrvx](https://github.com/lrvx/lrvx) | Framework for building trading systems | 227 | — | C++ | 近期活跃 |
+| [rundef/async_rithmic](https://github.com/rundef/async_rithmic) | Python async framework for Rithmic Protocol Buffer API | 122 | — | Python | 近期活跃 |
+| [aowang-ai/seris](https://github.com/aowang-ai/seris) | Open-source desktop AI trading assistant for market research: chat beside live charts, price alerts, local backtests, bring your own model. | 21 | — | TypeScript | 新项目 |
 
 
 ## Vibe Coding · 工作与学习增强
@@ -41,14 +45,14 @@
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. Product launch films and feature demos, made with a coding agent. | 2045 | — | Python | 新项目 |
-| [franzenzenhofer/big-arrow-on-the-screen](https://github.com/franzenzenhofer/big-arrow-on-the-screen) | Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. | 503 | — | Swift | 新项目 |
-| [ja1chen/actell](https://github.com/ja1chen/actell) | An experimental AI agent for iPhone that understands the screen and performs actions via CoreDevice, using on-device loopback or an ESP32 relay. An early-stage, vibe-coded prototype for exploration and idea sharing. | 26 | — | Swift | 新项目 |
+| [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion) | A motion design toolkit for coding agents. | 292 | — | JavaScript | 新项目 |
+| [richiemcilroy/Tov](https://github.com/richiemcilroy/Tov) | A TypeScript-shaped language built for coding agents. It compiles to small, fast native binaries. | 260 | — | JavaScript | 新项目 |
+| [tlzmw001/naiyue-test-agent](https://github.com/tlzmw001/naiyue-test-agent) | A Python and LangChain agent engineering project for programming and software testing. | 20 | — | Python | 新项目 |
 
 
 ## AI Infra · 推理部署与应用基础设施
 
-新增 **0 篇论文**（0 篇找到代码）和 **1 个项目**。
+新增 **0 篇论文**（0 篇找到代码）和 **2 个项目**。
 
 ### 论文
 
@@ -59,7 +63,8 @@
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [Nexilume-AI/nexus-cloud](https://github.com/Nexilume-AI/nexus-cloud) | Nexus — execution infrastructure for AI agents. Host agents in the cloud or behind NAT; let users attach and authorize their own computers and Android phones. Deploy once, work across devices. Python SDK · MCP · Shared run context · Browser, terminal and files · Built-in chat UI · Model routing. | 22 | — | Python | 新项目 |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research. | 13433 | — | TeX | 近期活跃 |
+| [shawnshekari/strixite](https://github.com/shawnshekari/strixite) | LLM inference engine written from scratch in HIP for AMD Strix Halo (gfx1151) and Qwen3.8-Flash-Next - ~50 tokens/s out to 492k context | 21 | — | C++ | 新项目 |
 
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。
