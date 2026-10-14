@@ -1,0 +1,1308 @@
+{
+  "papers": [],
+  "repositories": [
+    {
+      "created_at": "2019-10-30",
+      "description": "Financial Sentiment Analysis with BERT",
+      "discovery": "active",
+      "first_seen": "2026-10-14",
+      "forks": 538,
+      "full_name": "ProsusAI/finBERT",
+      "id": 218500041,
+      "language": "Jupyter Notebook",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-12",
+      "score": 18.25,
+      "star_growth_7d": null,
+      "stars": 2253,
+      "topics": [],
+      "url": "https://github.com/ProsusAI/finBERT"
+    },
+    {
+      "created_at": "2026-01-11",
+      "description": "TickDB: AI-native real time stock API and market data API for US stocks, HK stocks, A-shares, forex, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，支持美股、港股、A 股、外汇、加密货币、指数和大宗商品。",
+      "discovery": "active",
+      "first_seen": "2026-10-14",
+      "forks": 15,
+      "full_name": "TickDB/tickdb-unified-realtime-marketdata-api",
+      "id": 1131970897,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-10",
+      "score": 16.25,
+      "star_growth_7d": null,
+      "stars": 863,
+      "topics": [
+        "ai-tools",
+        "cli-tool",
+        "commodities",
+        "cryptocurrency",
+        "financial-data",
+        "forex",
+        "indices",
+        "market-data",
+        "mcp",
+        "order-book",
+        "real-time",
+        "rest-api",
+        "skill",
+        "stock",
+        "stock-api",
+        "stock-data",
+        "stock-market",
+        "stocks",
+        "tick-data",
+        "websocket"
+      ],
+      "url": "https://github.com/TickDB/tickdb-unified-realtime-marketdata-api"
+    },
+    {
+      "created_at": "2026-10-13",
+      "description": "🔥 Polymarket-Crypto-Trading-Arbitrage-Bot 🔥",
+      "discovery": "new",
+      "first_seen": "2026-10-14",
+      "forks": 117,
+      "full_name": "ArchDiverYank/lrt",
+      "id": 1416268623,
+      "language": "HTML",
+      "license": null,
+      "pushed_at": "2026-10-13",
+      "score": 12.83,
+      "star_growth_7d": null,
+      "stars": 99,
+      "topics": [
+        "arbitrage-bot-2026",
+        "polymarket-crypto-trading-arbitrage-bot",
+        "polymarket-strategies-2026",
+        "polymarket-tutorial",
+        "trading-bot-guide"
+      ],
+      "url": "https://github.com/ArchDiverYank/lrt"
+    },
+    {
+      "created_at": "2026-10-08",
+      "description": "Free open source order flow screener for spot and perpetual trade orders. ",
+      "discovery": "new",
+      "first_seen": "2026-10-14",
+      "forks": 8,
+      "full_name": "zadescoxp/order-flow-screener",
+      "id": 1410954089,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-13",
+      "score": 11.02,
+      "star_growth_7d": null,
+      "stars": 31,
+      "topics": [
+        "crypto",
+        "finance",
+        "liquidity",
+        "order-flow",
+        "order-flow-analysis",
+        "order-flow-imbalance",
+        "order-flow-screener",
+        "screener",
+        "trading",
+        "volatility"
+      ],
+      "url": "https://github.com/zadescoxp/order-flow-screener"
+    }
+  ],
+  "run_date": "2026-10-14",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "Speculative Decoding (SD) has demonstrated its efficacy in accelerating large language model inference, but for Vision-Language Models (VLMs), the diverse input modalities make it difficult for a small trained drafter to achieve consistently high throughput. Self-speculative decoding reuses parts of the target model as a drafter which retains the multi-modal capability of the VLMs, yet its efficiency depends on choosing a suitable draft configuration for each prompt. We propose Single-Peak SPeculative decoding (SP$^2$ec), a training-free bandit algorithm that adapts the draft configuration during generation. SP$^2$ec exploits the single-peak throughput pattern observed in existing self-speculative methods, including SWIFT, KnapSpec, SpecVLM, and our simple cosSim. Our algorithmic design explicitly minimizes a novel notion of wall-time regret for each given query, corresponding to the empirical wall-time latency. Theoretical guarantees on the wall-time regret show that SP$^2$ec can exploit the optimal draft configuration, with negligible exploration cost. Extensive experiments on Qwen2.5-VL-7B-Instruct and LLaVA-NeXT-Mistral-7B across visual and textual tasks show consistent improvements of up to 11\\% over the original self-speculative methods, demonstrating the wide applicability of the proposed SP$^2$ec algorithm.",
+        "authors": [
+          "Yuqi Huang",
+          "Xingyao Li",
+          "Yunlong Hou",
+          "Fengzhuo Zhang",
+          "Jiachun Pan",
+          "Vincent Y. F. Tan"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18735",
+        "paper_url": "https://arxiv.org/abs/2610.18735",
+        "pdf_url": "https://arxiv.org/pdf/2610.18735",
+        "published": "2026-10-13",
+        "title": "SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in long-context and complex reasoning scenarios. Existing KV cache quantization methods have explored different compression granularities, including layer-wise precision adjustment and token-level information preservation. In practical deployment, however, the key challenge is not merely compression, but how to allocate limited quantization resources among heterogeneous precision preservation strategies under a fixed KV cache memory budget. We propose MultiAlloc, a profiling-guided precision allocation framework for KV cache quantization that adaptively distributes limited quantization resources between layer-wise precision enhancement and token-wise preservation. MultiAlloc employs lightweight offline profiling to characterize layer sensitivity and token importance, enabling adaptive precision allocation under a fixed memory constraint. Guided by the profiled memory--accuracy trade-off, it automatically derives an effective precision allocation strategy without online allocation search, and applies the resulting policy during inference. Extensive experiments on reasoning and long-context benchmarks demonstrate that MultiAlloc consistently improves over layer-wise, token-wise, and recent multi-granularity KV cache quantization methods under matched memory budgets across diverse models, including Mistral, Llama, DeepSeek-Qwen, and QwQ.",
+        "authors": [
+          "Yangchengyu Zhou",
+          "Zhiping Wu",
+          "Runchang Jiang",
+          "Dongdong Ren",
+          "Youfang Han",
+          "Wei Zhao",
+          "Dongqi Cai",
+          "Wenbin Li"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/RL-MIND/MultiAlloc",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18642",
+        "paper_url": "https://arxiv.org/abs/2610.18642",
+        "pdf_url": "https://arxiv.org/pdf/2610.18642",
+        "published": "2026-10-13",
+        "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Large-scale expert parallelism (EP) has become the standard deployment configuration for Mixture-of-Experts (MoE) models in production. Meanwhile, the highly dynamic nature of LLM workloads requires providers to continuously adjust serving capacity to match fluctuating demand. Scaling MoE serving cannot be efficiently achieved by simply adding or removing serving instances; instead, it often requires resizing the EP group within an existing instance, which we refer to as intra-instance scaling.Existing inference engines primarily rely on instance-level scaling, which destroys and reconstructs entire serving instances, incurring substantial scaling overhead. We present FastEEP (Fast Elastic Expert Parallel), a fast intra-instance scaling system for MoE serving based on the principle of Partial Reuse. FastEEP reuses existing runtime state across worker execution, GPU memory, and communication by separating reusable execution structures from the resources activated by the current EP configuration. This separation enables coordinated resource reclamation and reconfiguration while preserving costly-to-reconstruct state, allowing fast EP scaling without full instance teardown and reconstruction. Our evaluation shows that FastEEP achieves 4.5x--11.7x faster scaling than the existing vLLM-based approach across different models, enabling efficient, fine-grained scaling of MoE serving.",
+        "authors": [
+          "Yunfei Feng",
+          "Jingkai He",
+          "Shiqi Liu",
+          "Cheng Zhang",
+          "Dong Du",
+          "Erhu Feng"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18451",
+        "paper_url": "https://arxiv.org/abs/2610.18451",
+        "pdf_url": "https://arxiv.org/pdf/2610.18451",
+        "published": "2026-10-13",
+        "title": "FastEEP: Fast Intra-Instance Elastic Scaling for Expert-Parallel MoE Serving",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Disaggregated LLM serving moves each request's KV cache from a prefill GPU to a decode GPU before the response begins, and a coding-agent turn often moves the KV of its whole long context. Behind an oversubscribed packet fabric this transfer adds to time to first token (TTFT). An optical circuit switch (OCS) can give every transfer a full-rate circuit for less than an oversubscribed packet fabric costs, but a mechanical OCS needs tens of milliseconds to reconfigure. We hide this delay inside the prefill. A reservation scheduler commits each circuit while the prefill is still computing, so the circuit is ready when the KV is, and each GPU reaches the OCS over its own wavelength-multiplexed (WDM) optics on one fiber pair. In simulations of GPU clusters on real serving traces with measured prefill times on H100 GPUs, this optical KV cache network matches 400G packet fabrics with adaptive routing at 0.55 to 0.78 times the cost of a 2:1 fabric and tolerates the 50 ms reconfiguration delay of a 384-port mechanical OCS.",
+        "authors": [
+          "Seongwon Yoon",
+          "Shimeng Yu"
+        ],
+        "categories": [
+          "cs.NI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18444",
+        "paper_url": "https://arxiv.org/abs/2610.18444",
+        "pdf_url": "https://arxiv.org/pdf/2610.18444",
+        "published": "2026-10-13",
+        "title": "An Optical KV Cache Network for Disaggregated LLM Serving",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Prefix reuse improves LLM inference by sharing the KV cache of common prompt prefixes. This helps only if the scheduler can execute a matched branch in the current worker round. Schedulers assume that a matched prefix is ready, which holds for full attention but fails for hybrid LLMs. There, a branch (the consumer) may need recurrent state that another branch (the producer) is still computing in the same round. The native scheduler stops its waiting-queue scan at this blocked consumer, and the resulting head-of-line blocking creates \\emph{execution bubbles}: idle batch slots that independent work could fill. We introduce RadixFlow, which decouples prefix matching from state readiness. Its state-ready traversal turns a global scan barrier into a local wait: only the consumer is blocked until the next round, while feasible independent branches keep filling the batch under the native state check. On five hybrid models, RadixFlow lowers mean latency by 3\\% to 24\\% and worker rounds by 11\\% to 44\\% at almost unchanged reuse. On the larger Qwen3.5 models, ablations show that most of the gain comes from traversal, which adds little on a full-attention control. Heavier rounds limit how much of this saving reaches latency.",
+        "authors": [
+          "Huihao Jing",
+          "Wenbin Hu",
+          "Shaojin Chen",
+          "Haochen Shi",
+          "Haoyu Huang",
+          "Sirui Zhang",
+          "Yuxuan Liu",
+          "Zhongwei Xie",
+          "Haoran Li"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18143",
+        "paper_url": "https://arxiv.org/abs/2610.18143",
+        "pdf_url": "https://arxiv.org/pdf/2610.18143",
+        "published": "2026-10-13",
+        "title": "RadixFlow: Filling Execution Bubbles in Prefix-Cached Hybrid LLM Serving",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Some observation-window-based KV cache compressors use prompt attention to identify important tokens but allocate uniform or predefined budgets across heads, overlooking input-dependent differences in budget demand. We propose ChampionKV, an input-adaptive head-wise budget allocator for long-context KV cache compression. It uses the maximum aggregated observation-window attention score as a lightweight empirical proxy for attention concentration, assigning larger budgets to heads with dispersed attention and smaller budgets to concentrated heads. An abnormal-head mask and a floor-budget mechanism improve robustness under weak attention responses. ChampionKV plugs into compressors such as SnapKV and PyramidKV without changing their token-selection procedures. On LongBench and RULER, both Champion variants consistently improve over their SnapKV and PyramidKV base compressors; the improvements are largest and statistically significant on Llama3.1-70B-Instruct, especially under tight budgets, whereas results on the tested 7B/8B models remain competitive but mixed. ChampionKV does not uniformly outperform Ada-KV, whose global cross-head Top-K selection retains an advantage in several settings. Controlled analysis further shows improved retained attention mass over the corresponding base compressors at negligible overhead.",
+        "authors": [
+          "Yuechuan Chen",
+          "Yanda Guo",
+          "Xiaoxi Liu",
+          "Weilin Ruan",
+          "Huanbo Xu",
+          "Ruyi Wang",
+          "Wei Zhu"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18026",
+        "paper_url": "https://arxiv.org/abs/2610.18026",
+        "pdf_url": "https://arxiv.org/pdf/2610.18026",
+        "published": "2026-10-13",
+        "title": "ChampionKV: Head-Wise Adaptive Budget Allocation for KV Cache Compression",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Non-prefix KV cache reuse is a promising approach for improving inference efficiency in multi-agent systems as agents share the same context blocks. However, when agents have conflicting tasks, directly reusing non-prefix KV caches across agents can severely degrade model performance, causing up to a 90% drop. Existing remedies, including selective recomputation and offset-based calibration, recover a limited fraction of this loss. We argue that the problem lies not only in contaminated KV representations but also in the agent's difficulty interpreting reused context under its own instructions. To this end, we introduce LatentRemedy, which uses a few task-conditioned latent tokens to help the target agent leverage reused context without recomputing the shared block. Specifically, we use an MLP to map the last hidden state of the target prefix into a small number of latent tokens, which are placed after the reused KV block to interact with the shared context. To guide subsequent predictions toward the target task, we train the MLP through full-prefill distillation. Experiments show that LatentRemedy consistently outperforms existing reuse baselines on conflicting tasks while maintaining TTFT close to direct reuse as cache size grows. Code and data are available at https://github.com/chenzhwsysu57/kvreuse.",
+        "authors": [
+          "Zhiwei Chen",
+          "Zhongtao Rao",
+          "Waikit Xiu",
+          "Yuxiang Zhang",
+          "Shuting Cui",
+          "Jian Chen",
+          "Tianxiang Zhao"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/chenzhwsysu57/kvreuse",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18014",
+        "paper_url": "https://arxiv.org/abs/2610.18014",
+        "pdf_url": "https://arxiv.org/pdf/2610.18014",
+        "published": "2026-10-13",
+        "title": "LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Long-running agents retain KV caches across turns and sessions for hours or days. Compressing these persistent caches requires reducing storage while controlling reconstruction error. We present AlignPred, a codec that combines local alignment with predictive coding under a configurable KV reconstruction-error budget. Local orthogonal transforms align related heads or layers into a common coordinate frame, allowing AlignPred to combine token-wise prediction with same-token prediction across heads or layers. Residuals are quantized on an error-bounded lattice and entropy-coded, without learned predictors, encoder-side mode search, or large joint transforms. Across three attention mechanisms, AlignPred requires less storage than the evaluated baselines at comparable measured reconstruction error. Against the evaluated CPU codec implementations, it decodes at least 1.6 times faster while matching or improving encode time. AlignPred achieves near-native task scores at substantially compressed operating points on LongBench-Pro at 128K context. AlignPred's SGLang HiCache integration reduces persistent target-KV storage by 42-72% relative to native HiCache, with comparable latency.",
+        "authors": [
+          "Xu Yang",
+          "Jiapeng Zhang",
+          "Zhiwei Zuo",
+          "Yuxin Chen",
+          "Feiqiang Sun",
+          "Chengguang Xu",
+          "Feng Jin",
+          "Zhuo Tang"
+        ],
+        "categories": [
+          "cs.PF",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17970",
+        "paper_url": "https://arxiv.org/abs/2610.17970",
+        "pdf_url": "https://arxiv.org/pdf/2610.17970",
+        "published": "2026-10-13",
+        "title": "AlignPred: Error-Controlled KV Cache Compression via Alignment and Predictive Coding",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Long-context inference makes the key-value (KV) cache a major memory bottleneck for large language models. We propose BELT, a low-rank KV cache compression framework. Its key-side objective targets attention distributions rather than raw keys or pre-softmax logits, yielding a quadratic surrogate with a closed-form low-rank solution. A learned global rank allocator uses differentiable soft selection during training and hard selection at deployment to meet a user-specified component budget. Experiments demonstrate improved model quality under aggressive compression and increased decoding throughput at comparable accuracy. Evaluated across three LLMs and multiple benchmarks, BELT achieves up to 70% low-rank KV cache compression while outperforming the strongest baseline by up to 23.3 points on LongBench, and up to 17.8x overall KV cache reduction when combined with quantization. With Triton-based GPU kernels and a quantized cache, BELT delivers up to 2.7x speedup for the attention module and 3.3x end-to-end decoding throughput.",
+        "authors": [
+          "Yaoyang Liu",
+          "Shuwei Shen",
+          "Jincheng Tang",
+          "Jinguang Liu",
+          "Jinbao Xue",
+          "Hailong Yang",
+          "Ke Zhang",
+          "Yinjun Wu"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17966",
+        "paper_url": "https://arxiv.org/abs/2610.17966",
+        "pdf_url": "https://arxiv.org/pdf/2610.17966",
+        "published": "2026-10-13",
+        "title": "BELT : BEhavior-Aligned Low-Rank KV Cache Compression with Learned Top-k Rank Allocation",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Large language model (LLM) serving systems use token-level continuous batching to improve resource utilization, but heterogeneous response lengths complicate request scheduling. Prediction-guided short-first scheduling reduces average latency but can severely delay long requests, while unrestricted aging may over-promote delayed long requests under congestion. We propose Quota-Based Aging (QBA), a lightweight policy that combines predicted short-first admission with quota-bounded, debt-enforced promotion of aged predicted-long requests. We also use a reduced M/G/n queueing surrogate, calibrated from simulator traces, to explain first-order mean-latency trends. QBA is evaluated using a serving-aware event-driven simulator that models decode-priority batching, chunked prefill, token-budget constraints, and KV-cache-safe admission. We compare QBA with FCFS, predicted short-first, and aggressive aging under asymmetric prediction errors on synthetic and production-derived workloads. The evaluation considers queueing delay, throughput, utilization, and class-conditional tail performance. Results show that QBA provides a controllable middle ground between aggressive short-first prioritization and unrestricted aging, substantially reducing long-request tail latency while retaining much of the mean-latency benefit of prediction-guided scheduling.",
+        "authors": [
+          "Hanzhi Zhang",
+          "Anxuan Che",
+          "Hang Qi",
+          "Qiyue Li",
+          "Jingjin Wu"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17795",
+        "paper_url": "https://arxiv.org/abs/2610.17795",
+        "pdf_url": "https://arxiv.org/pdf/2610.17795",
+        "published": "2026-10-13",
+        "title": "Quota-Based Aging for Prediction-Guided Scheduling in LLM Serving",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Large language models are attractive text compressors because next-token probabilities can be converted into code lengths. In practice, however, the main bottleneck is often not modeling quality but systems cost: a compressor must obtain logits quickly enough to compete with strong classical baselines. This paper examines systems optimizations for LLM-based compression, including multistream pipelined arithmetic coding and target-interval capture, and evaluates their trade-offs across inference engines, configurations and datasets. We evaluate LLM-based text compression on three different inference engines: Transformers, vLLM, and TensorRT-LLM. Notably, we obtain a speedup of 18.84x compared to prior work's Transformers implementation and a maximum recorded inference speed of 181 kilobytes per second at a compression ratio of 7.17, when running on an NVIDIA A100.",
+        "authors": [
+          "David Adams",
+          "Luisa Neubauer",
+          "Ping-Lin Kuo",
+          "Mihail Stoian",
+          "Thomas Rückstieß",
+          "Josif Grabocka",
+          "Renata Borovica-Gajic",
+          "Andreas Kipf"
+        ],
+        "categories": [
+          "cs.DB"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17586",
+        "paper_url": "https://arxiv.org/abs/2610.17586",
+        "pdf_url": "https://arxiv.org/pdf/2610.17586",
+        "published": "2026-10-13",
+        "title": "High-Throughput LLM-Based Compression and What It Takes: A Systems Study of Inference Engines and Entropy Coding Optimizations",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Large language models (LLMs) on mobile devices can act as agents that call external software tools to complete complex tasks, but the major challenge of supporting on-device mobile agentic AI with LLMs is the long latency of LLM tool calling on mobile devices. In particular, the decode phase is the main contributor of such long latency, but is hard to speed up on mobile processors as it is bound by memory bandwidth rather than compute power. To address this limitation, in this paper we present SchemaWeaver, a new on-device mobile agentic AI technique that enforces schema-guided parallel decoding in the decode phase of LLM tool calling, to reduce its latency by producing multiple tokens in each decode pass. SchemaWeaver can be generically applied to the LLM inference engine on mobile devices without involving any training efforts or changes on LLMs, and our experiment results on major mobile SoCs and LLM families show that SchemaWeaver can reduce the LLM tool calling latency by up to 3.9 times, compared to the competitive baselines.",
+        "authors": [
+          "Boyuan Yang",
+          "Wei Gao"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17436",
+        "paper_url": "https://arxiv.org/abs/2610.17436",
+        "pdf_url": "https://arxiv.org/pdf/2610.17436",
+        "published": "2026-10-12",
+        "title": "SchemaWeaver: Accelerating On-Device Mobile Agentic AI via Schema-Guided Parallel LLM Decoding",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "As LLM agents take on more autonomous roles, they may interact with multiple clients and counterparties whose goals and incentives conflict. If an agent maintains shared inference state across these interactions, information associated with one relationship may influence decisions made for another. We test OLMo-3-7B-Instruct in a controlled two-client environment with 20 market scenarios, where each client is assigned an opposing objective. With shared conversational memory, the model deviates from the current client's objective in 22% of eligible decisions. We then investigate how these goals are represented in the KV cache. Linear probes show that client-goal ownership becomes highly recoverable in middle layers and is concentrated in particular attention heads. We use these results to identify where to intervene in the cache and test whether these representations affect the model's decisions. Ablating the competitor's cached goal representations at these locations shifts the model toward the current client. The effect is larger for heads identified by probing than for randomly selected heads, and larger when ablating goal tokens than matched non-goal tokens from the same client. Our results show that client-specific goal representations persist in the KV cache and can causally influence decisions made for other clients, highlighting the importance of relationship-specific state isolation in persistent LLM agents.",
+        "authors": [
+          "Saloni Gupta",
+          "Sébastien Krier",
+          "Glenn Matlin"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17365",
+        "paper_url": "https://arxiv.org/abs/2610.17365",
+        "pdf_url": "https://arxiv.org/pdf/2610.17365",
+        "published": "2026-10-12",
+        "title": "When Goals Leak Across Relationships: How Cached Goal Representations Shape Cross-Client Decisions",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "Vision large language models (VLLMs) are deployed in privacy-sensitive domains, raising training-data exposure concerns. Existing gray-box membership inference attacks (MIAs) commonly rely on entropy statistics or generated descriptions, requiring costly generation with limited membership separation. Perturbation-based methods instead measure response changes but focus on large perturbations, leaving VLLM membership behavior under smaller perturbations poorly understood. We systematically characterize VLLM membership behavior under controlled Gaussian perturbations across noise levels at fine resolution. We find that optimal perturbation magnitude and membership-signal direction vary across model-dataset pairs. In many settings, a previously unstudied low-noise regime yields stronger separation than large perturbations, with members exhibiting lower divergence than non-members, reversing the conventional score direction. Other settings retain the conventional direction, demonstrating that neither a fixed perturbation magnitude nor a predetermined score orientation is universally reliable. We propose COMPASS, an adaptive gray-box MIA that calibrates both the perturbation magnitude and membership-score direction using a loosely distribution-matched, known non-member reference set. We instantiate COMPASS using Renyi-normalized KL divergence and Renyi divergence, with max-k aggregation over the most informative image-logit positions. Across LLaVA v1.5-7B, MiniGPT-4, and HuluMed-32B, spanning pretraining, instruction-tuning, and medical-image datasets, COMPASS outperforms baselines. On general-domain data, COMPASS achieves AUCs up to 0.88. On the distribution-matched medical evaluation, it reaches 0.64 AUC, while the strongest baseline remains at chance level. These results establish full-range adaptive perturbation analysis as an effective approach to VLLM membership inference.",
+        "authors": [
+          "Damien Lo",
+          "Hong Kyu Lee",
+          "Ruixuan Liu",
+          "Li Xiong"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.CR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17332",
+        "paper_url": "https://arxiv.org/abs/2610.17332",
+        "pdf_url": "https://arxiv.org/pdf/2610.17332",
+        "published": "2026-10-12",
+        "title": "COMPASS: Membership Inference Attack Against Vision Large Language Models via Adaptive Noise Calibration",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "Standard procedure in machine learning is to randomly split train and test data, emulating IID draws from one underlying data distribution. In practice, models are trained on past data and deployed in the future, which may come from distinct distributions. In this paper, we find that web text is indeed highly non-stationary, as text distributions shift over time. We further observe that model performance changes continuously over time across diverse benchmarks. Consequently, future model performance is better predicted by measurements made on recent evaluation data, and is best predicted by time series forecasters applied to historic performance rather than by historic performance itself. Choosing which model to deploy based on forecasted accuracy enables more reliable selection of performant models, thus improving downstream accuracy in the regime practitioners care about: deployment. Taken together, our experiments suggest that time should be treated as a fundamental variable in LLM evaluation. We release our code and data.",
+        "authors": [
+          "Rahul Thomas",
+          "Adam Block",
+          "Micah Goldblum"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17018",
+        "paper_url": "https://arxiv.org/abs/2610.17018",
+        "pdf_url": "https://arxiv.org/pdf/2610.17018",
+        "published": "2026-10-12",
+        "title": "LLM Evaluation is a Forecasting Problem",
+        "updated": "2026-10-12"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "abstract": "Bringing general-purpose agents into the physical world calls for an executable representation of physical intelligence. Compared with vision-language-action (VLA) models, which map observations and language instructions directly to actions, code makes control logic explicit and reusable. Code can serve not only as a policy representation but also as the workspace in which the agent solves a task. Rather than following a prescribed workflow of planning, execution, and verification, the agent can autonomously inspect the state, revise and execute code, and use feedback to choose the next step. The success of this SWE-style loop in digital environments motivates its extension to physical tasks. Yet physical execution remains prone to recurring failures. To retain and refine experience for later scenes, we introduce EmbodiedEvo, where a coding agent evolves reusable Skills and Lessons through feedback on a single Playground scene, then freezes the resulting harness for diverse new scenes. On RoboDojo-Sim, EmbodiedEvo achieves an average score of 44.48 and a success rate of 37.82\\%, surpassing all officially verified results. Paired tests show the largest gains on memory-dependent tasks and successful reuse of coordinated procedures, while fine contact control remains difficult. Experience from stronger models also improves weaker executors: Astra's experience raises Sol and Luna's success rates by 8.86 and 5.50 percentage points over no experience. Compared with raw interaction history, Skills and Lessons achieve comparable task performance at 53.0\\% lower execution cost.",
+        "authors": [
+          "Wenyi Li",
+          "Yizhe Chi",
+          "Youjie Zheng",
+          "Chunyu Liu",
+          "Xiaoqiu Wang",
+          "Mingju Gao",
+          "Zheng Jiang",
+          "Deyao Hong",
+          "Calvin Xiao",
+          "Kaisen Yang",
+          "Qinhuai Na"
+        ],
+        "categories": [
+          "cs.RO"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18867",
+        "paper_url": "https://arxiv.org/abs/2610.18867",
+        "pdf_url": "https://arxiv.org/pdf/2610.18867",
+        "published": "2026-10-13",
+        "title": "EmbodiedEvo: Self-improving Coding Agents for Physical Intelligence",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning words like \"wait\", which can reduce accuracy. We propose DoubtLess, a training-free decoding method in which a much smaller reasoning model steers the large one towards brevity. The small model reads the large model's CoT so far twice, once prompted to be brief (the brief thinker) and once prompted to be verbose (the verbose thinker), and the difference between its two logit vectors, scaled by a strength, is added to the large model's logits at every step of the CoT. On seven benchmarks of competition mathematics, graduate-level science and competitive programming, DoubtLess shortens the CoT of Qwen3-32B by 31% with unchanged accuracy, outperforming five inference-time baselines. We also show that DoubtLess reduces thinking tokens per turn by 20% in a self-debugging coding agent with unchanged task performance. It also generalizes to two other model families with unchanged accuracy. When combined with training-based compression, it further shortens the CoT of a model already trained for brevity. Ablations and behavioral analysis show that DoubtLess reduces repeated checking, with most token savings coming after the correct answer first appears in the CoT. Our code is available at https://github.com/leoluolol/DoubtLess.",
+        "authors": [
+          "Minghao Luo",
+          "Liang Chen"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/leoluolol/DoubtLess",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18862",
+        "paper_url": "https://arxiv.org/abs/2610.18862",
+        "pdf_url": "https://arxiv.org/pdf/2610.18862",
+        "published": "2026-10-13",
+        "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Clinical trial protocols serve as the source of truth for study design, but are mostly written and used as unstructured PDF documents. Digitizing protocols turns static content into structured, machine-readable data that clinical software can analyze, validate, and execute. Coding agents, which select tools, execute code, and revise their approach as they work, are increasingly applied to such long-document tasks, yet it remains unclear how reliably they turn complete documents into accurate structured outputs. We study this question using protocol digitization as a testbed. We introduce TrialPD-Bench, an expert-annotated benchmark of 150 publicly available protocol PDFs spanning four task categories. Beyond final-answer performance, our evaluation measures evidence recall from agent traces, agent behavior, and cost. Across nine proprietary and open-weight models in five coding-agent harnesses, even the strongest agents do not fully solve protocol digitization. Our analysis further shows that agents usually locate the required evidence but fail in the last mile of transcribing and structuring it. We further develop TrialScribe, a domain-specific harness that equips coding agents with task skills and a verification loop. TrialScribe improves a locally served open-weight model by 6.2-59.4 points across eight metrics, enabling it to match or surpass proprietary models such as GPT-5.6-Sol.",
+        "authors": [
+          "Jiacheng Lin",
+          "Geoffrey Low",
+          "Nishit Agarwal",
+          "Rahul Jain",
+          "Afrah Shafquat",
+          "Mandis Beigi",
+          "Jimeng Sun"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18507",
+        "paper_url": "https://arxiv.org/abs/2610.18507",
+        "pdf_url": "https://arxiv.org/pdf/2610.18507",
+        "published": "2026-10-13",
+        "title": "The Last Mile of Coding Agents for Long-Document Tasks: An Empirical Study on Clinical Trial Protocol Digitization",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "We present SWE-MISBEHAVIOR, the first taxonomy and evaluation framework for diagnosing boundary-violating misbehaviors in coding agents. It contains 7.4K human-in-the-loop synthesized samples spanning three layers of agent action space: (i) Code Generation, (ii) File Management, and (iii) System Interaction. Across these categories, SWE-MISBEHAVIOR covers 11 distinct misbehaviors with a fully automated evaluation protocol, including coding-action violations, Create/Read/Update/Delete (CRUD) file misbehaviors, system integrity and abuse violations, and task-goal misalignment. Experiments on state-of-the-art open-source coding agents (e.g., OpenHands, smolagents) reveal substantial misaligned behaviors, including dependency misinterpretation (up to 98.5% of cases), unintended modification of user inputs (50.5%), and silent compromise of environment integrity (53%). Motivated by these findings, we further propose CODE-KIT, a lightweight adaptive framework that combines misbehavior-aware guidelines with novel tools to help agents avoid such failures. CODE-KIT reduces misbehaviors by 52% for smolagents and 34% for OpenHands, while simultaneously improving task completion performance.",
+        "authors": [
+          "Do Xuan Trong",
+          "Duc Anh Nguyen",
+          "Do Xuan Long",
+          "Ngoc-Hai Nguyen",
+          "Tongyao Zhu",
+          "Duy Dinh",
+          "Cayden Chik",
+          "Cuong Dang",
+          "Jiaying Wu",
+          "Xuan-Phi Nguyen",
+          "Vinh Van Nguyen",
+          "Kenji Kawaguchi",
+          "Shafiq Joty",
+          "Nancy F. Chen",
+          "Min-Yen Kan"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CL"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/dxlong2000/SWE-Misbehavior",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18206",
+        "paper_url": "https://arxiv.org/abs/2610.18206",
+        "pdf_url": "https://arxiv.org/pdf/2610.18206",
+        "published": "2026-10-13",
+        "title": "SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Coding agents use generated tests to decide whether a proposed patch satisfies an issue's requirements. A suite that fails on the buggy program and passes after applying the reference patch can still accept an incorrect patch or reject a correct patch. We introduce SWEPATCHTEST, a test-generation benchmark with 619 tasks from SWE-bench Pro, SWE-bench Multilingual, and DeepSWE and 82,579 candidate patches collected from coding-agent trajectories. By replaying each suite on the buggy and patched codebases, \\benchmark jointly measures issue reproduction, acceptance of correct patches, and rejection of incorrect patches. Joint Validation Rate (JVR), which requires all three criteria on the same task, exposes failures hidden by single-reference evaluation: the best-performing configuration achieves only 9.21% JVR despite reproducing the reference transition on 59.29% of tasks. We further use validation scores to select and scale demonstrations for supervised fine-tuning (SFT). The resulting training recipe approximately triples JVR and improves downstream repair across three SWE-bench benchmarks. Patch discrimination thus provides both a diagnostic measure of test quality and an execution-based signal for curating agent training data.",
+        "authors": [
+          "Hua Lu",
+          "Pengcheng Wang",
+          "Han Li",
+          "Zichen Tian",
+          "Yanyu Chen",
+          "Huang He",
+          "Bingjin Chen"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.18004",
+        "paper_url": "https://arxiv.org/abs/2610.18004",
+        "pdf_url": "https://arxiv.org/pdf/2610.18004",
+        "published": "2026-10-13",
+        "title": "SWEPatchTest: Evaluating Software Tests Beyond Reproduction",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "Long-horizon coding requires agents to maintain an evolving view of the project they are changing: what problem is currently being solved, what has already been learned or modified, which other artifacts may be affected, and what work remains unresolved. When this information is scattered across a growing interaction history, local edits can become disconnected from their later consequences and progress can be difficult to carry forward. We introduce StateHarness, a runtime framework that maintains evolving project state without updating model parameters. The working agent records its current problem and hypothesis, important findings and decisions, discovered repository relationships, and unfinished work. Runtime support prompts record updates, searches for callers, tests, and documentation that may be affected by a change, and maintains a compact working brief for subsequent decisions. When behavioral signals accumulate, a separate diagnostic session revisits the recorded history and surfaces overlooked evidence. Across three repository-level evaluations, StateHarness improves task completion and several measures of change consistency. On RefactorBench, full-chain completion increases from 29.4% to 35.3% and cleanup-check accuracy from 87.0% to 95.4%. On five LHTB software-engineering tasks, mean reward improves from 0.427 to 0.576, exceeding LongHorizon-Harness at substantially lower recorded execution cost. On ChainSWE, bug-fix rate increases from 35.1% to 39.5% and residual debt decreases from 60 to 43 items, although pass-to-pass regressions increase. These results show that maintaining project state can improve long-horizon coding while introducing measurable execution and regression trade-offs.",
+        "authors": [
+          "Chuan Zou",
+          "Yujun Zhou",
+          "Xiaonan Luo",
+          "Xiangliang Zhang"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17616",
+        "paper_url": "https://arxiv.org/abs/2610.17616",
+        "pdf_url": "https://arxiv.org/pdf/2610.17616",
+        "published": "2026-10-13",
+        "title": "StateHarness: Maintaining Evolving Project State for Long-Horizon Coding Agents",
+        "updated": "2026-10-13"
+      },
+      {
+        "abstract": "As language-model-based coding agents evolve their programs and reuse code from one another, safety failures can acquire a history that extends beyond the agent in which they are detected. An unsafe change may originate in one agent, propagate through intermediate recipients, and survive subsequent revisions before an audit reveals it. Understanding this history is important for identifying the introducing change and distinguishing inherited behavior from independently occurring failures. We study origin attribution in self-evolving multi-agent coding systems: recovering the agent and program version that introduced an observed unsafe behavior into the target's code lineage, or determining that it arose locally. This task is challenging because rewriting obscures textual similarity, independent occurrences confound temporal ordering, and intermediate recipients can resemble the source. We propose a method that combines behavioral fingerprint matching with historical localization and recursive tracing. It compares candidate implementations beyond the unsafe outcome, retains evidence from multiple historical versions, and follows matching candidates upstream. On 158 queries across 85 controlled scenarios, the method achieves 96.8% exact attribution accuracy, compared with 77.2% for exhaustive fingerprint matching without recursion. Component ablations and evaluation on 34 additional queries using the same method and hyperparameters demonstrate the complementary roles of multiple representatives and recursive tracing. Further checks extend the evaluation to approval-boundary and resource-owner errors. Together, these results show how behavioral and historical evidence can recover the origins of unsafe behavior through code revision and cross-agent propagation.",
+        "authors": [
+          "Hanyi Yu",
+          "Jiaming Cui"
+        ],
+        "categories": [
+          "cs.MA"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17488",
+        "paper_url": "https://arxiv.org/abs/2610.17488",
+        "pdf_url": "https://arxiv.org/pdf/2610.17488",
+        "published": "2026-10-12",
+        "title": "Origin Attribution for Unsafe Behavior in Self-Evolving Multi-Agent Coding Systems",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "Multi-agent systems promise a new axis for scaling inference: rather than having one agent think longer or sample more attempts, a task is split across many agents that work in parallel and coordinate. However, in practice, more agents can easily produce duplicate work, coordination failures, and higher costs. We therefore formulate team design as a compute allocation problem: starting from a solo agent, where should additional inference compute go to reach the reward-cost Pareto frontier? We build a minimal multi-agent harness from the ground up and trace this frontier by varying, one at a time, the workflow stage at which a lead delegates to its workers (planning, implementation, or verification), the models that form the team, and the number of workers. On ProgramBench, teams outperform solo agents but cost three to seven times as much. With the right compute allocation, however, a heterogeneous 17-agent team comes within 1.4 points of a strong homogeneous 5-agent team at 70% lower cost. This efficiency stems from three findings. First, planning is the most valuable use of workers: in a homogeneous team whose lead decides how many workers to spawn, a lead that delegates only planning to its workers, and then implements and verifies the code itself, matches the reward of a lead that delegates to workers throughout planning, implementation, and verification, at half the cost. Second, cheap models pay off as planners but not as implementers: a strong lead with cheap planners recovers 47.5% of the reward gain of an all-strong team for only 13.9% of its additional cost, whereas cheap implementers lower reward. Third, planners keep improving reward as the team grows, whereas implementers and verifiers plateau beyond four workers. Together, our results offer a guide to spending an agent budget where it counts, given the task, cost, and latency constraints a user has.",
+        "authors": [
+          "Keenan Samway",
+          "Daniel D'souza",
+          "Omar Darwiche Domingues",
+          "Marzieh Fadaee",
+          "Tan Yi-Chern",
+          "Nouha Dziri"
+        ],
+        "categories": [
+          "cs.MA",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17471",
+        "paper_url": "https://arxiv.org/abs/2610.17471",
+        "pdf_url": "https://arxiv.org/pdf/2610.17471",
+        "published": "2026-10-12",
+        "title": "Scaling Inference-Time Compute with Teams of Coding Agents",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "General-purpose coding agents use standard shell and file interactions, yet formal theorem-proving agents often rely on specialized, ad-hoc tooling. This makes it difficult to determine which components of theorem-proving agents provide benchmark gains: an improved base model, a specialized harness, a specific tool, or a combination of any of them. We introduce mini-Lean-agent, a deliberately minimal agent for Lean tasks whose only model-visible tool is bash. The model must use bash to inspect and edit the repository, search local libraries, invoke Lean, and manage its own intermediate work, while a separate trusted evaluator verifies the final artifact. We compare mini-Lean-agent against AxProverBase and Numina-Lean-Agent on the Putnam 2025 benchmark. Experiments with Gemini 3.8 Flash as the base model show that mini-Lean-agent solves 7/12 problems at \\$2 per problem limit, compared with AxProverBase's 4/12. With Astra as the base model, mini-Lean-agent solves 12/12 problems at an average cost of \\$1.28 per problem. This suggests that a generic coding agent with a minimal harness can already achieve strong performance on Lean benchmarks. Our results motivate using mini-Lean-agent as a standard baseline when evaluating theorem-proving infrastructure.",
+        "authors": [
+          "Tomas Ortega",
+          "Simon Park",
+          "Ayush Khaitan",
+          "Liam Fowl",
+          "Alex Kontorovich",
+          "Sanjeev Arora"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.LO"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17331",
+        "paper_url": "https://arxiv.org/abs/2610.17331",
+        "pdf_url": "https://arxiv.org/pdf/2610.17331",
+        "published": "2026-10-12",
+        "title": "Do Theorem Provers Need Theorem-Proving Agents? mini-Lean-agent: A Coding-Agent Baseline for Lean",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "Building physical simulations from video requires coding agents to translate observations into executable models and refine them through tool use. We introduce PhysCodeGym, a benchmark for physically verifiable 4D reconstruction with $156$ tasks covering rigid-body, liquid, deformable, and wind-driven motion. Agents autonomously inspect videos, write and run Blender programs, and revise their scenes using simulation feedback. Six metrics combine rule-based measurements with rubric-based judgments to assess visual and physical reconstruction quality. Program inspection, scene measurements, and counterfactual interventions test physical consistency under original and modified conditions. Experiments with frontier coding agents reveal a tradeoff between artifact quality and completion across reasoning-effort settings, while harness comparisons and agent traces link verification behavior with reconstruction performance. Case studies show that matching visible objects and events can coexist with physical defects. Counterfactual tests further expose latent contact and support failures in reconstructions that pass ordinary physical checks, highlighting the gap between reproducing observations and building reliable physical models. Code is available at https://github.com/ShaoShuai0605/PhysCodeGym.",
+        "authors": [
+          "Shuai Shao",
+          "Jinchen He",
+          "Cunxin Fan",
+          "Zihan Guo",
+          "Shijian Wang",
+          "Qihan Ren",
+          "Kangning Zhang",
+          "Zunnan Xu",
+          "Haoyuan Li",
+          "Hao Wang",
+          "Jianghao Lin",
+          "Weiwen Liu",
+          "Weinan Zhang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/ShaoShuai0605/PhysCodeGym",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17288",
+        "paper_url": "https://arxiv.org/abs/2610.17288",
+        "pdf_url": "https://arxiv.org/pdf/2610.17288",
+        "published": "2026-10-12",
+        "title": "PhysCodeGym: Benchmarking Coding Agents for Physically Verifiable 4D Reconstruction",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "The pass-all-test binary reward has become a standard recipe for training software engineering agents, but its sparsity eliminates difference of partially correct patches. The test pass-rate is a natural alternative. However, we find that it is not a reliable indicator of patch quality. A functionality being tested can be covered by either one challenging test or one hundred trivial tests, where the majority might be already satisfied pass-to-pass tests. We introduce CodeLift, a reinforcement learning method that dynamically calibrates pass-rate rewards, turning the test suite into an adaptive curriculum. At each iteration, CodeLift groups tests that kill the same patches and patches that pass the same tests, then gives more weight to test groups that fewer patch groups pass. This reduces the impact of majority simple tests and focuses more on what is still challenging. Within each rollout, CodeLift applies the same scoring rule to repository snapshots, assigning credit to useful actions even when later ones introduce regressions. Experiments on SWE benchmarks show that CodeLift consistently improves pass@1/2/4/8 over binary and pass-rate baselines. Analyses show that CodeLift provides dense, stable learning signals and unlocks the inherent curriculum in the test suite.",
+        "authors": [
+          "Junjielong Xu",
+          "Huachao Zhu",
+          "Alyssa Wu",
+          "Zhichao Hu",
+          "Pinjia He"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.SE"
+        ],
+        "code_match": "title-match",
+        "code_url": "https://github.com/Siyuexi/CodeLift",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.17224",
+        "paper_url": "https://arxiv.org/abs/2610.17224",
+        "pdf_url": "https://arxiv.org/pdf/2610.17224",
+        "published": "2026-10-12",
+        "title": "CodeLift: Your Test Suite Is Secretly a Dense SWE Curriculum",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "As coding agents become more capable, tests remain the primary evidence for judging whether their code is correct. Yet passing available tests does not establish that an implementation satisfies its natural language specification. Reliable validation requires checks that faithfully capture the specification and scenarios that thoroughly exercise the code, but current benchmarks provide limited insight into whether agents can construct such evidence themselves. We introduce SpecGuardBench, a benchmark of 291 tasks from 13 real-world repositories, covering 8 types of verification logic such as functional postconditions and interaction protocols. Given a natural language specification, repository context, and a reference implementation, an agent constructs a validation harness comprising executable checks and test scenarios. The checks should reject implementations that violate the specification while accepting those that satisfy it, and the scenarios should thoroughly exercise the code. Across four proprietary and open-weight coding agents, none constructs a harness scored as faithful on the benchmark's implementations for more than 63% of the tasks. The bottleneck lies less in exploring test scenarios than in constructing checks that faithfully reflect the specification. Specifically, the agents show a clear tendency to write checks that mirror the reference implementation rather than the specification, and therefore reject implementations that the specification permits.",
+        "authors": [
+          "Zhiqing Zhong",
+          "Mingyu Chen",
+          "Aoyang Fang",
+          "Yuzhong Zhang",
+          "Haoye Tian",
+          "Lionel Briand",
+          "Boxi Yu",
+          "Pinjia He"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.16870",
+        "paper_url": "https://arxiv.org/abs/2610.16870",
+        "pdf_url": "https://arxiv.org/pdf/2610.16870",
+        "published": "2026-10-12",
+        "title": "SpecGuardBench: Can Coding Agents Construct Reliable Validation Harnesses from Natural Language Specifications?",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "For repository-grounded coding agents, a functionally correct patch is not necessarily an acceptable one: developers also constrain how the task must be carried out-modification scope, workflow order, validation, tool use, and reporting. This capability, which we call engineering constraint following, remains largely invisible to current evaluations. We introduce ANCHOR (Assessing Naturalistic Constraint Hierarchies and Ordering in Repository-Grounded Agentic Coding), a benchmark built on naturalistic, multilingual repository tasks spanning eight language groups. ANCHOR combines (i) a hierarchical taxonomy of 10 categories and 78 leaf types distilled from real developer interactions, (ii) an automated pipeline that instantiates task-grounded atomic constraints and composes them into typed AND/THEN/PRIORITY relations, and (iii) a trajectory-grounded evaluation framework that checks both the code diff and the execution trajectory with rule-based and LLM judges. Across 19 agent configurations spanning 2 scaffolds and 10 foundation models on 358 tasks, the strongest measured system, Claude Opus 4.8 under Cline, reaches 70.1% atomic compliance and 63.7% relation compliance, while 19.0% of tasks pass every scored checklist item under the strict all-item FCCR criterion. A five-engineer audit of constraints from 50 instances reports 94% feasibility, 94% repository consistency, and 96% realism. In the primary paired set (14 configurations), the mean signed change in task completion after adding constraints is +0.7 percentage points; individual changes vary in both directions. These results distinguish functional success from constraint compliance, with failures concentrated in workflow ordering, tool-use discipline, and reporting, and substantial interactions between models and scaffolds.",
+        "authors": [
+          "Wenqiang Zhu",
+          "Xinping Lei",
+          "Zhiyi Lai",
+          "Zhengshuo Gong",
+          "Tianzhuang He",
+          "Songwei Yu",
+          "Weihao Li",
+          "Jingxuan Xu",
+          "Zihang Xu",
+          "Gang Wu",
+          "Zhongqiu Wang",
+          "Yuhui Bai",
+          "Jie Li",
+          "Zhao Liu",
+          "Junhao Fan",
+          "Yan Wu",
+          "Yanan Wu",
+          "Jiaheng Liu",
+          "Ariel Deng"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.16859",
+        "paper_url": "https://arxiv.org/abs/2610.16859",
+        "pdf_url": "https://arxiv.org/pdf/2610.16859",
+        "published": "2026-10-12",
+        "title": "ANCHOR: Assessing Naturalistic Constraint Hierarchies and Ordering in Repository-Grounded Agentic Coding",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "Real-time AI captioning now serves audiences at multilingual events, yet computer-assisted interpreting (CAI) tools are still built for interpreters, rarely by them. This article reports an autoethnographic design study in which a professional interpreter with no programming training built a local-first CAI system through expert-led 'vibe coding', co-creating with an LLM architect and a coding agent. Analysis of the complete development dialogues shows how tacit professional knowledge, from segmentation to booth infrastructure, was externalized into design after generic defaults failed in use. In a demanding public scientific event, three mechanisms of in-booth appropriation emerge under a firmly human-led division of labor; telemetry from a first fully instrumented assignment shows a fully local chain sustaining a median translation latency of 0.94 s across 971 utterances. The case is read as lead-user innovation newly enabled by generative AI, with implications for the technological literacy of interpreters and the future of interpreter training.",
+        "authors": [
+          "Zeming Zhao"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/omnigx/whisper_interpreter",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.16460",
+        "paper_url": "https://arxiv.org/abs/2610.16460",
+        "pdf_url": "https://arxiv.org/pdf/2610.16460",
+        "published": "2026-10-12",
+        "title": "The interpreter as developer: An autoethnographic design study of building a computer-assisted interpreting tool through human-LLM co-creation",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "Web application development often proceeds through successive requests that extend an existing implementation. Yet web-generation benchmarks primarily evaluate development toward fixed specifications. We introduce EvoWeb, a novel benchmark comprising 320 cumulative requests over 32 web applications, grounded in real-world product features and structured by functional dependency graphs. Agents iteratively modify a persistent codebase, while a multimodal web agent tests each intermediate application in a live browser, assessing newly requested functionality, cross-request integration, and previously requested functionality. To characterize reliability throughout development, we integrate trajectory performance across user-tolerance thresholds rather than impose a fixed stopping criterion. Experiments across open- and closed-source frontier models show that EvoWeb reveals clear performance differences between models, with cross-request integration emerging as a key challenge. Further analysis shows that later requests with deeper or more numerous dependencies are solved less accurately, while runtime errors become more frequent over successive requests. EvoWeb provides a testbed for evaluating and improving coding agents in long-horizon, multi-request development.",
+        "authors": [
+          "David Nukrai",
+          "Bar Alon",
+          "Nativ Levy",
+          "Ido Andrew Atad",
+          "Ido Cohen",
+          "Itamar Zimerman",
+          "Lior Wolf",
+          "Eli David",
+          "Ilan Naiman"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.SE"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/two-delta/EvoWeb",
+        "comment": "",
+        "first_seen": "2026-10-14",
+        "id": "2610.16402",
+        "paper_url": "https://arxiv.org/abs/2610.16402",
+        "pdf_url": "https://arxiv.org/pdf/2610.16402",
+        "published": "2026-10-12",
+        "title": "EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications",
+        "updated": "2026-10-12"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2024-07-24",
+        "description": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers.",
+        "discovery": "active",
+        "first_seen": "2026-10-14",
+        "forks": 382,
+        "full_name": "containers/ramalama",
+        "id": 833306239,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-13",
+        "score": 18.96,
+        "star_growth_7d": null,
+        "stars": 3085,
+        "topics": [
+          "ai",
+          "containers",
+          "cuda",
+          "hacktoberfest",
+          "hip",
+          "inference-server",
+          "intel",
+          "llamacpp",
+          "llm",
+          "podman",
+          "vllm"
+        ],
+        "url": "https://github.com/containers/ramalama"
+      },
+      {
+        "created_at": "2026-10-12",
+        "description": "DeepSeek-V4.1-Flash on two NVIDIA DGX Sparks: EXL3 weights from the official checkpoint, upstream vLLM with our patches and decode kernels",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 0,
+        "full_name": "sudoingX/dgx-spark-deepseek-v41",
+        "id": 1415505115,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-12",
+        "score": 10.12,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [
+          "deepseek",
+          "dgx-spark",
+          "exl3",
+          "gb10",
+          "quantization",
+          "vllm"
+        ],
+        "url": "https://github.com/sudoingX/dgx-spark-deepseek-v41"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-03-31",
+        "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+        "discovery": "active",
+        "first_seen": "2026-10-14",
+        "forks": 108029,
+        "full_name": "ultraworkers/claw-code",
+        "id": 1197021090,
+        "language": "Rust",
+        "license": "MIT",
+        "pushed_at": "2026-10-13",
+        "score": 26.16,
+        "star_growth_7d": null,
+        "stars": 194902,
+        "topics": [],
+        "url": "https://github.com/ultraworkers/claw-code"
+      },
+      {
+        "created_at": "2025-03-05",
+        "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+        "discovery": "active",
+        "first_seen": "2026-10-14",
+        "forks": 34755,
+        "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+        "id": 943398999,
+        "language": null,
+        "license": "GPL-3.0",
+        "pushed_at": "2026-10-12",
+        "score": 25.47,
+        "star_growth_7d": null,
+        "stars": 144011,
+        "topics": [
+          "ai",
+          "bolt",
+          "cluely",
+          "copilot",
+          "cursor",
+          "cursorai",
+          "devin",
+          "github-copilot",
+          "lovable",
+          "open-source",
+          "perplexity",
+          "replit",
+          "system-prompts",
+          "trae",
+          "trae-ai",
+          "trae-ide",
+          "v0",
+          "vscode",
+          "windsurf",
+          "windsurf-ai"
+        ],
+        "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+      },
+      {
+        "created_at": "2026-07-05",
+        "description": "Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 | A research workbench for China A-shares, US and HK stocks.",
+        "discovery": "active",
+        "first_seen": "2026-10-14",
+        "forks": 551,
+        "full_name": "simonlin1212/Vibe-Research",
+        "id": 1289743790,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-11",
+        "score": 18.4,
+        "star_growth_7d": null,
+        "stars": 2704,
+        "topics": [
+          "a-stock",
+          "ai-agent",
+          "claude-code",
+          "codex",
+          "dashboard",
+          "financial-research",
+          "fintech",
+          "hk-stocks",
+          "investment-research",
+          "llm",
+          "local-agent",
+          "mcp",
+          "python",
+          "react",
+          "stock-market",
+          "trading",
+          "us-stocks",
+          "workbuddy"
+        ],
+        "url": "https://github.com/simonlin1212/Vibe-Research"
+      },
+      {
+        "created_at": "2026-09-30",
+        "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 79,
+        "full_name": "oil-oil/oil-ui",
+        "id": 1396939768,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-14",
+        "score": 17.64,
+        "star_growth_7d": null,
+        "stars": 1446,
+        "topics": [
+          "agent-skills",
+          "ai-design",
+          "claude-code",
+          "claude-skills",
+          "codex",
+          "frontend",
+          "ui-design",
+          "ux-design"
+        ],
+        "url": "https://github.com/oil-oil/oil-ui"
+      },
+      {
+        "created_at": "2026-10-02",
+        "description": "Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, on your own login, no key.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 53,
+        "full_name": "openqodex/openqodex",
+        "id": 1401219750,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-13",
+        "score": 16.28,
+        "star_growth_7d": null,
+        "stars": 661,
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "ai-code-review",
+          "claude-code",
+          "claude-code-plugin",
+          "claude-skills",
+          "cline",
+          "code-quality",
+          "code-review",
+          "codex",
+          "coding-agents",
+          "cursor",
+          "github-actions",
+          "linter",
+          "pre-commit",
+          "sast",
+          "secret-scanning",
+          "security",
+          "security-tools",
+          "static-analysis"
+        ],
+        "url": "https://github.com/openqodex/openqodex"
+      },
+      {
+        "created_at": "2026-10-02",
+        "description": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 46,
+        "full_name": "Harvil1/codeAgent",
+        "id": 1401123204,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-14",
+        "score": 15.84,
+        "star_growth_7d": null,
+        "stars": 511,
+        "topics": [
+          "agent",
+          "ai-agent",
+          "cli",
+          "coding-agent",
+          "context-engineering",
+          "deepseek",
+          "llm",
+          "mcp",
+          "python",
+          "terminal"
+        ],
+        "url": "https://github.com/Harvil1/codeAgent"
+      },
+      {
+        "created_at": "2026-10-02",
+        "description": "Animated, explorable diagrams for Claude and other coding agents, from a short JSON spec.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 21,
+        "full_name": "Aryanutkarsh/SeeCode",
+        "id": 1402218524,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-12",
+        "score": 15.52,
+        "star_growth_7d": null,
+        "stars": 468,
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "architecture-diagram",
+          "claude-code",
+          "claude-skills",
+          "codex",
+          "coding-agents",
+          "data-visualization",
+          "developer-tools",
+          "diagrams",
+          "diagrams-as-code",
+          "drawio",
+          "flowchart",
+          "isometric",
+          "mermaid",
+          "sequence-diagram",
+          "software-architecture",
+          "svg",
+          "system-design",
+          "visualization"
+        ],
+        "url": "https://github.com/Aryanutkarsh/SeeCode"
+      },
+      {
+        "created_at": "2026-10-02",
+        "description": "Pi, the coding agent, compiled ahead of time to native code. Starts 3× sooner than Pi on Bun and uses about a third of its CPU.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 12,
+        "full_name": "opensec-git/Pi-Bolt",
+        "id": 1402211512,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-14",
+        "score": 15.03,
+        "star_growth_7d": null,
+        "stars": 321,
+        "topics": [
+          "ahead-of-time",
+          "ai-agent",
+          "ai-coding-assistant",
+          "aot-compiler",
+          "bun",
+          "cli",
+          "coding-agent",
+          "developer-tools",
+          "javascriptcore",
+          "linux",
+          "llm",
+          "macos",
+          "native",
+          "performance",
+          "pi",
+          "pi-coding-agent",
+          "terminal",
+          "typescript",
+          "windows"
+        ],
+        "url": "https://github.com/opensec-git/Pi-Bolt"
+      },
+      {
+        "created_at": "2026-10-01",
+        "description": "Sno Station Skills: 31 tested skills that turn Claude Code and Codex into one working team. Cross-vendor peer review, automatic handoff when an agent hits its quota, a one-page morning brief, work orders with proof, and a nightly loop that learns from your own sessions. Open source, installed with one sno setup.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 210,
+        "full_name": "sno-ai/sno-station-skills",
+        "id": 1399080579,
+        "language": "Shell",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-14",
+        "score": 14.98,
+        "star_growth_7d": null,
+        "stars": 311,
+        "topics": [
+          "agent-handoff",
+          "agent-skills",
+          "agentic-ai",
+          "ai-agents",
+          "claude-code",
+          "claude-code-skills",
+          "code-review",
+          "codex",
+          "codex-skills",
+          "coding-agents",
+          "developer-tools",
+          "llm",
+          "multi-agent",
+          "open-source",
+          "peer-review",
+          "rate-limit",
+          "self-improving",
+          "skills",
+          "sno",
+          "sno-ai"
+        ],
+        "url": "https://github.com/sno-ai/sno-station-skills"
+      },
+      {
+        "created_at": "2026-10-04",
+        "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 38,
+        "full_name": "openfilm/openfilm",
+        "id": 1404197626,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-14",
+        "score": 14.94,
+        "star_growth_7d": null,
+        "stars": 305,
+        "topics": [
+          "ai-video",
+          "claude-code",
+          "codex",
+          "coding-agents",
+          "html",
+          "motion-graphics",
+          "video-agent",
+          "video-editor"
+        ],
+        "url": "https://github.com/openfilm/openfilm"
+      },
+      {
+        "created_at": "2026-10-10",
+        "description": "Your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, who waits on whom, who needs you. VS Code extension, terminal command, desktop app. Runs locally, zero tokens.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 24,
+        "full_name": "Atoll92/agent-standup",
+        "id": 1412918852,
+        "language": "HTML",
+        "license": "MIT",
+        "pushed_at": "2026-10-14",
+        "score": 14.02,
+        "star_growth_7d": null,
+        "stars": 179,
+        "topics": [
+          "ai-agents",
+          "claude",
+          "claude-code",
+          "codex",
+          "developer-tools",
+          "mistral",
+          "mistral-vibe",
+          "monitoring",
+          "subagents",
+          "visualization",
+          "vscode-extension"
+        ],
+        "url": "https://github.com/Atoll92/agent-standup"
+      },
+      {
+        "created_at": "2026-10-08",
+        "description": "Can coding agents build the agent you actually want? A benchmark of 25 agent software engineering tasks across creation, editing and optimization.",
+        "discovery": "new",
+        "first_seen": "2026-10-14",
+        "forks": 0,
+        "full_name": "VectorSpaceLab/AgentSWE",
+        "id": 1410693441,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-13",
+        "score": 11.11,
+        "star_growth_7d": null,
+        "stars": 36,
+        "topics": [
+          "agent-evaluation",
+          "benchmark",
+          "coding-agents",
+          "llm-agents",
+          "software-engineering"
+        ],
+        "url": "https://github.com/VectorSpaceLab/AgentSWE"
+      }
+    ]
+  }
+}
