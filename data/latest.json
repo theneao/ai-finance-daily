@@ -1,77 +1,177 @@
 {
   "papers": [],
-  "repositories": [
-    {
-      "created_at": "2026-10-14",
-      "description": "High-frequency Polymarket trading bot for crypto Up/Down markets, using Black-Scholes and TWAP probability models, Chainlink and multi-exchange price feeds, fee-aware EV, and risk management.",
-      "discovery": "new",
-      "first_seen": "2026-10-15",
-      "forks": 0,
-      "full_name": "polytutor-ai/polymarket-black-scholes-hft-bot",
-      "id": 1418689338,
-      "language": "Python",
-      "license": null,
-      "pushed_at": "2026-10-14",
-      "score": 10.29,
-      "star_growth_7d": null,
-      "stars": 20,
-      "topics": [
-        "algorithmic-trading",
-        "black-scholes",
-        "chainlink",
-        "crypto-trading",
-        "hft",
-        "high-frequency-trading",
-        "polymarket",
-        "polymarket-bot",
-        "polytutor",
-        "prediction-markets",
-        "python",
-        "quantitative-finance",
-        "trading-bot"
-      ],
-      "url": "https://github.com/polytutor-ai/polymarket-black-scholes-hft-bot"
-    }
-  ],
-  "run_date": "2026-10-15",
+  "repositories": [],
+  "run_date": "2026-10-16",
   "topic_papers": {
     "ai_infra": [
       {
-        "abstract": "Speculative decoding accelerates LLM generation through lightweight drafting and parallel verification. It is particularly promising for long inputs, where KV-cache access costs can be amortized over multiple accepted tokens. Yet most drafters are trained on short sequences and degrade on long inputs, while long-context training is costly. Existing training-free approaches restrict the context window, rescale positions, or augment recent context with retrieved distant entries. Drafters, however, read target hidden states that already encode contextual and positional information, and their lightweight architecture makes full-history attention affordable. We propose FOLD, a training-free method that preserves exact local positions and treats all distant entries as far memory at a shared position. To counter attention dilution as the memory grows, we sharpen attention within it to emphasize relevant entries while separately controlling its total weight relative to the local window. Across six target-drafter pairs and diverse benchmarks of up to 256K tokens, FOLD predominantly delivers the highest speedup, with the best case more than doubling the speedup over autoregressive decoding, from 2.08$\\times$ to 4.22$\\times$.",
+        "abstract": "Large Language Models (LLMs) have shown exceptional capabilities but rely heavily on centralized cloud GPU clusters, leading to high bandwidth costs, latency, and privacy issues. Edge computing offers a solution by deploying LLMs closer to users on edge servers, yet single edge servers often cannot meet LLMs' heavy computational demands. Collaborative Edge Computing (CEC) addresses this challenge by integrating resources of multiple geo-distributed heterogeneous edge servers, which jointly host small model shards and associated Key-Value (KV) cache for distributed inference. However, edge servers may disconnect or easily become overloaded, making it essential to migrate stateful KV cache to other servers for ensuring continuous service. Existing cloud-based KV cache management methods, such as direct cross-GPUs transmission and recomputation from input tokens are ill-suited for bandwidth-constrained and resource-limited edge environments. In this work, we propose EdgeFlow, a novel hybrid KV cache migration scheme that integrates direct KV cache transmission with activation-based recomputation, leveraging parallel computation and communication to minimize migration time. On this basis, we formulate a multi-node KV migration optimization problem and design a 2-approximation algorithm based on improved linear programming relaxation and bipartite graph techniques. Extensive experiments on a real-world distributed LLM inference platform demonstrate that EdgeFlow reduces migration time by up to 45%, significantly enhancing the robustness and efficiency of distributed LLM inference in collaborative edge computing.",
         "authors": [
-          "Shuxuan Li",
-          "Jialiang Kang",
-          "Yanghao Zhou",
-          "Ziye Zhu",
-          "Xiao Yang"
+          "Mingjin Zhang",
+          "Jiannong Cao",
+          "Tao Wu",
+          "Xiangchun Chen",
+          "Ne Wang"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.22172",
+        "paper_url": "https://arxiv.org/abs/2610.22172",
+        "pdf_url": "https://arxiv.org/pdf/2610.22172",
+        "published": "2026-10-15",
+        "title": "Efficient KV Cache Migration for Geo-Distributed LLM Inference in Collaborative Edge Computing",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Multi-agent systems built from frozen language models communicate through text, which discards the internal state the sender already computed and makes the receiver pay to rebuild it. Work on internal channels avoids that cost, framing the problem as transfer: agent A sends information to agent B. Every agent pair that must communicate needs its own transfer bridge, and every agent added to a system needs a new bridge fitted against each previous agent. We reframe this problem as sharing: an agent publishes its internal state once into a pool, and every peer reads that pool through a single mechanism fitted to no sender in particular, so adding an agent adds a publisher and no new bridge. Whereas the carrier of the internal state and the fusion mechanism are usually chosen independently in the literature, our main finding is that these two choices are coupled; the deciding factor is where the carrier enters the receiver's computation. Consumability is a property of the receiving computation rather than of the representation. We find that the key-value (KV) cache must be augmented rather than swapped in: the receiver cross-attends over a peer's cache while keeping its own, and with only a small query-side adapter trained, matches the accuracy it gets from reading the source document. Activations invert this. They are best written straight into the receiver, with no bridge, no adapter and no training, which beats exposing them alongside the receiver's own, though that advantage rests on knowing where in the receiver the state belongs. The rule is augment the KV cache, replace the activation, established under one protocol with a shared control ladder. One adapter, trained once, also serves publishers it never trained on, and a pool of several at once, but only those whose internal state lies close to the receiver's own.",
+        "authors": [
+          "Adam Deng",
+          "Shicheng Liu",
+          "Yada Zhu"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.22026",
+        "paper_url": "https://arxiv.org/abs/2610.22026",
+        "pdf_url": "https://arxiv.org/pdf/2610.22026",
+        "published": "2026-10-15",
+        "title": "Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Multi-agent LLM systems communicate in text, which is lossy and wasteful: the sender throws away the reading it already did. A growing literature instead transmits the KV cache, the natural carrier of that reading. We study the most appealing form of the idea: both models stay frozen and the sender's cache is substituted for the reader's with nothing trained. It does not work, and the obstruction belongs to the reader. A frozen transformer reads only caches close to the one it would have written itself, a region we call its tolerable set. We show that geometric similarity to that cache does not predict whether the reader can use it, and the failure is not gradual, so a more faithful substitute is not the remedy it appears to be. We explain this phenomenon with competitive attention. Experimentally, we test eight diverse substitution methods against two measured anchors: an uninformative cache baseline and the reader's own accuracy from having read the passage. All sit at the baseline. That turns a long tail of separate negative results into one outcome with a stated condition for overturning it. A different design does work: if the reader keeps its own cache and attends over the sender's as extra context, adapting only its queries, it beats its own baseline, and also clears the baseline with eight senders pooled where undirected attention over the same union falls below it. We offer this as a characterization on one probe, not a leaderboard claim. Our central contribution is a redirection: pursuing faithful substitute caches is the wrong target; adding a cache to what the reader already has is the promising one.",
+        "authors": [
+          "Adam Deng",
+          "Shicheng Liu",
+          "Yada Zhu"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.22016",
+        "paper_url": "https://arxiv.org/abs/2610.22016",
+        "pdf_url": "https://arxiv.org/pdf/2610.22016",
+        "published": "2026-10-15",
+        "title": "Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Looped Transformers improve parameter efficiency by repeatedly applying the same Transformer layers. However, generating each token still involves sequential computation and repeated access to model weights, leading to high decoding latency. Recent pipelined self-speculative decoding methods reduce this delay by drafting tokens from early-loop predictions and asynchronously advancing tokens at different recurrent depths in the same batch, but they do not fully exploit early-loop features for longer lookahead and still spend computation verifying incorrect speculative branches. We introduce \\method, a speculative decoding framework for looped transformers that enables earlier drafting of future tokens and assigns complementary roles to different recurrent depths. A lightweight lookahead drafter (LAD) predicts multiple future tokens with early-loop states, and deeper-loop feedback helps decide which draft branches to continue and which to pause, while the full-depth model makes the final token decisions. LoopAhead achieves up to 7.82x decoding speedup over autoregressive decoding while preserving the target model's output distribution.",
+        "authors": [
+          "Zixuan Liu",
+          "Nan Xue",
+          "Rui Bao",
+          "Yuhang Xu",
+          "Xiaofeng Cao",
+          "Jiangchao Yao",
+          "Zhiyong Chen"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.21594",
+        "paper_url": "https://arxiv.org/abs/2610.21594",
+        "pdf_url": "https://arxiv.org/pdf/2610.21594",
+        "published": "2026-10-15",
+        "title": "LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine. We study such a tier in a disaggregated deployment of GLM-5.3, an FP8 mixture-of-experts model with multi-head latent attention (MLA), on 8xB300 nodes running prefill context parallelism (PCP8). Enabling the remote tier (LMCache with a Valkey store) left median time-to-first-token unchanged but raised the 16k-token p99 from 3.96 s to 17.3 s. Replaying a production request stream on an isolated engine, we find that a remote hit took 0.88 s against 0.31 s to recompute the prompt, and that synchronous loading turned a hit-heavy stream into an unstable queue: p99 83.32 s with the GPUs 7% busy. A two-term cost model explains both: a hit pays off only if the tier delivers more than B* = sR (2.53 GB/s for this model and GPU), and a fixed per-hit engine cost (T0 ~ 0.33 s) means that hits on prompts shorter than about 17k tokens cannot beat recompute at any bandwidth. Guided by the model, we (i) shard the MLA KV store across PCP ranks, with a proof that the existing minimum-over-ranks lookup returns the longest cached prefix and a load protocol that can never desynchronize collectives; (ii) partition the remote tier by rank, one server instance per rank with no coordination, which raises GET bandwidth 6.3x to 10.76 GB/s; (iii) add asynchronous loading to the sharded store; and (iv) fix three client bugs that caused unbounded stalls. On the hit-heavy stream, with 98.5% of prompt tokens served from the remote tier, p99 falls from 83.32 s to 0.67 s. The sharded store raises prefill throughput by 14%, and by 34% together with an upstream kernel fix. All changes are submitted upstream to LMCache.",
+        "authors": [
+          "Muhammad Ibrahim"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.21500",
+        "paper_url": "https://arxiv.org/abs/2610.21500",
+        "pdf_url": "https://arxiv.org/pdf/2610.21500",
+        "published": "2026-10-15",
+        "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Device-cloud speculative decoding reduces server computation, but growing a deep draft tree with a small language model (SLM) requires repeated passes on a mobile neural processing unit (NPU). We present HyCo, which assigns depth to the server model's native multi-token prediction (MTP) head, executed on the device, and alternative branches to one SLM pass. The server returns the hidden state, input embedding, and key-value entries needed by the head instead of executing its sequential steps. Quantization, a restricted vocabulary, and a 1K-token window fit both drafters to the NPU. An ε-threshold rule additionally relaxes exact preservation of the verifier's sampling distribution. In single-client runs with a Galaxy S26 Ultra over LTE/5G, HyCo reduces server GPU time per output token relative to server-side MTP self-speculation by 38.6% on Spec-Bench and 29.2% on 32K-token summarization. With the same acceptance rule, three Spec-Bench runs per system show 9.0 percentage points more saving and 1.9x delivery speed than an SLM-only drafter. HyCo differs from Cloud+MTP by +0.2 judge-score points (paired 95% CI: -0.9 to +1.3); exploratory translation favors SpecEdge-ε. Without relaxation, HyCo exact saves 27.7% and 11.9% on the two datasets.",
+        "authors": [
+          "Hanbin Bae",
+          "Heejin Choi",
+          "Joohyung Lee",
+          "Byoung Jin Choi",
+          "Sangjun Park",
+          "Hoon-Young Cho"
         ],
         "categories": [
           "cs.CL",
+          "cs.DC",
           "cs.LG"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.20392",
-        "paper_url": "https://arxiv.org/abs/2610.20392",
-        "pdf_url": "https://arxiv.org/pdf/2610.20392",
-        "published": "2026-10-14",
-        "title": "FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding",
-        "updated": "2026-10-14"
+        "first_seen": "2026-10-16",
+        "id": "2610.21436",
+        "paper_url": "https://arxiv.org/abs/2610.21436",
+        "pdf_url": "https://arxiv.org/pdf/2610.21436",
+        "published": "2026-10-15",
+        "title": "HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Parallel drafters such as DFlash and DSpark reduce proposal latency, but early mismatches limit how much of each block can be accepted. Retaining alternatives introduces parent states and candidate choices that reference-conditioned training does not directly supervise. We introduce TreeSpark, a unified training and inference framework extending the semi-autoregressive DSpark architecture. It constructs parent-conditioned candidate trees from one backbone pass and replays their expansion, pruning, and budgeted packing during training. Survival negative log-likelihood weights retained edges by reference-derived path mass, while a capped coverage hinge promotes target-important alternatives near local selection boundaries. Both objectives reuse reference-chain target distributions without additional target forward passes. We evaluate greedy decoding with Qwen3-4B and Qwen3-8B on nine general benchmarks and six writing domains. Across targets and suites, TreeSpark improves mean acceptance length over DSpark by 23.4% to 31.6% and mean single-request throughput by 15.1% to 25.0%. Batched Qwen3-4B throughput improves by 12.6% to 17.2%. At fixed attention capacity and inference policy, the proposed supervision further improves mean acceptance length by approximately 6.4% and mean system throughput by 4.2% to 5.0% on Qwen3-4B.",
+        "abstract": "Multi-agent large language model (LLM) systems are increasingly deployed at the edge to support complex tasks that require collaboration and information exchange among multiple agents. However, when task contexts are passed across agents, shared context that has already been processed by upstream agents often needs to be prefilled again, resulting in substantial redundant computation. Reusing an already prefilled key--value (KV) cache can avoid this recomputation, but requires the reusable KV state to be transferred across the network before the receiving agent can begin generation. Under strict time-to-first-token (TTFT) deadlines and unreliable edge links, delivering the complete KV cache may be infeasible, making it necessary to prioritize and protect the most valuable KV information within a limited transmission budget. This paper proposes PriorityFEC, a utility-aware KV-cache handoff scheme that jointly exploits model-side KV importance and transport-side reliability. PriorityFEC first constructs a utility-aware source stream by placing high-utility KV blocks at earlier transmission positions. It then protects the ordered stream using a feedback-adaptive Streaming Forward Erasure Correction (FEC) mechanism, which schedules repair packets according to receiver feedback before the TTFT deadline. We implement PriorityFEC on a distributed edge LLM serving prototype and evaluate it with Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct across multiple datasets. Results show that PriorityFEC achieves superior task quality over the compared transport schemes, with its advantages becoming particularly pronounced under stringent deadline constraints. These results demonstrate the importance of jointly optimizing KV-cache utility and deadline-aware transport reliability when reusable LLM state must be handed off across unreliable edge networks.",
         "authors": [
-          "Jihao Zhao",
-          "Qianyu Jiang",
-          "Shuaishuai Zu",
-          "Pengfei Li",
-          "Guanghuan Fang",
-          "Ben Feng",
-          "Biao Qin",
-          "Zhibin Wang",
-          "Baochuan Yang"
+          "Han Shen",
+          "Qifu Tyler Sun",
+          "Fanyang Meng",
+          "Ye Wang",
+          "Yongsheng Liang"
+        ],
+        "categories": [
+          "cs.NI",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.21390",
+        "paper_url": "https://arxiv.org/abs/2610.21390",
+        "pdf_url": "https://arxiv.org/pdf/2610.21390",
+        "published": "2026-10-15",
+        "title": "PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Attribute-value extraction is important for building high-quality product catalogs in e-commerce. Existing systems either rely on generative or tagging strategies for extracting the attribute names and their corresponding values. Tagging models directly label spans in the source, making them fast and grounded, but they cannot produce values that require reformatting or generate rare attribute names outside their label space. Generative models avoid these drawbacks by generating both attribute names and values token by token, but this auto-regressive nature makes them slow and limits attribute coverage. We introduce hybrid generative-tagging decoding, a novel model architecture that combines tagging source spans and open-ended generation. For frequent attributes whose values are copyable, a tagging head extracts values directly from the source. This lets the generative head focus on the remainder - rare attributes outside the tagger's label space and non-copyable values, including implicit or normalized values. Integrated into vLLM inference, the hybrid decoder raises attribute coverage by 10% and extracts 63% more correct attribute-value pairs at no precision cost, while reducing latency by 44%.",
+        "authors": [
+          "Keshav Kolluru",
+          "Manas Gupta",
+          "Maroof Ahmad",
+          "Suchitra Sathyanarayana"
         ],
         "categories": [
           "cs.CL"
@@ -79,740 +179,715 @@
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.20175",
-        "paper_url": "https://arxiv.org/abs/2610.20175",
-        "pdf_url": "https://arxiv.org/pdf/2610.20175",
-        "published": "2026-10-14",
-        "title": "TreeSpark: Learning to Draft the Trees You Verify for Speculative Decoding",
-        "updated": "2026-10-14"
+        "first_seen": "2026-10-16",
+        "id": "2610.21329",
+        "paper_url": "https://arxiv.org/abs/2610.21329",
+        "pdf_url": "https://arxiv.org/pdf/2610.21329",
+        "published": "2026-10-15",
+        "title": "Hybrid Generative-Tagging Decoding for Efficient Product Attribute-Value Extraction",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Rubric-based evaluation assesses the responses of large language models (LLMs) by aggregating the verification results of explicit criteria, yet not all criteria matter equally. However, existing methods commonly aggregate the verification results with uniform weighting, which assigns minor and overlapping criteria the same weight as essential ones and thus produces misleading evaluation scores. Although some methods prompt an LLM to directly assign weights, direct weighting requires a holistic judgment over all criteria that LLMs struggle to make reliably. To address these limitations, we propose Importance-Aware Criteria Weighting (ICW), which derives the weights of criteria from pairwise importance comparisons made by an LLM. Specifically, ICW transforms the holistic judgment over all criteria into a series of pairwise importance comparisons, checks and revises inconsistent comparisons, and derives the weights from the principal eigenvector of the comparison matrix. Extensive experiments demonstrate that ICW consistently outperforms uniform weighting and competitive weighting methods, and translates into better policy models in downstream reinforcement learning.",
+        "abstract": "KV-cache offload is widely used to stretch GPU memory for LLM serving, but its storage behavior has not been characterized at the block-device level. In this paper, we study LMCache through realworld multi-session workloads that span same/different context x same/different prompt, using over 100 stateless requests per workload. Our comparison is observational rather than factorial: it contrasts two realizable deployment snapshots -- LMCache 0.3.0 with buffered I/O and the kernel page cache, and LMCache 0.3.16 with prefix-aware deduplication and O_DIRECT. Key findings define the paper. First, the legacy stack appears almost read-free at the SSD layer in all four workloads, but a flush_ram experiment shows that this is conditional on page-cache warmth: once the cache is evicted, the same path issues about 1 GB of sequential reads in 683 ms. Second, deduplication delivers a dramatic write reduction only for the exact-repeat workload: one set collapses from 1.62 GB to 11.75 MB of writes, while the other three sets remain in the 2-5 GB range. Third, O_DIRECT converts a hidden and bimodal read cost into an explicit and stable one: on one set, warm TTFT rises from 27 ms to 93 ms because each of the 99 warm requests re-reads the same ~12 MB partial chunk from SSD. The main conclusion is therefore not \"newer is better,\" but a system trade-off: predictability versus average-case latency.",
         "authors": [
-          "Haocheng Yang",
+          "Ying He",
+          "Dingsen Shi",
+          "Yanbo Dai",
+          "Donger Chen",
+          "Harry Fu",
+          "Chris Tsu",
+          "Wang Feng",
+          "Song Fu"
+        ],
+        "categories": [
+          "cs.OS"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.21249",
+        "paper_url": "https://arxiv.org/abs/2610.21249",
+        "pdf_url": "https://arxiv.org/pdf/2610.21249",
+        "published": "2026-10-15",
+        "title": "Characterizing Predictability-Latency Trade-offs of KV-Cache SSD Offloading in LMCache for LLM Serving Systems",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "LLM serving reuses cached key-value (KV) state to skip prefill, and growing contexts push that state past GPU HBM and CPU DRAM onto NVMe SSDs, placing prefix restore on the critical path of time-to-first-token (TTFT). We find that on a well-configured host-issued path the SSD is not the bottleneck: restoring the same 6 GiB of KV takes 2.1 s as 192 objects but 3.0 s as 6,144 objects, and more under layerwise loading, because every layer of the storage stack - lookup, allocation, I/O submission, GPU delivery, store, index - charges per logical object while the bytes stay the same. This cost grows with the KV footprint: longer contexts, deeper models under layerwise loading, and tensor parallelism each multiply the object count. Prior systems move this per-object work from the CPU to the GPU; the work remains per object. This paper presents Range, a KV-cache storage engine for vLLM and LMCache built on one principle: every cost on the storage path scales with bytes or physical batches, never with logical objects. Range tickets replace per-key lookup and ownership with token metadata and physical leases; byte stripes make the on-media layout independent of reuse granularity; completion-owned GPU transfer banks batch delivery and extraction and release each layer to attention as it lands. Range keeps the kernel cuFile path and changes four lines of vLLM. On a fixed 6 GiB restore, Range's median TTFT stays at 1.79-1.80 s across a 32x range of object counts and under layerwise delivery, within 70 ms of the prefix already being resident in GPU memory, while tuned in-process LMCache rises from 2.12 s to 3.01 s. Range improves on the fastest multiprocess DRAM-bounced path by 0.44 s at coarse granularity while moving no payload through host memory, and holds layerwise reuse at the cost of coarse-grained reuse, where the best stock path takes 2.24 s.",
+        "authors": [
+          "Dingsen Shi",
+          "Jiahao Zhang",
+          "Liqiang Lv",
+          "Boming Huang",
+          "Yanbo Dai",
+          "Ying He",
+          "Donger Chen",
+          "Harry Fu",
+          "Wang Feng",
+          "Song Fu"
+        ],
+        "categories": [
+          "cs.OS"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.21241",
+        "paper_url": "https://arxiv.org/abs/2610.21241",
+        "pdf_url": "https://arxiv.org/pdf/2610.21241",
+        "published": "2026-10-15",
+        "title": "Range: Decoupling KV-Cache Reuse Granularity from Storage Work",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Rubric-based evaluation is widely used to assess large language model (LLM) outputs by decomposing quality into multiple criteria and assigning each a binary judgment from an LLM verifier. However, judgment certainty varies substantially across criteria. Existing methods uniformly aggregate these judgments into a final score, implicitly treating every criterion as equally certain and overlooking this heterogeneity. As a result, uncertain judgments remain incorporated into reward estimation without distinction, potentially yielding misleading training signals for downstream reinforcement learning (RL). To address this limitation, we propose Uncertainty-aware Rubric Weighting (URW), a training-free framework that quantifies criterion-level judgment uncertainty via conformal calibration. Specifically, URW elicits a soft uncertainty signal from a fixed pool of paraphrased judgment templates and converts it into a per-criterion weight using split-conformal $p$-values with provable coverage guarantees. Extensive experiments demonstrate that URW consistently improves pairwise preference accuracy and delivers stronger downstream RL alignment.",
+        "authors": [
           "Licheng Pan",
-          "Yiming Dong",
-          "Xiaoxi Li",
+          "Haocheng Yang",
+          "Haoxuan Li",
+          "Yuzhou Chen",
+          "Yichen Sun",
           "Yuan Lu",
-          "Zhenhao Chen",
-          "Jiajun Fan",
-          "Shuai Shao",
-          "Chunyuan Zheng",
-          "Hao Wang"
+          "Xiaoxi Li",
+          "Hao Wang",
+          "Zhixuan Chu",
+          "Kui Ren"
         ],
         "categories": [
-          "cs.CL"
+          "cs.AI"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.19915",
-        "paper_url": "https://arxiv.org/abs/2610.19915",
-        "pdf_url": "https://arxiv.org/pdf/2610.19915",
-        "published": "2026-10-14",
-        "title": "Not All Criteria Matter: Importance-Aware Criteria Weighting for Rubric-Based LLM Evaluation",
-        "updated": "2026-10-14"
+        "first_seen": "2026-10-16",
+        "id": "2610.21214",
+        "paper_url": "https://arxiv.org/abs/2610.21214",
+        "pdf_url": "https://arxiv.org/pdf/2610.21214",
+        "published": "2026-10-15",
+        "title": "Rubric Judgments Lack Uncertainty: Conformal Weighting for LLM Evaluation",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "LLMs absorb vast knowledge from training data, yet their inherently probabilistic nature offers no guarantee that this knowledge will surface in their outputs. To bridge this gap, Knowledge Extraction Enhancement (KEE) techniques such as activation steering, decoding adjustments, and prompting modify inference, potentially reinforcing existing predictions or surfacing less accessible answers. Yet their evaluations centered on aggregate accuracy, which obscures diverse effects by collapsing recovered failures and disrupted successes into a single score. We introduce MAPLE, a unified framework for characterizing how KEE techniques affect parametric knowledge extraction. Its diagnostic metrics disentangle these effects at the surface, probability, and beyond-sampling levels by measuring answer recovery and disruption, gold-token rank shifts on unrecovered failures, and recovery of answers missed by fixed-budget sampling. We evaluate six KEE techniques spanning decoding, activation steering, and prompting across three model families: OLMo2, Qwen2.5, and Llama3. Our analysis reveals distinct effects and trade-offs across techniques, highlighting the value of MAPLE for understanding and comparing KEE beyond aggregate accuracy.",
+        "abstract": "LLM-agent evaluation reports behavioral scores but leaves the identity of the deployed runtime stack unreported. A tampered deployment that preserves evaluated outputs passes every output-only evaluator. We introduce DIB-Bench, a benchmark that measures this deployment-integrity blindness across 7,560 scored examples, six tamper types, and an evaluator ladder from regex scorers through LLM judges to GPT-5-nano. Stronger evaluators accept more tampered outputs: mean acceptance rises from 88.6% (rule-based) to 94.1% (GPT-5-nano), and a trigger-conditional tamper invisible on the evaluation suite produces 48-100% harmful outputs, rising with model capability. A PAC-style bound shows that tampers with zero output shift are undetectable from outputs at any sample size; a manifest-hash identity channel detects them with zero samples. Behavioral fingerprinting identifies the model component above chance (76.7%) but covers one of six stack components. We also propose a graded deployment-identity descriptor for evaluation reports.",
         "authors": [
-          "Minsuh Joo",
-          "Youna Kim",
-          "Choonghyun Park",
-          "Soo Kyung Kim",
-          "Hyunsoo Cho"
+          "Jianchang Su",
+          "Dawei Xiang",
+          "Yifan Zhang",
+          "Wei Zhang"
         ],
         "categories": [
-          "cs.LG",
-          "cs.CL"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.19827",
-        "paper_url": "https://arxiv.org/abs/2610.19827",
-        "pdf_url": "https://arxiv.org/pdf/2610.19827",
-        "published": "2026-10-14",
-        "title": "MAPLE: A Multi-Axis Parametric Knowledge Extraction Lens for LLM Evaluation",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "Long-output inference in large language models suffers from severe KV cache memory and bandwidth bottlenecks. While KV cache quantization alleviates this issue, low-bit quantization (e.g., 2-bit) severely degrades model accuracy. Recent mixed-precision key-cache quantization methods mitigate this degradation by allocating higher precision to important key channels, but estimate channel saliency using only key statistics. Through attention logit perturbation analysis at the RoPE channel-pair level, we show that quantization errors in channel pairs with large query--key pair-norm products contribute significantly to logit variation. Based on this insight, we propose PN-Mix, a mixed-precision key-cache quantization method for RoPE-based decoder-only LLMs, which allocates higher precision to salient channel pairs identified once during the prefill stage and reused throughout decoding. Across standard reasoning, code-generation, and AIME benchmarks, PN-Mix with 2.26-bit average precision achieves comparable or better average accuracy than prior mixed-precision methods using 2.32--2.39 bits. Furthermore, in our Pareto sweep, PN-Mix degrades gracefully down to 1.5 bits, whereas the compared baselines exhibit sharper performance drops below 2.25 bits.",
-        "authors": [
-          "Gil Jae Song",
-          "Sungjoo Yoo"
-        ],
-        "categories": [
-          "cs.LG",
-          "cs.CL"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.19605",
-        "paper_url": "https://arxiv.org/abs/2610.19605",
-        "pdf_url": "https://arxiv.org/pdf/2610.19605",
-        "published": "2026-10-14",
-        "title": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "This paper presents CacheSmith, a KV cache reuse system for RAG prefill that maximizes quality-gated SLO attainment. While context caching lowers prefill latency by reusing precomputed KV states for retrieved chunks, it misses cross-chunk attention that a full prefill would compute over concatenated inputs. Prior selective recomputation schemes tackle this problem but enforce static, one-size-fits-all configurations that fail to effectively handle request heterogeneity or dynamic latency budgets. CacheSmith decomposes selective recomputation into a three-phase workflow of WarmUp, Probe, and Patch that can be dynamically configured to exploit a wide range of cost-accuracy trade-offs. At serving time, an SLO-aware scheduler in CacheSmith forms batches to mitigate inter-request interference during layer-by-layer prefill, while a budget-aware planner configures recomputation phases across the batch to maximize the number of requests satisfying both generation quality and latency targets. Both components make fast, solver-free decisions over profiled cost-accuracy bands. On four benchmarks across varying arrival rates and burstiness levels, CacheSmith improves quality-gated SLO attainment by up to 27.5%, over four state-of-the-art baselines.",
-        "authors": [
-          "Xinyue Ma",
-          "Damin Lee",
-          "Aashaka Shah",
-          "Myeongjae Jeon"
-        ],
-        "categories": [
-          "cs.AR",
-          "cs.DC"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.18925",
-        "paper_url": "https://arxiv.org/abs/2610.18925",
-        "pdf_url": "https://arxiv.org/pdf/2610.18925",
-        "published": "2026-10-13",
-        "title": "CacheSmith: Accurate RAG Serving under Latency SLOs with Adaptive KV Reuse",
-        "updated": "2026-10-13"
-      },
-      {
-        "abstract": "We introduce FORGE (Fast On-chip Rotor Generation for Experts), a procedural weight generation system for Sparse Mixture-of-Experts (MoE) inference. Rather than storing and loading every expert weight tensor from HBM, we show how a compact accelerator inside each Streaming Multiprocessor can regenerate them on-the-fly from $O(\\log^2 d)$ rotor parameters per projection. Per replaced layer, gigabytes of stored expert weights are approximated with under a megabyte of seeds. This addresses the dual memory bottleneck of autoregressive Sparse MoE decode, where per-expert FFN operations are HBM-bandwidth-bound at small routed-token counts and the aggregate expert footprint forces multi-node Expert Parallelism (EP) with all-to-all traffic. We realize the approach as the Rotor Generation Unit (RGU), a fixed-function datapath that generates FFN weight tiles without competing with Tensor Core execution. With 30% of the MoE FFN layers replaced across five Sparse MoE models, we estimate 1.3-2.8x higher system throughput at matched GPU count and 1.10-1.15x lower per-user decode latency at short context. In exchange, downstream accuracy on three model families falls below that of the same model fine-tuned without rotor replacement, and the replacement ratio controls this tradeoff. FORGE also expands KV cache capacity by 1.2-2.6x. It is agnostic to the bit width at which weights are stored, so it can compose with quantization. The RGU is fully implemented/verified in SystemVerilog at ~0.9% SM area overhead (0.032 mm^2/SM, 7nm).",
-        "authors": [
-          "Chanyoung Moon",
-          "Travis Pence",
-          "Daisuke Yamada",
-          "Jiaqi Mo",
-          "Yanxin Zhang",
-          "Vikas Singh",
-          "Karthikeyan Sankaralingam"
-        ],
-        "categories": [
-          "cs.AR",
-          "cs.DC",
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.16890",
-        "paper_url": "https://arxiv.org/abs/2610.16890",
-        "pdf_url": "https://arxiv.org/pdf/2610.16890",
-        "published": "2026-10-12",
-        "title": "FORGE: Procedural Weight Generation for Sparse MoE Inference",
-        "updated": "2026-10-12"
-      },
-      {
-        "abstract": "Large language model serving is increasingly limited not only by model size and GPU speed, but also by scheduling during autoregressive decoding, where continuous batching interleaves requests at token granularity as sequences arrive and finish. We study whether lightweight scheduling policies can improve latency-throughput tradeoffs without changing model architectures, kernels, or deploying learned schedulers. We implement a Python/PyTorch continuous-batching testbench with real Hugging Face execution and evaluate eight policies across 1,152 GPU-model-scheduler-workload runs using ShareGPT-derived traffic, six Qwen, Gemma, and Mistral models, and Modal L40S, A100, and H100 GPUs. Scheduler choice changes throughput, TTFT, completion latency, and tail behavior under fixed model, GPU, workload, batch size, and prefill budget. Aging shortest-prompt-first is the strongest practical baseline in many L40S and mixed-workload settings, while oracle remaining-length scheduling shows that job-size knowledge alone is insufficient because batching and hardware effects also shape performance. The custom dataset has been uploaded to Hugging Face.",
-        "authors": [
-          "Ashman Mehra",
-          "Akshan Agarwal",
-          "Aryeh Carmi"
-        ],
-        "categories": [
-          "cs.DC",
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15899",
-        "paper_url": "https://arxiv.org/abs/2610.15899",
-        "pdf_url": "https://arxiv.org/pdf/2610.15899",
-        "published": "2026-10-11",
-        "title": "Lightweight Scheduling Policies for Continuously Batched LLM Serving Across GPU Architectures",
-        "updated": "2026-10-11"
-      },
-      {
-        "abstract": "Hybrid attention-SSM serving combines growing attention KV with fixed-size recurrent and convolution state whose allocation units, reuse boundaries, and lifetimes differ. We implement four memory organizations in a modified vLLM runtime: a coarse shared-page baseline (S0), checkpoint-internal recurrent paging (S1), paging with convolution-slot packing (S2), and native dual pools (D0). Nine evaluation questions cover storage costs and serving behavior. The cumulative S0-S1-S2 refinement improves completed-output throughput and tail completion time at the main operating point. D0-S2 performance varies with memory budget, offered load, and admission headroom. Shared-prefix workloads yield larger stepwise gains; gains also persist in a no-sharing control with equal recorded input-work totals. State traces identify recurrent-checkpoint availability as the limit on joint reuse in the tested S2 runs. Extending producer-side checkpoint lifetime increases reusable depth at a fixed page budget. A fresh-seed SHARE/ISOLATE comparison estimates a positive retention interaction, with a primary confidence interval that includes zero. Retained-state continuation correctness remains unresolved. These findings motivate evaluating physical state representation together with request admission and checkpoint lifetime when designing memory management for concurrent hybrid-model serving.",
-        "authors": [
-          "Dongwook Kang"
-        ],
-        "categories": [
-          "cs.DC"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15755",
-        "paper_url": "https://arxiv.org/abs/2610.15755",
-        "pdf_url": "https://arxiv.org/pdf/2610.15755",
-        "published": "2026-10-11",
-        "title": "Native Dual Pools or Shared Paging? Memory Organization for Concurrent Hybrid LLM Serving",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "Cross-model KV cache sharing reduces prefill computation by allowing a receiver model to reuse prefix KV states generated by a related sender model. Existing methods optimize such reuse for latency and generation quality, but its safety implications remain unclear. In this work, we systematically evaluate this issue across diverse sender-receiver pairs and reuse configurations. We refer to deviations from the receiver's native safety behavior as safety incompatibility. Our study shows that both the direction and magnitude of safety incompatibility depend on the model pair and reuse configuration, with value reuse causing substantially larger deviations than key reuse across all evaluated pairs. Furthermore, we propose VReparo, a technique that learns per-layer and per-KV-head affine maps offline to align reused sender value tensors with their receiver-native counterparts before decoding. Across two model pairs under full KV reuse and the state-of-the-art selective reuse setting, VReparo reduces the average HarmBench attack success rate (ASR) from 57.28% to 39.21% and the average StrongREJECT score from 0.4215 to 0.2163 upon our benchmarks, while retaining an average Time to First Token (TTFT) reduction of 85.62%.",
-        "authors": [
-          "Zhiwei Lin",
-          "Jiahao Liu",
-          "Yan Liu",
-          "Chengpeng Wang"
-        ],
-        "categories": [
-          "cs.LG",
           "cs.CR",
-          "cs.SE"
-        ],
-        "code_match": "arxiv-page",
-        "code_url": "https://github.com/Snakinya/VReparo",
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15721",
-        "paper_url": "https://arxiv.org/abs/2610.15721",
-        "pdf_url": "https://arxiv.org/pdf/2610.15721",
-        "published": "2026-10-11",
-        "title": "To Cache or Not to Cache: Understanding and Mitigating Safety Incompatibility in Cross-Model KV Cache Reuse",
-        "updated": "2026-10-11"
-      },
-      {
-        "abstract": "Small language models (SLMs) used as on-device agents must balance accuracy and latency as their context grows. Mixed precision helps manage this tradeoff by assigning different precisions to weight tensors according to their size and sensitivity. However, these choices depend on the operating conditions, so a configuration selected for a short context may no longer provide the best tradeoff at a longer one. We calibrate a timing model from measurements at different precisions and context lengths, and combine it with tensor sensitivities to choose configurations under a latency or accuracy budget. We argue that fewer bits do not always mean faster execution, so our predictor estimates latency from calibrated execution costs rather than weight bytes alone. Under a latency budget, reading the larger key-value (KV) cache leaves less time for weight operations, leading the allocator to select lower precisions. This gives a schedule of tensor changes that can be prepared before execution. Our runtime follows the schedule while retaining the session's KV cache. We evaluate executed schedules on a laptop GPU, including a longer-context schedule with three weight formats and a tool-use benchmark measuring full response time and correctness. Under an accuracy budget, measured error from a quantized KV cache determines the budget left for weights. The allocator can raise or lower weight precision as this estimate changes. These experiments show where context-aware precision helps and where accuracy recovery remains limited.",
-        "authors": [
-          "Mukund Athmaram",
-          "Manoj Rao",
-          "Liang Ma"
-        ],
-        "categories": [
-          "cs.LG"
+          "cs.AI"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15640",
-        "paper_url": "https://arxiv.org/abs/2610.15640",
-        "pdf_url": "https://arxiv.org/pdf/2610.15640",
-        "published": "2026-10-11",
-        "title": "Context-Aware Precision Scheduling for Small Language Models",
-        "updated": "2026-10-11"
+        "first_seen": "2026-10-16",
+        "id": "2610.21135",
+        "paper_url": "https://arxiv.org/abs/2610.21135",
+        "pdf_url": "https://arxiv.org/pdf/2610.21135",
+        "published": "2026-10-15",
+        "title": "Stronger Judges Do Not See More: Deployment-Integrity Blindness in LLM Evaluation",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Choosing a mixed-precision configuration for large language model (LLM) serving trades speed against accuracy. Allocators that use average bit-width or a memory budget as a speed proxy can miss changes in the resource that limits execution. We argue that served speed can be limited by compute, weight loading, or key-value (KV) cache access, depending on the phase, batch size, and context length. A byte-based proxy does not capture all of these costs, so fewer bits do not always mean faster serving. To address this gap, we build a cost model that accounts for the binding resource and use it in two ways. First, as a predictor: given a configuration and operating point, it estimates serving latency using constants calibrated for the model, GPU, and serving stack. We evaluate its accuracy across three hardware classes. Second, as an allocator: we combine modeled time costs with measured per-tensor accuracy costs and use a dynamic program to select a configuration under a latency or accuracy budget. We compare its configurations against byte-aware and sensitivity-only allocation.",
+        "abstract": "Sparse KV compression reduces long-context inference costs by retaining selected historical states, yet these states typically keep their coordinates from the full history. Under Rotary Position Embedding (RoPE), gaps left by evicted tokens continue to affect query-key matching, potentially limiting the use of retained evidence. We study post-selection positional geometry on a fixed selector-produced cache, examining how positional organization affects the use of retained information and which coordinate and continuation rules improve answer quality. To reorganize this geometry, we propose RoPERelay, which assigns compact, order-preserving RoPE coordinates, relocates cached key phases through inverse rotation and re-rotation, and synchronizes the current query and subsequent generation. It reuses existing K/V without renewed selection, historical re-prefill, or additional cache budget. Across 36 comparisons spanning two models, six sparse selectors, and three long-term memory tasks, RoPERelay improves answer quality in 32 cases. For Llama-3.1-8B-Instruct with BM25 on LongMemEval-S, accuracy increases from 23.6% to 35.4%. Measured complete-request time overhead is approximately 1%-3% in the evaluated configurations. These findings establish positional organization as a distinct optimization dimension for sparse KV caches after content selection.",
         "authors": [
-          "Mukund Athmaram",
-          "Manoj Rao",
-          "Liang Ma"
+          "Wanyang Hong",
+          "Zhaoning Zhang"
         ],
         "categories": [
-          "cs.LG"
+          "cs.CL"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15629",
-        "paper_url": "https://arxiv.org/abs/2610.15629",
-        "pdf_url": "https://arxiv.org/pdf/2610.15629",
-        "published": "2026-10-11",
-        "title": "The Price of Precision: A Calibrated Cost Model for Mixed-Precision LLM Serving",
-        "updated": "2026-10-11"
+        "first_seen": "2026-10-16",
+        "id": "2610.21126",
+        "paper_url": "https://arxiv.org/abs/2610.21126",
+        "pdf_url": "https://arxiv.org/pdf/2610.21126",
+        "published": "2026-10-15",
+        "title": "Compression Does Not End at Selection: Post-Selection Positional Geometry for Sparse KV Caches",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Disaggregated LLM inference executes the prefill and decode phases on separate resource pools, reducing interference between the two phases. However, this architecture introduces a coupled scheduling problem because a request that completes prefill retains its prompt KV cache in prefill memory until it is admitted to the decode pool. Prefill and decode admission decisions therefore jointly determine memory occupancy and request completion times. To the best of our knowledge, this problem lacks a formal formulation, and no approximation guarantees are known for request scheduling in disaggregated LLM inference. We formalize this setting as the dual-memory request scheduling (DMRS) problem, whose objective is to minimize the sum of request completion times, and prove that it is strongly NP-hard. We develop two deterministic polynomial-time approximation algorithms. The first applies to instances satisfying $α<1$ and $β<1$ and achieves an approximation ratio of $8+\\frac{4}{1-α}+\\frac{8}{1-β}$, where $α$ and $β$ are the maximum normalized prefill and peak decode memory demands among all requests, respectively. In particular, it yields a $32$-approximation when $α,β\\leq 1/2$. The second algorithm applies to all feasible instances and achieves a uniform $36$-approximation. Finally, evaluations on two H100 GPUs using trace-derived offline workloads show that the proposed algorithms reduce the sum of request completion times relative to multiple vLLM deployment baselines.",
+        "abstract": "Multi-head latent attention (MLA) compresses the content of a key-value cache into a shared latent per token, making low-bit storage attractive for long-context inference. At two bits, errors in this representation perturb both attention matching and value readout, with effects that depend on error direction and reconstruction scale. We introduce RoLaQ (Rotation-calibrated Latent Quantization), an offline method for joint rotation and range calibration. RoLaQ refines a shared rotation within subspaces defined by the frozen key and value projections, and jointly learns quantization ranges whose thresholds and reconstruction gains are coupled to control the shared signal's response. Prediction matching and attention-output supervision guide calibration with model weights frozen. Across three MLA models and six benchmarks, RoLaQ achieves the highest average accuracy among the compared 2-bit methods both without and with token protection. On DeepSeek-V2-Lite, an SGLang implementation provides 3.96 times the BF16 KV capacity under the same memory budget and 2.51 times its decode throughput with 256K input tokens.",
         "authors": [
-          "Xin Wang",
-          "Hong Shen",
-          "Hui Tian",
-          "Ye Tao"
-        ],
-        "categories": [
-          "cs.DS"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15579",
-        "paper_url": "https://arxiv.org/abs/2610.15579",
-        "pdf_url": "https://arxiv.org/pdf/2610.15579",
-        "published": "2026-10-11",
-        "title": "Approximation Algorithms for Dual-Memory Request Scheduling in Disaggregated LLM Inference",
-        "updated": "2026-10-11"
-      },
-      {
-        "abstract": "KV caches make long-context serving efficient by reusing past computation, but model switching breaks this reuse and forces the receiver to prefill the context again. We study \\emph{zero-prefill cross-model context handoff}: translating a sender cache into a receiver-compatible state so that the receiver can continue directly without prefilling same context. Existing affine transport methods show that receiver KV states can be substantially reconstructed from sender caches. However, through extensive analyses, we find that reconstruction fidelity is a poor proxy for receiver utility. Similar K/V reconstruction errors can lead to substantially different attention patterns, predictive distributions, and downstream accuracy, because conventional reconstruction objectives overlook the query-dependent functional importance of K and V in receiver attention. We thus introduce CACHELINK, which learns a coupled K/V correction through the receiver behavior directly. Across four independently trained sender--receiver pairs and seven evaluation panels, CACHELINK improves the equal-weight mean over all methods for every pair. In matched diagnostics, CACHELINK changes K/V squared error by less than 0.4% while substantially changing receiver attention and next-token behavior. At 32K context, it reduces handoff latency by up to $7.27\\times$ relative to receiver re-prefill. Our findings verify that reconstruction fidelity alone is insufficient and that preserving the receiver computation induced by the transported cache is important for effective cross-model KV transport.",
-        "authors": [
-          "Haomiao Qiu",
-          "Yining Tang",
-          "Zijia Song",
-          "Ruizi Han",
-          "Ziyue Qiao",
-          "Miao Zhang"
+          "Shiyu Ji",
+          "Peng Ling",
+          "Chen Lin",
+          "Shupeng Li",
+          "Yixuan Wang",
+          "Qingfu Zhu",
+          "Wanxiang Che"
         ],
         "categories": [
           "cs.LG",
-          "cs.AI"
+          "stat.ML"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15509",
-        "paper_url": "https://arxiv.org/abs/2610.15509",
-        "pdf_url": "https://arxiv.org/pdf/2610.15509",
-        "published": "2026-10-11",
-        "title": "CacheLink: Functional KV Transport for Zero-Prefill Cross-Model Context Handoff",
-        "updated": "2026-10-11"
+        "first_seen": "2026-10-16",
+        "id": "2610.20686",
+        "paper_url": "https://arxiv.org/abs/2610.20686",
+        "pdf_url": "https://arxiv.org/pdf/2610.20686",
+        "published": "2026-10-14",
+        "title": "RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention",
+        "updated": "2026-10-14"
       },
       {
-        "abstract": "Mixture-of-experts (MoE) models activate only a few experts per token, but when their expert weights are offloaded to host memory, host-to-device (H2D) expert transfers enter the critical path of decoding. Speculative decoding verifies several draft tokens in one forward pass, yet in an MoE model each verified token activates its own experts, so a larger draft tree transfers more experts. Because of this H2D cost, speculative decoding commits several tokens per verification cycle yet is sometimes even slower than autoregressive decoding. Based on this observation, we propose SpecFit, which chooses the verified draft subtree to maximize predicted throughput rather than acceptance length. SpecFit estimates the expected number of committed tokens from draft path probabilities and predicts cycle time from the node count and the per-layer union of the experts the subtree activates; this union is a monotone submodular coverage function, so each node pays only for the experts it adds. An exact search over ancestor-closed subtrees returns the subtree with the highest predicted throughput; run after each draft level, the same search also decides when to stop drafting, and the unmodified target verifies the result. On CNN/DailyMail summarization and a GSM8K subset with Qwen3-30B-A3B, SpecFit decodes 21.6% and 7.0% faster than EAGLE-3 with the same expert cache and 1.97x and 1.72x as fast as vanilla EAGLE-3. Code is available at https://github.com/Chlience/SpecFit.",
+        "abstract": "Design-space exploration of LLM inference clusters requires predicting how hardware and serving policies interact with hierarchical key-value (KV) caching. Isolated operation profiles alone do not determine cluster latency: reuse changes computational demand, while KV location, capacity, and contention govern execution order. We present a compositional discrete-event simulator based on separating local service costs from shared resource and KV availability. Compute and transfer models calibrated on one-prefill/one-decode (1P-1D) deployments are reused across compatible workers, enabling policy and topology comparisons without per-configuration latency fitting. Validation against SGLang covers Qwen3-8B and Qwen3-32B on 1P-1D and 3P-1D clusters. Mean request end-to-end latency error is 1.34% for question answering and 6.36% for captured coding sessions, measured as mean absolute percentage error. CPU simulation reduces replay turnaround by 15.33 times on average; real replay includes prescribed arrival gaps. Measured session-affinity and simulated retention studies demonstrate how the framework guides policy selection by predicting the joint effects on computation, latency, and KV occupancy.",
         "authors": [
-          "Hongliang Cao",
-          "Xiuyu Li",
-          "Siqi Wang",
-          "Ziming Wang",
-          "Jingmin Zhu",
-          "Hailong Yang"
+          "Ruiyang Ma",
+          "Sheng Qi",
+          "DaiKang Kuang",
+          "Teng Ma",
+          "Guojie Luo"
         ],
         "categories": [
-          "cs.AI"
+          "cs.PF",
+          "cs.DC"
         ],
-        "code_match": "paper-link",
-        "code_url": "https://github.com/Chlience/SpecFit",
+        "code_match": null,
+        "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15417",
-        "paper_url": "https://arxiv.org/abs/2610.15417",
-        "pdf_url": "https://arxiv.org/pdf/2610.15417",
+        "first_seen": "2026-10-16",
+        "id": "2610.15366",
+        "paper_url": "https://arxiv.org/abs/2610.15366",
+        "pdf_url": "https://arxiv.org/pdf/2610.15366",
         "published": "2026-10-11",
-        "title": "SpecFit: Not All Draft Tokens Cost the Same in Offloaded MoE Inference",
+        "title": "Compositional Performance Modeling of LLM Inference Clusters with Hierarchical KV Caching",
         "updated": "2026-10-11"
       }
     ],
     "vibe_coding": [
       {
-        "abstract": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark that evaluates long-horizon harness engineering directly. In Stage 1, a build model operating inside a fixed builder harness receives an interface-only contract skeleton and a development document that consolidates behavior across twelve frontier harnesses, and then constructs a complete candidate harness in an isolated container. In Stage 2, the frozen candidate harness runs in containers separate from the construction environment, one per test case, and is driven end to end by a scripted mock model. We score each test case using four observable channels, namely the requests sent to the model, the files on disk, the process exit code, and the command output; positive controls rule out vacuous passes. Across nineteen frontier models, each evaluated with three independent builds on 328 test cases, GPT-6 Astra achieves the highest pass rate at 53.05%, while the weakest model reaches 27.44%, a gap of roughly twenty-six percentage points. Even the strongest model fails nearly half of the test cases, and failures cluster around how cross-cutting functionality is split across modules. To our knowledge, Doc2Harness provides the first deterministic benchmark for measuring long-horizon harness engineering.",
+        "abstract": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representations, and generating new programs with coding agents. Each program is packaged with the source files and associated assets required for execution in its declared environment, along with available descriptions and verification records. Second, we develop the 3DCodeVerse Harness, a multi-agent directed acyclic graph framework for generating and refining 3D content. It uses execution checks, spatial measurements, and visual feedback to automatically evaluate and revise generated programs without human feedback during generation. Third, we conduct systematic empirical studies of 3D coding, establishing baselines with fine-tuned open models and deriving practical guidance through component-level analyses of our harness. Extensive experiments demonstrate that fine-tuning on our dataset significantly improves the 3D coding capabilities of open-source models. Notably, our 3DCodeVerse harness achieves a 90% win rate against Claude Design (3D Object) in pairwise human evaluations, when both are utilized by Claude Opus 5.5.",
         "authors": [
-          "Yuyao Ge",
-          "Shenghua Liu",
-          "Peizhong Gao",
-          "Chendi Ge",
-          "Chenxu Liu",
-          "Yiwei Wang",
-          "Lingrui Mei",
-          "Baolong Bi",
-          "Jiayu Yao",
-          "Jiafeng Guo",
-          "Xueqi Cheng"
-        ],
-        "categories": [
-          "cs.SE",
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.20344",
-        "paper_url": "https://arxiv.org/abs/2610.20344",
-        "pdf_url": "https://arxiv.org/pdf/2610.20344",
-        "published": "2026-10-14",
-        "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "Long coding agent sessions outgrow the model's context window, so agents compact: older history is replaced by something shorter, usually a model-written summary. A summary selects and rewords, and the agent cannot see what was lost. Existing work has explored a range of compaction techniques, but comparatively little attention has been paid to their effectiveness with lightweight models, including those deployed locally or used for high-volume workloads. Here, we present transparent-compact, a simple deterministic method for the open-source Pi coding agent, designed specifically for use with such models and with the purpose of maximising the transparency of the agent's view of its own compacted context. It guarantees that user and assistant prose in its context is unchanged by a model or algorithm, and explicitly flags where compaction has stripped information. We compare it with Pi's default model-written summary compaction and with pi-vcc, a popular deterministic method with similar methods but without verbatim retention of prose. Our benchmarks run on four models of varying performance levels, with emphasis on Qwen3.8-27B: a lightweight model at the top end of what consumer hardware can serve locally. On sets probing commitments (rules the user set which exist only in the conversation) and recall of facts, transparent-compact matched or outperformed both alternatives. In particular, it showed an advantage in avoiding confident blunders, i.e. assertion of false information as opposed to recognizing that something was not recalled. Even with a frontier model, its advantage was present but smaller. We argue that transparent-compact spares lightweight models from reasoning or searching their way around what compaction lost, and results in improved recall and application of information as a result, without the need for task or context-specific structuring of the session history.",
-        "authors": [
-          "Felix Woolford"
-        ],
-        "categories": [
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.20116",
-        "paper_url": "https://arxiv.org/abs/2610.20116",
-        "pdf_url": "https://arxiv.org/pdf/2610.20116",
-        "published": "2026-10-14",
-        "title": "Maximising Transparency in Context Compaction Improves Retention of Facts and Commitments for Lightweight Coding Agents",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "LLM agents increasingly design a system before implementing it, yet the data to train and evaluate them centres on implementation and testing: requirements and design artefacts are often missing, outdated or private. Source code, in contrast, is abundant. Prior work recovers architecture documentation by feeding LLMs the source code or letting agents explore it, which saturates the context, does not scale to many repositories, and yields a single artefact rather than aligned ones. We present a framework that recovers aligned stakeholder intent, requirements and architecture from a compact repository representation, a static dependency graph and key contextual files, and release the artefacts of 10,764 Java, Python, C/C++ and C# repositories as a dataset. An LLM judge rates the artefacts of three generators as clear and internally consistent, but less reliably correct and at the right level of abstraction. To test whether the artefacts carry the design, we pose a software Ship of Theseus: a coding agent rebuilds 29 Commit0 libraries from the intent alone or with the recovered requirements and architecture, given only an interface contract and part of the tests. The artefacts do not significantly change the held-out pass rate (33.7% vs. 35.8%), but bring the rebuilt module structure significantly closer to the original (module F1 from 0.54 to 0.63), with either generator and even with concise artefacts. Recovered artefacts thus convey design that tests do not capture, offering a scalable source of design-level data for agents that design before they implement, and the round trip measures this without human references.",
-        "authors": [
-          "Cezar Sas",
-          "Sandra Mitrović",
-          "Fabio Barth",
-          "Georg Rehm",
-          "Matteo Salani"
-        ],
-        "categories": [
-          "cs.SE"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.20068",
-        "paper_url": "https://arxiv.org/abs/2610.20068",
-        "pdf_url": "https://arxiv.org/pdf/2610.20068",
-        "published": "2026-10-14",
-        "title": "The Code of Theseus: Can Agents Rebuild Software from Recovered Design Documents?",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "Human supervisors rely on coding agents' reports to assess progress, verify repairs, and decide when to intervene. But a supervisor cannot investigate a failure they were never told occurred. Failed attempts, workarounds, and unresolved risks may disappear from routine reports, leaving supervisors unaware of issues that warrant scrutiny. We conduct CTXGAP, a measurement study quantifying the gap in task-state recoverability between agents' accumulated user-facing reports and their full recorded execution contexts. Across 37 coding tasks and 4,799 valid probes, agents answer 93.6% of task-state questions on demand; full-context readers recover 92.7%, while report-only readers recover 52.0%, a 40.7-point gap. At the final checkpoints of 30 verified fixes, the gap remains 34.8 points. Human annotation identifies states mentioned without enough supporting detail as the largest category of unrecovered information, and model-assessed supervision-relevant states retain substantial gaps. Full terminal scrollback improves recovery to 73.6% but still trails full context. Under matched report lengths, context-informed rewrites improve recovery by about eight points, without a detectable targeted-over-natural advantage. Positive gaps persist across harnesses and independent DeepSeek execution and measurement. CTXGAP establishes report-based task-state recoverability as a complementary evaluation dimension.",
-        "authors": [
-          "Guoyang Xu",
-          "Rui Zhang",
-          "Xiuyu Wu",
-          "Hao Chen"
-        ],
-        "categories": [
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.20003",
-        "paper_url": "https://arxiv.org/abs/2610.20003",
-        "pdf_url": "https://arxiv.org/pdf/2610.20003",
-        "published": "2026-10-14",
-        "title": "What Coding Agents Leave Unsaid: Measuring Task-State Gaps Between Execution and Reports",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "Repository-level code comprehension question answering (QA) supports developer reasoning over functionality and usage distributed across codebases. However, repository-specialized large language models (LLMs) can become misaligned as code evolves. We study this challenge as temporal repository adaptation: acquiring new knowledge, suppressing obsolete, retaining still-valid, and preserving semantically neighboring knowledge. Existing retrieval, fine-tuning, and model-editing methods address only parts of this problem. We propose Temporal Adaptive Fine-Tuning (TAFT), a novel adaptation approach that treats repository transitions as supervision. TAFT derives temporally grounded QA data from repository transitions, pairs newly valid with obsolete knowledge through preference optimization, and replays transition-conditioned retention examples to preserve still-valid knowledge. We evaluate TAFT on an augmented temporal SWE-bench dataset comprising 255,295 QA entries across ten temporal slices, comparing deferred (Baseline), per-slice retrained (Baseline-Batched), and variants with knowledge anchors along four dimensions: updated knowledge, obsolete-answer suppression, retention, and neighbor stability. TAFT consistently outperforms both the deferred and batched baselines, with an average relative improvement of 18% in updated/suppressed knowledge accuracy, doubled retention accuracy, and roughly 1.5 times the neighbor accuracy. With directly supplied knowledge anchors, TAFT-KANT further improves mean updated/suppressed, retention, and neighbor accuracy over TAFT by 3.55%, 8.35%, and 13.00%, respectively. Overall, TAFT demonstrates its effectiveness across all evaluated areas, effectively enabling code comprehension QA alignment with repository evolution.",
-        "authors": [
-          "Alex Wolf",
-          "Pooja Rani",
-          "Harald C. Gall"
-        ],
-        "categories": [
-          "cs.SE"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.19970",
-        "paper_url": "https://arxiv.org/abs/2610.19970",
-        "pdf_url": "https://arxiv.org/pdf/2610.19970",
-        "published": "2026-10-14",
-        "title": "Temporal Adaptive Fine-Tuning for Code Comprehension",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "Large language models are increasingly competent at leveraging scientific knowledge and existing computational tools to execute complex workflows. At present, little information exists on their ability to reconstruct tools when given limited descriptions of such tools. We introduce an evaluation titled ReproBAIT (Reproducing Biological AI Tools), which measures the ability of coding agents to design, implement, and train biological AI tools taken from published research across a range of information access conditions. The coding agent is securely sandboxed without internet access and receives training data, a fixed time and compute budget, and limited information about the tool to replicate. We then score the reproduced biological AI tool based on its performance (tool-specific metrics) on held-out data. We evaluated a set of biological AI tools of varying complexities: ProteinMPNN, an inverse protein folding tool, RFdiffusion3, an all-atom generative diffusion tool, and a closed-source molecular design tool. We institute a methodology to check for memorisation, as the open source tools are likely to be included in models' pretraining corpus. Across a range of leading closed- and open-source coding agents, we find substantial reproduction capability for some selected tools, though limited capability for a highly complex tool. We find moderate evidence consistent with memorisation, varying across coding agents. These results suggest that tool developers need to be increasingly cautious when releasing information about the tools publicly; re-creation of the tool based on such information could undermine a tool's commercial value or invalidate dual-use managed access strategies.",
-        "authors": [
-          "Shiv Muthupandiyan",
-          "Tolga H. Dur",
-          "Mac Walker",
-          "Timo Flesch",
-          "Mahmoud Ghanem",
-          "Steph Suddell",
-          "Giles Harper-Donnelly",
-          "Sophie Rose",
-          "Jasper Götting",
-          "Coleman Breen",
-          "Jake Pencharz"
-        ],
-        "categories": [
-          "cs.AI",
-          "cs.CY",
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.19810",
-        "paper_url": "https://arxiv.org/abs/2610.19810",
-        "pdf_url": "https://arxiv.org/pdf/2610.19810",
-        "published": "2026-10-14",
-        "title": "ReproBAIT: Can coding agents build their own biological AI tools?",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "A coding agent repeatedly makes decisions as it repairs code. These decisions shape repair trajectories and affect the token cost of successive model requests. We ask which repair decisions can be delegated to a low-cost probabilistic judge to reduce token use while maintaining repair quality. The judges answer questions with probabilities over predefined answers, without generating explanations. We evaluate judgment quality across repair stages and test how individual interventions change subsequent repair work. We compare these interventions with unguided repair, which uses no judge, and with the same workflow using the repair model itself as the judge. The benefit depends on the work an intervention changes, rather than the cost of the judgment alone. Based on these studies, we propose JevCoder, a workflow built around Jev, a low-cost probabilistic judge. It combines code-snippet recommendations with action-type guidance and uses judgments to determine when to submit. We evaluate three repair models, each on the same 400 tasks: 200 from SWE-bench Verified and 200 from SWE-Bench Pro Verified. Compared to unguided repair, JevCoder reduces mean repair-model token use by 21.6%-50.6%, with higher observed repair rates across all three models.",
-        "authors": [
-          "Jiahao Zhang",
-          "Yifan Zhang",
-          "Yu Huang"
-        ],
-        "categories": [
-          "cs.SE",
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.19596",
-        "paper_url": "https://arxiv.org/abs/2610.19596",
-        "pdf_url": "https://arxiv.org/pdf/2610.19596",
-        "published": "2026-10-14",
-        "title": "JevCoder: When Does Decision Delegation Pay Off in Code Repair?",
-        "updated": "2026-10-14"
-      },
-      {
-        "abstract": "Modern image generation largely relies on specialized generative models that leave the process of image construction implicit in learned parameters. We explore an alternative: general-purpose coding agents that construct images through executable programs. Our study of zero-shot drawing on AgentDrawBench, a 200-prompt benchmark, reveals a distinctive capability profile. Agents excel at preserving structure and satisfying precise visual constraints, achieving competitive results in domains where compositional accuracy matters more than photorealistic appearance, while remaining limited in perceptual richness. Their visual expressiveness varies with the drawing interface, and a qualitative study on reconstruction shows how procedural skills extracted from human demonstrations support different artistic media. We then examine code as an external visual language of thought: a structured, executable representation that agents can construct and inspect. We test it in visual question answering task and find reconstructed visual code retains substantial information for question answering and, in some domains, supports higher accuracy than the original image. These abilities raise a further question: do agents draw on a shared internal representation of scene content beyond a particular drawing program? We explore an internal visual language-of-thought hypothesis, in which a shared, compositionally structured representation supports visual operations across drawing languages. Cross-harness drawings and images assembled from independent single-pixel queries exhibit related layouts and tones. Agents also maintain self-generated room arrangements across viewpoints after visible drawings are removed. These results demonstrate that the coding agent would maintain a consistent and coherent world inside its imagine even before the harness gets involved and the generation starts.",
-        "authors": [
-          "Hengguang Zhou",
-          "Yuanhao Ban",
-          "Jiaqi Feng",
-          "Xiaohuan Pei",
-          "Justin Cui",
-          "Cho-Jui Hsieh"
+          "Yipeng Gao",
+          "Ziyao Zeng",
+          "Jinfa Huang",
+          "Yijiang Li",
+          "Haolin Xiong",
+          "Wang Qin",
+          "Xinlei Yu",
+          "Youheng Yao",
+          "Jie Zhang",
+          "Kun-Yu Lin",
+          "Rong Liu",
+          "Yinyuan Zhao",
+          "Yajie Zhao",
+          "Meiqi Guo",
+          "Jiebo Luo",
+          "Lei Shu",
+          "Yunhao Ge",
+          "Xinyu Hu",
+          "Laurent Itti"
         ],
         "categories": [
           "cs.CV",
-          "cs.LG"
+          "cs.AI"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.19025",
-        "paper_url": "https://arxiv.org/abs/2610.19025",
-        "pdf_url": "https://arxiv.org/pdf/2610.19025",
-        "published": "2026-10-13",
-        "title": "How Far Can Coding Agents Go in Visual Generation?",
-        "updated": "2026-10-13"
+        "first_seen": "2026-10-16",
+        "id": "2610.22341",
+        "paper_url": "https://arxiv.org/abs/2610.22341",
+        "pdf_url": "https://arxiv.org/pdf/2610.22341",
+        "published": "2026-10-15",
+        "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics. To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents. Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing. Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification. The overall research process is driven by a meta-controller that manages parallel research agents and enforces rubric verification at each stage. This design enables the same orchestration layer to be reused across heterogeneous domains with different execution environments, agentic coding harnesses, and evaluation metrics. Our system can be used across a spectrum of autonomy: either as a co-scientist tool or to perform end-to-end scientific investigation. Within the co-scientist setting, we leveraged a development version of our system to submit a single research paper, which got accepted for publication at ALIFE 2026. We further apply The Agentic Scientist fully autonomously to open problem-solving tasks in machine learning, and demonstrate the system's capability of scientific discovery across different domains of computational research. Our ablations suggest that reliable scientific autonomy depends not only on base model capabilities, but also on the cross-agent orchestration layer.",
+        "abstract": "Stronger language models may increasingly construct useful procedures for themselves, reducing the advantage of developer-supplied scaffolding. We investigate why this advantage persists and whether an environment-agnostic agent can be improved without environment-specific engineering. We evaluate a Codex-based agent in two nearly identical prompt variants on ARC-AGI-3, AGI Maze, and Terminal-Bench. Each variant is deployed with unchanged code, prompts, and general-purpose tools across environments, receiving environment-specific information as input. Changing only an instruction to encourage reporting difficulties and returning control for automatic continuation improves mean scores on both ARC-AGI-3 and AGI Maze, while Terminal-Bench shows small, mixed changes. Yet the general agent remains below an ARC-AGI-3-specific reference, including with GPT-5.6-sol. The reference prescribes organization and control rather than supplying new game rules or solutions. To investigate this gap, we transfer reset decisions to a scripted controller that follows a convention already given to the agent. This small change recovers part of the specialized agent's advantage. A complementary AGI Maze experiment shows that additional tutorial experience can reduce performance. Together, these findings highlight the distinction between having information and tools available and using them effectively. Supplied procedures still matter for the models tested here. The performance gains also come with higher token-based cost. The experiments do not separate better use of information and procedures from additional or differently allocated inference. We provide the EnvTraverse framework and an evaluated baseline agent for testing whether further environment-independent changes improve performance in some environments without degrading it in others.",
         "authors": [
-          "Robert Tjarko Lange",
-          "Luca Grillotti",
-          "Yutaro Yamada",
-          "Rujikorn Charakorn",
-          "David Ha"
+          "Sergey Rodionov"
         ],
         "categories": [
-          "cs.AI",
-          "cs.CL",
-          "cs.LG"
+          "cs.AI"
         ],
-        "code_match": "arxiv-id",
-        "code_url": "https://github.com/SakanaAI/AI-Scientist-v3",
+        "code_match": null,
+        "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.18933",
-        "paper_url": "https://arxiv.org/abs/2610.18933",
-        "pdf_url": "https://arxiv.org/pdf/2610.18933",
-        "published": "2026-10-13",
-        "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
-        "updated": "2026-10-13"
+        "first_seen": "2026-10-16",
+        "id": "2610.22289",
+        "paper_url": "https://arxiv.org/abs/2610.22289",
+        "pdf_url": "https://arxiv.org/pdf/2610.22289",
+        "published": "2026-10-15",
+        "title": "Improving Environment-Agnostic Coding Agents: The Role of Scaffolding",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Coding agents based on frozen language models can improve their performance by refining the external context they rely on, without updating model weights. We study recursive self-improvement through behavioral specifications: natural-language code documentation that describes the behavior of program entities and guides agents in generating correct code. We formulate a self-improvement loop in which an agent generates code from its current specifications, evaluates it with execution-verified tests, and refines the specifications based on observed failures. The improved specifications then guide subsequent generation, progressively improving the agent's understanding of the codebase. However, recursive refinement is challenging because program entities are interdependent. Improving the specification of one entity can inadvertently degrade the correctness of others, a phenomenon we call output coupling. This creates a whack-a-mole effect in which local improvements cause regressions elsewhere, preventing consistent progress. We introduce SpecForge, a multi-frontier tree search framework that addresses this challenge with three mechanisms: (i) Pareto-guided state selection preserves complementary specification states and prevents premature commitment; (ii) dependency-constrained entity selection prioritizes callee-before-caller refinement; and (iii) error-diversified expansion explores multiple refinements using different subsets of test failures. On DevEval+, SpecForge achieves the best performance across five backbone models, including a 94.9% solve rate with Claude-4.5-Sonnet and a 5.7-percentage-point average improvement over the strongest baseline. The improved specifications also make the agent better at tasks outside the loop: they transfer to cross-language translation and to new-feature implementation, where they outperform the benchmark-provided requirement documents.",
+        "abstract": "Code review often requires reasoning beyond local correctness. In mature software systems, reviewers must recognize design trade-offs introduced by a proposed change, compare alternative solutions, and reason about their compatibility with project-specific constraints. We refer to this problem as design-aware code review. However, existing automated review approaches primarily focus on defects and correctness, while the design knowledge accumulated in historical review discussions remains difficult to reuse. To address these challenges, we present DesignLore, a knowledge-augmented approach that extracts design decisions from historical review discussions, organizes them into an adaptive design taxonomy, and reuses relevant historical knowledge to guide code review. We further construct DesignReviewBench, a benchmark derived from real patch-review histories for systematically evaluating design-aware code review. Our evaluation shows that design-aware review remains challenging for current coding agents, with the strongest baseline achieving an F1 of only 0.213 on design trade-off detection. In comparison, DesignLore achieves an F1 of 0.259, a 21.6% relative improvement, and consistently delivers gains across different agent systems and backbone. These results highlight the importance of design-aware review and demonstrate the potential of recovering and reusing historical design knowledge to support it.",
         "authors": [
-          "Yutong Cheng",
-          "Haifeng Chen",
-          "Peng Gao",
-          "Wei Cheng"
+          "Zhenhao Zhou",
+          "Kai Yu",
+          "Ying Wang",
+          "Zhiqiang Yuan",
+          "Junhao Zeng",
+          "Yijian Wu",
+          "Chong Wang",
+          "Xin Peng"
         ],
         "categories": [
-          "cs.AI",
           "cs.SE"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15708",
-        "paper_url": "https://arxiv.org/abs/2610.15708",
-        "pdf_url": "https://arxiv.org/pdf/2610.15708",
-        "published": "2026-10-11",
-        "title": "SpecForge: Recursive Self-Improvement for Coding Agents via Behavioral Specifications",
-        "updated": "2026-10-11"
+        "first_seen": "2026-10-16",
+        "id": "2610.21925",
+        "paper_url": "https://arxiv.org/abs/2610.21925",
+        "pdf_url": "https://arxiv.org/pdf/2610.21925",
+        "published": "2026-10-15",
+        "title": "Benchmarking and Enhancing Design-Aware Code Review in the Linux Kernel",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Rapid advances in large language models have made software engineering agents capable of tackling complex coding tasks. Within a containerized environment, a coding agent receives tool responses or execution results, and determines its later actions by those earlier results. However, most existing coding agents never look ahead: their policies do not anticipate the consequences of actions, and the terminal reward barely attributes a failure to certain earlier steps, so an ill-judged edit can corrupt the repository state irreversibly before any signal arrives. Recent code world models aim to address these challenges, but they are either trained and then frozen before reinforcement learning (RL), or reduced to an auxiliary next-token loss on the environment's outputs. We present ANTE (Anticipate, Then Execute), an agentic RL framework that verifies the policy's pre-action predictions by real execution and turns them into per-step credit for its actions and trust-or-abstain decisions. With an internal belief stated before each action, Belief-Anchored Policy Optimization (BAPO) turns the settled predictions into per-step advantages by anchoring credit on the policy's own forecasts. To turn the trained forecasts into better actions at inference, thereby facilitating effective test-time scaling, ANTE-TTO (test-time optimization) selects among candidate actions without an external scorer. ANTE raises Qwen3-32B from 25.0% to 57.2% pass@1 on SWE-bench Verified, 6.2% above a matched GRPO baseline trained without the belief state; its world model's accuracy climbs from 44% to 69% during RL, and the learned foresight capability transfers across harnesses and out-of-distribution domains. In summary, we aim to build a code world model that knows what has happened, what holds now, and what the next action will achieve.",
+        "abstract": "Reliable repository-level coding requires agents not only to generate correct code but also to preserve constraints and respond to tool feedback across long interactions. However, our diagnostic analysis shows that agents often fail to act on relevant information already available in context, while final Pass/Fail outcomes provide only sparse process supervision. We introduce On-Policy Reminder Distillation (OPRD), which combines Multi-Scope Reminder supervision with outcome-based routing on reminder-free student rollouts. Successful rollouts provide autoregressive self-imitation targets, whereas failed rollouts receive Reminder-conditioned reverse-KL supervision from a teacher that re-evaluates the same student-generated prefixes. A Global Reminder converts final-test diagnostics into trajectory-level guidance, while Turn-local Reminders apply only to the next decision following the relevant environment observation. The teacher and student share a two-stage initialization from Coding SFT and Instruction-Following (IF) SFT. At inference, the student operates without Reminders. On SWE-bench Verified, SWE-bench Pro, and SWE-bench Multilingual, OPRD improves the benchmark-averaged task resolution rate by 11.3 points over the open-source Qwen3.5-4B base model. Under the same diagnostic protocol, it reduces the aggregate error-event count from 446 to 222, a 50.2% reduction.",
         "authors": [
-          "Yi Ge",
-          "Kangrui Ruan",
-          "Jifan Chen",
-          "Manish Prajapat",
-          "Christian Bock",
-          "Xiaoyang Wang",
-          "Rein Houthooft",
-          "Aritra Sengupta",
-          "Varun Kumar"
+          "Yuechen Luo",
+          "Zhiyi Lai",
+          "Miao Ziqi",
+          "Zihang Xu",
+          "Jingxuan Xu",
+          "Songwei Yu",
+          "Wenqiang Zhu",
+          "Weihao Li",
+          "Junhao Fan",
+          "Haoyang Huang",
+          "Yanan Wu",
+          "Ken Deng"
         ],
         "categories": [
-          "cs.LG"
+          "cs.CL"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15368",
-        "paper_url": "https://arxiv.org/abs/2610.15368",
-        "pdf_url": "https://arxiv.org/pdf/2610.15368",
-        "published": "2026-10-11",
-        "title": "ANTE: Anticipate, Then Execute -- Learning Internal World Models for Coding Agents from Verified Beliefs",
-        "updated": "2026-10-11"
+        "first_seen": "2026-10-16",
+        "id": "2610.21496",
+        "paper_url": "https://arxiv.org/abs/2610.21496",
+        "pdf_url": "https://arxiv.org/pdf/2610.21496",
+        "published": "2026-10-15",
+        "title": "OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable worlds that capture how a world works. This shift calls for executable world modeling, which integrates two core capabilities: world understanding, reasoning about the underlying structural, mechanical, and causal principles of a world, and executable realization, translating that understanding into a code-based system whose behavior emerges from physical interactions. However, existing benchmarks provide only fragmented evaluations centered on physical reasoning, visual fidelity, or behavioral correctness, leaving the integration of these capabilities insufficiently assessed. To bridge this gap, we introduce ExeWorldBench, to our knowledge the first benchmark to comprehensively evaluate world understanding and executable realization through code-based 3D world construction. ExeWorldBench comprises three progressively challenging tasks: Mechanism Executability, which evaluates the realization of individual mechanisms from visual observations; Compositional Executability, which extends to multi-stage systems with spatial, mechanical, and causal dependencies; and Intent-Driven Executable World Synthesis, which requires constructing executable worlds from high-level goals and physical requirements. Extensive experiments on frontier models reveal substantial limitations in executable world modeling, offering insights into the development of more physically grounded and causally coherent world construction systems.",
+        "abstract": "Code world models represent world dynamics through explicit state and executable rules. We investigate how to coordinate object representations, behavioral revisions, and visual memory within this formulation. We present Mallea, a system for building, steering, and memorizing worlds from text. A coding agent infers object interaction requirements from the prompt and jointly plans object structure, properties, and rules, favoring compact representations that support those requirements. The world evolves under the planned rules; optional user actions steer it, while text requests can edit properties or extend capabilities with unaffected state preserved. Object texture memory retains reusable appearance only for whitebox-defined objects and adapts it as those objects change. The program advances world state, while a generative renderer combines current structure with remembered appearance. By organizing construction, intervention, and memory around the same objects, Mallea conditions subsequent observations on the latest state and compatible appearance. Project page: https://lxycopper.github.io/Mallea.",
         "authors": [
-          "Xinge Peng",
-          "Zhen Fang",
-          "Ruibing Wang",
-          "Yongxuan Lv",
-          "Haodong Li",
-          "Guohui Zhang",
-          "Xiaoxiao Ma",
-          "Yiting Lu",
-          "Lin Chen",
-          "Zehui Che",
-          "Feng Zhao"
+          "Xuanyi Liu",
+          "Ruiqi Li",
+          "Siwei Ma"
         ],
         "categories": [
+          "cs.AI",
           "cs.CV"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15166",
-        "paper_url": "https://arxiv.org/abs/2610.15166",
-        "pdf_url": "https://arxiv.org/pdf/2610.15166",
-        "published": "2026-10-10",
-        "title": "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
-        "updated": "2026-10-10"
+        "first_seen": "2026-10-16",
+        "id": "2610.21283",
+        "paper_url": "https://arxiv.org/abs/2610.21283",
+        "pdf_url": "https://arxiv.org/pdf/2610.21283",
+        "published": "2026-10-15",
+        "title": "Mallea: Building, Steering, and Memorizing Worlds with Coding Agent",
+        "updated": "2026-10-15"
       },
       {
-        "abstract": "An approval for a deployment, a release, or an agent-issued command is recorded against one object: a workflow file, a script, a command line. The run that follows also reads other repository files, which decide what the deployment creates and which changes a policy allows, so an edit to one of them after approval passes any check on the approved object. Such edits are the common case. In the history of 20 public repositories, 296 of the 542 commits that change a file the run reads (54.6%) leave the approved file untouched, all of them ordinary development with no adversary involved. We demonstrate the consequence on two of those repositories: an edit outside the approved workflow adds a bucket-write policy to a deployed role, a one-line edit removes the human approval required for high-risk changes, and a check on the approved file accepts both. We define authority-set integrity: an approval is sound when it binds every repository file the authorized run is configured to read, and exact when it binds no other file. A binding over that set rejects both edits and re-requests a standing approval on about one commit in ten. The hard part is naming the set. Coding agents asked to produce the binding compute the digest correctly and bind different file sets from run to run, so a checker cannot take the set on the agent's word. It should compute the digest itself and draw the set from a source it can verify, such as the deployment tool's own record of its inputs or a manifest declared in the repository.",
+        "abstract": "A coding agent works on repositories that can be far larger than its context window can hold. Prompt compressors and retrievers offer solutions to this problem, but patching an issue needs two things at once: the files that must change, and their code exactly as written, since the model must reproduce the lines it edits. Retrievers rank code by its similarity to the issue rather than by whether it must change, and compressors delete text to fit the budget. We show that at an equal token budget, an agent resolves more issues when the budget goes to choosing which files to show verbatim, as our simple selector CQ2-CARE does, than when it goes to pruning tokens or retrieving chunks. We fit every context to the same per-issue budget on 300 recent SWE-rebench issues and grade each patch with the benchmark's tests. With GPT-5.6 and Claude Opus 5, CQ2-CARE resolves 43.7% and 46.7% of the issues, 6.3 points more than the best of three compressors with either model, and 9.3 and 12.7 points more than the best of three retrievers. CQ2-CARE even resolves more issues than two methods trained for issue resolution, SweRank (by 0.7 and 1.7 points) and SWE-Pruner (by 2.0 and 7.3). Our analysis shows the defects of the baseline methods: retrievers often miss the files to edit, and compressors keep them but alter their text, so fewer patches apply. Exact-file selection needs no compression model and shows every line as the repository has it, so the model can quote the code it edits.",
         "authors": [
-          "Md Imran Hossen"
+          "Xiaocong Yang",
+          "Rishit Chatterjee",
+          "Himanshu Udupi",
+          "Vikram Ramavarapu",
+          "ChengXiang Zhai"
         ],
         "categories": [
-          "cs.CR",
           "cs.SE"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15137",
-        "paper_url": "https://arxiv.org/abs/2610.15137",
-        "pdf_url": "https://arxiv.org/pdf/2610.15137",
+        "first_seen": "2026-10-16",
+        "id": "2610.21073",
+        "paper_url": "https://arxiv.org/abs/2610.21073",
+        "pdf_url": "https://arxiv.org/pdf/2610.21073",
+        "published": "2026-10-15",
+        "title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "As autonomous agents become widely deployed, coordinating access to shared computing resources and services will become increasingly important. Recent incidents have already revealed unplanned coordination between agents, highlighting the safety implications of these interactions. Yet prior studies of agent negotiation often use stylized games and simulated bargaining, leaving open how these behaviors develop during sustained, long-horizon tasks. We propose SCARCE (Shared Compute ARena for Coding agEnts), a framework in which agents solve sequences of coding tasks under individual deadlines while negotiating access to a shared execution resource. This negotiation determines when and for how long they can inspect programs, compile code, and run tests. We find that agents spontaneously develop informal institutions: persistent rules and commitments grounded in reputation, reciprocity, and precedent. These arrangements, which we call institutional behaviors, carry across tasks and influence resource allocation, with agents sometimes foregoing immediate advantages to honor earlier agreements. We develop a 21-category taxonomy of negotiation strategies and emergent norms and use it to analyze eight models and audit more than 1,500 trajectories across different environmental settings. Among the models tested, newer frontier models exhibit more institutional behaviors than older or lightweight models. Alongside cooperation, we observe exclusionary coalitions and rare divide-and-conquer strategies. SCARCE provides a controlled setting for proactively and systematically auditing how these relationships emerge, shape access to resources, and affect the safety and coordination of multi-agent systems.",
+        "authors": [
+          "Abhinav Kumar",
+          "Rediet Abebe",
+          "Eugene Bagdasarian",
+          "Sahar Abdelnabi"
+        ],
+        "categories": [
+          "cs.MA",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.21029",
+        "paper_url": "https://arxiv.org/abs/2610.21029",
+        "pdf_url": "https://arxiv.org/pdf/2610.21029",
+        "published": "2026-10-15",
+        "title": "SCARCE: Emergent Institutions in Long-Horizon Multi-Agent Coding Systems",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Coding agents are increasingly used to optimize code, but existing benchmarks fix one accelerator, programming model or harness, so they cannot isolate what each component contributes or show whether added skills and tools repay their cost. We present HPCAgent-Bench with 689 kernels in three tracks: loop-level optimization challenges, kernels extracted from HPC codes, and machine-learning models. The framework specifies each kernel once in NumPy, derives C and Fortran references, accepts submissions through a common C ABI or Python interface, and runs them on CPUs or GPUs, on one or multiple nodes. An external judge checks correctness on hidden fuzzed inputs and times each submission, closing paths agents use to exploit the testing system. We introduce two metrics for reporting results: \\textit{intervention efficacy} measures an intervention, such as adding a tool, through paired runs on speedup, success rate and cost, and \\textit{weighted token cost} reports input, cached-input and output tokens under explicit weights. Agents reach up to $4.2\\times$ speedup over automatic parallelizers, and their optimizations transfer to another machine: $93$--$99\\%$ of answers without device-specific code remain correct, and per-kernel speedups keep a rank correlation of $r_s\\ge0.84$. Across 40 matched setups, interventions significantly change speedup only twice but token cost by up to $3.0\\times$. Because token weighting decides whether a saving is significant, we state the weights and release every token count as a standard for cost reporting. We provide the first comprehensive, broad and hardened benchmark for the sound evaluation of agentic optimization, with transparent cost metrics.",
+        "authors": [
+          "Yakup Koray Budanaz",
+          "Lorenzo Paleari",
+          "Marcin Copik",
+          "Alexandru Calotoiu",
+          "Timo Schneider",
+          "Benjamin Chen Ming Choong",
+          "Shriram Chandran",
+          "Lars Hulsbergen",
+          "Levi Widmer",
+          "Torsten Hoefler"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.20673",
+        "paper_url": "https://arxiv.org/abs/2610.20673",
+        "pdf_url": "https://arxiv.org/pdf/2610.20673",
+        "published": "2026-10-14",
+        "title": "HPCAgent-Bench: A Framework for Sound Benchmarking of Code-Optimizing Agents, Harnesses, and Skills",
+        "updated": "2026-10-14"
+      },
+      {
+        "abstract": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce the Last Secure Code Benchmark, a comprehensive evaluation of secure code generation by coding agents. Built from 150 real vulnerabilities, its 450 tasks span seven widely used languages (Java, C, C++, JavaScript, Python, PHP, and Go), 24 CWEs including 21 of the 2025 CWE Top 25 and 8 of the Top 10 KEV weaknesses, more than any benchmark we compare with, and three vibe-coding scenarios: filling in a function, writing a file, and building a repository's source tree from scratch. Every task asks only for functionality, through a specification that never mentions security, and hidden functional and security tests grade the result. Across six frontier agents, 73.6% to 91.3% of tasks pass functionally, yet even the strongest, Claude Fable 5, produces code that is both functional and secure for only 25.1% of tasks, and the others for 16.4% to 24.7%. The best model only passes 12% of the vulnerability scenarios across all vibe coding setting, posing strong concern on the security of the code written by vibe coding.",
+        "authors": [
+          "Tianyi Wu",
+          "Chao Ge",
+          "Peng Chen",
+          "Fengji Zhang",
+          "Yongxing Wu",
+          "Yuchong Xie",
+          "Jian Li",
+          "Chaoyuan Peng",
+          "Kaikai Zhang",
+          "Dong Huang",
+          "Mingzhe Du",
+          "Yukai Huang",
+          "Jiaheng Zhang",
+          "Terry Yue Zhuo",
+          "See-Kiong Ng"
+        ],
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/alibaba/last-secure-code-benchmark",
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.14766",
+        "paper_url": "https://arxiv.org/abs/2610.14766",
+        "pdf_url": "https://arxiv.org/pdf/2610.14766",
         "published": "2026-10-10",
-        "title": "When the Approved File Is Unchanged: Authority-Set Integrity for Deployment and Coding-Agent Approvals",
+        "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
         "updated": "2026-10-10"
       },
       {
-        "abstract": "AI coding agents operate in iterative loops: they modify code, run tools, inspect the results, and decide what to do next. We call the design of this process loop engineering, which includes context management, model selection, compaction, and termination. Existing efficiency work mainly compresses tool observations or routes selected turns to cheaper models, but the practical opportunity for these optimizations remains unclear. We analyze 600 publicly released coding-agent trajectories spanning two agent scaffolds and two language models. Median observations contain only 118-286 tokens, while the large build logs commonly used to motivate compression occur near the ninety-ninth percentile. Moreover, 98.6% of input tokens are served from a prefix cache, so flat input pricing overestimates loop cost by roughly 7x on average under near-ideal caching. We derive and empirically validate a closed-form break-even condition for model delegation. Delegation increases cost in half of the evaluated settings, near the predicted boundary. More broadly, turn count explains 84% of the variance in log trajectory cost, compared with 4% for mean observation size; the most expensive trajectories have the most turns despite having the smallest observations. These associations suggest that observation-focused methods target a secondary cost factor, and identify unnecessary turns as the larger and largely unexamined opportunity, though we do not establish that turns can be removed while holding task success fixed. We release TurnCost, a tool for re-scoring trajectory corpora under alternative caching, pricing, compression, and routing policies.",
+        "abstract": "Programming abstractions have traditionally been designed for humans, but code generation is increasingly performed by models and autonomous agents. We investigate abstractions for machine-driven programming through GPU and AI-accelerator kernel generation. High-level domain-specific languages (DSLs) simplify search by delegating implementation details to compilers, while lower-level representations provide finer-grained control at the cost of a larger and more complex search space. In this paper, we present TileCas, a unified, pluggable interface that enables coding agents to develop kernels across multiple editable abstraction levels. Rather than committing to a single representation, TileCas allows an agent to transfer and refine candidates across levels through Cross-Level Diagnosis, which maps correctness and performance feedback to actionable controls at different abstraction levels; Abstraction Scheduling, which selects both the candidate and representation from which subsequent refinement should proceed; and a Heterogeneous Search Tree, which preserves and revisits alternative search trajectories spanning multiple representations. We integrate TileCas with two code agents AKO and KDA, and evaluate both integrations on 50 end-to-end KernelBench Level 3 workloads across two accelerator platforms and two language models. Giving equal weight to the four accelerator-model configurations, AKO with TileCas achieves an arithmetic-mean speedup of $4.84\\times$, compared with $3.75\\times$ for the strongest evaluated baseline without TileCas, an improvement of 29.0%. Integrating the same interface with KDA improves its mean speedup by 69.2%, with gains in every configuration. These results show that allowing coding agents to navigate across programming abstractions can improve machine-driven software development and can be reused across different base workflows.",
         "authors": [
-          "Pramod Kumar",
-          "Raj Kumar Pandey"
+          "Xinyu Xiao",
+          "Zihe Song",
+          "Dezhi Ran",
+          "Wei Yang",
+          "Tao Xie"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/Alex4210987/tilecas",
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.14740",
+        "paper_url": "https://arxiv.org/abs/2610.14740",
+        "pdf_url": "https://arxiv.org/pdf/2610.14740",
+        "published": "2026-10-10",
+        "title": "TileCas: Cascading Kernel Development Across Programming Abstractions",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Mocking is a foundational practice in unit testing, enabling developers to isolate the code under test by replacing real dependencies with simulated alternatives. Automating the generation of mock objects, stubs, and mock assertions has been a long-standing research goal. However, capture-and-replay approaches rely on recording the runtime behavior of actual dependencies. Evolutionary approaches such as StubCoder overcome this requirement but constrain generation to predefined symbol pools. Large language models (LLMs) and coding agents offer an alternative by generating mocking artifacts from source code without requiring recorded dependency executions or fixed symbol pools. Yet, no systematic study has evaluated their capabilities across all three artifact types. To address this gap, we construct MockBench, a benchmark comprising 165 mock artifact generation tasks from real-world Java and Python projects, with validated reference mock objects, stubs, and mock assertions. We evaluate six LLMs and three coding agents in terms of executability, behavior fidelity, and interaction-fault detection capability, complemented by comparisons with existing tools and sensitivity analysis. Experimental results show that LLMs and coding agents indeed have been the state-of-the-art techniques in mock-based testing. More specifically, compared with LLMs, coding agents substantially improve executability, while these gains do not consistently translate into higher behavior fidelity or better interaction-fault detection. Furthermore, we analyze 660 failures from LLMs and coding agents, and identify ten error types across the three artifact categories, revealing behavioral deviations that passing tests can conceal. Our findings highlight the challenges of mock artifact generation and provide practical guidance for both developers and researchers.",
+        "authors": [
+          "Hao Ning",
+          "Jiahui Dong",
+          "Zhen Yang",
+          "Guanda Yan",
+          "Yichen Sun",
+          "Xuanyu Zhu",
+          "Zheng Shen",
+          "Yifei Pei",
+          "Jacky Keung",
+          "Jie M. Zhang"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.14629",
+        "paper_url": "https://arxiv.org/abs/2610.14629",
+        "pdf_url": "https://arxiv.org/pdf/2610.14629",
+        "published": "2026-10-10",
+        "title": "Executable but Unfaithful: Mock Object, Stub, and Assertion Generation by LLMs and Coding Agents",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Coding agents read repositories and web pages that anyone can write, and then act with their user's authority. Prompt-injection defenses make it less likely that the model is steered but do not prevent it, so the system around the model must contain an agent that is already compromised. Many exploits against deployed coding agents share one cause: a check approves a name, such as a path, an argument vector, or a directory, and a later step maps that name to a different object: the file behind a symlink, the behavior an option selects, or a repository that git discovers on its own. We present Zero-Trust Agent Cells (ZTAC). A cell runs the agent in a kernel sandbox whose only route to files, programs, and the network is a socket to a broker. The broker resolves each request to the object it will act on, decides on that object, and checks at use that it is acting on the object it authorized. Programs that the broker starts run in a sandbox compiled from the same policy, and approvals are bound to the resolved object and can be used once. Our macOS prototype has 3.2k lines of trusted Rust code, excluding dependencies. We evaluate it against 74 attacks with ground-truth oracles, including replays of 10 publicly disclosed incidents. A tool allowlist loses 66 of them, and an allowlist combined with the kind of command sandbox that deployed agents use loses 56. ZTAC loses 2, both of which encode a secret into traffic to an allowed endpoint, and holds 14 for review. It completes 43 of 46 benign operations, with 8 approval prompts, and 4 of 7 workflows. A no-op brokered request has a median latency of 4.0 ms, and the spawned programs we measured take 8.5 ms to 18.4 ms longer than without ZTAC.",
+        "authors": [
+          "Daniel Commey"
+        ],
+        "categories": [
+          "cs.CR"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/dcommey/ztac",
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.14488",
+        "paper_url": "https://arxiv.org/abs/2610.14488",
+        "pdf_url": "https://arxiv.org/pdf/2610.14488",
+        "published": "2026-10-10",
+        "title": "Names Are Not Objects: Object-Bound Confinement for Compromised AI Coding Agents",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Identifying bug-inducing commits (BICs) is important for studying software bugs and maintaining software, yet the accuracy of existing SZZ methods remains limited. Although various improvements have been proposed, many SZZ methods still rely on code tracing, which searches for BICs by tracing code changed in a bug-fixing commit (BFC) back to earlier commits. However, this approach may miss the actual BIC when the code responsible for introducing a bug differs from the code modified to fix it. To overcome this limitation, we investigate whether BIC identification can be improved by exploring search strategies that are not constrained to start with code tracing. We use Claude Code, a coding agent that has demonstrated high BIC identification accuracy in prior research, to explore such strategies. Rather than prescribing a search process or providing predefined candidate commits, we allow Claude Code to independently investigate a Git repository. We evaluate its identification accuracy and search behavior on 79 Java cases from 70 repositories. In 79.7% of runs, Claude Code reviewed commit histories before inspecting individual code diffs. It used commit messages to select changes for closer inspection. With this approach, Claude Code achieves an F1 score of 0.771, significantly outperforming all ten evaluated SZZ baselines. Our failure analysis also reveals incorrect oracle labels and ambiguities in BIC definitions in the studied evaluation dataset. After reconstructing the evaluation dataset to address these issues, Claude Code achieves an F1 score of 0.938. A key lesson from Claude Code for improving SZZ search strategies is to use semantic information to find relevant commits and then examine their code changes, rather than starting with code tracing.",
+        "authors": [
+          "Inase Kondo",
+          "Masanari Kondo",
+          "Daniel M. German",
+          "Olivier Nourry",
+          "Yasutaka Kamei",
+          "Yoshiki Higo"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": "title-match",
+        "code_url": "https://github.com/i-kondou/rethinking-szz-replication",
+        "comment": "",
+        "first_seen": "2026-10-16",
+        "id": "2610.14462",
+        "paper_url": "https://arxiv.org/abs/2610.14462",
+        "pdf_url": "https://arxiv.org/pdf/2610.14462",
+        "published": "2026-10-10",
+        "title": "Rethinking SZZ Search Strategies: Lessons from Claude Code",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Reinforcement learning (RL) has driven substantial progress in coding agents by relying on verified successful trajectories as learning signals. However, such trajectories are scarce in long-horizon software engineering tasks, where a minor error can invalidate the entire rollout. Repeatedly restarting from the initial state is commonly used yet inefficient, and resetting only the context with working directory misses state changes such as installed dependencies. Therefore, branching from intermediate steps to preserve earlier progress requires restoring both the agent context and execution environments. In this paper, we present SPROUT (SnaPshot-based RollOUT), an agentic RL rollout framework that scales long-horizon coding tasks by resuming and branching from intermediate states. Specifically, SPROUT was built on top of a lightweight infrastructure that checkpoints both the filesystem and the agent context after each assistant turn. A verifier-guided backtracking policy then selects where to resume a failed attempt and how to proceed. Extensive experiments on long-horizon coding tasks show that SPROUT achieves up to 23.6% improvement over pass@k across various LLMs, while using $32$--$52%$ of their tokens. For RL training of Qwen3.8-27B, SPROUT stably outperforms standard GRPO by $13.9$ points on three long-horizon coding benchmarks while cutting the time per training step by $39.5%$. SPROUT thus makes RL on long-horizon coding tasks both more effective and cheaper to scale.",
+        "authors": [
+          "Mengyang Liu",
+          "Weiming Wang",
+          "Haixin Nan",
+          "Yu Wu",
+          "Peize Li",
+          "Shihong Huang",
+          "Xuning He",
+          "Xue Jiang",
+          "Yihong Dong"
         ],
         "categories": [
           "cs.SE",
-          "cs.AI",
-          "cs.ET",
+          "cs.CL",
           "cs.LG"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.15093",
-        "paper_url": "https://arxiv.org/abs/2610.15093",
-        "pdf_url": "https://arxiv.org/pdf/2610.15093",
-        "published": "2026-10-10",
-        "title": "TurnCost: Turns, Not Observations: Cache-Aware Loop Engineering for Coding Agents",
-        "updated": "2026-10-10"
+        "first_seen": "2026-10-16",
+        "id": "2610.14405",
+        "paper_url": "https://arxiv.org/abs/2610.14405",
+        "pdf_url": "https://arxiv.org/pdf/2610.14405",
+        "published": "2026-10-09",
+        "title": "SPROUT: Scaling Agentic Reinforcement Learning for Long-Horizon Software Engineering",
+        "updated": "2026-10-09"
       },
       {
-        "abstract": "Coding agents increasingly maintain repositories over time, where each change becomes the starting point for subsequent tasks. Yet existing benchmarks either start tasks from developer-written code or cannot separate later-task difficulty from the effects of an agent's earlier changes. We ask whether agent-written code makes subsequent maintenance harder and whether the cost stems from inherited test failures or the code itself. We introduce SWE-Maintain, comprising 100 three-event maintenance episodes from 50 real-world Python repositories, with hidden tests certified across each sequence. Each later task is evaluated twice with the same agent and tests: from the developers' preceding patches (Developer-History) and from the agent's own changes (Agent-History). Across five coding systems, two backbone models, and 1,996 paired later events, Agent-History reduces later-task resolution by 5.6 percentage points on average. When success additionally requires all earlier tests to pass, the gap reaches 14.0 points. Two-thirds of Agent-History starting repositories already fail earlier tests, and only 1.9% of events starting from those states end with all accumulated tests passing. When the inherited code passes earlier tests and the next task is not already solved, the disadvantage disappears (+2.7 points; 95% CI [-0.5, +6.1]). These findings suggest that the main downstream cost of agent-written changes lies in inherited test failures rather than a measurable maintenance disadvantage in code that preserves earlier tested behavior. Evaluations should therefore include agent-produced history, and coding agents should preserve earlier behavior across changes.",
+        "abstract": "Coding agents such as Claude Code also follow text files that developers write for them: a project file, skills the agent may choose to open, and rules that load automatically when the agent reads matching files. We call these files the agent's harness. Developers add to it whenever they correct the agent, but one success proves little: the same agent can pass a task once and fail it the next time. We present Cortex, a tool that tests changes to the harness instead of trusting them. It saves fixes from the developer's sessions as replayable tasks, finds the corrections that recur, writes one skill or rule at a time, and keeps it only if repeated runs with and without it show a net gain and no task made noticeably worse. Existing text is tested the same way before it is deleted, and Cortex neither adds nor deletes text the agent never used. We tested Cortex with Claude Haiku 4.5 on a repository built for the purpose, with conventions the model tends to break, one area with nothing to learn, and a script playing the developer. On held-out tasks, the harnesses it built made the agent follow the conventions far more often than no skills or rules did, left the comparison area unchanged, and added no text read on every turn. Rules, which load automatically, did most of the work; skills helped only when offered with the files a task touches, and those offered on every turn were rarely opened. Cortex kept none of the useless or harmful suggestions we planted, but the agent never opened the useless ones or the harmful skills, and it reached no verdict on the harmful rules, so the test shows that Cortex keeps no unused text, not that it detects damage. Under the stronger Claude Sonnet 5 a single run's harness added little, and on a real open-source project, where the agent was rarely corrected, Cortex found nothing to learn. We release the tool, the lab and its data.",
         "authors": [
-          "Ruwei Pan",
-          "John Zhang",
-          "Linhao Wu",
-          "Yakun Zhang",
-          "Hongyu Zhang",
-          "Lu Zhang"
+          "Samuele Giampieri"
         ],
         "categories": [
-          "cs.SE"
+          "cs.SE",
+          "cs.AI"
         ],
-        "code_match": null,
-        "code_url": null,
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/samugit83/cortex",
         "comment": "",
-        "first_seen": "2026-10-15",
-        "id": "2610.14768",
-        "paper_url": "https://arxiv.org/abs/2610.14768",
-        "pdf_url": "https://arxiv.org/pdf/2610.14768",
-        "published": "2026-10-10",
-        "title": "Do Modifications Made by Coding Agents Make Subsequent Software Maintenance Harder?",
-        "updated": "2026-10-10"
+        "first_seen": "2026-10-16",
+        "id": "2610.14216",
+        "paper_url": "https://arxiv.org/abs/2610.14216",
+        "pdf_url": "https://arxiv.org/pdf/2610.14216",
+        "published": "2026-10-09",
+        "title": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
+        "updated": "2026-10-09"
       }
     ]
   },
   "topic_repositories": {
-    "ai_infra": [],
-    "vibe_coding": [
+    "ai_infra": [
       {
         "created_at": "2026-10-09",
-        "description": "一句话让 AI 帮你做产品宣传片！把产品名或网址告诉 Cursor、Claude Code、Codex 等 AI 编程工具，它会自己调研产品、画出多种风格样图让你挑选、截取 4K 真实页面、按音乐节拍卡点剪辑、生成 AI 旁白并逐句转写校验、自动审图，最后交付一支 4K 商业宣传视频和可在线播放的网页版。App、网站、SaaS、开源项目、课程、AI 模型都能做，你只需确认需求、试听配乐。不用学剪辑软件，也不用花钱找外包。基于 Remotion + ElevenLabs，可直接克隆使用，也能一键安装为 Agent Skill。",
+        "description": "neatroots: see, check and replay your AI agent's runs on your machine while you build it. Local-first, by Neatlogs.",
         "discovery": "new",
-        "first_seen": "2026-10-15",
-        "forks": 44,
-        "full_name": "liyupi/ai-promo-video-maker",
-        "id": 1411545320,
+        "first_seen": "2026-10-16",
+        "forks": 16,
+        "full_name": "neatlogs/neatroots",
+        "id": 1411479102,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-16",
+        "score": 11.69,
+        "star_growth_7d": null,
+        "stars": 46,
+        "topics": [
+          "ai-agents",
+          "evals",
+          "llm",
+          "local-first",
+          "mcp",
+          "observability",
+          "opentelemetry"
+        ],
+        "url": "https://github.com/neatlogs/neatroots"
+      },
+      {
+        "created_at": "2026-10-12",
+        "description": "Help individuals and teams understand their prompting habits and improve how they work with AI coding agents. Get specific insights into prompt clarity, context, rework, outcomes and wasted effort, plus security flags. Bring your own LLM, no SaaS.",
+        "discovery": "new",
+        "first_seen": "2026-10-16",
+        "forks": 1,
+        "full_name": "tetriz-ai/session-intelligence",
+        "id": 1415110371,
+        "language": "Go",
+        "license": "MIT",
+        "pushed_at": "2026-10-13",
+        "score": 9.96,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [
+          "ai-agents",
+          "coding-assistant",
+          "go",
+          "golang",
+          "llm",
+          "observability",
+          "sdk",
+          "session-analysis"
+        ],
+        "url": "https://github.com/tetriz-ai/session-intelligence"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-03-12",
+        "description": "🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run.",
+        "discovery": "active",
+        "first_seen": "2026-10-16",
+        "forks": 424,
+        "full_name": "tw93/Waza",
+        "id": 1179363570,
         "language": "Python",
         "license": "MIT",
-        "pushed_at": "2026-10-09",
-        "score": 13.92,
+        "pushed_at": "2026-10-15",
+        "score": 20.46,
         "star_growth_7d": null,
-        "stars": 273,
+        "stars": 7308,
         "topics": [
           "agent-skills",
-          "ai-agent",
-          "ai-video",
-          "ai-video-generator",
-          "aigc",
+          "ai-agents",
+          "claude",
           "claude-code",
-          "claude-skills",
           "codex",
           "cursor",
-          "elevenlabs",
-          "ffmpeg",
-          "marketing",
-          "motion-graphics",
-          "playwright",
-          "product-video",
-          "promo-video",
-          "react",
-          "remotion",
-          "text-to-speech",
-          "video-generation"
+          "design",
+          "engineer",
+          "skills",
+          "superpowers"
         ],
-        "url": "https://github.com/liyupi/ai-promo-video-maker"
+        "url": "https://github.com/tw93/Waza"
+      },
+      {
+        "created_at": "2026-10-15",
+        "description": "Open-source version of Scion: version control built for coding agents.",
+        "discovery": "new",
+        "first_seen": "2026-10-16",
+        "forks": 105,
+        "full_name": "feder-cr/open_scion",
+        "id": 1420751050,
+        "language": "Go",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-15",
+        "score": 16.54,
+        "star_growth_7d": null,
+        "stars": 767,
+        "topics": [
+          "ai-agents",
+          "coding-agents",
+          "git",
+          "golang",
+          "scion",
+          "version-control"
+        ],
+        "url": "https://github.com/feder-cr/open_scion"
       },
       {
         "created_at": "2026-10-13",
-        "description": "MCP server for the BetterFans Link SDK, the OnlyFans API. Gives AI coding assistants access to OnlyFans API documentation, guides, and code examples.",
+        "description": "🔒 Your private AI assistant, 100% local on Windows: chat, vision, documents (RAG), web search, images, videos with sound, voice, code projects, MCP tools — one-line install, models picked for your PC.",
         "discovery": "new",
-        "first_seen": "2026-10-15",
-        "forks": 0,
-        "full_name": "Betterfans-link/betterfans-mcp",
-        "id": 1417750697,
-        "language": "TypeScript",
+        "first_seen": "2026-10-16",
+        "forks": 1,
+        "full_name": "anisayari/sparky",
+        "id": 1417816110,
+        "language": "Python",
         "license": "MIT",
-        "pushed_at": "2026-10-13",
-        "score": 10.74,
+        "pushed_at": "2026-10-15",
+        "score": 11.41,
         "star_growth_7d": null,
-        "stars": 29,
-        "topics": [],
-        "url": "https://github.com/Betterfans-link/betterfans-mcp"
+        "stars": 39,
+        "topics": [
+          "chatgpt-alternative",
+          "comfyui",
+          "image-generation",
+          "llama-cpp",
+          "llm",
+          "local-ai",
+          "mcp",
+          "offline",
+          "privacy",
+          "rag",
+          "text-to-video",
+          "windows"
+        ],
+        "url": "https://github.com/anisayari/sparky"
       }
     ]
   }
