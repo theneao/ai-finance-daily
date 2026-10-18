@@ -1,0 +1,880 @@
+{
+  "papers": [],
+  "repositories": [],
+  "run_date": "2026-10-18",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "Retrieval-augmented generation (RAG) reuses the same documents across many requests, making non-prefix KV-cache reuse attractive. Yet a cached document state is not reusable text: it is a context-conditioned causal state whose keys and values depend on the prefix, position, and preceding documents under which it was computed. We formulate non-prefix KV reuse as a behavior-preservation problem with full prefill on the exact prompt as the reference, and introduce SAFE-KV, which repairs a composed cache by re-encoding the causal suffix from a selected start document. On Qwen2.5-7B-Instruct, prefix-conditioned composition preserves only 47.2% of HotpotQA-500 and 37.8% of 2Wiki-500 full-prefill answers; SAFE-KV with risk-guided K2 selection restores 99.8%/98.4% (donor-copy protocol) and 100.0%/98.4% with actual suffix forwarding. Document-only and fixed-window repairs recover far less, because the document states after the repaired region keep histories that omit it. Reuse without repair is exact up to four documents and degrades at sixteen, where suffix repair recovers 98-100%. Faithful repair re-encodes most of the context, so in a single-request L40S study SAFE-KV's operating rule serves every workload by full prefill. SAFE-KV thus establishes the causal-state contract for non-prefix reuse and a validated repair mechanism that meets it.",
+        "authors": [
+          "Xingjian Zhang"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/XingjianZhang-dev/safe-kv",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.15186",
+        "paper_url": "https://arxiv.org/abs/2610.15186",
+        "pdf_url": "https://arxiv.org/pdf/2610.15186",
+        "published": "2026-10-10",
+        "title": "SAFE-KV: Causal Suffix Repair for Behavior-Preserving Non-Prefix KV Cache Reuse in RAG",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Energy-aware orchestration across geographically distributed infrastructures is increasingly important as data centers absorb growing Artificial Intelligence (AI) workloads. However, existing approaches often exclude the energy cost of automated decision-making from system-level sustainability assessments. This paper presents an energy-aware agentic orchestration framework that treats Large Language Model (LLM) reasoning as a measurable component of the control loop. We compare single-shot tool calling, ReAct, and plan-and-execute strategies on a multi-site Kubernetes testbed spanning two European data centers and instrumented at layers ranging from power distribution units to per-pod energy attribution. Using ten natural-language orchestration intents with varying decision complexity, we show that reasoning strategy and intent complexity strongly influence graphics processing unit (GPU) energy consumption during orchestration decisions. ReAct and plan-and-execute generated executable tool calls across all evaluated intents but required multiple LLM inferences, whereas the single-shot configuration was less costly but non-actionable. Prefix caching reduced mean ReAct GPU energy consumption by 29.4%. For the evaluated lightweight workload, the infrastructure-energy changes observed within the one-second measurement window were insufficient to offset the measured GPU decision energy. These findings demonstrate the importance of accounting for reasoning overhead when assessing the sustainability of AI-native orchestration and motivate energy-budgeted selection of agent strategies.",
+        "authors": [
+          "Rodrigo Moreira",
+          "Alisson Chaves",
+          "Larissa F. Rodrigues Moreira",
+          "Tereza Carvalho",
+          "Tiago Barros",
+          "Daniel Corujo",
+          "Rui Aguiar",
+          "David Gomez-Barquero",
+          "Flávio de Oliveira Silva"
+        ],
+        "categories": [
+          "cs.NI",
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14793",
+        "paper_url": "https://arxiv.org/abs/2610.14793",
+        "pdf_url": "https://arxiv.org/pdf/2610.14793",
+        "published": "2026-10-10",
+        "title": "Energy-Aware Agentic Orchestration for Multi-Site Service Deployment",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "LLM-augmented data workflows often involve multiple heterogeneous models operating over substantial shared context, such as schemas, tool specifications, interaction history, and intermediate results. Although prefix caching can reduce prefilling overhead, existing approaches are largely limited to reuse within the same model because KV states are tightly coupled to model-specific architectures. We present MapFlow, a system for efficient heterogeneous LLM serving via cross-model attention map reuse. Instead of reusing KV states, MapFlow reuses attention maps, which capture token dependency patterns and are more transferable across models. To enable efficient and accurate reuse, we combine partial recomputation with lightweight linear translation across layers and heads. To make attention reuse practical for long contexts, we further introduce block-level sparse compression and a fused retrieval kernel. Experiments show that MapFlow reduces prefilling latency and improves end-to-end serving efficiency while preserving generation quality across heterogeneous model pairs and multi-turn routing workloads. These results suggest that attention maps provide an effective reusable state for heterogeneous LLM serving, especially in prefix-heavy data workflows. Our code is available: https://github.com/PKU-DAIR/MapFlow.",
+        "authors": [
+          "Zhan Jin",
+          "Yuze Luo",
+          "Bin Cui",
+          "Xupeng Miao"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/PKU-DAIR/MapFlow",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14688",
+        "paper_url": "https://arxiv.org/abs/2610.14688",
+        "pdf_url": "https://arxiv.org/pdf/2610.14688",
+        "published": "2026-10-10",
+        "title": "Accelerating Cross-Model LLM Inference via Attention Map Reuse",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Agentic applications generate multi-turn sequences of LLM requests, with each new turn extending the context accumulated from prior interactions and tool calls. Prefix caching reuses the KV cache of earlier turns and avoids redundant prefill, but routing every turn to its cache-affine instance can create severe local queues while capacity remains idle elsewhere. Remote KV cache access relaxes this tension, yet migrating execution adds transfer work and is harmful when the cluster is already congested. Thus, deciding where to execute a request requires reasoning jointly about cache locality, queueing, and the current operating point of the cluster. We present Vesta, a queueing-aware scheduler for distributed agentic LLM serving. Vesta assigns each session a stable holder for its authoritative KV cache while independently selecting an executor for every request. Grounded in classical queueing theory, its objective accounts for backlog, reusable prefixes, KV cache transfer, and the queueing externality of additional service demand; it migrates execution to recover idle capacity when beneficial and favors placements that add the least prefill and transfer work as congestion rises. Vesta also migrates reusable prefixes across length buckets to avoid cold starts. On real-world agentic workloads, Vesta improves throughput by 14.0\\% and reduces mean TTFT by 57.8\\% over the state-of-the-art scheduler in a PD-colocated deployment. In PD-disaggregated deployments, it reduces mean TTFT by up to 18.1\\% and P99 TTFT by up to 29.0\\% at matched throughput.",
+        "authors": [
+          "Lancheng Zou",
+          "Bowen Li",
+          "Wei Mao",
+          "Wenbin Ye",
+          "Lecheng Li",
+          "Kai Liu",
+          "Chao Deng",
+          "Jianchen Zhu",
+          "Bei Yu"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14686",
+        "paper_url": "https://arxiv.org/abs/2610.14686",
+        "pdf_url": "https://arxiv.org/pdf/2610.14686",
+        "published": "2026-10-10",
+        "title": "Vesta: Queueing-Aware LLM Scheduling for Real-World Workloads",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Large Language Model (LLM) inference is driving a growing share of datacenter carbon emissions. Although carbon-aware scheduling can reduce these emissions in geo-distributed datacenters by exploiting the spatiotemporal variations in grid carbon intensity, the latency-sensitive nature of LLM serving constrains this design space. While prior studies investigate the carbon savings achievable through spatial scheduling, they oversimplify the dynamics of modern inference engines, such as queueing and continuous batching, which strongly shape inference latency. We address this issue by designing and evaluating a latency-centric, geo-distributed inference simulator, calibrated with hardware-grounded latency and power measurements, that reproduces these dynamics and enables the study of carbon savings under strict service-level objectives (SLOs). We then formulate a series of SLO- and carbon-aware schedulers of increasing sophistication, from per-request heuristics to batch-level optimization: (i) a greedy heuristic, (ii) an integer linear programming (ILP)-based scheduler jointly assigning batches of requests, (iii) an iterative ILP-based solution projecting its own assignments back into the load estimates to capture load coupling, and (iv) a facility mixed-integer linear programming (MILP) scheduler pricing the energy of batched requests collectively rather than in isolation. Across three LLMs under MLPerf SLOs and varying system loads, the MILP-based option offers the best carbon-SLO balance, reducing carbon emissions by up to 60% relative to the round-robin policy, with an average SLO violation of 3%. Our characterization further shows that savings grow with the spread of carbon intensity across datacenters and shrink as system load increases, while SLO attainment depends on how frequently schedulers receive datacenters' load updates.",
+        "authors": [
+          "Burak Topcu",
+          "Musa Cim",
+          "Zuhal Ozturk",
+          "Mahmut Taylan Kandemir"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.LG",
+          "cs.PF"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/topcuburak/carbon-slo-at-geoscale",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14571",
+        "paper_url": "https://arxiv.org/abs/2610.14571",
+        "pdf_url": "https://arxiv.org/pdf/2610.14571",
+        "published": "2026-10-10",
+        "title": "Dissecting the Carbon-SLO Tension in Geo-Distributed LLM Serving",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this \\emph{KV concentration} and find that KV cache quantization delivers substantially greater acceleration than weight-only and weight-activation quantization in our matched-workload comparisons. However, INT4 KV rollout can degrade learning even with token-level truncated importance sampling (TIS). We propose \\emph{KV4-RL}, which combines calibration-free INT4 KV quantization with selective INT8 protection of attention sinks and recent context. Protecting a bounded number of positions reduces sampler mismatch while retaining most of the speedup from INT4. Across 400 iterations of Qwen3-8B-Base GRPO training, KV4-RL achieves $1.80\\times$ cumulative rollout speedup and $1.27\\times$ cumulative full-iteration speedup over BF16 rollout, reaching $1.97\\times$ rollout speedup over the final 50 iterations. Under a common BF16 evaluator, its final six-benchmark mean accuracy is within 0.5 percentage points of BF16-rollout training for both Qwen3-4B-Base and Qwen3-8B-Base.",
+        "authors": [
+          "Sihwan Park",
+          "Sung-Yub Kim",
+          "Doohyuk Jang",
+          "Eunho Yang"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14448",
+        "paper_url": "https://arxiv.org/abs/2610.14448",
+        "pdf_url": "https://arxiv.org/pdf/2610.14448",
+        "published": "2026-10-10",
+        "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Enterprise workflow automation typically requires retrieving a complete and accurate set of relevant information from large operational document corpora (SOPs, policy documents) given a specific scenario or request. In customer support (CS), for example, human specialists must determine the correct sequence of resolution steps for each case, a task that demands precise grounding in policy documentation. Meeting this bar in production typically requires complex document chunking, indexing, and retrieval pipelines, often layered with learned re-rankers, query rewriters, and bespoke agentic RAG infrastructure. We report a deployment case study of a simpler alternative: a portable skill consisting of a natural-language instruction, lightweight tools (a retrieval API, format-checking scripts), and a corpus enriched with an LLM-generated navigation layer, which is a structured \"Wikipedia-style\" index over the underlying documents. This agentic RAG approach is straightforward to implement (1-2 engineer days), portable across capable agentic harnesses (e.g., Claude Code), and performs strongly on the challenging task of CS resolution workflow generation, achieving 99.2% procedural equivalence to human-approved ground truth and 83.3% evidence sufficiency. It is also roughly an order of magnitude slower per case than our deployed production assistant (~90 s vs. ~8-9 s), so we claim no latency advantage. Our claim is scoped to that setting: a mature, well-curated corpus, a latency-tolerant workflow, and human review of every case. There, the skill did the work of a complex RAG stack, and maintenance became a matter of editing text and data rather than retraining models.",
+        "authors": [
+          "Istok Bako",
+          "Bonan Min",
+          "Tiffany Shao",
+          "Claire Cheng",
+          "Yashar Mehdad"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14428",
+        "paper_url": "https://arxiv.org/abs/2610.14428",
+        "pdf_url": "https://arxiv.org/pdf/2610.14428",
+        "published": "2026-10-10",
+        "title": "Frustratingly Easy Agentic RAG via Portable Skills: A Case Study in Customer Support",
+        "updated": "2026-10-10"
+      },
+      {
+        "abstract": "Deploying large language model (LLM) inference at scale requires jointly selecting hardware layout, parallelism strategy, scheduling policy, admission control, and request routing to meet latency and throughput targets. These choices interact: a routing decision that improves cache locality can concentrate load, and an admission threshold that triggers only at saturation allows queues to grow deep enough to degrade critical-tier traffic. Evaluating candidates on GPU clusters is too expensive for iterative exploration, yet existing predictive tools either ignore batching and queueing dynamics or model only fragments of the pipeline. In this paper, we present BLIS, a deterministic, CPU-only discrete-event simulator that models the full inference serving pipeline (admission, routing, scheduling, prefill/decode execution, KV-cache management, and preemption). BLIS pairs analytical basis functions with learned scaling coefficients and overhead terms, fit once globally, to predict step latency without per-model or per-GPU profiling. Across 36 experiments spanning six models and three GPU types, BLIS achieves 6.7% median end-to-end error while running around 200 times faster than real execution. In a configuration search over 420 serving configurations for Llama-2-70B, BLIS identifies a 4-GPU deployment that meets a 300ms mean TTFT service-level objective (SLO), whereas competing tools either require double the GPUs or recommend configurations that fail under load. Two policies evolved entirely in simulation were validated on real hardware and merged into llm-d, a widely adopted open-source platform for distributed LLM serving: an admission policy that reduces critical-tier TTFT P90 by up to 82%, and a flow-control policy that reduces E2E P50 latency by 32-48% on overloaded workloads.",
+        "authors": [
+          "Dipanwita Guhathakurta",
+          "Mert Toslali",
+          "Srinivasan Parthasarathy",
+          "Jing Chen",
+          "Michael Kalantar",
+          "Nicholas A. Masluk",
+          "Vishakha Ramani",
+          "Asser Tantawi",
+          "Fabio Oliveira"
+        ],
+        "categories": [
+          "cs.PF"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14255",
+        "paper_url": "https://arxiv.org/abs/2610.14255",
+        "pdf_url": "https://arxiv.org/pdf/2610.14255",
+        "published": "2026-10-09",
+        "title": "Simulate Before You Scale: High-Fidelity LLM Inference Planning Without GPUs",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state management causes large state I/O with low arithmetic intensity, leaves speculative decoding no cheap rollback, and feeds state quantization error into subsequent recurrent updates. We introduce ReplaySSM, which unrolls the recurrence to represent the state as a checkpoint and a buffer of recent SSM inputs. This separates output computation from checkpoint updates. By updating the checkpoint periodically, ReplaySSM avoids state writes on most steps and roughly halves the dominant state memory traffic. Keeping recent inputs also makes speculative rollback a buffer-pointer operation and enables output-only verification without materializing intermediate states. The same separation allows a low-precision checkpoint to serve output computation on most steps while a higher-precision checkpoint serves recurrent updates, so rounding error in the low-precision copy never enters later updates. We implement ReplaySSM in vLLM for Mamba-2 and Gated DeltaNet. At serving batch size 256, it accelerates standard decoding by $1.20$--$1.47\\times$ over a tuned vLLM baseline across four hybrid models, and delivers about $1.8\\times$ the throughput of vLLM's speculative decoding on the two 120B-class models. Separate state precisions also reduce output KL divergence and downstream accuracy losses compared with a shared low-precision checkpoint.",
+        "authors": [
+          "Ze-Wei Liou",
+          "Harris Nover",
+          "Amey Naik",
+          "Andrii Skliar",
+          "Igor Shovkun",
+          "Ido Shahaf",
+          "Tri Dao"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/Johnny-Liou/ReplaySSM",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13778",
+        "paper_url": "https://arxiv.org/abs/2610.13778",
+        "pdf_url": "https://arxiv.org/pdf/2610.13778",
+        "published": "2026-10-09",
+        "title": "ReplaySSM: Cache SSM Inputs, Not State",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Long-context serving runs out of KV memory before the hardware reaches its useful throughput. HiSparse stores history in host memory and fetches only the selected entries, but it uses one cache budget at every load and does not handle draft-model speculative decoding such as DSpark and DFlash2. We present Adaptive DHiSparse, which supports speculative decoding over hierarchical sparse KV and adapts residency to load. It protects the required working set, retains additional history while GPU memory is spare, and recovers the rest through exact fused retrieval. DSpark and DFlash2 keep their proposal and acceptance rules: queries share missing-row retrieval, draft KV uses a window-bounded ring, and verification staging is reused across layer groups. At 100K context and concurrency 128, GLM-5.3 with DFlash2 delivers 793 output tokens/s per decode GPU, 1.45$\\times$ HiSparse and 1.27$\\times$ non-speculative adaptive serving. Held to the same latency bounds as HiSparse, it sustains up to 4$\\times$ the concurrency and 2.3 to 3.7$\\times$ the output, depending on the per-token bound. On DeepSeek-V4.1-Flash at 500K context and concurrency 512, Adaptive DHiSparse with DSpark delivers 1.85$\\times$ the output of resident serving with DSpark. In a load step, optional residency reduces host fetches from 14.2% to 1.4% of selected rows at low load and releases memory under pressure.",
+        "authors": [
+          "Naji Alazhar",
+          "Wassel Alazhar"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.DC",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13708",
+        "paper_url": "https://arxiv.org/abs/2610.13708",
+        "pdf_url": "https://arxiv.org/pdf/2610.13708",
+        "published": "2026-10-09",
+        "title": "Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Evaluating large language models (LLMs) on AMLworld's smallest test splits is costly because each of over a million targets requires a separate graph prompt. Sampling reduces this cost, but small balanced subsets change unweighted precision and F1. We introduce AMLworld-Compact, an evaluation set that retains every illicit test transaction and samples benign transactions from supervised-score strata. Its HT-Coreset protocol reduces evaluation targets by 271x and 611x on HI-Small and LI-Small. Horvitz-Thompson weights give unbiased full-test confusion-count estimates for fixed predictions; recall is exact, while precision and F1 are ratio estimates. In a held-out study using Graph Feature Preprocessor (GFP) features, one boosted-tree family defines strata for evaluating the other over 500 draws per configuration. At the released sizes, F1 RMSE is 0.00-2.58 percentage points versus 4.44-7.41 for uniform sampling with HT weights; conservative intervals remain broad. Under the evaluated graph prompts, seven open-weight LLMs have weighted precision near the predict-all-illicit baseline. In an outcome-stratified audit of 1,000 HI-Small few-shot outputs from one run per model, lexical checks pass for 84.5% of correct and 56.2% of incorrect binary verdicts, so these markers do not establish correctness. We release the evaluation sets, construction code, and audit tools at https://huggingface.co/datasets/typhoon-ai/AMLworldCompactEval and https://github.com/nat-nischw/AMLworld-Compact.",
+        "authors": [
+          "Natapong Nitarach",
+          "Phume Ngampornsukswadi",
+          "Pittawat Taveekitworachai",
+          "Surapon Nonesung",
+          "Warit Sirichotedumrong",
+          "Kunat Pipatanakul"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/nat-nischw/AMLworld-Compact",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13627",
+        "paper_url": "https://arxiv.org/abs/2610.13627",
+        "pdf_url": "https://arxiv.org/pdf/2610.13627",
+        "published": "2026-10-09",
+        "title": "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Autoregressive Transformer and Conformer models have achieved state-of-the-art performance in automatic speech recognition (ASR). However, their sequential token generation mechanism imposes a significant bottleneck during decoding, resulting in substantial inference latency. While speculative decoding has emerged as a promising lossless acceleration technique, existing ASR-oriented approaches either suffer from low draft acceptance rates due to suboptimal draft quality or rely on specially designed external draft models, which limit their generality and practicality. To overcome these limitations, we propose EAGLE-ASR, a novel framework that accelerates ASR inference via EAGLE-style speculative decoding while strictly preserving lossless output quality. Specifically, we introduce Speech-Draft, a lightweight autoregressive module that serves as a universal draft model by jointly leveraging encoder acoustic features and hierarchical decoder representations from the target ASR model. Furthermore, we adopt a multi-step generation strategy with self-distilled data to train the Speech-Draft, enabling it to better approximate the target model's output distribution and maintain causal consistency during multi-token generation. Extensive experiments on representative Whisper and Conformer AED models demonstrate that EAGLE-ASR achieves significant lossless speedups of up to $1.9\\times$ and $2.4\\times$, respectively, consistently outperforming existing speculative decoding baselines for ASR. Our proposed framework further generalizes effectively to multilingual ASR and speech translation tasks, establishing EAGLE-ASR as a practical and universally applicable solution for accelerating modern ASR systems without compromising recognition accuracy.",
+        "authors": [
+          "Sen Zhang",
+          "Xianghu Yue",
+          "Yiming Chen",
+          "Wenhuan Lu",
+          "Jianguo Wei",
+          "Haizhou Li"
+        ],
+        "categories": [
+          "cs.SD",
+          "eess.AS"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13506",
+        "paper_url": "https://arxiv.org/abs/2610.13506",
+        "pdf_url": "https://arxiv.org/pdf/2610.13506",
+        "published": "2026-10-09",
+        "title": "Lossless Inference Acceleration for ASR via EAGLE-Style Speculative Decoding",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Agentic workloads resend long contexts that barely change between calls. Prefix caching now skips most of their prefill, yet every request must still be tokenized in full before the cache can even be consulted. Tokenization, a CPU stage long treated as negligible, becomes the largest part of time-to-first-token (TTFT), and a frontend that tokenizes for a whole GPU fleet limits how many GPUs it can feed. We present GraphTok, a GPU tokenizer that runs the entire encoding pipeline, from pre-tokenization through byte-pair encoding (BPE) merging to token-ID assembly, as one replayable CUDA graph. GraphTok reproduces the reference token IDs bit-for-bit on GPT-2, Llama 3, Qwen 2.5, DeepSeek-V3, and Gemma 3, hands short inputs to a CPU engine where the GPU cannot win, and plugs into unmodified vLLM and NVIDIA Dynamo. GraphTok encodes one million GPT-2 tokens in 1.7-3.2 ms including data transfers, and on Llama 3 it is 4.7-6.0x faster than gigatoken, the strongest CPU tokenizer. On TokTier's own single-request benchmark, it is 2.6-3.9x faster than gigatoken and up to 18.1x faster than TokTier. In vLLM with a cached prefix, it lowers mean TTFT by 2.1-2.4x. The largest gain is capacity. Within a 2 s P99 target, one Dynamo frontend with GraphTok sustains 518 requests/s of 121k-token traffic, the busiest-hour load of 56 GPUs, against 296 with gigatoken and 18.5 with the default tokenizer. Across 121k to one million tokens, this is 1.75-2.5x the load gigatoken sustains, with a P99 up to 64x lower where gigatoken's tail breaks.",
+        "authors": [
+          "Mohammad Siavashi",
+          "Pascal Schwinte",
+          "Ali Banaei",
+          "Gerald Q. Maguire",
+          "Marco Chiesa",
+          "Dejan Kostić"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.CL",
+          "cs.LG",
+          "cs.PF"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13325",
+        "paper_url": "https://arxiv.org/abs/2610.13325",
+        "pdf_url": "https://arxiv.org/pdf/2610.13325",
+        "published": "2026-10-09",
+        "title": "Taking Tokenization off the Host for Agentic LLM Serving",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Fast rollout generation for long-context reinforcement learning with verifiable rewards (RLVR) requires reducing KV-cache traffic without changing the response groups used for policy optimization. In our profiled RLVR workloads, attention accounts for 72--76\\% of autoregressive decoding kernel time. Sparse attention reduces these reads, but sampling directly from a sparse policy changes the response groups used for learning. For group-relative optimization, we show that even exact response-wise reweighting does not generally recover the expected dense-policy update because the advantage of each response depends on the rewards of other group members. We propose Self-Sparse Speculative Rollouts (S$^3$R). It uses sparse attention to propose tokens, then generates responses through full-attention verification and exact speculative sampling. Drafting and verification share the same policy parameter, eliminating the need to train or update a separate drafter. The resulting response groups follow the dense-policy distribution. Under S$^3$R, we characterize speedup conditions and the costs of drafting and verification. We found that dense verification still requires the complete historical KV cache. A KV-aware scheduler therefore limits KV-cache repeated offloading and restoration while maintaining rollout parallelism. % OR thrashing In a matched ablation with an aggressive sparse drafting budget, S$^3$R maintains stable training while direct sparse sampling with training-side correction becomes unstable. On long-context mathematical reasoning, S$^3$R achieves $1.39\\times~1.35\\times$ the end-to-end training throughput of autoregressive rollouts on Qwen3 model, with comparable task performance.",
+        "authors": [
+          "Yuhang He",
+          "Hongyu Ge",
+          "Zihan Lin",
+          "Siyi Liu",
+          "Yongqi Zhang"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13202",
+        "paper_url": "https://arxiv.org/abs/2610.13202",
+        "pdf_url": "https://arxiv.org/pdf/2610.13202",
+        "published": "2026-10-09",
+        "title": "S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "KV-cache reuse in large language model serving is commonly limited to exact prompt prefixes, preventing reuse when the same retrieved document appears after different system prompts, conversation histories, or dynamic metadata. We present KV-Repurpose, an open-source, vLLM-based system for developing and evaluating segment-wise KV-cache reuse beyond exact prefixes. The system combines cache-aware segment scheduling, prompt construction, capacity management, workload generation, and runtime monitoring. Experiments on long-context benchmarks show that naive segment reuse largely preserves output quality for single-document question answering and summarization, while exposing clear limitations in cross-document reasoning. Under a Zipfian RAG-style workload in which 20% of requests share a fixed prefix, KV-Repurpose achieves a substantially higher token-level cache hit rate than prefix caching at the same 30 GB cache capacity, 63.9% versus 3.3%, resulting in lower TTFT. Even with 1 TB of cache capacity, prefix caching reaches only a 17.9% hit rate in this workload. Source code is available under the Apache-2.0 license at https://github.com/taiga333/eval-kv-repurpose.",
+        "authors": [
+          "Taiga Ikeda",
+          "Daisuke Miyashita",
+          "Jun Deguchi"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/taiga333/eval-kv-repurpose",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13060",
+        "paper_url": "https://arxiv.org/abs/2610.13060",
+        "pdf_url": "https://arxiv.org/pdf/2610.13060",
+        "published": "2026-10-09",
+        "title": "KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse",
+        "updated": "2026-10-09"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "abstract": "Coding agents often make useful progress before they fail, but retry-from-scratch discards the machine state created along the way. This makes failure recovery an interesting search problem: if intermediate environment states preserve meaningful progress, restoring and branching from them could outperform repeatedly restarting from the initial state. We implement Go-Explore-style search over full Daytona snapshots and find that higher and more efficient solve rates depend mainly on progress that sits outside the repository, such as databases, services, and other runtime state. Our results suggest that full-snapshot search is most effective when long-horizon coding work spans multiple services whose state cannot be reconstructed from a single diff.",
+        "authors": [
+          "Daniel Thi Graviet",
+          "Tanmay Shah"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13841",
+        "paper_url": "https://arxiv.org/abs/2610.13841",
+        "pdf_url": "https://arxiv.org/pdf/2610.13841",
+        "published": "2026-10-09",
+        "title": "Returning to Development States: When Full Sandbox Snapshots Help Coding Agents",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "With the advances of coding agents, software developers are spending more time reviewing code than writing code. As human review velocity falls behind agentic code generation, it is tempting to build automated review agents towards a future of \"lights-off\" software factory with little to no human supervision. To assess the practicality of such a fully autonomous software factory, we construct CRBugBench, a new benchmark that evaluates whether review agents detect human-verified bugs. We build a data pipeline that mines bugs from repository history, and pair each bug with its introducing PR to form a review task. CRBugBench consists of 1,000 review tasks across 98 open-source GitHub repositories, and 800 additional tasks from proprietary industry repositories at one large company. We then use the benchmark to study agent review quality: We found that SOTA review agents do well: the best (claude-opus-5 with copilot-cli) catches 71.9% of bugs within its top-5 comments, up from 47.7% (opus-4.6) in five months of model evolution. Yet agents remain less effective on complex changes and bugs requiring non-local reasoning, with sharp performance drops on proprietary industry repositories where project context is more often needed. To improve bug detection, we found scaling compute helps most through prompt changes: exploration-nudging prompts gain up to 5.8% performance at 10% higher cost. From these findings, we derive concrete guidance for developers to adopt review agents - scaling review effort to PR complexity, steering agents by project priorities, supplying repository knowledge, dispatching models by PR characteristics, and monitoring quality as models evolve.",
+        "authors": [
+          "Chenyang Yang",
+          "Hao He",
+          "Ti-Chung Cheng",
+          "Jenna Butler",
+          "Emerson Murphy-Hill",
+          "Carmen Badea",
+          "Christian Bird"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13668",
+        "paper_url": "https://arxiv.org/abs/2610.13668",
+        "pdf_url": "https://arxiv.org/pdf/2610.13668",
+        "published": "2026-10-09",
+        "title": "(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benchmark for agent software engineering spanning three stages of the agent development lifecycle: Creation of a complete agent from a natural-language requirement, Editing of production agent codebases, and Optimization toward a measurable target. Each of its 25 tasks is framed as a commission rather than an exam: the builder iterates against a handful of illustrative cases, while acceptance exercises the frozen submission on held-out cases designed to span the full requirement, grading behavior against requirement-derived rubrics under hard pass/fail gates or, for Optimization, against the source benchmark's own objective. Evaluating a range of coding agents across models and harnesses, we find that none comes close to delivering what a requirement asks for: the gap between what a builder demonstrates and what it delivers is the norm, not the corner case. An accompanying empirical analysis of the failure trajectories identifies recurring failure modes, among them overfitting to the visible cases, hollow runtimes behind code that looks complete, and unsupported claims of completion, each a signal by which coding agents can learn to build the agents they are asked for.",
+        "authors": [
+          "Jiahao Wang",
+          "Hongjin Qian",
+          "Yuyang Hu",
+          "Jiajun Zhang",
+          "Zheng Liu"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/VectorSpaceLab/AgentSWE",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13361",
+        "paper_url": "https://arxiv.org/abs/2610.13361",
+        "pdf_url": "https://arxiv.org/pdf/2610.13361",
+        "published": "2026-10-09",
+        "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Coding agents are increasingly deployed for end-to-end software engineering tasks, where a readily available oracle evaluator that defines the success criteria is often absent. This motivates verifications for coding agents that can reliably judge and explain their behavior. However, verification is non-trivial as coding agents are increasingly capable of solving long-horizon software engineering tasks. Their execution trajectories can be extremely long, containing hundreds of iterative interactions with code repositories and external tools. Existing verifiers either rely on general-purpose LLMs without specialized training or train dedicated critics that predominantly focus on producing scalar rewards, highlighting the relatively limited exploration of training-based generalist verification. We introduce SWE-Critix, a post-training pipeline for training generalist verifiers of coding-agent trajectories. Given a task and its execution trajectory, the learned verifier predicts the completion label and generates a natural-language analysis that explains its judgment. Our pipeline combines supervised fine-tuning (SFT) with reinforcement learning (RL) and trains a series of 30B models on trajectories from CodeForge-Preview. On a held-out test set, SWE-Critix improves classification accuracy from 57% for the base Qwen3-30B-A3B reasoning model to 66% after SFT and 78% after RL. We release our models, datasets, and training code to facilitate further research.",
+        "authors": [
+          "Jiajun Hu",
+          "Chun Yong Chong"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": "title-match",
+        "code_url": "https://github.com/SWE-Critix/SWE-Critix",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13356",
+        "paper_url": "https://arxiv.org/abs/2610.13356",
+        "pdf_url": "https://arxiv.org/pdf/2610.13356",
+        "published": "2026-10-09",
+        "title": "SWE-Critix: Post-Training Generalist Verifiers for Assessing Coding-Agent Trajectories",
+        "updated": "2026-10-12"
+      },
+      {
+        "abstract": "Open coding agents are commonly trained through supervised fine-tuning on interaction trajectories whose final patches pass the benchmark test suite. However, this outcome-level filtering criterion ignores process quality: trajectories that eventually succeed may still contain inefficient interaction patterns such as repetitive file inspection, unstable tool usage, or delayed modification behavior, all of which become part of the imitation target. We propose TQS (Trajectory Quality Score), a structural scoring framework for coding-agent trajectories that operates directly on trajectory structure, requires no LLM judge, and runs in linear time. TQS characterizes trajectory quality through structural signals organized around structured convergence: information focus, intent--action alignment, and policy dynamics. Using 155,144 successful trajectories from a public open-license corpus, we rank trajectories by TQS and fine-tune coding agents on filtered subsets. Models trained on top-ranked trajectories consistently outperform those trained on random or bottom-ranked subsets on SWE-Bench-Verified. Our results suggest that process-level trajectory quality is an important factor in coding-agent supervision and that structural trajectory filtering provides an effective and scalable alternative to LLM-based data selection.",
+        "authors": [
+          "Sida Li",
+          "Yuanxin Liu",
+          "Shicheng Li",
+          "Linli Yao",
+          "Xu Sun",
+          "Haoli Bai",
+          "Xiaohui Li"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13152",
+        "paper_url": "https://arxiv.org/abs/2610.13152",
+        "pdf_url": "https://arxiv.org/pdf/2610.13152",
+        "published": "2026-10-09",
+        "title": "Quality, Not Just Outcome: A Structural Scoring Framework for Selecting Coding-Agent Trajectories for Supervised Fine-Tuning",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Coding agents are increasingly used to create large software projects. While code-generation benchmarks have scaled accordingly to full applications, test-generation benchmarks remain limited to individual functions or bug fixes. In particular, generating complete test suites for complex software from scratch remains unexplored. To address this gap, we introduce TestSuiteBench, a benchmark of 165 open-source applications, each with a structured and detailed specification of intended behavior, a reference implementation, a reference test suite, and on average 74 mutants. Each mutant is generated from a single requirement of the specification and refined to isolate that behavior: 73\\% are killed by exactly one reference test and, on average, by only 0.2\\% of the remaining tests. We find that even frontier coding agents struggle to generate strong test suites given our specifications, achieving mutation scores below 60\\%, despite their suites being largely valid and 88\\% of their tests passing on the reference implementation. We observe that generated test suites often lack relevant input combinations and are smaller than reference test suites. Meanwhile, implementations generated for the same specifications pass 82\\% of the reference tests. These results show agents can build software they cannot verify, a gap that directly limits fully autonomous software development.",
+        "authors": [
+          "Kazuki Egashira",
+          "Niels Mündler-Sasahara",
+          "Mark Niklas Müller",
+          "Martin Vechev"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.13065",
+        "paper_url": "https://arxiv.org/abs/2610.13065",
+        "pdf_url": "https://arxiv.org/pdf/2610.13065",
+        "published": "2026-10-09",
+        "title": "TestSuiteBench: Coding Agents Struggle to Generate Strong Test Suites from Specifications",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Current software engineering agents are evaluated predominantly inside isolated sandboxes against synchronous local tests. However, deploying features in collaborative repositories requires modifying continuous integration (CI/CD) pipelines, containers, and provisioning manifests alongside application logic. Because agents lack deployment awareness, attempting cross-domain modifications introduces unverified dependencies into asynchronous integration pipelines. To isolate the causal integration overhead of dual-scope pull requests (PRs)-modifying both application code and deployment infrastructure-we evaluated 26,999 PRs across two large datasets (AIDev v5 and MOSAIC-3M) encompassing six agent architectures and an aligned human baseline. Using a deterministic four-tier file taxonomy and an exact 4D strata-matching framework, we isolated integration metrics under conditional exchangeability while controlling for application volume. We find agents operate primarily as application coders or chore workers, with maintenance tasks capturing 17.70% to 25.41% of agent PRs. Dual-scope modifications represent only 4.48% to 4.55% of agentic PRs, yet trigger bimodal integration outcomes. In the first mode, explicitly reviewed contributions experience protracted delays, adding a median penalty of +13.13 hours and multiplying time-to-merge by 3.24x, driven mechanically by CI/CD and provisioning manifests. In the second mode, maintainer gatekeeping exhibits a structural bypass: even for external contributors lacking repository write access, agent identity reduces the odds of human review by 63.7% compared to human peers. Consequently, 43.1% to 56.2% of dual-scope PRs bypass inspection to merge silently in a median of under 31 minutes. These uninspected modifications compromise build verification, demonstrating the need for deployment-aware benchmarks and strict path-based access controls.",
+        "authors": [
+          "Mohammad Wathiq Soualhi",
+          "Basem Suleiman"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.12849",
+        "paper_url": "https://arxiv.org/abs/2610.12849",
+        "pdf_url": "https://arxiv.org/pdf/2610.12849",
+        "published": "2026-10-09",
+        "title": "Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests",
+        "updated": "2026-10-09"
+      },
+      {
+        "abstract": "Coding agents increasingly interact with users by generating interactive software on the fly rather than replying in text, yet many bugs in such software reveal themselves only after multi-step interactions. Today, users must discover these bugs and wait for fixes, making the development loop slow and expensive. Existing benchmarks typically assume the bugs have already been identified, leaving agents' ability to find interaction-dependent failures largely unevaluated. We introduce SWEeper-Bench, 200 tasks built from real bug fixes in 200 widely used open-source web applications. Each task gives the agent only the codebase and an open-ended request such as \"Find and fix issues in Focalboard's board sharing and membership.\" Because these bugs are hard to detect from code alone, agents must design interactive tests to uncover them. An agentic verifier then judges each repair by what a user would observe in the browser. The best of 15 frontier agents passes only 59.0% of tasks. Through stage-by-stage analysis of agent trajectories, we show that the biggest bottleneck is identifying the buggy behavior: agents often reach the relevant feature but never trigger the failure or fail to recognize it. SWEeper-Bench measures progress toward agents that close this loop themselves, delivering software that works without waiting for user feedback.",
+        "authors": [
+          "Yang Yao",
+          "Haozhe Chen",
+          "Bingyi Kang",
+          "Karthik R Narasimhan",
+          "Zhuang Liu"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/zlab-princeton/sweeper-bench",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.14096",
+        "paper_url": "https://arxiv.org/abs/2610.14096",
+        "pdf_url": "https://arxiv.org/pdf/2610.14096",
+        "published": "2026-10-08",
+        "title": "SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?",
+        "updated": "2026-10-08"
+      },
+      {
+        "abstract": "Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are created at evaluation time, so no content exists in advance to leak, and its difficulty is set by the participating agents rather than fixed at release. We introduce SWE-Duel, an arena in which two coding agents evaluate each other over mirrored Red-Blue turns. In each turn, the Red agent works on a real repository across three context-isolated sessions. It proposes and implements a new feature with feature tests, then embeds a subtle bug in that feature along with sealed bug-triggering tests. The resulting pull request is admitted only if (1) it passes the feature tests and the repository's existing tests while failing exactly the bug tests, and (2) a fresh session of the same agent can repair the bug blind, which rules out unsolvable tasks. The Blue agent then reviews the pull request without being told a bug exists. It wins only if its revision passes all three test suites, and then the two agents swap roles. We run a tournament among 11 model-harness participants on 15 repositories in five languages for 1,500 turns. The leaders win in different ways. GPT-5.5 with Codex CLI ranks first as the strongest solver, repairing 98.3% of the defects it reviews. Claude Opus 4.8 with mini-swe-agent ranks second as the strongest task author, with a 27.3% Red win rate. Finally, within one model family, tasks written by the newest version defeat a fixed-reference solver far more often than those of older versions (42.9% vs. 4.0%), giving preliminary evidence that task difficulty scales with task authoring capability.",
+        "authors": [
+          "Wei Minn",
+          "Zhensu Sun",
+          "Lwin Khin Shar",
+          "David Lo"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.SE"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/sweduel/SWE-Duel",
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.12569",
+        "paper_url": "https://arxiv.org/abs/2610.12569",
+        "pdf_url": "https://arxiv.org/pdf/2610.12569",
+        "published": "2026-10-08",
+        "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+        "updated": "2026-10-08"
+      },
+      {
+        "abstract": "Embodied coding agents construct robot policies from natural-language instructions by generating executable programs and refining them from execution feedback. This refinement assumes that execution feedback reveals whether the task succeeded and, after a failure, provides sufficient evidence to guide program revision. Aerial manipulation violates this assumption in two ways. Payload constraints restrict onboard camera coverage and leave task-critical outcomes outside the robot's view (partial observability), while strong dynamic coupling and limited control margins make physical interactions fragile (limited interaction robustness) and leave failure causes unresolved. Re-examining the same feedback cannot recover observations that were never collected or separate failure causes that the available evidence does not distinguish. To acquire this missing evidence, we introduce Active Feedback (AF), an active \"View and Probe\" framework. When execution feedback leaves unresolved questions, the agent synthesizes a separate diagnostic program that runs in simulation to inspect unseen outcomes from informative viewpoints (View) or test hypotheses about failure causes through targeted physical interactions (Probe). Across six simulated aerial manipulation tasks with 60 trials per condition, AF reduces false completion declarations from 25 to 5 and raises final task success from 31.7% to 75% compared with terminal feedback under the same coding-agent configuration and task-execution limit. Using shared robot APIs, task programs refined with AF in simulation run on a physical aerial manipulator without task-program source-code modification and complete multi-stage manipulation tasks in the real world. These results show that executable diagnosis fills gaps in execution feedback for embodied coding agents, improving both completion assessment and program refinement in aerial manipulation.",
+        "authors": [
+          "Jaewoo Lee",
+          "Jeongyeon Seo",
+          "Sihyun Cho",
+          "Gyeongrak Choe",
+          "Yutong Wang",
+          "Bavin Saravanan",
+          "Jia-Bin Huang",
+          "Furong Huang",
+          "Sebastian Scherer",
+          "Guanya Shi",
+          "H. Jin Kim",
+          "Seungjae Lee",
+          "Dongjae Lee"
+        ],
+        "categories": [
+          "cs.RO",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-18",
+        "id": "2610.12549",
+        "paper_url": "https://arxiv.org/abs/2610.12549",
+        "pdf_url": "https://arxiv.org/pdf/2610.12549",
+        "published": "2026-10-08",
+        "title": "Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback",
+        "updated": "2026-10-08"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2023-08-18",
+        "description": "A programming framework for agentic AI",
+        "discovery": "active",
+        "first_seen": "2026-10-18",
+        "forks": 9294,
+        "full_name": "microsoft/autogen",
+        "id": 680120071,
+        "language": "Python",
+        "license": "CC-BY-4.0",
+        "pushed_at": "2026-10-16",
+        "score": 23.99,
+        "star_growth_7d": null,
+        "stars": 61454,
+        "topics": [
+          "agentic",
+          "agentic-agi",
+          "agents",
+          "ai",
+          "autogen",
+          "autogen-ecosystem",
+          "chatgpt",
+          "framework",
+          "llm-agent",
+          "llm-framework"
+        ],
+        "url": "https://github.com/microsoft/autogen"
+      },
+      {
+        "created_at": "2026-10-17",
+        "description": "🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере — Ollama, llama.cpp, LM Studio, vLLM, Open WebUI, API, RAG, агенты, fine-tuning, лучшие фишки",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 9,
+        "full_name": "justxor/deepseek-local-guide-ru",
+        "id": 1423190069,
+        "language": "Shell",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-17",
+        "score": 12.11,
+        "star_growth_7d": null,
+        "stars": 59,
+        "topics": [
+          "ai-agents",
+          "deepseek",
+          "deepseek-r1",
+          "deepseek-v4",
+          "gguf",
+          "guide",
+          "llama-cpp",
+          "llm",
+          "llm-inference",
+          "lm-studio",
+          "local-llm",
+          "ollama",
+          "open-webui",
+          "quantization",
+          "rag",
+          "russian",
+          "self-hosted",
+          "sglang",
+          "tutorial",
+          "vllm"
+        ],
+        "url": "https://github.com/justxor/deepseek-local-guide-ru"
+      },
+      {
+        "created_at": "2026-10-12",
+        "description": "llm-inference",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 3,
+        "full_name": "xp2001-coder/zero2vllm",
+        "id": 1415328551,
+        "language": "Python",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-12",
+        "score": 9.46,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [],
+        "url": "https://github.com/xp2001-coder/zero2vllm"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-10-15",
+        "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 42,
+        "full_name": "Leonxlnx/earshot",
+        "id": 1420305104,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-18",
+        "score": 16.39,
+        "star_growth_7d": null,
+        "stars": 701,
+        "topics": [
+          "ai-agents",
+          "audio",
+          "claude-code",
+          "mcp",
+          "sound-design"
+        ],
+        "url": "https://github.com/Leonxlnx/earshot"
+      },
+      {
+        "created_at": "2026-10-17",
+        "description": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 35,
+        "full_name": "Gathin23/tv-vibehack",
+        "id": 1423101235,
+        "language": "Java",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-17",
+        "score": 15.5,
+        "star_growth_7d": null,
+        "stars": 421,
+        "topics": [
+          "adb",
+          "android-tv",
+          "claude-code",
+          "debloat",
+          "launcher",
+          "xiaomi"
+        ],
+        "url": "https://github.com/Gathin23/tv-vibehack"
+      },
+      {
+        "created_at": "2026-10-11",
+        "description": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 57,
+        "full_name": "SakanaAI/AI-Scientist-v3",
+        "id": 1414362482,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-15",
+        "score": 14.79,
+        "star_growth_7d": null,
+        "stars": 339,
+        "topics": [],
+        "url": "https://github.com/SakanaAI/AI-Scientist-v3"
+      },
+      {
+        "created_at": "2026-10-16",
+        "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 25,
+        "full_name": "reason-machines/reason-network",
+        "id": 1422344223,
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-17",
+        "score": 14.73,
+        "star_growth_7d": null,
+        "stars": 269,
+        "topics": [
+          "coding-agents",
+          "iroh",
+          "mcp",
+          "peer-to-peer",
+          "reason"
+        ],
+        "url": "https://github.com/reason-machines/reason-network"
+      },
+      {
+        "created_at": "2026-10-14",
+        "description": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 17,
+        "full_name": "Graphicle-AI/graphicle",
+        "id": 1418870464,
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-17",
+        "score": 14.69,
+        "star_growth_7d": null,
+        "stars": 264,
+        "topics": [
+          "agent-memory",
+          "ai-agents",
+          "claude-code",
+          "code-analysis",
+          "code-graph",
+          "code-intelligence",
+          "code-search",
+          "codex",
+          "coding-agents",
+          "context-engineering",
+          "cursor",
+          "developer-tools",
+          "graphrag",
+          "knowledge-graph",
+          "local-first",
+          "mcp",
+          "mcp-server",
+          "model-context-protocol",
+          "rust",
+          "tree-sitter"
+        ],
+        "url": "https://github.com/Graphicle-AI/graphicle"
+      },
+      {
+        "created_at": "2026-10-14",
+        "description": "Replay your coding agent sessions as a map and a timeline",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 11,
+        "full_name": "Entelligence-AI/agentplay",
+        "id": 1418643214,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-14",
+        "score": 14.05,
+        "star_growth_7d": null,
+        "stars": 243,
+        "topics": [
+          "claude-code",
+          "codex",
+          "coding-agents",
+          "cursor",
+          "developer-tools",
+          "observability"
+        ],
+        "url": "https://github.com/Entelligence-AI/agentplay"
+      },
+      {
+        "created_at": "2026-10-11",
+        "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code and more",
+        "discovery": "new",
+        "first_seen": "2026-10-18",
+        "forks": 63,
+        "full_name": "jatechan/ai-data-extractor",
+        "id": 1414660459,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-17",
+        "score": 14.35,
+        "star_growth_7d": null,
+        "stars": 217,
+        "topics": [
+          "ai-data",
+          "ai-data-analysis",
+          "ai-data-extraction",
+          "ai-data-extractor",
+          "claude",
+          "claude-code",
+          "cursor",
+          "cursor-ai",
+          "data-analysis",
+          "data-extraction",
+          "windsurf"
+        ],
+        "url": "https://github.com/jatechan/ai-data-extractor"
+      }
+    ]
+  }
+}

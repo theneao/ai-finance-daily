@@ -14,7 +14,7 @@
 
 ---
 
-# AI 应用研究日报 · 2026-10-16
+# AI 应用研究日报 · 2026-10-18
 
 本期新增：**0 篇论文**（其中 0 篇找到可能的代码）和 **0 个 GitHub 项目**。
 
@@ -30,69 +30,69 @@
 
 ## Vibe Coding · 工作与学习增强
 
-新增 **15 篇论文**（5 篇找到代码）和 **3 个项目**。
+新增 **10 篇论文**（4 篇找到代码）和 **7 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-15 | [3DCodeVerse: Exploring 3D Worlds as Code](https://arxiv.org/abs/2610.22341) | Yipeng Gao, Ziyao Zeng, Jinfa Huang 等 | — |
-| 2026-10-15 | [Improving Environment-Agnostic Coding Agents: The Role of Scaffolding](https://arxiv.org/abs/2610.22289) | Sergey Rodionov | — |
-| 2026-10-15 | [Benchmarking and Enhancing Design-Aware Code Review in the Linux Kernel](https://arxiv.org/abs/2610.21925) | Zhenhao Zhou, Kai Yu, Ying Wang 等 | — |
-| 2026-10-15 | [OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents](https://arxiv.org/abs/2610.21496) | Yuechen Luo, Zhiyi Lai, Miao Ziqi 等 | — |
-| 2026-10-15 | [Mallea: Building, Steering, and Memorizing Worlds with Coding Agent](https://arxiv.org/abs/2610.21283) | Xuanyi Liu, Ruiqi Li, Siwei Ma | — |
-| 2026-10-15 | [Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files](https://arxiv.org/abs/2610.21073) | Xiaocong Yang, Rishit Chatterjee, Himanshu Udupi 等 | — |
-| 2026-10-15 | [SCARCE: Emergent Institutions in Long-Horizon Multi-Agent Coding Systems](https://arxiv.org/abs/2610.21029) | Abhinav Kumar, Rediet Abebe, Eugene Bagdasarian 等 | — |
-| 2026-10-14 | [HPCAgent-Bench: A Framework for Sound Benchmarking of Code-Optimizing Agents, Harnesses, and Skills](https://arxiv.org/abs/2610.20673) | Yakup Koray Budanaz, Lorenzo Paleari, Marcin Copik 等 | — |
-| 2026-10-10 | [Last Secure Code Benchmark: Is the Code You Vibe Secure?](https://arxiv.org/abs/2610.14766) | Tianyi Wu, Chao Ge, Peng Chen 等 | [ID 命中](https://github.com/alibaba/last-secure-code-benchmark) |
-| 2026-10-10 | [TileCas: Cascading Kernel Development Across Programming Abstractions](https://arxiv.org/abs/2610.14740) | Xinyu Xiao, Zihe Song, Dezhi Ran 等 | [ID 命中](https://github.com/Alex4210987/tilecas) |
-| 2026-10-10 | [Executable but Unfaithful: Mock Object, Stub, and Assertion Generation by LLMs and Coding Agents](https://arxiv.org/abs/2610.14629) | Hao Ning, Jiahui Dong, Zhen Yang 等 | — |
-| 2026-10-10 | [Names Are Not Objects: Object-Bound Confinement for Compromised AI Coding Agents](https://arxiv.org/abs/2610.14488) | Daniel Commey | [arXiv 页面](https://github.com/dcommey/ztac) |
-| 2026-10-10 | [Rethinking SZZ Search Strategies: Lessons from Claude Code](https://arxiv.org/abs/2610.14462) | Inase Kondo, Masanari Kondo, Daniel M. German 等 | [标题匹配](https://github.com/i-kondou/rethinking-szz-replication) |
-| 2026-10-09 | [SPROUT: Scaling Agentic Reinforcement Learning for Long-Horizon Software Engineering](https://arxiv.org/abs/2610.14405) | Mengyang Liu, Weiming Wang, Haixin Nan 等 | — |
-| 2026-10-09 | [Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules](https://arxiv.org/abs/2610.14216) | Samuele Giampieri | [arXiv 页面](https://github.com/samugit83/cortex) |
+| 2026-10-09 | [Returning to Development States: When Full Sandbox Snapshots Help Coding Agents](https://arxiv.org/abs/2610.13841) | Daniel Thi Graviet, Tanmay Shah | — |
+| 2026-10-09 | [(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection](https://arxiv.org/abs/2610.13668) | Chenyang Yang, Hao He, Ti-Chung Cheng 等 | — |
+| 2026-10-09 | [AgentSWE: Can Coding Agents Build the Agent You Actually Want?](https://arxiv.org/abs/2610.13361) | Jiahao Wang, Hongjin Qian, Yuyang Hu 等 | [arXiv 页面](https://github.com/VectorSpaceLab/AgentSWE) |
+| 2026-10-09 | [SWE-Critix: Post-Training Generalist Verifiers for Assessing Coding-Agent Trajectories](https://arxiv.org/abs/2610.13356) | Jiajun Hu, Chun Yong Chong | [标题匹配](https://github.com/SWE-Critix/SWE-Critix) |
+| 2026-10-09 | [Quality, Not Just Outcome: A Structural Scoring Framework for Selecting Coding-Agent Trajectories for Supervised Fine-Tuning](https://arxiv.org/abs/2610.13152) | Sida Li, Yuanxin Liu, Shicheng Li 等 | — |
+| 2026-10-09 | [TestSuiteBench: Coding Agents Struggle to Generate Strong Test Suites from Specifications](https://arxiv.org/abs/2610.13065) | Kazuki Egashira, Niels Mündler-Sasahara, Mark Niklas Müller 等 | — |
+| 2026-10-09 | [Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests](https://arxiv.org/abs/2610.12849) | Mohammad Wathiq Soualhi, Basem Suleiman | — |
+| 2026-10-08 | [SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?](https://arxiv.org/abs/2610.14096) | Yang Yao, Haozhe Chen, Bingyi Kang 等 | [ID 命中](https://github.com/zlab-princeton/sweeper-bench) |
+| 2026-10-08 | [SWE-Duel: Towards a Self-Scaling Arena for Coding Agents](https://arxiv.org/abs/2610.12569) | Wei Minn, Zhensu Sun, Lwin Khin Shar 等 | [ID 命中](https://github.com/sweduel/SWE-Duel) |
+| 2026-10-08 | [Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback](https://arxiv.org/abs/2610.12549) | Jaewoo Lee, Jeongyeon Seo, Sihyun Cho 等 | — |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [tw93/Waza](https://github.com/tw93/Waza) | 🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run. | 7308 | — | Python | 近期活跃 |
-| [feder-cr/open_scion](https://github.com/feder-cr/open_scion) | Open-source version of Scion: version control built for coding agents. | 767 | — | Go | 新项目 |
-| [anisayari/sparky](https://github.com/anisayari/sparky) | 🔒 Your private AI assistant, 100% local on Windows: chat, vision, documents (RAG), web search, images, videos with sound, voice, code projects, MCP tools — one-line install, models picked for your PC. | 39 | — | Python | 新项目 |
+| [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot) | Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. | 701 | — | Python | 新项目 |
+| [Gathin23/tv-vibehack](https://github.com/Gathin23/tv-vibehack) | Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code. | 421 | — | Java | 新项目 |
+| [SakanaAI/AI-Scientist-v3](https://github.com/SakanaAI/AI-Scientist-v3) | The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery | 339 | — | Python | 新项目 |
+| [reason-machines/reason-network](https://github.com/reason-machines/reason-network) | Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`. | 269 | — | Rust | 新项目 |
+| [Graphicle-AI/graphicle](https://github.com/Graphicle-AI/graphicle) | Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client. | 264 | — | Rust | 新项目 |
+| [Entelligence-AI/agentplay](https://github.com/Entelligence-AI/agentplay) | Replay your coding agent sessions as a map and a timeline | 243 | — | Python | 新项目 |
+| [jatechan/ai-data-extractor](https://github.com/jatechan/ai-data-extractor) | Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code and more | 217 | — | Python | 新项目 |
 
 
 ## AI Infra · 推理部署与应用基础设施
 
-新增 **15 篇论文**（0 篇找到代码）和 **2 个项目**。
+新增 **15 篇论文**（6 篇找到代码）和 **3 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-15 | [Efficient KV Cache Migration for Geo-Distributed LLM Inference in Collaborative Edge Computing](https://arxiv.org/abs/2610.22172) | Mingjin Zhang, Jiannong Cao, Tao Wu 等 | — |
-| 2026-10-15 | [Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing](https://arxiv.org/abs/2610.22026) | Adam Deng, Shicheng Liu, Yada Zhu | — |
-| 2026-10-15 | [Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches](https://arxiv.org/abs/2610.22016) | Adam Deng, Shicheng Liu, Yada Zhu | — |
-| 2026-10-15 | [LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models](https://arxiv.org/abs/2610.21594) | Zixuan Liu, Nan Xue, Rui Bao 等 | — |
-| 2026-10-15 | [When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill](https://arxiv.org/abs/2610.21500) | Muhammad Ibrahim | — |
-| 2026-10-15 | [HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding](https://arxiv.org/abs/2610.21436) | Hanbin Bae, Heejin Choi, Joohyung Lee 等 | — |
-| 2026-10-15 | [PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems](https://arxiv.org/abs/2610.21390) | Han Shen, Qifu Tyler Sun, Fanyang Meng 等 | — |
-| 2026-10-15 | [Hybrid Generative-Tagging Decoding for Efficient Product Attribute-Value Extraction](https://arxiv.org/abs/2610.21329) | Keshav Kolluru, Manas Gupta, Maroof Ahmad 等 | — |
-| 2026-10-15 | [Characterizing Predictability-Latency Trade-offs of KV-Cache SSD Offloading in LMCache for LLM Serving Systems](https://arxiv.org/abs/2610.21249) | Ying He, Dingsen Shi, Yanbo Dai 等 | — |
-| 2026-10-15 | [Range: Decoupling KV-Cache Reuse Granularity from Storage Work](https://arxiv.org/abs/2610.21241) | Dingsen Shi, Jiahao Zhang, Liqiang Lv 等 | — |
-| 2026-10-15 | [Rubric Judgments Lack Uncertainty: Conformal Weighting for LLM Evaluation](https://arxiv.org/abs/2610.21214) | Licheng Pan, Haocheng Yang, Haoxuan Li 等 | — |
-| 2026-10-15 | [Stronger Judges Do Not See More: Deployment-Integrity Blindness in LLM Evaluation](https://arxiv.org/abs/2610.21135) | Jianchang Su, Dawei Xiang, Yifan Zhang 等 | — |
-| 2026-10-15 | [Compression Does Not End at Selection: Post-Selection Positional Geometry for Sparse KV Caches](https://arxiv.org/abs/2610.21126) | Wanyang Hong, Zhaoning Zhang | — |
-| 2026-10-14 | [RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention](https://arxiv.org/abs/2610.20686) | Shiyu Ji, Peng Ling, Chen Lin 等 | — |
-| 2026-10-11 | [Compositional Performance Modeling of LLM Inference Clusters with Hierarchical KV Caching](https://arxiv.org/abs/2610.15366) | Ruiyang Ma, Sheng Qi, DaiKang Kuang 等 | — |
+| 2026-10-10 | [SAFE-KV: Causal Suffix Repair for Behavior-Preserving Non-Prefix KV Cache Reuse in RAG](https://arxiv.org/abs/2610.15186) | Xingjian Zhang | [arXiv 页面](https://github.com/XingjianZhang-dev/safe-kv) |
+| 2026-10-10 | [Energy-Aware Agentic Orchestration for Multi-Site Service Deployment](https://arxiv.org/abs/2610.14793) | Rodrigo Moreira, Alisson Chaves, Larissa F. Rodrigues Moreira 等 | — |
+| 2026-10-10 | [Accelerating Cross-Model LLM Inference via Attention Map Reuse](https://arxiv.org/abs/2610.14688) | Zhan Jin, Yuze Luo, Bin Cui 等 | [论文链接](https://github.com/PKU-DAIR/MapFlow) |
+| 2026-10-10 | [Vesta: Queueing-Aware LLM Scheduling for Real-World Workloads](https://arxiv.org/abs/2610.14686) | Lancheng Zou, Bowen Li, Wei Mao 等 | — |
+| 2026-10-10 | [Dissecting the Carbon-SLO Tension in Geo-Distributed LLM Serving](https://arxiv.org/abs/2610.14571) | Burak Topcu, Musa Cim, Zuhal Ozturk 等 | [arXiv 页面](https://github.com/topcuburak/carbon-slo-at-geoscale) |
+| 2026-10-10 | [KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization](https://arxiv.org/abs/2610.14448) | Sihwan Park, Sung-Yub Kim, Doohyuk Jang 等 | — |
+| 2026-10-10 | [Frustratingly Easy Agentic RAG via Portable Skills: A Case Study in Customer Support](https://arxiv.org/abs/2610.14428) | Istok Bako, Bonan Min, Tiffany Shao 等 | — |
+| 2026-10-09 | [Simulate Before You Scale: High-Fidelity LLM Inference Planning Without GPUs](https://arxiv.org/abs/2610.14255) | Dipanwita Guhathakurta, Mert Toslali, Srinivasan Parthasarathy 等 | — |
+| 2026-10-09 | [ReplaySSM: Cache SSM Inputs, Not State](https://arxiv.org/abs/2610.13778) | Ze-Wei Liou, Harris Nover, Amey Naik 等 | [arXiv 页面](https://github.com/Johnny-Liou/ReplaySSM) |
+| 2026-10-09 | [Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy](https://arxiv.org/abs/2610.13708) | Naji Alazhar, Wassel Alazhar | — |
+| 2026-10-09 | [AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis](https://arxiv.org/abs/2610.13627) | Natapong Nitarach, Phume Ngampornsukswadi, Pittawat Taveekitworachai 等 | [论文链接](https://github.com/nat-nischw/AMLworld-Compact) |
+| 2026-10-09 | [Lossless Inference Acceleration for ASR via EAGLE-Style Speculative Decoding](https://arxiv.org/abs/2610.13506) | Sen Zhang, Xianghu Yue, Yiming Chen 等 | — |
+| 2026-10-09 | [Taking Tokenization off the Host for Agentic LLM Serving](https://arxiv.org/abs/2610.13325) | Mohammad Siavashi, Pascal Schwinte, Ali Banaei 等 | — |
+| 2026-10-09 | [S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding](https://arxiv.org/abs/2610.13202) | Yuhang He, Hongyu Ge, Zihan Lin 等 | — |
+| 2026-10-09 | [KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse](https://arxiv.org/abs/2610.13060) | Taiga Ikeda, Daisuke Miyashita, Jun Deguchi | [论文链接](https://github.com/taiga333/eval-kv-repurpose) |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [neatlogs/neatroots](https://github.com/neatlogs/neatroots) | neatroots: see, check and replay your AI agent's runs on your machine while you build it. Local-first, by Neatlogs. | 46 | — | TypeScript | 新项目 |
-| [tetriz-ai/session-intelligence](https://github.com/tetriz-ai/session-intelligence) | Help individuals and teams understand their prompting habits and improve how they work with AI coding agents. Get specific insights into prompt clarity, context, rework, outcomes and wasted effort, plus security flags. Bring your own LLM, no SaaS. | 20 | — | Go | 新项目 |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | A programming framework for agentic AI | 61454 | — | Python | 近期活跃 |
+| [justxor/deepseek-local-guide-ru](https://github.com/justxor/deepseek-local-guide-ru) | 🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере — Ollama, llama.cpp, LM Studio, vLLM, Open WebUI, API, RAG, агенты, fine-tuning, лучшие фишки | 59 | — | Shell | 新项目 |
+| [xp2001-coder/zero2vllm](https://github.com/xp2001-coder/zero2vllm) | llm-inference | 20 | — | Python | 新项目 |
 
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。
