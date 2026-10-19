@@ -1,0 +1,445 @@
+{
+  "papers": [],
+  "repositories": [
+    {
+      "created_at": "2026-09-05",
+      "description": "A data platform for investment research. Ingests financial data sources and computes point-in-time financial metrics for valuation and screening. Delivered as an MCP server.",
+      "discovery": "active",
+      "first_seen": "2026-10-19",
+      "forks": 56,
+      "full_name": "fidetolabs/qanat",
+      "id": 1358286075,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-19",
+      "score": 15.0,
+      "star_growth_7d": null,
+      "stars": 315,
+      "topics": [
+        "alpha-research",
+        "backtesting",
+        "duckdb",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "quant",
+        "quantitative-finance",
+        "trading-toolkit"
+      ],
+      "url": "https://github.com/fidetolabs/qanat"
+    }
+  ],
+  "run_date": "2026-10-19",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuously evolving contexts and frequent multi-turn interactions. Under such workloads, we observe that existing draft models suffer from up to an 80% degradation in acceptance length, while maintaining their historical KV cache introduces substantial system overhead. In this paper, we identify the growing historical context as a common source of both problems and introduce DLite, a history-free speculative decoding framework for agentic AI. DLite directly reuses contextual hidden states from the target model and performs local speculative prediction without explicitly maintaining the historical context, transforming an increasingly complex modeling problem into local simple prediction problem. A lightweight sequential head further restores intra-block causal dependencies with low overhead. To effectively train this heterogeneous history-free architecture, we introduce a tailored two-stage training strategy. Experiments on general-purpose, long-context and agentic workloads show that DLite achieves 2-6 acceptance length and outperforms the state-of-the-art speculative decoding method, DSpark, up to 70%.",
+        "authors": [
+          "Jiaming Xu",
+          "Hanzhen Wang",
+          "Tianlang Zhao",
+          "Jiewen Xiao",
+          "Chengze Yuan",
+          "Jiayi Pan",
+          "Yongkang Zhou",
+          "Jiancai Ye",
+          "Yu Wang",
+          "Guohao Dai"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.23787",
+        "paper_url": "https://arxiv.org/abs/2610.23787",
+        "pdf_url": "https://arxiv.org/pdf/2610.23787",
+        "published": "2026-10-16",
+        "title": "DLite: History-free Speculative Decoding for Agentic AI",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "As large language models (LLMs) are increasingly deployed across diverse inference services, serving workloads span a wide range of batch sizes, context lengths, and performance requirements. Speculative decoding improves inference throughput, but conventional approaches require a separate draft model and KV cache, while existing self-speculative methods suffer from workload-insensitive draft configurations and inefficient mixed-precision execution. In this paper, we present BS-Spec, a block floating point (BFP)-based bit-sharing framework that jointly optimizes draft construction, workload-aware precision selection, and hardware execution. BS-Spec derives multiple draft representations directly from a single BFP target model by partially loading the most significant bits of weights and the KV cache while preserving shared exponents, eliminating separate draft-model storage. Offline calibration selects the weight and KV-cache precision pair that maximizes estimated speedup for each serving regime, and a precision lookup table applies the selected configuration at runtime. To support this adaptive execution, we design a mixed-precision BFP accelerator with a lookup table (LUT)-based variable-precision datapath for both draft and target computation. Experimental results show that BS-Spec achieves up to $1.9\\times$ speedup over conventional autoregressive decoding and improves speedup over the evaluated bit-sharing self-speculative decoding baselines by $67.2\\%$ on average, demonstrating the benefits of jointly co-designing bit sharing, precision adaptation, and specialized hardware for diverse LLM serving workloads.",
+        "authors": [
+          "Jiwoo Kim",
+          "Gunho Park",
+          "Sunwoo Yoo",
+          "Baeseong Park",
+          "Dongsoo Lee",
+          "Youngjoo Lee"
+        ],
+        "categories": [
+          "cs.AR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.22877",
+        "paper_url": "https://arxiv.org/abs/2610.22877",
+        "pdf_url": "https://arxiv.org/pdf/2610.22877",
+        "published": "2026-10-16",
+        "title": "BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "Modern large language model (LLM) systems reuse key-value (KV) caches to accelerate inference. Recent work has shown that reusing KV caches from reasoning traces can also improve task performance, similar to retrieval-augmented generation (RAG). We demonstrate that this form of KV cache reuse introduces new poisoning vulnerabilities. We propose R$^2$ECAP (Reused Reasoning-Cache Poisoning), a black-box attack that plants poisoned reasoning traces solely through interactions with a system's chat interface. R$^2$ECAP constructs two traces: a preceding trace that steers the model toward an adversarial target and a retained trace that carries this target. Because the retained trace is generated conditioned on the preceding trace, its KV cache preserves residual adversarial influence, even after the preceding trace and its cache entries are discarded. We evaluate R$^2$ECAP on three open-weight LLMs and three datasets. R$^2$ECAP achieves up to 79% attack success rate (ASR) and outperforms HijackKV, a state-of-the-art white-box KV poisoning attack, in 8 of 9 resource-constrained settings. It also achieves 46% ASR in a realistic reasoning-trace retrieval system. Finally, R$^2$ECAP remains stealthy, with only 1% of its retained responses detected by a popular prompt injection detector.",
+        "authors": [
+          "L. Zhu",
+          "Y. Jung",
+          "S. Szyller"
+        ],
+        "categories": [
+          "cs.CR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.22873",
+        "paper_url": "https://arxiv.org/abs/2610.22873",
+        "pdf_url": "https://arxiv.org/pdf/2610.22873",
+        "published": "2026-10-16",
+        "title": "Stealthy Poisoning Attacks via Reused KV Cache of Reasoning",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "Retrieval-augmented generation (RAG) on edge devices enables personalized large language model (LLM) inference while preserving privacy. However, RAG's inherent length asymmetry makes the prefill phase the dominant bottleneck. While precomputing the KV caches offline alleviates the prefill cost on server systems, the multi-gigabyte caches over the narrow interconnect create a severe I/O wall for on-device systems. To mitigate this, we propose MemLLM, an end-to-end in-storage processing (ISP) architecture that executes the complete attention pipeline based on precomputed KV caches within the SSD. MemLLM utilizes per-channel accelerators to fully utilize the aggregated NAND channel bandwidth and accelerates all KV cache-related computations on the storage-side to minimize PCIe transfers. To efficiently handle the sparse updates required by RAG, MemLLM introduces a fused recomputation-query kernel paired with a hardware-based filter logic to halve the NAND read volume and eliminate write-back penalties. Furthermore, MemLLM's global SRAM-based stateful reduction engine enables a completely DRAM-less dataflow, thereby removing the internal memory bottlenecks and bounding the PCIe egress to an $O(1)$ footprint. A full-stack software stack allows asynchronous, zero-copy transfers from the ISP to the host and provides transparent execution within modern ML frameworks. Evaluated across eight real-world RAG datasets and six on-device LLM models, MemLLM achieves an average end-to-end speedup of 4.06$\\times$ over the GPU baseline.",
+        "authors": [
+          "Seungkwan Kang",
+          "Hyungseok Ko",
+          "Heemin Kim",
+          "Myoungsoo Jung"
+        ],
+        "categories": [
+          "cs.AR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.22579",
+        "paper_url": "https://arxiv.org/abs/2610.22579",
+        "pdf_url": "https://arxiv.org/pdf/2610.22579",
+        "published": "2026-10-15",
+        "title": "MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches",
+        "updated": "2026-10-15"
+      },
+      {
+        "abstract": "Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality trade-off. Exact decoding fills in only one masked position per model pass, while faster multi-token decoding schemes are lossy. Speculative decoding is the standard lossless acceleration for autoregressive models. However, it does not transfer directly to DLMs, which must choose both what to generate and where. We show that this order is the missing piece: the model's own predictions from the previous pass already give the right token at 92-100% of positions, but not which position comes next. Based on this observation, we introduce Speculating Positions Order Trajectory (SPOT), which learns to predict this order. A 0.62M-parameter model reads only the target's output distributions and proposes a tree of candidate continuations, and the target verifies all of them in a single pass by checking whether each equals its own next state. On the verification side, our analysis shows that prior block-diffusion verification approaches either assume $T=0$ or a sequential proposal interface. To support tree-based speculation at any temperature, we propose using coupled-noise match verification for diffusion blocks, following shared-Gumbel-noise coupling approaches. Our comprehensive experiments show that SPOT cuts target passes by up to 6.8x and reaches up to 3.2x the throughput of standard decoding, beating the calibrated and training-free drafting baselines in every task and budget at $T=0$ and $T=1$. In addition, we show that the learned drafter transfers across models, demonstrating successful transfer across six different DLMs. Project page: https://eliezer318.github.io/SPOT-dLLM/",
+        "authors": [
+          "Eliezer Shlomi",
+          "Eliron Rahimi",
+          "Avi Mendelson",
+          "Chaim Baskin"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.22543",
+        "paper_url": "https://arxiv.org/abs/2610.22543",
+        "pdf_url": "https://arxiv.org/pdf/2610.22543",
+        "published": "2026-10-15",
+        "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
+        "updated": "2026-10-15"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "abstract": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three RGB cameras and knows their calibration. After each failed attempt, the agent reads the log, finds the cause, and writes or fixes small programs called tools. In this way it keeps what it learns as code, as a coding agent does when it fixes a failing test. The tools may use only what the robot observes. They use triangulation to find where objects are, relative to each other and to the gripper. If two cameras see the same point, the point lies where the two camera rays meet. If a point lies on a known plane, such as the table or the top of a block, it lies where its ray meets that plane. When the head camera is not enough, the robot moves a wrist camera to get a second view. We build the tools on only ten layouts of one seed per task, then freeze them and test them on ten new layouts of the same seed. We use Codex with GPT-6-Astra at medium reasoning effort. On all 42 RoboDojo tasks, HexaShell reaches a success rate of 39.7% and a progress score of 48.0, averaged in the same way as the leaderboard. This is a new state of the art on RoboDojo. The limit is contact, not reasoning: pushing reaches 92.5% and memory tasks 65.0%, but tight insertion only 8.3%. When the agent fails, it usually sees the failure but cannot make the motion work. We open source the tools evolved so far at https://github.com/HexaFuture/HexaShell.",
+        "authors": [
+          "Hongcheng Gao",
+          "Alex Zhou",
+          "Jay Zhu",
+          "Zelin Zheng",
+          "Shijia Ge",
+          "Xiping Li",
+          "Di Wu",
+          "Yazhe Wang",
+          "Jianshu Zeng",
+          "Xuan Shangguan",
+          "Yongli Wang",
+          "Yexing Wan",
+          "Lingyu He",
+          "Zhiqi Jia",
+          "Sihang Wu",
+          "Xiao He"
+        ],
+        "categories": [
+          "cs.RO"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/HexaFuture/HexaShell",
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.23479",
+        "paper_url": "https://arxiv.org/abs/2610.23479",
+        "pdf_url": "https://arxiv.org/pdf/2610.23479",
+        "published": "2026-10-16",
+        "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "Supervised fine-tuning on agent trajectories is an effective way to improve coding agents, but selecting useful training examples requires more than identifying successful runs. A resolved patch may follow inefficient reasoning or unnecessary tool use, while a failed run may still contain useful intermediate steps. Training pipelines therefore rely on rules and qualitative assessments to filter trajectories, yet designing these filters typically requires substantial human expertise, and validating improvements through repeated training and evaluation is expensive. We introduce MetaCurate, a training-free framework that evolves executable trajectory curation filters using pairwise LLM judgments. Disagreements between the filter's rankings and the judge's preferences provide targeted feedback for jointly revising its rules, rubric, and aggregation policy. The resulting filter scores trajectories independently, so pairwise comparisons are required only during search. Starting from a blank filter, MetaCurate autonomously discovers a curation strategy that achieves competitive downstream performance without task-specific handwritten criteria. We validate downstream utility through controlled SFT experiments on our uncurated trajectory pool and the Nemotron v3 SWE dataset, with random selection and hand-authored filtering as baselines. In our experiments, MetaCurate achieves the highest mean SWE-Verified score among the compared methods, including hand-authored rule-based filtering and a training-loop baseline whose search costs 3.5x as much.",
+        "authors": [
+          "Donghoon Kim",
+          "Seunghyuk Oh",
+          "Kevin Galim",
+          "Minseo Kim",
+          "Minjae Lee",
+          "Younghyun Kim",
+          "Wooseok Seo",
+          "Hyung Il Koo",
+          "Wonjun Kang"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.23134",
+        "paper_url": "https://arxiv.org/abs/2610.23134",
+        "pdf_url": "https://arxiv.org/pdf/2610.23134",
+        "published": "2026-10-16",
+        "title": "MetaCurate: Evolving Curation Filters for High-Quality Agentic Coding Data",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "Coding agents are increasingly capable with autonomy, which exposes them to repository-level poisoning. Existing red-teaming studies remain restricted to manual selection for malicious payload locations and fixed disguise strategies, which cannot represent realistic repository poisoning. We present TrojanForge, the first automated framework for repository poisoning. TrojanForge parses repository structure through abstract syntax trees (AST) and maps agent execution traces onto AST nodes. A security review agent ranks these candidates and selects the least conspicuous ones for payload mounting. Then, through adversarial play with the target agent, TrojanForge iteratively refines disguise strategies by inverting the causes of agent detection, and transfers accumulated success experience across repositories. We further construct TrojanBench, a benchmark of 384 poisoned repositories spanning 6 domains and 9 programming languages. Extensive experiments show that TrojanForge achieves a stable poisoning success rate of over 60% with backdoor injection exceeding 90%. Comprehensive evaluation on TrojanBench across 4 harnesses and 12 models reveals that even commercial agents fail to defend against repository-level poisoning.",
+        "authors": [
+          "Xiao Yang",
+          "Jinchang Hou",
+          "Jiawei Chen",
+          "Zhonghou Lv",
+          "Junyuan Shang",
+          "Chenfu Bao"
+        ],
+        "categories": [
+          "cs.CR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.23109",
+        "paper_url": "https://arxiv.org/abs/2610.23109",
+        "pdf_url": "https://arxiv.org/pdf/2610.23109",
+        "published": "2026-10-16",
+        "title": "Trojan Horse: Automated Repository Poisoning against Coding Agents",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "Coding agents use execution harnesses to constrain the consequences of prompt injection by enforcing permission boundaries. These systems deterministically intercept any out-of-sandbox action and prompt the user for approval. To reduce approval fatigue, users can approve allow-rules proposed by the agent, after which any future action matching the rule is allowed without a prompt. In this work, we show that this mechanism introduces a new risk: untrusted context can influence the permissions presented for approval, with consequences extending beyond the immediate task. We investigate privilege escalation targeting this permission-update process. Specifically, adversarial context planted in a repository can reliably steer an agent performing a routine task into requesting a plausibly justified, yet dangerously broad allow-rule. If the user approves the request, the saved rule can effectively blind the harness, enabling adversaries to execute malicious actions that would otherwise require approval, without triggering human oversight. Across production platforms, including Claude Code and Codex CLI, we demonstrate that agents successfully elicit the target allow-rules in 58% of experimental instances. Once acquired, these rules exhibit a massive semantic blast radius, covering 56.9% of category-specific capability test cases. To further quantify the downstream risk, we show that conditional on rule approval, our exploit achieves verified, silent goal completion in 47 of the 58 eligible instances (81.0%), undermining the safety promise of human-in-the-loop oversight.",
+        "authors": [
+          "Xianglin Yang",
+          "Yechao Zhang",
+          "Jiahao Liu",
+          "Yulin Chen",
+          "Yuxin Cao",
+          "Bryan Hooi",
+          "Jiaheng Zhang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.22987",
+        "paper_url": "https://arxiv.org/abs/2610.22987",
+        "pdf_url": "https://arxiv.org/pdf/2610.22987",
+        "published": "2026-10-16",
+        "title": "From Approval to Abuse: Privilege Escalation Attacks on Harness-Protected Coding Agents",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated policy, while policy learning remains limited to the trajectories elicited by a fixed harness. In light of this, we propose Self-HPO, a recursive self-improving framework for coding agents that alternates harness and policy optimization, using the evolving policy as its own harness proposer. Specifically, in each round, the current policy first analyzes its own failures and proposes new harness candidates (H-step). The policy is then updated through reinforcement learning (RL) under the selected harness (P-step), and hard tasks identified during training form the next harness search set, keeping harness optimization targeted to the policy's evolving failure modes. Across three coding benchmarks, Self-HPO consistently outperforms harness-only and policy-only baselines, improving Qwen3.5-35B-A3B's average resolve rate from 57.8% to 64.8%, with gains generalizing to out-of-distribution settings. Further analysis shows that both optimized components retain gains even when paired with their base counterparts, while their joint gain exceeds the sum of their individual gains. Self-HPO also improves reliability (Pass@1) and expands the capability frontier (Pass@k) over the base agent. Additionally, we show that with a stronger external model (e.g., Opus 4.8) as the harness proposer, the same framework yields a further performance boost.",
+        "authors": [
+          "Zhepei Wei",
+          "Wenlin Yao",
+          "Baolin Peng",
+          "Danqing Wang",
+          "Qianhui Wu",
+          "Hao Cheng",
+          "Yu Meng",
+          "Jianfeng Gao"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "code_match": "arxiv-id",
+        "code_url": "https://github.com/MSR-Orchard/Self-HPO",
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.22791",
+        "paper_url": "https://arxiv.org/abs/2610.22791",
+        "pdf_url": "https://arxiv.org/pdf/2610.22791",
+        "published": "2026-10-16",
+        "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+        "updated": "2026-10-16"
+      },
+      {
+        "abstract": "Advances in frontier coding agents have sharply increased the token costs of AI-assisted software engineering. Their token efficiency is typically evaluated on isolated tasks, whereas real-world developers use them to continuously build, update, and maintain large-scale projects. This mismatch motivates us to evaluate agents over sequences of realistic coding tasks, where we find that agents exhibit recurring environment-dependent token costs that existing methods struggle to reduce. To minimize these costs, we introduce TokenEconomizer, an external controller that cuts environment-specific token costs over a sequence of tasks. These cuts come from determining (i) which operational micro-skills to inject, (ii) which persistently irrelevant tools to prune, and (iii) when to intervene in unproductive failure loops. Across Claude Code, Codex, and GitHub Copilot CLI paired with frontier models, TokenEconomizer reduces the average token cost by 18.4-30.9% with comparable task success. Savings hold in every repository under every tested agent-model setting and generalize to diverse domains such as sequential web development and security auditing, where costs fall by 6.4-21.2% depending on task structure. Our work establishes adaptive black-box cost control as a promising direction for reducing token costs of coding agents in realistic settings.",
+        "authors": [
+          "Aaron J. Li",
+          "Weijia Xu",
+          "Chandan Singh",
+          "Zixiao Chen",
+          "Jeevana Priya Inala",
+          "Charlotte Siska",
+          "Acar Tamersoy",
+          "Bin Yu",
+          "Ion Stoica",
+          "Michel Galley",
+          "Jianfeng Gao"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-19",
+        "id": "2610.22732",
+        "paper_url": "https://arxiv.org/abs/2610.22732",
+        "pdf_url": "https://arxiv.org/pdf/2610.22732",
+        "published": "2026-10-15",
+        "title": "TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
+        "updated": "2026-10-15"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2026-10-18",
+        "description": "DeepSeek-V4.1-Flash-1017 EXL3 2.9bpw on 2x NVIDIA DGX Spark (GB10) with TensorFold: 2.1-2.3x the vLLM kit's decode speed.",
+        "discovery": "new",
+        "first_seen": "2026-10-19",
+        "forks": 1,
+        "full_name": "Elevatormusic/DeepSeek-V4.1-Flash-1017-EXL3-TensorFold-2x-DGX-Spark",
+        "id": 1423861693,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-18",
+        "score": 10.79,
+        "star_growth_7d": null,
+        "stars": 27,
+        "topics": [],
+        "url": "https://github.com/Elevatormusic/DeepSeek-V4.1-Flash-1017-EXL3-TensorFold-2x-DGX-Spark"
+      },
+      {
+        "created_at": "2026-10-17",
+        "description": "⚡ The fastest open-source AI gateway — one Rust binary with a built-in console to route, secure, budget and observe every LLM call across OpenAI, Anthropic, Gemini, Bedrock and more.",
+        "discovery": "new",
+        "first_seen": "2026-10-19",
+        "forks": 2,
+        "full_name": "eliasbiondo/antirion",
+        "id": 1423770820,
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-18",
+        "score": 10.66,
+        "star_growth_7d": null,
+        "stars": 25,
+        "topics": [
+          "a2a",
+          "ai-gateway",
+          "anthropic",
+          "api-gateway",
+          "bifrost-alternative",
+          "guardrails",
+          "litellm-alternative",
+          "llm",
+          "llm-gateway",
+          "llm-proxy",
+          "mcp",
+          "mcp-gateway",
+          "observability",
+          "openai",
+          "openai-proxy",
+          "rate-limiting",
+          "rust",
+          "self-hosted"
+        ],
+        "url": "https://github.com/eliasbiondo/antirion"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-10-18",
+        "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+        "discovery": "new",
+        "first_seen": "2026-10-19",
+        "forks": 52,
+        "full_name": "alchaincyf/huashu-motion",
+        "id": 1424340323,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-18",
+        "score": 15.86,
+        "star_growth_7d": null,
+        "stars": 518,
+        "topics": [
+          "agent-skills",
+          "animation",
+          "claude-code",
+          "codex",
+          "gsap",
+          "launch-video",
+          "motion-graphics",
+          "skills"
+        ],
+        "url": "https://github.com/alchaincyf/huashu-motion"
+      },
+      {
+        "created_at": "2026-10-07",
+        "description": "Android automation from code. Test your apps on real phones, script the tasks you repeat, run a shelf of phones, or let an AI agent use one, from Python, Node.js, the CLI, HTTP or Appium clients. No ADB, no USB cable, no root.",
+        "discovery": "new",
+        "first_seen": "2026-10-19",
+        "forks": 22,
+        "full_name": "KnifeLemon/Droidline",
+        "id": 1408262325,
+        "language": "Go",
+        "license": "MIT",
+        "pushed_at": "2026-10-11",
+        "score": 13.53,
+        "star_growth_7d": null,
+        "stars": 265,
+        "topics": [
+          "accessibility-service",
+          "adb-alternative",
+          "ai-agents",
+          "android",
+          "android-automation",
+          "android-testing",
+          "appium",
+          "device-farm",
+          "mcp",
+          "mcp-server",
+          "mobile-automation",
+          "no-root",
+          "nodejs",
+          "phone-farm",
+          "python",
+          "rpa",
+          "test-automation",
+          "ui-automation",
+          "uiautomator",
+          "webdriver"
+        ],
+        "url": "https://github.com/KnifeLemon/Droidline"
+      }
+    ]
+  }
+}
