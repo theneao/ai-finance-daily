@@ -1,0 +1,636 @@
+{
+  "papers": [],
+  "repositories": [
+    {
+      "created_at": "2023-03-04",
+      "description": "A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.",
+      "discovery": "growth-watch",
+      "first_seen": "2026-10-21",
+      "forks": 113,
+      "full_name": "gbeced/basana",
+      "id": 609367611,
+      "language": "Python",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-20",
+      "score": 16.76,
+      "star_growth_7d": null,
+      "stars": 871,
+      "topics": [
+        "algorithmic-trading",
+        "asyncio",
+        "backtesting",
+        "binance",
+        "cryptocurrency",
+        "trading-algorithms",
+        "trading-bot"
+      ],
+      "url": "https://github.com/gbeced/basana"
+    },
+    {
+      "created_at": "2026-06-18",
+      "description": "Vault-LD: an open spec for Markdown vaults as linked data. YAML-LD frontmatter + a shared `@context` = an RDF knowledge graph. Prose for humans and LLMs, triples for machines.",
+      "discovery": "active",
+      "first_seen": "2026-10-21",
+      "forks": 23,
+      "full_name": "The-Knowledge-Graph-Guys/vault-ld",
+      "id": 1273768116,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-11",
+      "score": 13.03,
+      "star_growth_7d": null,
+      "stars": 240,
+      "topics": [
+        "agent-memory",
+        "json-ld",
+        "knowledge-graph",
+        "linked-data",
+        "markdown",
+        "obsidian",
+        "ontology",
+        "rdf",
+        "specification",
+        "yaml-ld"
+      ],
+      "url": "https://github.com/The-Knowledge-Graph-Guys/vault-ld"
+    }
+  ],
+  "run_date": "2026-10-21",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling of retained context. Task accuracy can also suffer when too little context is retained to limit re-prefill costs. We propose cache engineering as a new scheme. It allows agents to directly control their active KV cache without modifying the trajectory or re-prefilling retained context. Specifically, agents can proactively use drop to exclude selected cache from future attention and repos to adjust retained keys' position encodings. We formalize these cache operations and identify history dependence as a serving challenge: identical token sequences can yield different cache states under different cache operation sequences, making prefix matching insufficient for correct cache reuse. Thus, we co-design the AKV serving engine. It provides a stateless interface compatible with existing serving APIs, while internally managing stateful cache reuse, eviction, and restoration. Experiments show that a tool-response rolling-drop cache policy improves average benchmark scores by 1.7 points and reduces average cost by 27.7%, compared with conventional threshold-triggered summarization. With AKV, it achieves up to 1.2x the output throughput and a 1.5x speedup in P95 request latency. Recursive self-improvement of cache policies further reduces cost by 7.1% over expert design. Our code is at https://github.com/thu-nics/AKV.",
+        "authors": [
+          "Tianyu Fu",
+          "Ruoxi Wang",
+          "Zihan Min",
+          "Zhongqi Ren",
+          "Zhihao Li",
+          "Tengxuan Liu",
+          "Shengxu Mu",
+          "Hanling Zhang",
+          "Yu Wang"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/thu-nics/AKV",
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.28577",
+        "paper_url": "https://arxiv.org/abs/2610.28577",
+        "pdf_url": "https://arxiv.org/pdf/2610.28577",
+        "published": "2026-10-20",
+        "title": "Cache Engineering for Agents",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "In speculative decoding, a lightweight draft model proposes tokens that the target model verifies in parallel, speeding up generation without changing the target distribution. D-PACE (Wu et al., 2026) trains such drafters with a loss that weights each position by its contribution to the expected accepted length. Both its weights and its cross-entropy (CE) loss use only the draft's probability of the recorded target token, treating the target as a point mass. Under rejection sampling, however, a sampled draft token is accepted with probability equal to the overlap of the draft and target distributions, one minus their total variation (TV). We derive D-PAL (Dynamic Position-wise Acceptance Loss) from the exact expected accepted length, using this overlap as the acceptance signal. This yields overlap-based position weights with log acceptance (LA) as the per-position loss, and the objective reduces to D-PACE for a point-mass target. Since the weights are detached, any per-position loss can replace LA in practice. We show that forward KL divergence and Rényi divergence of order 1/2 match or exceed LA, and that Rényi-1/2 provably bounds the true acceptance rate from above and below. Replacing CE with Rényi-1/2 improves acceptance length under both D-PACE's weights and ours. On six benchmarks with a Qwen3-4B target, D-PAL raises mean acceptance length over D-PACE from 4.50 to 4.57 at T=0 and from 4.20 to 4.28 at T=1, and consistently achieves higher throughput at both temperatures.",
+        "authors": [
+          "Tianyu Wu",
+          "Zhuohan Wang",
+          "Jonathan Geuter",
+          "Yu Yao",
+          "Weifan Jiang",
+          "Chengxi Zhang",
+          "Ju Li",
+          "Minlan Yu"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/Lucas-TY/D-PAL-SpecForge",
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.28355",
+        "paper_url": "https://arxiv.org/abs/2610.28355",
+        "pdf_url": "https://arxiv.org/pdf/2610.28355",
+        "published": "2026-10-20",
+        "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "Large language models can solve complex problems across a variety of subjects, such as mathematics and coding. For such complex analytical tasks, models with a long context perform better. Serving models with long context is currently mostly done on powerful systems with multiple GPUs, which are too expensive for most users. An alternative is local inference, or serving a model on a user's own machine, which removes per-token costs and rate limits, besides keeping sensitive data private and giving users full control over the models they run. The common understanding, however, is that local LLMs need compression (e.g., quantization) to run on a single GPU. In this paper, we set out to study the limitations that prevent serving long-context models for single users, besides the capacity issue. Rather than characterizing a single model on one GPU, we analyze how different models behave across several GPU generations. This lets us uncover not just individual bottlenecks but broader trends in where inefficiencies arise. Our analysis confirms that, as expected, self-attention dominates the runtime for long-context inference. More unexpectedly, our evaluation reveals that the current structure of self-attention leaves key GPU resources significantly underutilized, and the newest GPU is often the least well served. Many of these findings are fundamentally data management problems, from paging the KV cache to improving cache utilization and synchronization in the GPU, which is why we bring this study to the Data Systems community. To engage this community, we present our findings as a series of experimental observations and formulate recommendations for future work.",
+        "authors": [
+          "Mattias Dürrmeier",
+          "Alberto Lerner"
+        ],
+        "categories": [
+          "cs.DB",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.28223",
+        "paper_url": "https://arxiv.org/abs/2610.28223",
+        "pdf_url": "https://arxiv.org/pdf/2610.28223",
+        "published": "2026-10-20",
+        "title": "Local Inference of LLMs on Long Contexts: A Data Systems Perspective",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "LLMs are increasingly integrated into software systems, making deployment and inference configuration a recurring software engineering task. Inference backends expose many options that affect model loading, generation, serving, and request processing. Yet little is known about which of these options developers explicitly configure in practice. In this paper, we present a large-scale empirical study of LLM inference configuration practices in open-source software using Hugging Face Transformers, vLLM, and the OpenAI API. We analyze 5,398 GitHub repositories using at least one of these backends and identify 345,117 explicitly configured option occurrences. Our results show that developers use only a small part of the available configuration space regularly. Although 98.8% of the documented backend-specific options appear at least once, 78.9% are configured in at most 10% of repositories using the corresponding backend. Configurations are also small, with a median of 2 options for Transformers and 4 for vLLM and OpenAI, but the combinations of options vary widely: 56.8-61.6% of multi-option signatures appear in only one repository. We also observe recurring option values as well as substantial variation in how values are chosen. Finally, configuration practices differ across application contexts, with option-adoption differences reaching 30.7 percentage points. These findings characterize the configuration surface developers make explicit rather than the importance or optimality of individual options. They provide empirical evidence for prioritizing future studies of inference configuration and for improving backend documentation and configuration support.",
+        "authors": [
+          "Nada Zine",
+          "Matias Martinez",
+          "Romain Rouvoy",
+          "Clément Quinton"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.27945",
+        "paper_url": "https://arxiv.org/abs/2610.27945",
+        "pdf_url": "https://arxiv.org/pdf/2610.27945",
+        "published": "2026-10-20",
+        "title": "How Developers Configure LLM Inference: A Large-Scale Study of Real-World Practices",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "Speculative decoding accelerates autoregressive (AR) language models by letting a small model draft tokens serially and a large model verify them in parallel. We reverse these roles. Starting from a standard AR checkpoint, we fine-tune the large model into a proposer that predicts a block of future tokens in a single forward pass, then use one additional forward pass to verify the proposed block. This gives ProVe, Proposer-Verifier decoding. The verifier can be a smaller AR model or the proposer itself; the latter gives ProVe-lossless, which reproduces the proposer's greedy AR decoding. Block proposals already provide substantial room for acceleration: with a block size of 16, the proposed block has an average AR-matching prefix of 6.6 tokens on GSM8K. Across six benchmarks with a 32B proposer, ProVe-lossless reaches 2.5x average AR throughput without training a separate draft head. With a small 3B verifier, ProVe reaches 2.7x average throughput at 2.6 accuracy points below AR on the six-task average, providing a controllable tradeoff between speed and accuracy.",
+        "authors": [
+          "Ziqi Jin",
+          "Weiwen Xu",
+          "Jiaxi Li",
+          "Yujie Zhong",
+          "Qi She",
+          "Aixin Sun"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.27815",
+        "paper_url": "https://arxiv.org/abs/2610.27815",
+        "pdf_url": "https://arxiv.org/pdf/2610.27815",
+        "published": "2026-10-20",
+        "title": "ProVe: Proposer-Verifier Decoding",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "Block-diffusion speculative decoding accelerates large language model inference by drafting multiple tokens in parallel. However, one-step drafting in discrete diffusion is limited by token factorization error: each token is predicted from the same masked block, without conditioning on the tokens selected at other positions in that step. This can produce inconsistent drafts and reduce acceptance length. Iterative refinement mitigates this limitation by conditioning later predictions on previously committed tokens, though additional passes increase drafting cost. To address this trade-off between draft fidelity and inference latency, we introduce DStill, a two-stage framework that distills a target-conditioned drafter's own multi-step refinement into one-step drafting. We first train the drafter to complete partially revealed blocks, then use its refinement trajectories to train a student to predict the final completion in one pass. Using a curriculum that gradually transitions from partial to fully masked inputs, we successfully transfer the multi-step refinement capabilities into one step. Across reasoning, math, code benchmarks on three model families DStill improves acceptance length by up to 28% and speedup by up to 25% over one-step DFlash, achieving up to 6.45x speedup over auto-regressive decoding.",
+        "authors": [
+          "Shreyas Kulkarni",
+          "Uttam Gurram",
+          "Madhav Kanda",
+          "Krishna Teja Chitty Venkata",
+          "Shichu Chen",
+          "Kartik Balasubramaniam",
+          "Supriyo Chakraborty",
+          "Sambit Sahu"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.27379",
+        "paper_url": "https://arxiv.org/abs/2610.27379",
+        "pdf_url": "https://arxiv.org/pdf/2610.27379",
+        "published": "2026-10-19",
+        "title": "DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding",
+        "updated": "2026-10-19"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "abstract": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether post-training can also improve robot planners. However, applying it across robot harnesses requires accommodating different execution mechanisms, including VLA skill invocation and control-code generation. To this end, we introduce AgenticRoboRL, a framework for post-training robot planners across different harnesses. The training recipe combines supervised fine-tuning with multi-turn reinforcement learning. To accommodate different execution mechanisms, harness-specific adapters connect recorded planner interactions with task outcomes, enabling a common RL training pipeline while keeping execution components fixed. On LIBERO-PRO, AgenticRoboRL raises the success rate of a 9B-parameter planner from 18.1% to 71.0% without external memory, approaching the 72.1% achieved by Codex (GPT-5.5) with external memory. These results demonstrate post-training as an effective approach for improving robot planners. We will release the framework and trained planner checkpoints.",
+        "authors": [
+          "Xinxin Liu",
+          "Bingxin Xu",
+          "Wenrui Bao",
+          "Ming Li",
+          "Wentao Bao",
+          "Chen Chen",
+          "Yuzhang Shang"
+        ],
+        "categories": [
+          "cs.RO"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.28589",
+        "paper_url": "https://arxiv.org/abs/2610.28589",
+        "pdf_url": "https://arxiv.org/pdf/2610.28589",
+        "published": "2026-10-20",
+        "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusions, is left unfilled. We present S-Agent 2.0, a spatial reasoning agent that equips an off-the-shelf general coding agent with a command-line perception toolkit, and we design the interface around one principle: help the VLM close the evidence loop: acquire scene evidence, remember it in a persistent scene memory, and interpret each reading in plain spatial language. This design keeps the full flexibility of a coding agent, and every reading it acts on stays grounded in the tools' geometry. On MMSI-Bench and ReVSI, the toolkit improves a strong open-source model, Qwen3.8-27B, by +13.9 and +20.5 points over the same agent without tools, and a strong closed-source model, Gemini-3.8-Flash, by +11.2 and +9.6 points. With the open backbone S-Agent 2.0 reaches 66.5 on MMSI-Bench and 82.3 on ReVSI, ahead of the specialized system SpatialClaw on the same backbone (62.6 and 74.5), and with Gemini-3.8-Flash it reaches 74.1 and 90.5 against its 67.0 and 79.7. Both tool gains shrink as the backbone grows more capable, but SpatialClaw's shrinks far more on ReVSI, from +13.2 to +2.7, while ours stays at +9.6. S-Agent 2.0 also works across different general coding agent harnesses, such as Codex and Claude Code.",
+        "authors": [
+          "Rui Gong",
+          "Ruoyu Wang",
+          "Yalun Dai",
+          "Hao Li",
+          "Sidi Yang",
+          "Qihao Zhao",
+          "Hongyu Li",
+          "Zeyang Guan",
+          "Fangzhou Hong",
+          "Zhaoxi Chen",
+          "Kim-Hui Yap",
+          "Ziwei Liu"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CV"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.28354",
+        "paper_url": "https://arxiv.org/abs/2610.28354",
+        "pdf_url": "https://arxiv.org/pdf/2610.28354",
+        "published": "2026-10-20",
+        "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "For millennia, knowledge has been carried by language, and large language models still put language at the center. Yet the coding agents built on these models mostly write code. This paper is a contribution to epistemology, which asks what kind of knowledge code is and how it is obtained. We define knowledge as code as knowledge written in a programming language or in a machine-parsable data format, whose validity can be checked by executing it. We define thirteen epistemic properties of knowledge media and show that code is the first medium to have all of them. We distinguish two ways in which knowledge enters code, encoding and learning by execution, where code is both the experiment and the record of its result. Agents make learning by execution observable, since their trajectories record every probe, observation and line of code they keep. Code is thus not only a tool of knowledge work but a knowledge medium in its own right, the first that can check what it holds.",
+        "authors": [
+          "Martin Monperrus"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.27693",
+        "paper_url": "https://arxiv.org/abs/2610.27693",
+        "pdf_url": "https://arxiv.org/pdf/2610.27693",
+        "published": "2026-10-20",
+        "title": "Knowledge as Code",
+        "updated": "2026-10-20"
+      },
+      {
+        "abstract": "Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely reused on the next. Prior memory systems concentrate on retrieval, finding the most relevant past trajectory. Retrieval cannot observe the running agent, so it cannot decide whether the agent needs an experience, at which point, or for how long. We introduce REM (Reusable Experience Memory), a framework that manages the memory lifecycle from inside the agent's think-act loop through three explicit decisions. What to store: each completed trajectory is consolidated into a phase-structured document, two orders of magnitude smaller than the trajectory. When to recall: the document is injected at the start of the task; the costlier implementation record is withheld until an in-loop gate detects the agent struggling. What to forget: the record is evicted after a single exposure. On repository-level bug fixing (SWE-ContextBench Lite), REM retrieves the related trajectory more accurately than every state-of-the-art memory system (68.7% vs. 55.6% match@1) and improves, in every replicate, end-task resolution (27.6% vs. 24.9%) at 17% lower cost. Injecting the same experience as a summary or raw trajectory, even when oracle-retrieved, does not. Ablating any of the three decisions reduces resolution. Altogether, these results demonstrate that the bottleneck in experience reuse is not retrieval fidelity but how experience is stored and governed across its lifecycle, opening a control-theoretic perspective on agent memory.",
+        "authors": [
+          "Xinyi Lisa Chen",
+          "Pedro Herrero-Vidal",
+          "Xiaohan Chen",
+          "Xiaojing Yu",
+          "Cris Liu",
+          "Bingqing Song",
+          "Bin Xu",
+          "Suleiman A. Khan",
+          "You-Lin Chen"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.27377",
+        "paper_url": "https://arxiv.org/abs/2610.27377",
+        "pdf_url": "https://arxiv.org/pdf/2610.27377",
+        "published": "2026-10-19",
+        "title": "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+        "updated": "2026-10-19"
+      },
+      {
+        "abstract": "Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data. However, they discard this work after each question and redo it from scratch for the next one. Tool evolution, which automatically builds and refines reusable tools across tasks, is a natural fit for this repetition. Since a ground-truth label for a data-lake question requires an expert to solve it first, we consider the unsupervised setting. We propose TEAL (Tool Evolution for Analytics over data Lakes), which evolves a library of tools and usage skills for a given Worker agent without labels. Two agents propose tools from complementary evidence, an Explorer from the data lake itself and a Critic from Worker trajectories. A proposed change is kept only if the Worker adopts the tool on a rerun without extra steps and any changed answer is supported by trajectory evidence. We also introduce TEAL-Q, which generates synthetic questions for tool evolution when real ones are unavailable. We evaluate on KramaBench and LakeQA with four Worker LLMs under step budgets, which cap the number of steps the Worker may take per question. With a tight budget of 10 or 15 steps, TEAL improves every Worker on both benchmarks, lifting Sonnet-5 at 15 steps by 9.3 points on KramaBench and 21.7 points on LakeQA. A tighter budget also yields better feedback for evolution. For example, Sonnet-5's LakeQA library evolved at 20 steps and deployed unchanged at 30 steps scores 68.3, above both the baseline (59.6) and a library evolved directly at 30 steps (64.2). Additionally, a library evolved on synthetic questions performs comparably to one evolved on real questions. These results show that useful tools can be evolved without labels, and hopefully inspire future work on what to evolve and how to obtain feedback in unsupervised agent evolution.",
+        "authors": [
+          "Yuqing Yang",
+          "Yurong Liu",
+          "Deqing Fu",
+          "Manav Garg",
+          "Sravan Babu Bodapati",
+          "Fatma Ozcan",
+          "Alon Y. Halevy",
+          "Jiani Zhang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.27327",
+        "paper_url": "https://arxiv.org/abs/2610.27327",
+        "pdf_url": "https://arxiv.org/pdf/2610.27327",
+        "published": "2026-10-19",
+        "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+        "updated": "2026-10-19"
+      },
+      {
+        "abstract": "As AI systems begin to resolve open research problems, reliable verification becomes increasingly important. Formal mathematics provides a trusted framework for mathematical reasoning, enabling agents to produce machine-checkable proofs while conducting mathematical exploration. Existing formal mathematics benchmarks often focus on known results or a small set of prominent open problems, which can become difficult to evaluate reliably once solutions are discovered and widely disseminated. Existing evaluation protocols are also not always aligned with how modern coding agents operate. We therefore introduce ReuF2F, a Lean 4 benchmark of 244 formalized open problems drawn from Research Experiences for Undergraduates (REU), spanning entry-level open research problems across a broad range of mathematical subfields. We expect these less prominent open problems, which tend to attract less attention and may remain unsolved for longer, to be better suited for held-out evaluation of end-to-end open problem resolution in Lean. We adopt a standard coding-agent evaluation setting, placing each problem and its logical negation into a Lean project in a Docker container. We also build Leanimum-agent on mini-SWE-agent to provide a unified harness for fair comparisons across models. Our evaluation finds that even the best-performing model resolves only ~40% of the problems, leaving substantial room for improvement on formalized open research problems.",
+        "authors": [
+          "Zeyu Zheng",
+          "Yiyang Liu",
+          "Yuyang Zhao",
+          "Congmin Zheng",
+          "Jiachen Zhu",
+          "Jianian Chen",
+          "Kangning Zhang",
+          "Kayue Daniel Wong",
+          "Lingyu Yang",
+          "Rong Shan",
+          "Shihao Chen",
+          "Thomas Zhu",
+          "Wentao Zhang",
+          "Xiaopeng Li",
+          "Yan Hu",
+          "Yongxi Lin",
+          "Yuxiang Chen",
+          "Zhuoying Ou",
+          "Jianghao Lin",
+          "Jeremy Avigad",
+          "Prasad Tetali",
+          "Jingbang Chen",
+          "Sean Welleck"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/cmu-l3/reuF2F",
+        "comment": "",
+        "first_seen": "2026-10-21",
+        "id": "2610.27046",
+        "paper_url": "https://arxiv.org/abs/2610.27046",
+        "pdf_url": "https://arxiv.org/pdf/2610.27046",
+        "published": "2026-10-19",
+        "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
+        "updated": "2026-10-19"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2026-10-20",
+        "description": "Official Inference Code of EAGLE-4",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 7,
+        "full_name": "eagle-hq/EAGLE-4",
+        "id": 1427107663,
+        "language": "Python",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-20",
+        "score": 15.24,
+        "star_growth_7d": null,
+        "stars": 363,
+        "topics": [
+          "eagle",
+          "gpu",
+          "llm-inference",
+          "sglang",
+          "speculative-decoding",
+          "tokenspeed",
+          "vllm"
+        ],
+        "url": "https://github.com/eagle-hq/EAGLE-4"
+      },
+      {
+        "created_at": "2026-10-11",
+        "description": "Decides who gets your GPU. Chat, image and voice engines lease the card in turn instead of grabbing it, so two of them never load at once and crash each other. One Go binary, nothing else to install.",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 8,
+        "full_name": "T-Crypt/berth",
+        "id": 1414824407,
+        "language": "Go",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-21",
+        "score": 13.23,
+        "star_growth_7d": null,
+        "stars": 113,
+        "topics": [
+          "comfyui",
+          "golang",
+          "gpu",
+          "inference",
+          "llama-cpp",
+          "llama-swap",
+          "llm",
+          "local-ai",
+          "nvidia",
+          "ollama",
+          "self-hosted",
+          "vllm",
+          "vram"
+        ],
+        "url": "https://github.com/T-Crypt/berth"
+      },
+      {
+        "created_at": "2025-08-12",
+        "description": "A flexible serving framework that delivers efficient and fault-tolerant LLM inference for clustered deployments.",
+        "discovery": "growth-watch",
+        "first_seen": "2026-10-21",
+        "forks": 41,
+        "full_name": "xLLM-AI/xllm-service",
+        "id": 1036706300,
+        "language": "C++",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-20",
+        "score": 13.02,
+        "star_growth_7d": 1,
+        "stars": 100,
+        "topics": [],
+        "url": "https://github.com/xLLM-AI/xllm-service"
+      },
+      {
+        "created_at": "2026-10-10",
+        "description": "Strata Manager makes Niko1221/Strata, the local LLM inference engine, easier to set up and use. Manage local models and services, monitor hardware and API usage, chat and tune inference. Open-source desktop app for Windows / Linux x64.",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 2,
+        "full_name": "hongfaqiu/strata-manager",
+        "id": 1413208143,
+        "language": "Rust",
+        "license": "MIT",
+        "pushed_at": "2026-10-20",
+        "score": 10.97,
+        "star_growth_7d": 24,
+        "stars": 30,
+        "topics": [
+          "llm-inference",
+          "local-llm",
+          "model-management",
+          "model-monitoring",
+          "qwen3-8-flash-next",
+          "strata"
+        ],
+        "url": "https://github.com/hongfaqiu/strata-manager"
+      },
+      {
+        "created_at": "2026-10-14",
+        "description": "Fully open-source, high-performance LLM inference engine for the RK3588 NPU",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 4,
+        "full_name": "happyme531/open_rknpu2_lm_infer",
+        "id": 1419458453,
+        "language": "Rust",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-10-21",
+        "score": 10.73,
+        "star_growth_7d": null,
+        "stars": 26,
+        "topics": [],
+        "url": "https://github.com/happyme531/open_rknpu2_lm_infer"
+      },
+      {
+        "created_at": "2026-10-19",
+        "description": "DSV4.1-Flash-1017 SAGE EXL3 (1.62 bpw) on one DGX Spark with vLLM: DSpark MTP, cold-expert ATS alias, tile-K 16 MoE, memory guard, measured 31-34 tok/s",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 4,
+        "full_name": "vcruz305/DSV4.1-Flash-1017-EXL3-Spark-recipe",
+        "id": 1426202759,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-21",
+        "score": 10.66,
+        "star_growth_7d": null,
+        "stars": 25,
+        "topics": [],
+        "url": "https://github.com/vcruz305/DSV4.1-Flash-1017-EXL3-Spark-recipe"
+      },
+      {
+        "created_at": "2026-10-16",
+        "description": "RL observability for LLM agents: behavior maps, native trainer metrics, rollout investigations, and Python/SQL analysis.",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 7,
+        "full_name": "Sheltercosmo/Rilldex-RL-Studio",
+        "id": 1422019883,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-10-19",
+        "score": 10.35,
+        "star_growth_7d": null,
+        "stars": 23,
+        "topics": [
+          "agent-observability",
+          "agentic-ai",
+          "behavior-analysis",
+          "experiment-tracking",
+          "grpo",
+          "llm",
+          "ppo",
+          "python",
+          "reinforcement-learning",
+          "rl-observability",
+          "rollouts",
+          "sqlite",
+          "training-monitoring",
+          "trl",
+          "verl"
+        ],
+        "url": "https://github.com/Sheltercosmo/Rilldex-RL-Studio"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-10-20",
+        "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 22,
+        "full_name": "dominikmartn/harp",
+        "id": 1426877531,
+        "language": "Rust",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-10-20",
+        "score": 15.23,
+        "star_growth_7d": null,
+        "stars": 361,
+        "topics": [],
+        "url": "https://github.com/dominikmartn/harp"
+      },
+      {
+        "created_at": "2026-10-15",
+        "description": "An open-source stack for generalist computer-use agents, combining code execution, GUI interaction, and cross-device control.",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 26,
+        "full_name": "Tongyi-MAI/OpenGCUA",
+        "id": 1420442370,
+        "language": "HTML",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-21",
+        "score": 15.23,
+        "star_growth_7d": null,
+        "stars": 360,
+        "topics": [],
+        "url": "https://github.com/Tongyi-MAI/OpenGCUA"
+      },
+      {
+        "created_at": "2026-10-17",
+        "description": "AI 编程 / vibe coding 提示词收集（中文 + 英文原文）",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 4,
+        "full_name": "Jehuge/prompt-collection",
+        "id": 1423584561,
+        "language": null,
+        "license": null,
+        "pushed_at": "2026-10-19",
+        "score": 10.43,
+        "star_growth_7d": null,
+        "stars": 24,
+        "topics": [],
+        "url": "https://github.com/Jehuge/prompt-collection"
+      },
+      {
+        "created_at": "2026-10-16",
+        "description": "Open-source engine for personal AI assistants that chat on web, WhatsApp, Telegram, email and Slack, with memory, connectors, sandboxed code, hosted apps and scheduled routines. Bring your own LLM.",
+        "discovery": "new",
+        "first_seen": "2026-10-21",
+        "forks": 4,
+        "full_name": "morethanrealio/brambit",
+        "id": 1422648084,
+        "language": "JavaScript",
+        "license": "AGPL-3.0",
+        "pushed_at": "2026-10-21",
+        "score": 10.29,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [
+          "agent-framework",
+          "ai-agents",
+          "ai-assistant",
+          "gemini",
+          "llm",
+          "mcp",
+          "nodejs",
+          "openai-compatible",
+          "postgresql",
+          "self-hosted",
+          "slack-bot",
+          "telegram-bot",
+          "whatsapp-bot"
+        ],
+        "url": "https://github.com/morethanrealio/brambit"
+      }
+    ]
+  }
+}
