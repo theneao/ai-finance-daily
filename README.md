@@ -14,81 +14,72 @@
 
 ---
 
-# AI 应用研究日报 · 2026-10-22
+# AI 应用研究日报 · 2026-10-24
 
-本期新增：**1 篇论文**（其中 0 篇找到可能的代码）和 **1 个 GitHub 项目**。
+本期新增：**1 篇论文**（其中 0 篇找到可能的代码）和 **2 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-21 | [Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research](https://arxiv.org/abs/2610.30113) | Houde Qian, Zheng Jiang, Wenyi Li 等 | — |
+| 2026-10-22 | [When News Gets Old: Portfolio Allocation with Reinforcement Learning and Large Language Models](https://arxiv.org/abs/2610.30564) | Bolin Song, Surui Xiang | — |
 
 
 ## GitHub 金融与交易工具
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [ChungKit-WAN/Quant-research-lab-v0.1.0](https://github.com/ChungKit-WAN/Quant-research-lab-v0.1.0) | Python framework for monthly sector ETF allocation and multifactor stock backtesting, with transaction-cost accounting and separate Chinese and English research reports. | 51 | — | Python | 新项目 |
+| [rootSunc/CNEquity](https://github.com/rootSunc/CNEquity) | 中国A股（A-share / AShare / AStock）股票数据与金融数据基础设施，面向量化交易与回测。55个日更数据集：沪深股票行情、财务数据与基本面、期货数据、资金面、公告事件、指数行业、宏观与风险。行级溯源、PIT 语义、复权与历史成分内置，MCP 原生。自托管，零注册、零 API Token。China stock market data for quant research and AI agents. | 840 | — | Python | 近期活跃 |
+| [ChungKit-WAN/Quant-research-lab](https://github.com/ChungKit-WAN/Quant-research-lab) | Python framework for monthly sector ETF allocation and multifactor stock backtesting, with transaction-cost accounting and separate Chinese and English research reports. | 69 | — | Python | 新项目 |
 
 
 ## Vibe Coding · 工作与学习增强
 
-新增 **11 篇论文**（6 篇找到代码）和 **4 个项目**。
+新增 **7 篇论文**（3 篇找到代码）和 **2 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-21 | [SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation](https://arxiv.org/abs/2610.30047) | Lorenz Brehme, Benjamin Steenhoek, Ruth Breu | [论文链接](https://github.com/lorenzbrehme/swe-dive_usersim) |
-| 2026-10-21 | [PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit](https://arxiv.org/abs/2610.29870) | Viral Patel, Boyin Tan, Jason Xue 等 | — |
-| 2026-10-21 | [Compaction Laundering: Provenance Destruction in Context-Compacting Coding Agents](https://arxiv.org/abs/2610.29869) | Arshan Dabirsiaghi | [arXiv 页面](https://github.com/pixee/flat-compaction-attacks-oct-2027) |
-| 2026-10-21 | [UserSWE: Evaluating Coding Agents in Multi-Turn Conversations with Dynamic Users](https://arxiv.org/abs/2610.29822) | Zhan-Yu Wu, Ji Luo, Alyssa Wu 等 | — |
-| 2026-10-21 | [Benchmarking Coding Agents for System-Level Performance Optimization](https://arxiv.org/abs/2610.29695) | Yanze Zhang, Maggie Yongqi Guan, Shudong Liu 等 | [论文链接](https://github.com/zyzcjnb/microperf) |
-| 2026-10-21 | [Do Coding Agents Understand Why Systems Crash---and Why They Don't?](https://arxiv.org/abs/2610.29332) | Chenxi Huang, Haonan Wang, Jinghe Zhang 等 | — |
-| 2026-10-21 | [Recursive Self-Improvement on a Budget: Scoring Code Edits Before They Run](https://arxiv.org/abs/2610.29121) | Erfan Darzi, Sree Bhargavi Balija, Sheng He | — |
-| 2026-10-21 | [GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development](https://arxiv.org/abs/2610.29014) | William Huang, David Li, Xiang 'Anthony' Chen 等 | [arXiv 页面](https://github.com/whuang37/genxr-bench) |
-| 2026-10-20 | [Back Up Before You Regret: Measuring Backup Awareness and Automating Backup in Coding Agents](https://arxiv.org/abs/2610.28934) | Xu Li, Simon Yu, Minzhou Pan 等 | [ID 命中](https://github.com/CHATS-lab/BackUpper) |
-| 2026-10-19 | [Who Approved This? Coding Agents, Human Accounts, and Merge-Gate Evidence at a Fintech Startup](https://arxiv.org/abs/2610.28683) | Adam Manji | — |
-| 2026-10-16 | [Who Verifies the Builder? Toward Independent Assurance for Agent-Produced Software](https://arxiv.org/abs/2610.28667) | Sion Israel Sion, Alain April | [arXiv 页面](https://github.com/besionisrael/assure-harness) |
+| 2026-10-22 | [Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery](https://arxiv.org/abs/2610.31461) | Dingxuan Zhang, Yanhui Jiang, Jun Wang 等 | — |
+| 2026-10-22 | [RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding](https://arxiv.org/abs/2610.31276) | Jingxuan Xu, Zihang Xu, Yuechen Luo 等 | — |
+| 2026-10-22 | [RAIN: Agentic Proof Generation for Rocq-based Software Verification](https://arxiv.org/abs/2610.30759) | Jinyi Zhou, Zenan Li, Yuan Yao 等 | — |
+| 2026-10-22 | [Stale Instruction Files Override the Code in Coding Agents: A One-Sentence Fix](https://arxiv.org/abs/2610.30571) | Xiaonan Xu, Wenjing Wu | [arXiv 页面](https://github.com/WenJing95/stale-docs-data) |
+| 2026-10-21 | [The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software](https://arxiv.org/abs/2610.30307) | Ripon Chandra Malo, Zimeng Yu, Tong Qiu | [arXiv 页面](https://github.com/riponcm/The-Customer-Is-the-Builder) |
+| 2026-10-21 | [SWE-VERIFIER: Selective Verification for Cost-Efficient Coding Agents](https://arxiv.org/abs/2610.30284) | Kaijian Zou, Vaibhav Chennareddy, Yunxiang Zhang 等 | [论文链接](https://github.com/zkjzou/SWE-Verifier) |
+| 2026-10-20 | [Agentic Verified Optimization of Real-World Software](https://arxiv.org/abs/2610.30188) | Zhe Ye, Udaya Ghai, Zhizhen Qin 等 | — |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [refly-ai/refly](https://github.com/refly-ai/refly) | The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts. | 7536 | — | TypeScript | 近期活跃 |
-| [sahibzada-allahyar/Formal-Verification-RSI](https://github.com/sahibzada-allahyar/Formal-Verification-RSI) | Formal verification for AI: a Lean 4 + Dafny proof checker that catches fake AI proofs (reward hacking), and verified recursive self-improvement (RSI) for coding agents. AI for math, physics and software engineering. | 2850 | — | Python | 近期活跃 |
-| [aicodeking/pandacode](https://github.com/aicodeking/pandacode) | PandaCode: a calm desktop workspace for coding agents | 420 | — | Rust | 新项目 |
-| [zita-ch/supermimic_vibed](https://github.com/zita-ch/supermimic_vibed) | vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training | 97 | — | Python | 新项目 |
+| [Monopoly0024/simple-reviewer-v1](https://github.com/Monopoly0024/simple-reviewer-v1) | Simple Reviewer: a Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and verify goals with evidence. \| 简单的审阅者：协助 AI 编程与 Vibe Coding，解释代码、可视化流程，以证据复核目标。 | 137 | — | Python | 新项目 |
+| [izzyfrm/roblox-ai](https://github.com/izzyfrm/roblox-ai) | A curated collection of Roblox UI references for Claude Code, Codex, and other AI coding assistants to study and use as design inspiration - over 5000+ References. | 54 | — |  | 新项目 |
 
 
 ## AI Infra · 推理部署与应用基础设施
 
-新增 **9 篇论文**（0 篇找到代码）和 **3 个项目**。
+新增 **7 篇论文**（1 篇找到代码）和 **1 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-21 | [HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference](https://arxiv.org/abs/2610.29873) | Junhyeok Park, Jungeun Yoon, Kyungmin Kim 等 | — |
-| 2026-10-21 | [UlaCache: Unified Logical Addressing for Sparse LLM Serving](https://arxiv.org/abs/2610.29820) | Isaac Zhu, Alan Cao, Hugh Yin 等 | — |
-| 2026-10-21 | [RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference](https://arxiv.org/abs/2610.29544) | Wang Yuekai | — |
-| 2026-10-21 | [RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding](https://arxiv.org/abs/2610.29527) | Mingkang Liu, Weiming Meng, Peipei Jiao 等 | — |
-| 2026-10-21 | [Cache Locally, Recompute Selectively for Streaming Video Understanding](https://arxiv.org/abs/2610.29229) | Junhyeok Lee, Sangyoon Lee, Jaeho Lee | — |
-| 2026-10-21 | [Resuming Vision-Language Inference across Onboard Interruptions](https://arxiv.org/abs/2610.29183) | Xiaolong Huang, Yinyuan Zhang, Daliang Xu 等 | — |
-| 2026-10-20 | [Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference](https://arxiv.org/abs/2610.28947) | Xiuyi Qin | — |
-| 2026-10-19 | [Benchmarking the Quantum Leap: Auditing LLM Evaluation for Quantum Code Generation](https://arxiv.org/abs/2610.28678) | Ethan Seefried, Romit Ghosh, Sharmin Afrose 等 | — |
-| 2026-10-17 | [Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation](https://arxiv.org/abs/2610.28671) | Zhangdie Yuan | — |
+| 2026-10-22 | [VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act](https://arxiv.org/abs/2610.31588) | Robin Quériaux, Solveig Bachellery, Léa Déléris 等 | — |
+| 2026-10-22 | [Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon](https://arxiv.org/abs/2610.31479) | Kyrylo Yemets, Andrii Yaroshevych, Victor Muryn 等 | — |
+| 2026-10-22 | [ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding](https://arxiv.org/abs/2610.31338) | Liang He, SiYuan Ma, Qishi Zhan 等 | — |
+| 2026-10-22 | [Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention](https://arxiv.org/abs/2610.31320) | Wei Zhang, Ying Feng, Mengtong Wu 等 | — |
+| 2026-10-22 | [RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training](https://arxiv.org/abs/2610.31098) | Dor Tsur, Maor Ashkenazi, Maximilian Golub 等 | — |
+| 2026-10-22 | [Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving](https://arxiv.org/abs/2610.30791) | Maharani A. P. Irawan, Kuntai Du, Jiayi Yao 等 | — |
+| 2026-10-21 | [MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs](https://arxiv.org/abs/2610.30206) | Minsang Kim, Seungjun Baek | [标题匹配](https://github.com/kmswin1/MoEZip) |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [qiniu/xhub](https://github.com/qiniu/xhub) | A self-hosted AI gateway for enterprises. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM] | 68 | — | TypeScript | 新项目 |
-| [ahtx/kindi](https://github.com/ahtx/kindi) | A custom LLM inference engine for the NVIDIA Quadro K420: Ternary-Bonsai-2-2B at 20+ tokens/s with an OpenAI-compatible server | 28 | — | Python | 新项目 |
-| [yaya-sy/specspeech](https://github.com/yaya-sy/specspeech) | Speculative Decoding for fast ASR and TTS inference | 24 | — | Python | 新项目 |
+| [Dami-wq-k03/nano-lmcache](https://github.com/Dami-wq-k03/nano-lmcache) | 📚 An educational, step-by-step implementation of LLM KV cache reuse — learn prefix caching, chunk keys, storage & eviction, from pure Python to GPU tensors and vLLM integration. Inspired by LMCache. | 23 | — | Python | 新项目 |
 
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。

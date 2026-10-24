@@ -1,0 +1,525 @@
+{
+  "papers": [
+    {
+      "abstract": "Financial news can influence investment decisions long after publication. Timely news may reach an investor before prices fully adjust, whereas older news may already be reflected in prices. We examine two ways to handle aging signals: retain them and give a portfolio policy timing information, or filter them out before portfolio selection. A fixed large language model (LLM) extracts signals from public SEC disclosures. We compare these treatments in reinforcement learning (RL) policies and LLMs that choose portfolios directly. We evaluate returns after trading costs in historical tests over 2023-2025. RL choices respond to timing information in a controlled test, but historical returns show no consistent benefit from adding it. For the LLM, filtering old news produced the highest average net return, reaching 18.43% per year when news delivery was delayed by four weeks. This exceeded the returns of all RL strategies that used news.",
+      "authors": [
+        "Bolin Song",
+        "Surui Xiang"
+      ],
+      "categories": [
+        "cs.LG",
+        "q-fin.PM"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-10-24",
+      "id": "2610.30564",
+      "paper_url": "https://arxiv.org/abs/2610.30564",
+      "pdf_url": "https://arxiv.org/pdf/2610.30564",
+      "published": "2026-10-22",
+      "title": "When News Gets Old: Portfolio Allocation with Reinforcement Learning and Large Language Models",
+      "updated": "2026-10-22"
+    }
+  ],
+  "repositories": [
+    {
+      "created_at": "2026-06-28",
+      "description": "中国A股（A-share / AShare / AStock）股票数据与金融数据基础设施，面向量化交易与回测。55个日更数据集：沪深股票行情、财务数据与基本面、期货数据、资金面、公告事件、指数行业、宏观与风险。行级溯源、PIT 语义、复权与历史成分内置，MCP 原生。自托管，零注册、零 API Token。China stock market data for quant research and AI agents.",
+      "discovery": "active",
+      "first_seen": "2026-10-24",
+      "forks": 95,
+      "full_name": "rootSunc/CNEquity",
+      "id": 1283078615,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-18",
+      "score": 15.87,
+      "star_growth_7d": null,
+      "stars": 840,
+      "topics": [
+        "a-share",
+        "a-shares",
+        "a-stock",
+        "ai-agent",
+        "akshare",
+        "ashare",
+        "astock",
+        "backtesting",
+        "baostock",
+        "china-stock",
+        "china-stock-market",
+        "chinese-stock",
+        "duckdb",
+        "financial-data",
+        "market-data",
+        "mcp",
+        "python",
+        "quantitative-finance",
+        "stock-market",
+        "tushare"
+      ],
+      "url": "https://github.com/rootSunc/CNEquity"
+    },
+    {
+      "created_at": "2026-10-20",
+      "description": "Python framework for monthly sector ETF allocation and multifactor stock backtesting, with transaction-cost accounting and separate Chinese and English research reports.",
+      "discovery": "new",
+      "first_seen": "2026-10-24",
+      "forks": 1,
+      "full_name": "ChungKit-WAN/Quant-research-lab",
+      "id": 1426987071,
+      "language": "Python",
+      "license": null,
+      "pushed_at": "2026-10-21",
+      "score": 12.05,
+      "star_growth_7d": null,
+      "stars": 69,
+      "topics": [],
+      "url": "https://github.com/ChungKit-WAN/Quant-research-lab"
+    }
+  ],
+  "run_date": "2026-10-24",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the EU AI Act that organises this evidence under six principle groups and eighteen technical requirements, twelve of which current benchmarks can measure. The benchmark suites that produce this evidence are typically operated from a command line, while the staff who approve deployments are non-engineers. We present VERA, an open-source self-hosted dashboard deployed to facilitate responsible AI processes within a large European bank. A reviewer selects a model and runs public benchmarks against it. VERA scores the twelve requirements that current benchmarks can measure and instruments the energy consumed by each evaluation, adding run-level evidence for environmental impact. We run four served open-weight models through the requirement pipeline, and the dashboard displays a score for each measurable requirement. A within-subject study then compares how participants read these benchmark results: from the raw output files in one condition, and through the VERA dashboard in the other. The dashboard reduced the time needed to perform the responsible AI assessment, reducing the time required from 56 seconds using raw files to 30 seconds using our dashboard, on average. Our dashboard scored highly (4.36 out of 5) on usefulness in the survey conducted within the organization. The dashboard and the study material are released publicly to promote replicability and reproducibility in different organisational contexts.",
+        "authors": [
+          "Robin Quériaux",
+          "Solveig Bachellery",
+          "Léa Déléris",
+          "Saurabhsingh Rajput",
+          "Mariam Barry",
+          "Tushar Sharma",
+          "Jérôme Lebecq"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.31588",
+        "paper_url": "https://arxiv.org/abs/2610.31588",
+        "pdf_url": "https://arxiv.org/pdf/2610.31588",
+        "published": "2026-10-22",
+        "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Apple Silicon is among the most widely used platforms for local LLM inference, yet nearly all inference optimizations are designed and validated on server-class NVIDIA GPUs under batched serving workloads. Which optimizations retain their benefits when moved to Apple Silicon, and what determines their applicability? We evaluate four optimization families: KV-cache pruning, speculative decoding, ported GPU kernels, and post-training quantization. Experiments span four Apple machines under a common single-request decode workload, with matched RTX 4090 comparisons where possible. KV-cache pruning can reach up to 1.75 times end-to-end throughput on Apple but can reduce throughput on desktop NVIDIA GPUs. Under the common benchmark, all evaluated speculative decoding methods reduce throughput on Apple, despite reported 2-6 times gains on server GPUs. CUDA kernel designs transfer only partially: public Metal lacks asynchronous copy, and batch-one decode makes several serving-oriented mechanisms inapplicable, although transferable components yield up to 1.20 times decode throughput. Quantization gains vary by machine. Across four families, a reported speedup is not a portable property of a technique alone but a joint function of technique, runtime, hardware contract, and workload regime.",
+        "authors": [
+          "Kyrylo Yemets",
+          "Andrii Yaroshevych",
+          "Victor Muryn",
+          "Ostap Khomenko",
+          "Pavlo Kryven",
+          "Maksym Kmet",
+          "Maksym Shamrai",
+          "Mariya Hirna"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.31479",
+        "paper_url": "https://arxiv.org/abs/2610.31479",
+        "pdf_url": "https://arxiv.org/pdf/2610.31479",
+        "published": "2026-10-22",
+        "title": "Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Tree-based speculative decoding accelerates large language model inference by verifying multiple candidate branches in parallel. However, in practical serving scenarios, similar requests repeatedly induce overlapping candidate branches. While retrieval-based methods mitigate this by reusing historical drafts, the resulting candidate trees often contain many low-quality branches as the candidate tree grows, which reduces verification efficiency and wastes target-side computation. To address this, we propose ValuSpec, a plug-and-play candidate valuation mechanism that filters low-quality branches from a supplied candidate tree before expensive target-side verification. ValuSpec introduces transfer-based supervision to align filtering with the target model's behavior. A filtering threshold is estimated from the target model's greedy trajectories on a calibration split, without any parameter training. The target model then verifies the filtered tree under the output-identical greedy rule, so accepted tokens are guaranteed to match standard autoregressive decoding exactly. Experimental results on HumanEval, GSM8K, Dolly, and SpecBench show that, in our main evaluation, ValuSpec achieves up to 2.38x end-to-end speedup in retrieval-based tree settings. Furthermore, integrating ValuSpec into the EAGLE-3 dynamic tree framework yields up to 2.78x end-to-end speedup without modifying its tree construction strategy, demonstrating that ValuSpec serves as a generally applicable and plug-and-play candidate valuation module.",
+        "authors": [
+          "Liang He",
+          "SiYuan Ma",
+          "Qishi Zhan",
+          "Yongqi Fan",
+          "Mingyu Cao",
+          "Qizhen Lan",
+          "Zhaolu Kang",
+          "Xilu Wang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.31338",
+        "paper_url": "https://arxiv.org/abs/2610.31338",
+        "pdf_url": "https://arxiv.org/pdf/2610.31338",
+        "published": "2026-10-22",
+        "title": "ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "4D scene reconstruction requires robust handling of dynamic objects, yet existing streaming methods commonly assume static scenes, leading to pose drift and ghosting artifacts over long sequences. We introduce Stream4D, a training-free, motion-decoupled streaming reconstruction framework that can be directly integrated into causal Transformer backbones (e.g., StreamVGGT, Stream3R). Our key observation is that causal attention implicitly encodes rich temporal motion cues within the KV cache. We adaptively aggregate these cues from multiple attention layers and across temporal windows, and fuse them with depth priors to handle challenging cases such as occlusions and textureless regions, producing precise dynamic masks that decouple static and dynamic regions. We then apply a soft key masking scheme that leverages these dynamic masks to suppress interference from dynamic regions in causal attention, thereby improving camera pose estimation accuracy. Stream4D inherits the efficiency of causal attention and remains compatible with existing streaming architectures. On diverse dynamic-scene benchmarks, Stream4D significantly improves camera pose estimation and static-scene reconstruction quality, yields reliable dynamic masks, and effectively mitigates long-sequence ghosting.",
+        "authors": [
+          "Wei Zhang",
+          "Ying Feng",
+          "Mengtong Wu",
+          "Shiqiang Gong",
+          "Huaqi Zhang",
+          "Qi Zhang"
+        ],
+        "categories": [
+          "cs.CV"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.31320",
+        "paper_url": "https://arxiv.org/abs/2610.31320",
+        "pdf_url": "https://arxiv.org/pdf/2610.31320",
+        "published": "2026-10-22",
+        "title": "Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Speculative decoding is a popular decode acceleration method. As such, it is particularly relevant to long-output generation, which requires an increasingly large KV cache. KV cache compression offers a way to constrain costs in long-context drafting. However, compression methods that focus on prefill information can lose relevance as the output length grows. We term this phenomenon decode staleness and show that it degrades draft model accuracy under selection-based KV cache compression. We introduce RIFT, a family of selection-based KV cache compression strategies that balance prefill information and recent generated tokens. We show that refreshing the KV cache selection during token generation significantly improves the drafter's quality at the cost of additional decode latency. To alleviate the refresh costs, we propose an adaptive KV refresh strategy that reduces the number of score calculations while retaining the drafter's quality. We further demonstrate how a compressibility-driven drafter training phase, based on sparse attention masks, can improve the drafter's quality under a compressed KV cache. Combined with compressibility training, RIFT enables Qwen3.5-4B, drafting for Qwen3.5-122B, to retain over 98% of its full-cache acceptance length on 32K-token inputs, 4K-token outputs, and an 8K-token KV cache budget.",
+        "authors": [
+          "Dor Tsur",
+          "Maor Ashkenazi",
+          "Maximilian Golub",
+          "Peter Hicks",
+          "Yaniv Galron",
+          "Talor Abramovich",
+          "Yoav Miron",
+          "Tiyasa Mitra",
+          "Bita Darvish Rouhani",
+          "Ran Zilberstein"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.31098",
+        "paper_url": "https://arxiv.org/abs/2610.31098",
+        "pdf_url": "https://arxiv.org/pdf/2610.31098",
+        "published": "2026-10-22",
+        "title": "RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "KV caching reduces the serving cost of large language models (LLMs), but the growing KV cache footprint is increasingly exceeds GPU and host-memory capacity. Therefore, people use SSD to expand the KV cache storage capacity with high I/O bandwidth. However, in production LLM workload, such as multi-round conversation and LLM agents, the total amount of KV cache writes significantly exceeds SSD capacity, shortening SSD lifetime from years to months. To improve SSD lifetime, a natural solution is to reduce the KV cache writes by gating the KV cache writes via historical access patterns. However, that significantly lowers the KV cache hit rate (and increase the LLM serving cost) since KV caches from different attention types might have identical historical access pattern but different future access patterns. Our insight is that, to reduce KV cache writes without hurting KV cache hit rate, one need to not only consider the access pattern, but also application-level information such as the attention type of KV cache. Leveraging this observation, we propose Gandalf , the first SSD KV cache offloading system with SSD life time awareness. Gandalf prioritize the admission of full-attention KV cache into SSD over the cache generated by other types of attention, which significantly increases SSD lifetime without sacrificing cache hit rate. Our evaluation shows that Gandalf extends the SSD lifetime by 7.3X on average, while having negligible impact on cache hit rate across multiple workload traces and wide range of hardware capacity. Gandalf design can be extended to other flash-based storage, such as High Bandwidth Flash (HBF).",
+        "authors": [
+          "Maharani A. P. Irawan",
+          "Kuntai Du",
+          "Jiayi Yao",
+          "Dongjoo Seo",
+          "Yuyang Huang",
+          "Haryadi S. Gunawi",
+          "Junchen Jiang"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.30791",
+        "paper_url": "https://arxiv.org/abs/2610.30791",
+        "pdf_url": "https://arxiv.org/pdf/2610.30791",
+        "published": "2026-10-22",
+        "title": "Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Mixture-of-Experts (MoE) language models scale model capacity efficiently by activating a small subset of parameters per token. However, in long-context inference, memory remains a major bottleneck because the KV cache grows linearly with sequence length. Existing KV cache compression methods reduce this cost for dense transformers, but overlook a problem specific to MoE: KV eviction can change which experts are selected during answer generation, degrading the generation quality. We propose MoEZip, a routing-aware KV cache compression for sparse MoE language models. To estimate the sensitivity of expert routing to perturbation, we propose a novel metric based on the Fisher information matrix of routing distributions. MoEZip combines this metric with attention weights for routing-aware scoring of contexts. Finally, we compose a complementary scoring system that combines eviction methods for dense and sparse-MoE architectures. Experiments show that MoEZip achieves robust performance under aggressive cache compression on various benchmarks. At a KV retention ratio of 10\\%, MoEZip improves over the SoTA baseline by +24 and +20 points on average on LongBench and RULER, corresponding to 2.3$\\times$ and 4.9$\\times$ higher scores, respectively.",
+        "authors": [
+          "Minsang Kim",
+          "Seungjun Baek"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": "title-match",
+        "code_url": "https://github.com/kmswin1/MoEZip",
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.30206",
+        "paper_url": "https://arxiv.org/abs/2610.30206",
+        "pdf_url": "https://arxiv.org/pdf/2610.30206",
+        "published": "2026-10-21",
+        "title": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+        "updated": "2026-10-21"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "abstract": "Reusable skills allow large language model agents to package task-specific procedures, tool affordances, and execution guidance into modular units. Prior work has largely studied how agents retrieve, compose, or synthesize skills before execution. In coding agents, however, execution poses an additional runtime control problem: the same task may be solved through primitive tool calls, macro skills, or hybrid execution that starts with a macro and falls back to micro-level recovery. We introduce Adaptive Skill Granularity, a framework that treats skill granularity as an action-abstraction policy conditioned on task structure, execution state, and macro-skill failures. The system combines a feature-based granularity controller and a finite-state recovery executor. We evaluate the framework with a deterministic coding-agent protocol using verifier-defined success, total cost, and process metrics such as macro adoption, failure recovery, route match, and transition correctness. Results show that fixed macro execution is efficient when applicable but brittle under mismatch, while runtime routing and explicit macro-to-micro recovery improve robustness and recover controlled macro failures that fixed-granularity execution leaves unresolved. Our findings suggest that skill libraries for coding agents should be treated not only as retrievable resources, but also as controllable, verifiable, and recoverable execution abstractions.",
+        "authors": [
+          "Dingxuan Zhang",
+          "Yanhui Jiang",
+          "Jun Wang",
+          "Hefeng Zhou"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.31461",
+        "paper_url": "https://arxiv.org/abs/2610.31461",
+        "pdf_url": "https://arxiv.org/pdf/2610.31461",
+        "published": "2026-10-22",
+        "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Long-horizon coding agents can observe a failure and generate a plausible critique yet continue along the same incorrect trajectory. We call this the Critique-to-Action Handoff Gap. We introduce RIPPLE, a recovery-oriented training framework that internalizes process-level guidance into a single self-recovering policy. A prefix-only teacher provides evidence-grounded recovery supervision without access to future actions or terminal outcomes. After lightweight distillation, reinforcement learning assigns stage-specific credit to reflection triggering, diagnosis, and corrective action. Local validity signals gate trajectory advantages so that intermediate recovery decisions do not indiscriminately inherit terminal outcomes. Across four repository-level software-engineering benchmarks, RIPPLE improves the base policy by an arithmetic mean of 4.8 score points, with no auxiliary critic at deployment. Controlled ablations isolate the benefits of local, stage-aligned credit, and matched-prefix interventions show that critique semantics affect subsequent correction. Recovery gains concentrate where the prefix contains sufficient diagnostic evidence and the repository state remains reversible within the remaining budget.",
+        "authors": [
+          "Jingxuan Xu",
+          "Zihang Xu",
+          "Yuechen Luo",
+          "Ziqi Miao",
+          "Wenqiang Zhu",
+          "Weihao Li",
+          "Junhao Fan",
+          "Xinshun Feng",
+          "Zhiyi Lai",
+          "Yanan Wu",
+          "Haoyang Huang",
+          "Ken Deng"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.31276",
+        "paper_url": "https://arxiv.org/abs/2610.31276",
+        "pdf_url": "https://arxiv.org/pdf/2610.31276",
+        "published": "2026-10-22",
+        "title": "RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Interactive theorem provers can provide strong correctness guarantees for software, but constructing the proofs remains a challenging and labor-intensive task. Inspired by the recent progress of modern coding agents, we present RAIN, a lightweight proof-specialized agent for Rocq proof generation. RAIN augments an LLM with proof engineering capabilities, including repository exploration, iterative refinement, and checker feedback. This design allows the agent to retrieve lemmas autonomously, revise complete proof scripts instead of isolated tactics, and iteratively refine its proof strategy using enriched proof-state information. Evaluated on a subset from CoqStoq, RAIN shows substantial improvements over the existing baselines, achieving over 90% prove success rate with at least 24.7% improvements. We also compare with general-purpose coding agents, the results show that RAIN maintains comparable prove success rate but with significant lower cost.",
+        "authors": [
+          "Jinyi Zhou",
+          "Zenan Li",
+          "Yuan Yao",
+          "Jun Ma",
+          "Taolue Chen",
+          "Xiaoxing Ma"
+        ],
+        "categories": [
+          "cs.LO"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.30759",
+        "paper_url": "https://arxiv.org/abs/2610.30759",
+        "pdf_url": "https://arxiv.org/pdf/2610.30759",
+        "published": "2026-10-22",
+        "title": "RAIN: Agentic Proof Generation for Rocq-based Software Verification",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Purpose: Coding agents follow a project's instruction file, such as CLAUDE.md or AGENTS.md, even when it disagrees with the existing code and even when they notice the disagreement. We measure this behaviour and test whether one sentence in the user's own instruction file makes agents follow the code instead. Methods: We built 40 Python projects in which the instruction file asks for one convention while the existing code uses another, for example print instead of logging. Claude Code and Codex CLI added a feature to each project, with and without a sentence in the user-level instruction file that gives the existing code precedence, in 320 runs. Results: Without the sentence, 90.1% of the agents' choices followed the stale file. Claude Code pointed out the conflict in 79 of 80 runs and still followed the file. Codex CLI rewrote the existing code to match the file in 20 of 80 runs, and the project's own tests then failed in 17 of them. The sentence raised the share of choices that follow the code from 4.2% to 91.4%, stopped the rewrites and raised the test pass rate from 89.4% to 100%. Conclusion: We attribute the behaviour to how agents receive the two sources: the instruction file reaches the model as an instruction and the code as tool output, which models are trained to rank lower. Users can add the sentence today, and makers of agents and models can build the same rule into their products.",
+        "authors": [
+          "Xiaonan Xu",
+          "Wenjing Wu"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/WenJing95/stale-docs-data",
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.30571",
+        "paper_url": "https://arxiv.org/abs/2610.30571",
+        "pdf_url": "https://arxiv.org/pdf/2610.30571",
+        "published": "2026-10-22",
+        "title": "Stale Instruction Files Override the Code in Coding Agents: A One-Sentence Fix",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "AI coding agents could change whether organizations buy software or build the functionality they need. We focus on organizations and professional buyers whose domain knowledge can help them specify and evaluate tools for their work. We define the software substitution frontier as the functions customers could build and maintain at an acceptable standard for less than buying them. Using public data, we compare growing capacity to build with indicators of market change. Since 2023, the length of benchmark tasks that leading agents can complete at 50 percent success, measured in human working time, has doubled about every 129 days. A broad search identified 575 potential open-source alternatives to selected commercial products, although some functional matches still require independent validation. The Craft suite produced 12 application repositories over 12.0 days of public development, but these remain early versions with unverified completeness and reliability. Market evidence is mixed: purchased software gained US investment share and tracked commercial installations grew. Yet 32 percent of respondents to an organizational survey reported forgoing at least one software purchase because their organization could build the functionality with coding agents. These self-reports do not establish the spending displaced or the reliability of the resulting tools. The gap motivates a warning: customers' capacity to build could affect individual buying decisions before a broad purchasing shift becomes visible. We examine this possibility using benchmark projections and observable market tests. The projections are an extrapolation, not a forecast of customer switching.",
+        "authors": [
+          "Ripon Chandra Malo",
+          "Zimeng Yu",
+          "Tong Qiu"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CY",
+          "econ.GN"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/riponcm/The-Customer-Is-the-Builder",
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.30307",
+        "paper_url": "https://arxiv.org/abs/2610.30307",
+        "pdf_url": "https://arxiv.org/pdf/2610.30307",
+        "published": "2026-10-21",
+        "title": "The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software",
+        "updated": "2026-10-21"
+      },
+      {
+        "abstract": "Coding agents spend substantial computation generating actions and processing long interaction histories. Poor action choices can steer agents into low-value states, wasting computation and increasing API costs. Sampling and verifying alternative actions can improve the agent's decisions, but applying this procedure at every step adds substantial overhead. We introduce SWE-Verifier, a lightweight generative model that selectively triggers candidate sampling and verification. It scores the coding agent's proposed action to determine when additional candidate sampling is needed, then ranks the resulting actions before execution. We train SWE-Verifier from Qwen3.5-4B using preference data that groups contrasting actions with their resulting environment observations and rubric-guided teacher scores. Using the mini-swe-agent harness, SWE-Verifier improves resolution from 75.47% to 77.20% on MiniMax-M2.7 at 1.09 times cost and generalizes to DeepSeek-V4-Flash without training on its actions, improving resolution from 72.60% to 74.27% at 1.13 times cost. Across both models, SWE-Verifier verifies fewer than 4% of steps and achieves comparable or higher resolution than the trajectory and all-step baselines at substantially lower cost. These results demonstrate that selective candidate sampling and lightweight verification provide complementary gains in coding-agent performance and inference efficiency. Our model, code, and data are available at https://github.com/zkjzou/SWE-Verifier.",
+        "authors": [
+          "Kaijian Zou",
+          "Vaibhav Chennareddy",
+          "Yunxiang Zhang",
+          "Naihao Deng",
+          "Longju Bai",
+          "Jiaxin Pei",
+          "Rada Mihalcea",
+          "Lu Wang"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/zkjzou/SWE-Verifier",
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.30284",
+        "paper_url": "https://arxiv.org/abs/2610.30284",
+        "pdf_url": "https://arxiv.org/pdf/2610.30284",
+        "published": "2026-10-21",
+        "title": "SWE-VERIFIER: Selective Verification for Cost-Efficient Coding Agents",
+        "updated": "2026-10-21"
+      },
+      {
+        "abstract": "Program optimization aims to improve performance while preserving behavior. Coding agents can already make programs faster by changing algorithms, data structures, and execution strategies. However, existing equivalence checks mostly rely on tests, which agents have been shown to exploit, passing the tests without preserving the intended behavior. We propose agentic verified optimization, in which an agent produces a faster implementation together with a machine-checked proof of equivalence to the existing one. Because the existing implementation serves as the specification, the task avoids the specification-writing bottleneck of verified code generation, and recent advances in theorem proving make the proofs attainable. We formulate the task at the function and repository levels in Lean 4, where programs can be both executed and reasoned about. Few real-world applications are written in Lean, so we develop Aqueduct, an agentic framework that migrates C, C++, Go, and Rust programs into native Lean, validates each port by differential testing against its original. On the 189 reference implementations in Verina, agents produce faster proved rewrites for 156, including algorithmic changes such as replacing exponential recursion with dynamic programming. On 17 migrated applications, their 92 proved rewrites speed up 47 of 51 application scenarios. These application-level gains are smaller than the function-level ones, making the choice of functions to optimize an important problem. Current agents can thus already carry out verified optimization on both standalone functions and applications migrated from real programs. We discuss the remaining challenges and the steps toward verified optimization in production.",
+        "authors": [
+          "Zhe Ye",
+          "Udaya Ghai",
+          "Zhizhen Qin",
+          "Dawn Song",
+          "Soonho Kong"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.LG",
+          "cs.LO",
+          "cs.PL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-24",
+        "id": "2610.30188",
+        "paper_url": "https://arxiv.org/abs/2610.30188",
+        "pdf_url": "https://arxiv.org/pdf/2610.30188",
+        "published": "2026-10-20",
+        "title": "Agentic Verified Optimization of Real-World Software",
+        "updated": "2026-10-20"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2026-10-19",
+        "description": "📚 An educational, step-by-step implementation of LLM KV cache reuse — learn prefix caching, chunk keys, storage & eviction, from pure Python to GPU tensors and vLLM integration. Inspired by LMCache.",
+        "discovery": "new",
+        "first_seen": "2026-10-24",
+        "forks": 13,
+        "full_name": "Dami-wq-k03/nano-lmcache",
+        "id": 1425460258,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-23",
+        "score": 10.52,
+        "star_growth_7d": null,
+        "stars": 23,
+        "topics": [
+          "educational",
+          "kv-cache",
+          "llm",
+          "llm-inference",
+          "lmcache",
+          "prefix-caching",
+          "python",
+          "vllm"
+        ],
+        "url": "https://github.com/Dami-wq-k03/nano-lmcache"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-10-21",
+        "description": "Simple Reviewer: a Codex skill for AI-assisted coding and Vibe Coding. Explain code, visualize workflows, and verify goals with evidence. | 简单的审阅者：协助 AI 编程与 Vibe Coding，解释代码、可视化流程，以证据复核目标。",
+        "discovery": "new",
+        "first_seen": "2026-10-24",
+        "forks": 9,
+        "full_name": "Monopoly0024/simple-reviewer-v1",
+        "id": 1427871238,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-10-23",
+        "score": 13.56,
+        "star_growth_7d": null,
+        "stars": 137,
+        "topics": [
+          "ai-agents",
+          "ai-assisted-coding",
+          "code-explanation",
+          "code-quality",
+          "code-review",
+          "codex",
+          "codex-skill",
+          "vibe-coding",
+          "vibecoding"
+        ],
+        "url": "https://github.com/Monopoly0024/simple-reviewer-v1"
+      },
+      {
+        "created_at": "2026-10-18",
+        "description": "A curated collection of Roblox UI references for Claude Code, Codex, and other AI coding assistants to study and use as design inspiration - over 5000+ References.",
+        "discovery": "new",
+        "first_seen": "2026-10-24",
+        "forks": 15,
+        "full_name": "izzyfrm/roblox-ai",
+        "id": 1424095754,
+        "language": null,
+        "license": null,
+        "pushed_at": "2026-10-22",
+        "score": 11.79,
+        "star_growth_7d": null,
+        "stars": 54,
+        "topics": [
+          "claude",
+          "claude-ai",
+          "claude-code",
+          "codex",
+          "references",
+          "roblox",
+          "roblox-ai"
+        ],
+        "url": "https://github.com/izzyfrm/roblox-ai"
+      }
+    ]
+  }
+}
