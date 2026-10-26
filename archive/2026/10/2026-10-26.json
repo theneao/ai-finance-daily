@@ -1,0 +1,693 @@
+{
+  "papers": [
+    {
+      "abstract": "We provide the first systematic evidence on whether financial markets price political pressure on the Federal Reserve as a signal of future monetary policy. Using approximately four decades of Reuters newswire articles from 1988 to 2025, classified by an open-weight large language model ensemble into dovish and hawkish pressure, we estimate the daily response of interest rate expectations across the term structure, the US dollar, inflation compensation, and market volatility. Dovish pressure lowers near-term rate expectations by roughly one basis point per pressure event---equivalent to a four-percent increase in the implied probability of a rate cut at the next FOMC meeting---with the effect decaying monotonically and vanishing beyond the three-month horizon. Hawkish pressure has no detectable effect. Furthermore, excluding the Trump presidencies does not weaken the estimate, ruling out the possibility that the result is confined to an idiosyncratic recent episode. The response is accompanied by dollar depreciation, with stable inflation compensation and market volatility. We interpret the pattern as markets pricing anticipated monetary accommodation, rather than a credibility tax on the nominal anchor.",
+      "authors": [
+        "Michela Baretti",
+        "Umberto Collodel",
+        "Jacopo Zacché"
+      ],
+      "categories": [
+        "econ.GN"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-10-26",
+      "id": "2610.32300",
+      "paper_url": "https://arxiv.org/abs/2610.32300",
+      "pdf_url": "https://arxiv.org/pdf/2610.32300",
+      "published": "2026-10-23",
+      "title": "Jawboning the Fed: Do Markets Listen When Administrations Talk?",
+      "updated": "2026-10-23"
+    },
+    {
+      "abstract": "In modern financial markets, more than 3/4th of the large volume trade is executed by algorithmic trading based on advanced trading strategies to attain higher precision and speed than traditional human traders. The conventional strategies focused on price-based indicators are inadequate in capturing the market dynamism arising from real-world events such as social sentiments, political instability, or sudden economic shifts. With the rise of Deep Reinforcement Learning (DRL) and data availability, there is a requirement for more efficient algorithms that can incorporate these external factors in trading strategies. DRL has shown potential in simulating real-world scenarios and in simplifying complex decision-making since DRL agents can automate the trading process i.e. executing trades in a manner comparable to human traders. They have shown reliable performance since they can update their policies based on risk and quantitative factors. In this paper, we propose a DRL approach based on partial and deep-infusion of sentimental analysis. It features distinct policy designs of actor-critic-based agents: only policy optimization (A2C & PPO) and policy optimization along with Q-learning principles (DDPG, TD3 & SAC). Our findings reveal, that the agents based on policy optimization combined with Q-learning, significantly and consistently demonstrate improved performance upon sentiment deep-infusion in profit maximization as well as risk-averse trading.",
+      "authors": [
+        "Hrishikesh Singh",
+        "Aarti Sharma",
+        "Millie Pant"
+      ],
+      "categories": [
+        "cs.AI",
+        "q-fin.CP",
+        "q-fin.PM"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-10-26",
+      "id": "2610.32237",
+      "paper_url": "https://arxiv.org/abs/2610.32237",
+      "pdf_url": "https://arxiv.org/pdf/2610.32237",
+      "published": "2026-10-23",
+      "title": "Financial Context-Rich Strategy for Actor-Critic based Agents: A Deep Reinforcement Learning Approach for Stock Trading",
+      "updated": "2026-10-23"
+    }
+  ],
+  "repositories": [
+    {
+      "created_at": "2026-03-23",
+      "description": "基于 AKShare 的 A 股行情批量采集工具，支持分钟线、实时行情，内置代理轮转 + MongoDB 存储 + 定时调度，解决RemoteDisconnected问题。",
+      "discovery": "active",
+      "first_seen": "2026-10-26",
+      "forks": 17,
+      "full_name": "VeKiner/akshare-stock-data-fetcher",
+      "id": 1189175959,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-25",
+      "score": 13.35,
+      "star_growth_7d": null,
+      "stars": 121,
+      "topics": [
+        "a-share",
+        "akshare",
+        "mongodb",
+        "proxy",
+        "python",
+        "quantitative-finance",
+        "stock"
+      ],
+      "url": "https://github.com/VeKiner/akshare-stock-data-fetcher"
+    },
+    {
+      "created_at": "2026-10-23",
+      "description": "Crypto Currency Pair Trading Investment Model Desktop Application",
+      "discovery": "new",
+      "first_seen": "2026-10-26",
+      "forks": 0,
+      "full_name": "kan0un/minsung-crypto-pair-trading-model-desktop",
+      "id": 1431471905,
+      "language": "Rust",
+      "license": null,
+      "pushed_at": "2026-10-26",
+      "score": 12.08,
+      "star_growth_7d": null,
+      "stars": 58,
+      "topics": [
+        "algorithm",
+        "bot",
+        "cryptocurrency",
+        "pair",
+        "trading",
+        "trading-strategy-simulation"
+      ],
+      "url": "https://github.com/kan0un/minsung-crypto-pair-trading-model-desktop"
+    }
+  ],
+  "run_date": "2026-10-26",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this setting: model-based drafters consume scarce GPU memory and may become misaligned as the policy evolves, while existing model-free methods do not explicitly exploit repetition across training epochs. We observe that recent rollouts of the same prompt provide a high-quality, self-updating draft source. Based on this insight, we propose NgramRL, a per-prompt n-gram drafter constructed from bounded recent rollout history. NgramRL requires no auxiliary model, drafter training, or persistent GPU-resident drafter state, while target-model verification preserves the rollout distribution. To hide CPU cache lookup and scheduling, we further introduce an adaptive fan-out prefetcher that predicts likely verification outcomes (j, b), consisting of the accepted draft length j and target-emitted continuation token b. A causal budget allocator concentrates prefetches on high-probability outcomes, while uncovered outcomes fall back to sequential lookup without changing committed tokens. Across two model families and three reasoning and structured-generation workloads, NgramRL commits 3.60-7.77 tokens per target-model forward in the warm-cache regime, up to 1.99x more than SuffixDecoding and 7.0x more than prompt-lookup decoding. On Spider, the prefetcher covers 96.6% of Qwen3-8B outcomes at a candidate budget of 16 and improves measured rollout throughput by 1.38x over synchronous NgramRL, approaching its 1.40x overlap ceiling.",
+        "authors": [
+          "Nilesh Prasad Pandey",
+          "Jangseon Park",
+          "Jason Kong",
+          "Onat Gungor",
+          "Tajana Rosing"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.32881",
+        "paper_url": "https://arxiv.org/abs/2610.32881",
+        "pdf_url": "https://arxiv.org/pdf/2610.32881",
+        "published": "2026-10-23",
+        "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "LLM inference is increasingly deployed as a core service for enterprise and interactive applications, but sovereignty, compliance, latency and resource-locality requirements can limit the suitability of centralised cloud deployments. Telco operators offer geographically distributed compute and network infrastructure for addressing these constraints. However, existing LLM serving frameworks are designed for tightly coupled data centres and provide limited support for coordinating geographically distributed and heterogeneous resources. We present InferSlice, a reference architecture for Service-Level Objective (SLO)-driven LLM inference over a telco infrastructure, integrating network slicing, GPU partitioning, elastic serving and observability. Led by BT in collaboration with the University of Bristol and NVIDIA, and realised on the JOINER UK national-scale wide-area network (WAN), InferSlice is evaluated on service differentiation across tiers, elastic scale-out, client-edge bandwidth as a bottleneck, and the reach of tensor, pipeline, data parallelism, and prefill/decode disaggregation over the WAN. Our results show that, on a general-purpose telco network, tiers yield distinct latency-throughput regimes, and weight streaming shortens scale-out time. Replication is placement-insensitive but memory-bound; pipeline parallelism tolerates near- and mid-cross-site hops, while tensor parallelism and disaggregation fail beyond a single subnet hop. We share practical insights from operating SLO-driven inference on a telco network, lessons learned and open questions, and hope to encourage further research on distributed and heterogeneous LLM inference systems.",
+        "authors": [
+          "Juan Parra-Ullauri",
+          "Anthony Chiu",
+          "Hari Madhukumar",
+          "Zhaozhou Wu",
+          "Anderson Bravalheri",
+          "Alex Healing",
+          "Andy Corston-Petrie",
+          "Dimitra Simeonidou",
+          "Nektaria Efthymiou"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.32638",
+        "paper_url": "https://arxiv.org/abs/2610.32638",
+        "pdf_url": "https://arxiv.org/pdf/2610.32638",
+        "published": "2026-10-23",
+        "title": "InferSlice: A Reference Architecture for SLO-driven LLM Inference over a Telco Wide-Area Network",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "Long-context LLM serving for agentic, coding, and document workloads reuses prefixes whose key-value (KV) cache outgrows GPU and host memory, putting storage I/O on the critical path of the inference step for retrieving prefixes. A single node-local NVMe absorbs all retrievals, while the parallel file system or cloud file store that nodes already mount carries almost no inference traffic. We cast prefix retrieval as aggregate-bandwidth scheduling across these tiers and present KVStream, a KV cache engine that batches a step's reads, defers writes behind the forward pass, replicates each chunk on every tier, and lets each tier adaptively claim the next unread chunks once it is free. Our performance model shows this routing attains the aggregate-bandwidth bound without prediction or tuning, whereas any static split misses it by a margin that grows as per-tier bandwidths drift or fluctuate. It also predicts that the time-to-first-token (TTFT) gain grows with load, as faster retrieval drains the queue, and disappears when host memory or arrival order keeps reuse in cache. Plugged into LMCache and evaluated on four models, six datasets, and up to 128 GPUs, KVStream retrieves within 5% of the bound, delivers up to 1.49$\\times$ higher offline throughput than LMCache, and lowers mean TTFT by up to 6.1$\\times$ under bursty arrivals.",
+        "authors": [
+          "Avinash Maurya",
+          "Jaiaid Mobin",
+          "Jie Ye",
+          "M. Mustafa Rafique",
+          "Franck Cappello",
+          "Bogdan Nicolae"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.31827",
+        "paper_url": "https://arxiv.org/abs/2610.31827",
+        "pdf_url": "https://arxiv.org/pdf/2610.31827",
+        "published": "2026-10-22",
+        "title": "KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving",
+        "updated": "2026-10-22"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "abstract": "Large language model (LLM)-based coding agents may propose invalid actions that are not applicable in the execution environment, such as accessing non-existent paths or missing packages. We term this mismatch hallucinated tool use. A preliminary study of 4,398 agent trajectories reveals that these hallucinations are pervasive and costly, requiring a median of 3 additional interaction steps and 22.4K tokens to recover. Existing frameworks rely on reactive, post-execution feedback, wasting runtime resources. Nevertheless, since an agent's execution environment is grounded in concrete codebase and harness components, many action prerequisites can be extracted and validated prior to execution. To this end, we introduce StateMirror, a lightweight pre-execution detector. StateMirror intercepts actions at the harness boundary, extracts state predicates via AST and command analysis, and deterministically validates them against the live repository. By pinpointing exact environment mismatches before execution, StateMirror preempts invalid actions and subsequent recovery cycles. Evaluation on 2,508 actions shows StateMirror achieves 0.940 precision and 0.817 F1 in detecting such hallucinations, surpassing the strongest LLM judge by 35.3% in F1 while reducing median detection latency from 17.73 s to 1.50 ms with zero token consumption. For practical mitigation, StateMirror's pre-execution feedback enables agents to rectify over 95% of hallucinated tool calls. During live mitigation on 79 tasks, StateMirror reduces agent execution time by 15.8% and token consumption by 11.8% while maintaining task resolution.",
+        "authors": [
+          "Shiwen Shan",
+          "Yintong Huo",
+          "Zhiying Wu",
+          "Yuxin Su"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.32648",
+        "paper_url": "https://arxiv.org/abs/2610.32648",
+        "pdf_url": "https://arxiv.org/pdf/2610.32648",
+        "published": "2026-10-23",
+        "title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "AI coding agents increasingly work inside a harness: rule files such as AGENTS.md, on-demand skills, runtime hooks and automated checks. Most studies of harnesses look at a single point in time or at short benchmark runs. I report a six-week case study of my personal system of record, a plain-markdown repository that three AI agent tools edited daily under one shared rule set. I built a ledger of 118 agent failures, their fixes and whether they came back. I also tested the system's monthly LLM documentation audit against 47 known stale statements and 20 planted errors. Finally, I replayed five past failures in isolated git clones, with and without their fixes. All results come from one repository with three runs per condition, so I report them as exploratory. Stale documentation (drift) was the largest failure class (48 of 118), although 35 of those were found on one audit day. A single audit run found about half of the known drift (Claude Sonnet 5.5 mean: 50%), and at least 93% of its findings were correct. On Sonnet 5.5, the agent finished four of the five replayed tasks. In three of those four, the failure did not happen, with or without its fix. Only the stale-count failure came back without its check, and the check stopped it in every run. On older models, an agent drafted an em-dash once while the em-dash lint check was active, and the check rejected it. A written rule on run-time estimates did not change Sonnet 4.5's overestimates. These results suggest that harness lessons can outlive the failures they were written to fix, while drift persists and still needs mechanical checks. Tools that evolve a harness add lessons faster than they retire them, so they should re-test their rules from time to time and retire the obsolete ones.",
+        "authors": [
+          "Hassan Hassanzadeh Aliabadi"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.32578",
+        "paper_url": "https://arxiv.org/abs/2610.32578",
+        "pdf_url": "https://arxiv.org/pdf/2610.32578",
+        "published": "2026-10-23",
+        "title": "Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "Large language model (LLM)-based coding agents increasingly resolve real-world software engineering tasks, yet still fail on many of them. Prior trajectory studies characterize these failures through task-agnostic patterns of agent behavior, such as repeated actions. However, an agent may follow a sound workflow yet act on a faulty understanding of the existing code, the task requirements, or a candidate fix. Reasoning models, which power most state-of-the-art coding agents, reveal this understanding in their native chain-of-thought (CoT), whose claims about the task can be checked against the facts. Yet it remains unclear how many such checkable claims the CoT contains, how many are faulty, and whether faulty claims actually cause incorrect patches. We present the first empirical study of such claims, which we term task-grounded reasoning, analyzing 400 trajectories of four open-weight reasoning models on SWE-bench Pro. We extract atomic claims from the CoT with an LLM, assess them against evidence gathered by an LLM agent, and manually trace the defects of incorrect patches back to faulty claims, confirming each link with a claim-corrected replay. Task-grounded reasoning covers only 18.5% of the CoT tokens, yet yields 191 atomic claims per trajectory, at least 9.6% of which are faulty. Faulty claims also occur in 96.7% of the resolved trajectories, so their mere presence is a weak signal of failure. Yet two thirds of the 188 incorrect patches trace back to faulty claims. Correcting such a claim makes the agent fix the linked defect in 89.0% of the cases, and correcting all such claims resolves 11.7% of the failed tasks. Our findings show that the CoT carries task-specific signals for diagnosing and repairing agent failures, but exploiting them requires pinpointing the few faulty claims that actually cause patch defects.",
+        "authors": [
+          "You Wang",
+          "Jinjun Huang",
+          "Zhonghao Jiang",
+          "Jialun Cao",
+          "Jiachi Chen",
+          "Zhongxin Liu"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.32338",
+        "paper_url": "https://arxiv.org/abs/2610.32338",
+        "pdf_url": "https://arxiv.org/pdf/2610.32338",
+        "published": "2026-10-23",
+        "title": "From Faulty Claims to Incorrect Patches: An Empirical Study of Task-Grounded Reasoning in Coding Agents",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "Repository-level coding benchmarks largely assume that tasks and environments remain unchanged throughout execution. In software development, code, dependencies, runtime state, and requirements can change while an agent is still working. We introduce SWE-Shift, a benchmark for evaluating coding agents under such mid-execution changes. From the same saved history and workspace, a Clean continuation proceeds without intervention, while a matched Shifted continuation receives a task-relevant update. Success requires completing the current task, preserving still-valid work, and satisfying the applicable state and evidence checks. The benchmark contains 120 scenarios across 12 change families, each evaluated at nine scheduled intervention positions. We evaluate 17 coding-agent systems, all of which have lower Shifted than Clean success. GPT-6 Astra drops from 67.35% to 24.79%, with 20.34% paired success. Tool/session changes and stale evidence yield zero paired success across all systems. Late-position paired success is lower for some systems and higher for others. These results show that success on the unchanged task can coexist with failures to preserve work, recover state, or refresh evidence after an update.",
+        "authors": [
+          "Victor Shea-Jay Huang",
+          "Rongqing Li",
+          "Zhangyue Yin",
+          "Kelong Mao",
+          "Yaqi Zhao",
+          "Xinyuan Wang",
+          "Yao Yin",
+          "Lirui Luo",
+          "Renrui Zhang",
+          "Hongsheng Li"
+        ],
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/JeixHuang/SWE-Shift",
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.32196",
+        "paper_url": "https://arxiv.org/abs/2610.32196",
+        "pdf_url": "https://arxiv.org/pdf/2610.32196",
+        "published": "2026-10-23",
+        "title": "SWE-Shift: Evaluating Coding Agents in Evolving Workspaces",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "Self-hosting coding agents is often necessary for software-engineering teams that must keep proprietary code and development traces within controlled infrastructure. Lightweight, open-weight models make such deployment more feasible by reducing hardware requirements, while strong results on repository-level benchmarks demonstrate their potential for demanding coding tasks. Deploying these models as coding agents requires pairing them with an agent harness, making their joint performance a key deployment consideration. Yet existing leaderboards primarily report fixed harness-model configurations rather than controlled comparisons across alternative pairings. To address this gap, we investigate harness-model interactions through a controlled full-factorial evaluation of six open-source harnesses and three lightweight coding models across 100 SWE-bench Verified tasks, producing 1,800 graded runs under common serving, metering, and grading conditions. For the same model, resolution rates differ by up to 44 percentage points across harnesses, while harness rankings change across models. We apply an evidence-based failure taxonomy to 1,100 unsuccessful runs and find substantial differences in failure patterns across harness-model pairings. A model's dominant failure modes under one harness need not dominate under another. Efficiency is similarly dependent on the pairing: even among model-directed loop harnesses, charged tokens per resolved task vary by more than 20-fold. These findings make harness-model selection a central deployment decision for lightweight coding agents. Strong performance with one harness or model does not guarantee similar results with another. We translate these findings into practitioner guidance for pairing selection, token-efficiency assessment, and trajectory-informed harness engineering, and release the complete experimental records and analysis artifacts.",
+        "authors": [
+          "Lu Zhao",
+          "Christopher M. Poskitt",
+          "David Lo"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.32131",
+        "paper_url": "https://arxiv.org/abs/2610.32131",
+        "pdf_url": "https://arxiv.org/pdf/2610.32131",
+        "published": "2026-10-23",
+        "title": "Pairing Matters: Performance, Failures, and Efficiency in Lightweight Coding Agents",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "Coding agents are trained to complete tasks, and they keep trying even when the environment makes completion impossible. The evidence that only outside help can restore progress usually appears within a few steps, yet agents rarely act on it: they over-persist, attempt undesired workarounds, and claim success the record does not support -- a phenomenon we call evidence-action gap. To measure it, we introduce ImpasseBench, which injects twelve realistic environment blockers into otherwise solvable repair tasks and marks, in each trajectory, the step at which the collected evidence becomes sufficient. Scoring actions relative to that step separates appropriate effort from over-persistence and premature handoff. Across eight frontier models and 19,371 trajectories, we find that nearly every run that needs outside help collects sufficient evidence, yet a third still exhaust their budget, and every unsafe request we detect comes after that point. Fortunately, an escalation tool, or an external monitor for models that ignore the tool, already guards against much of this behavior: the tool cuts budget exhaustion from 34.0% to 6.7%, and the monitor nearly triples task success after environment restoration. Even then, a fired escalation is not yet a useful handoff: tickets reliably name the blocker but often omit the agent's own progress and verification status. Taken together, we argue that knowing when to stop therefore needs explicit support, both in the tool that lets an agent hand off and in the report it leaves behind.",
+        "authors": [
+          "Tianyu Chen",
+          "Xinran Zhao",
+          "Vijay Viswanathan",
+          "Shoubin Yu",
+          "Mingyuan Zhou",
+          "Tongshuang Wu"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.31895",
+        "paper_url": "https://arxiv.org/abs/2610.31895",
+        "pdf_url": "https://arxiv.org/pdf/2610.31895",
+        "published": "2026-10-22",
+        "title": "Knowing When to Stop: The Evidence-Action Gap in Coding Agents",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Greenfield software development in freelance settings requires coding agents to turn incomplete client requests into working software. This makes requirement clarification essential, yet clients may be unable to provide continuous feedback over long development cycles, and receiving their answers does not guarantee correct understanding of complex requirements. These challenges motivate two benchmark design choices: clarification precedes code implementation, and its effectiveness is assessed through explicit tests of requirement understanding. Guided by these choices, we introduce SWE-Clar, a benchmark grounded in real, high-value client commissions to evaluate requirement clarification and code implementation in this setting. It comprises 100 tasks based on real software development jobs on Upwork, each with at least US\\$4,000 in total payments. Each task begins with multi-round interaction between a coding agent and a client agent, followed by separate runs for code implementation with acceptance testing and clarification assessment. For the latter, we construct 512 questions paired with reference answers from real client-freelancer interactions, covering both explicitly stated requirements and those inferred from the conversational context. Both runs begin from the same clarification context but remain isolated, preventing assessment questions from guiding code implementation. Experiments with nine frontier models show that even GPT-6 Astra, which has the highest observed implementation score, achieves a task pass rate of only 67%, underscoring the challenge of independent software delivery in this setting. The dataset and evaluation code are available at https://github.com/upwork/SWE-Clar.",
+        "authors": [
+          "Jialei Li",
+          "Dingxian Wang",
+          "Xiaoyan Zhao",
+          "Yimeng Bai",
+          "Xuanyi Zhu",
+          "Yang Zhang",
+          "Chao Yin",
+          "Wentao Shi",
+          "Ganesh Prabhu",
+          "Karthik Gomadam Rajagopal",
+          "Brett Levert",
+          "Darvin Yi",
+          "Andrew Rabinovich",
+          "Zhao Chen"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/upwork/SWE-Clar",
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.31854",
+        "paper_url": "https://arxiv.org/abs/2610.31854",
+        "pdf_url": "https://arxiv.org/pdf/2610.31854",
+        "published": "2026-10-22",
+        "title": "SWE-Clar: Can Coding Agents Clarify Incomplete Client Requirements and Deliver Greenfield Software?",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Coding agents can translate language instructions into robot programs. For contact-rich manipulation, a key challenge is to generate and refine control logic that responds to physical interaction. We present FORCA, a coding agent that takes visual observations and wrist force/torque (F/T) measurements as input to write Python programs for contact probing and force-responsive motion. Between executions, the agent inspects force records alongside visual outcomes to diagnose failures and revise both motion and force-feedback control logic. FORCA requires no demonstrations, task-specific training, or simulation. Across five real-robot tasks, we demonstrate its effectiveness in three forms of contact-rich manipulation: improving manipulation accuracy, adapting to changes in object or surface properties, and regulating contact under surface variation and object motion. Compared with a vision-only variant of the same agent, FORCA improves grasp accuracy and task success and reduces contact loss in wiping and peeling.",
+        "authors": [
+          "Xiao Tan",
+          "Yixuan Wang",
+          "Zhexi Wang",
+          "Wenzhen Yuan"
+        ],
+        "categories": [
+          "cs.RO"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.31841",
+        "paper_url": "https://arxiv.org/abs/2610.31841",
+        "pdf_url": "https://arxiv.org/pdf/2610.31841",
+        "published": "2026-10-22",
+        "title": "FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "A bug report describes what went wrong, but rarely where the code should change. Existing repository-level localization methods often let language models iteratively decide what code to inspect next, requiring repeated model calls and substantial token usage. We investigate whether these inspection decisions can instead be planned before source retrieval. In this research, we introduce CuraLoc, which first selects candidate files and represents their symbols using compact behavioral and structural descriptions. In a single planning decision, the model jointly selects starting symbols, chooses code relationships to inspect from each, and forms hypotheses about likely edits. Deterministic retrieval collects the requested source for a final ranking informed by those hypotheses, concentrating model reasoning on choosing and comparing code rather than directing each retrieval step. We demonstrate the efficacy of our proposed approach on the SWE-Bench Lite and Verified datasets. On SWE Bench Verified with GPT-5.2, CuraLoc raises Func@1 from LocAgent's 53.8% to 59.3% while using 90.3% fewer recorded tokens, and also outperforms RepoSearcher (56.2%) and Agentless (39.6%) on Func@1. On SWE-bench Lite, CuraLoc achieves a high 83.8% Func@5 accuracy improving on Agentless by more than 15% in relative accuracy. Additionally, CuraLoc supports different model backbones, with strong localization accuracy demonstrated using both GPT-5.2 and GPT-6 Astra. These results provide evidence that repository-level code inspection can be planned effectively without iterative model-controlled navigation.",
+        "authors": [
+          "Sangeeta Warrier",
+          "Anush Sankaran",
+          "Ryen White"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.31809",
+        "paper_url": "https://arxiv.org/abs/2610.31809",
+        "pdf_url": "https://arxiv.org/pdf/2610.31809",
+        "published": "2026-10-22",
+        "title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Coding agents can be guided with instruction files in a repository. We examine this emerging practice through a census of popular, active GitHub repositories in thirteen languages, treating each repository's root AGENTS.md and CLAUDE.md as one instruction set. Agent instructions appear in of repositories and of the most-starred; where both files exist, CLAUDE.md usually points to AGENTS.md. We analyse statements using model-assisted annotation and human review. The annotations reveal a practical mix of project knowledge and rules about code, building and workflow. Collaboration rules name concrete requirements, from test plans to commit formats, yet of directives give no reason. Projects disagree on AI attribution: commit-message rules more often prohibit it than require it, while pull-request rules more often require disclosure. A third of instruction sets have a generator-associated signature, a tool-inserted block, shared text or an AI-marked creation commit; four in five are edited after creation. Prespecified tests associate repository popularity with rules on pull requests and AI contributions. Exploratory analyses link activity to process-oriented content and show that LLM and agent projects are over-represented among adopters. The models agree much more closely with each other than with the human reviewer's topic assignments, a caution for automated annotation. We release the annotations, taxonomies and pointers to the analysed file versions.",
+        "authors": [
+          "Pawel Zarzycki"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.31715",
+        "paper_url": "https://arxiv.org/abs/2610.31715",
+        "pdf_url": "https://arxiv.org/pdf/2610.31715",
+        "published": "2026-10-22",
+        "title": "What Open-Source Projects Tell Their Coding Agents: A Census of AGENTS.md and CLAUDE.md",
+        "updated": "2026-10-22"
+      },
+      {
+        "abstract": "Context compaction lets long-horizon coding agents continue beyond their context windows, but can erase the state needed to finish a task. Prior evaluations measure efficiency, retained information, or end-to-end success, leaving the effect of a specific history replacement difficult to isolate. Compact-Bench pairs full-history and summary-only continuations from a shared repository state, and evaluates recurring details and successive production compactions. It covers 35 SWE-bench repairs, 146 agentic sessions, and 106 production chains. Across 14 summarizer backbones, stable damage ranges from 5-64% of 22 full-history successes: Claude Opus 4.8 preserves the most repairs, while DeepSeek-Flash damages the most. With Kimi-K3 as summarizer, the Kimi Code prompt preserves the most task continuations (19/22), whereas Claude Code retains the most recurring details (15.0%). LLM summaries retain at most 16.0% of recurring details, compared with 79.1% for mechanical extraction; production summaries retain 15.7% at the first boundary. Failures recur across methods: one repair is damaged by 13/14 backbones, and another by all 5 prompts. These results show that reliable compaction requires preserving the progress needed to complete a task, and that retaining relevant information alone does not ensure successful continuation. Code is available at https://github.com/cai-jianfeng/compact-bench and data is available at https://huggingface.co/datasets/caijanfeng/compact-bench.",
+        "authors": [
+          "Ruopei Sun",
+          "Jianfeng Cai",
+          "Kangwen Zhao",
+          "Wengang Zhou",
+          "Houqiang Li"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/cai-jianfeng/compact-bench",
+        "comment": "",
+        "first_seen": "2026-10-26",
+        "id": "2610.31710",
+        "paper_url": "https://arxiv.org/abs/2610.31710",
+        "pdf_url": "https://arxiv.org/pdf/2610.31710",
+        "published": "2026-10-22",
+        "title": "Compact-Bench: Measuring What Context Compaction Costs Long-Horizon Coding Agents",
+        "updated": "2026-10-22"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2025-08-26",
+        "description": "An open, programmable decision layer for models and compute.",
+        "discovery": "active",
+        "first_seen": "2026-10-26",
+        "forks": 1076,
+        "full_name": "vllm-project/semantic-router",
+        "id": 1045247072,
+        "language": "Go",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-26",
+        "score": 20.19,
+        "star_growth_7d": null,
+        "stars": 6256,
+        "topics": [
+          "ai-gateway",
+          "guardrails",
+          "inference",
+          "kubernetes",
+          "llm",
+          "llmrouter",
+          "mixture-of-models",
+          "pytorch",
+          "semantic-router",
+          "transformer",
+          "vllm"
+        ],
+        "url": "https://github.com/vllm-project/semantic-router"
+      },
+      {
+        "created_at": "2024-09-03",
+        "description": "NobodyWho is an inference engine that lets you run LLMs locally and efficiently on any device.  ",
+        "discovery": "active",
+        "first_seen": "2026-10-26",
+        "forks": 98,
+        "full_name": "nobodywho-ooo/nobodywho",
+        "id": 851630314,
+        "language": "Rust",
+        "license": "EUPL-1.2",
+        "pushed_at": "2026-10-24",
+        "score": 17.7,
+        "star_growth_7d": null,
+        "stars": 1644,
+        "topics": [
+          "ai",
+          "expo",
+          "flutter",
+          "gguf",
+          "godot",
+          "godot-engine",
+          "godot-plugin",
+          "godot4",
+          "inference-engine",
+          "kotlin",
+          "llm",
+          "local-llm",
+          "on-device-ai",
+          "python",
+          "python-llm",
+          "react-native",
+          "slm",
+          "stt",
+          "swift",
+          "tts"
+        ],
+        "url": "https://github.com/nobodywho-ooo/nobodywho"
+      },
+      {
+        "created_at": "2026-10-22",
+        "description": "Runic macOS Menu Bar App for AI Usage Cost and Token Tracking",
+        "discovery": "new",
+        "first_seen": "2026-10-26",
+        "forks": 0,
+        "full_name": "Eljot19/runic",
+        "id": 1430225220,
+        "language": "HTML",
+        "license": null,
+        "pushed_at": "2026-10-26",
+        "score": 12.08,
+        "star_growth_7d": null,
+        "stars": 58,
+        "topics": [
+          "ai",
+          "anthropic",
+          "claude",
+          "codex",
+          "cost-tracking",
+          "developer-tools",
+          "gemini",
+          "llm",
+          "local-first",
+          "macos",
+          "macos-app",
+          "menubar",
+          "observability",
+          "ollama",
+          "openai",
+          "openrouter",
+          "swift",
+          "swiftui",
+          "token-tracking",
+          "usage-tracking"
+        ],
+        "url": "https://github.com/Eljot19/runic"
+      },
+      {
+        "created_at": "2026-10-21",
+        "description": "Swap one RAG pipeline stage, hold the rest fixed, and measure whether the gain survives composition. The framework behind \"Retrieval Augmented Generation Compositionality\": 450 configurations, eight benchmarks, corpora from 5K to 200K documents.",
+        "discovery": "new",
+        "first_seen": "2026-10-26",
+        "forks": 1,
+        "full_name": "dolev31/lasagna",
+        "id": 1428808706,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-24",
+        "score": 10.12,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [
+          "ablation-study",
+          "agentic-rag",
+          "beir",
+          "benchmark",
+          "evaluation",
+          "hybrid-search",
+          "information-retrieval",
+          "langgraph",
+          "llm",
+          "mcp",
+          "mcp-server",
+          "python",
+          "rag",
+          "rag-evaluation",
+          "ragas",
+          "reproducibility",
+          "reranking",
+          "retrieval-augmented-generation",
+          "semantic-search",
+          "vector-database"
+        ],
+        "url": "https://github.com/dolev31/lasagna"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2025-05-12",
+        "description": "A Spec-Driven Multi-Agent Framework for AI-Assisted Software Engineering",
+        "discovery": "active",
+        "first_seen": "2026-10-26",
+        "forks": 229,
+        "full_name": "sdi2200262/agentic-project-management",
+        "id": 981907722,
+        "language": "JavaScript",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-25",
+        "score": 18.55,
+        "star_growth_7d": null,
+        "stars": 2443,
+        "topics": [],
+        "url": "https://github.com/sdi2200262/agentic-project-management"
+      },
+      {
+        "created_at": "2026-10-21",
+        "description": "A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.",
+        "discovery": "new",
+        "first_seen": "2026-10-26",
+        "forks": 53,
+        "full_name": "udhaykumarbala/cleanyourtv-app",
+        "id": 1428369484,
+        "language": "Kotlin",
+        "license": "MIT",
+        "pushed_at": "2026-10-25",
+        "score": 16.19,
+        "star_growth_7d": null,
+        "stars": 626,
+        "topics": [
+          "adb",
+          "android-tv",
+          "debloat",
+          "fire-tv",
+          "google-tv",
+          "launcher"
+        ],
+        "url": "https://github.com/udhaykumarbala/cleanyourtv-app"
+      },
+      {
+        "created_at": "2026-10-25",
+        "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+        "discovery": "new",
+        "first_seen": "2026-10-26",
+        "forks": 53,
+        "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
+        "id": 1433057196,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-25",
+        "score": 15.97,
+        "star_growth_7d": null,
+        "stars": 552,
+        "topics": [
+          "agent-skills",
+          "archives",
+          "claude-code",
+          "codex",
+          "family-history",
+          "familysearch",
+          "genealogy",
+          "ussr"
+        ],
+        "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+      },
+      {
+        "created_at": "2026-10-20",
+        "description": "A notch-style island for GNOME with an AI assistant that installs and fixes things, Claude Code and Codex approvals from the notch, music with synced lyrics, notifications, a focus timer, tasks and a clipboard shelf.",
+        "discovery": "new",
+        "first_seen": "2026-10-26",
+        "forks": 5,
+        "full_name": "zickrian/isle",
+        "id": 1427006992,
+        "language": "Rust",
+        "license": "GPL-3.0",
+        "pushed_at": "2026-10-26",
+        "score": 11.13,
+        "star_growth_7d": null,
+        "stars": 33,
+        "topics": [
+          "ai-agents",
+          "ai-assistant",
+          "claude-code",
+          "clipboard-manager",
+          "codex",
+          "gnome",
+          "gnome-shell-extension",
+          "linux",
+          "lyrics",
+          "notch",
+          "pomodoro",
+          "rust",
+          "voice-assistant",
+          "wayland"
+        ],
+        "url": "https://github.com/zickrian/isle"
+      }
+    ]
+  }
+}
