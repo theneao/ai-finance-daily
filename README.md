@@ -14,78 +14,83 @@
 
 ---
 
-# AI 应用研究日报 · 2026-10-26
+# AI 应用研究日报 · 2026-10-27
 
-本期新增：**2 篇论文**（其中 0 篇找到可能的代码）和 **2 个 GitHub 项目**。
+本期新增：**0 篇论文**（其中 0 篇找到可能的代码）和 **0 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
-| 日期 | 论文 | 作者 | 代码 |
-|---|---|---|---|
-| 2026-10-23 | [Jawboning the Fed: Do Markets Listen When Administrations Talk?](https://arxiv.org/abs/2610.32300) | Michela Baretti, Umberto Collodel, Jacopo Zacché | — |
-| 2026-10-23 | [Financial Context-Rich Strategy for Actor-Critic based Agents: A Deep Reinforcement Learning Approach for Stock Trading](https://arxiv.org/abs/2610.32237) | Hrishikesh Singh, Aarti Sharma, Millie Pant | — |
+本期没有发现通过严格双重筛选的新论文。
 
 
 ## GitHub 金融与交易工具
 
-| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
-|---|---|---:|---:|---|---|
-| [VeKiner/akshare-stock-data-fetcher](https://github.com/VeKiner/akshare-stock-data-fetcher) | 基于 AKShare 的 A 股行情批量采集工具，支持分钟线、实时行情，内置代理轮转 + MongoDB 存储 + 定时调度，解决RemoteDisconnected问题。 | 121 | — | Python | 近期活跃 |
-| [kan0un/minsung-crypto-pair-trading-model-desktop](https://github.com/kan0un/minsung-crypto-pair-trading-model-desktop) | Crypto Currency Pair Trading Investment Model Desktop Application | 58 | — | Rust | 新项目 |
+本期没有发现符合条件的新项目。
 
 
 ## Vibe Coding · 工作与学习增强
 
-新增 **11 篇论文**（3 篇找到代码）和 **4 个项目**。
+新增 **15 篇论文**（1 篇找到代码）和 **3 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-23 | [StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents](https://arxiv.org/abs/2610.32648) | Shiwen Shan, Yintong Huo, Zhiying Wu 等 | — |
-| 2026-10-23 | [Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents](https://arxiv.org/abs/2610.32578) | Hassan Hassanzadeh Aliabadi | — |
-| 2026-10-23 | [From Faulty Claims to Incorrect Patches: An Empirical Study of Task-Grounded Reasoning in Coding Agents](https://arxiv.org/abs/2610.32338) | You Wang, Jinjun Huang, Zhonghao Jiang 等 | — |
-| 2026-10-23 | [SWE-Shift: Evaluating Coding Agents in Evolving Workspaces](https://arxiv.org/abs/2610.32196) | Victor Shea-Jay Huang, Rongqing Li, Zhangyue Yin 等 | [arXiv 页面](https://github.com/JeixHuang/SWE-Shift) |
-| 2026-10-23 | [Pairing Matters: Performance, Failures, and Efficiency in Lightweight Coding Agents](https://arxiv.org/abs/2610.32131) | Lu Zhao, Christopher M. Poskitt, David Lo | — |
-| 2026-10-22 | [Knowing When to Stop: The Evidence-Action Gap in Coding Agents](https://arxiv.org/abs/2610.31895) | Tianyu Chen, Xinran Zhao, Vijay Viswanathan 等 | — |
-| 2026-10-22 | [SWE-Clar: Can Coding Agents Clarify Incomplete Client Requirements and Deliver Greenfield Software?](https://arxiv.org/abs/2610.31854) | Jialei Li, Dingxian Wang, Xiaoyan Zhao 等 | [论文链接](https://github.com/upwork/SWE-Clar) |
-| 2026-10-22 | [FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2610.31841) | Xiao Tan, Yixuan Wang, Zhexi Wang 等 | — |
-| 2026-10-22 | [CuraLoc: Repository-Level Fault Localization via Planned Code Inspection](https://arxiv.org/abs/2610.31809) | Sangeeta Warrier, Anush Sankaran, Ryen White | — |
-| 2026-10-22 | [What Open-Source Projects Tell Their Coding Agents: A Census of AGENTS.md and CLAUDE.md](https://arxiv.org/abs/2610.31715) | Pawel Zarzycki | — |
-| 2026-10-22 | [Compact-Bench: Measuring What Context Compaction Costs Long-Horizon Coding Agents](https://arxiv.org/abs/2610.31710) | Ruopei Sun, Jianfeng Cai, Kangwen Zhao 等 | [论文链接](https://github.com/cai-jianfeng/compact-bench) |
+| 2026-10-26 | [Hierarchical Skill Evolution for Coding Agent](https://arxiv.org/abs/2610.35616) | Jun Gao, Yun Peng, Changhai Zhou 等 | — |
+| 2026-10-26 | [The Hidden Costs of Forgetting: A Study of Trajectory Deletion in Software Engineering Agents](https://arxiv.org/abs/2610.35496) | Fernando Vallecillos-Ruiz, Islem Bouzenia, Michael Pradel 等 | — |
+| 2026-10-26 | [FeatureLoop: Benchmarking Coding Agents under Evolving Requirements](https://arxiv.org/abs/2610.35488) | Jia Feng, Alyssa Wu, Cuiyun Gao 等 | — |
+| 2026-10-26 | [Toward Evidence-Based Agentic Software Engineering](https://arxiv.org/abs/2610.35348) | Sebastian Baltes, Christoph Treude | — |
+| 2026-10-26 | [Testing with Coding Agents: A Large-Scale Comparison of Agent-Supported and Human-Authored Pull Requests](https://arxiv.org/abs/2610.35297) | Roberto Milanese, Francesco Salzano, Hovhannes Muradyan 等 | — |
+| 2026-10-26 | [V$^3$AST-Bench: Verifiable, Valid, and Versatile Safety Evaluation for Coding Agents](https://arxiv.org/abs/2610.35188) | Weitao Feng, Hengheng Xiong, Zihao Zeng 等 | [arXiv 页面](https://github.com/Alibaba-AAIG/VAST-Bench) |
+| 2026-10-26 | [Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models](https://arxiv.org/abs/2610.35138) | Xilin Wei, Shengyuan Ding, Xinyu Fang 等 | — |
+| 2026-10-26 | [Rivet: Utility-Preserving Context Control for Repository-Level Coding Agents](https://arxiv.org/abs/2610.34967) | Ruwei Pan, Linhao Wu, Yakun Zhang 等 | — |
+| 2026-10-26 | [Reasoning Patterns for Efficient AI Coding: An Empirical Study](https://arxiv.org/abs/2610.34943) | Zhe Yin, Yuling Shi, Xiaodong Gu 等 | — |
+| 2026-10-26 | [How Do Coding-Agent Harnesses Self-Evolve? An Empirical Study of Retrospective Adaptation](https://arxiv.org/abs/2610.34938) | Christoph Treude, Sebastian Baltes | — |
+| 2026-10-26 | [What Will Replace Pull Requests? Rethinking Software Collaboration for AI Agents](https://arxiv.org/abs/2610.34933) | Christoph Treude, Sebastian Baltes | — |
+| 2026-10-26 | [Ethics by Configuration: AI Ethics Principles in Coding Agent Instructions](https://arxiv.org/abs/2610.34847) | Haoyu Gao, Peerachai Banyongrakkul, Marc Cheong 等 | — |
+| 2026-10-26 | [The Physical Cost of Context: Quality-Constrained Resource Accounting for Coding Agents](https://arxiv.org/abs/2610.34763) | Zhongming Yu, Yitong Ma, Hengjia Yu 等 | — |
+| 2026-10-25 | [CodeMeepo: A Multi-Agent Workflow for Repository-Level Code Migration and Optimization](https://arxiv.org/abs/2610.34633) | Farzad Habibi, Changrong Wu, Jinzhou Jiang 等 | — |
+| 2026-10-25 | [Do AI Coding Agents Write Infrastructure as Code Like Humans? An Empirical Study of GitHub Pull Requests](https://arxiv.org/abs/2610.34613) | Amine Barrak, Emna Ksontini, Charles Wehbe | — |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [sdi2200262/agentic-project-management](https://github.com/sdi2200262/agentic-project-management) | A Spec-Driven Multi-Agent Framework for AI-Assisted Software Engineering | 2443 | — | JavaScript | 近期活跃 |
-| [udhaykumarbala/cleanyourtv-app](https://github.com/udhaykumarbala/cleanyourtv-app) | A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled. | 626 | — | Kotlin | 新项目 |
-| [DenisSergeevitch/ex-ussr-kinship-research](https://github.com/DenisSergeevitch/ex-ussr-kinship-research) | Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language. | 552 | — | Python | 新项目 |
-| [zickrian/isle](https://github.com/zickrian/isle) | A notch-style island for GNOME with an AI assistant that installs and fixes things, Claude Code and Codex approvals from the notch, music with synced lyrics, notifications, a focus timer, tasks and a clipboard shelf. | 33 | — | Rust | 新项目 |
+| [t3dotgg/tstack](https://github.com/t3dotgg/tstack) | The agent skills I use every day. Works with Claude Code and Codex. | 1661 | — | Python | 新项目 |
+| [morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust) | Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI. | 1237 | — | Python | 新项目 |
+| [andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) | AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … | 838 | — | TypeScript | 新项目 |
 
 
 ## AI Infra · 推理部署与应用基础设施
 
-新增 **3 篇论文**（0 篇找到代码）和 **4 个项目**。
+新增 **12 篇论文**（1 篇找到代码）和 **3 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-23 | [NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding](https://arxiv.org/abs/2610.32881) | Nilesh Prasad Pandey, Jangseon Park, Jason Kong 等 | — |
-| 2026-10-23 | [InferSlice: A Reference Architecture for SLO-driven LLM Inference over a Telco Wide-Area Network](https://arxiv.org/abs/2610.32638) | Juan Parra-Ullauri, Anthony Chiu, Hari Madhukumar 等 | — |
-| 2026-10-22 | [KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving](https://arxiv.org/abs/2610.31827) | Avinash Maurya, Jaiaid Mobin, Jie Ye 等 | — |
+| 2026-10-26 | [MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference](https://arxiv.org/abs/2610.34731) | Huaizhi Zhang, Jiacheng Zhu, Xuqi Zhu 等 | — |
+| 2026-10-26 | [Prefetch-Steered Routing: Deterministic Cache-Aware Expert Selection for Offloaded Mixture-of-Experts Decoding](https://arxiv.org/abs/2610.34721) | Siming Huang | — |
+| 2026-10-25 | [Speculative Decoding for Mixture-of-Experts Models: Expert Bytes, Kernel Bandwidth and the Best Draft Length](https://arxiv.org/abs/2610.34440) | Yuzheng Lan | — |
+| 2026-10-25 | [Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models](https://arxiv.org/abs/2610.34436) | Dezhen Lu, Runguo Li, Zixiang Ni | — |
+| 2026-10-25 | [Environment-Adaptive Dynamic KV Cache for Multi-Path Parameter Prediction](https://arxiv.org/abs/2610.34135) | Zhaoyang Li, Yuhao Chen, Qianqian Yang 等 | [论文链接](https://github.com/LZhaoyang/kv) |
+| 2026-10-25 | [T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding](https://arxiv.org/abs/2610.34103) | Shahriar Kabir Nahin, Xiao Ye, Muhao Chen 等 | — |
+| 2026-10-24 | [ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding](https://arxiv.org/abs/2610.33719) | Yuetao Chen, Peng Wang, Hong Xu | — |
+| 2026-10-24 | [DualPace: Decoupled Scheduling and Cooperative GPU--CPU Decoding for LLM Serving](https://arxiv.org/abs/2610.33501) | YuXuan Lin, KeQiang Wu, Kingsum Chow | — |
+| 2026-10-24 | [LLMs in Cloud: A Discussion on Architecture, Orchestration, and Inference](https://arxiv.org/abs/2610.33475) | Jannatun Noor, Athar Noor Mohammad Rafee, Md. Sadman Haque 等 | — |
+| 2026-10-24 | [One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting](https://arxiv.org/abs/2610.33379) | Yuxiao Chen, Changxiao Cai | — |
+| 2026-10-23 | [LSTM-Style Looped Transformers with Shared KV Caches](https://arxiv.org/abs/2610.33360) | Andreas Kirsch | — |
+| 2026-10-21 | [Double KV Cache Optimization on Apple Silicon: Block-FP4, Radial Quantization, and Fused Metal Kernels](https://arxiv.org/abs/2610.33076) | Ibrokhimsho Abduchaborov | — |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) | An open, programmable decision layer for models and compute. | 6256 | — | Go | 近期活跃 |
-| [nobodywho-ooo/nobodywho](https://github.com/nobodywho-ooo/nobodywho) | NobodyWho is an inference engine that lets you run LLMs locally and efficiently on any device.   | 1644 | — | Rust | 近期活跃 |
-| [Eljot19/runic](https://github.com/Eljot19/runic) | Runic macOS Menu Bar App for AI Usage Cost and Token Tracking | 58 | — | HTML | 新项目 |
-| [dolev31/lasagna](https://github.com/dolev31/lasagna) | Swap one RAG pipeline stage, hold the rest fixed, and measure whether the gain survives composition. The framework behind "Retrieval Augmented Generation Compositionality": 450 configurations, eight benchmarks, corpora from 5K to 200K documents. | 20 | — | Python | 新项目 |
+| [hanxiao/DeepSeek-V4.1-Flash-1017-FP8-abliterated-4x-RTX-PRO-6000](https://github.com/hanxiao/DeepSeek-V4.1-Flash-1017-FP8-abliterated-4x-RTX-PRO-6000) | Abliterated DeepSeek-V4.1-Flash-1017 (FP8 dense, FP4 experts) on 4x RTX PRO 6000 with vLLM-Moet r21 and DSpark: 371-376 tok/s single-stream agent decode at 30k-120k context, 1M context, Flex-start GCE VM | 25 | — | Shell | 新项目 |
+| [zhangshuibai/molten](https://github.com/zhangshuibai/molten) | Run a coding model at 300+ tok/s on your Mac. Native Rust + Metal inference engine for LiquidAI LFM2.5-24B-A2B (MLX 4-bit) on Apple Silicon. | 22 | — | Metal | 新项目 |
+| [alleyxd/SecondThought](https://github.com/alleyxd/SecondThought) | Think only when the tool call looks unsure: confidence-gated reasoning for small local models. Code, BFCL results and paper. | 20 | — | Python | 新项目 |
 
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。

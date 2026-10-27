@@ -1,0 +1,803 @@
+{
+  "papers": [],
+  "repositories": [],
+  "run_date": "2026-10-27",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "This paper presents Memory- and Communication-Aware Framework for Long-Context LLM Inference (MCF) that optimizes long-context inference through communication-aware and stage-adaptive KV-cache layout transitions. At the core of MCF is {Memory-Aware Replication and Scheduling} (MARS), a dynamic orchestration mechanism for chunked prefill. MARS exploits early-stage memory headroom by selectively replicating highly reused KV blocks, improving locality and hiding KV propagation latency behind attention computation. As prefill progresses and memory pressure increases, MARS progressively drains redundant replicas and converges the KV cache into a sharded decode-ready layout, avoiding expensive layout conversion at the prefill--decode boundary. For decoding, MCF adopts a query-centric execution model in which KV shards remain stationary while lightweight query tensors are routed across workers. This changes communication from KV-cache-dependent transfer to query-dependent transfer, reducing communication growth with context length. MCF further integrates a hardware-software co-designed execution layer based on an FPGA compute-NIC datapath, enabling metadata-driven KV routing and collective operations directly in the network path. Experiments show that MCF improves TTFT, throughput, and scalability over state-of-the-art distributed inference systems, with larger benefits as context length and cluster size increase.",
+        "authors": [
+          "Huaizhi Zhang",
+          "Jiacheng Zhu",
+          "Xuqi Zhu",
+          "Junkyu Lee",
+          "Klaus McDonald-Maier",
+          "Xiaojun Zhai"
+        ],
+        "categories": [
+          "cs.AR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34731",
+        "paper_url": "https://arxiv.org/abs/2610.34731",
+        "pdf_url": "https://arxiv.org/pdf/2610.34731",
+        "published": "2026-10-26",
+        "title": "MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "When a Mixture-of-Experts (MoE) model does not fit in GPU memory, batch-1 decoding is dominated by copying expert weights from host memory. Cache-aware routing reduces these copies by biasing the router toward resident experts, but combined with asynchronous prefetching it makes the model's outputs depend on transfer timing, so a harness that does not simulate that timing no longer evaluates the deployed model. We propose prefetch-steered routing (PSR): routing conditions on a deterministic logical cache, into which at most n experts predicted by the next layer's router are inserted per layer and token; physical copies affect only latency. On OLMoE-1B-7B with 50% and 25% of experts resident on an RTX 4090, PSR decodes 2.2-2.3x faster than exact routing with LRU and 25-30% faster than the Cache-Prior operating point, with mean benchmark differences of +0.1 and +0.5 points (95% lower bounds -0.8 and -0.3). In greedy generation its lead over Cache-Prior depends on the workload and reverses on HumanEval at 50% residency. On Moonlight-16B-A3B, PSR is 1.9x faster than exact routing with LRU at 37.5% residency and, at the latency of Cache-Prior, significantly better on three of eight benchmarks. On Qwen3.6-35B-A3B, where copies are cheap relative to computation, PSR keeps its advantage over Cache-Prior on the likelihood benchmarks but not its speed. Distillation-trained gates did not help. Speculative decoding with block-level expert selection was slower than PSR with a 1B autoregressive drafter on OLMoE, but with a block drafter on Qwen3.6 it was 2.1-2.9x faster than any autoregressive configuration with at most its GPU memory on the 64 prompts we timed.",
+        "authors": [
+          "Siming Huang"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34721",
+        "paper_url": "https://arxiv.org/abs/2610.34721",
+        "pdf_url": "https://arxiv.org/pdf/2610.34721",
+        "published": "2026-10-26",
+        "title": "Prefetch-Steered Routing: Deterministic Cache-Aware Expert Selection for Offloaded Mixture-of-Experts Decoding",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Speculative decoding checks several drafted tokens in one verification pass. On a mixture-of-experts (MoE) model, consecutive tokens often select the same experts. A deduplicating engine reads each selected expert once per pass, so it requests fewer bytes than a per-slot engine, which reads it once per token. We write a step's time as the bytes each kernel requests over its effective bandwidth, plus fixed time. Under geometric acceptance, we derive from this step time when speculation is faster than plain decoding. The best draft length is a monotone staircase in the acceptance rate. We bound how a bandwidth error moves each result, and we check the main steps in Lean. Deduplication is faster exactly where its share $\\bar u(n)$ of the per-slot bytes is below its ratio $r(n)$ of the per-slot bandwidth. On llama.cpp Metal, MLX-LM and llama.cpp CUDA, which we modified to deduplicate, the per-slot kernel has the higher effective bandwidth (r = 0.32 to 0.75). Thus deduplication is faster only from 5 to 8 tokens per pass, or never. We fit the bandwidths on one layer's expert operation, run alone, in under an hour per model. Bytes from routing traces over these bandwidths predict the time that deduplication saves. The measured saving lies inside its error bound at every point on CUDA and MLX-LM and at 36 of 48 points on Metal. The crossover is the first pass size at which deduplication is faster. The prediction places it within one pass size in 10 of 12 configurations of engine, model and depth. We computed these predictions after the measurements. On DeepSeek-V2-Lite, operation times measured before its speculative runs give the best draft length on CUDA within one at all 22 acceptance values.",
+        "authors": [
+          "Yuzheng Lan"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.DC",
+          "cs.PF"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34440",
+        "paper_url": "https://arxiv.org/abs/2610.34440",
+        "pdf_url": "https://arxiv.org/pdf/2610.34440",
+        "published": "2026-10-25",
+        "title": "Speculative Decoding for Mixture-of-Experts Models: Expert Bytes, Kernel Bandwidth and the Best Draft Length",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "A looped language model runs one block of layers $R$ times per token, so its key-value (KV) cache holds $R$ planes per recurrent layer, and self-speculative decoding (draft with a few loops, verify with all $R$) reads them all. We find that prefix keys and values matter late: at equal perturbation size, loops 25-32 are $e^{15.0}$ (Huginn-0125) and $e^{12.8}$ (Raven-Llama) times more sensitive than loops 2-9, and the planes approach the last one geometrically, at 0.88 and 0.81 per loop. Whether the deepest plane alone suffices then depends on how ripe the late planes are: on Raven, storing only it is indistinguishable from a bf16-to-fp32 change; on Huginn, 1% of positions carry 74% of its error. We turn this into RIPE, which stores the deepest plane everywhere except a window of recent positions kept at full depth. On Huginn, a 64-position window removes 89% of the tail positions at 11.9% of the full cache's memory (1024-token context), and any window at least as long as the draft block makes batched verification block-independent by construction. Nine pre-registered GPU batches back these results. Simple models of acceptance, decoding cost and memory, two of them checked on held-out measurements, account for the measured self-speculative speed-ups ($2.09\\times$ with the full cache, $2.58\\times$ with the deepest plane) and decompose the $2.24\\times$ fixed-memory throughput gain of one shared plane.",
+        "authors": [
+          "Dezhen Lu",
+          "Runguo Li",
+          "Zixiang Ni"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34436",
+        "paper_url": "https://arxiv.org/abs/2610.34436",
+        "pdf_url": "https://arxiv.org/pdf/2610.34436",
+        "published": "2026-10-25",
+        "title": "Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "Multipath parameter prediction provides a structured and physically interpretable representation of wireless propagation for environment-aware communication systems. However, existing Transformer-based methods repeatedly encode the same environment when predicting multiple BS--UE links, resulting in redundant computation. To address this issue, we propose an environment-conditioned dynamic KV caching framework for multipath parameter prediction. Specifically, we decouple environment-dependent computation from BS--UE geometry, enabling environment-side representations and intermediate KV states to be reused across multiple link queries while only the geometry branch is updated. Building on this reusable cache, we further introduce a dynamic compression mechanism that uses environment-side attention scores to retain informative tokens and adaptively allocates a fixed cache budget across Transformer layers. Experiments on the WAIR-D dataset show that the proposed method reduces KV memory from 0.2500 MB to 0.1406 MB, while the delay NMSE increases only slightly from 0.0673 to 0.0678. Code is available at https://github.com/LZhaoyang/kv.",
+        "authors": [
+          "Zhaoyang Li",
+          "Yuhao Chen",
+          "Qianqian Yang",
+          "Zhaoyang Zhang"
+        ],
+        "categories": [
+          "eess.SP"
+        ],
+        "code_match": "paper-link",
+        "code_url": "https://github.com/LZhaoyang/kv",
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34135",
+        "paper_url": "https://arxiv.org/abs/2610.34135",
+        "pdf_url": "https://arxiv.org/pdf/2610.34135",
+        "published": "2026-10-25",
+        "title": "Environment-Adaptive Dynamic KV Cache for Multi-Path Parameter Prediction",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "Speculative decoding significantly accelerates autoregressive text generation in Large Language Models (LLMs), but its efficacy depends largely on two key factors: the distributional alignment between the draft and the target model, and the draft model's latency during inference. However, existing approaches typically utilize independently pretrained small draft models or seek to prune the target model to a manually chosen architecture, thereby failing to explicitly balance the trade-off between draft model alignment and token generation efficiency. To address this gap, we formulate draft model design as an optimization problem and propose T2D, a framework that constructs draft models directly from the target model using latency-aware structured pruning and knowledge distillation. In this manner, T2D obtains draft models that are jointly optimized for both measured inference latency and cross-entropy loss on the target model's responses, resulting in superlative speculative decoding performance. Through extensive experiments on multi-domain speculative decoding benchmarks and across several target model families of differing scale, we demonstrate how T2D prunes up to 92\\% of the target model to obtain highly performant draft models compared to competitive baselines. Moreover, draft models obtained via T2D can also be utilized by other speculative decoding token-alignment and knowledge distillation methods in a plug-and-play fashion, leading to further gains. Our findings underscore the importance of jointly navigating the draft model architecture-alignment frontier to unlock the full potential of speculative decoding for LLMs.",
+        "authors": [
+          "Shahriar Kabir Nahin",
+          "Xiao Ye",
+          "Muhao Chen",
+          "Ben Zhou",
+          "Anshuman Chhabra"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34103",
+        "paper_url": "https://arxiv.org/abs/2610.34103",
+        "pdf_url": "https://arxiv.org/pdf/2610.34103",
+        "published": "2026-10-25",
+        "title": "T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "The key-value (KV) cache places growing demands on GPU memory capacity and bandwidth as large language models serve longer contexts and more concurrent requests. Its footprint limits concurrency, while repeated KV reads during attention can make decoding memory-bandwidth bound. Prior lossless KV cache compression methods reduce transfers between devices but restore the uncompressed KV cache in GPU memory before attention. They therefore leave these repeated KV reads unchanged and require additional work and memory for decompression. We present ZipFusion, which enables attention to consume the losslessly compressed KV cache directly. ZipFusion co-designs the compression format and attention kernel to reduce the bytes read from GPU memory during attention. The kernel reconstructs the original values directly in registers using simple bit operations, avoiding a separate decompression pass and easing the memory-bandwidth bound. ZipFusion also reassigns memory freed by compression across layers to store additional KV cache. Its memory manager reserves space for ongoing generation and makes the remaining capacity available to new requests. We implement ZipFusion on top of FlashInfer and integrate it with SGLang. On an NVIDIA H100, ZipFusion achieves about 1.25x speedup over FlashInfer in decode attention. With 8K context, it improves model decode throughput by up to 26.3% over uncompressed SGLang under the same GPU memory budget. At each method's largest supported batch, it also delivers up to 2.76x the throughput of the best-performing lossless KV cache compression baseline.",
+        "authors": [
+          "Yuetao Chen",
+          "Peng Wang",
+          "Hong Xu"
+        ],
+        "categories": [
+          "cs.AR",
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.33719",
+        "paper_url": "https://arxiv.org/abs/2610.33719",
+        "pdf_url": "https://arxiv.org/pdf/2610.33719",
+        "published": "2026-10-24",
+        "title": "ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding",
+        "updated": "2026-10-24"
+      },
+      {
+        "abstract": "Large language model (LLM) serving relies on batching to improve inference throughput, but the key-value (KV) cache grows with sequence length and limits GPU-resident concurrency. CPU offloading can expand KV capacity using host memory, yet existing systems remain largely GPU-gated: CPU-resident requests make progress only when the GPU scheduler exposes suitable overlap opportunities. As a result, host memory and CPU compute cannot act as an independent serving resource, leading to bursty CPU-side progress and inflated tail inter-token latency (ITL) under load. We present DualPace, an LLM serving runtime that turns the host into an independently scheduled decode engine. DualPace separates scheduling authority across two engines: the GPU engine executes prefills and GPU-resident decodes, while an AMX-enabled CPU engine independently batches and advances CPU-resident decodes. The engines are decoupled in scheduling but cooperative in execution: the CPU can execute a complete decode iteration locally or selectively invoke GPU Dense Assist for dense stages, while offline profiles guide hardware-specific batching and routing. Our evaluations show that, in decode-oriented scenarios, DualPace improves serving throughput by 6.9--43.2\\% over NEO, a state-of-the-art open-source CPU-offloading system, and by 11.5--90.6\\% over vLLM, a widely used GPU serving system, while maintaining the same level of latency. DualPace also preserves NEO's P99 time-to-first-token (TTFT) advantage over vLLM while sustaining 7.3--50.5\\% higher request rates than NEO at the same level of P99 ITL.",
+        "authors": [
+          "YuXuan Lin",
+          "KeQiang Wu",
+          "Kingsum Chow"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.33501",
+        "paper_url": "https://arxiv.org/abs/2610.33501",
+        "pdf_url": "https://arxiv.org/pdf/2610.33501",
+        "published": "2026-10-24",
+        "title": "DualPace: Decoupled Scheduling and Cooperative GPU--CPU Decoding for LLM Serving",
+        "updated": "2026-10-24"
+      },
+      {
+        "abstract": "The widespread deployment of foundational Large Language Models (LLM) across cloud datacenters marks a fundamental paradigm shift from stateless deep learning toward distributed, memory-intensive generative workloads. However, serving massive foundation models under stringent Service Level Objectives (SLO) exposes critical physical and system bottlenecks. These challenges include the persistent High Bandwidth Memory (HBM) wall, operational asymmetry between compute-bound prefilling and memory-bandwidth-bound decoding, explosive Key-Value (KV) cache expansion, prohibitive serverless cold starts, and hardware reliability vulnerabilities. Existing literature reviews remain layer-siloed, decoupling low-level accelerator virtualization from cluster orchestration and runtime inference, while largely overlooking defining advancements from 2024 to 2026. To address these limitations, this study presents a comprehensive, cross-layer systematic review guided by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 framework. We synthesize a holistic taxonomy unifying hardware virtualization, cluster-level scheduling, and runtime inference optimizations, including iteration-level continuous batching, prefill-decoding disaggregation, and hierarchical KV cache offloading. Furthermore, we evaluate resilient cloud-native service architectures, examining scale-to-zero serverless paradigms, fault-tolerant checkpointing against silent data corruption, and hardware-enforced Trusted Execution Environments (TEEs) for multi-tenant isolation. Finally, we formalize the multi-dimensional Pareto trade-offs governing throughput, latency, monetary cost, and confidentiality, outlining a forward-looking research roadmap spanning Compute Express Link (CXL) memory pooling, in-memory computing, and autonomous multi-agent control planes to guide future cloud LLM infrastructure.",
+        "authors": [
+          "Jannatun Noor",
+          "Athar Noor Mohammad Rafee",
+          "Md. Sadman Haque",
+          "Sreezon Das Gupta",
+          "Atiar Osman",
+          "Md. Abu Obaida Zishan"
+        ],
+        "categories": [
+          "cs.DC",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.33475",
+        "paper_url": "https://arxiv.org/abs/2610.33475",
+        "pdf_url": "https://arxiv.org/pdf/2610.33475",
+        "published": "2026-10-24",
+        "title": "LLMs in Cloud: A Discussion on Architecture, Orchestration, and Inference",
+        "updated": "2026-10-24"
+      },
+      {
+        "abstract": "Autoregressive (AR) language models generate tokens sequentially, so generating long outputs is costly. Speculative decoding mitigates this by using a lightweight drafter to propose multiple tokens for the target AR model to verify in parallel, while a diffusion-based drafter can produce an entire draft block in one forward pass. In models with AR and diffusion modes, one network both drafts and verifies, but drafting still waits for verification, so the standard schedule needs two sequential model calls per iteration. Existing one-call schedules avoid the wait but incur input size quadratic in the speculative width. Motivated by this efficiency bottleneck, we introduce Packed-SS, a self-speculative decoding schedule that verifies and drafts in a single model call with input size linear in the speculative width, while preserving the target model's distribution. The key idea is to let the diffusion drafter run one call ahead: while verifying the current draft, the model simultaneously constructs the next draft from an older verified prefix and keeps its unresolved suffix for the next iteration. Under a mild monotonicity assumption on the drafter, we further show that Packed-SS requires no more model calls than the standard two-call decoding in the greedy setting. Experiments on Nemotron 3B/8B and SetDLM 1.7B show higher throughput and lower mean wall time than both baselines under greedy decoding.",
+        "authors": [
+          "Yuxiao Chen",
+          "Changxiao Cai"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.33379",
+        "paper_url": "https://arxiv.org/abs/2610.33379",
+        "pdf_url": "https://arxiv.org/pdf/2610.33379",
+        "published": "2026-10-24",
+        "title": "One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting",
+        "updated": "2026-10-24"
+      },
+      {
+        "abstract": "Recurrent transformers reuse weights to perform deep computation with fewer parameters. We study an LSTM-style transformer that also shares one key--value cache across its recurrent core. At width 1024, it uses 40.4% fewer parameters than an untied control at nearly matched forward FLOPs, and reduces persistent cache sets from fifteen to four. Parallel training supplies cache entries from a standard-attention pass, whereas continuation reads entries produced recursively using shared attention. We address this mismatch by aligning the two training passes' cache entries with a consistency loss during the final 10% of a fixed training-token budget. Across three model widths on FineWeb, this removes 81--89% of the continuation-loss penalty relative to full-cache evaluation. The improvement replicates on disjoint documents for two training seeds. Across four widths and 1.05--4.19B training tokens, the loss cost of weight tying is smallest at lower token budgets, suggesting an opportunity to use recurrent computation when data and model storage are limited.",
+        "authors": [
+          "Andreas Kirsch"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.33360",
+        "paper_url": "https://arxiv.org/abs/2610.33360",
+        "pdf_url": "https://arxiv.org/pdf/2610.33360",
+        "published": "2026-10-23",
+        "title": "LSTM-Style Looped Transformers with Shared KV Caches",
+        "updated": "2026-10-23"
+      },
+      {
+        "abstract": "Key-value (KV) cache capacity and memory traffic are primary bottlenecks in long-context autoregressive inference. We evaluate five cache paths on an Apple Silicon M5 Max using MLX: a native bf16 baseline, block-scaled E2M1 FP4, a Python reference implementing radial quantization with a QJL-style residual, sequential FP4-to-Polar composition, and a fused Metal Polar kernel. On Apple Silicon M5 Max, fused Metal PolarQuant achieves 46.8 tok/s at 3,456 B/token - 3.64x compression versus the bf16 baseline and 1.84x faster than the Python Polar reference (25.4 tok/s), while slightly outperforming block-FP4 (41.5 tok/s at 3.62x compression). Sequential composition of FP4 and Polar (Double Optimization) yields no additive benefit: 4,241 B/token at 15.1 tok/s, worse than FP4 alone on both axes. The fused path establishes that radial coding can be competitive when packing, rotation, and reconstruction are placed in one device kernel, but this result does not extend to longer contexts. At 32K and above, all compressed variants collapse to 1.5-14 tok/s because the current attention path repeatedly reconstructs the full cache, retaining cumulative O(N^2) decode work. At 64K, the Metal variant runs out of memory when a 33.5 GB allocation exceeds MLX's 22.6 GB Metal buffer limit. Fused scaled dot-product attention operating directly on compressed KV, together with chunked pre-allocation, is required for long-context viability. These results separate representation-level compression from kernel and allocator effects and identify the conditions under which low-bit KV caching helps on unified memory hardware.",
+        "authors": [
+          "Ibrokhimsho Abduchaborov"
+        ],
+        "categories": [
+          "cs.AR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.33076",
+        "paper_url": "https://arxiv.org/abs/2610.33076",
+        "pdf_url": "https://arxiv.org/pdf/2610.33076",
+        "published": "2026-10-21",
+        "title": "Double KV Cache Optimization on Apple Silicon: Block-FP4, Radial Quantization, and Fused Metal Kernels",
+        "updated": "2026-10-21"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "abstract": "Skills provide agents with reusable experience to guide future decisions without modifying the underlying model. However, coding trajectories are often entangled with task- and repository-specific contexts, making it challenging to distill procedural skills that generalize across diverse coding environments. To address this challenge, we present Hierarchical Skill Evolution (HSE), which progressively distills procedural knowledge from coding trajectories through hierarchical evidence aggregation. HSE first extracts task-level evidence from individual trajectories, then aggregates recurring evidence within the same repository to form repository-specific skill candidates, and finally consolidates consistent patterns across repositories into transferable skills across repositories. The evolution is driven by an external writer-evaluator loop that generates and assesses skills while keeping the underlying coding model frozen. The loop externally updates the writer and evaluator policies to improve subsequent skill generation and assessment. This hierarchy progressively filters task-specific details while preserving procedures that generalize across diverse coding environments. Successful trajectories yield reusable guidance for future tasks, while failed trajectories reveal recurring failure modes that guide avoidance and recovery. We evaluate HSE on SWE-bench Verified and DeepSWE, using GLM-5.2 across Pi and Claude Code harnesses and GPT-5.5 and Opus 4.8 with Pi. Across both benchmarks, 10 skills evolved solely from SWE-Gym improve coding performance across all evaluated settings, demonstrating transfer across benchmarks, coding models, and agent harnesses. We further evolve the skill library from target-benchmark trajectories without verifier feedback, relying solely on the learned evaluator for candidate assessment and achieving additional gains through benchmark-tailored skills.",
+        "authors": [
+          "Jun Gao",
+          "Yun Peng",
+          "Changhai Zhou",
+          "Yuhan Zhu",
+          "Xiangyu Zeng",
+          "Shiyang Zhang Yuhua Zhou",
+          "Luozheng Qin",
+          "Qian Qiao",
+          "Xiaoteng Ma",
+          "Baian Chen Weiyi Shang",
+          "Zhen Ming Jack Jiang",
+          "Lizhi Liao",
+          "Xiaoxue Ren"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.35616",
+        "paper_url": "https://arxiv.org/abs/2610.35616",
+        "pdf_url": "https://arxiv.org/pdf/2610.35616",
+        "published": "2026-10-26",
+        "title": "Hierarchical Skill Evolution for Coding Agent",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Software engineering agents resend their entire trajectory to an LLM at every turn, motivating online trajectory reduction. Prior work shows that randomly deleting 75% of tokens in old turns may preserve agent effectiveness, but it remains unclear why, how agents compensate for missing content, and whether it actually reduces costs. This paper presents an empirical study of 42 trajectory-reduction configurations, focusing on effectiveness, agent behavior, and cost. We systematically explore deleting content from old turns by varying the scope, granularity, amount, and timing of deletion across 9,400 runs with two state-of-the-art agents on SWE-bench Verified. We find deleting large amounts of trajectory content (e.g., up to 100% of reasoning text) can preserve overall effectiveness. Importantly, such deletion must be applied with a delay, as immediate deletion tends to significantly degrade effectiveness. Agents often compensate for deleted content by re-fetching it, increasing both the number of turns taken and the input/output tokens. Whether trajectory reduction reduces costs depends on the pricing model: Under a flat pricing model, estimated costs fall in 26 of 42 evaluations. Surprisingly, under a caching-aware pricing model, zero evaluations yield lower costs, since reducing the trajectory breaks the cached prefix billed at a lower rate. Our findings have three implications: First, token counts alone are misleading; trajectory reduction techniques must consider overall costs under a realistic pricing model. Second, analyzing trajectories is crucial to understand agent behavior, as end-to-end effectiveness hides differences such as excessive re-fetching. Finally, these results highlight the need for future work on memory management to reduce costs without sacrificing effectiveness.",
+        "authors": [
+          "Fernando Vallecillos-Ruiz",
+          "Islem Bouzenia",
+          "Michael Pradel",
+          "Leon Moonen"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.35496",
+        "paper_url": "https://arxiv.org/abs/2610.35496",
+        "pdf_url": "https://arxiv.org/pdf/2610.35496",
+        "published": "2026-10-26",
+        "title": "The Hidden Costs of Forgetting: A Study of Trajectory Deletion in Software Engineering Agents",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Software development with coding agents often begins with a rough request that users refine after trying the implementation. Final correctness alone does not capture the repeated guidance this process requires. We introduce FeatureLoop, a benchmark of 61 human-reviewed tasks from 34 repositories across five primary programming languages and seven software forms. Each task follows one development goal in a persistent workspace through evolution feedback, which adds or clarifies requirements, and completion feedback, which reports failures of stated requirements. Cumulative executable checks track new behavior, repair, and preservation of earlier functionality. We evaluate 12 frontier models and find that the strongest completes 72.1% of tasks with both feedback types. Across models, however, only 15.4% of observed failed stages recover within two corrective revisions. Further analysis reveals incomplete repairs, regressions, and model-specific differences in feedback use and token efficiency, identifying obstacles to reliable, low-intervention development.",
+        "authors": [
+          "Jia Feng",
+          "Alyssa Wu",
+          "Cuiyun Gao",
+          "Yunlong Wang",
+          "Songyuanyi Lu",
+          "Zhichao Hu"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.35488",
+        "paper_url": "https://arxiv.org/abs/2610.35488",
+        "pdf_url": "https://arxiv.org/pdf/2610.35488",
+        "published": "2026-10-26",
+        "title": "FeatureLoop: Benchmarking Coding Agents under Evolving Requirements",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Task success rates and execution costs of agentic coding tools depend on both model and harness. The harness manages context, provides tools, and runs the agent loop. In empirical software engineering (SE) studies, comparisons that change model and harness together cannot isolate their effects. We qualitatively annotated 325 experiments reported in 146 peer-reviewed full papers published between 2025 and 2026. We examined the reported configurations and whether comparisons isolated harness effects, including harness configuration and version, model, tasks, and user interaction. The exact version of every harness used was reported for only 15 experiments. For five, the paper reported when the experiments were run, and for 31, authors shared execution traces for every session. Of the 226 experiments comparing harnesses, 35 never varied the harness in isolation. Based on this analysis, we derive requirements for a reference harness that the SE community can use for experiments. We call on the community to report all degrees of freedom of experiments with agentic coding tools and on SE venues to pilot dedicated tracks or special issues around a specified reference harness release. In these tracks, papers would hold the harness version fixed and vary features through separately versioned extensions to isolate feature effects and test their interactions.",
+        "authors": [
+          "Sebastian Baltes",
+          "Christoph Treude"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.35348",
+        "paper_url": "https://arxiv.org/abs/2610.35348",
+        "pdf_url": "https://arxiv.org/pdf/2610.35348",
+        "published": "2026-10-26",
+        "title": "Toward Evidence-Based Agentic Software Engineering",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Context. Coding agents increasingly contribute tests through pull requests that developers then maintain, so how testing work is divided affects long-term maintainability. Objective. We compare pull requests in which developers and coding agents collaborate (agent-supported) with pull requests without detectable agent involvement (human-authored) along five dimensions: the frequency and extent of test changes, their type and context, test structure, test smells, and code coverage. Method. We analyze 114,134 pull requests merged between January 2025 and April 2026 in 391 Java repositories, identifying five coding agents through pull-request-level and commit-level signals. Since agent adoption varies across projects, we compare the two groups within repositories with mixed-effects models that control for change size. Results. Pooled across repositories, both groups change test code almost equally often; within repositories, the odds that an agent-supported pull request does so are 1.65 times higher. Agent-supported pull requests add tests more often (odds ratios 1.50-1.58) and modify (0.70-0.76) and delete (0.51-0.77) them less often. We detect no difference in most structural characteristics of the tests they add, which more often have an oracle, nor, in the 95 repositories we could build, in the coverage of their production changes; in test-only pull requests, however, their tests cover less of the code they exercise. Differences in test smells are borderline and not reproduced for individual test methods. Conclusions. Agent participation is associated with a different mix of testing work, which pooled comparisons across projects can hide or reverse; its relationship with test quality remains uncertain.",
+        "authors": [
+          "Roberto Milanese",
+          "Francesco Salzano",
+          "Hovhannes Muradyan",
+          "Jingjing Wu",
+          "Remo Pareschi",
+          "Fausto Fasano",
+          "Mattia Fazzini"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.35297",
+        "paper_url": "https://arxiv.org/abs/2610.35297",
+        "pdf_url": "https://arxiv.org/pdf/2610.35297",
+        "published": "2026-10-26",
+        "title": "Testing with Coding Agents: A Large-Scale Comparison of Agent-Supported and Human-Authored Pull Requests",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Large language models increasingly act through code, modifying repositories, executing programs, and interacting with services in agent form. Their actions introduce risks that cannot be assessed from generated responses alone. Safety evaluation must verify actual consequences, distinguish harm avoidance from task incapability, and cover realistic workflows. We introduce V$^3$AST-Bench, a benchmark for Verifiable results, Valid interpretation, and Versatile risk coverage of Agent Safety. It comprises 212 risk tasks spanning 18 categories. Dedicated runtime environments verify harm and task outcomes through executable checks over states, records, and artifact behavior, while paired capability twin tasks verify workflow competence. Our experiments span 51 combinations of 11 models and five harnesses, spanning 86,496 trials and over 9 billion tokens of model interaction. Results show that V$^3$AST-Bench remains challenging even for frontier coding agents, as Claude Opus 4.8 with Claude Code still causes verified harm on 20.9% of tasks. Across model-harness combinations, agents with comparable competence exhibit markedly different safety outcomes, showing that task capability alone does not guarantee safe execution. More importantly, even explicit recognition of risks does not reliably prevent harmful actions, revealing a critical gap between risk awareness and safe execution. These findings highlight the need to move beyond risk recognition toward enforcing safety throughout execution.",
+        "authors": [
+          "Weitao Feng",
+          "Hengheng Xiong",
+          "Zihao Zeng",
+          "Jun Chen",
+          "Jiyang Guan",
+          "Xiaofeng Wang",
+          "Jialing Tao",
+          "Hui Xue",
+          "Wei Dong"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/Alibaba-AAIG/VAST-Bench",
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.35188",
+        "paper_url": "https://arxiv.org/abs/2610.35188",
+        "pdf_url": "https://arxiv.org/pdf/2610.35188",
+        "published": "2026-10-26",
+        "title": "V$^3$AST-Bench: Verifiable, Valid, and Versatile Safety Evaluation for Coding Agents",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Evaluating human-AI co-design requires testing whether coding agents can translate real users' multimodal requests into working application revisions. We introduce Co-Design Bench, a reference-free benchmark of 273 tasks curated from 37,463 deduplicated queries across 26,314 real user coding sessions. Its two tracks, Multimodal Editing (ME) and Repository Editing (RE), cover localized edits with optional image, audio, video, or document inputs and coordinated repository revisions. Tasks span three capability dimensions: Grounded Understanding, UI Transformation, and Functional Implementation. The tasks pair normalized requests and runnable pre-edit applications with 2,331 hidden expert-authored acceptance criteria. Our judge-then-refute protocol grades criteria using source and browser evidence, challenges positive verdicts with a separate LLM verifier, and audits visual and interaction claims without gold code or target screenshots. Under a shared agentic harness, the strongest of ten model endpoints passes an average of 69.9% of criteria per task but fully satisfies only 26.4% of tasks. All ten endpoints achieve lower criterion completion on repository edits spanning three or four change types than on those spanning one or two. Co-Design Bench provides a testbed for studying the gap between partial requirement satisfaction and complete task success under agentic execution for real-user application revisions.",
+        "authors": [
+          "Xilin Wei",
+          "Shengyuan Ding",
+          "Xinyu Fang",
+          "Tiancheng Gu",
+          "Yuchi Wang",
+          "Zhixun Li",
+          "Ziyu Liu",
+          "Yuhang Zang",
+          "Weixiang Yu",
+          "Cheng Lu",
+          "Chonggao Sun",
+          "Tong Zhou",
+          "Dahua Lin",
+          "Hang Zhang",
+          "Shuai Bai",
+          "Dayiheng Liu"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.35138",
+        "paper_url": "https://arxiv.org/abs/2610.35138",
+        "pdf_url": "https://arxiv.org/pdf/2610.35138",
+        "published": "2026-10-26",
+        "title": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Repository-level code generation asks an agent to implement a task requirement inside an existing repository. To produce code that works in the repository, the agent needs repository evidence, such as target locations, helper definitions, caller usages, and configuration constraints, which determine how the code should be located, integrated, and executed. Because the context budget cannot hold the entire repository, existing retrieval, compression, and structure-aware methods select context by task similarity, context length, or structural proximity, but these criteria do not directly measure whether the selected context contains this evidence. As a result, the selected context can appear relevant to the task yet miss the evidence that the implementation depends on. We call this failure mode context utility dilution. In this paper, we propose Rivet, a context control framework that preserves repository evidence for coding agents under a fixed context budget. Rivet, first uses Signal Grounding to select task-related code anchors by fusing lexical, semantic, and structural signals. Utility Linking then expands these anchors through dependency, usage, and configuration relations to collect repository evidence. Finally, Budget Shaping packs the evidence by priority and, when the budget is tight, reduces snippets to signatures or summaries before dropping them. We evaluate Rivet, on two executable repository-level benchmarks, DevEval and RepoExec, with four backbone models, two context budgets (4K and 8K tokens), and eight baselines. Rivet, achieves the highest Pass@1 in all 16 settings and improves over the strongest baseline by 3.73--5.15 percentage points on average. Moreover, GPT-5-mini with Rivet, outperforms GPT-5 without Rivet,on both benchmarks while reducing inference cost by 73.3%--84.5%.",
+        "authors": [
+          "Ruwei Pan",
+          "Linhao Wu",
+          "Yakun Zhang",
+          "Zixiong Yang",
+          "Lu Zhang",
+          "Hongyu Zhang"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34967",
+        "paper_url": "https://arxiv.org/abs/2610.34967",
+        "pdf_url": "https://arxiv.org/pdf/2610.34967",
+        "published": "2026-10-26",
+        "title": "Rivet: Utility-Preserving Context Control for Repository-Level Coding Agents",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Large Reasoning Models (LRMs) generate long reasoning traces that expose intermediate inference behavior, offering opportunities to study and control reasoning in AI coding. However, the underlying patterns in these traces and their potential for analyzing and guiding coding models remain poorly understood, limiting systematic characterization and inference-time control of LRM reasoning. We conduct an empirical study of reasoning patterns across four representative coding tasks. We transform reasoning traces into structured action sequences and mine recurring fragments using within-task support, cross-task contrasts, and valid--invalid support contrasts. We characterize four general reasoning patterns by coding agents: design-to-implementation for code generation, state tracing for execution reasoning, evidence--fix--recheck for debugging, and semantic mapping for translation. We further identify positive and negative patterns associated with valid and invalid reasoning traces, respectively. Positive patterns reflect verification-driven convergence, whereas negative patterns reflect repeated design revision, reflection, and knowledge recall without closure. To demonstrate their practical utility, we evaluate three pattern-based applications: task identification, pattern-guided prompting, and pattern-aware early stopping. Features capturing general reasoning patterns enable accurate task identification from reasoning traces without accessing task descriptions or final answers. Prompting guided by positive and negative patterns improves the overall accuracy of downstream tasks, while negative pattern-aware early stopping substantially reduces API-reported token usage with only a modest decrease in pass@1. All three applications also generalize to previously unseen models, showing that reasoning patterns can support both the analysis and control of LRM behavior in AI coding.",
+        "authors": [
+          "Zhe Yin",
+          "Yuling Shi",
+          "Xiaodong Gu",
+          "Beijun Shen"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34943",
+        "paper_url": "https://arxiv.org/abs/2610.34943",
+        "pdf_url": "https://arxiv.org/pdf/2610.34943",
+        "published": "2026-10-26",
+        "title": "Reasoning Patterns for Efficient AI Coding: An Empirical Study",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Coding agents can adapt their harnesses, the software, configuration, and instructions used to run them, based on experience from earlier tasks, but whether these adaptations improve their behavior on later tasks remains unclear. We study \\retro, a skill that asks an agent to review a completed session and propose harness changes, and ask what changes it proposes and whether implemented changes reduce repeated work on later tasks. We ran Claude Code on 30 SWE-bench Verified issues, qualitatively coded the 125 proposals from \\retro, implemented 24, and evaluated 12 harness changes on later issues from the same repositories in fresh sessions with and without each change. Most proposals referred to an event in the session, but 18 of 43 lint-related proposals recommended a practice regardless of what had happened. Among the seven evaluations in which sessions without the change encountered the targeted problem, two changes eliminated the targeted action, one reduced its occurrence, four showed no reduction, and some changes added work on unrelated issues. Harness self-evolution requires more than generating and implementing changes: it needs ways to establish whether a change helps on later tasks and to revise or remove changes that do not.",
+        "authors": [
+          "Christoph Treude",
+          "Sebastian Baltes"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34938",
+        "paper_url": "https://arxiv.org/abs/2610.34938",
+        "pdf_url": "https://arxiv.org/pdf/2610.34938",
+        "published": "2026-10-26",
+        "title": "How Do Coding-Agent Harnesses Self-Evolve? An Empirical Study of Retrospective Adaptation",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "The emergence of artificial intelligence (AI) coding agents has put pull requests under pressure: agents open millions of pull requests per month, while some open-source projects have begun to restrict or disable external contributions. We investigate which alternatives to pull requests practitioners are proposing or adopting and what these changes mean for empirical software engineering research. We reviewed 50 gray-literature documents from 31 organizations or individuals published between October 2025 and October 2026, coding the problems each named, the mechanisms it proposed or adopted, which of five roles of pull requests (integration, review, rationale, accountability, and external contribution) each mechanism takes over, and the evidence offered. Most responses retained pull requests in some form, whether by adding tooling, attaching a new artifact, or restricting access, and restriction was the response most often reported as adopted. Several proposed alternatives moved review and rationale into agent conversations and session records, but only Zed reported using a replacement in practice. Only two documents outlined a replacement for external contribution, and neither reported adoption. Pull requests are changing in ways that pull-request datasets will not capture: reviews conducted in agent conversations leave no pull-request comments, and projects that disable pull requests disappear from samples of newly opened ones. We outline a research agenda on the effectiveness of the emerging alternatives, their consequences for open-source participation, and the adaptation of empirical methods.",
+        "authors": [
+          "Christoph Treude",
+          "Sebastian Baltes"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.HC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34933",
+        "paper_url": "https://arxiv.org/abs/2610.34933",
+        "pdf_url": "https://arxiv.org/pdf/2610.34933",
+        "published": "2026-10-26",
+        "title": "What Will Replace Pull Requests? Rethinking Software Collaboration for AI Agents",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "As AI coding agents become integral to software development, projects increasingly utilise configuration files, such as context files and skills, to govern agent behaviour. While AI ethics principles are widely used in research and policy, little is known about whether and how they are reflected when developers configure coding agents. We studied ethics principles in 40,079 configuration files across 8,893 GitHub repositories. Using a validated large language model (LLM) classification, we measured the prevalence of ethics-related statements, and qualitatively analysed 702 stratified samples across 679 files to uncover the ethical considerations reflected in these files and the parties they concern. Ethics-related statements appeared in 39.4% of files and 61.5% of repositories; concentrated on accountability, transparency, privacy protection, and reliability; and occurred more often in task-specific files such as skills than in project-wide context files. Our qualitative analysis identified 30 categories of ethical considerations, which take the form of concrete rules for the agent. Accountability appeared mainly as requirements for human approval, transparency as explain and honestly report the agent's work, and fairness as accessibility and localisation. These considerations reveal a difference in focus. Whereas public ethics frameworks aim to protect society and end users, configuration files mainly concern developers, maintainers, and community members in the development workflow. Ethics-related content appeared mainly in prose-based files, and whether agents follow these instructions remains untested. We discuss the implications for practitioners, researchers, and policymakers.",
+        "authors": [
+          "Haoyu Gao",
+          "Peerachai Banyongrakkul",
+          "Marc Cheong",
+          "Christoph Treude",
+          "Sebastian Baltes",
+          "Mansooreh Zahedi"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34847",
+        "paper_url": "https://arxiv.org/abs/2610.34847",
+        "pdf_url": "https://arxiv.org/pdf/2610.34847",
+        "published": "2026-10-26",
+        "title": "Ethics by Configuration: AI Ethics Principles in Coding Agent Instructions",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Coding agents resend a growing context on every model call, and context policies are usually judged by the prompt tokens they save. Executed work also depends on call count and prefix reuse: a caching runtime prefills only the tokens after the longest cached prefix. A shorter prompt can therefore cost more if it rewrites cached history. Our quality-gated protocol splits executed prefill into logical prompt minus reused prefix and measures KV residency, time, and energy. On 450 localization cases derived from SWE-rebench V2, preloading ten retrieved blocks (Eager) and adding anchored history compaction (Compact) both pass a five-point non-inferiority gate. In a separate 900-cell study, Eager cuts model calls by 35.7% and the GPU-energy proxy by 33.2% against on-demand search (Grep); Compact saves nothing further. Enabling prefix caching leaves Eager's prompt volume similar (+8.3%; its 95% CI spans zero) but cuts its uncached prefill by 67.7%. Deleting history can turn a token saving into extra work. With mini-SWE-agent on 100 SWE-bench Verified instances, keeping only the last five observations (Mask-5) cuts Eager's prompt volume by 33.3% but loses 135.9k reusable tokens per task. Uncached prefill rises by 608.5%, the energy proxy by 125.6%, and the policy misses the quality gate. Policies thus save physical work by shortening the trajectory and can multiply it by editing reusable history.",
+        "authors": [
+          "Zhongming Yu",
+          "Yitong Ma",
+          "Hengjia Yu",
+          "Boqin Yuan",
+          "Xiangye Lin",
+          "Hejia Zhang",
+          "Jishen Zhao"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34763",
+        "paper_url": "https://arxiv.org/abs/2610.34763",
+        "pdf_url": "https://arxiv.org/pdf/2610.34763",
+        "published": "2026-10-26",
+        "title": "The Physical Cost of Context: Quality-Constrained Resource Accounting for Coding Agents",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "Repository-level code migration rewrites an entire project in a new programming language while preserving its observable behavior. It is challenging because behavior spans interdependent modules, dependencies and build infrastructure must be adapted to the target ecosystem, and the source code is often the only specification. Large language model agents can now attempt these migrations end to end, but three challenges remain. First, an agent that writes both the translation and its acceptance tests may overlook the same requirements in both, leaving missing or incorrect behavior undetected. Second, large repositories can exceed a model's context window, and dividing the work into smaller tasks does not ensure that all required behavior is migrated. Third, even behaviorally correct translations may be slower than the original implementation. We present CodeMeepo, a multi-agent pipeline for complete and efficient migration of large repositories. Each milestone is evaluated against a fixed external oracle that the agents neither author nor modify. A separate parity assessment compares source and target components in scope and adds identified gaps back into the plan as required work. Ordered milestones limit the scope of each task, while cumulative regression checks guard against breaking already-migrated behavior. A benchmark-guided optimization phase addresses performance, followed by full-suite conformance testing and repair. Eight specialized agent roles communicate through file artifacts, and a deterministic state machine governs repair, deferral, scope changes, and termination. On nine subjects in three language pairs, CodeMeepo achieves the best pass rate on every subject and passes 18% more tests than a state-of-the-art multi-agent baseline using the same model. On a production daemon, its optimization phase improves half of the benchmarks, by 25% on average.",
+        "authors": [
+          "Farzad Habibi",
+          "Changrong Wu",
+          "Jinzhou Jiang",
+          "Guohan Lu"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34633",
+        "paper_url": "https://arxiv.org/abs/2610.34633",
+        "pdf_url": "https://arxiv.org/pdf/2610.34633",
+        "published": "2026-10-25",
+        "title": "CodeMeepo: A Multi-Agent Workflow for Repository-Level Code Migration and Optimization",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "Infrastructure-as-Code (IaC) configurations define cloud resources, networking, and access control, and AI coding agents increasingly write them. Little is known about how agent contributions differ from those of humans and automation bots, how maintainers evaluate them, and whether they introduce different sustainability concerns. We study 349,156 IaC pull requests (PRs) from 49,241 GitHub repositories, distinguishing humans, automation bots, silent agents, and disclosed agents. Bots account for 32.9% of ostensibly human PRs, and 12.3% of the remaining PRs contain agent traces, a share that grows over the study period. Agent PRs are about four times larger than human PRs and more often modify core infrastructure modules, whereas bots mainly maintain dependencies. Silent-agent PRs have higher overall merge rates than human PRs (87.4% vs. 78.9%) but are merged 4.0 percentage points less often within the same repositories. Disclosed agents create new infrastructure more often than humans (34.0% vs. 21.4%), and even for the same change type within the same repository, their PRs are 8.4 points less likely to be merged; silent-agent PRs show comparable acceptance for most change types. Finally, in 2,645 matched agent-human Terraform PR pairs, agent and human PRs introduce sustainability smells at similar rates (10.4% vs. 10.3%; paired odds ratio 1.02, 95% CI 0.83-1.25), most commonly missing remote state and monolithic configurations.",
+        "authors": [
+          "Amine Barrak",
+          "Emna Ksontini",
+          "Charles Wehbe"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-27",
+        "id": "2610.34613",
+        "paper_url": "https://arxiv.org/abs/2610.34613",
+        "pdf_url": "https://arxiv.org/pdf/2610.34613",
+        "published": "2026-10-25",
+        "title": "Do AI Coding Agents Write Infrastructure as Code Like Humans? An Empirical Study of GitHub Pull Requests",
+        "updated": "2026-10-25"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2026-10-23",
+        "description": "Abliterated DeepSeek-V4.1-Flash-1017 (FP8 dense, FP4 experts) on 4x RTX PRO 6000 with vLLM-Moet r21 and DSpark: 371-376 tok/s single-stream agent decode at 30k-120k context, 1M context, Flex-start GCE VM",
+        "discovery": "new",
+        "first_seen": "2026-10-27",
+        "forks": 4,
+        "full_name": "hanxiao/DeepSeek-V4.1-Flash-1017-FP8-abliterated-4x-RTX-PRO-6000",
+        "id": 1430521582,
+        "language": "Shell",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-27",
+        "score": 10.66,
+        "star_growth_7d": null,
+        "stars": 25,
+        "topics": [
+          "abliterated",
+          "blackwell",
+          "deepseek",
+          "deepseek-v4",
+          "flex-start",
+          "fp4",
+          "fp8",
+          "gcp",
+          "llm-inference",
+          "rtx-pro-6000",
+          "speculative-decoding",
+          "vision-language-model",
+          "vllm",
+          "vllm-moet"
+        ],
+        "url": "https://github.com/hanxiao/DeepSeek-V4.1-Flash-1017-FP8-abliterated-4x-RTX-PRO-6000"
+      },
+      {
+        "created_at": "2026-10-25",
+        "description": "Run a coding model at 300+ tok/s on your Mac. Native Rust + Metal inference engine for LiquidAI LFM2.5-24B-A2B (MLX 4-bit) on Apple Silicon.",
+        "discovery": "new",
+        "first_seen": "2026-10-27",
+        "forks": 2,
+        "full_name": "zhangshuibai/molten",
+        "id": 1433333755,
+        "language": "Metal",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-25",
+        "score": 10.28,
+        "star_growth_7d": null,
+        "stars": 22,
+        "topics": [
+          "apple-silicon",
+          "gpu-kernels",
+          "inference-engine",
+          "inference-optimization",
+          "lfm2",
+          "liquid-ai",
+          "llama-cpp",
+          "llm",
+          "llm-inference",
+          "llm-runtime",
+          "local-llm",
+          "macos",
+          "metal",
+          "mixture-of-experts",
+          "mlx",
+          "quantization",
+          "recursive-self-improvement",
+          "rsi",
+          "rust",
+          "self-improving-ai"
+        ],
+        "url": "https://github.com/zhangshuibai/molten"
+      },
+      {
+        "created_at": "2026-10-22",
+        "description": "Think only when the tool call looks unsure: confidence-gated reasoning for small local models. Code, BFCL results and paper.",
+        "discovery": "new",
+        "first_seen": "2026-10-27",
+        "forks": 0,
+        "full_name": "alleyxd/SecondThought",
+        "id": 1429061951,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-22",
+        "score": 9.62,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [
+          "bfcl",
+          "function-calling",
+          "llm",
+          "qwen3",
+          "reasoning",
+          "research",
+          "tool-calling",
+          "vllm"
+        ],
+        "url": "https://github.com/alleyxd/SecondThought"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-10-24",
+        "description": "The agent skills I use every day. Works with Claude Code and Codex.",
+        "discovery": "new",
+        "first_seen": "2026-10-27",
+        "forks": 98,
+        "full_name": "t3dotgg/tstack",
+        "id": 1431830406,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-25",
+        "score": 17.55,
+        "star_growth_7d": null,
+        "stars": 1661,
+        "topics": [],
+        "url": "https://github.com/t3dotgg/tstack"
+      },
+      {
+        "created_at": "2026-10-23",
+        "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+        "discovery": "new",
+        "first_seen": "2026-10-27",
+        "forks": 55,
+        "full_name": "morganlinton/BeautifulRust",
+        "id": 1430513158,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-26",
+        "score": 17.37,
+        "star_growth_7d": null,
+        "stars": 1237,
+        "topics": [
+          "agent-skills",
+          "claude-code",
+          "claude-plugin",
+          "claude-skills",
+          "clippy",
+          "code-review",
+          "coding-agent",
+          "cursor",
+          "rust",
+          "style-guide"
+        ],
+        "url": "https://github.com/morganlinton/BeautifulRust"
+      },
+      {
+        "created_at": "2026-10-26",
+        "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+        "discovery": "new",
+        "first_seen": "2026-10-27",
+        "forks": 208,
+        "full_name": "andyhuo520/digital-human-koubo",
+        "id": 1433904617,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-26",
+        "score": 16.7,
+        "star_growth_7d": null,
+        "stars": 838,
+        "topics": [],
+        "url": "https://github.com/andyhuo520/digital-human-koubo"
+      }
+    ]
+  }
+}
