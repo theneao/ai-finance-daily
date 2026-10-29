@@ -1,0 +1,313 @@
+{
+  "papers": [],
+  "repositories": [],
+  "run_date": "2026-10-29",
+  "topic_papers": {
+    "ai_infra": [],
+    "vibe_coding": [
+      {
+        "abstract": "Early stopping promises to reduce compute costs for autonomous coding agents by terminating unpromising runs early. Deciding when to abandon a run requires separating baseline issue difficulty from the trajectory of an individual attempt. We study the distinction in 147,002 execution traces from two public corpora spanning four model-framework settings. Comparing pre-execution issue context against early execution prefixes, we evaluate linear count models, initial-turn text embeddings, task-conditional rankers, and a fine-tuned Qwen3-0.6B monitor. Although early prefixes modestly improve cross-task outcome ranking, within-task discrimination remains near chance across early landmarks (5k-20k tokens): initial-turn embeddings and 20k-token task-conditional models yield AUCs around 0.50, and three-seed neural evaluations across 32,406 attempts at 20k tokens achieve a mean within-task AUC of 0.50 [0.48, 0.51] across tasks of varying solve rates. To evaluate how these predictions translate into stopping decisions, we replay score-guided and matched random restarts under shared token budgets alongside uninterrupted continuation. Under a 75k-token cap, learned restarting improves resolution over matched random restarting by up to 1.98 percentage points. An exact algebraic decomposition resolves this paradox: the gain over random restarting stems almost entirely from between-task stopping allocation (avoiding stops on easy issues), whereas attempt-level selection within a task contributes near zero (-0.11 to +0.24 percentage points). Across all four settings at the 75k cap (and 216 of 224 tested budget-threshold configurations overall), uninterrupted continuation achieves higher solve rates at lower mean token cost than both restart policies. Practical evaluations of early stopping must therefore establish attempt-level discrimination and demonstrate net compute savings relative to continuation.",
+        "authors": [
+          "Srinath Srinivasan",
+          "Lunxiao Li",
+          "Tim Menzies",
+          "Wesley Assunção"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-29",
+        "id": "2610.35971",
+        "paper_url": "https://arxiv.org/abs/2610.35971",
+        "pdf_url": "https://arxiv.org/pdf/2610.35971",
+        "published": "2026-10-26",
+        "title": "Continue or Restart? The Limits of Early Failure Prediction in Coding Agents",
+        "updated": "2026-10-26"
+      },
+      {
+        "abstract": "A coding agent can migrate a machine learning workload, report success, and still change how the model trains. Rising compute costs, limited accelerator capacity, and vendor dependence are pushing organizations toward alternatives to graphics processing units (GPUs); a key question is whether agent-generated migrations to tensor processing units (TPUs) can be trusted and at what cost. We build a dataset of 148 PyTorch ML research projects and use Claude Code to migrate ten of them from NVIDIA GPUs to Google Cloud TPUs. We independently assess whether each migration runs, preserves numerical behavior, executes on the intended hardware, maintains the project's goal, and delivers acceptable performance. We also examine failures, human effort, and costs. Eight projects meet our project-goal criterion, and migrations require 2.4 human interventions on average. Of 70 execution attempts, 53 fail (76%), and 26 of these failures (49%) raise no error. The most frequent cause is repeated compilation and other execution inefficiencies, while interactions with third-party libraries can silently change the computation: in one four-chip migration, the agent reports success despite a change in gradient clipping that reduces accuracy from 86.53% to 84.89%. Execution costs vary widely: in one workload, TorchTPU, a PyTorch execution backend for TPUs, trains 1.86 times faster and 25% cheaper per run than the GPU. For practitioners, these findings motivate independent reference runs, verification under the intended hardware configuration, and workload-specific acceptance and stopping criteria that account for both computational and human costs.",
+        "authors": [
+          "Hui Sun",
+          "Anderson Uchôa",
+          "Wesley K. G. Assunção"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.DC",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-29",
+        "id": "2610.34422",
+        "paper_url": "https://arxiv.org/abs/2610.34422",
+        "pdf_url": "https://arxiv.org/pdf/2610.34422",
+        "published": "2026-10-25",
+        "title": "From GPU to TPU with Coding Agents: What Works, What Fails, and What It Costs?",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "AI coding agents routinely clone repositories, install packages, and read source code obtained from the Web, so publicly hosted code becomes part of the context that shapes the code they write. We show that this Web-borne context can be weaponized without any explicit instruction. We present NameTrap, a source-code poisoning attack that only renames identifiers in third-party Python files to steer AI coding agents toward attacker-targeted Common Weakness Enumeration (CWE) vulnerabilities. An attacker-side coding agent iteratively aligns identifiers with a CWE-specific naming convention and confirms through local probe completions that the renamed file elicits the target weakness, while the released bait contains neither instructions nor vulnerable statements. We evaluate NameTrap across six AI coding agents, ten underlying language models, and four vulnerability categories: CWE-78, CWE-79, CWE-327, and CWE-502. Starting from files whose clean versions never yield the targeted CWE, identifier-level manipulation achieves overall attack success rates of 22.5\\% to 56.0\\% across the six agents, reaching 75.0\\% for certain agent--model configurations, and substantially outperforms random renaming, neutral renaming, and the prior identifier-poisoning attack XOXO. The attack remains effective under Traditional Chinese prompts and transfers across models, while a security-reminder defense fails to consistently prevent vulnerability introduction. Moreover, three AI-based security analyzers and four static analyzers report none of the targeted weaknesses in the poisoned files. These findings expose an overlooked attack surface of agents that consume Web content: seemingly harmless variable names in untrusted, Web-hosted code can compromise the security of downstream software.",
+        "authors": [
+          "Chieh-Yuan Chang",
+          "Guan-Wei Chen",
+          "Chia-Yi Hsu",
+          "Chih Yang",
+          "Chia-Mu Yu",
+          "Chun-Ying Huang"
+        ],
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-29",
+        "id": "2610.34253",
+        "paper_url": "https://arxiv.org/abs/2610.34253",
+        "pdf_url": "https://arxiv.org/pdf/2610.34253",
+        "published": "2026-10-25",
+        "title": "NameTrap: Steering AI Coding Agents Toward Security Vulnerabilities via Variable Names",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "Vision-Language-Action (VLA) models map a language instruction and the current observation directly to actions, without checking whether the instruction has been completed. For long-horizon tasks, a single failed step therefore goes unnoticed and leaves the whole task unfinished. Such failed episodes, however, often end with the task partially complete. Moreover, the unfinished steps are reusable atomic skills that recur across demonstrations. A failed attempt can thus be recovered by composing with atomic skills. We propose RoboDuo, a closed-loop dual-system framework that uses code as the interface between a coding agent and two VLAs. The agent writes a program that lets a full-task VLA attempt the whole task and checks whether it is complete; on failure, an atomic VLA finishes the remaining steps. Since the agent emits no actions and only decides which VLA for execution, RoboDuo wraps an existing full-task VLA without updating its weights. To train the atomic VLA and the coding agent with the completion-checking ability, we build LIBERO-Atomic, LIBERO-Code, and LIBERO-Judge from a single set of LIBERO demonstrations. RoboDuo consistently improves X-VLA and $π_{0.5}$ on LIBERO and LIBERO-PRO, with the largest gains on long-horizon tasks, and recovers failed rollouts of a frozen full-task VLA on a real robot.",
+        "authors": [
+          "Jie Wang",
+          "Bo Zhang",
+          "Renzhi Lu",
+          "Jianyu Chen"
+        ],
+        "categories": [
+          "cs.RO",
+          "cs.CV"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-29",
+        "id": "2610.34108",
+        "paper_url": "https://arxiv.org/abs/2610.34108",
+        "pdf_url": "https://arxiv.org/pdf/2610.34108",
+        "published": "2026-10-25",
+        "title": "RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "Pull requests written by coding agents can pass a project's test suite while omitting a guard or a validation step. To find the missing condition, a reviewer currently relies on static analysis of the final code. An agent-generated change, however, is accompanied by a development history that a human commit does not provide. The agent's trajectory records each edit together with the agent's stated assumptions, and structural differencing shows how each changed function evolved. We present TRACER, a workflow that uses this development history as evidence for security review. TRACER tracks changes at the symbol level, treats the agent's recorded rationale as claims to be verified against the current code, accepts a repair only after assessment and functional validation, and attaches to each accepted repair an executable check that later changes must satisfy. On the SusVibes benchmark, symbol-level tracking places the vulnerable symbol in the review scope for 94.6% of agent patches, compared with 13.4% for the primary scanner warning. With two investigator models, the configuration that includes the agent's rationale yields the largest number of verified security repairs while preserving functionality, and adding AST history to it does not increase that number. A funnel analysis identifies where the remaining candidates are lost. In a study of structural-biology software, the combination of repair memory and a boundary check allows a subsequent feature request to succeed in nine of ten tasks without reintroducing the repaired vulnerability, whereas functional feedback alone succeeds in four and reintroduces the vulnerability in three.",
+        "authors": [
+          "Prateek Kumar Rajput",
+          "Shahzeb Khan",
+          "El-Hacen Diallo",
+          "Yewei Song",
+          "Jacques Klein",
+          "Tegawendé F. Bissyandé"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-29",
+        "id": "2610.34098",
+        "paper_url": "https://arxiv.org/abs/2610.34098",
+        "pdf_url": "https://arxiv.org/pdf/2610.34098",
+        "published": "2026-10-25",
+        "title": "Securing Agent-Generated Code with Its Own Development History",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "Coding agents are given embedding search and code-graph tools on the premise that a repository's structure is something the model lacks and the tool supplies. We test that premise on SWE-bench Verified with small open-weight models, stratifying tasks by a deterministic hop depth (the shortest code-graph path from code the issue mentions to code the gold patch changes) that a companion paper defines and validates. First, we ablate a localization agent's tool set (grep only; +embedding search; +graph tools; all) on a depth-balanced 160-task split and on all 500 tasks for ten models (six Qwen3 sizes from 0.6B to 32B with five decodings each, an FP8 control, three Gemma 4 sizes; 79k episodes). Structured tools double grep-only accuracy for Qwen3-8B and Gemma 4 E4B; their gain peaks at 17-21 points at 1.7-4B and falls to 4-5 points at 32B (odds ratio 0.77-0.82 per doubling of parameters). From 8B up, about half of that gain is the form of the submission rather than finding the target; the fall from 14B to 32B is a fall in tool uptake at equal grep-only accuracy; and the same 4B size gains or does not gain from a tool depending on the checkpoint. Each extra hop multiplies the odds of correct localization by 0.50-0.67 at every size, and no tool set flattens that gradient: traces show the graph tools' gain is name lookup at hop 0 and one expansion at hop 1, and agents chain expansions in only 12-14% of episodes. A fixed repair model resolves 6-13 of 160 tasks from these localizations (oracle 26). Second, linear probes find direct call edges decodable under a within-anchor, degree-stratified protocol (AUC 0.74; 0.61-0.66 inside agent conversations), but below a lexical baseline (0.99), with two-hop edges at 0.57. Small agents carry a one-hop, largely lexical picture of their repository, in weights and in use. We release the agent, probes, logs and traces.",
+        "authors": [
+          "Saurav Bellam"
+        ],
+        "categories": [
+          "cs.SE",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-29",
+        "id": "2610.33958",
+        "paper_url": "https://arxiv.org/abs/2610.33958",
+        "pdf_url": "https://arxiv.org/pdf/2610.33958",
+        "published": "2026-10-25",
+        "title": "How Do Small Coding Agents Use Code Graphs and Embeddings?",
+        "updated": "2026-10-25"
+      },
+      {
+        "abstract": "As AI coding agents become more autonomous, developers increasingly direct, coordinate, and check their work. Yet little is known about these practices in everyday professional development. We shadowed 11 professional developers across approximately 15 hours of work, coded their activities and task transitions, analyzed 255 submitted prompts, and conducted 4.6 hours of follow-up interviews. Developers spent an average of 33.4% of observed time formulating prompts or checking AI responses, with task-switching rates ranging from 0 to 101.6 switches per hour. Beyond producing artifacts, prompts supported understanding, requirements clarification, agent configuration, and coordination. We identified three recurring patterns: \\textit{Supervisor}, involving direct artifact inspection; \\textit{Delegator}, involving dialogue-based coordination and delegated implementation and checking; and \\textit{Learner}, involving agents primarily to build understanding. Developers sought technical information from agents and organizational context, authority, and alignment from colleagues. Our findings suggest future studies of how developers manage attention across concurrent agent tasks and tools that support verification, coordination, and learning.",
+        "authors": [
+          "Yi-Hung Chou",
+          "June Hyung Kim",
+          "Vasisht Kartik",
+          "Victoria Jackson",
+          "Tobias Schimmer",
+          "Thomas Zimmermann",
+          "James A. Jones"
+        ],
+        "categories": [
+          "cs.SE"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-29",
+        "id": "2610.33588",
+        "paper_url": "https://arxiv.org/abs/2610.33588",
+        "pdf_url": "https://arxiv.org/pdf/2610.33588",
+        "published": "2026-10-24",
+        "title": "Developers as Managers of AI Agents: A Workplace Shadowing Study",
+        "updated": "2026-10-24"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2026-10-25",
+        "description": "使用 GRPO（通用奖励近端优化）微调 LLM 实现 Text-to-SQL 转换。基于 Qwen2.5-Coder-7B-Instruct 模型，使用 unsloth + vllm 加速训练和推理。",
+        "discovery": "new",
+        "first_seen": "2026-10-29",
+        "forks": 0,
+        "full_name": "I-You-Dream/NL2SQL_GRPO",
+        "id": 1432979463,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-10-25",
+        "score": 10.16,
+        "star_growth_7d": null,
+        "stars": 25,
+        "topics": [],
+        "url": "https://github.com/I-You-Dream/NL2SQL_GRPO"
+      },
+      {
+        "created_at": "2026-10-26",
+        "description": "Medical LLM agent and MRI segmentation workspace built on PharmaLLM, with LangGraph, vLLM, and BEU-Net.",
+        "discovery": "new",
+        "first_seen": "2026-10-29",
+        "forks": 0,
+        "full_name": "xxPcy/PharmaLLM-Agent",
+        "id": 1434466877,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-27",
+        "score": 10.43,
+        "star_growth_7d": null,
+        "stars": 24,
+        "topics": [],
+        "url": "https://github.com/xxPcy/PharmaLLM-Agent"
+      },
+      {
+        "created_at": "2026-10-28",
+        "description": "Rust LLM inference engine tuned for AMD Strix Halo (gfx1151): a fork of Strata with ggml/llama.cpp-derived HIP kernels. Five models on one 128 GB machine.",
+        "discovery": "new",
+        "first_seen": "2026-10-29",
+        "forks": 2,
+        "full_name": "nsbradley88/talus-public",
+        "id": 1437571273,
+        "language": "Rust",
+        "license": "MIT",
+        "pushed_at": "2026-10-29",
+        "score": 10.37,
+        "star_growth_7d": null,
+        "stars": 21,
+        "topics": [],
+        "url": "https://github.com/nsbradley88/talus-public"
+      },
+      {
+        "created_at": "2026-10-25",
+        "description": "Enterprise Zero-Trust Security, Cascading Delegation, Human Approvals & Verifiable Audit Infrastructure for Autonomous AI Agents",
+        "discovery": "new",
+        "first_seen": "2026-10-29",
+        "forks": 0,
+        "full_name": "SRN0129/Agenttrust",
+        "id": 1433604125,
+        "language": "TypeScript",
+        "license": "NOASSERTION",
+        "pushed_at": "2026-10-28",
+        "score": 10.29,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [
+          "ai-agents",
+          "compliance",
+          "crewai",
+          "cybersecurity",
+          "eu-ai-act",
+          "langchain",
+          "llm-security",
+          "zero-trust"
+        ],
+        "url": "https://github.com/SRN0129/Agenttrust"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-07-08",
+        "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "discovery": "active",
+        "first_seen": "2026-10-29",
+        "forks": 273,
+        "full_name": "JetBrains/thinkrail",
+        "id": 1293238217,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-10-29",
+        "score": 19.92,
+        "star_growth_7d": null,
+        "stars": 5357,
+        "topics": [
+          "agent",
+          "agent-skills",
+          "agentic-ai",
+          "agentic-workflow",
+          "ai-coding",
+          "ai-tools",
+          "pi-agent",
+          "pi-agent-extension",
+          "spec-driven",
+          "spec-driven-coding",
+          "spec-driven-development",
+          "vibe-coding",
+          "vibecoding"
+        ],
+        "url": "https://github.com/JetBrains/thinkrail"
+      },
+      {
+        "created_at": "2026-10-28",
+        "description": "Vibe 知识大赏：一个知识点 → 一条有旁白、每句有出处的精品知识短片（Claude Code skill · 44 套风格 · 代码逐帧成片）",
+        "discovery": "new",
+        "first_seen": "2026-10-29",
+        "forks": 22,
+        "full_name": "andyhuo520/vibe-knowledge",
+        "id": 1436875616,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-28",
+        "score": 13.07,
+        "star_growth_7d": null,
+        "stars": 103,
+        "topics": [
+          "chinese",
+          "claude-code",
+          "claude-skills",
+          "explainer-video",
+          "text-to-video",
+          "threejs",
+          "video-generation"
+        ],
+        "url": "https://github.com/andyhuo520/vibe-knowledge"
+      }
+    ]
+  }
+}
