@@ -14,62 +14,89 @@
 
 ---
 
-# AI 应用研究日报 · 2026-10-29
+# AI 应用研究日报 · 2026-10-30
 
-本期新增：**0 篇论文**（其中 0 篇找到可能的代码）和 **0 个 GitHub 项目**。
+本期新增：**5 篇论文**（其中 0 篇找到可能的代码）和 **3 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
-本期没有发现通过严格双重筛选的新论文。
+| 日期 | 论文 | 作者 | 代码 |
+|---|---|---|---|
+| 2026-10-29 | [Securing the Robotics Supply Chain](https://arxiv.org/abs/2610.40385) | Cindy L. Bethel, Henrik I. Christensen, Odest Chadwicke Jenkins 等 | — |
+| 2026-10-29 | [The Price of a Chance in Artificial Societies](https://arxiv.org/abs/2610.40259) | Shuqi Zhao, Boyu Wang, Shuangyue Niu 等 | — |
+| 2026-10-29 | [Distributionally robust chance-constrained standard quadratic optimization with Wasserstein ambiguity](https://arxiv.org/abs/2610.39823) | Immanuel M. Bomze, Daniel De Vicente, Simge Küçükyavuz | — |
+| 2026-10-28 | [Does 3D Pose Improve Action Valuation in Football? An Empirical Study of Pose Representations and Learning Objectives](https://arxiv.org/abs/2610.38308) | Rikuhei Umemoto, Kenjiro Ide, Soham Majumder 等 | — |
+| 2026-10-26 | [Decorrelating the Advice Layer: A Calibrated Fragility Metric and Tested Mitigations for Synchronized Liquidation in Agentic Wealth Management](https://arxiv.org/abs/2610.37705) | Saurabh Kohli | — |
 
 
 ## GitHub 金融与交易工具
 
-本期没有发现符合条件的新项目。
+| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
+|---|---|---:|---:|---|---|
+| [akfamily/aktools](https://github.com/akfamily/aktools) | HTTP API and MCP server for AKShare: fetch financial data from any programming language or AI assistant (Claude, Cursor) | 1503 | — | Python | 近期活跃 |
+| [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) | Trade crypto, tokenized stocks, forex and futures on Kraken from your terminal or your AI agent. Built-in MCP server for Claude, Codex and Cursor, JSON output, and paper trading on live prices. | 787 | — | Rust | 近期活跃 |
+| [Unitygnome94594/Orderflow-Claude-skill-resocket](https://github.com/Unitygnome94594/Orderflow-Claude-skill-resocket) | Evidence-graded order-flow & footprint skill for Claude. Reads footprint, DOM, profile and CVD screenshots, separates what’s measured from what’s inferred, and shows what flow is actually useful for, without making trade calls. | 32 | — |  | 新项目 |
 
 
 ## Vibe Coding · 工作与学习增强
 
-新增 **7 篇论文**（0 篇找到代码）和 **2 个项目**。
+新增 **8 篇论文**（2 篇找到代码）和 **5 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-26 | [Continue or Restart? The Limits of Early Failure Prediction in Coding Agents](https://arxiv.org/abs/2610.35971) | Srinath Srinivasan, Lunxiao Li, Tim Menzies 等 | — |
-| 2026-10-25 | [From GPU to TPU with Coding Agents: What Works, What Fails, and What It Costs?](https://arxiv.org/abs/2610.34422) | Hui Sun, Anderson Uchôa, Wesley K. G. Assunção | — |
-| 2026-10-25 | [NameTrap: Steering AI Coding Agents Toward Security Vulnerabilities via Variable Names](https://arxiv.org/abs/2610.34253) | Chieh-Yuan Chang, Guan-Wei Chen, Chia-Yi Hsu 等 | — |
-| 2026-10-25 | [RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models](https://arxiv.org/abs/2610.34108) | Jie Wang, Bo Zhang, Renzhi Lu 等 | — |
-| 2026-10-25 | [Securing Agent-Generated Code with Its Own Development History](https://arxiv.org/abs/2610.34098) | Prateek Kumar Rajput, Shahzeb Khan, El-Hacen Diallo 等 | — |
-| 2026-10-25 | [How Do Small Coding Agents Use Code Graphs and Embeddings?](https://arxiv.org/abs/2610.33958) | Saurav Bellam | — |
-| 2026-10-24 | [Developers as Managers of AI Agents: A Workplace Shadowing Study](https://arxiv.org/abs/2610.33588) | Yi-Hung Chou, June Hyung Kim, Vasisht Kartik 等 | — |
+| 2026-10-29 | [When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications](https://arxiv.org/abs/2610.40256) | Yishuo Cai, Minzheng Wang, Liang Zhao 等 | — |
+| 2026-10-29 | [Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering](https://arxiv.org/abs/2610.39468) | Mohammed Nayeem Khan, K S Sarun Kumar | — |
+| 2026-10-28 | [When Relevant Code Is Wrong: Runtime-Aware Context for AI Coding Agents](https://arxiv.org/abs/2610.38800) | Wesley K. G. Assunção, Ramesh Periyathambi | — |
+| 2026-10-28 | [CARI: Cross-Boundary Adversarial Runtime Injection in Coding-Agent Workflows](https://arxiv.org/abs/2610.38799) | Jie Fu, Shuang Wu, Ashish Kundu 等 | — |
+| 2026-10-28 | [Security Impact of Coding Agent's Memory Files](https://arxiv.org/abs/2610.38521) | Thiago Santos de Moura, Selma Güler, Yannic Noller | [标题匹配](https://github.com/affaan-m/ECC) |
+| 2026-10-28 | [MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents](https://arxiv.org/abs/2610.38332) | Haoran Jin, Defu Lian, Xiting Wang 等 | [论文链接](https://github.com/hr-jin/MUSE) |
+| 2026-10-28 | [Precedent or Intent? What Coding Agents Follow When Evolving Existing Code](https://arxiv.org/abs/2610.38244) | Haichao Zhu, Geyang Xu, Zhaorui Yang 等 | — |
+| 2026-10-28 | [Skeleton Coding: Program Structure as a Specification for Agents](https://arxiv.org/abs/2610.38214) | Aditya Golatkar, Alessandro Achille, Renos Zabounidis 等 | — |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need | 5357 | — | TypeScript | 近期活跃 |
-| [andyhuo520/vibe-knowledge](https://github.com/andyhuo520/vibe-knowledge) | Vibe 知识大赏：一个知识点 → 一条有旁白、每句有出处的精品知识短片（Claude Code skill · 44 套风格 · 代码逐帧成片） | 103 | — | JavaScript | 新项目 |
+| [ZiChuanLan/agent-purge](https://github.com/ZiChuanLan/agent-purge) | One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console. | 882 | — | JavaScript | 新项目 |
+| [Michael017801/Persona-Forge](https://github.com/Michael017801/Persona-Forge) | Uncensored persona injection for 15 AI coding assistants · no refusal·pojia· 破甲 · 15 个 AI 编程助手通用 · 免审查 · 人格注入· | 41 | — |  | 新项目 |
+| [ssinder/bioinformatics-agent-skills](https://github.com/ssinder/bioinformatics-agent-skills) | Agent Skills for computational biology — RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining and publication figures. Turn any AI coding agent into a computational biology assistant. | 34 | — | Python | 新项目 |
+| [NV5892anaheim/vibe-resp-skill](https://github.com/NV5892anaheim/vibe-resp-skill) | vibe-* is a collection of Claude Code CLI skills. Each skill is a structured instruction set that tells Claude Code exactly what to do at a specific moment in a project — how to plan it, build it, review it, test it, deploy it, and hand it off. | 32 | — |  | 新项目 |
+| [YorEthereallab4497-alt/grand-tour-rpocket](https://github.com/YorEthereallab4497-alt/grand-tour-rpocket) | Agent skill that conducts an interactive architectural walkthrough and verification quiz over a codebase. | 32 | — |  | 新项目 |
 
 
 ## AI Infra · 推理部署与应用基础设施
 
-新增 **0 篇论文**（0 篇找到代码）和 **4 个项目**。
+新增 **15 篇论文**（2 篇找到代码）和 **1 个项目**。
 
 ### 论文
 
-本期没有发现通过严格双重筛选的新论文。
+| 日期 | 论文 | 作者 | 代码 |
+|---|---|---|---|
+| 2026-10-29 | [Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading](https://arxiv.org/abs/2610.40305) | Zhiyuan Fang, Dingyang Li, Jianfeng Zhong 等 | — |
+| 2026-10-29 | [MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads](https://arxiv.org/abs/2610.40293) | Shengxuan Qiu, Haochen Huang, Shuzhang Zhong 等 | [论文链接](https://github.com/ShengxuanQiu/MAServeBench) |
+| 2026-10-29 | [DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving](https://arxiv.org/abs/2610.40292) | Yishuo Yuan, Shaoyu Yang, Chunrong Fang | — |
+| 2026-10-29 | [Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets](https://arxiv.org/abs/2610.40287) | Bole Ma, Ayesha Afzal, Jan Eitzinger 等 | — |
+| 2026-10-29 | [KV Cache Quantization for Diffusion Language Models](https://arxiv.org/abs/2610.39853) | Yan Tai, Yunan Ding, Guangzhao Li 等 | — |
+| 2026-10-29 | [DWISE: Denoising Workload-Informed Scheduling Engine](https://arxiv.org/abs/2610.39852) | Lie Li, Wen Li, Junxiao Shen 等 | — |
+| 2026-10-29 | [InferD: A Honeypot Framework for AI Inference Infrastructure](https://arxiv.org/abs/2610.39807) | Hicham Hammouchi, Gabriele Lenzini | — |
+| 2026-10-29 | [GPU-Resident Speculative Decoding for In-Browser LLM Inference with WebGPU](https://arxiv.org/abs/2610.39761) | Wei Song, Yuxin Cao, Ziqi Ding 等 | — |
+| 2026-10-29 | [Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference](https://arxiv.org/abs/2610.39562) | Wenjie Huang, Jun Zhang, Hongyaoxing Gu 等 | — |
+| 2026-10-28 | [Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models](https://arxiv.org/abs/2610.38981) | Ekagra Ranjan, Komal K. Teru, Bharat Venkitesh 等 | — |
+| 2026-10-28 | [TableTune: Measured, Self-Correcting Draft-Length Tables for Dynamic Speculative Decoding](https://arxiv.org/abs/2610.38968) | Abhishek Malvankar, Paul Castro, Nick Mitchell 等 | [标题匹配](https://github.com/asm582/tabletune) |
+| 2026-10-28 | [Causal Attention on CPU: A Cache-Aware and Load-Balanced Scheduling Kernel for Prefill](https://arxiv.org/abs/2610.38809) | Kwun Fung Lau, Frost Mitchell, Kanya Mo 等 | — |
+| 2026-10-28 | [FlatCake: A Flat KVCache Storage Architecture for LLM Serving](https://arxiv.org/abs/2610.38355) | Xin Huang, Teng Ma, Zhuoran Li 等 | — |
+| 2026-10-28 | [Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation and Training](https://arxiv.org/abs/2610.38220) | Ulyana Tkachenko, Hui Wen Goh, Guram Gogia 等 | — |
+| 2026-10-27 | [FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding](https://arxiv.org/abs/2610.37921) | Yuxuan Zhu, David H. Yang, Parisa Shiravani 等 | — |
 
 
 ### GitHub 项目
 
 | 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
 |---|---|---:|---:|---|---|
-| [I-You-Dream/NL2SQL_GRPO](https://github.com/I-You-Dream/NL2SQL_GRPO) | 使用 GRPO（通用奖励近端优化）微调 LLM 实现 Text-to-SQL 转换。基于 Qwen2.5-Coder-7B-Instruct 模型，使用 unsloth + vllm 加速训练和推理。 | 25 | — | Python | 新项目 |
-| [xxPcy/PharmaLLM-Agent](https://github.com/xxPcy/PharmaLLM-Agent) | Medical LLM agent and MRI segmentation workspace built on PharmaLLM, with LangGraph, vLLM, and BEU-Net. | 24 | — | Python | 新项目 |
-| [nsbradley88/talus-public](https://github.com/nsbradley88/talus-public) | Rust LLM inference engine tuned for AMD Strix Halo (gfx1151): a fork of Strata with ggml/llama.cpp-derived HIP kernels. Five models on one 128 GB machine. | 21 | — | Rust | 新项目 |
-| [SRN0129/Agenttrust](https://github.com/SRN0129/Agenttrust) | Enterprise Zero-Trust Security, Cascading Delegation, Human Approvals & Verifiable Audit Infrastructure for Autonomous AI Agents | 20 | — | TypeScript | 新项目 |
+| [FailproofAI/failproofai](https://github.com/FailproofAI/failproofai) | Observability and enforcement for AI agent harnesses. Capture every run and runtime reliability with policy enforcement.   | 7024 | — | TypeScript | 近期活跃 |
 
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。
