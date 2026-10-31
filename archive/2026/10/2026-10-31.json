@@ -1,0 +1,201 @@
+{
+  "papers": [],
+  "repositories": [
+    {
+      "created_at": "2026-10-30",
+      "description": "Quant Trading Bot 2026: Full working installer with advanced trading algorithms and user-friendly interface. Ready to run on your desktop.",
+      "discovery": "new",
+      "first_seen": "2026-10-31",
+      "forks": 0,
+      "full_name": "WeaveHelperCrucible/Quant-Trading-Bot",
+      "id": 1440033350,
+      "language": null,
+      "license": null,
+      "pushed_at": "2026-10-30",
+      "score": 13.02,
+      "star_growth_7d": null,
+      "stars": 100,
+      "topics": [
+        "ai-futures-bot",
+        "atas-platform",
+        "atas-pro",
+        "binance-auto-bot",
+        "binance-future",
+        "dealer-positioning",
+        "es-futures",
+        "forex-bot",
+        "futures-bot",
+        "gold-trading-bots",
+        "grid-futures-bot",
+        "mql5",
+        "nq-futures",
+        "pumpdotfun-bundler-bot",
+        "pumpfun-bot-free",
+        "pumpfun-market-maker-bot",
+        "pumpswap",
+        "quant-trading-bot",
+        "scalping-bot",
+        "trading-bot-bsc-solana"
+      ],
+      "url": "https://github.com/WeaveHelperCrucible/Quant-Trading-Bot"
+    },
+    {
+      "created_at": "2026-05-20",
+      "description": "FSQ K-line foundation model for China A-share stock selection, with a containerised multi-factor research platform: data governance, factor research and observability.",
+      "discovery": "active",
+      "first_seen": "2026-10-31",
+      "forks": 0,
+      "full_name": "sjbsjb233/ZJ_Quant_03",
+      "id": 1244639997,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-22",
+      "score": 11.52,
+      "star_growth_7d": 66,
+      "stars": 100,
+      "topics": [
+        "china-a-shares",
+        "docker",
+        "factor-investing",
+        "fastapi",
+        "foundation-model",
+        "pytorch",
+        "quantitative-finance",
+        "react",
+        "stock-selection",
+        "time-series",
+        "transformer"
+      ],
+      "url": "https://github.com/sjbsjb233/ZJ_Quant_03"
+    }
+  ],
+  "run_date": "2026-10-31",
+  "topic_papers": {
+    "ai_infra": [
+      {
+        "abstract": "Prefill and decode are complementary in resource usage, but often divergent in parallelism preferences. Executing the two phases separately preserves their preferred parallelism but leaves complementary resources underutilized, while co-batching improves utilization but often requires a uniform parallel configuration that hurts execution efficiency. To resolve this utilization-efficiency dilemma, we propose Conflux Parallelism (XP), a parallel execution abstraction that co-executes prefill and decode with different parallelism within the same batch. Conflux Parallelism exploits operator-level Transformer structure to construct a heterogeneous execution path with different batching and parallelism strategies across operators, combining the best of co-batching and phase-specific execution. Building on Conflux Parallelism, we design ConfluxServe, an SLO-aware serving system that maximizes cluster goodput under TTFT and TBT constraints. Evaluation on production workloads shows that ConfluxServe improves serving goodput by 1.26-1.62x over the strongest baselines.",
+        "authors": [
+          "Wenhao Chen",
+          "Hong Zhang"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-10-31",
+        "id": "2610.37810",
+        "paper_url": "https://arxiv.org/abs/2610.37810",
+        "pdf_url": "https://arxiv.org/pdf/2610.37810",
+        "published": "2026-10-27",
+        "title": "ConfluxServe: Reconciling Resource Utilization and Parallelism Efficiency across Prefill and Decode in LLM Serving",
+        "updated": "2026-10-27"
+      }
+    ],
+    "vibe_coding": []
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2026-10-29",
+        "description": "Next-Gen Multi-Agent Swarm Orchestration Engine. Coordinate 50+ LLM nodes (GPT-6, Claude 5.5, DeepSeek-V4) in a high-speed mesh network.  \"Redefining enterprise AI infrastructure. The operating system for collective machine intelligence in the AGI era.\"",
+        "discovery": "new",
+        "first_seen": "2026-10-31",
+        "forks": 0,
+        "full_name": "unitshaperextol/Legion-os",
+        "id": 1438319121,
+        "language": null,
+        "license": "MIT",
+        "pushed_at": "2026-10-29",
+        "score": 12.36,
+        "star_growth_7d": null,
+        "stars": 75,
+        "topics": [
+          "agentic-workflow",
+          "agents-ai",
+          "agents-automation",
+          "ai-agent",
+          "ai-agent-framework",
+          "ai-agent-tools",
+          "ai-agents-automation",
+          "ai-coding",
+          "ai-engineering",
+          "ai-model",
+          "ai-tools",
+          "claude",
+          "claude-code",
+          "gpt-6",
+          "llm",
+          "llm-agents",
+          "llm-tools",
+          "multi-agent-ai",
+          "multi-agent-system",
+          "multi-agents"
+        ],
+        "url": "https://github.com/unitshaperextol/Legion-os"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-10-26",
+        "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
+        "discovery": "new",
+        "first_seen": "2026-10-31",
+        "forks": 82,
+        "full_name": "blakeandersonw/ai-app-playbook",
+        "id": 1434616998,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-26",
+        "score": 15.43,
+        "star_growth_7d": null,
+        "stars": 592,
+        "topics": [],
+        "url": "https://github.com/blakeandersonw/ai-app-playbook"
+      },
+      {
+        "created_at": "2026-10-26",
+        "description": "Một sản phẩm Vibe Code tôi dành tặng cho tất cả mọi người",
+        "discovery": "new",
+        "first_seen": "2026-10-31",
+        "forks": 14,
+        "full_name": "mrgoose000000-gif/HyperMac",
+        "id": 1433821697,
+        "language": "Swift",
+        "license": null,
+        "pushed_at": "2026-10-30",
+        "score": 11.27,
+        "star_growth_7d": null,
+        "stars": 36,
+        "topics": [],
+        "url": "https://github.com/mrgoose000000-gif/HyperMac"
+      },
+      {
+        "created_at": "2026-10-25",
+        "description": "Living docs for you and your AI assistant.  VibeSequence reads your code and draws every route, command and handler as a zoomable sequence diagram.",
+        "discovery": "new",
+        "first_seen": "2026-10-31",
+        "forks": 0,
+        "full_name": "monkeymars/vibesequence",
+        "id": 1433023731,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-30",
+        "score": 10.29,
+        "star_growth_7d": null,
+        "stars": 20,
+        "topics": [
+          "ai-assistant",
+          "claude",
+          "claude-code",
+          "code-visualization",
+          "mermaid",
+          "sequence-diagram",
+          "static-analysis"
+        ],
+        "url": "https://github.com/monkeymars/vibesequence"
+      }
+    ]
+  }
+}

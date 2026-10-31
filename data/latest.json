@@ -1,971 +1,200 @@
 {
-  "papers": [
-    {
-      "abstract": "This paper sets out what a sustained federal research and investment agenda would need to include to close that gap--not within a single budget cycle, but over the decade such an undertaking will realistically require. It identifies where the gap is most pronounced today: in the methods needed to verify and certify components of uncertain origin, in the foundational hardware research that has long been underfunded relative to software, in the physical infrastructure researchers need to test systems at scale, and in the workforce required to build and sustain all of it. Robotics should not be treated merely as a downstream beneficiary of a broader artificial intelligence investment strategy. It constitutes its own supply chain, with its own points of failure, and merits its own sustained federal commitment.",
-      "authors": [
-        "Cindy L. Bethel",
-        "Henrik I. Christensen",
-        "Odest Chadwicke Jenkins",
-        "George Pappas",
-        "Holly Yanco",
-        "Haley Griffin"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "code_match": null,
-      "code_url": null,
-      "comment": "",
-      "first_seen": "2026-10-30",
-      "id": "2610.40385",
-      "paper_url": "https://arxiv.org/abs/2610.40385",
-      "pdf_url": "https://arxiv.org/pdf/2610.40385",
-      "published": "2026-10-29",
-      "title": "Securing the Robotics Supply Chain",
-      "updated": "2026-10-29"
-    },
-    {
-      "abstract": "Rapid advances in large language models (LLMs) have enabled autonomous agents to interact, coordinate, and pursue individual goals in artificial societies. However, our understanding of how reward structures shape their competitive behavior and collective outcomes remains incomplete. We simulate 200 LLM agents competing over 50 rounds to maximize individual wealth. We define overcompetition and lying flat as population investment above and below a Bayesian adaptive baseline, respectively. At the lowest tested reward, populations lie flat; at the two highest, they overcompete, most strongly at intermediate winner coverage. The investment committed to pursuing an uncertain reward constitutes the price of a chance. Agents near the qualification cutoff can invest heavily yet receive no prize, finishing poorer than nonwinners who invest less. Agents' stated rationales link investment decisions to perceived qualification prospects and expected returns. At the collective level, greater investment does not consistently improve ability selection. With a fixed total prize budget, offering smaller prizes to more winners can reduce investment while preserving selection quality relative to the corresponding top-ability target. Further broadening reward coverage yields additional savings but reduces selection quality. These findings show how reward design shapes overcompetition and lying flat, distributes the costs of pursuing opportunity, and influences what competition collectively achieves.",
-      "authors": [
-        "Shuqi Zhao",
-        "Boyu Wang",
-        "Shuangyue Niu",
-        "Chenhao Zhang",
-        "Zhanzhan Zhao"
-      ],
-      "categories": [
-        "cs.CY"
-      ],
-      "code_match": null,
-      "code_url": null,
-      "comment": "",
-      "first_seen": "2026-10-30",
-      "id": "2610.40259",
-      "paper_url": "https://arxiv.org/abs/2610.40259",
-      "pdf_url": "https://arxiv.org/pdf/2610.40259",
-      "published": "2026-10-29",
-      "title": "The Price of a Chance in Artificial Societies",
-      "updated": "2026-10-29"
-    },
-    {
-      "abstract": "The standard quadratic optimization problem consists of minimizing a quadratic form over the standard simplex. It has highly relevant applications ranging from portfolio optimization to machine learning. However, if the quadratic form is neither convex nor concave, this problem is NP-hard. We study a distributionally robust chance-constrained variant whose ambiguity set is a Wasserstein ball around the sampled distribution and make four contributions. First, although the problem is nonconvex in the decision variable, we exploit its linear dependence on the uncertain matrix to reduce the problem to a mixed-integer quadratic optimization problem. Second, we show that a judicious choice of matrix norm---the entrywise maximum norm---makes this reformulation both exact and tractable, and we describe the induced worst-case distribution. Third, our formulation is, by construction, the minimization of the worst-case Value-at-Risk of the random quadratic form; this unifies it with existing frameworks for uncertain standard quadratic optimization problems, in particular under chance constraints, and we identify natural settings in which it collapses to a single deterministic instance. Finally, we report numerical experiments on positive-definite and indefinite instances which quantify how the model parameters drive the optimal value and solution time, and expose the computational cost of indefiniteness.",
-      "authors": [
-        "Immanuel M. Bomze",
-        "Daniel De Vicente",
-        "Simge Küçükyavuz"
-      ],
-      "categories": [
-        "math.OC"
-      ],
-      "code_match": null,
-      "code_url": null,
-      "comment": "",
-      "first_seen": "2026-10-30",
-      "id": "2610.39823",
-      "paper_url": "https://arxiv.org/abs/2610.39823",
-      "pdf_url": "https://arxiv.org/pdf/2610.39823",
-      "published": "2026-10-29",
-      "title": "Distributionally robust chance-constrained standard quadratic optimization with Wasserstein ambiguity",
-      "updated": "2026-10-29"
-    },
-    {
-      "abstract": "Football action valuation estimates players' contributions to future scoring. Existing multi-agent deep reinforcement learning (MADRL) models use 2D positions and velocities, omitting posture information relevant to imminent actions. We investigate whether adding 3D pose to a SARSA-based model improves observed-action values relative to attack returns: goals, conceded goals or final expected possession value. Using UEFA Champions League 2022/23 event, tracking and 3D pose data, we compare six representations (no pose, raw joints, torso and head orientation, and spatial-temporal graph convolutional network (ST-GCN) embeddings) across five learning settings and three seeds. The settings vary temporal-difference targets and action-prediction loss, with Monte Carlo return regression as a reference. Across 50 on-ball and off-ball comparisons, pose robustly improved return prediction in only three, all using torso and head orientation, while worsening it in twelve, mostly with ST-GCN. Training choices had greater effects: removing the action-prediction loss raised on-ball skill of position-only values from 0.003 to 0.040 and their correlation with expected goals from 0.23 to 0.60; the improvement in return prediction persisted at matched training length. Separately, pose improved prediction of the on-ball action 0.2 s ahead (macro AUC 0.914 to 0.934 with raw joints), while the passer's pose during execution improved pass-success prediction (AUC 0.844 to 0.856). Within this training protocol, pose informed imminent actions but rarely improved observed-action values.",
-      "authors": [
-        "Rikuhei Umemoto",
-        "Kenjiro Ide",
-        "Soham Majumder",
-        "Ulf Brefeld",
-        "Keisuke Fujii"
-      ],
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "code_match": null,
-      "code_url": null,
-      "comment": "",
-      "first_seen": "2026-10-30",
-      "id": "2610.38308",
-      "paper_url": "https://arxiv.org/abs/2610.38308",
-      "pdf_url": "https://arxiv.org/pdf/2610.38308",
-      "published": "2026-10-28",
-      "title": "Does 3D Pose Improve Action Valuation in Football? An Empirical Study of Pose Representations and Learning Objectives",
-      "updated": "2026-10-28"
-    },
-    {
-      "abstract": "Conversational AI agents are turning wealth management into a continuous loop of market analysis, allocation, risk checks and execution, run for millions of clients on a handful of foundation models. We build a multi-asset agent-based model of this layer, calibrated to measured model concentration, cross-model correlation, retail turnover and 33 years of real equity returns, and ask when the layer amplifies market declines and what prevents it. The effective number of independent decision-makers is bounded however many clients the layer serves: about 2.0 at today's consumer concentration. This monoculture of views drives crowding in individual securities and sets the blast radius of a compromised model provider, but it does not drive market-wide liquidation. Index tail losses rise with the square root of agentic adoption, are 1.47-1.90 times larger under an agentic than under a periodic robo-advice architecture, and do not rise with model concentration; synchronized automation (risk overlays, drawdown cuts and attention-driven execution) drives them. A fragility index computed from aggregate flow, public returns and an impact estimate forecasts tail liquidation out of sample (hold-out R^2 of 0.56) far better than concentration or correlation measures. Decorrelating the automation, not the models, works: dispersing overlay parameters, staging execution and a participation breaker together cut tail liquidation by 63% at no measurable cost to client welfare, whereas provider diversification has no effect. Because the statistics required are sums, they can be computed across platforms under secure aggregation with differential privacy at negligible cost for realistic client populations. In historical replays, an agentic layer holding 10% of the market would have deepened the 2020 crash by about 858 basis points.",
-      "authors": [
-        "Saurabh Kohli"
-      ],
-      "categories": [
-        "q-fin.RM",
-        "q-fin.PM",
-        "q-fin.TR"
-      ],
-      "code_match": null,
-      "code_url": null,
-      "comment": "",
-      "first_seen": "2026-10-30",
-      "id": "2610.37705",
-      "paper_url": "https://arxiv.org/abs/2610.37705",
-      "pdf_url": "https://arxiv.org/pdf/2610.37705",
-      "published": "2026-10-26",
-      "title": "Decorrelating the Advice Layer: A Calibrated Fragility Metric and Tested Mitigations for Synchronized Liquidation in Agentic Wealth Management",
-      "updated": "2026-10-26"
-    }
-  ],
+  "papers": [],
   "repositories": [
     {
-      "created_at": "2019-12-17",
-      "description": "HTTP API and MCP server for AKShare: fetch financial data from any programming language or AI assistant (Claude, Cursor)",
-      "discovery": "growth-watch",
-      "first_seen": "2026-10-30",
-      "forks": 240,
-      "full_name": "akfamily/aktools",
-      "id": 228558704,
-      "language": "Python",
-      "license": "MIT",
-      "pushed_at": "2026-10-30",
-      "score": 17.71,
-      "star_growth_7d": null,
-      "stars": 1503,
-      "topics": [
-        "ai-agent",
-        "akshare",
-        "claude",
-        "data-science",
-        "fastapi",
-        "financial-data",
-        "http-api",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "openapi",
-        "quant",
-        "stock-market"
-      ],
-      "url": "https://github.com/akfamily/aktools"
-    },
-    {
-      "created_at": "2026-03-06",
-      "description": "Trade crypto, tokenized stocks, forex and futures on Kraken from your terminal or your AI agent. Built-in MCP server for Claude, Codex and Cursor, JSON output, and paper trading on live prices.",
-      "discovery": "active",
-      "first_seen": "2026-10-30",
-      "forks": 113,
-      "full_name": "krakenfx/kraken-cli",
-      "id": 1174829564,
-      "language": "Rust",
-      "license": "MIT",
-      "pushed_at": "2026-10-29",
-      "score": 16.59,
-      "star_growth_7d": null,
-      "stars": 787,
-      "topics": [],
-      "url": "https://github.com/krakenfx/kraken-cli"
-    },
-    {
-      "created_at": "2026-10-28",
-      "description": "Evidence-graded order-flow & footprint skill for Claude. Reads footprint, DOM, profile and CVD screenshots, separates what’s measured from what’s inferred, and shows what flow is actually useful for, without making trade calls.",
+      "created_at": "2026-10-30",
+      "description": "Quant Trading Bot 2026: Full working installer with advanced trading algorithms and user-friendly interface. Ready to run on your desktop.",
       "discovery": "new",
-      "first_seen": "2026-10-30",
+      "first_seen": "2026-10-31",
       "forks": 0,
-      "full_name": "Unitygnome94594/Orderflow-Claude-skill-resocket",
-      "id": 1437332648,
+      "full_name": "WeaveHelperCrucible/Quant-Trading-Bot",
+      "id": 1440033350,
       "language": null,
       "license": null,
-      "pushed_at": "2026-10-28",
-      "score": 10.91,
+      "pushed_at": "2026-10-30",
+      "score": 13.02,
       "star_growth_7d": null,
-      "stars": 32,
+      "stars": 100,
       "topics": [
-        "ai-tools",
-        "claude-skills",
-        "claude-skills-creator",
-        "claude-skills-hub",
-        "claude-skills-library",
-        "footprint",
-        "footprint-analysis",
-        "footprint-candles",
-        "footprint-chart",
-        "footprint-charts",
-        "footprints",
-        "market-microstructure",
-        "market-microstructure-analysis",
-        "market-microstructure-theory",
-        "orderflow",
-        "orderflow-imbalance",
-        "orderflow-project",
-        "orderflowticks",
-        "trading-bot-2026",
-        "trading-strategy-simulation"
+        "ai-futures-bot",
+        "atas-platform",
+        "atas-pro",
+        "binance-auto-bot",
+        "binance-future",
+        "dealer-positioning",
+        "es-futures",
+        "forex-bot",
+        "futures-bot",
+        "gold-trading-bots",
+        "grid-futures-bot",
+        "mql5",
+        "nq-futures",
+        "pumpdotfun-bundler-bot",
+        "pumpfun-bot-free",
+        "pumpfun-market-maker-bot",
+        "pumpswap",
+        "quant-trading-bot",
+        "scalping-bot",
+        "trading-bot-bsc-solana"
       ],
-      "url": "https://github.com/Unitygnome94594/Orderflow-Claude-skill-resocket"
+      "url": "https://github.com/WeaveHelperCrucible/Quant-Trading-Bot"
+    },
+    {
+      "created_at": "2026-05-20",
+      "description": "FSQ K-line foundation model for China A-share stock selection, with a containerised multi-factor research platform: data governance, factor research and observability.",
+      "discovery": "active",
+      "first_seen": "2026-10-31",
+      "forks": 0,
+      "full_name": "sjbsjb233/ZJ_Quant_03",
+      "id": 1244639997,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-22",
+      "score": 11.52,
+      "star_growth_7d": 66,
+      "stars": 100,
+      "topics": [
+        "china-a-shares",
+        "docker",
+        "factor-investing",
+        "fastapi",
+        "foundation-model",
+        "pytorch",
+        "quantitative-finance",
+        "react",
+        "stock-selection",
+        "time-series",
+        "transformer"
+      ],
+      "url": "https://github.com/sjbsjb233/ZJ_Quant_03"
     }
   ],
-  "run_date": "2026-10-30",
+  "run_date": "2026-10-31",
   "topic_papers": {
     "ai_infra": [
       {
-        "abstract": "Modern LLMs strain device memory through large model weights and attention states, particularly in resource-constrained scenarios. Existing systems separately provision memory for model weights and attention states, imposing fixed fixed boundaries that cannot adapt to the changing memory demands of workloads. Under heavy workloads, insufficient state capacity limits request concurrency and reduces throughput; under light workloads, idle memory in one region cannot be reallocated to another, wasting device memory. Meanwhile, modern LLM architectures introduce heterogeneous tensors with diverse layouts and lifetimes, further complicating memory management. These problems motivate unified memory management for heterogeneous tensors. However, a shared pool alone does not make memory directly reusable across tensors with different allocation granularities and execution layouts. This paper presents Rimuru, a modern LLM serving system that unifies memory management through elastic expert offloading. Rimuru establishes a shared page pool to enables elastic memory sharing across heterogeneous tensors. To accommodate different allocation granularities, Rimuru introduces memory views that allow each tensor type to interpret the shared memory space using its own page size and page table. Furthermore, Rimuru combines huge-page alignment with a multi-level page allocator that splits and merges pages, enabling cross-type capacity reuse. A page-table-aware fused MoE kernel directly accesses non-contiguous expert weights, avoiding copy overhead. Building on these mechanisms, Rimuru employs a workload-aware adjuster that dynamically reallocates pages across tensor types according to runtime demands. Implemented on top of vLLM, Rimuru remains compatible with modern LLMs. Evaluations show that Rimuru achieves up to 19.03x baseline throughput and reduces TTFT by 98.1% on average.",
+        "abstract": "Prefill and decode are complementary in resource usage, but often divergent in parallelism preferences. Executing the two phases separately preserves their preferred parallelism but leaves complementary resources underutilized, while co-batching improves utilization but often requires a uniform parallel configuration that hurts execution efficiency. To resolve this utilization-efficiency dilemma, we propose Conflux Parallelism (XP), a parallel execution abstraction that co-executes prefill and decode with different parallelism within the same batch. Conflux Parallelism exploits operator-level Transformer structure to construct a heterogeneous execution path with different batching and parallelism strategies across operators, combining the best of co-batching and phase-specific execution. Building on Conflux Parallelism, we design ConfluxServe, an SLO-aware serving system that maximizes cluster goodput under TTFT and TBT constraints. Evaluation on production workloads shows that ConfluxServe improves serving goodput by 1.26-1.62x over the strongest baselines.",
         "authors": [
-          "Zhiyuan Fang",
-          "Dingyang Li",
-          "Jianfeng Zhong",
-          "Bin Wang",
-          "Weixi Zhu",
-          "Cunshu Ni",
-          "Zicong Hong",
-          "Wuhui Chen",
-          "Zibin Zheng"
+          "Wenhao Chen",
+          "Hong Zhang"
         ],
         "categories": [
-          "cs.OS",
-          "cs.LG"
+          "cs.DC"
         ],
         "code_match": null,
         "code_url": null,
         "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.40305",
-        "paper_url": "https://arxiv.org/abs/2610.40305",
-        "pdf_url": "https://arxiv.org/pdf/2610.40305",
-        "published": "2026-10-29",
-        "title": "Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "Large language model (LLM)-based multi-agent systems (MAS) coordinate specialized agents to solve complex tasks, turning each user request into interdependent model and tool operations. Unlike independent requests, these operations become ready at different times and consume evolving context as agents coordinate and exchange results. This creates changing patterns of concurrency, computation, and memory demand that can expose different bottlenecks in LLM serving hardware. Yet benchmarking these effects requires capturing the collaboration rules that generate serving workloads, beyond the requests observed during execution. We present MAServeBench, a benchmark that treats multi-agent collaboration as a configurable dimension of serving workloads for LLM serving and hardware evaluation. Its composable stages capture how agents coordinate and exchange context in documented MAS workflows, enabling native executions to generate different workloads even when task inputs and tools remain unchanged. Hierarchical Semantic Traces preserve realized operations and dependencies for reproducible comparisons of legal release constraints at fixed work. Task-linked measurements connect these workloads to serving execution and GPU/NPU hardware behavior, revealing why serving efficiency does not always translate into timely task completion. The benchmark code is available at https://github.com/ShengxuanQiu/MAServeBench.",
-        "authors": [
-          "Shengxuan Qiu",
-          "Haochen Huang",
-          "Shuzhang Zhong",
-          "Zizhuo Fu",
-          "Zebin Yang",
-          "Jianming Tong",
-          "Meng Li"
-        ],
-        "categories": [
-          "cs.MA"
-        ],
-        "code_match": "paper-link",
-        "code_url": "https://github.com/ShengxuanQiu/MAServeBench",
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.40293",
-        "paper_url": "https://arxiv.org/abs/2610.40293",
-        "pdf_url": "https://arxiv.org/pdf/2610.40293",
-        "published": "2026-10-29",
-        "title": "MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "Prefill-decode (PD) disaggregation isolates the two phases of large language model serving, but request-level path selection must account for prefill work, cache reuse, and decode demand. We present DolphinRouting, which learns this choice from end-to-end SLO feedback under a given P/D resource allocation. Requests are clustered by raw prompt length, cache-adjusted input lengths on both worker pools, and output-length information. Offline policy search learns one binary action per cluster. Online feature extraction, cluster assignment, and table lookup select local or remote prefill. We evaluate DolphinRouting on a real PD-disaggregated cluster using three public benchmarks, a mixed workload, and real data. Across the mixed workload and real data, DolphinRouting with $k$-means reduces P90 TTFT by 5.7--7.9\\% and P90 TPOT by 2.6--10.1\\% relative to Dynamo.",
-        "authors": [
-          "Yishuo Yuan",
-          "Shaoyu Yang",
-          "Chunrong Fang"
-        ],
-        "categories": [
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.40292",
-        "paper_url": "https://arxiv.org/abs/2610.40292",
-        "pdf_url": "https://arxiv.org/pdf/2610.40292",
-        "published": "2026-10-29",
-        "title": "DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "Large language model serving is limited by facility power. Energy per token determines how many tokens a datacenter can serve, while a latency target bounds how quickly each user receives them. During decode, every weight is read from memory for every generated token. Batching amortizes this read across users but makes no individual user faster. Speculative decoding does: a drafter proposes several future tokens, and the target model verifies them in a single forward pass that reuses the same weight read. Because every drafted token must be verified whether or not it is accepted, the energy speculation saves depends on how many drafted tokens are accepted. This saving is hard to pin down. It varies across target models from different attention families and across drafting schemes, and it depends on the text being served. Every drafter we evaluate accepts fewer tokens on conversation than on code, and every trained drafter accepts fewer on Romansh, a low-resource language, than on English. We measure speculative decoding under production serving conditions (SGLang, CUDA graphs enabled) on H100 and H200 GPUs, at batch sizes up to 64 across 5 corpora. On dense models, verification, not drafting, dominates the energy cost. The saving shrinks as the batch grows, because batching has already shared the weight read that speculation would divide among the accepted tokens. At large batch sizes, block drafters push verification past the balance point between arithmetic and memory traffic into the compute-bound regime, where the saving becomes a loss, and a drafter with low acceptance raises energy per token. Meeting a tighter latency target with speculation then costs additional energy. Larger batches lower energy per token without speculation. Speculation adds to that saving only when acceptance is high, and on the model we tested it leaves little headroom for latency-preserving DVFS.",
-        "authors": [
-          "Bole Ma",
-          "Ayesha Afzal",
-          "Jan Eitzinger",
-          "Harald Koestler",
-          "Gerhard Wellein"
-        ],
-        "categories": [
-          "cs.DC",
-          "cs.AI",
-          "cs.LG",
-          "cs.PF"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.40287",
-        "paper_url": "https://arxiv.org/abs/2610.40287",
-        "pdf_url": "https://arxiv.org/pdf/2610.40287",
-        "published": "2026-10-29",
-        "title": "Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "KV cache quantization is well studied for autoregressive language models, where cached prefix states are exact under causal attention and quantization is mainly a cache reconstruction problem. Diffusion language models (dLLMs) break this assumption. Fast dLLM inference reuses KV states across denoising steps, but bidirectional token representations can change as masked tokens are revealed, so the reused cache may already differ from full recomputation before quantization is applied. We study KV cache quantization under this cache-reuse error. We adapt KIVI and KVQuant to Fast-dLLM-style prefix and dual cache reuse, and introduce TRACE and dLLM-KVQ. TRACE reconstructs feasible dLLM reveal trajectories from prompt-answer pairs, providing calibration states that match iterative masked decoding. dLLM-KVQ uses these trajectories to choose per-layer K-cache entries that remain in high precision according to output- and attention-level behavior metrics, while applying standard low-bit value quantization. Across LLaDA and Dream evaluations on GSM8K, HumanEval, MATH, and MBPP, dLLM-KVQ achieves the highest average score among quantized methods across the reported 4-bit and 2-bit prefix/dual cache settings.",
-        "authors": [
-          "Yan Tai",
-          "Yunan Ding",
-          "Guangzhao Li",
-          "Siqi Luo",
-          "Chaoyang Zhang",
-          "Guangtao Zhai",
-          "Guodong Guo",
-          "Xiaohong Liu"
-        ],
-        "categories": [
-          "cs.CL"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.39853",
-        "paper_url": "https://arxiv.org/abs/2610.39853",
-        "pdf_url": "https://arxiv.org/pdf/2610.39853",
-        "published": "2026-10-29",
-        "title": "KV Cache Quantization for Diffusion Language Models",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "Unlike autoregressive large language models (AR-LLMs), diffusion LLMs (dLLMs) generate text by iteratively denoising many tokens in parallel, offering a promising path to efficient inference. Existing serving frameworks, however, schedule dLLM requests with policies designed for AR models, namely first-come-first-served (FCFS) admission and prefill priority. We find that both policies are ill-suited to dLLMs, wasting much of their speed. FCFS ignores that a dLLM request's decoding cost is highly heterogeneous and unknown at arrival, causing severe head-of-line blocking. Prefill priority, widely used in AR-LLM serving to keep time-to-first-token low, sharply cuts dLLM efficiency, as rounds that run only prompts leave most of the batch idle. We present DWISE, a Denoising Workload-Informed Scheduling Engine for efficient dLLM serving. DWISE schedules requests by their remaining work, measured in a block-level unit shared by prefill and denoising, so both phases share a round. To predict the unknown denoising workload, DWISE combines a lightweight prompt-based predictor at admission with a single refinement from the first denoising round's hidden states, which capture model-specific information absent from the prompt and require no additional model execution. Implemented in SGLang and evaluated on five models from three dLLM families under bursty workloads, DWISE reduces mean end-to-end latency over SGLang by 5.4$\\times$ on average and up to 14.9$\\times$ while preserving task accuracy. The code will be released publicly.",
-        "authors": [
-          "Lie Li",
-          "Wen Li",
-          "Junxiao Shen",
-          "Jindong Gu",
-          "Guosheng Hu"
-        ],
-        "categories": [
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.39852",
-        "paper_url": "https://arxiv.org/abs/2610.39852",
-        "pdf_url": "https://arxiv.org/pdf/2610.39852",
-        "published": "2026-10-29",
-        "title": "DWISE: Denoising Workload-Informed Scheduling Engine",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "Large language model serving stacks, commercial inference APIs, vector databases, and agent orchestration gateways are now ex- posed on the public internet and indexed by commodity scanners within hours of deployment. The threat characteristics of this sur- face are only beginning to be measured, and the honeypot frame- works that could measure it were designed for conventional net- work services rather than for AI infrastructure. In fact, emulating an AI service is a distinct deception problem: the observable behavior of the service, including model inventories, token formats, tool-call protocols, and authorization flows, must be reproduced faithfully, while the underlying computation, model inference and tool ex- ecution, must never occur. We present InferD, a low-interaction honeypot framework organized around a single principle we call deception without inference: every request an adversary can observe is answered from static response pools, and nothing an adversary submits is ever executed. InferD decomposes the emulation into four deception planes, transport, service protocol, vulnerability surface, and agentic session, adds a provenance plane that links a planted credential to evidence of downstream model-mediated processing.",
-        "authors": [
-          "Hicham Hammouchi",
-          "Gabriele Lenzini"
-        ],
-        "categories": [
-          "cs.CR",
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.39807",
-        "paper_url": "https://arxiv.org/abs/2610.39807",
-        "pdf_url": "https://arxiv.org/pdf/2610.39807",
-        "published": "2026-10-29",
-        "title": "InferD: A Honeypot Framework for AI Inference Infrastructure",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "WebGPU enables private, offline LLM inference inside web pages, but browser dispatch, inter-process communication, synchronous readback and single-token kernels slow decoding and make conventional speculative decoding inefficient. We present a WebGPU runtime that addresses these browser-specific costs. Deterministic small-batch integer kernels accelerate multi-token verification while preserving exact agreement with greedy decoding in the same quantized runtime. A GPU-resident loop performs drafting, verification, acceptance and KV-cache maintenance without a per-token CPU decision. A draft-free context-mixing drafter reuses page content, conversation history and session memory, while a device-aware controller adapts the speculation width and the submission window to measured costs. Across seven models from 0.5B to 8B parameters, 11 tasks and three client GPUs, our runtime decodes 3.5 to 5.4$\\times$ faster than WebLLM on a laptop GPU, 4.8 to 6.2$\\times$ faster on an integrated GPU and 4.8 to 8.6$\\times$ faster on a workstation GPU. The GPU-resident loop and speculation contribute a further 1.8 to 3.2$\\times$ over the optimized kernels on the workstation. Outputs match the quantized greedy decoding of the runtime exactly, and the mean GSM8K accuracy matches that of WebLLM. Optional draft heads raise the peak speedup to 10.2$\\times$, while session memory provides additional gains without downloading extra weights.",
-        "authors": [
-          "Wei Song",
-          "Yuxin Cao",
-          "Ziqi Ding",
-          "Xiao Cheng"
-        ],
-        "categories": [
-          "cs.CY"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.39761",
-        "paper_url": "https://arxiv.org/abs/2610.39761",
-        "pdf_url": "https://arxiv.org/pdf/2610.39761",
-        "published": "2026-10-29",
-        "title": "GPU-Resident Speculative Decoding for In-Browser LLM Inference with WebGPU",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "Multi-turn conversations with multimodal large language models (MLLMs) reuse input context, but long multimodal inputs increase time to first token (TTFT). Query-aware hard pruning reduces prefill tokens but permanently excludes information that later questions may require. We propose Raincheck, a framework for deferred multimodal prefill that decouples initial token selection from later information availability. An existing pruning method selects tokens for initial prefill; Raincheck preserves and progressively prefills unselected tokens in source order using unused compute capacity during decode. Unfinished prefill continues after answer return during available scheduling gaps. Attention visibility control and affine state mapping enable context updates after generation begins in full-attention and hybrid recurrent models. Prefill-decode fusion reduces repeated weight reads. We evaluate Qwen3-VL-8B and Qwen3.5-9B with 30% initial multimodal-token retention. Across both models and four pruning methods, Raincheck recovers on average 77.7% and 60.4% of the quality lost to matched hard pruning on MultiVerse and ConvBench, respectively. On MultiVerse, the SGLang implementation reduces mean first-turn TTFT by up to 24.1% relative to full prefill, with less than 0.5% increase in mean time per output token (TPOT).",
-        "authors": [
-          "Wenjie Huang",
-          "Jun Zhang",
-          "Hongyaoxing Gu",
-          "Haoyang Huang",
-          "Tianqi Xu",
-          "Xinyue Hao",
-          "Xinyi Hu",
-          "Xinle Du",
-          "Jun Dai",
-          "Shuang Ge",
-          "Chen Lei",
-          "Yue Li",
-          "Mingcheng Wan"
-        ],
-        "categories": [
-          "cs.CL",
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.39562",
-        "paper_url": "https://arxiv.org/abs/2610.39562",
-        "pdf_url": "https://arxiv.org/pdf/2610.39562",
-        "published": "2026-10-29",
-        "title": "Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "Speculative decoding (SD) accelerates autoregressive inference by leveraging the memory bound nature of decoding, verifying multiple draft tokens in a single forward pass. For mixture-of-experts (MoE) models, prior work predicts a concave speedup-batch size relationship, with gains peaking at intermediate batch sizes due to expert saturation. We evaluate this across 10 sparse MoE models (30B--1T parameters, 8--512 experts) and find recent fine-grained models break this trend, showing higher speedup at low batch size. We find verification cost is governed not only by activated-expert bytes, but also by temporal overlap across draft tokens and GPU execution dynamics. At low batch size, MoE layers in fine-grained models account for a much smaller share of runtime than of weights; on H100, kernel profiling attributes this mainly to higher bandwidth utilization of MoE kernels relative to attention, with L2 absorbing repeated reads of co-routed experts. Across draft tokens, routing overlap further reduces the unique experts activated during verification relative to independence assumptions. We model this effect using a maximum-entropy Iterative Proportional Fitting (IPF) framework that predicts unique expert counts from routing-overlap statistics with less than 4\\% error, and substantially narrows the gap to real-model curves and captures the qualitative low-batch trend from synthetic routing.",
-        "authors": [
-          "Ekagra Ranjan",
-          "Komal K. Teru",
-          "Bharat Venkitesh",
-          "Acyr Locatelli"
-        ],
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38981",
-        "paper_url": "https://arxiv.org/abs/2610.38981",
-        "pdf_url": "https://arxiv.org/pdf/2610.38981",
-        "published": "2026-10-28",
-        "title": "Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Speculative decoding speeds up large language model (LLM) serving only while the GPU has spare compute, so the best draft length, the number of tokens a small drafter guesses per step, shrinks as the batch grows. vLLM lets operators set the draft length for each batch size with a hand-written table, but nothing measures or corrects that table. We present TableTune. Its tuner times the decoding step for every batch size and draft length on vLLM's own serving path and computes, in minutes, the table that maximizes throughput. Its controller, a vLLM plugin, tracks how many guesses are accepted in live traffic and rebuilds the table while serving. We measure TableTune only against other ways to speculate. On an H100, the tuned table delivers at least 94% of the throughput of the best fixed draft length at every load in four of five drafter settings (88% in the fifth) without the operator having to know which length that is. Against reimplementations of TurboSpec- and Nightjar-style control on the same engine, its worst-case loss is never higher than theirs, and with the EAGLE-3 drafter it is 3% against 9% and 12%. On a mixture-of-experts model, vLLM's documented table loses up to 18% and the tuned table at most 3%. Starting from mistuned tables, the controller raises throughput by up to 58% (up to 45% on vLLM's default runner), and after a workload switch with the DFlash drafter it recovers 96% of a stale table's loss. In llm-d's optimized-baseline deployment as shipped, two Qwen3-32B replicas on four GPUs, the tuned table is up to 32% faster than a fixed draft length of 3 and up to 25% faster than vLLM's documented table at high load, and the controller raises the documented table's throughput by up to 29%.",
-        "authors": [
-          "Abhishek Malvankar",
-          "Paul Castro",
-          "Nick Mitchell",
-          "Lionel Villard"
-        ],
-        "categories": [
-          "cs.ET",
-          "cs.AI"
-        ],
-        "code_match": "title-match",
-        "code_url": "https://github.com/asm582/tabletune",
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38968",
-        "paper_url": "https://arxiv.org/abs/2610.38968",
-        "pdf_url": "https://arxiv.org/pdf/2610.38968",
-        "published": "2026-10-28",
-        "title": "TableTune: Measured, Self-Correcting Draft-Length Tables for Dynamic Speculative Decoding",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Agentic AI drives significant productivity gains across diverse domains, but concurrent long-context prefills from multiple agents can saturate GPU compute resources. Although CPUs offer a viable alternative, existing CPU attention kernels fall short in adapting to multi-tier cache hierarchies and lack effective thread scheduling. To address this, we introduce CACPU, a high-performance attention kernel featuring tiered cache blocking and an in-kernel task dispatching mechanism designed for causal full-sequence prefilling. CACPU achieves up to a 2.01x speedup over PyTorch SDPA, FlexAttention, and SGLang attention kernels. Integrated into SGLang, it reduces Time to First Token (TTFT) of Llama-3.1-8B by up to 1.74x while preserving model accuracy.",
-        "authors": [
-          "Kwun Fung Lau",
-          "Frost Mitchell",
-          "Kanya Mo",
-          "Emani Ashok"
-        ],
-        "categories": [
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38809",
-        "paper_url": "https://arxiv.org/abs/2610.38809",
-        "pdf_url": "https://arxiv.org/pdf/2610.38809",
-        "published": "2026-10-28",
-        "title": "Causal Attention on CPU: A Cache-Aware and Load-Balanced Scheduling Kernel for Prefill",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "KV cache reuse accelerates LLM serving, but existing systems manage host DRAM and NVMe SSD as a tiered hierarchy where DRAM acts as an intermediate cache. Production LLM workloads break both premises of this hierarchy. First, bimodal reuse defeats DRAM temporal filtering, since workloads are dominated either by one-shot blocks with long reuse distances or by multi-gigabyte agentic sessions that exceed DRAM capacity, putting SSD on the critical read path. Second, DRAM staging and eviction-ordered layout bottleneck SSD restoration. Holding host staging buffers for in-flight prefixes causes contention under load that aborts prefetches, while incremental eviction scatters a session's blocks across the SSD and prevents large sequential reads. We present FlatCake, a flat KV storage architecture that exposes host DRAM and NVMe SSD as peer media in a unified 64-bit address space. Exploiting the fact that KV blocks are write-once, immutable, and reused at session scope, FlatCake places each block directly onto its target medium in session-contiguous, layer-major order at creation time and never migrates it. FlatCake streams coalesced SSD reads directly into a bounded GPU window via GPUDirect Storage and decouples DRAM and SSD request queues to prevent head-of-line blocking. On a production Claude Code trace with DeepSeek-V4-Flash, FlatCake sustains a 94% cache hit rate as load increases (versus 64% for Mooncake), eliminates Mooncake's $6.5\\times$--$6.7\\times$ SSD read amplification, and reduces peak-load mean TTFT by $1.6\\times$ while improving total token throughput by $1.6\\times$. Across 8K--128K contexts on Llama-3.1-70B, FlatCake further reduces mean TTFT by up to $2.4\\times$ over Mooncake and $1.8\\times$ over Mooncake-GDS.",
-        "authors": [
-          "Xin Huang",
-          "Teng Ma",
-          "Zhuoran Li",
-          "Yibo Zhao",
-          "Zhaoshi Li",
-          "Qianchao Zhu",
-          "Wei Yang",
-          "Chenxi Wang",
-          "Tao Xie",
-          "Youwei Zhuo"
-        ],
-        "categories": [
-          "cs.DC",
-          "cs.OS"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38355",
-        "paper_url": "https://arxiv.org/abs/2610.38355",
-        "pdf_url": "https://arxiv.org/pdf/2610.38355",
-        "published": "2026-10-28",
-        "title": "FlatCake: A Flat KVCache Storage Architecture for LLM Serving",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Rubrics enable reward assignment on tasks without verifiable answers, but are expensive to manually produce from scratch. We present Rubricon, a pipeline that generates discriminative rubrics without requiring human preference labels, rubric annotation, or generator-model training. Using any LLM, Rubricon samples multiple rubrics, selects the most discriminative candidate, adds criteria to capture overlooked requirements or response flaws, and prunes criteria that are misaligned or shallow. Alongside LLM self-critique and test-time scaling, Rubricon uses observed criterion pass rates on example model responses to guide refinement. Across five professional, consumer, clinical, and general-use LLM benchmarks, Rubricon produces rubrics whose scores of frontier LLM responses exhibit 9% greater alignment with labor-intensive expert-authored rubrics, compared to the best alternative synthetic rubric generation method among RRD, QSRG, OpenRubrics, and agentic generation via harnesses like Codex. On HealthBench, post-training a Qwen3.5-9B model with Rubricon rubrics yields 4.5% better performance than training with rubrics from the strongest alternative synthetic rubric generator, RRD.",
-        "authors": [
-          "Ulyana Tkachenko",
-          "Hui Wen Goh",
-          "Guram Gogia",
-          "Jonas Mueller"
-        ],
-        "categories": [
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38220",
-        "paper_url": "https://arxiv.org/abs/2610.38220",
-        "pdf_url": "https://arxiv.org/pdf/2610.38220",
-        "published": "2026-10-28",
-        "title": "Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation and Training",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Key-value (KV) caching is a core mechanism in large language models, where intermediate key and value representations are stored to accelerate autoregressive decoding. As generation length increases, KV cache memory and computation grow linearly, making compression critical for efficient long-output reasoning. Dictionary-based sparse KV compression is appealing because it represents each token's KV states as a sparse combination of learned basis elements (atoms) in a dictionary, preserving token-level structure without enforcing a global low-rank constraint. However, existing dictionary-based methods face two practical limitations during decoding: iterative sparse coding methods such as Orthogonal Matching Pursuit add decoding-time overhead, and static dictionaries may mismatch evolving KV distributions under test-time generation. While adaptive dictionary updates can reduce this mismatch, naive append-only strategies lead to dictionary growth during generation. We propose FAD-KV, a \\textbf{F}ast \\textbf{A}daptive \\textbf{D}ictionary KV caching framework for efficient reasoning decoding. FAD-KV integrates (i) a screening-based sparse coding scheme, where a one-shot Top-\\(n\\) selection identifies a small candidate pool followed by lightweight coefficient refinement, and (ii) a fixed-size dictionary adaptation mechanism that reuses inactive atoms instead of expanding the dictionary. By controlling both sparse coding cost and adaptive dictionary growth, FAD-KV provides a memory-bounded and computation-efficient KV compression framework for long reasoning workloads. Experiments on reasoning and long-context benchmarks show that FAD-KV achieves a strong quality-efficiency trade-off while avoiding unbounded dictionary growth during decoding.",
-        "authors": [
-          "Yuxuan Zhu",
-          "David H. Yang",
-          "Parisa Shiravani",
-          "Mohammad Mohammadi Amiri",
-          "Tejaswini Pedapati",
-          "Subhajit Chaudhury",
-          "Keerthiram Murugesan",
-          "Pin-Yu Chen"
-        ],
-        "categories": [
-          "cs.CL",
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.37921",
-        "paper_url": "https://arxiv.org/abs/2610.37921",
-        "pdf_url": "https://arxiv.org/pdf/2610.37921",
+        "first_seen": "2026-10-31",
+        "id": "2610.37810",
+        "paper_url": "https://arxiv.org/abs/2610.37810",
+        "pdf_url": "https://arxiv.org/pdf/2610.37810",
         "published": "2026-10-27",
-        "title": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding",
+        "title": "ConfluxServe: Reconciling Resource Utilization and Parallelism Efficiency across Prefill and Decode in LLM Serving",
         "updated": "2026-10-27"
       }
     ],
-    "vibe_coding": [
-      {
-        "abstract": "To succeed in real-world long-horizon software development, coding agents must satisfy multi-dimensional task specifications, such as interface compatibility and error handling, and do so without breaking existing dependencies. However, current works lack specification in both quantity and diversity, often emphasizing primary goals while ignoring complex constraints. Synthesizing tasks to bridge this gap presents two challenges: naively adding specifications risks reducing tasks to trivial checklists rather than compelling joint reasoning, and verifying these subtle interactions risks overlooking hidden flaws or rejecting valid alternatives. To address these challenges, we introduce CodeSpecWeave, a framework for synthesizing tasks with rich, interdependent specifications. Grounded in real developer seeds, a synthesis agent iteratively develops both coupled task requirements and executable tests, while a review agent audits solution trajectories from multiple models to guarantee test reliability. Using this pipeline, we construct 4,670 training tasks across 2,865 repositories. Applying Reinforcement learning on these tasks significantly improves performance over the base model on DeepSWE-v1.1, largely outperforming existing baselines. Furthermore, we curate CodeSpecWeave-Bench, a rigorous benchmark comprising 100 tasks and 1,044 specifications, which clearly separates frontier models and reveals significant headroom in handling interdependent engineering constraints.",
-        "authors": [
-          "Yishuo Cai",
-          "Minzheng Wang",
-          "Liang Zhao",
-          "Linghao Zhang",
-          "Lei Li",
-          "Shicheng Li",
-          "Xu Sun",
-          "Fuli Luo"
-        ],
-        "categories": [
-          "cs.SE",
-          "cs.CL"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.40256",
-        "paper_url": "https://arxiv.org/abs/2610.40256",
-        "pdf_url": "https://arxiv.org/pdf/2610.40256",
-        "published": "2026-10-29",
-        "title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "AI coding agents now do long, multi-step and multi-session software work with little supervision. When a developer comes back to that work, the useful question is not what the model said but what was actually done, by whom, and whether it is finished. We study this in three parts. First, we verify Agenttrail, an open-source local observability tool for coding agents, against its source at commit e4ba2da: nine documented constants and mechanisms hold at file-and-line level, two event pipelines are never unified, and its Map service has an unauthenticated local mutation surface. Second, we run a prototype of our system on 45 real coding-agent sessions (102,233 records, 20,577 tool executions, 2,336 human-to-agent episodes). With a blind-audited classifier (precision 83.3% and 96.7%) we estimate that 23.4% (95% CI 17.1 to 35.7) of code-editing episodes end with no independent check after the last edit, and that 57.8% of to-dos the agent marked complete after editing had no proof in between. A 10-minute timing heuristic for session hand-offs recovers 6 of the 24 session pairs that content lineage links. 42% of sessions run longer than 24 hours, 48.1% of transcript bytes lie past a 2 MiB replay bound, and 1,326 records in 16 sessions contain credential-like strings. Third, we propose Soei (Structured Observability of Evidence and Intent): an acknowledgement-aware event schema, a hash-chained local ledger, a W3C PROV-aligned graph, calibrated inference for attribution and lineage, and a verification layer that keeps a claim of completion apart from proof. On the same corpus the ledger is 20% of raw size, holds no content or credentials, verifies at about 126k events/s, detects tampering and replays deterministically. We position the work against concurrent 2026 proposals and define autonomy levels with evidence gates and harness metrics baselined on our data.",
-        "authors": [
-          "Mohammed Nayeem Khan",
-          "K S Sarun Kumar"
-        ],
-        "categories": [
-          "cs.SE",
-          "cs.AI",
-          "cs.MA"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.39468",
-        "paper_url": "https://arxiv.org/abs/2610.39468",
-        "pdf_url": "https://arxiv.org/pdf/2610.39468",
-        "published": "2026-10-29",
-        "title": "Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering",
-        "updated": "2026-10-29"
-      },
-      {
-        "abstract": "AI coding agents increasingly rely on retrieved code and development history to guide software changes. However, highly relevant artifacts may describe implementations that are inactive or incompatible with the target deployment. Neither semantic similarity nor recency establishes whether retrieved information remains applicable under feature flags, architectural migrations, and deployment-specific configurations. We challenge relevance-oriented retrieval by introducing operational context validity, a task-, deployment-, and time-dependent criterion for determining whether software evidence can legitimately guide implementation decisions. We instantiate this new retrieval principle in CASE, an agent-agnostic framework that connects repository artifacts with runtime configurations and architectural evolution, classifies evidence as valid, invalid, or unknown, and generates context packages distinguishing actionable guidance from historical rationale and unresolved constraints. We investigate its feasibility through a reproducible preliminary evaluation involving six development tasks, 15 artifacts, and three deployments. Conventional retrieval exposes 16 incompatible artifact occurrences as actionable, whereas CASE excludes them while retaining all applicable artifacts under the prototype's reference rules. Recency filtering reduces valid recall to 0.43, while removing feature-flag evidence from CASE reduces it to 0.13. Although these results demonstrate feasibility rather than improvements in coding-agent correctness, they reveal limitations of relevance-based retrieval and motivate a new research direction: enabling coding agents to reason not only about which information is relevant, but also whether it remains operationally valid.",
-        "authors": [
-          "Wesley K. G. Assunção",
-          "Ramesh Periyathambi"
-        ],
-        "categories": [
-          "cs.SE"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38800",
-        "paper_url": "https://arxiv.org/abs/2610.38800",
-        "pdf_url": "https://arxiv.org/pdf/2610.38800",
-        "published": "2026-10-28",
-        "title": "When Relevant Code Is Wrong: Runtime-Aware Context for AI Coding Agents",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Coding agents increasingly develop, test, and integrate software whose components are owned by different developers, teams, or services. This exposes a distinct attack surface: a malicious or compromised peer development role can manipulate a live component of the software under development (e.g., a backend service, test harness, CI job, or deployment service) and influence the runtime feedback that another role's coding agent must process to complete its task. Although such a component has legitimate diagnostic authority to report its own state, it has no action authority over the victim's local files, credentials, shell, or development environment. We introduce Cross-Boundary Adversarial Runtime Injection (CARI), a direct runtime-feedback injection setting that exploits this authority mismatch. Rather than explicitly compromising the victim's prompt, model, tools, or local environment, the attacker covertly embeds malicious instructions in task-relevant runtime feedback produced by a peer-controlled development component. The victim then interprets that feedback as part of normal debugging or recovery, and may translate the diagnostic guidance into unauthorized victim-side actions. We instantiate ten different attacks based on CARI, spanning resource exhaustion, information exposure, and development-state manipulation. Across four programming languages and five code-capable models, CARI succeeds in 2,845/3,000 (94.8%) trials. Furthermore, CARI transfers effectively to product-level coding agents, achieving 61.3% attack success on Codex and 58.7% on Claude Code. By contrast, prompt-level defenses exhibit a security-utility trade-off: generic warnings are ineffective, whereas explicit policies suppress attacks but substantially over-refuse legitimate actions.",
-        "authors": [
-          "Jie Fu",
-          "Shuang Wu",
-          "Ashish Kundu",
-          "Wendy Hui Wang",
-          "Yuan Hong"
-        ],
-        "categories": [
-          "cs.CR",
-          "cs.SE"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38799",
-        "paper_url": "https://arxiv.org/abs/2610.38799",
-        "pdf_url": "https://arxiv.org/pdf/2610.38799",
-        "published": "2026-10-28",
-        "title": "CARI: Cross-Boundary Adversarial Runtime Injection in Coding-Agent Workflows",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Coding agents automatically load project memory files such as CLAUDE.md at the start of every session and treat them as trusted project guidance. Anyone who can change such a file, for example through a pull request, can therefore steer the agent without ever touching the developer's prompt. We study memory files as an attack surface for insecure code generation and ask (1) whether a malicious memory file makes agents produce code that passes its tests but is vulnerable, and (2) whether agents disclose to the developer that the file shaped their code. For each of 12 CWE classes, we crafted two malicious memory files, a qualified variant that presents removing defensive checks as engineering best practice and a forceful variant that demands it. We ran Claude Code (Sonnet 5.5) and OpenCode (Qwen 3.8 27B, DeepSeek V4.1 Flash) on 36 SecRepoBench tasks with and without these files. The malicious files changed the rate of secure completions by -8 to +6 percentage points, with no consistent pattern across agents or variants. Agents differ sharply in what they tell the developer about the file. Claude Code names it in about two thirds of its final messages, whereas OpenCode mentions it almost exclusively in its reasoning trace, not in the final message the developer reads. Flagging the file as an attack does not reliably protect the code, as such agents still generated vulnerable code. We outline the larger studies needed to quantify this risk across agents and to design defenses.",
-        "authors": [
-          "Thiago Santos de Moura",
-          "Selma Güler",
-          "Yannic Noller"
-        ],
-        "categories": [
-          "cs.SE",
-          "cs.CR"
-        ],
-        "code_match": "title-match",
-        "code_url": "https://github.com/affaan-m/ECC",
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38521",
-        "paper_url": "https://arxiv.org/abs/2610.38521",
-        "pdf_url": "https://arxiv.org/pdf/2610.38521",
-        "published": "2026-10-28",
-        "title": "Security Impact of Coding Agent's Memory Files",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Historical experience can guide scientific coding at multiple levels, but task-level retrieval may miss implementation lessons that become relevant during execution. We introduce MUSE, a memory management framework combining multi-level memory with selective runtime injection for scientific coding agents. MUSE builds global, approach-level, and implementation-level memory from historical trajectories. At initialization, the agent receives global memory and problem-matched approach-level memory. During execution, current interactions are used to retrieve implementation-level memory. An LLM gate selects relevant experience and generates specific review advice, or skips injection. Across four benchmarks spanning numerical problem solving, kernel optimization, and scientific software repair, MUSE outperforms retrieval and memory baselines on all evaluation metrics. Ablations support the multi-level design and gated injection, while transfer experiments show that memory remains useful across kernel benchmarks. These results show that multi-level memory and selective runtime injection enable effective reuse of experience in scientific coding. Code is available at https://github.com/hr-jin/MUSE.",
-        "authors": [
-          "Haoran Jin",
-          "Defu Lian",
-          "Xiting Wang",
-          "Hong Xie"
-        ],
-        "categories": [
-          "cs.LG",
-          "cs.AI"
-        ],
-        "code_match": "paper-link",
-        "code_url": "https://github.com/hr-jin/MUSE",
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38332",
-        "paper_url": "https://arxiv.org/abs/2610.38332",
-        "pdf_url": "https://arxiv.org/pdf/2610.38332",
-        "published": "2026-10-28",
-        "title": "MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Existing code reveals past implementation decisions but rarely explains the reasoning behind them. When coding agents implement new features or modify existing functionality, past decisions may conflict with new task instructions. This raises a fundamental question for agentic software evolution: when multiple implementations satisfy the same functional requirements, how do coding agents decide whether to follow existing code or new task instructions? We investigate this question through bidirectional, controlled experiments in purpose-built repositories, followed by validation in real-world open-source repositories. Our approach isolates three competing sources of guidance: (1) agents' default preferences, (2) repository precedents, and (3) explicit task instructions. We conduct 5,625 trials across four coding agents and six implementation pairs, with validation in four open-source repositories spanning three programming languages. We find that agents share the same default implementation choices, yet overwhelmingly follow repository precedent when it conflicts with those defaults (359/360 trials). Crucially, not all precedents carry equal influence: three supporting local files yield 96% adoption, compared with only 4% for sibling-resource files, and changing file placement alone can shift adoption from 0% to 100% at a fixed example count. When new task intent conflicts with existing code, written priority rules achieve substantially higher success than code examples alone (59/60 versus 38/60 joint successes for two agents on two implementation pairs). The effectiveness of explicit rules also extends to open-source repositories, where a harness-loaded rule raises joint success from 0/120 to 117/120. These findings motivate design-decision traceability that preserves not only implementation choices but also the rationale and priorities that should guide future changes.",
-        "authors": [
-          "Haichao Zhu",
-          "Geyang Xu",
-          "Zhaorui Yang",
-          "Jiyuan Wang",
-          "Qian Zhang"
-        ],
-        "categories": [
-          "cs.SE",
-          "cs.AI"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38244",
-        "paper_url": "https://arxiv.org/abs/2610.38244",
-        "pdf_url": "https://arxiv.org/pdf/2610.38244",
-        "published": "2026-10-28",
-        "title": "Precedent or Intent? What Coding Agents Follow When Evolving Existing Code",
-        "updated": "2026-10-28"
-      },
-      {
-        "abstract": "Coding agents are typically provided end-to-end behavioral specifications that the code they produce should satisfy, such as tests and input--output examples. How many such specifications must a developer provide, and which ones, for the agent to produce the developer's intended program? We argue that this cannot be determined a priori, for it depends on the structure of the implementation, which is left to the agent to decide. An agent first commits to a structure---a decomposition into data types, modules, and functions---which fixes a class of candidate programs; behavioral specifications then select a program within that class. A set of tests that suffices for one structure may leave another badly underdetermined, requiring different edge cases or exponentially more examples. Since the structure is chosen by the agent, developers cannot ensure their specification is complete without reverse-engineering it from thousands of lines of generated code. To resolve this, we introduce Skeleton Coding, in which developers jointly specify the structure---in high-level, code-like format---alongside behavioral specifications. Theoretically, we model AI-assisted coding as a control problem, and show that skeletons can reduce exponentially the number of tests developers must supply to steer an agent toward an acceptable program. Empirically, across four models and three benchmarks, the best-performing skeleton specifications reduce mean test error by 48.4% relative to the best end-to-end behavioral specifications. Even when the agent can query a complete reference implementation, adding a skeleton reduces mean test error relatively by up to 27.0%. Skeletons also narrow the average gap between small and large models by about 52.4% while lowering implementation cost by 15--26x, and reduce code erosion by 24.7% on average.",
-        "authors": [
-          "Aditya Golatkar",
-          "Alessandro Achille",
-          "Renos Zabounidis",
-          "Vlad Sobal",
-          "Yangruibo Ding",
-          "Baishakhi Ray",
-          "Jonathan Buck",
-          "Guy Van den Broeck",
-          "Maryam Fazel",
-          "Pietro Perona",
-          "Wei Xia",
-          "Stefano Soatto"
-        ],
-        "categories": [
-          "cs.SE",
-          "cs.AI",
-          "cs.LG"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-30",
-        "id": "2610.38214",
-        "paper_url": "https://arxiv.org/abs/2610.38214",
-        "pdf_url": "https://arxiv.org/pdf/2610.38214",
-        "published": "2026-10-28",
-        "title": "Skeleton Coding: Program Structure as a Specification for Agents",
-        "updated": "2026-10-28"
-      }
-    ]
+    "vibe_coding": []
   },
   "topic_repositories": {
     "ai_infra": [
       {
-        "created_at": "2026-04-06",
-        "description": "Observability and enforcement for AI agent harnesses. Capture every run and runtime reliability with policy enforcement.  ",
-        "discovery": "active",
-        "first_seen": "2026-10-30",
-        "forks": 532,
-        "full_name": "FailproofAI/failproofai",
-        "id": 1202410617,
-        "language": "TypeScript",
-        "license": "NOASSERTION",
+        "created_at": "2026-10-29",
+        "description": "Next-Gen Multi-Agent Swarm Orchestration Engine. Coordinate 50+ LLM nodes (GPT-6, Claude 5.5, DeepSeek-V4) in a high-speed mesh network.  \"Redefining enterprise AI infrastructure. The operating system for collective machine intelligence in the AGI era.\"",
+        "discovery": "new",
+        "first_seen": "2026-10-31",
+        "forks": 0,
+        "full_name": "unitshaperextol/Legion-os",
+        "id": 1438319121,
+        "language": null,
+        "license": "MIT",
         "pushed_at": "2026-10-29",
-        "score": 20.39,
+        "score": 12.36,
         "star_growth_7d": null,
-        "stars": 7024,
+        "stars": 75,
         "topics": [
-          "agent-failure",
-          "agent-harness",
-          "agent-observability",
-          "agent-reliability",
-          "agent-tracing",
+          "agentic-workflow",
+          "agents-ai",
+          "agents-automation",
           "ai-agent",
+          "ai-agent-framework",
+          "ai-agent-tools",
+          "ai-agents-automation",
+          "ai-coding",
+          "ai-engineering",
+          "ai-model",
+          "ai-tools",
+          "claude",
           "claude-code",
-          "codex",
-          "enforcement",
-          "evals",
-          "guardrails",
-          "hermes",
-          "hooks",
+          "gpt-6",
           "llm",
-          "llm-failures",
-          "llm-observability",
-          "npm-package",
-          "observability",
-          "openclaw",
-          "reliability"
+          "llm-agents",
+          "llm-tools",
+          "multi-agent-ai",
+          "multi-agent-system",
+          "multi-agents"
         ],
-        "url": "https://github.com/FailproofAI/failproofai"
+        "url": "https://github.com/unitshaperextol/Legion-os"
       }
     ],
     "vibe_coding": [
       {
-        "created_at": "2026-10-25",
-        "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+        "created_at": "2026-10-26",
+        "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
         "discovery": "new",
-        "first_seen": "2026-10-30",
-        "forks": 642,
-        "full_name": "ZiChuanLan/agent-purge",
-        "id": 1432883796,
-        "language": "JavaScript",
+        "first_seen": "2026-10-31",
+        "forks": 82,
+        "full_name": "blakeandersonw/ai-app-playbook",
+        "id": 1434616998,
+        "language": "TypeScript",
         "license": "MIT",
-        "pushed_at": "2026-10-30",
-        "score": 16.78,
+        "pushed_at": "2026-10-26",
+        "score": 15.43,
         "star_growth_7d": null,
-        "stars": 882,
-        "topics": [
-          "claude-code",
-          "codex",
-          "coding-agent",
-          "deepseek-harness",
-          "harness",
-          "omp",
-          "opencode",
-          "pi",
-          "system-prompt"
-        ],
-        "url": "https://github.com/ZiChuanLan/agent-purge"
+        "stars": 592,
+        "topics": [],
+        "url": "https://github.com/blakeandersonw/ai-app-playbook"
       },
       {
-        "created_at": "2026-10-29",
-        "description": "Uncensored persona injection for 15 AI coding assistants · no refusal·pojia· 破甲 · 15 个 AI 编程助手通用 · 免审查 · 人格注入·",
+        "created_at": "2026-10-26",
+        "description": "Một sản phẩm Vibe Code tôi dành tặng cho tất cả mọi người",
         "discovery": "new",
-        "first_seen": "2026-10-30",
-        "forks": 0,
-        "full_name": "Michael017801/Persona-Forge",
-        "id": 1438025269,
-        "language": null,
+        "first_seen": "2026-10-31",
+        "forks": 14,
+        "full_name": "mrgoose000000-gif/HyperMac",
+        "id": 1433821697,
+        "language": "Swift",
         "license": null,
         "pushed_at": "2026-10-30",
-        "score": 11.49,
+        "score": 11.27,
         "star_growth_7d": null,
-        "stars": 41,
+        "stars": 36,
         "topics": [],
-        "url": "https://github.com/Michael017801/Persona-Forge"
+        "url": "https://github.com/mrgoose000000-gif/HyperMac"
       },
       {
         "created_at": "2026-10-25",
-        "description": "Agent Skills for computational biology — RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining and publication figures. Turn any AI coding agent into a computational biology assistant.",
+        "description": "Living docs for you and your AI assistant.  VibeSequence reads your code and draws every route, command and handler as a zoomable sequence diagram.",
         "discovery": "new",
-        "first_seen": "2026-10-30",
-        "forks": 1,
-        "full_name": "ssinder/bioinformatics-agent-skills",
-        "id": 1433206967,
+        "first_seen": "2026-10-31",
+        "forks": 0,
+        "full_name": "monkeymars/vibesequence",
+        "id": 1433023731,
         "language": "Python",
         "license": "MIT",
-        "pushed_at": "2026-10-27",
-        "score": 10.84,
+        "pushed_at": "2026-10-30",
+        "score": 10.29,
         "star_growth_7d": null,
-        "stars": 34,
+        "stars": 20,
         "topics": [
-          "agent-skills",
-          "agent-skills-standard",
-          "bioinformatics",
+          "ai-assistant",
+          "claude",
           "claude-code",
-          "claude-skills",
-          "computational-biology",
-          "literature-mining",
-          "molecular-dynamics",
-          "peptide-design",
-          "protein-structure",
-          "research-tools",
-          "rna-seq",
-          "scientific-visualization",
-          "single-cell"
+          "code-visualization",
+          "mermaid",
+          "sequence-diagram",
+          "static-analysis"
         ],
-        "url": "https://github.com/ssinder/bioinformatics-agent-skills"
-      },
-      {
-        "created_at": "2026-10-28",
-        "description": "vibe-* is a collection of Claude Code CLI skills. Each skill is a structured instruction set that tells Claude Code exactly what to do at a specific moment in a project — how to plan it, build it, review it, test it, deploy it, and hand it off.",
-        "discovery": "new",
-        "first_seen": "2026-10-30",
-        "forks": 0,
-        "full_name": "NV5892anaheim/vibe-resp-skill",
-        "id": 1437337668,
-        "language": null,
-        "license": null,
-        "pushed_at": "2026-10-28",
-        "score": 10.91,
-        "star_growth_7d": null,
-        "stars": 32,
-        "topics": [
-          "agent-skills",
-          "ai-design",
-          "ai-skills",
-          "claude-code",
-          "claude-code-skills",
-          "claude-desktop",
-          "claude-skills",
-          "claude-skills-library",
-          "design-critique",
-          "design-principles",
-          "design-system",
-          "design-tools",
-          "frontend-design",
-          "mcp",
-          "mcp-client",
-          "mcp-server",
-          "style-guide",
-          "ui-design",
-          "vibe-coding",
-          "vibe-coding-skills"
-        ],
-        "url": "https://github.com/NV5892anaheim/vibe-resp-skill"
-      },
-      {
-        "created_at": "2026-10-28",
-        "description": "Agent skill that conducts an interactive architectural walkthrough and verification quiz over a codebase.",
-        "discovery": "new",
-        "first_seen": "2026-10-30",
-        "forks": 0,
-        "full_name": "YorEthereallab4497-alt/grand-tour-rpocket",
-        "id": 1437331364,
-        "language": null,
-        "license": null,
-        "pushed_at": "2026-10-28",
-        "score": 10.91,
-        "star_growth_7d": null,
-        "stars": 32,
-        "topics": [
-          "agent-skills",
-          "ai-agent",
-          "ai-agent-tools",
-          "ai-agent-workflows",
-          "ai-agents",
-          "ai-agents-for-business",
-          "ai-assisted-development",
-          "claude-code-skill",
-          "claude-code-skills",
-          "claude-skills",
-          "claude-skills-library",
-          "code-comprehension",
-          "codebase-understanding",
-          "developer-education",
-          "explain-code",
-          "onboarding",
-          "onboarding-tool",
-          "skill-md",
-          "technical-interviews",
-          "vibe-coding"
-        ],
-        "url": "https://github.com/YorEthereallab4497-alt/grand-tour-rpocket"
+        "url": "https://github.com/monkeymars/vibesequence"
       }
     ]
   }
