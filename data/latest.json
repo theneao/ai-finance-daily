@@ -2,152 +2,324 @@
   "papers": [],
   "repositories": [
     {
-      "created_at": "2026-10-17",
-      "description": "Plataforma de trading gratis y de código abierto para Mac (con guía para portarla a Windows con Claude): footprint, DOM, backtesting anti-sobreoptimización y estrategias con IA. 100 % local.",
-      "discovery": "active",
-      "first_seen": "2026-11-01",
-      "forks": 49,
-      "full_name": "ralphtradesz/trading-hub",
-      "id": 1423707483,
-      "language": "C#",
-      "license": "NOASSERTION",
-      "pushed_at": "2026-10-31",
-      "score": 13.57,
-      "star_growth_7d": null,
-      "stars": 138,
+      "created_at": "2026-08-16",
+      "description": "Financial data, unlocked.",
+      "discovery": "growth-watch",
+      "first_seen": "2026-11-02",
+      "forks": 2,
+      "full_name": "fonrex/fonrex",
+      "id": 1335978839,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-01",
+      "score": 12.59,
+      "star_growth_7d": 70,
+      "stars": 78,
       "topics": [
-        "algorithmic-trading",
-        "apple-silicon",
-        "avalonia",
-        "backtesting",
-        "binance",
-        "claude",
-        "claude-code",
-        "crypto",
-        "csharp",
-        "databento",
-        "dotnet",
-        "footprint-chart",
-        "futures",
-        "macos",
-        "order-flow",
-        "rithmic",
-        "source-available",
-        "trading",
-        "trading-platform",
-        "walk-forward-optimization"
+        "api",
+        "finance",
+        "financial-data",
+        "fintech",
+        "open-source",
+        "openbb",
+        "openbb-ecosystem-plugin",
+        "openbb-workspace",
+        "self-hosted",
+        "stocks",
+        "trading-toolkit"
       ],
-      "url": "https://github.com/ralphtradesz/trading-hub"
+      "url": "https://github.com/fonrex/fonrex"
     },
     {
-      "created_at": "2026-10-27",
-      "description": "Open-source Grid + DCA trading bot for crypto. Supports Binance, Bybit, OKX, Hyperliquid, dYdX, Bitget. Advanced customization, OrderBook, risk management, Web UI and backtesting.",
+      "created_at": "2026-10-29",
+      "description": "A local workspace for testing strategies and building your own quantitative algorithms. Strategy Cards, historical replay, traceable validation and an optional MT5 connector.",
       "discovery": "new",
-      "first_seen": "2026-11-01",
-      "forks": 7,
-      "full_name": "leftamber/CEXTrader-Grid-Dca-Automation-Bot-Platform",
-      "id": 1435126278,
-      "language": "Python",
-      "license": null,
-      "pushed_at": "2026-10-29",
-      "score": 9.95,
+      "first_seen": "2026-11-02",
+      "forks": 19,
+      "full_name": "Jokejoker-designer/QUANTSMART",
+      "id": 1438154472,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-02",
+      "score": 10.29,
       "star_growth_7d": null,
-      "stars": 22,
-      "topics": [
-        "alogorithmic-trading",
-        "binance",
-        "btc",
-        "bybit",
-        "coinbase",
-        "dca",
-        "dca-bot",
-        "dydx",
-        "dydx-v4",
-        "ethereum",
-        "grid",
-        "grid-bot",
-        "hft",
-        "high-frequency",
-        "hyperliquid",
-        "limit-order-book",
-        "okx",
-        "orderbook",
-        "quantitative-finance",
-        "traiding"
-      ],
-      "url": "https://github.com/leftamber/CEXTrader-Grid-Dca-Automation-Bot-Platform"
+      "stars": 20,
+      "topics": [],
+      "url": "https://github.com/Jokejoker-designer/QUANTSMART"
     }
   ],
-  "run_date": "2026-11-01",
+  "run_date": "2026-11-02",
   "topic_papers": {
-    "ai_infra": [],
-    "vibe_coding": []
-  },
-  "topic_repositories": {
     "ai_infra": [
       {
-        "created_at": "2026-10-31",
-        "description": "ReAlign models instantly, on demand. Per-request alignment for verified users and channels, or Always On. Use directly or with Hermes, OpenClaw and custom harnesses.",
-        "discovery": "new",
-        "first_seen": "2026-11-01",
-        "forks": 13,
-        "full_name": "Aevonix/FlashAlign",
-        "id": 1440543552,
-        "language": "Python",
-        "license": "AGPL-3.0",
-        "pushed_at": "2026-11-01",
-        "score": 12.59,
-        "star_growth_7d": null,
-        "stars": 78,
-        "topics": [
-          "abliteration",
-          "hermes",
-          "inference",
-          "llama-cpp",
-          "llm",
-          "model-alignment",
-          "openclaw",
-          "sglang",
-          "tensorfold",
-          "vllm"
+        "abstract": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure of a decision request from its physical execution within a single flattened token stream. Through ForkAttention, Flide navigates request dependencies using GPU-resident indices across both standard attention and recurrent Gated DeltaNet layers, guaranteeing in exact arithmetic that every query branch evaluates identically to an isolated forward pass. By expressing branch topologies directly in GPU-resident metadata, Flide accommodates diverse request mixtures with a compact set of pre-recorded execution graphs while enabling expanding agent histories to resume from checkpoints saved in earlier passes. Extensive evaluations on public hybrid and decision models demonstrate that Flide answers queries up to 9.5 times faster than vLLM and SGLang while staying closest to a float32 reference in total variation distance. By unifying physical execution throughput with mathematical exactness, Flide establishes a principled foundation for scalable, latency-critical decision intelligence in agent systems.",
+        "authors": [
+          "Bobo Li",
+          "Jiajia Song",
+          "Hao Fei",
+          "Wynne Hsu",
+          "Mong Li Lee"
         ],
-        "url": "https://github.com/Aevonix/FlashAlign"
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": "title-match",
+        "code_url": "https://github.com/OmniJev/Flide",
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.42148",
+        "paper_url": "https://arxiv.org/abs/2610.42148",
+        "pdf_url": "https://arxiv.org/pdf/2610.42148",
+        "published": "2026-10-30",
+        "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+        "updated": "2026-10-30"
+      },
+      {
+        "abstract": "Hybrid large language models combine full-attention and recurrent linear layers to reduce inference costs. Prefix caching can further reduce redundant computation across requests, but a recurrent checkpoint cannot recover an earlier state corresponding to a shorter prefix. Existing hybrid prefix caching systems retain checkpoints at selected boundaries to support common reuse patterns in conventional conversations. However, agent workloads modify and revisit earlier contexts, exposing reusable prefixes whose checkpoints were never saved or have already been evicted. A straightforward approach is to retain more checkpoints to reduce recomputation, but their cumulative footprint can displace reusable prefixes from other sessions and cause additional cache misses. To address these problems, we present HiState, a prefix cache management system for hybrid models serving agent workloads. Our key observation is that prefix reuse accesses all matching key-value (KV) entries but only one recurrent checkpoint, regardless of how many checkpoints are retained. This asymmetry allows HiState to retain historical checkpoints on SSD while prioritizing fast memory for KV entries: each hit retrieves only one checkpoint whose size is independent of context length. Within this hierarchy, we propose adaptive interval control to balance checkpoint storage against recomputation, and unified eviction to coordinate checkpoint sparsification with reclamation of stale trajectories. We implement HiState on top of vLLM and evaluate it on two public coding-agent trace datasets and controlled microbenchmarks. On real agent traces, HiState achieves up to 5.73x and 5.44x speedups in p99 TTFT over vLLM-Marconi and SGLang-HiCache, respectively.",
+        "authors": [
+          "Zaifeng Pan",
+          "Lucas Wang",
+          "Xinwei Qiang",
+          "Yanbo Zhou",
+          "Chang Chen",
+          "Zhengding Hu",
+          "Yue Guan",
+          "Yufei Ding"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.41508",
+        "paper_url": "https://arxiv.org/abs/2610.41508",
+        "pdf_url": "https://arxiv.org/pdf/2610.41508",
+        "published": "2026-10-30",
+        "title": "HiState: Hierarchical Prefix Cache Management for Hybrid LLM Serving in Agentic Workloads",
+        "updated": "2026-10-30"
+      },
+      {
+        "abstract": "Fine-tuning a language model changes how it responds, but where is this fine-tuned behavior instantiated? To better understand this, we evaluate whether the change in model behavior arises only during the generation of the answer tokens where the change manifests, or whether altered processing of previous tokens causes it via the attention mechanism. For this, we patch the KV cache from a LoRA fine-tuned model into the unmodified base model, and vice versa. Our results show that for some behaviors, like responding in German or emergent misalignment, patching the KV cache can indeed transfer them from the fine-tuned to the base model. Correspondingly, patching the KV cache from base to fine-tune can partially or fully remove fine-tuned behavior. Furthermore, we find that the effect of patching grows with how much of the KV cache is patched and concentrates at a few pivotal positions, with system-prompt and chat-template tokens having disproportionate influence.",
+        "authors": [
+          "Jonas Loos",
+          "Oliver Eberle"
+        ],
+        "categories": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.41480",
+        "paper_url": "https://arxiv.org/abs/2610.41480",
+        "pdf_url": "https://arxiv.org/pdf/2610.41480",
+        "published": "2026-10-30",
+        "title": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
+        "updated": "2026-10-30"
+      },
+      {
+        "abstract": "Length-aware scheduling reduces request latency in LLM serving by prioritizing shorter requests. However, despite their large model sizes, length predictors can suffer degraded ranking performance under domain and task shifts, and adapting them can require costly retraining. Their prediction overhead can further offset the benefits of scheduling. To improve the generalization and efficiency of length-aware scheduling, we propose \\textbf{LEAP}, a length prediction system with fast online adaptation and asynchronous CPU execution. LEAP reuses the serving model's prefill hidden states, which contain information about the output length, and extracts this signal through a linear readout. To adapt to substantial domain and task shifts, it updates the readout at test time through recursive least squares, using completed requests as supervision without gradient computation or historical-data replay. Prediction and updates run asynchronously on CPU, while prediction and initial batch ordering overlap the remaining GPU prefill. Across the evaluated cross-domain transfers, LEAP retains strong ranking performance, and online adaptation improves Spearman correlation by 64.7\\% under a larger domain shift. Serving experiments show that LEAP reduces average per-token latency by 15.9--40.8\\% compared with the evaluated length predictors, while achieving 1.9\\% higher throughput with $30{,}569\\times$ fewer predictor parameters than the strongest evaluated baseline.",
+        "authors": [
+          "Kwan Yan",
+          "Jialun Zhong",
+          "Yanzeng Li"
+        ],
+        "categories": [
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.41359",
+        "paper_url": "https://arxiv.org/abs/2610.41359",
+        "pdf_url": "https://arxiv.org/pdf/2610.41359",
+        "published": "2026-10-30",
+        "title": "LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction",
+        "updated": "2026-10-30"
+      },
+      {
+        "abstract": "LLM agents execute tasks through repeated model calls over evolving histories of reasoning, actions, and tool feedback. Aggregate speculative-decoding metrics merge these distinct decisions, providing limited guidance on where draft supervision is needed. We present TraceSpec, a framework connecting trajectory evaluation with adaptive draft training. It combines dynamic execution with fixed-prefix replay and introduces TraceSpec-Traj, a corpus of 10,000 training states and 2,500 test states spanning browsing and software engineering. Analysis of five speculative baselines reveals that aggregate acceptance can rise with context length while declining within matched late browsing actions. Workload and phase further distinguish these trends, motivating supervision guided by trajectory conditions. TraceSpec trains on intermediate assistant turns and allocates a fixed prediction budget using state-conditioned estimates of prefix-aware acceptance gaps. Across three target sizes and two temperatures, it improves replay throughput by 12.5% to 22.6% over its DSpark base. Qwen3-4B ablations show that adaptive allocation increases accepted length by 3.3% to 10.0% over fixed full-turn supervision, with additional comparisons substantiating the roles of state conditioning and consecutive-token agreement. The resulting evaluation resources, trajectory findings, and training strategy connect the analysis of agent execution to practical draft improvement.",
+        "authors": [
+          "Jihao Zhao",
+          "Shuaishuai Zu",
+          "Pengfei Li",
+          "Biao Qin",
+          "Guanghuan Fang",
+          "Ben Feng",
+          "Baochuan Yang"
+        ],
+        "categories": [
+          "cs.CL"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.41177",
+        "paper_url": "https://arxiv.org/abs/2610.41177",
+        "pdf_url": "https://arxiv.org/pdf/2610.41177",
+        "published": "2026-10-30",
+        "title": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
+        "updated": "2026-10-30"
+      },
+      {
+        "abstract": "Disaggregated LLM inference separates the prefill and decode phases across GPU pools, generating massive KV-cache transfers. Because these transfers last hundreds of milliseconds to seconds, they behave as mega elephant flows that dominate link bandwidth utilization. In this regime, stateless ECMP can perform poorly: hash collisions may overload one spine link while leaving others idle, stretching transfer times by seconds. Yet this same persistence makes coordination practical. Since these flows are long-lived, even lightweight one-to-all coordination can be amortized over their lifetime. We present ARK, a distributed elephant-flow path reservation mechanism. ARK coordinates senders to choose source ports whose hashes map concurrent flows onto distinct spines, without requiring switch changes or receiver-side packet reordering. Packet-level RDMA simulations show that ARK reduces mean and P95 FCT by up to 27.3% and 34.0% under moderate load, and further reduces mean TTFT by up to 12.9%.",
+        "authors": [
+          "Hung-Chun Lin",
+          "Ting-Wei Hsu",
+          "Chung-En Ho",
+          "Ahmed Saeed"
+        ],
+        "categories": [
+          "cs.NI",
+          "cs.AI",
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.41160",
+        "paper_url": "https://arxiv.org/abs/2610.41160",
+        "pdf_url": "https://arxiv.org/pdf/2610.41160",
+        "published": "2026-10-30",
+        "title": "ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference",
+        "updated": "2026-10-30"
       }
     ],
     "vibe_coding": [
       {
-        "created_at": "2024-11-04",
-        "description": "Code for Paper: Training Software Engineering Agents and Verifiers with SWE-Gym [ICML 2025]",
-        "discovery": "active",
-        "first_seen": "2026-11-01",
-        "forks": 48,
-        "full_name": "SWE-Gym/SWE-Gym",
-        "id": 883346589,
-        "language": "Jupyter Notebook",
-        "license": "Apache-2.0",
-        "pushed_at": "2026-11-01",
-        "score": 16.51,
-        "star_growth_7d": null,
-        "stars": 754,
-        "topics": [],
-        "url": "https://github.com/SWE-Gym/SWE-Gym"
+        "abstract": "Migrating from Fortran to C++/Kokkos broadens access to hardware accelerators through backends such as CUDA and HIP while offering greater flexibility in software design. However, legacy Fortran applications often have large codebases, making manual porting time-consuming and costly. Recent advances in large language models (LLMs) and AI coding agents have made large-scale code migration increasingly feasible. In this study, we ported NICAM (Nonhydrostatic ICosahedral Atmospheric Model), a legacy Fortran climate model accelerated with OpenACC, to C++/Kokkos with the assistance of Claude Code. The agent translated the code directly from Fortran to C++/Kokkos under human review. Approximately 140,000 lines of Fortran were analyzed and ported into 35,000 lines of C++/Kokkos, covering the dynamical core and seven physics packages. A 100-member ensemble comparison with the original Fortran model showed that the port is statistically consistent with the original. Performance was evaluated on Miyabi-G, an NVIDIA GH200 cluster, and Sirius, an AMD MI300A cluster. Compared with the Fortran/OpenACC baseline on GH200, the port achieved application speedups of $1.71\\times$ on GH200 and $1.54\\times$ on MI300A. The CUDA build achieved a GPU kernel-time speedup of $1.38\\times$ on GH200. After normalization by peak memory bandwidth, the HIP build on MI300A achieved $0.96\\times$ the kernel performance of the Fortran/OpenACC baseline.",
+        "authors": [
+          "Xuanzhengbo Ren",
+          "Takashi Shimokawabe",
+          "Hisashi Yashiro"
+        ],
+        "categories": [
+          "cs.DC"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.41313",
+        "paper_url": "https://arxiv.org/abs/2610.41313",
+        "pdf_url": "https://arxiv.org/pdf/2610.41313",
+        "published": "2026-10-30",
+        "title": "Migrating a Legacy Scientific Application with an AI Coding Agent: NICAM from Fortran to Kokkos",
+        "updated": "2026-10-30"
       },
       {
-        "created_at": "2026-10-31",
-        "description": "a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded ",
+        "abstract": "Coding agents increasingly rely on automated approvers to decide whether a proposed shell command may run. Existing approvers, from rule-based checkers to guardrail models and deployed permission classifiers, base their decisions on the text of the request and command. Yet a command's behavior depends on the code it invokes and the state of the workspace, and systems that observe file changes leave the assessment to the agent or a human after execution. We present Caper, a consequence-aware approval mechanism that pre-executes each command in a snapshotted sandbox, provides an independent approver with a bounded report of its observed effects, commits allowed commands, and rolls back blocked ones with a reason the agent can act on. Compared with six existing systems, Caper achieves the lowest harmful-outcome rate on SABER (6.7% versus at least 14.8%) and YoloFS-Ext, a benchmark we build in which harmful behavior is hidden inside invoked tools (7.8% versus at least 35.3%), while blocking 1.0% of the safe twins of the dangerous tasks in YoloFS-Ext.",
+        "authors": [
+          "Weiheng Wu",
+          "Junkai Chen",
+          "Zhensu Sun",
+          "Jieke Shi",
+          "Yunbo Lyu",
+          "David Lo"
+        ],
+        "categories": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-02",
+        "id": "2610.40753",
+        "paper_url": "https://arxiv.org/abs/2610.40753",
+        "pdf_url": "https://arxiv.org/pdf/2610.40753",
+        "published": "2026-10-29",
+        "title": "\"Shall We Approve?\" Consequence-Aware Approval for Autonomous Coding Agents",
+        "updated": "2026-10-29"
+      }
+    ]
+  },
+  "topic_repositories": {
+    "ai_infra": [
+      {
+        "created_at": "2026-10-20",
+        "description": "Stable, high-throughput inference server for multi-GPU NVIDIA V100 (SM70): Qwen3.8 Flash-Next with AWQ / NVFP4, multimodal input, CPU/disk KV offload, and MTP or DFlash2 speculative decoding.",
         "discovery": "new",
-        "first_seen": "2026-11-01",
-        "forks": 4,
-        "full_name": "kiukfungeon/mdr",
-        "id": 1440552318,
-        "language": "Rust",
-        "license": "MIT",
+        "first_seen": "2026-11-02",
+        "forks": 2,
+        "full_name": "Leonccaa/ReVolta",
+        "id": 1426406323,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-11-01",
+        "score": 11.02,
+        "star_growth_7d": 22,
+        "stars": 31,
+        "topics": [
+          "awq",
+          "flash-next",
+          "inference-server",
+          "kv-cache-offloading",
+          "llm-inference",
+          "nvfp4",
+          "nvidia-v100",
+          "qwen",
+          "qwen3-8",
+          "qwen3-8-flash-next",
+          "sm70",
+          "speculative-decoding",
+          "tesla-v100",
+          "vllm",
+          "volta"
+        ],
+        "url": "https://github.com/Leonccaa/ReVolta"
+      }
+    ],
+    "vibe_coding": [
+      {
+        "created_at": "2026-10-26",
+        "description": "Skills for AI coding agents.",
+        "discovery": "new",
+        "first_seen": "2026-11-02",
+        "forks": 26,
+        "full_name": "benjitaylor/skills",
+        "id": 1433974029,
+        "language": "TypeScript",
+        "license": null,
         "pushed_at": "2026-10-31",
-        "score": 10.43,
+        "score": 15.86,
         "star_growth_7d": null,
-        "stars": 24,
+        "stars": 569,
         "topics": [],
-        "url": "https://github.com/kiukfungeon/mdr"
+        "url": "https://github.com/benjitaylor/skills"
+      },
+      {
+        "created_at": "2026-10-22",
+        "description": "一次构建视频模板，多次复用：给 Claude Code、Codex 等 25+ 个 Agent 的开源可编辑婚礼视频模板与 Agent Skill。Build a video template once, reuse it across coding agents.",
+        "discovery": "new",
+        "first_seen": "2026-11-02",
+        "forks": 145,
+        "full_name": "actionow-ai/vvv",
+        "id": 1429396529,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-30",
+        "score": 15.34,
+        "star_growth_7d": null,
+        "stars": 513,
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "claude-code",
+          "codex",
+          "mcp",
+          "video",
+          "video-templates",
+          "wedding-video"
+        ],
+        "url": "https://github.com/actionow-ai/vvv"
       }
     ]
   }
