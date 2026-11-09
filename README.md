@@ -14,67 +14,76 @@
 
 ---
 
-# AI 应用研究日报 · 2026-11-08
+# AI 应用研究日报 · 2026-11-09
 
-本期新增：**0 篇论文**（其中 0 篇找到可能的代码）和 **4 个 GitHub 项目**。
+本期新增：**2 篇论文**（其中 0 篇找到可能的代码）和 **0 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
-本期没有发现通过严格双重筛选的新论文。
+| 日期 | 论文 | 作者 | 代码 |
+|---|---|---|---|
+| 2026-11-06 | [TailDART: Compute-Efficient Foundation Models for Financial Time-Series Forecasting](https://arxiv.org/abs/2611.09176) | Chiang Qin Zhi, Ranjan Satapathy, Erik Cambria 等 | — |
+| 2026-11-06 | [Towards Robust Reinforcement Learning Market Making: Lessons from Loss Function Experimentation](https://arxiv.org/abs/2611.09012) | Siddharth Nand, Bora Guney | — |
 
 
 ## GitHub 金融与交易工具
 
-| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
-|---|---|---:|---:|---|---|
-| [rnikitin/QuantNavigator](https://github.com/rnikitin/QuantNavigator) | An extensible harness for quantitative research. Product vision and roadmap. | 239 | — |  | 近期活跃 |
-| [ZevFlashthorn/adaq-rpocket-team](https://github.com/ZevFlashthorn/adaq-rpocket-team) | AdaQ (Ada Quant) is an AI-powered quantitative trading platform for equities and digital crypto assets. | 42 | — | HTML | 新项目 |
-| [SapphireFarCzar/A.W.-rpocket-team-Stratgies-Indicator](https://github.com/SapphireFarCzar/A.W.-rpocket-team-Stratgies-Indicator) | A.W. Strategy: a rules-based intraday futures strategy for TradingView (market structure, order flow, GEX levels), with an automated options-data pipeline and a paper-trading research bot. | 42 | — | HTML | 新项目 |
-| [DegreeApprentice/Ton-token-sniper-bot](https://github.com/DegreeApprentice/Ton-token-sniper-bot) | TON token sniper bot for STON.fi and DeDust DEX. Auto-skip scam tokens and honeypots, secure profits with trailing stops. High-frequency crypto trading bot for The Open Network. Toncoin | 35 | — |  | 新项目 |
+本期没有发现符合条件的新项目。
 
 
 ## Vibe Coding · 工作与学习增强
 
-新增 **0 篇论文**（0 篇找到代码）和 **5 个项目**。
-
-### 论文
-
-本期没有发现通过严格双重筛选的新论文。
-
-
-### GitHub 项目
-
-| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
-|---|---|---:|---:|---|---|
-| [stablyai/orca](https://github.com/stablyai/orca) | Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime. | 118751 | — | TypeScript | 近期活跃 |
-| [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. | 78374 | — | Python | 近期活跃 |
-| [aa1143/NamiAgent](https://github.com/aa1143/NamiAgent) | 零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent | 415 | — | Python | 新项目 |
-| [jmanico/grim-prompter](https://github.com/jmanico/grim-prompter) | Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-traced threat model. 36 architectures, 29 methods, MIT. | 388 | — |  | 新项目 |
-| [switch-dimension/deepseek-superagent-guide](https://github.com/switch-dimension/deepseek-superagent-guide) | A guide that teaches an AI coding assistant DeepSeek's superagent pattern and how to set it up with Claude Code or OpenCode | 20 | — |  | 新项目 |
-
-
-## AI Infra · 推理部署与应用基础设施
-
-新增 **9 篇论文**（1 篇找到代码）和 **0 个项目**。
+新增 **5 篇论文**（2 篇找到代码）和 **4 个项目**。
 
 ### 论文
 
 | 日期 | 论文 | 作者 | 代码 |
 |---|---|---|---|
-| 2026-10-31 | [Multi-Turn Semantic Caching for Low-Cost LLM Serving](https://arxiv.org/abs/2611.01077) | Baran Atalar, Selly Beyene, Xutong Liu 等 | — |
-| 2026-10-31 | [Ripple: Deadline-Aware CPU-GPU Sharing for Embodied Inference](https://arxiv.org/abs/2611.01067) | Jiadong Zhang, Xiaosong Ma | — |
-| 2026-10-31 | [RTP-LLM: Building an Evolvable and Reliable LLM Inference Engine at Alibaba Scale](https://arxiv.org/abs/2611.00967) | Jiarui Guo, Zhi Zhang, Boyu Tan 等 | — |
-| 2026-10-31 | [TVP: TV is Almost All You Need for Speculative Decoding](https://arxiv.org/abs/2611.00588) | Aaryam Sharma | [标题匹配](https://github.com/KentoNishi/awesome-all-you-need-papers) |
-| 2026-10-31 | [BitLLM: Efficient Low-Bit, Conversion-Hiding LLM Decoding on Mobile GPUs](https://arxiv.org/abs/2611.00547) | Hangyu Zheng, Zhihao Shu, Kunxiong Zhu 等 | — |
-| 2026-10-31 | [Weights That Stay: On-Chip Megakernels for Serial Heads in Speculative Decoding](https://arxiv.org/abs/2611.00506) | Xinwei Qiang, Ziyi Xu, Zaifeng Pan 等 | — |
-| 2026-10-31 | [te-comp: A Complete MLIR Compiler Generating Self-Contained C Inference Engines for MCUs](https://arxiv.org/abs/2611.03710) | Van Chan Ngo | — |
-| 2026-10-30 | [Rethinking KV Cache Eviction for Agentic LLM Serving](https://arxiv.org/abs/2611.00391) | Jiakun Fan, Han Meng, Yuxuan Xia 等 | — |
-| 2026-10-30 | [C3: Speech-Guided KV Retrieval for Long-Context SpeechLLM Inference](https://arxiv.org/abs/2611.00333) | Dancheng Liu, Markus Müller, Rupak Vignesh Swaminathan 等 | — |
+| 2026-11-06 | [Video-Coder: Reinforcing Agentic Coding for Video Generation](https://arxiv.org/abs/2611.09894) | Chaoyang Wang, Sicheng Gao, Junan Hu 等 | [arXiv 页面](https://github.com/CYWang735/Video-Coder) |
+| 2026-11-06 | [When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents](https://arxiv.org/abs/2611.09802) | Tural Mehtiyev, Biruk Tadesse, Lawrence Arkoh 等 | — |
+| 2026-11-06 | [AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos](https://arxiv.org/abs/2611.09769) | Zhongyi Zhang, Jingyu Xiao, Shuqing Li 等 | — |
+| 2026-11-06 | [Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts](https://arxiv.org/abs/2611.09395) | Răzvan Albu, Aliaksei Khval, Maxine Orlova 等 | [论文链接](https://github.com/TracyTeam/tracybot) |
+| 2026-11-06 | [Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds](https://arxiv.org/abs/2611.09017) | Xinjie Lin, Qingle Liu, Wenyi Li 等 | — |
 
 
 ### GitHub 项目
 
-本期没有发现符合条件的新项目。
+| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
+|---|---|---:|---:|---|---|
+| [devvmhq/devvm](https://github.com/devvmhq/devvm) | One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding | 421 | — | Go | 新项目 |
+| [kubai087/kubai-icons](https://github.com/kubai087/kubai-icons) | An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agents. Comes with 2,600+ open-source icons for React, Vue and SVG, and a website to browse them. | 404 | — | JavaScript | 新项目 |
+| [avivgerz-hue/vibe-shield](https://github.com/avivgerz-hue/vibe-shield) | 60-rule static security scanner, MCP server & skill poisoning auditor for AI-generated codebases (Claude Code, Codex, Cursor). | 24 | — | TypeScript | 新项目 |
+| [mrconcol/vibecode-speed-prompts](https://github.com/mrconcol/vibecode-speed-prompts) | 31 промпт для Claude Code: чтобы приложение на вайбкоде не тормозило | 24 | — |  | 新项目 |
+
+
+## AI Infra · 推理部署与应用基础设施
+
+新增 **11 篇论文**（6 篇找到代码）和 **3 个项目**。
+
+### 论文
+
+| 日期 | 论文 | 作者 | 代码 |
+|---|---|---|---|
+| 2026-11-06 | [BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design](https://arxiv.org/abs/2611.09825) | Dayou Du, Woon Yee Ng, Guangming Sheng 等 | [论文链接](https://github.com/OpenBitSys/BitDecoding-FP4) |
+| 2026-11-06 | [FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding](https://arxiv.org/abs/2611.09722) | Donglin Zhuang, Pragaash Ponnusamy, Xiaoxia Wu 等 | [论文链接](https://github.com/FutureMLS-Lab/FOSCAR) |
+| 2026-11-06 | [Intent-Aware Caching for Efficient LLM Serving](https://arxiv.org/abs/2611.09715) | Kazi Hasan Ibn Arif, JinYi Yoon, Dimitrios S. Nikolopoulos 等 | [arXiv 页面](https://github.com/hasanar1f/intent-aware-caching) |
+| 2026-11-06 | [RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill](https://arxiv.org/abs/2611.09709) | Dylan Johnston, Robert P. Smith | [arXiv 页面](https://github.com/Approximate-Science/ridgefill-data) |
+| 2026-11-06 | [Nebula: Distributed Position-Independent Caching for LLM Serving](https://arxiv.org/abs/2611.09474) | Yifei Liu, Junbin Pan, Junhao Hu 等 | — |
+| 2026-11-06 | [MINE: Entropy-coded Memory-efficient Inference for Large Language Models](https://arxiv.org/abs/2611.09424) | Emil Schätzle, Markus Püschel | — |
+| 2026-11-06 | [KLEAR: Knowledge-Matched LLM Evaluation in Korean across Application Requirements via Controlled Benchmark Transformation](https://arxiv.org/abs/2611.09223) | Seoyeon Kim, Jeonghyun Kang, Hamin Koo 等 | — |
+| 2026-11-06 | [DARIC: A Position-Independent KV Cache Reuse System with Distribution-Aware Recomputation](https://arxiv.org/abs/2611.09109) | Weikang Wang, Haiyang Liu, Xin Zhou 等 | [论文链接](https://github.com/Lenovo-ICI/DARIC) |
+| 2026-11-06 | [Inside the Trap: A Renewal Law for Prefix-Cache Collapse in LLM Agent Serving](https://arxiv.org/abs/2611.08902) | Akshat Valse, Ali Jannesari | [ID 命中](https://github.com/AkshatValse/surviving-llm-stampede) |
+| 2026-11-05 | [ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding](https://arxiv.org/abs/2611.08669) | Selim Aktas, Yusuf Erdem Erdem, Ahmed Zeer 等 | — |
+| 2026-11-05 | [MORTIS: Compiler-Guided KV-Cache Management for LLM Agent Programs](https://arxiv.org/abs/2611.08638) | Xiaoyu Ma, Jayanaka L. Dantanarayana, Savini Kashmira 等 | — |
+
+
+### GitHub 项目
+
+| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |
+|---|---|---:|---:|---|---|
+| [adventists-ai/sophon-realtime](https://github.com/adventists-ai/sophon-realtime) | Sophon-Realtime v1: open full-duplex voice models that hear your tone and speak with one. Tag and Flash run on one GPU with vLLM-Omni; E2E in preview. | 32 | — | Python | 新项目 |
+| [benmaster82/Pithos](https://github.com/benmaster82/Pithos) | A dependency-free C inference engine for Liquid AI's LFM2 / LFM2.5 models. Terminal chat, an OpenAI-compatible server, a web agent and a terminal agent, all in one executable. | 31 | +24 | C | 新项目 |
+| [weixijia/mas-office](https://github.com/weixijia/mas-office) | See your multi-agent system work: a framework-agnostic protocol and live, animated office for AI agent teams. | 26 | — | JavaScript | 新项目 |
 
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。
