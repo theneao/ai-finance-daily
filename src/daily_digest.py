@@ -19,6 +19,8 @@ from urllib.parse import quote_plus
 import requests
 import yaml
 
+from finance_catalog import category, collect_catalog, market_labels, publish_months, render_catalog, tool_kind
+
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = ROOT / "data" / "state.json"
@@ -71,6 +73,18 @@ class Client:
         )
         self._last_github_search = time.monotonic()
         return response.json().get("items", [])
+
+    def github_search_page(self, query: str, page: int = 1) -> dict[str, Any]:
+        wait = 2.1 - (time.monotonic() - self._last_github_search)
+        if wait > 0:
+            time.sleep(wait)
+        response = self.get(
+            f"{GITHUB_API}/search/repositories",
+            params={"q": query, "sort": "stars", "order": "desc", "per_page": 100, "page": page},
+            headers=self.github_headers,
+        )
+        self._last_github_search = time.monotonic()
+        return response.json()
 
     def arxiv_get(self, **params: Any) -> requests.Response:
         wait = 3.1 - (time.monotonic() - self._last_arxiv_request)
@@ -386,6 +400,8 @@ def compact_repo(repo: dict[str, Any], now: dt.datetime, discovery: str) -> dict
         "license": license_obj.get("spdx_id"),
         "discovery": discovery,
         "score": repo_score(repo, now),
+        "archived": repo.get("archived", False),
+        "disabled": repo.get("disabled", False),
     }
 
 
@@ -453,7 +469,7 @@ def md_escape(value: Any) -> str:
 def paper_table(papers: list[dict[str, Any]]) -> str:
     if not papers:
         return "本期没有发现通过严格双重筛选的新论文。\n"
-    rows = ["| 日期 | 论文 | 作者 | 代码 |", "|---|---|---|---|"]
+    rows = ["| 日期 | 论文 | 作者 | 代码 | 市场/因子 |", "|---|---|---|---|---|"]
     labels = {
         "paper-link": "论文链接",
         "papers-with-code": "Papers with Code",
@@ -464,26 +480,27 @@ def paper_table(papers: list[dict[str, Any]]) -> str:
     }
     for paper in papers:
         title = f"[{md_escape(paper['title'])}]({paper['paper_url']})"
-        authors = ", ".join(paper["authors"][:3]) + (" 等" if len(paper["authors"]) > 3 else "")
+        authors = ", ".join(paper.get("authors", [])[:3]) + (" 等" if len(paper.get("authors", [])) > 3 else "")
         code = "—"
         if paper.get("code_url"):
             code = f"[{labels.get(paper.get('code_match'), '代码')}]({paper['code_url']})"
-        rows.append(f"| {paper['published']} | {title} | {md_escape(authors)} | {code} |")
+        rows.append(f"| {paper['published']} | {title} | {md_escape(authors)} | {code} | {market_labels(paper)} |")
     return "\n".join(rows) + "\n"
 
 
 def repo_table(repos: list[dict[str, Any]]) -> str:
     if not repos:
         return "本期没有发现符合条件的新项目。\n"
-    rows = ["| 项目 | 简介 | ⭐ | 近7天 | 语言 | 类型 |", "|---|---|---:|---:|---|---|"]
+    rows = ["| 项目 | 简介 | ⭐ | 近7天 | 语言 | 分类 | 市场/因子 | 能力/用途 |", "|---|---|---:|---:|---|---|---|---|"]
     for repo in repos:
         name = f"[{repo['full_name']}]({repo['url']})"
-        kind = "新项目" if repo["discovery"] == "new" else "近期活跃"
+        kind = category(repo)
+        detail = ("回测：明确提及" if contains_term(str(repo), ["backtest", "回测"]) else "回测：需查文档") if kind == "交易框架" else tool_kind(repo) if kind == "工具" else kind
         growth = repo.get("star_growth_7d")
         growth_text = f"+{growth}" if growth is not None and growth >= 0 else (str(growth) if growth else "—")
         rows.append(
-            f"| {name} | {md_escape(repo['description'])} | {repo['stars']} | "
-            f"{growth_text} | {md_escape(repo['language'])} | {kind} |"
+            f"| {name} | {md_escape(repo.get('description', ''))} | {repo['stars']} | "
+            f"{growth_text} | {md_escape(repo.get('language'))} | {kind} | {market_labels(repo)} | {detail} |"
         )
     return "\n".join(rows) + "\n"
 
@@ -547,15 +564,13 @@ def render_readme(
 
 [![Daily update](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml/badge.svg)](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml)
 
-每天自动搜集三类应用型内容：
+每天自动搜集 AI 投资研究、金融 Agent、交易框架、金融工具和交易游戏。
 
-1. **AI 投资与金融工具**：投资、交易、资产配置、行情/财务数据、资金流、回测与策略。
-2. **Vibe Coding**：Coding Agent、代码库理解、工作流自动化、工作学习与开发能力增强。
-3. **AI Infra**：vLLM、SGLang、推理服务、KV Cache、PD 分离、部署、RAG/Agent 基础设施、评测与可观测性。
+**[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[月度总结](archive/index.md)**
 
-项目满足 **Star ≥ 100**，或**近 7 天增长 ≥ 20 Star**；新库创建 7 天内达到 20 Star 也会立即进入榜单。
+热门总榜不限制项目创建时间，收录 **Star > 100** 且**近三年有代码更新**的非归档项目，包括历史 Star > 1,000 的成熟项目；每天随日报刷新，按 Star 降序排列。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
 
-每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。当天多次运行会合并去重，不覆盖已收集内容。最近 90 天完整日报见 [`archive/index.md`](archive/index.md)，更早内容转入精简月度历史；搜索词和阈值可在 [`config.yaml`](config.yaml) 调整。
+每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页保留当日日报；历史内容每月仅一份 Markdown，月内累计去重更新，不再保存逐日日报文件。`data/` 中 JSON 用于累计和去重，不是逐日归档。日报仍允许近 7 天增长 ≥ 20 Star 的新项目，总榜采用严格 Star > 100 门槛。检索范围和阈值见 [`config.yaml`](config.yaml)。
 
 ---
 
@@ -771,6 +786,8 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     run_date = today_cn.isoformat()
     cutoff = now - dt.timedelta(days=config["project"]["lookback_days"])
     state = load_json(STATE_PATH, {"papers": {}, "repositories": {}, "last_run": None})
+    state["topic_papers"] = {}
+    state["topic_repositories"] = {}
     ensure_state_schema(state, run_date)
     seen_paper_ids = set(state["seen"]["paper_ids"])
     seen_repo_names = set(state["seen"]["repository_names"])
@@ -798,31 +815,9 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
 
     topic_papers: dict[str, list[dict[str, Any]]] = {}
     topic_repos: dict[str, list[dict[str, Any]]] = {}
-    for key, topic in config.get("topics", {}).items():
-        state["topic_papers"].setdefault(key, {})
-        selected_papers = fetch_topic_papers(client, topic, cutoff)
-        selected_papers = [paper for paper in selected_papers if paper["id"] not in seen_paper_ids]
-        selected_papers = selected_papers[: config["project"]["max_topic_papers_per_run"]]
-        for paper in selected_papers:
-            paper["first_seen"] = run_date
-            paper["code_url"], paper["code_match"] = find_code(
-                client, paper, config.get("code_sources")
-            )
-            seen_paper_ids.add(paper["id"])
-        topic_papers[key] = selected_papers
-
-        state["topic_repositories"].setdefault(key, {})
-        candidates = fetch_repositories(client, topic["github"], cutoff.date().isoformat(), now)
-        selected_repos = apply_star_thresholds(
-            candidates, state["repo_star_history"], run_date, config["project"]
-        )
-        selected_repos = [repo for repo in selected_repos if repo["full_name"] not in seen_repo_names]
-        selected_repos = selected_repos[: config["project"]["max_topic_repos_per_run"]]
-        for repo in selected_repos:
-            repo["first_seen"] = run_date
-            seen_repo_names.add(repo["full_name"])
-        topic_repos[key] = selected_repos
-
+    catalog_repos, catalog_warnings = collect_catalog(
+        client, config["github"], state["repositories"] | load_json(ROOT / "data" / "catalog.json", {}).get("repositories", {}), now, compact_repo
+    )
     result = {
         "run_date": run_date,
         "papers": papers,
@@ -850,39 +845,25 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     recent_cutoff = today_cn - dt.timedelta(days=int(config["project"]["archive_keep_days"]))
     prune_recent_state(state, recent_cutoff)
     save_json(STATE_PATH, state)
-    migrate_flat_archives()
-    md_path, json_path = archive_paths(run_date)
-    md_path.parent.mkdir(parents=True, exist_ok=True)
-    existing = load_json(json_path, {})
-    if not existing:
-        latest = load_json(LATEST_PATH, {})
-        if latest.get("run_date") == run_date:
-            existing = latest
-    result = merge_daily_results(existing, result)
+    latest = load_json(LATEST_PATH, {})
+    if latest.get("run_date") == run_date:
+        latest["topic_papers"] = {}
+        latest["topic_repositories"] = {}
+        result = merge_daily_results(latest, result)
     save_json(LATEST_PATH, result)
-    save_json(json_path, result)
-    digest = render_digest(
-        run_date,
-        result["papers"],
-        result["repositories"],
-        result["topic_papers"],
-        result["topic_repositories"],
-        config["topics"],
+    save_json(ROOT / "data" / "catalog.json", {
+        "run_date": run_date,
+        "repositories": {r["full_name"]: r for r in catalog_repos},
+        "warnings": catalog_warnings,
+    })
+    (ROOT / "HOT_PROJECTS.md").write_text(
+        render_catalog(catalog_repos, run_date, md_escape, catalog_warnings), encoding="utf-8"
     )
-    md_path.write_text(digest, encoding="utf-8")
+    publish_months(ROOT, result, load_json, save_json, render_digest)
     (ROOT / "README.md").write_text(
-        render_readme(
-            run_date,
-            result["papers"],
-            result["repositories"],
-            result["topic_papers"],
-            result["topic_repositories"],
-            config["topics"],
-        ),
+        render_readme(run_date, result["papers"], result["repositories"], {}, {}, {}),
         encoding="utf-8",
     )
-    rollup_expired_archives(today_cn, config["project"])
-    rebuild_archive_index()
     return result
 
 
