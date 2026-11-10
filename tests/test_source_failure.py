@@ -20,6 +20,7 @@ class SourceFailureTests(unittest.TestCase):
             for name, path in {'ROOT': root, 'STATE_PATH': root/'data/state.json', 'LATEST_PATH': root/'data/latest.json'}.items():
                 stack.enter_context(patch.object(digest, name, path))
             stack.enter_context(patch.object(digest, 'load_yaml', return_value=config))
+            stack.enter_context(patch.object(digest, 'review_repositories', return_value={}))
             stack.enter_context(patch.object(digest, 'fetch_papers', side_effect=requests.HTTPError('500')))
             stack.enter_context(patch.object(digest, 'fetch_repositories', return_value=[]))
             collect = stack.enter_context(patch.object(digest, 'collect_catalog', return_value=([], [])))
@@ -42,6 +43,7 @@ class SourceFailureTests(unittest.TestCase):
             for name, path in {'ROOT': root, 'STATE_PATH': root/'data/state.json', 'LATEST_PATH': root/'data/latest.json'}.items():
                 stack.enter_context(patch.object(digest, name, path))
             stack.enter_context(patch.object(digest, 'load_yaml', return_value=config))
+            stack.enter_context(patch.object(digest, 'review_repositories', return_value={}))
             stack.enter_context(patch.object(digest, 'fetch_papers', side_effect=requests.ReadTimeout('timeout')))
             paper = {'id': '2412.20138', 'title': 'LLM stock trading', 'published': '2024-12-28',
                      'paper_url': 'https://arxiv.org/abs/2412.20138', 'abstract': 'AI trading', 'authors': [],

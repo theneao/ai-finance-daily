@@ -19,6 +19,8 @@ from urllib.parse import quote_plus
 import requests
 import yaml
 
+from content_policy import clean_batch, content_allowed, review_key, review_repositories
+
 from finance_catalog import category, collect_catalog, market_labels, publish_months, render_catalog, tool_kind
 
 
@@ -134,6 +136,8 @@ def contains_term(text: str, terms: list[str]) -> bool:
 
 
 def qualifies_paper(title: str, abstract: str, config: dict[str, Any]) -> bool:
+    if not content_allowed({"title": title, "abstract": abstract}):
+        return False
     text = f"{title} {abstract}"
     title_lower = normalize(title)
     has_ai = contains_term(text, config["ai_terms"])
@@ -525,6 +529,8 @@ def paper_table(papers: list[dict[str, Any]]) -> str:
         "hugging-face": "HF 社区代码候选",
     }
     for paper in papers:
+        if not content_allowed(paper):
+            continue
         title = f"[{md_escape(paper['title'])}]({paper['paper_url']})"
         authors = ", ".join(paper.get("authors", [])[:3]) + (" 等" if len(paper.get("authors", [])) > 3 else "")
         code = "—"
@@ -540,6 +546,8 @@ def repo_table(repos: list[dict[str, Any]]) -> str:
         return "本期没有发现符合条件的新项目。\n"
     rows = ["| 项目 | 简介 | ⭐ | 近7天 | 语言 | 分类 | 市场/因子 | 能力/用途 |", "|---|---|---:|---:|---|---|---|---|"]
     for repo in repos:
+        if not content_allowed(repo):
+            continue
         name = f"[{repo['full_name']}]({repo['url']})"
         kind = category(repo)
         detail = ("回测：明确提及" if contains_term(str(repo), ["backtest", "回测"]) else "回测：需查文档") if kind == "交易框架" else tool_kind(repo) if kind == "工具" else kind
@@ -606,7 +614,16 @@ def render_readme(
     topic_papers: dict[str, list[dict[str, Any]]],
     topic_repos: dict[str, list[dict[str, Any]]],
     topic_configs: dict[str, dict[str, Any]],
+    popular_repos: list[dict[str, Any]] | None = None,
 ) -> str:
+    popular = sorted([r for r in (popular_repos or []) if r.get("stars", 0) >= 1000 and content_allowed(r)], key=lambda r: (-r["stars"], r["full_name"]))
+    popular_sections = "## 热门项目 · Star ≥ 1,000\n\n按 Star 降序，按分类直接展示各类前 10 个项目；[查看全部热门项目](HOT_PROJECTS.md)。\n\n"
+    for group in ("Agent", "交易框架", "工具", "游戏", "论文研究"):
+        selected = [r for r in popular if category(r) == group][:10]
+        if selected:
+            popular_sections += f"### {group}\n\n{repo_table(selected)}\n"
+    if not popular:
+        popular_sections += "暂无通过筛选的热门项目。\n"
     return f"""# AI Finance Daily
 
 [![Daily update](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml/badge.svg)](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml)
@@ -615,10 +632,13 @@ def render_readme(
 
 **[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[月度总结](archive/index.md)**
 
-热门总榜不限制项目创建时间，收录 **Star > 100** 且**近三年有代码更新**的非归档项目，包括历史 Star > 1,000 的成熟项目；每天随日报刷新，按 Star 降序排列。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
+热门总榜不限制项目创建时间，收录 **Star ≥ 1,000** 且**近三年有代码更新**的非归档项目，包括历史成熟项目；每天随日报刷新，按 Star 降序排列。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
 
-每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页保留当日日报；历史内容每月仅一份 Markdown，月内累计去重更新，不再保存逐日日报文件。`data/` 中 JSON 用于累计和去重，不是逐日归档。日报仍允许近 7 天增长 ≥ 20 Star 的新项目，总榜采用严格 Star > 100 门槛。检索范围和阈值见 [`config.yaml`](config.yaml)。
+每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页保留当日日报；历史内容每月仅一份 Markdown，月内累计去重更新，不再保存逐日日报文件。`data/` 中 JSON 用于累计和去重，不是逐日归档。日报仍允许近 7 天增长 ≥ 20 Star 的新项目，总榜采用Star ≥ 1,000 门槛。项目名称、简介、topics、README 和论文标题、摘要会进行政治敏感主题筛选，检查不可用的仓库暂缓展示。检索范围和阈值见 [`config.yaml`](config.yaml)。
 
+---
+
+{popular_sections}
 ---
 
 {render_digest(run_date, papers, repos, topic_papers, topic_repos, topic_configs)}
@@ -899,6 +919,24 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
         "topic_papers": topic_papers,
         "topic_repositories": topic_repos,
     }
+    reviews = load_json(ROOT / "data" / "content_review.json", {})
+    months = load_json(ROOT / "data" / "months.json", {})
+    review_pool = dict(state["repositories"])
+    for month in months.values():
+        review_pool.update(month.get("repositories", {}))
+    review_pool.update({r["full_name"]: r for r in catalog_repos + repos})
+    print(f"Checking content of {len(review_pool)} finance repositories...", flush=True)
+    review_repositories(client, list(review_pool.values()), reviews)
+    catalog_repos = [r for r in catalog_repos if content_allowed(r, reviews)]
+    result = clean_batch(result, reviews)
+    papers, repos = result["papers"], result["repositories"]
+    state["papers"] = {k: v for k, v in state["papers"].items() if content_allowed(v, reviews)}
+    state["repositories"] = {k: v for k, v in state["repositories"].items() if content_allowed(v, reviews)}
+    state["repo_star_history"] = {k: v for k, v in state["repo_star_history"].items() if content_allowed({"full_name": k}, reviews)}
+    seen_repo_names = {n for n in seen_repo_names if content_allowed({"full_name": n}, reviews)}
+    for month in months.values():
+        for key in ("papers", "repositories"):
+            month[key] = {k: v for k, v in month.get(key, {}).items() if content_allowed(v, reviews)}
     if dry_run:
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return result
@@ -918,8 +956,10 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     state["last_run"] = now.isoformat()
     recent_cutoff = today_cn - dt.timedelta(days=int(config["project"]["archive_keep_days"]))
     prune_recent_state(state, recent_cutoff)
+    save_json(ROOT / "data" / "content_review.json", reviews)
+    save_json(ROOT / "data" / "months.json", months)
     save_json(STATE_PATH, state)
-    latest = load_json(LATEST_PATH, {})
+    latest = clean_batch(load_json(LATEST_PATH, {}), reviews)
     if latest.get("run_date") == run_date:
         latest["topic_papers"] = {}
         latest["topic_repositories"] = {}
@@ -936,7 +976,7 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     )
     publish_months(ROOT, result, load_json, save_json, render_digest)
     (ROOT / "README.md").write_text(
-        render_readme(run_date, result["papers"], result["repositories"], {}, {}, {})
+        render_readme(run_date, result["papers"], result["repositories"], {}, {}, {}, catalog_repos)
         + ("\n> " + "\n> ".join(collection_warnings) + "\n" if collection_warnings else ""),
         encoding="utf-8",
     )

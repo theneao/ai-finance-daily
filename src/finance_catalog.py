@@ -8,6 +8,8 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any
 
+from content_policy import content_allowed
+
 MARKETS = {
     '美股': r'\b(us stocks?|u\.s\.|nasdaq|nyse|s&p|sp500|alpaca|american stock)\b',
     'A股': r'a[ -]?shares?|ashare|a股|沪深|上证|深证|tushare|baostock|akshare|china stock|chinese stock',
@@ -55,7 +57,7 @@ def active_cutoff(today: dt.date) -> str:
 
 
 def eligible(repo: dict[str, Any], today: dt.date) -> bool:
-    return (repo.get('stars', 0) > 100 and not repo.get('archived', False)
+    return (repo.get('stars', 0) >= 1000 and content_allowed(repo) and not repo.get('archived', False)
             and not repo.get('disabled', False)
             and (repo.get('pushed_at') or '')[:10] >= active_cutoff(today))
 
@@ -67,10 +69,11 @@ def ranked(repos: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def collect_catalog(client, config, known, now, compact_repo):
     """Search all creation dates, paginate, and split crowded star ranges at 1,000."""
     today = now.date()
+    known = {n: r for n, r in known.items() if (r.get("stars", 0) >= 1000 or r.get("stars", 0) == 0) and content_allowed(r)}
     found = {}
     warnings = []
 
-    def search(base, low=101, high=None):
+    def search(base, low=1000, high=None):
         stars = f'{low}..{high}' if high is not None else f'>={low}'
         query = f'{base} stars:{stars} pushed:>={active_cutoff(today)} archived:false fork:false'
         first = client.github_search_page(query, 1)
@@ -127,9 +130,9 @@ def collect_catalog(client, config, known, now, compact_repo):
 
 
 def render_catalog(repos, run_date, escape, warnings=None):
-    repos = ranked(repos)
+    repos = ranked([r for r in repos if eligible(r, dt.date.fromisoformat(run_date))])
     lines = ['# 金融热门项目总榜', '', '[返回首页](README.md) · [月度归档](archive/index.md)', '',
-             f'更新日期：{run_date}。收录 {len(repos)} 个项目；Star > 100，近三年有代码更新，排除归档库。', '',
+             f'更新日期：{run_date}。收录 {len(repos)} 个项目；Star ≥ 1,000，近三年有代码更新，排除归档库。', '',
              '覆盖历史创建的金融项目，不限制为近期新库；按当前 Star 降序排列。检索词见 config.yaml，GitHub 搜索无法保证穷尽全部项目。', '',
              '分类与市场标签依据仓库名称、简介和 topics，可同时涉及多个市场；未明确表示尚需核对文档，并非不支持。', '']
     if warnings:
@@ -171,13 +174,15 @@ def publish_months(root, result, load_json, save_json, render_digest):
         old = load_json(path, {})
         absorb({'run_date': old.get('month', '') + '-01', **{key: [v for v in old.get(key, {}).values() if v.get('topic', 'finance') == 'finance'] for key in ('papers', 'repositories')}})
     absorb(result)
-    save_json(months_path, months)
     archive.mkdir(parents=True, exist_ok=True)
     for month, data in sorted(months.items()):
+        data['papers'] = {k: v for k, v in data['papers'].items() if content_allowed(v)}
+        data['repositories'] = {k: v for k, v in data['repositories'].items() if content_allowed(v)}
         papers = sorted(data['papers'].values(), key=lambda p: p.get('published', ''), reverse=True)
         repos = ranked(list(data['repositories'].values()))
         content = render_digest(month, papers, repos).replace('AI 应用研究日报', 'AI 金融月度总结')
         (archive / f'{month}.md').write_text(content, encoding='utf-8')
+    save_json(months_path, months)
     # Delete only legacy daily outputs after all summaries are safely written.
     for path in legacy + list(archive.rglob('????-??-??.md')) + list((root / 'history').glob('????/??.json')):
         path.unlink()

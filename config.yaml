@@ -4,7 +4,7 @@ project:
   lookback_days: 14
   max_papers_per_run: 30
   max_repos_per_run: 30
-  min_popular_stars: 100
+  min_popular_stars: 1000
   weekly_star_growth: 20
   star_growth_days: 7
   archive_keep_days: 90

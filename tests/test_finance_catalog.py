@@ -16,7 +16,7 @@ class CatalogTests(unittest.TestCase):
         today = dt.date(2026, 11, 10)
         base = {'stars': 1001, 'pushed_at': '2023-11-10'}
         self.assertTrue(eligible(base, today))
-        for changes in ({'stars': 100}, {'pushed_at': '2023-11-09'}, {'archived': True}, {'disabled': True}, {'pushed_at': ''}):
+        for changes in ({'stars': 999}, {'pushed_at': '2023-11-09'}, {'archived': True}, {'disabled': True}, {'pushed_at': ''}):
             self.assertFalse(eligible(base | changes, today))
         self.assertEqual(active_cutoff(dt.date(2024, 2, 29)), '2021-02-28')
 
@@ -32,7 +32,7 @@ class CatalogTests(unittest.TestCase):
             def __init__(self): self.calls = []
             def github_search_page(self, query, page):
                 self.calls.append((query, page))
-                return {'total_count': 101, 'items': [{'full_name': f'x/{page}', 'stars': 100 + page, 'pushed_at': '2026-11-10'}]}
+                return {'total_count': 101, 'items': [{'full_name': f'x/{page}', 'stars': 1000 + page, 'pushed_at': '2026-11-10'}]}
             def get(self, *args, **kwargs):
                 class Response:
                     def json(self): return {'full_name': 'x/known', 'stars': 5000, 'pushed_at': '2020-01-01'}
@@ -61,7 +61,7 @@ class CatalogTests(unittest.TestCase):
             self.assertNotIn('x/excluded', text)
 
     def test_catalog_ranking_and_home_link(self):
-        repos = [{'full_name': 'x/small', 'url': 'https://github.com/x/small', 'stars': 101}, {'full_name': 'x/big', 'url': 'https://github.com/x/big', 'stars': 5000}]
+        repos = [{'full_name': 'x/small', 'url': 'https://github.com/x/small', 'stars': 1000, 'pushed_at': '2026-11-10'}, {'full_name': 'x/big', 'url': 'https://github.com/x/big', 'stars': 5000, 'pushed_at': '2026-11-10'}]
         text = render_catalog(repos, '2026-11-10', md_escape)
         self.assertLess(text.index('[x/big]'), text.index('[x/small]'))
         self.assertIn('未明确', text)
