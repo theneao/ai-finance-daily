@@ -214,6 +214,51 @@ def fetch_papers(client: Client, config: dict[str, Any], cutoff: dt.datetime) ->
     return papers
 
 
+def fetch_huggingface_papers(client: Client, config: dict[str, Any], limit: int = 100) -> list[dict[str, Any]]:
+    """Trending can resurface old papers; relevance and seen IDs govern admission."""
+    response = client.get("https://huggingface.co/api/daily_papers", params={"sort": "trending", "limit": limit})
+    payload = response.json()
+    if not isinstance(payload, list):
+        raise ValueError("Hugging Face Trending returned a non-list response")
+    found = {}
+    for entry in payload:
+        paper = entry.get("paper") or {}
+        identifier = re.sub(r"v\d+$", "", str(paper.get("id", "")))
+        title = paper.get("title") or entry.get("title") or ""
+        abstract = paper.get("summary") or entry.get("summary") or ""
+        published = str(paper.get("publishedAt") or entry.get("publishedAt") or "")[:10]
+        if not re.fullmatch(r"\d{4}\.\d{4,5}", identifier) or not published:
+            continue
+        if not qualifies_paper(title, abstract, config):
+            continue
+        code = github_link(str(paper.get("githubRepo") or ""))
+        found[identifier] = {
+            "id": identifier, "title": title, "abstract": abstract,
+            "authors": [a["name"] for a in paper.get("authors", []) if a.get("name")],
+            "published": published, "updated": published, "categories": [],
+            "paper_url": f"https://arxiv.org/abs/{identifier}",
+            "pdf_url": f"https://arxiv.org/pdf/{identifier}", "comment": "",
+            "code_url": code, "code_match": "hugging-face" if code else None,
+            "source": "hugging-face-trending", "hf_upvotes": paper.get("upvotes", 0),
+            "hf_url": f"https://huggingface.co/papers/{identifier}",
+        }
+    return list(found.values())
+
+
+def merge_paper_sources(arxiv_papers, hf_papers):
+    found = {p["id"]: dict(p) for p in arxiv_papers}
+    for paper in hf_papers:
+        if paper["id"] not in found:
+            found[paper["id"]] = dict(paper)
+        else:
+            current = found[paper["id"]]
+            for key in ("hf_upvotes", "hf_url"):
+                current[key] = paper[key]
+            if paper.get("code_url") and not current.get("code_url"):
+                current["code_url"], current["code_match"] = paper["code_url"], paper["code_match"]
+    return sorted(found.values(), key=lambda p: p.get("published", ""), reverse=True)
+
+
 def fetch_topic_papers(
     client: Client, config: dict[str, Any], cutoff: dt.datetime, max_results: int = 120
 ) -> list[dict[str, Any]]:
@@ -469,7 +514,7 @@ def md_escape(value: Any) -> str:
 def paper_table(papers: list[dict[str, Any]]) -> str:
     if not papers:
         return "本期没有发现通过严格双重筛选的新论文。\n"
-    rows = ["| 日期 | 论文 | 作者 | 代码 | 市场/因子 |", "|---|---|---|---|---|"]
+    rows = ["| 日期 | 论文 | 作者 | 代码 | 市场/因子 | 来源/热度 |", "|---|---|---|---|---|---|"]
     labels = {
         "paper-link": "论文链接",
         "papers-with-code": "Papers with Code",
@@ -477,6 +522,7 @@ def paper_table(papers: list[dict[str, Any]]) -> str:
         "arxiv-page": "arXiv 页面",
         "arxiv-id": "ID 命中",
         "title-match": "标题匹配",
+        "hugging-face": "HF 社区代码候选",
     }
     for paper in papers:
         title = f"[{md_escape(paper['title'])}]({paper['paper_url']})"
@@ -484,7 +530,8 @@ def paper_table(papers: list[dict[str, Any]]) -> str:
         code = "—"
         if paper.get("code_url"):
             code = f"[{labels.get(paper.get('code_match'), '代码')}]({paper['code_url']})"
-        rows.append(f"| {paper['published']} | {title} | {md_escape(authors)} | {code} | {market_labels(paper)} |")
+        source = f"[HF Trending]({paper['hf_url']}) · 👍 {paper.get('hf_upvotes', 0)}" if paper.get("hf_url") else "arXiv"
+        rows.append(f"| {paper['published']} | {title} | {md_escape(authors)} | {code} | {market_labels(paper)} | {source} |")
     return "\n".join(rows) + "\n"
 
 
@@ -564,7 +611,7 @@ def render_readme(
 
 [![Daily update](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml/badge.svg)](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml)
 
-每天自动搜集 AI 投资研究、金融 Agent、交易框架、金融工具和交易游戏。
+每天自动搜集 AI 投资研究、金融 Agent、交易框架、金融工具和交易游戏。论文源结合 arXiv 与 [Hugging Face Trending Papers](https://huggingface.co/papers/trending)，仅筛选 AI 投资交易研究，按 arXiv ID 去重；Trending 中重新走热的旧论文也可收录，保留原发表日期与 HF 社区热度。
 
 **[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[月度总结](archive/index.md)**
 
@@ -802,13 +849,24 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
         collection_warnings.append(warning)
         print(f"::warning::{warning}", flush=True)
         papers = []
+    hf_papers = []
+    if config["papers"].get("huggingface_trending", True):
+        print("Collecting Hugging Face Trending finance papers...", flush=True)
+        try:
+            hf_papers = fetch_huggingface_papers(client, config["papers"], int(config["papers"].get("max_huggingface_results", 100)))
+        except (requests.RequestException, ValueError) as exc:
+            warning = f"Hugging Face Trending 采集失败（{type(exc).__name__}）；保留已有数据并继续更新。"
+            collection_warnings.append(warning)
+            print(f"::warning::{warning}", flush=True)
+    papers = merge_paper_sources(papers, hf_papers)
     papers = [paper for paper in papers if paper["id"] not in seen_paper_ids]
     papers = papers[: config["project"]["max_papers_per_run"]]
     for paper in papers:
         paper["first_seen"] = run_date
-        paper["code_url"], paper["code_match"] = find_code(
-            client, paper, config.get("code_sources")
-        )
+        if not paper.get("code_url"):
+            paper["code_url"], paper["code_match"] = find_code(
+                client, paper, config.get("code_sources")
+            )
         seen_paper_ids.add(paper["id"])
 
     print("Collecting recent GitHub projects...", flush=True)
@@ -825,8 +883,14 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     topic_papers: dict[str, list[dict[str, Any]]] = {}
     topic_repos: dict[str, list[dict[str, Any]]] = {}
     print("Refreshing historical finance catalogue...", flush=True)
+    known_repos = state["repositories"] | load_json(ROOT / "data" / "catalog.json", {}).get("repositories", {})
+    for paper in hf_papers:
+        if paper.get("code_url"):
+            name = paper["code_url"].split("github.com/", 1)[-1]
+            if name.lower() not in {n.lower() for n in known_repos}:
+                known_repos[name] = {"full_name": name, "url": paper["code_url"], "stars": 0}
     catalog_repos, catalog_warnings = collect_catalog(
-        client, config["github"], state["repositories"] | load_json(ROOT / "data" / "catalog.json", {}).get("repositories", {}), now, compact_repo
+        client, config["github"], known_repos, now, compact_repo
     )
     result = {
         "run_date": run_date,

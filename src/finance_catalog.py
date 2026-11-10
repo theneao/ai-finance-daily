@@ -118,7 +118,7 @@ def collect_catalog(client, config, known, now, compact_repo):
             else:
                 repo['verified_at'] = today.isoformat()
             if eligible(repo, today):
-                found[name] = repo
+                found[repo["full_name"]] = repo
     pending_names = {name for name, _ in pending}
     for repo in found.values():
         if repo['full_name'] not in pending_names:
