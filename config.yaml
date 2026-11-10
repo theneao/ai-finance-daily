@@ -4,244 +4,122 @@ project:
   lookback_days: 14
   max_papers_per_run: 30
   max_repos_per_run: 30
-  max_topic_papers_per_run: 15
-  max_topic_repos_per_run: 25
   min_popular_stars: 100
   weekly_star_growth: 20
   star_growth_days: 7
   archive_keep_days: 90
-  historical_min_stars: 500
-
 code_sources:
   papers_with_code: true
   research_code: true
   arxiv_page: true
   github_search: true
-
 papers:
   max_arxiv_results: 150
   ai_terms:
-    - artificial intelligence
-    - machine learning
-    - deep learning
-    - reinforcement learning
-    - large language model
-    - llm
-    - transformer
-    - neural network
-    - foundation model
-    - generative ai
-    - multi-agent
-    - autonomous agent
-    - graph neural network
+  - artificial intelligence
+  - machine learning
+  - deep learning
+  - reinforcement learning
+  - large language model
+  - llm
+  - transformer
+  - neural network
+  - foundation model
+  - generative ai
+  - multi-agent
+  - autonomous agent
+  - graph neural network
   investment_terms:
-    - algorithmic trading
-    - quantitative trading
-    - stock trading
-    - crypto trading
-    - financial trading
-    - portfolio optimization
-    - portfolio management
-    - asset allocation
-    - investment strategy
-    - investment decision
-    - stock prediction
-    - stock market
-    - financial market
-    - market forecasting
-    - return prediction
-    - price prediction
-    - alpha generation
-    - wealth management
-    - robo-advisor
+  - algorithmic trading
+  - quantitative trading
+  - stock trading
+  - crypto trading
+  - financial trading
+  - portfolio optimization
+  - portfolio management
+  - asset allocation
+  - investment strategy
+  - investment decision
+  - stock prediction
+  - stock market
+  - financial market
+  - market forecasting
+  - return prediction
+  - price prediction
+  - alpha generation
+  - wealth management
+  - robo-advisor
   exclude_terms:
-    - fraud detection
-    - credit scoring
-    - credit risk
-    - anti-money laundering
-    - financial compliance
-    - regulatory compliance
-    - insurance claim
-    - payment fraud
-
+  - fraud detection
+  - credit scoring
+  - credit risk
+  - anti-money laundering
+  - financial compliance
+  - regulatory compliance
+  - insurance claim
+  - payment fraud
 github:
   per_query: 12
   min_stars: 2
   new_repo_queries:
-    - 'AI quantitative trading'
-    - 'machine learning trading'
-    - 'LLM finance agent'
-    - 'reinforcement learning trading'
-    - 'portfolio optimization'
-    - 'algorithmic trading'
-    - 'stock analysis tool'
-    - 'financial data analysis'
-    - 'backtesting framework'
-    - 'crypto trading bot'
-    - 'stock market data API'
-    - 'financial data source'
-    - 'A-share stock data'
-    - 'futures market data'
-    - 'fund flow stock'
-    - 'capital flow trading'
-    - 'order flow trading'
-    - 'quantitative strategy'
-    - 'trading strategy backtest'
+  - AI quantitative trading
+  - machine learning trading
+  - LLM finance agent
+  - reinforcement learning trading
+  - portfolio optimization
+  - algorithmic trading
+  - stock analysis tool
+  - financial data analysis
+  - backtesting framework
+  - crypto trading bot
+  - stock market data API
+  - financial data source
+  - A-share stock data
+  - futures market data
+  - fund flow stock
+  - capital flow trading
+  - order flow trading
+  - quantitative strategy
+  - trading strategy backtest
   active_repo_queries:
-    - 'quantitative trading stars:>=100'
-    - 'financial analysis stars:>=100'
-    - 'backtesting stars:>=100'
-    - 'stock market data API stars:>=50'
-    - 'financial data source stars:>=50'
-    - 'fund flow trading stars:>=20'
-    - 'order flow trading stars:>=20'
-    - 'quantitative strategy stars:>=50'
-    - 'A-share data stars:>=20'
-    - 'futures trading stars:>=50'
-    - 'crypto trading stars:>=100'
+  - quantitative trading stars:>=100
+  - financial analysis stars:>=100
+  - backtesting stars:>=100
+  - stock market data API stars:>=50
+  - financial data source stars:>=50
+  - fund flow trading stars:>=20
+  - order flow trading stars:>=20
+  - quantitative strategy stars:>=50
+  - A-share data stars:>=20
+  - futures trading stars:>=50
+  - crypto trading stars:>=100
   growth_repo_queries:
-    - 'quantitative trading'
-    - 'financial data API'
-    - 'backtesting framework'
-    - 'fund flow trading'
-
-topics:
-  vibe_coding:
-    title: Vibe Coding · 工作与学习增强
-    paper_terms:
-      - coding agent
-      - software engineering agent
-      - code generation agent
-      - repository-level code
-      - codebase understanding
-      - AI programming assistant
-      - developer productivity
-      - human-AI programming
-      - agentic software engineering
-      - automated software development
-    application_terms:
-      - agent
-      - assistant
-      - workflow
-      - repository
-      - codebase
-      - developer
-      - productivity
-      - debugging
-      - testing
-      - learning
-      - education
-      - tool
-      - benchmark
-    title_terms:
-      - code
-      - coding
-      - software
-      - developer
-      - repository
-      - programming
-      - agent plugin
-      - agent workflow
-    github:
-      per_query: 10
-      min_stars: 5
-      new_repo_queries:
-        - 'vibe coding'
-        - 'coding agent'
-        - 'AI coding assistant'
-        - 'agentic software engineering'
-        - 'codebase agent'
-        - 'developer productivity AI'
-        - 'AI learning assistant coding'
-      active_repo_queries:
-        - 'vibe coding stars:>=100'
-        - 'coding agent stars:>=500'
-        - 'AI coding assistant stars:>=500'
-        - 'software engineering agent stars:>=200'
-        - 'developer productivity AI stars:>=100'
-      growth_repo_queries:
-        - 'vibe coding'
-        - 'coding agent'
-        - 'AI coding assistant'
-
-  ai_infra:
-    title: AI Infra · 推理部署与应用基础设施
-    paper_terms:
-      - vllm
-      - sglang
-      - LLM serving
-      - LLM inference engine
-      - large language model serving
-      - inference optimization
-      - speculative decoding
-      - KV cache
-      - prefix caching
-      - disaggregated inference
-      - prefill decode disaggregation
-      - LLM deployment
-      - agent infrastructure
-      - RAG infrastructure
-      - LLM observability
-      - LLM evaluation
-    application_terms:
-      - serving
-      - inference
-      - deployment
-      - throughput
-      - latency
-      - scheduling
-      - cache
-      - engine
-      - runtime
-      - system
-      - framework
-      - evaluation
-      - observability
-      - production
-    title_terms:
-      - inference
-      - serving
-      - cache
-      - decoding
-      - deployment
-      - runtime
-      - scheduling
-      - throughput
-      - latency
-      - LLM evaluation
-      - observability
-      - agent infrastructure
-      - RAG
-    exclude_terms:
-      - video generation
-      - image generation
-      - audio generation
-      - audio-LLM
-      - diffusion model
-    github:
-      per_query: 10
-      min_stars: 5
-      new_repo_queries:
-        - 'vllm'
-        - 'sglang'
-        - 'LLM inference engine'
-        - 'LLM serving framework'
-        - 'speculative decoding'
-        - 'KV cache LLM'
-        - 'AI agent infrastructure'
-        - 'RAG infrastructure'
-        - 'LLM observability'
-        - 'LLM evaluation framework'
-      active_repo_queries:
-        - 'vllm stars:>=100'
-        - 'sglang stars:>=100'
-        - 'LLM serving stars:>=500'
-        - 'LLM inference engine stars:>=500'
-        - 'AI agent framework stars:>=500'
-        - 'RAG framework stars:>=500'
-        - 'LLM observability stars:>=100'
-      growth_repo_queries:
-        - 'vllm'
-        - 'sglang'
-        - 'LLM inference engine'
-        - 'LLM serving framework'
+  - quantitative trading
+  - financial data API
+  - backtesting framework
+  - fund flow trading
+  catalog_queries:
+  - quantitative trading
+  - algorithmic trading
+  - backtesting
+  - trading framework
+  - finance agent
+  - financial agent
+  - stock analysis
+  - stock market data
+  - financial data
+  - A股
+  - 量化
+  - 期货
+  - crypto trading
+  - cryptocurrency trading bot
+  - portfolio optimization
+  - alpha factor
+  - factor investing
+  - financial machine learning
+  - financial research
+  - stock trading game
+  - trading simulator
+  - order flow
+  - fund flow
+topics: {}
