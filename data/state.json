@@ -1,6 +1,105 @@
 {
-  "last_run": "2026-11-10T14:26:19.210423+00:00",
+  "last_run": "2026-11-10T14:33:41.714556+00:00",
   "papers": {
+    "2412.20138": {
+      "abstract": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "categories": [],
+      "code_match": "hugging-face",
+      "code_url": "https://github.com/tauricresearch/tradingagents",
+      "comment": "",
+      "first_seen": "2026-11-10",
+      "hf_upvotes": 164,
+      "hf_url": "https://huggingface.co/papers/2412.20138",
+      "id": "2412.20138",
+      "paper_url": "https://arxiv.org/abs/2412.20138",
+      "pdf_url": "https://arxiv.org/pdf/2412.20138",
+      "published": "2024-12-28",
+      "source": "hugging-face-trending",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "updated": "2024-12-28"
+    },
+    "2508.02739": {
+      "abstract": "The success of large-scale pre-training paradigm, exemplified by Large\nLanguage Models (LLMs), has inspired the development of Time Series Foundation\nModels (TSFMs). However, their application to financial candlestick (K-line)\ndata remains limited, often underperforming non-pre-trained architectures.\nMoreover, existing TSFMs often overlook crucial downstream tasks such as\nvolatility prediction and synthetic data generation. To address these\nlimitations, we propose Kronos, a unified, scalable pre-training framework\ntailored to financial K-line modeling. Kronos introduces a specialized\ntokenizer that discretizes continuous market information into token sequences,\npreserving both price dynamics and trade activity patterns. We pre-train Kronos\nusing an autoregressive objective on a massive, multi-market corpus of over 12\nbillion K-line records from 45 global exchanges, enabling it to learn nuanced\ntemporal and cross-asset representations. Kronos excels in a zero-shot setting\nacross a diverse set of financial tasks. On benchmark datasets, Kronos boosts\nprice series forecasting RankIC by 93% over the leading TSFM and 87% over the\nbest non-pre-trained baseline. It also achieves a 9% lower MAE in volatility\nforecasting and a 22% improvement in generative fidelity for synthetic K-line\nsequences. These results establish Kronos as a robust, versatile foundation\nmodel for end-to-end financial time series analysis. Our pre-trained model is\npublicly available at https://github.com/shiyu-coder/Kronos.",
+      "authors": [
+        "Yu Shi",
+        "Zongliang Fu",
+        "Shuo Chen",
+        "Bohan Zhao",
+        "Wei Xu",
+        "Changshui Zhang",
+        "Jian Li"
+      ],
+      "categories": [],
+      "code_match": "hugging-face",
+      "code_url": "https://github.com/shiyu-coder/Kronos",
+      "comment": "",
+      "first_seen": "2026-11-10",
+      "hf_upvotes": 65,
+      "hf_url": "https://huggingface.co/papers/2508.02739",
+      "id": "2508.02739",
+      "paper_url": "https://arxiv.org/abs/2508.02739",
+      "pdf_url": "https://arxiv.org/pdf/2508.02739",
+      "published": "2025-08-02",
+      "source": "hugging-face-trending",
+      "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "updated": "2025-08-02"
+    },
+    "2509.11420": {
+      "abstract": "Developing professional, structured reasoning on par with human financial\nanalysts and traders remains a central challenge in AI for finance, where\nmarkets demand interpretability and trust. Traditional time-series models lack\nexplainability, while LLMs face challenges in turning natural-language analysis\ninto disciplined, executable trades. Although reasoning LLMs have advanced in\nstep-by-step planning and verification, their application to risk-sensitive\nfinancial decisions is underexplored. We present Trading-R1, a\nfinancially-aware model that incorporates strategic thinking and planning for\ncomprehensive thesis composition, facts-grounded analysis, and\nvolatility-adjusted decision making. Trading-R1 aligns reasoning with trading\nprinciples through supervised fine-tuning and reinforcement learning with a\nthree-stage easy-to-hard curriculum. Training uses Tauric-TR1-DB, a 100k-sample\ncorpus spanning 18 months, 14 equities, and five heterogeneous financial data\nsources. Evaluated on six major equities and ETFs, Trading-R1 demonstrates\nimproved risk-adjusted returns and lower drawdowns compared to both open-source\nand proprietary instruction-following models as well as reasoning models. The\nsystem generates structured, evidence-based investment theses that support\ndisciplined and interpretable trading decisions. Trading-R1 Terminal will be\nreleased at https://github.com/TauricResearch/Trading-R1.",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Tong Chen",
+        "Fang Wu",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "categories": [],
+      "code_match": "hugging-face",
+      "code_url": "https://github.com/TauricResearch/Trading-R1",
+      "comment": "",
+      "first_seen": "2026-11-10",
+      "hf_upvotes": 5,
+      "hf_url": "https://huggingface.co/papers/2509.11420",
+      "id": "2509.11420",
+      "paper_url": "https://arxiv.org/abs/2509.11420",
+      "pdf_url": "https://arxiv.org/pdf/2509.11420",
+      "published": "2025-09-14",
+      "source": "hugging-face-trending",
+      "title": "Trading-R1: Financial Trading with LLM Reasoning via Reinforcement\n  Learning",
+      "updated": "2025-09-14"
+    },
+    "2512.10971": {
+      "abstract": "Large Language Models (LLMs) have demonstrated remarkable potential as autonomous agents, approaching human-expert performance through advanced reasoning and tool orchestration. However, decision-making in fully dynamic and live environments remains highly challenging, requiring real-time information integration and adaptive responses. While existing efforts have explored live evaluation mechanisms in structured tasks, a critical gap remains in systematic benchmarking for real-world applications, particularly in finance where stringent requirements exist for live strategic responsiveness. To address this gap, we introduce AI-Trader, the first fully-automated, live, and data-uncontaminated evaluation benchmark for LLM agents in financial decision-making. AI-Trader spans three major financial markets: U.S. stocks, A-shares, and cryptocurrencies, with multiple trading granularities to simulate live financial environments. Our benchmark implements a revolutionary fully autonomous minimal information paradigm where agents receive only essential context and must independently search, verify, and synthesize live market information without human intervention. We evaluate six mainstream LLMs across three markets and multiple trading frequencies. Our analysis reveals striking findings: general intelligence does not automatically translate to effective trading capability, with most agents exhibiting poor returns and weak risk management. We demonstrate that risk control capability determines cross-market robustness, and that AI trading strategies achieve excess returns more readily in highly liquid markets than policy-driven environments. These findings expose critical limitations in current autonomous agents and provide clear directions for future improvements. The code and evaluation data are open-sourced to foster community research: https://github.com/HKUDS/AI-Trader.",
+      "authors": [
+        "Tianyu Fan",
+        "Yuhao Yang",
+        "Yangqin Jiang",
+        "Yifei Zhang",
+        "Yuxuan Chen",
+        "Chao Huang"
+      ],
+      "categories": [],
+      "code_match": "hugging-face",
+      "code_url": "https://github.com/HKUDS/AI-Trader",
+      "comment": "",
+      "first_seen": "2026-11-10",
+      "hf_upvotes": 13,
+      "hf_url": "https://huggingface.co/papers/2512.10971",
+      "id": "2512.10971",
+      "paper_url": "https://arxiv.org/abs/2512.10971",
+      "pdf_url": "https://arxiv.org/pdf/2512.10971",
+      "published": "2025-12-01",
+      "source": "hugging-face-trending",
+      "title": "AI-Trader: Benchmarking Autonomous Agents in Real-Time Financial Markets",
+      "updated": "2025-12-01"
+    },
     "2608.19526": {
       "abstract": "Stock market analysts and investors face a daily challenge: too much financial news, too little time. Manually reading and synthesizing hundreds of company-specific articles is impractical, yet missing key information can directly affect investment decisions. This project, conducted at George Washington University in Fall 2023, explores whether Large Language Models can automate this process reliably. We built a pipeline that pulls news articles from the News API, company background from Wikipedia, and stock price data from Yahoo Finance for ten major companies (AAPL, MSFT, GOOGL, AMZN, META, TSLA, JPM, NVDA, WMT, DIS). Because LLMs cannot directly process numerical tables, we developed a simple but effective template that converts stock data into natural language narratives. We then tested two summarization approaches (Summarize Chains and Retrieval-Augmented Generation with FAISS) across three open-source models (Falcon-7B-Instruct, DistilBART-CNN-12-6, BART-Large-XSum) for news, and GPT (text-davinci-003) for stock summaries. Falcon-7B with Summarize Chains gave the best results, covering all news events accurately and coherently. RAG, while promising in theory, caused severe repetition in Falcon and hallucinated facts in BART-Large when k was large. Both LLM-based approaches outperformed a simple Lead-3 baseline on ROUGE-1. We also built a Streamlit dashboard for interactive stock visualization. The work was done in Fall 2023, before RAG-based financial tools became widespread, and the failure modes we document, particularly hallucination under RAG in smaller models, remain relevant today.",
       "authors": [
@@ -12387,7 +12486,7 @@
       "2026-11-07": 7217,
       "2026-11-08": 7281,
       "2026-11-09": 7380,
-      "2026-11-10": 7506
+      "2026-11-10": 7507
     },
     "sidmanale643/helios": {
       "2026-09-01": 6,
@@ -19401,6 +19500,10 @@
   "schema_version": 2,
   "seen": {
     "paper_ids": [
+      "2412.20138",
+      "2508.02739",
+      "2509.11420",
+      "2512.10971",
       "2608.17393",
       "2608.18280",
       "2608.18389",

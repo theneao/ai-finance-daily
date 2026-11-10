@@ -2,7 +2,7 @@
 
 [![Daily update](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml/badge.svg)](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml)
 
-每天自动搜集 AI 投资研究、金融 Agent、交易框架、金融工具和交易游戏。
+每天自动搜集 AI 投资研究、金融 Agent、交易框架、金融工具和交易游戏。论文源结合 arXiv 与 [Hugging Face Trending Papers](https://huggingface.co/papers/trending)，仅筛选 AI 投资交易研究，按 arXiv ID 去重；Trending 中重新走热的旧论文也可收录，保留原发表日期与 HF 社区热度。
 
 **[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[月度总结](archive/index.md)**
 
@@ -14,15 +14,19 @@
 
 # AI 应用研究日报 · 2026-11-10
 
-本期新增：**3 篇论文**（其中 0 篇找到可能的代码）和 **0 个 GitHub 项目**。
+本期新增：**7 篇论文**（其中 4 篇找到可能的代码）和 **0 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
-| 日期 | 论文 | 作者 | 代码 | 市场/因子 |
-|---|---|---|---|---|
-| 2026-11-09 | [Diversification Across Predictors: Heterogeneous Ensemble Learning for Cross-Sectional Return Prediction](https://arxiv.org/abs/2611.12389) | Danning Li | — | 因子 |
-| 2026-11-07 | [A Bayesian oriented exploration and reinforcement learning in continuous-time mean-variance portfolio optimization](https://arxiv.org/abs/2611.10759) | Kexin Chen, Xiang Yu, Shanshan Zhao | — | 未明确（需查文档） |
-| 2026-11-07 | [M3FT: Micro-Macro-Micro Reasoning for Multi-Agent Cryptocurrency Perpetual Futures Trading](https://arxiv.org/abs/2611.10586) | Jiashun Wang, Beile Wang, Guangyan Gan 等 | — | 虚拟货币、期货 |
+| 日期 | 论文 | 作者 | 代码 | 市场/因子 | 来源/热度 |
+|---|---|---|---|---|---|
+| 2026-11-09 | [Diversification Across Predictors: Heterogeneous Ensemble Learning for Cross-Sectional Return Prediction](https://arxiv.org/abs/2611.12389) | Danning Li | — | 因子 | arXiv |
+| 2026-11-07 | [A Bayesian oriented exploration and reinforcement learning in continuous-time mean-variance portfolio optimization](https://arxiv.org/abs/2611.10759) | Kexin Chen, Xiang Yu, Shanshan Zhao | — | 未明确（需查文档） | arXiv |
+| 2026-11-07 | [M3FT: Micro-Macro-Micro Reasoning for Multi-Agent Cryptocurrency Perpetual Futures Trading](https://arxiv.org/abs/2611.10586) | Jiashun Wang, Beile Wang, Guangyan Gan 等 | — | 虚拟货币、期货 | arXiv |
+| 2025-12-01 | [AI-Trader: Benchmarking Autonomous Agents in Real-Time Financial Markets](https://arxiv.org/abs/2512.10971) | Tianyu Fan, Yuhao Yang, Yangqin Jiang 等 | [HF 社区代码候选](https://github.com/HKUDS/AI-Trader) | A股、虚拟货币、期货 | [HF Trending](https://huggingface.co/papers/2512.10971) · 👍 13 |
+| 2025-09-14 | [Trading-R1: Financial Trading with LLM Reasoning via Reinforcement   Learning](https://arxiv.org/abs/2509.11420) | Yijia Xiao, Edward Sun, Tong Chen 等 | [HF 社区代码候选](https://github.com/TauricResearch/Trading-R1) | 未明确（需查文档） | [HF Trending](https://huggingface.co/papers/2509.11420) · 👍 5 |
+| 2025-08-02 | [Kronos: A Foundation Model for the Language of Financial Markets](https://arxiv.org/abs/2508.02739) | Yu Shi, Zongliang Fu, Shuo Chen 等 | [HF 社区代码候选](https://github.com/shiyu-coder/Kronos) | 未明确（需查文档） | [HF Trending](https://huggingface.co/papers/2508.02739) · 👍 65 |
+| 2024-12-28 | [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) | Yijia Xiao, Edward Sun, Di Luo 等 | [HF 社区代码候选](https://github.com/tauricresearch/tradingagents) | 未明确（需查文档） | [HF Trending](https://huggingface.co/papers/2412.20138) · 👍 164 |
 
 
 ## GitHub 金融与交易工具

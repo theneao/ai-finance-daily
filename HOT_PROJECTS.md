@@ -2,7 +2,7 @@
 
 [返回首页](README.md) · [月度归档](archive/index.md)
 
-更新日期：2026-11-10。收录 1298 个项目；Star > 100，近三年有代码更新，排除归档库。
+更新日期：2026-11-10。收录 1294 个项目；Star > 100，近三年有代码更新，排除归档库。
 
 覆盖历史创建的金融项目，不限制为近期新库；按当前 Star 降序排列。检索词见 config.yaml，GitHub 搜索无法保证穷尽全部项目。
 
@@ -39,408 +39,408 @@
 
 | 排名 | 项目 | ⭐ | 分类 | 市场/因子 | 语言 | 最近代码更新 | 核验日期 |
 |---:|---|---:|---|---|---|---|---|
-| 1 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 121809 | Agent | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 1 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 121811 | Agent | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
 | 2 | [fighting41love/funNLP](https://github.com/fighting41love/funNLP) | 84502 | 论文研究 | 未明确（需查文档） | Python | 2024-05-10 | 2026-11-10 |
 | 3 | [openbq-org/OpenBB](https://github.com/openbq-org/OpenBB) | 75299 | Agent | 虚拟货币、期货 | Python | 2026-11-10 | 2026-11-10 |
-| 4 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 69490 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 4 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 69492 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
 | 5 | [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | 56731 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
 | 6 | [microsoft/qlib](https://github.com/microsoft/qlib) | 50193 | Agent | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 7 | [vnpy/vnpy](https://github.com/vnpy/vnpy) | 46314 | 交易框架 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
-| 8 | [ccxt/ccxt](https://github.com/ccxt/ccxt) | 44847 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 9 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 39600 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
-| 10 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37995 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 11 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 29580 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 12 | [virattt/dexter](https://github.com/virattt/dexter) | 27809 | Agent | 未明确（需查文档） | TypeScript | 2026-09-23 | 2026-11-10 |
-| 13 | [Dujltqzv/Some-Many-Books](https://github.com/Dujltqzv/Some-Many-Books) | 25917 | 论文研究 | 虚拟货币 |  | 2026-06-18 | 2026-11-10 |
-| 14 | [mementum/backtrader](https://github.com/mementum/backtrader) | 23710 | 交易框架 | 未明确（需查文档） | Python | 2024-08-19 | 2026-11-10 |
-| 15 | [akfamily/akshare](https://github.com/akfamily/akshare) | 23282 | 工具 | A股、期货 | Python | 2026-11-09 | 2026-11-10 |
-| 16 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 22475 | 交易框架 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
-| 17 | [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | 21774 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-11-06 | 2026-11-10 |
-| 18 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | 21143 | Agent | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
-| 19 | [quantopian/zipline](https://github.com/quantopian/zipline) | 20226 | 工具 | 未明确（需查文档） | Python | 2024-02-13 | 2026-11-10 |
-| 20 | [bbfamily/abu](https://github.com/bbfamily/abu) | 19157 | 工具 | 虚拟货币、期货 | Python | 2026-10-16 | 2026-11-10 |
-| 21 | [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot) | 18796 | 论文研究 | 虚拟货币 | Jupyter Notebook | 2026-03-11 | 2026-11-10 |
-| 22 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | 15296 | 论文研究 | 期货 | Python | 2026-09-28 | 2026-11-10 |
-| 23 | [myhhub/stock](https://github.com/myhhub/stock) | 15088 | 交易框架 | 未明确（需查文档） | Python | 2026-04-02 | 2026-11-10 |
-| 24 | [xcanwin/KeepChatGPT](https://github.com/xcanwin/KeepChatGPT) | 14888 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-20 | 2026-11-10 |
-| 25 | [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | 13674 | Agent | 虚拟货币、因子 | Python | 2026-11-10 | 2026-11-10 |
-| 26 | [NoFxAiOS/nofx](https://github.com/NoFxAiOS/nofx) | 13252 | Agent | 美股、虚拟货币 | Go | 2026-11-04 | 2026-11-10 |
-| 27 | [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) | 13145 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
-| 28 | [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) | 11677 | Agent | A股、期货 | Python | 2026-11-03 | 2026-11-10 |
-| 29 | [yutiansut/QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) | 11355 | 交易框架 | 期货 | Python | 2026-09-18 | 2026-11-10 |
-| 30 | [je-suis-tm/quant-trading](https://github.com/je-suis-tm/quant-trading) | 11227 | 工具 | 未明确（需查文档） | Python | 2026-06-20 | 2026-11-10 |
-| 31 | [daniulive/SmarterStreaming](https://github.com/daniulive/SmarterStreaming) | 11172 | 工具 | 未明确（需查文档） | Java | 2026-04-15 | 2026-11-10 |
-| 32 | [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | 11085 | 交易框架 | 虚拟货币 | C# | 2026-11-07 | 2026-11-10 |
-| 33 | [ValueCell-ai/valuecell](https://github.com/ValueCell-ai/valuecell) | 11053 | Agent | 虚拟货币 | Python | 2026-03-09 | 2026-11-10 |
-| 34 | [chaitin/PandaWiki](https://github.com/chaitin/PandaWiki) | 10489 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-05 | 2026-11-10 |
-| 35 | [shidenggui/easytrader](https://github.com/shidenggui/easytrader) | 10275 | 工具 | 未明确（需查文档） | Python | 2026-10-16 | 2026-11-10 |
-| 36 | [JessYanCoding/MVPArms](https://github.com/JessYanCoding/MVPArms) | 10222 | 工具 | 未明确（需查文档） | Java | 2026-11-04 | 2026-11-10 |
-| 37 | [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | 9798 | 论文研究 | 虚拟货币 | Python | 2026-11-08 | 2026-11-10 |
-| 38 | [anbeime/skill](https://github.com/anbeime/skill) | 9394 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 39 | [kernc/backtesting.py](https://github.com/kernc/backtesting.py) | 9222 | 交易框架 | 未明确（需查文档） | Python | 2026-08-05 | 2026-11-10 |
-| 40 | [Rockyzsu/stock](https://github.com/Rockyzsu/stock) | 9021 | 工具 | 未明确（需查文档） | Python | 2026-04-17 | 2026-11-10 |
-| 41 | [firmai/financial-machine-learning](https://github.com/firmai/financial-machine-learning) | 8837 | 工具 | 虚拟货币 | Python | 2025-01-03 | 2026-11-10 |
-| 42 | [ccxt/binance-trade-bot](https://github.com/ccxt/binance-trade-bot) | 8816 | 工具 | 虚拟货币 | Python | 2025-03-12 | 2026-11-10 |
-| 43 | [jesse-ai/jesse](https://github.com/jesse-ai/jesse) | 8791 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 44 | [lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder) | 8784 | 工具 | 未明确（需查文档） | Swift | 2025-06-11 | 2026-11-10 |
-| 45 | [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) | 8610 | 工具 | A股 | Python | 2026-07-10 | 2026-11-10 |
-| 46 | [timercrack/trader](https://github.com/timercrack/trader) | 8480 | 工具 | 期货 | C | 2026-02-28 | 2026-11-10 |
-| 47 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | 8404 | Agent | 未明确（需查文档） | Python | 2026-10-24 | 2026-11-10 |
-| 48 | [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | 8106 | 工具 | A股 | Go | 2026-11-10 | 2026-11-10 |
-| 49 | [wbh604/UZI-Skill](https://github.com/wbh604/UZI-Skill) | 7579 | 工具 | A股 | Python | 2026-11-05 | 2026-11-10 |
-| 50 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 7506 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 51 | [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book) | 7447 | 工具 | 未明确（需查文档） | Python | 2026-10-01 | 2026-11-10 |
-| 52 | [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) | 7443 | Agent | 虚拟货币 | TypeScript | 2026-11-10 | 2026-11-10 |
-| 53 | [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) | 7266 | Agent | 未明确（需查文档） | Python | 2026-02-19 | 2026-11-10 |
-| 54 | [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | 6918 | 论文研究 | 虚拟货币 | Python | 2026-11-02 | 2026-11-10 |
-| 55 | [hugo2046/QuantsPlaybook](https://github.com/hugo2046/QuantsPlaybook) | 6872 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-03 | 2026-11-10 |
-| 56 | [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | 6866 | 交易框架 | 期货 | Python | 2026-10-28 | 2026-11-10 |
-| 57 | [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) | 6737 | 工具 | 虚拟货币 |  | 2026-09-08 | 2026-11-10 |
-| 58 | [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) | 6676 | Agent | 未明确（需查文档） | Python | 2026-05-11 | 2026-11-10 |
-| 59 | [waditu/czsc](https://github.com/waditu/czsc) | 6590 | 工具 | A股、期货 | Rust | 2026-11-08 | 2026-11-10 |
-| 60 | [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 6543 | 交易框架 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
-| 61 | [wondertrader/wondertrader](https://github.com/wondertrader/wondertrader) | 6434 | 工具 | 期货 | C++ | 2026-09-01 | 2026-11-10 |
-| 62 | [cmliu/WorkerVless2sub](https://github.com/cmliu/WorkerVless2sub) | 6316 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-11 | 2026-11-10 |
-| 63 | [achannarasappa/ticker](https://github.com/achannarasappa/ticker) | 6265 | 工具 | 虚拟货币、期货 | Go | 2026-06-28 | 2026-11-10 |
-| 64 | [PyPortfolio/PyPortfolioOpt](https://github.com/PyPortfolio/PyPortfolioOpt) | 6159 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-07-07 | 2026-11-10 |
-| 65 | [fmzquant/strategies](https://github.com/fmzquant/strategies) | 6048 | 工具 | 未明确（需查文档） |  | 2025-04-30 | 2026-11-10 |
-| 66 | [WeiYe-Jing/datax-web](https://github.com/WeiYe-Jing/datax-web) | 6026 | 工具 | 未明确（需查文档） | Java | 2024-06-02 | 2026-11-10 |
-| 67 | [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 5860 | 交易框架 | 虚拟货币 | TypeScript | 2026-11-03 | 2026-11-10 |
-| 68 | [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) | 5781 | 论文研究 | 虚拟货币 | JavaScript | 2026-11-07 | 2026-11-10 |
-| 69 | [CryptoSignal/Crypto-Signal](https://github.com/CryptoSignal/Crypto-Signal) | 5659 | 工具 | 虚拟货币 | Python | 2024-07-07 | 2026-11-10 |
-| 70 | [freqtrade/freqtrade-strategies](https://github.com/freqtrade/freqtrade-strategies) | 5643 | 工具 | 虚拟货币 | Python | 2026-09-08 | 2026-11-10 |
-| 71 | [chrisleekr/binance-trading-bot](https://github.com/chrisleekr/binance-trading-bot) | 5602 | Agent | 虚拟货币 | TypeScript | 2026-11-10 | 2026-11-10 |
-| 72 | [JerBouma/FinanceToolkit](https://github.com/JerBouma/FinanceToolkit) | 5515 | 工具 | 因子 | Python | 2026-11-10 | 2026-11-10 |
-| 73 | [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) | 5392 | 交易框架 | 虚拟货币、期货 | HTML | 2026-11-03 | 2026-11-10 |
-| 74 | [1nchaos/adata](https://github.com/1nchaos/adata) | 5382 | 工具 | A股 | Python | 2026-10-31 | 2026-11-10 |
-| 75 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | 5261 | 交易框架 | 虚拟货币、期货 | Python | 2026-11-07 | 2026-11-10 |
-| 76 | [WeThinkIn/AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book) | 5204 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 77 | [shinnytech/tqsdk-python](https://github.com/shinnytech/tqsdk-python) | 5131 | 工具 | 期货 | Python | 2026-10-26 | 2026-11-10 |
-| 78 | [nkaz001/hftbacktest](https://github.com/nkaz001/hftbacktest) | 5067 | 交易框架 | 虚拟货币 | Rust | 2025-12-23 | 2026-11-10 |
-| 79 | [shibing624/text2vec](https://github.com/shibing624/text2vec) | 4976 | 工具 | 未明确（需查文档） | Python | 2026-02-14 | 2026-11-10 |
-| 80 | [RomelTorres/alpha_vantage](https://github.com/RomelTorres/alpha_vantage) | 4943 | 工具 | 虚拟货币 | Python | 2026-07-26 | 2026-11-10 |
-| 81 | [skyming/iOS-Performance-Optimization](https://github.com/skyming/iOS-Performance-Optimization) | 4878 | 工具 | 未明确（需查文档） | Objective-C | 2025-07-05 | 2026-11-10 |
-| 82 | [GuanYixuan/pyJianYingDraft](https://github.com/GuanYixuan/pyJianYingDraft) | 4864 | 工具 | 未明确（需查文档） | Python | 2026-10-14 | 2026-11-10 |
-| 83 | [MemeCalculate/moyin-creator](https://github.com/MemeCalculate/moyin-creator) | 4835 | 工具 | 未明确（需查文档） | TypeScript | 2026-08-27 | 2026-11-10 |
-| 84 | [dcajasn/Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | 4602 | 工具 | 因子 | C++ | 2026-11-04 | 2026-11-10 |
-| 85 | [quantopian/alphalens](https://github.com/quantopian/alphalens) | 4511 | 工具 | 因子 | Jupyter Notebook | 2024-02-12 | 2026-11-10 |
-| 86 | [matplotlib/mplfinance](https://github.com/matplotlib/mplfinance) | 4461 | 工具 | 未明确（需查文档） | Python | 2024-08-08 | 2026-11-10 |
-| 87 | [LLMQuant/quant-wiki](https://github.com/LLMQuant/quant-wiki) | 4442 | 工具 | 未明确（需查文档） |  | 2026-04-16 | 2026-11-10 |
-| 88 | [xuchonglang/investing-for-beginners](https://github.com/xuchonglang/investing-for-beginners) | 4420 | 工具 | 虚拟货币、期货 |  | 2026-10-03 | 2026-11-10 |
-| 89 | [shashankvemuri/Finance](https://github.com/shashankvemuri/Finance) | 4371 | 交易框架 | 未明确（需查文档） | Python | 2026-09-12 | 2026-11-10 |
-| 90 | [zvtvz/zvt](https://github.com/zvtvz/zvt) | 4334 | 交易框架 | 虚拟货币 | Python | 2026-07-01 | 2026-11-10 |
-| 91 | [EliteQuant/EliteQuant](https://github.com/EliteQuant/EliteQuant) | 4270 | 工具 | 未明确（需查文档） |  | 2024-06-15 | 2026-11-10 |
-| 92 | [Micro-sheep/efinance](https://github.com/Micro-sheep/efinance) | 4171 | 交易框架 | 期货 | Python | 2026-07-17 | 2026-11-10 |
-| 93 | [donknap/dpanel](https://github.com/donknap/dpanel) | 4166 | 工具 | 未明确（需查文档） | Go | 2026-10-29 | 2026-11-10 |
-| 94 | [cybergeekgyan/Quant-Developers-Resources](https://github.com/cybergeekgyan/Quant-Developers-Resources) | 4139 | 论文研究 | 未明确（需查文档） | Python | 2026-09-19 | 2026-11-10 |
-| 95 | [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) | 4114 | Agent | A股 | TypeScript | 2026-09-22 | 2026-11-10 |
-| 96 | [Hacker233/resume-design](https://github.com/Hacker233/resume-design) | 4112 | 工具 | 未明确（需查文档） | Vue | 2026-04-20 | 2026-11-10 |
-| 97 | [grananqvist/Awesome-Quant-Machine-Learning-Trading](https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading) | 4106 | 工具 | 未明确（需查文档） |  | 2025-05-21 | 2026-11-10 |
-| 98 | [Nixtla/nixtla](https://github.com/Nixtla/nixtla) | 4045 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-11-10 | 2026-11-10 |
-| 99 | [simonlin1212/TradingAgents-astock](https://github.com/simonlin1212/TradingAgents-astock) | 3943 | Agent | A股 | Python | 2026-10-30 | 2026-11-10 |
-| 100 | [mpquant/Ashare](https://github.com/mpquant/Ashare) | 3939 | 论文研究 | A股 | Python | 2025-12-24 | 2026-11-10 |
-| 101 | [Jon-Becker/prediction-market-analysis](https://github.com/Jon-Becker/prediction-market-analysis) | 3938 | 工具 | 未明确（需查文档） | Python | 2026-10-29 | 2026-11-10 |
-| 102 | [AI4Finance-Foundation/FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading) | 3926 | 论文研究 | 未明确（需查文档） | Python | 2026-09-18 | 2026-11-10 |
-| 103 | [cuemacro/finmarketpy](https://github.com/cuemacro/finmarketpy) | 3825 | 交易框架 | 未明确（需查文档） | Python | 2026-04-16 | 2026-11-10 |
-| 104 | [gaboolic/rime-frost](https://github.com/gaboolic/rime-frost) | 3825 | 工具 | 未明确（需查文档） | Lua | 2026-11-10 | 2026-11-10 |
-| 105 | [ctubio/Krypto-trading-bot](https://github.com/ctubio/Krypto-trading-bot) | 3734 | 工具 | 虚拟货币 | C++ | 2024-12-15 | 2026-11-10 |
-| 106 | [fasiondog/hikyuu](https://github.com/fasiondog/hikyuu) | 3703 | 交易框架 | 未明确（需查文档） | C++ | 2026-11-10 | 2026-11-10 |
-| 107 | [shidenggui/easyquant](https://github.com/shidenggui/easyquant) | 3689 | 交易框架 | 未明确（需查文档） | Python | 2025-03-27 | 2026-11-10 |
-| 108 | [edtechre/pybroker](https://github.com/edtechre/pybroker) | 3682 | 交易框架 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
-| 109 | [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | 3576 | Agent | A股 | TypeScript | 2026-10-29 | 2026-11-10 |
-| 110 | [Haehnchen/crypto-trading-bot](https://github.com/Haehnchen/crypto-trading-bot) | 3551 | 工具 | 虚拟货币 | TypeScript | 2026-08-02 | 2026-11-10 |
-| 111 | [iterativv/NostalgiaForInfinity](https://github.com/iterativv/NostalgiaForInfinity) | 3526 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 112 | [himself65/finance-skills](https://github.com/himself65/finance-skills) | 3521 | Agent | 未明确（需查文档） | JavaScript | 2026-11-04 | 2026-11-10 |
-| 113 | [mhallsmoore/qstrader](https://github.com/mhallsmoore/qstrader) | 3488 | 交易框架 | 未明确（需查文档） | Python | 2024-06-30 | 2026-11-10 |
-| 114 | [thrasher-corp/gocryptotrader](https://github.com/thrasher-corp/gocryptotrader) | 3468 | 工具 | 虚拟货币 | Go | 2026-11-09 | 2026-11-10 |
-| 115 | [jones2000/HQChart](https://github.com/jones2000/HQChart) | 3428 | 工具 | A股、虚拟货币、期货 | JavaScript | 2026-10-08 | 2026-11-10 |
-| 116 | [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship) | 3329 | Agent | A股、虚拟货币、期货 | HTML | 2026-02-05 | 2026-11-10 |
-| 117 | [hello245m/free-stockdb](https://github.com/hello245m/free-stockdb) | 3154 | 论文研究 | A股 | HTML | 2026-10-12 | 2026-11-10 |
-| 118 | [LLMQuant/quant-mind](https://github.com/LLMQuant/quant-mind) | 3131 | Agent | 未明确（需查文档） | Python | 2026-08-15 | 2026-11-10 |
-| 119 | [TradeMaster-NTU/TradeMaster](https://github.com/TradeMaster-NTU/TradeMaster) | 3126 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-06-04 | 2026-11-10 |
-| 120 | [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | 3113 | Agent | 未明确（需查文档） | Python | 2026-03-29 | 2026-11-10 |
-| 121 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | 3092 | Agent | 虚拟货币、期货 | TypeScript | 2026-11-06 | 2026-11-10 |
-| 122 | [weslynn/AlphaTree-graphic-deep-neural-network](https://github.com/weslynn/AlphaTree-graphic-deep-neural-network) | 3027 | 论文研究 | 未明确（需查文档） |  | 2026-10-13 | 2026-11-10 |
-| 123 | [bmoscon/cryptofeed](https://github.com/bmoscon/cryptofeed) | 3020 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
-| 124 | [pmorissette/bt](https://github.com/pmorissette/bt) | 3020 | 交易框架 | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
-| 125 | [hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) | 2999 | 工具 | 未明确（需查文档） | C++ | 2026-11-07 | 2026-11-10 |
-| 126 | [0xemmkty/QuantMuse](https://github.com/0xemmkty/QuantMuse) | 2987 | 工具 | 未明确（需查文档） | Python | 2025-07-29 | 2026-11-10 |
-| 127 | [openctp/openctp](https://github.com/openctp/openctp) | 2980 | 工具 | A股、期货 | C++ | 2026-11-09 | 2026-11-10 |
-| 128 | [binance/binance-connector-python](https://github.com/binance/binance-connector-python) | 2959 | 工具 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
-| 129 | [datawhalechina/whale-quant](https://github.com/datawhalechina/whale-quant) | 2931 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-01-15 | 2026-11-10 |
-| 130 | [Open-Trader/opentrader](https://github.com/Open-Trader/opentrader) | 2924 | 工具 | 虚拟货币 | TypeScript | 2025-06-29 | 2026-11-10 |
-| 131 | [xiaojinzi123/Component](https://github.com/xiaojinzi123/Component) | 2918 | 工具 | 未明确（需查文档） | Java | 2024-08-28 | 2026-11-10 |
-| 132 | [nickmccullum/algorithmic-trading-python](https://github.com/nickmccullum/algorithmic-trading-python) | 2915 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-06-20 | 2026-11-10 |
-| 133 | [mpquant/MyTT](https://github.com/mpquant/MyTT) | 2892 | 交易框架 | 虚拟货币、期货 | Python | 2026-06-13 | 2026-11-10 |
-| 134 | [FinMind/FinMind](https://github.com/FinMind/FinMind) | 2881 | 工具 | 未明确（需查文档） | HTML | 2026-11-03 | 2026-11-10 |
-| 135 | [codercup/unibest](https://github.com/codercup/unibest) | 2864 | 工具 | 未明确（需查文档） | TypeScript | 2026-03-28 | 2026-11-10 |
-| 136 | [liyupi/yu-ai-agent](https://github.com/liyupi/yu-ai-agent) | 2767 | Agent | 未明确（需查文档） | Java | 2026-01-07 | 2026-11-10 |
-| 137 | [yasinkuyu/binance-trader](https://github.com/yasinkuyu/binance-trader) | 2760 | 工具 | 虚拟货币 | Python | 2026-01-03 | 2026-11-10 |
-| 138 | [wquguru/nof0](https://github.com/wquguru/nof0) | 2753 | Agent | 虚拟货币 | Go | 2025-12-07 | 2026-11-10 |
-| 139 | [Jack-Cherish/quantitative](https://github.com/Jack-Cherish/quantitative) | 2746 | 工具 | 未明确（需查文档） | Python | 2023-11-25 | 2026-11-10 |
-| 140 | [likaia/nginxpulse](https://github.com/likaia/nginxpulse) | 2716 | 工具 | 未明确（需查文档） | Go | 2026-11-04 | 2026-11-10 |
-| 141 | [quantskills/quantskills](https://github.com/quantskills/quantskills) | 2642 | Agent | 因子 | JavaScript | 2026-11-10 | 2026-11-10 |
-| 142 | [skfolio/skfolio](https://github.com/skfolio/skfolio) | 2619 | 交易框架 | 因子 | Python | 2026-11-08 | 2026-11-10 |
-| 143 | [akfamily/akquant](https://github.com/akfamily/akquant) | 2583 | 论文研究 | A股 | Python | 2026-11-09 | 2026-11-10 |
-| 144 | [shirosaidev/stocksight](https://github.com/shirosaidev/stocksight) | 2552 | 工具 | 未明确（需查文档） | Python | 2023-12-05 | 2026-11-10 |
-| 145 | [botcrypto-io/awesome-crypto-trading-bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots) | 2551 | 工具 | 虚拟货币 |  | 2026-08-10 | 2026-11-10 |
-| 146 | [Ocyss/boss-helper](https://github.com/Ocyss/boss-helper) | 2517 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-07 | 2026-11-10 |
-| 147 | [xtuhcy/gecco](https://github.com/xtuhcy/gecco) | 2511 | 工具 | 未明确（需查文档） | Java | 2026-10-09 | 2026-11-10 |
-| 148 | [mlt131220/Astral3D](https://github.com/mlt131220/Astral3D) | 2492 | 工具 | 未明确（需查文档） | JavaScript | 2026-10-31 | 2026-11-10 |
-| 149 | [blankly-finance/blankly](https://github.com/blankly-finance/blankly) | 2487 | 交易框架 | 虚拟货币 | Python | 2024-12-30 | 2026-11-10 |
-| 150 | [larashero3-dotcom/lieflat-gongwen](https://github.com/larashero3-dotcom/lieflat-gongwen) | 2477 | 工具 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
-| 151 | [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch) | 2441 | Agent | A股 | Python | 2026-11-08 | 2026-11-10 |
-| 152 | [barter-rs/barter-rs](https://github.com/barter-rs/barter-rs) | 2368 | 交易框架 | 虚拟货币 | Rust | 2026-08-24 | 2026-11-10 |
-| 153 | [warp-id/solana-trading-bot](https://github.com/warp-id/solana-trading-bot) | 2345 | 工具 | 虚拟货币 | TypeScript | 2024-08-10 | 2026-11-10 |
-| 154 | [feige996/unibest](https://github.com/feige996/unibest) | 2325 | 工具 | 未明确（需查文档） | Vue | 2026-11-09 | 2026-11-10 |
-| 155 | [tvjsx/trading-vue-js](https://github.com/tvjsx/trading-vue-js) | 2311 | 工具 | 虚拟货币 | JavaScript | 2024-06-24 | 2026-11-10 |
-| 156 | [Moonofweisheng/wot-design-uni](https://github.com/Moonofweisheng/wot-design-uni) | 2300 | 工具 | 未明确（需查文档） | TypeScript | 2026-09-24 | 2026-11-10 |
-| 157 | [mizhexiaoxiao/vue-fastapi-admin](https://github.com/mizhexiaoxiao/vue-fastapi-admin) | 2290 | 工具 | 未明确（需查文档） | Vue | 2025-07-04 | 2026-11-10 |
-| 158 | [ProsusAI/finBERT](https://github.com/ProsusAI/finBERT) | 2278 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-10-12 | 2026-11-10 |
-| 159 | [ginlix-ai/LangAlpha](https://github.com/ginlix-ai/LangAlpha) | 2263 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 160 | [coding-kitties/investing-algorithm-framework](https://github.com/coding-kitties/investing-algorithm-framework) | 2237 | 交易框架 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
-| 161 | [jiawanlong/Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) | 2228 | 工具 | 未明确（需查文档） | JavaScript | 2026-10-16 | 2026-11-10 |
-| 162 | [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) | 2221 | Agent | 美股、虚拟货币、期货 | Python | 2026-11-10 | 2026-11-10 |
-| 163 | [dou-jiang/codex-console](https://github.com/dou-jiang/codex-console) | 2216 | 工具 | 未明确（需查文档） | Python | 2026-08-06 | 2026-11-10 |
-| 164 | [joshyattridge/smart-money-concepts](https://github.com/joshyattridge/smart-money-concepts) | 2203 | 工具 | 虚拟货币 | Python | 2026-04-03 | 2026-11-10 |
-| 165 | [LeoYeAI/agent-master-skills](https://github.com/LeoYeAI/agent-master-skills) | 2186 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
-| 166 | [phodal/ledge](https://github.com/phodal/ledge) | 2173 | 工具 | 未明确（需查文档） | TypeScript | 2023-12-05 | 2026-11-10 |
-| 167 | [continew-org/continew-admin](https://github.com/continew-org/continew-admin) | 2163 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
-| 168 | [enarjord/passivbot](https://github.com/enarjord/passivbot) | 2162 | 工具 | 虚拟货币、期货 | Python | 2026-11-10 | 2026-11-10 |
-| 169 | [jmfernandes/robin_stocks](https://github.com/jmfernandes/robin_stocks) | 2127 | 工具 | 虚拟货币 | Python | 2026-02-11 | 2026-11-10 |
-| 170 | [frankiejun/serv00-play](https://github.com/frankiejun/serv00-play) | 2117 | 工具 | 未明确（需查文档） | Shell | 2026-11-08 | 2026-11-10 |
-| 171 | [gege-circle/.github](https://github.com/gege-circle/.github) | 2089 | Agent | A股、虚拟货币、期货 |  | 2025-10-04 | 2026-11-10 |
-| 172 | [LastAncientOne/Stock_Analysis_For_Quant](https://github.com/LastAncientOne/Stock_Analysis_For_Quant) | 2089 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-05-04 | 2026-11-10 |
-| 173 | [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) | 2082 | Agent | A股 | Python | 2026-10-10 | 2026-11-10 |
-| 174 | [whittlem/pycryptobot](https://github.com/whittlem/pycryptobot) | 2061 | 交易框架 | 虚拟货币 | Python | 2026-03-26 | 2026-11-10 |
-| 175 | [chen-zeong/DTV](https://github.com/chen-zeong/DTV) | 2042 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
-| 176 | [virattt/ai-financial-agent](https://github.com/virattt/ai-financial-agent) | 2040 | Agent | 未明确（需查文档） | TypeScript | 2025-08-19 | 2026-11-10 |
-| 177 | [hotyue/IP-Sentinel](https://github.com/hotyue/IP-Sentinel) | 2028 | 工具 | 未明确（需查文档） | Shell | 2026-11-10 | 2026-11-10 |
-| 178 | [zhangxiangliang/stock-api](https://github.com/zhangxiangliang/stock-api) | 1998 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
-| 179 | [tkfy920/qstock](https://github.com/tkfy920/qstock) | 1951 | 交易框架 | 未明确（需查文档） | Python | 2025-03-16 | 2026-11-10 |
-| 180 | [SleepingBag945/dddd](https://github.com/SleepingBag945/dddd) | 1948 | 工具 | 未明确（需查文档） | Go | 2024-08-02 | 2026-11-10 |
-| 181 | [Yvictor/TradingGym](https://github.com/Yvictor/TradingGym) | 1930 | Agent | 未明确（需查文档） | Python | 2024-02-11 | 2026-11-10 |
-| 182 | [cinar/indicator](https://github.com/cinar/indicator) | 1917 | 交易框架 | 未明确（需查文档） | Go | 2026-11-09 | 2026-11-10 |
-| 183 | [questflowai/investorskills](https://github.com/questflowai/investorskills) | 1917 | Agent | 未明确（需查文档） | Swift | 2026-08-23 | 2026-11-10 |
-| 184 | [qusong0627/QuantMind](https://github.com/qusong0627/QuantMind) | 1904 | Agent | A股、期货、因子 | Python | 2026-11-10 | 2026-11-10 |
-| 185 | [fabston/TradingView-Webhook-Bot](https://github.com/fabston/TradingView-Webhook-Bot) | 1901 | 工具 | 虚拟货币 | Python | 2026-11-05 | 2026-11-10 |
-| 186 | [asavinov/intelligent-trading-bot](https://github.com/asavinov/intelligent-trading-bot) | 1897 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 187 | [abc123info/BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | 1895 | 工具 | 未明确（需查文档） |  | 2026-07-25 | 2026-11-10 |
-| 188 | [quant-science/sunday-quant-scientist](https://github.com/quant-science/sunday-quant-scientist) | 1882 | 工具 | 未明确（需查文档） | HTML | 2025-09-20 | 2026-11-10 |
-| 189 | [guchengwuyue/yshop-oa-crm](https://github.com/guchengwuyue/yshop-oa-crm) | 1880 | 工具 | 未明确（需查文档） | Java | 2026-11-05 | 2026-11-10 |
-| 190 | [Barca0412/Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance) | 1874 | Agent | 因子 | Python | 2026-11-06 | 2026-11-10 |
-| 191 | [alvarobartt/investpy](https://github.com/alvarobartt/investpy) | 1867 | 工具 | 未明确（需查文档） | Python | 2026-04-13 | 2026-11-10 |
-| 192 | [simonlin1212/global-stock-data](https://github.com/simonlin1212/global-stock-data) | 1865 | 工具 | 未明确（需查文档） |  | 2026-11-02 | 2026-11-10 |
-| 193 | [avhz/RustQuant](https://github.com/avhz/RustQuant) | 1842 | 工具 | 未明确（需查文档） | Rust | 2026-10-04 | 2026-11-10 |
-| 194 | [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) | 1809 | Agent | A股 | Go | 2026-11-10 | 2026-11-10 |
-| 195 | [thinkgem/jeesite5](https://github.com/thinkgem/jeesite5) | 1804 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-03 | 2026-11-10 |
-| 196 | [ib-api-reloaded/ib_async](https://github.com/ib-api-reloaded/ib_async) | 1788 | 工具 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 197 | [ScottfreeLLC/AlphaPy](https://github.com/ScottfreeLLC/AlphaPy) | 1784 | 交易框架 | 虚拟货币 | Python | 2026-10-05 | 2026-11-10 |
-| 198 | [austin-starks/NextTrade](https://github.com/austin-starks/NextTrade) | 1774 | 工具 | 未明确（需查文档） | TypeScript | 2025-05-15 | 2026-11-10 |
-| 199 | [ZeroDeng01/sublinkPro](https://github.com/ZeroDeng01/sublinkPro) | 1749 | 工具 | 未明确（需查文档） | Go | 2026-11-09 | 2026-11-10 |
-| 200 | [jammy928/CoinExchange_CryptoExchange_Java](https://github.com/jammy928/CoinExchange_CryptoExchange_Java) | 1736 | 交易框架 | 虚拟货币 | Java | 2024-05-12 | 2026-11-10 |
-| 201 | [TA-Lib/ta-lib](https://github.com/TA-Lib/ta-lib) | 1732 | 交易框架 | 未明确（需查文档） | C | 2026-11-10 | 2026-11-10 |
-| 202 | [ivopetiz/algotrading](https://github.com/ivopetiz/algotrading) | 1717 | 交易框架 | 虚拟货币 | Python | 2026-01-07 | 2026-11-10 |
-| 203 | [intel/auto-round](https://github.com/intel/auto-round) | 1700 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 204 | [cryptocj520/crypto-trading-open](https://github.com/cryptocj520/crypto-trading-open) | 1695 | 工具 | 虚拟货币 | Python | 2025-12-20 | 2026-11-10 |
-| 205 | [c9s/bbgo](https://github.com/c9s/bbgo) | 1676 | 工具 | 虚拟货币 | Go | 2026-11-10 | 2026-11-10 |
-| 206 | [ccxt/node-binance-api](https://github.com/ccxt/node-binance-api) | 1673 | 工具 | 虚拟货币 | TypeScript | 2026-10-31 | 2026-11-10 |
-| 207 | [jd-opensource/drip-table](https://github.com/jd-opensource/drip-table) | 1659 | 工具 | 未明确（需查文档） | TypeScript | 2025-02-21 | 2026-11-10 |
-| 208 | [QuantaAlpha/QuantaAlpha](https://github.com/QuantaAlpha/QuantaAlpha) | 1656 | Agent | 因子 | Python | 2026-06-29 | 2026-11-10 |
-| 209 | [PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original](https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original) | 1649 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-04-22 | 2026-11-10 |
-| 210 | [liangdabiao/ecom-details-image](https://github.com/liangdabiao/ecom-details-image) | 1637 | Agent | 未明确（需查文档） | Python | 2026-10-31 | 2026-11-10 |
-| 211 | [khscience/OSkhQuant](https://github.com/khscience/OSkhQuant) | 1636 | 交易框架 | A股 | Python | 2026-10-19 | 2026-11-10 |
-| 212 | [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) | 1636 | 工具 | 未明确（需查文档） | Go | 2026-11-10 | 2026-11-10 |
-| 213 | [rodrigo-brito/ninjabot](https://github.com/rodrigo-brito/ninjabot) | 1634 | 工具 | 虚拟货币 | Go | 2026-11-01 | 2026-11-10 |
-| 214 | [alpacahq/alpaca-py](https://github.com/alpacahq/alpaca-py) | 1591 | 工具 | 美股、虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 215 | [FinanceData/FinanceDataReader](https://github.com/FinanceData/FinanceDataReader) | 1574 | 工具 | 虚拟货币 | Python | 2026-05-13 | 2026-11-10 |
-| 216 | [akfamily/aktools](https://github.com/akfamily/aktools) | 1562 | Agent | A股 | Python | 2026-11-10 | 2026-11-10 |
-| 217 | [goldspanlabs/optopsy](https://github.com/goldspanlabs/optopsy) | 1515 | 论文研究 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 218 | [DemonDamon/FinnewsHunter](https://github.com/DemonDamon/FinnewsHunter) | 1505 | Agent | 因子 | Python | 2026-11-10 | 2026-11-10 |
-| 219 | [AI4Finance-Foundation/FinNLP](https://github.com/AI4Finance-Foundation/FinNLP) | 1496 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-07-01 | 2026-11-10 |
-| 220 | [Nriver/Episode-ReName](https://github.com/Nriver/Episode-ReName) | 1493 | 工具 | 未明确（需查文档） | Python | 2025-05-19 | 2026-11-10 |
-| 221 | [pegasusTrader/PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) | 1487 | 工具 | 未明确（需查文档） | C++ | 2025-10-18 | 2026-11-10 |
-| 222 | [ScottZt/jin-ce-zhi-suan](https://github.com/ScottZt/jin-ce-zhi-suan) | 1473 | 交易框架 | 未明确（需查文档） | HTML | 2026-07-20 | 2026-11-10 |
-| 223 | [mnemox-ai/tradememory-protocol](https://github.com/mnemox-ai/tradememory-protocol) | 1443 | Agent | 虚拟货币 | Python | 2026-10-23 | 2026-11-10 |
-| 224 | [JoinQuant/jqdatasdk](https://github.com/JoinQuant/jqdatasdk) | 1434 | 工具 | 未明确（需查文档） | Python | 2026-01-29 | 2026-11-10 |
-| 225 | [thinh-vu/vnstock](https://github.com/thinh-vu/vnstock) | 1424 | 工具 | 未明确（需查文档） |  | 2026-11-07 | 2026-11-10 |
-| 226 | [arrobalytics/django-ledger](https://github.com/arrobalytics/django-ledger) | 1399 | 工具 | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
-| 227 | [sensorsdata/sa-sdk-android](https://github.com/sensorsdata/sa-sdk-android) | 1376 | 工具 | 未明确（需查文档） | Java | 2026-11-04 | 2026-11-10 |
-| 228 | [shner-elmo/TradingView-Screener](https://github.com/shner-elmo/TradingView-Screener) | 1355 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
-| 229 | [berndruecker/flowing-retail](https://github.com/berndruecker/flowing-retail) | 1332 | 工具 | 未明确（需查文档） | Java | 2024-08-01 | 2026-11-10 |
-| 230 | [dromara/orion-visor](https://github.com/dromara/orion-visor) | 1325 | 工具 | 未明确（需查文档） | Java | 2026-02-07 | 2026-11-10 |
-| 231 | [cvxgrp/cvxportfolio](https://github.com/cvxgrp/cvxportfolio) | 1321 | 工具 | 未明确（需查文档） | Python | 2026-04-27 | 2026-11-10 |
-| 232 | [ICT-FinD-Lab/alphagen](https://github.com/ICT-FinD-Lab/alphagen) | 1295 | 论文研究 | 因子 | Python | 2026-06-04 | 2026-11-10 |
-| 233 | [alibaba/GaiaX](https://github.com/alibaba/GaiaX) | 1284 | 工具 | 未明确（需查文档） | C | 2026-01-08 | 2026-11-10 |
-| 234 | [appspa/app-space](https://github.com/appspa/app-space) | 1276 | 工具 | 未明确（需查文档） | C | 2024-08-08 | 2026-11-10 |
-| 235 | [evan-kolberg/prediction-market-backtesting](https://github.com/evan-kolberg/prediction-market-backtesting) | 1267 | 交易框架 | 未明确（需查文档） | Python | 2026-05-16 | 2026-11-10 |
-| 236 | [hanliang97/MatrixMedia](https://github.com/hanliang97/MatrixMedia) | 1262 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-10 | 2026-11-10 |
-| 237 | [FinHackCN/finhack](https://github.com/FinHackCN/finhack) | 1258 | 交易框架 | 因子 | Python | 2026-10-22 | 2026-11-10 |
-| 238 | [PacktPublishing/Python-for-Algorithmic-Trading-Cookbook](https://github.com/PacktPublishing/Python-for-Algorithmic-Trading-Cookbook) | 1256 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-03-02 | 2026-11-10 |
-| 239 | [facioquo/stock-indicators-dotnet](https://github.com/facioquo/stock-indicators-dotnet) | 1253 | 交易框架 | 虚拟货币 | C# | 2026-11-08 | 2026-11-10 |
-| 240 | [qqxpee/antigravity2-cn](https://github.com/qqxpee/antigravity2-cn) | 1241 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-10 | 2026-11-10 |
-| 241 | [binance/binance-futures-connector-python](https://github.com/binance/binance-futures-connector-python) | 1239 | 工具 | 虚拟货币、期货 | Python | 2025-07-18 | 2026-11-10 |
-| 242 | [sinall/StrategyEase-Python-SDK](https://github.com/sinall/StrategyEase-Python-SDK) | 1239 | 工具 | 未明确（需查文档） | Python | 2025-02-05 | 2026-11-10 |
-| 243 | [bwjoke/BTC-Trading-Since-2020](https://github.com/bwjoke/BTC-Trading-Since-2020) | 1225 | 工具 | 虚拟货币 |  | 2026-09-11 | 2026-11-10 |
-| 244 | [bitcoinvsalts/node-binance-trader](https://github.com/bitcoinvsalts/node-binance-trader) | 1224 | 工具 | 虚拟货币 | TypeScript | 2024-08-19 | 2026-11-10 |
-| 245 | [qu-niao/LimApiTest](https://github.com/qu-niao/LimApiTest) | 1221 | 工具 | 未明确（需查文档） | TypeScript | 2025-11-27 | 2026-11-10 |
-| 246 | [visualHFT/VisualHFT](https://github.com/visualHFT/VisualHFT) | 1216 | 工具 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
-| 247 | [jankrepl/deepdow](https://github.com/jankrepl/deepdow) | 1199 | 工具 | 未明确（需查文档） | Python | 2024-01-24 | 2026-11-10 |
-| 248 | [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) | 1198 | 交易框架 | 虚拟货币、期货 | Python | 2026-11-03 | 2026-11-10 |
-| 249 | [kkyon/botflow](https://github.com/kkyon/botflow) | 1194 | 工具 | 未明确（需查文档） | Python | 2026-02-03 | 2026-11-10 |
-| 250 | [0voice/Awesome-QuantDev-Learn](https://github.com/0voice/Awesome-QuantDev-Learn) | 1193 | 交易框架 | 未明确（需查文档） |  | 2025-07-04 | 2026-11-10 |
-| 251 | [mars-tw/anti-gambling-trader-tw](https://github.com/mars-tw/anti-gambling-trader-tw) | 1177 | 论文研究 | 虚拟货币 | Python | 2026-11-02 | 2026-11-10 |
-| 252 | [JKorf/Binance.Net](https://github.com/JKorf/Binance.Net) | 1175 | 工具 | 虚拟货币、期货 | C# | 2026-11-04 | 2026-11-10 |
-| 253 | [51bitquant/bitquant](https://github.com/51bitquant/bitquant) | 1166 | 交易框架 | 虚拟货币 | Python | 2025-04-10 | 2026-11-10 |
-| 254 | [saniales/golang-crypto-trading-bot](https://github.com/saniales/golang-crypto-trading-bot) | 1162 | 工具 | 虚拟货币 | Go | 2025-11-20 | 2026-11-10 |
-| 255 | [DR-lin-eng/stock-scanner](https://github.com/DR-lin-eng/stock-scanner) | 1158 | 工具 | A股 | Python | 2026-03-02 | 2026-11-10 |
-| 256 | [ztx888/HaloWebUI](https://github.com/ztx888/HaloWebUI) | 1157 | 工具 | 未明确（需查文档） | Python | 2026-06-04 | 2026-11-10 |
-| 257 | [funkygao/cp-ddd-framework](https://github.com/funkygao/cp-ddd-framework) | 1156 | 工具 | 未明确（需查文档） | Java | 2025-12-19 | 2026-11-10 |
-| 258 | [whchien/ai-trader](https://github.com/whchien/ai-trader) | 1135 | Agent | 未明确（需查文档） | Python | 2026-03-28 | 2026-11-10 |
-| 259 | [Kami958/WhoShitsonMyC](https://github.com/Kami958/WhoShitsonMyC) | 1112 | 工具 | 未明确（需查文档） | Python | 2026-10-30 | 2026-11-10 |
-| 260 | [kingston-csj/jforgame](https://github.com/kingston-csj/jforgame) | 1102 | 游戏 | 未明确（需查文档） | Java | 2026-11-09 | 2026-11-10 |
-| 261 | [PyPatel/Options-Trading-Strategies-in-Python](https://github.com/PyPatel/Options-Trading-Strategies-in-Python) | 1102 | 工具 | 未明确（需查文档） | Python | 2024-04-22 | 2026-11-10 |
-| 262 | [Finnhub-Stock-API/finnhub-python](https://github.com/Finnhub-Stock-API/finnhub-python) | 1099 | 工具 | 未明确（需查文档） | Python | 2026-11-05 | 2026-11-10 |
-| 263 | [yijixiuxin/chanlun-pro](https://github.com/yijixiuxin/chanlun-pro) | 1091 | 工具 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 264 | [phoenix-zhou/goshop](https://github.com/phoenix-zhou/goshop) | 1089 | 工具 | 未明确（需查文档） | CSS | 2025-10-12 | 2026-11-10 |
-| 265 | [santoshlite/EigenLedger](https://github.com/santoshlite/EigenLedger) | 1088 | 交易框架 | 期货 | Python | 2025-09-14 | 2026-11-10 |
-| 266 | [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) | 1074 | 工具 | 美股、虚拟货币 | Python | 2026-11-04 | 2026-11-10 |
-| 267 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | 1067 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 268 | [ijry/lyadmin](https://github.com/ijry/lyadmin) | 1059 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-07 | 2026-11-10 |
-| 269 | [hustcer/star](https://github.com/hustcer/star) | 1058 | 论文研究 | 未明确（需查文档） | JavaScript | 2024-10-07 | 2026-11-10 |
-| 270 | [RuoJi6/audit-skills](https://github.com/RuoJi6/audit-skills) | 1043 | 工具 | 未明确（需查文档） | Python | 2026-06-16 | 2026-11-10 |
-| 271 | [beizhu-1209/AIHelms](https://github.com/beizhu-1209/AIHelms) | 1033 | Agent | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 272 | [merovinh/best-of-algorithmic-trading](https://github.com/merovinh/best-of-algorithmic-trading) | 1031 | 工具 | 未明确（需查文档） |  | 2026-11-10 | 2026-11-10 |
-| 273 | [ctpbee/ctpbee](https://github.com/ctpbee/ctpbee) | 1024 | 工具 | 期货 | Python | 2026-11-06 | 2026-11-10 |
-| 274 | [TreborNamor/TradingView-Machine-Learning-GUI](https://github.com/TreborNamor/TradingView-Machine-Learning-GUI) | 1021 | 交易框架 | 未明确（需查文档） | Python | 2026-08-18 | 2026-11-10 |
-| 275 | [uniswap-python/uniswap-python](https://github.com/uniswap-python/uniswap-python) | 1019 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
-| 276 | [bennycode/trading-signals](https://github.com/bennycode/trading-signals) | 1007 | 工具 | 虚拟货币 | TypeScript | 2026-11-10 | 2026-11-10 |
-| 277 | [G-Joker/WeaponApp](https://github.com/G-Joker/WeaponApp) | 1003 | 工具 | 未明确（需查文档） | Java | 2024-05-27 | 2026-11-10 |
-| 278 | [rootSunc/CNEquity](https://github.com/rootSunc/CNEquity) | 997 | Agent | A股、期货 | Python | 2026-11-06 | 2026-11-10 |
-| 279 | [simonlin1212/vibe-astock](https://github.com/simonlin1212/vibe-astock) | 993 | Agent | A股 | TypeScript | 2026-10-29 | 2026-11-10 |
-| 280 | [0xfdf/toraniko](https://github.com/0xfdf/toraniko) | 982 | 工具 | 因子 | Python | 2024-08-16 | 2026-11-10 |
-| 281 | [JECSand/yahoofinancials](https://github.com/JECSand/yahoofinancials) | 978 | 工具 | 虚拟货币、期货 | Python | 2024-02-06 | 2026-11-10 |
-| 282 | [quarkfin/qf-lib](https://github.com/quarkfin/qf-lib) | 977 | 交易框架 | 虚拟货币、期货 | Python | 2026-08-31 | 2026-11-10 |
-| 283 | [51bitquant/howtrader](https://github.com/51bitquant/howtrader) | 972 | 交易框架 | 虚拟货币 | Python | 2026-06-07 | 2026-11-10 |
-| 284 | [PacktPublishing/Learn-Algorithmic-Trading](https://github.com/PacktPublishing/Learn-Algorithmic-Trading) | 972 | 工具 | 未明确（需查文档） | Python | 2026-03-02 | 2026-11-10 |
-| 285 | [ailabx/agilab](https://github.com/ailabx/agilab) | 970 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 286 | [dromara/dante-cloud](https://github.com/dromara/dante-cloud) | 969 | Agent | 未明确（需查文档） | Java | 2026-11-05 | 2026-11-10 |
-| 287 | [xieliaing/CausalInferenceIntro](https://github.com/xieliaing/CausalInferenceIntro) | 969 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-03-16 | 2026-11-10 |
-| 288 | [Leo4815162342/dukascopy-node](https://github.com/Leo4815162342/dukascopy-node) | 962 | 交易框架 | 虚拟货币 | TypeScript | 2026-10-28 | 2026-11-10 |
-| 289 | [sensorsdata/sa-sdk-javascript](https://github.com/sensorsdata/sa-sdk-javascript) | 958 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-10 | 2026-11-10 |
-| 290 | [mst272/LLM-Dojo](https://github.com/mst272/LLM-Dojo) | 939 | 工具 | 未明确（需查文档） | Python | 2026-03-08 | 2026-11-10 |
-| 291 | [LuxAlgo/PineTS](https://github.com/LuxAlgo/PineTS) | 938 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-11-04 | 2026-11-10 |
-| 292 | [finvfamily/finshare](https://github.com/finvfamily/finshare) | 937 | 工具 | 未明确（需查文档） | Python | 2026-04-27 | 2026-11-10 |
-| 293 | [jianweiweng05/qsx-strategy-score](https://github.com/jianweiweng05/qsx-strategy-score) | 928 | 交易框架 | 未明确（需查文档） | Python | 2026-10-25 | 2026-11-10 |
-| 294 | [TickDB/tickdb-unified-realtime-marketdata-api](https://github.com/TickDB/tickdb-unified-realtime-marketdata-api) | 922 | Agent | A股、虚拟货币、期货 | Python | 2026-11-06 | 2026-11-10 |
-| 295 | [business-science/tidyquant](https://github.com/business-science/tidyquant) | 920 | 工具 | 未明确（需查文档） | R | 2026-11-01 | 2026-11-10 |
-| 296 | [rush86999/atom](https://github.com/rush86999/atom) | 915 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 297 | [komako-workshop/digital-oracle](https://github.com/komako-workshop/digital-oracle) | 911 | Agent | 虚拟货币 | Python | 2026-07-26 | 2026-11-10 |
-| 298 | [yorkeccak/finance](https://github.com/yorkeccak/finance) | 910 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
-| 299 | [sdcoffey/techan](https://github.com/sdcoffey/techan) | 905 | 工具 | 虚拟货币 | Go | 2026-09-04 | 2026-11-10 |
-| 300 | [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 901 | 工具 | 未明确（需查文档） | Go | 2026-11-10 | 2026-11-10 |
-| 301 | [bcefghj/learn-nanobot](https://github.com/bcefghj/learn-nanobot) | 897 | 工具 | 未明确（需查文档） | Python | 2026-04-01 | 2026-11-10 |
-| 302 | [SII-WANGZJ/Polymarket_data](https://github.com/SII-WANGZJ/Polymarket_data) | 897 | 论文研究 | 未明确（需查文档） | Python | 2026-01-01 | 2026-11-10 |
-| 303 | [hananedupouy/LLMs-in-Finance](https://github.com/hananedupouy/LLMs-in-Finance) | 896 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-11-01 | 2026-11-10 |
-| 304 | [KylinMountain/TradingAgents-AShare](https://github.com/KylinMountain/TradingAgents-AShare) | 896 | Agent | A股 | Python | 2026-10-30 | 2026-11-10 |
-| 305 | [The-FinAI/PIXIU](https://github.com/The-FinAI/PIXIU) | 896 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-08 | 2026-11-10 |
-| 306 | [kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis) | 894 | 工具 | 美股 | Python | 2024-02-19 | 2026-11-10 |
-| 307 | [weibaohui/k8m](https://github.com/weibaohui/k8m) | 893 | Agent | 未明确（需查文档） | Go | 2026-11-07 | 2026-11-10 |
-| 308 | [jwangkun/claude-for-financial-services-cn](https://github.com/jwangkun/claude-for-financial-services-cn) | 888 | 工具 | 未明确（需查文档） | Python | 2026-09-14 | 2026-11-10 |
-| 309 | [xingwudao/xquant-beginner](https://github.com/xingwudao/xquant-beginner) | 887 | 论文研究 | 因子 | TypeScript | 2026-11-02 | 2026-11-10 |
-| 310 | [boyboi86/AFML](https://github.com/boyboi86/AFML) | 883 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-09-05 | 2026-11-10 |
-| 311 | [WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction](https://github.com/WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction) | 883 | 工具 | 未明确（需查文档） | Python | 2024-07-15 | 2026-11-10 |
-| 312 | [SoYuCry/awesome-quant-interview](https://github.com/SoYuCry/awesome-quant-interview) | 880 | 工具 | 因子 |  | 2026-08-25 | 2026-11-10 |
-| 313 | [gbeced/basana](https://github.com/gbeced/basana) | 879 | 交易框架 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
-| 314 | [NewLifeX/NewLife.Redis](https://github.com/NewLifeX/NewLife.Redis) | 879 | 工具 | 未明确（需查文档） | C# | 2026-10-26 | 2026-11-10 |
-| 315 | [TencentBlueKing/bk-job](https://github.com/TencentBlueKing/bk-job) | 875 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
-| 316 | [idanya/algo-trader](https://github.com/idanya/algo-trader) | 872 | 交易框架 | 虚拟货币 | Python | 2023-11-20 | 2026-11-10 |
-| 317 | [unfairmarket/SMA-outfits](https://github.com/unfairmarket/SMA-outfits) | 866 | 工具 | 未明确（需查文档） |  | 2025-08-20 | 2026-11-10 |
-| 318 | [gazbert/bxbot](https://github.com/gazbert/bxbot) | 863 | 工具 | 虚拟货币 | Java | 2026-11-02 | 2026-11-10 |
-| 319 | [Adamant-im/adamant-tradebot](https://github.com/Adamant-im/adamant-tradebot) | 862 | 工具 | 虚拟货币 | JavaScript | 2026-11-09 | 2026-11-10 |
-| 320 | [zgsfsec/Full-Chain-Sentinel-System](https://github.com/zgsfsec/Full-Chain-Sentinel-System) | 860 | Agent | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
-| 321 | [swapperfinance/swapper-toolkit](https://github.com/swapperfinance/swapper-toolkit) | 855 | Agent | 虚拟货币 |  | 2026-04-07 | 2026-11-10 |
-| 322 | [kelvinau/crypto-arbitrage](https://github.com/kelvinau/crypto-arbitrage) | 851 | 工具 | 虚拟货币 | Python | 2024-02-17 | 2026-11-10 |
-| 323 | [KunMoe/kun-touchgal-next](https://github.com/KunMoe/kun-touchgal-next) | 848 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
-| 324 | [liudf0716/xfrpc](https://github.com/liudf0716/xfrpc) | 844 | 工具 | 未明确（需查文档） | C | 2026-09-08 | 2026-11-10 |
-| 325 | [AsyncAlgoTrading/aat](https://github.com/AsyncAlgoTrading/aat) | 843 | 交易框架 | 虚拟货币 | C++ | 2026-07-27 | 2026-11-10 |
-| 326 | [kingschan1204/istock](https://github.com/kingschan1204/istock) | 843 | 工具 | A股 | Java | 2024-12-27 | 2026-11-10 |
-| 327 | [huanyuejue/Fluent-Steam-Lua](https://github.com/huanyuejue/Fluent-Steam-Lua) | 839 | 工具 | 未明确（需查文档） | C# | 2026-11-08 | 2026-11-10 |
-| 328 | [Heerozh/spectre](https://github.com/Heerozh/spectre) | 831 | 交易框架 | 因子 | Python | 2026-11-05 | 2026-11-10 |
-| 329 | [SUFE-AIFLM-Lab/Fin-R1](https://github.com/SUFE-AIFLM-Lab/Fin-R1) | 823 | 工具 | 未明确（需查文档） |  | 2025-03-27 | 2026-11-10 |
-| 330 | [Yohann0617/oci-helper](https://github.com/Yohann0617/oci-helper) | 823 | 工具 | 未明确（需查文档） | Java | 2026-09-29 | 2026-11-10 |
-| 331 | [garagesteve1155/PowerTrader_AI](https://github.com/garagesteve1155/PowerTrader_AI) | 820 | 工具 | 虚拟货币 | Python | 2026-10-28 | 2026-11-10 |
-| 332 | [gadicc/yahoo-finance2](https://github.com/gadicc/yahoo-finance2) | 815 | Agent | 未明确（需查文档） | HTML | 2026-11-08 | 2026-11-10 |
-| 333 | [wkingnet/stock-analysis](https://github.com/wkingnet/stock-analysis) | 814 | 工具 | 未明确（需查文档） | Python | 2026-01-02 | 2026-11-10 |
-| 334 | [OrionStarAI/Orion](https://github.com/OrionStarAI/Orion) | 808 | Agent | 未明确（需查文档） | Python | 2024-06-03 | 2026-11-10 |
-| 335 | [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) | 807 | Agent | 虚拟货币、期货 | Rust | 2026-10-29 | 2026-11-10 |
-| 336 | [dragon1086/prism-insight](https://github.com/dragon1086/prism-insight) | 805 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 337 | [claw-codes/wx4py](https://github.com/claw-codes/wx4py) | 802 | 工具 | 未明确（需查文档） | Python | 2026-04-11 | 2026-11-10 |
-| 338 | [JulyIghor/QtBitcoinTrader](https://github.com/JulyIghor/QtBitcoinTrader) | 800 | 工具 | 虚拟货币 | C++ | 2025-06-25 | 2026-11-10 |
-| 339 | [edmcouncil/fibo](https://github.com/edmcouncil/fibo) | 799 | 工具 | 未明确（需查文档） | Shell | 2026-10-27 | 2026-11-10 |
-| 340 | [virattt/financial-agent-ui](https://github.com/virattt/financial-agent-ui) | 795 | Agent | 未明确（需查文档） | TypeScript | 2024-09-29 | 2026-11-10 |
-| 341 | [twelvedata/twelvedata-python](https://github.com/twelvedata/twelvedata-python) | 793 | 工具 | 虚拟货币 | Python | 2026-08-12 | 2026-11-10 |
-| 342 | [AUTO-MAS-Project/AUTO-MAS](https://github.com/AUTO-MAS-Project/AUTO-MAS) | 788 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 343 | [jinbooooom/ai-infra-hpc](https://github.com/jinbooooom/ai-infra-hpc) | 788 | 工具 | 未明确（需查文档） | Cuda | 2026-04-27 | 2026-11-10 |
-| 344 | [jiyuanwang-afk/Explainable-AI-in-Financial-Fraud-and-Anomaly-Detection](https://github.com/jiyuanwang-afk/Explainable-AI-in-Financial-Fraud-and-Anomaly-Detection) | 788 | 工具 | 未明确（需查文档） | Python | 2025-10-20 | 2026-11-10 |
-| 345 | [letianzj/quanttrader](https://github.com/letianzj/quanttrader) | 787 | 交易框架 | 未明确（需查文档） | HTML | 2024-06-20 | 2026-11-10 |
-| 346 | [taniman/profit-trailer](https://github.com/taniman/profit-trailer) | 784 | 工具 | 虚拟货币 | Shell | 2026-10-10 | 2026-11-10 |
-| 347 | [robswc/tradingview-webhooks-bot](https://github.com/robswc/tradingview-webhooks-bot) | 781 | 工具 | 虚拟货币 | Python | 2024-02-29 | 2026-11-10 |
-| 348 | [liuhuanyong/ChainKnowledgeGraph](https://github.com/liuhuanyong/ChainKnowledgeGraph) | 778 | 工具 | A股 | Python | 2025-12-22 | 2026-11-10 |
-| 349 | [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) | 773 | Agent | A股 | Python | 2026-11-10 | 2026-11-10 |
-| 350 | [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 759 | 工具 | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
-| 351 | [soaring-xiongkulu/easyaiot](https://github.com/soaring-xiongkulu/easyaiot) | 757 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 352 | [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) | 756 | 论文研究 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 353 | [binance/binance-connector-js](https://github.com/binance/binance-connector-js) | 755 | 工具 | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
-| 354 | [quant-king299/EasyXT](https://github.com/quant-king299/EasyXT) | 753 | 工具 | 未明确（需查文档） | Python | 2026-09-16 | 2026-11-10 |
-| 355 | [xxnuo/dns-benchmark](https://github.com/xxnuo/dns-benchmark) | 750 | 论文研究 | 未明确（需查文档） | Go | 2025-10-10 | 2026-11-10 |
-| 356 | [iTXTech/mirai-console-loader](https://github.com/iTXTech/mirai-console-loader) | 738 | 工具 | 未明确（需查文档） | Java | 2023-12-24 | 2026-11-10 |
-| 357 | [ling-0729/KHunter](https://github.com/ling-0729/KHunter) | 735 | 交易框架 | A股 | Python | 2026-10-07 | 2026-11-10 |
-| 358 | [y123456yz/middleware_development_learning](https://github.com/y123456yz/middleware_development_learning) | 727 | 工具 | 未明确（需查文档） | C | 2024-10-31 | 2026-11-10 |
-| 359 | [yangfeng20/ai-job](https://github.com/yangfeng20/ai-job) | 727 | Agent | 未明确（需查文档） | Java | 2026-08-18 | 2026-11-10 |
-| 360 | [alleyway/add-tradingview-alerts-tool](https://github.com/alleyway/add-tradingview-alerts-tool) | 723 | 工具 | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
-| 361 | [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) | 722 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 362 | [rosemarycox5334-debug/AlphaMaster](https://github.com/rosemarycox5334-debug/AlphaMaster) | 715 | 交易框架 | 因子 | Python | 2026-11-07 | 2026-11-10 |
-| 363 | [electkismet/eltdx](https://github.com/electkismet/eltdx) | 711 | 工具 | A股 | Python | 2026-11-06 | 2026-11-10 |
-| 364 | [TheFourGreatErrors/alpha-rptr](https://github.com/TheFourGreatErrors/alpha-rptr) | 710 | 工具 | 虚拟货币、期货 | Python | 2026-06-19 | 2026-11-10 |
-| 365 | [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) | 706 | Agent | 虚拟货币 | Python | 2026-10-29 | 2026-11-10 |
-| 366 | [akfamily/akhub](https://github.com/akfamily/akhub) | 705 | 论文研究 | A股 |  | 2026-11-07 | 2026-11-10 |
-| 367 | [akfamily/akhub](https://github.com/akfamily/akhub) | 705 | 论文研究 | A股 |  | 2026-11-07 | 2026-11-10 |
-| 368 | [alpacahq/alpaca-backtrader-api](https://github.com/alpacahq/alpaca-backtrader-api) | 705 | 交易框架 | 美股 | Python | 2026-06-23 | 2026-11-10 |
-| 369 | [sensorsdata/sa-sdk-ios](https://github.com/sensorsdata/sa-sdk-ios) | 703 | 工具 | 未明确（需查文档） | Objective-C | 2026-09-03 | 2026-11-10 |
-| 370 | [casual-silva/NewsCrawl](https://github.com/casual-silva/NewsCrawl) | 690 | 工具 | 未明确（需查文档） | Python | 2026-05-23 | 2026-11-10 |
-| 371 | [geraked/metatrader5](https://github.com/geraked/metatrader5) | 690 | 交易框架 | 虚拟货币 | MQL5 | 2025-11-15 | 2026-11-10 |
-| 372 | [banbox/banbot](https://github.com/banbox/banbot) | 688 | 工具 | 虚拟货币 | Go | 2026-11-10 | 2026-11-10 |
-| 373 | [Albert-Z-Guo/Deep-Reinforcement-Stock-Trading](https://github.com/Albert-Z-Guo/Deep-Reinforcement-Stock-Trading) | 687 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-11-06 | 2026-11-10 |
-| 374 | [rburkholder/trade-frame](https://github.com/rburkholder/trade-frame) | 687 | 工具 | 美股、期货 | C++ | 2026-10-13 | 2026-11-10 |
-| 375 | [LucivHuang/heimdallr-sdk](https://github.com/LucivHuang/heimdallr-sdk) | 686 | 工具 | 未明确（需查文档） | TypeScript | 2026-08-22 | 2026-11-10 |
-| 376 | [WeBankFinTech/WeDataSphere](https://github.com/WeBankFinTech/WeDataSphere) | 682 | 工具 | 未明确（需查文档） |  | 2024-03-14 | 2026-11-10 |
-| 377 | [zslucky/algorithmic_trading_book](https://github.com/zslucky/algorithmic_trading_book) | 681 | 工具 | 未明确（需查文档） | Python | 2024-06-17 | 2026-11-10 |
-| 378 | [zjn-zjn/ice](https://github.com/zjn-zjn/ice) | 679 | 工具 | 未明确（需查文档） | Go | 2026-11-04 | 2026-11-10 |
-| 379 | [liangdabiao/easy_investment_Agent_crewai](https://github.com/liangdabiao/easy_investment_Agent_crewai) | 676 | Agent | A股 | Python | 2026-05-07 | 2026-11-10 |
-| 380 | [xxjwxc/shares](https://github.com/xxjwxc/shares) | 674 | 工具 | A股 | PLpgSQL | 2025-01-09 | 2026-11-10 |
-| 381 | [VarunS2002/Python-NSE-Option-Chain-Analyzer](https://github.com/VarunS2002/Python-NSE-Option-Chain-Analyzer) | 673 | 工具 | 期货 | Python | 2026-05-22 | 2026-11-10 |
-| 382 | [Quantweb3-com/NexusTrader](https://github.com/Quantweb3-com/NexusTrader) | 671 | 交易框架 | 虚拟货币 | Python | 2026-05-16 | 2026-11-10 |
-| 383 | [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) | 665 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-10-24 | 2026-11-10 |
-| 384 | [conor19w/Binance-Futures-Trading-Bot](https://github.com/conor19w/Binance-Futures-Trading-Bot) | 664 | 交易框架 | 虚拟货币、期货 | Python | 2024-07-28 | 2026-11-10 |
-| 385 | [cassandre-tech/cassandre-trading-bot](https://github.com/cassandre-tech/cassandre-trading-bot) | 663 | 工具 | 虚拟货币 | Java | 2025-03-01 | 2026-11-10 |
-| 386 | [songjiayang/prometheus_practice](https://github.com/songjiayang/prometheus_practice) | 663 | 工具 | 未明确（需查文档） | HTML | 2023-12-17 | 2026-11-10 |
-| 387 | [CuriousLearnerDev/TrafficEye](https://github.com/CuriousLearnerDev/TrafficEye) | 660 | 论文研究 | 未明确（需查文档） |  | 2026-08-04 | 2026-11-10 |
-| 388 | [bi-box/Median](https://github.com/bi-box/Median) | 653 | 工具 | 未明确（需查文档） | Java | 2026-11-06 | 2026-11-10 |
-| 389 | [SecNN/AiScan-N](https://github.com/SecNN/AiScan-N) | 652 | Agent | 未明确（需查文档） |  | 2026-09-22 | 2026-11-10 |
-| 390 | [ArturSepp/QuantInvestStrats](https://github.com/ArturSepp/QuantInvestStrats) | 650 | 交易框架 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 391 | [Austin-Patrician/eastmoney](https://github.com/Austin-Patrician/eastmoney) | 648 | 工具 | 未明确（需查文档） | Python | 2026-02-24 | 2026-11-10 |
-| 392 | [mitchspano/trigger-actions-framework](https://github.com/mitchspano/trigger-actions-framework) | 647 | 工具 | 未明确（需查文档） | Apex | 2026-03-02 | 2026-11-10 |
-| 393 | [nuglifeleoji/Options-Analytics-Agent](https://github.com/nuglifeleoji/Options-Analytics-Agent) | 647 | Agent | 未明确（需查文档） | Python | 2025-12-15 | 2026-11-10 |
-| 394 | [wangzuohuai/WebRunLocal](https://github.com/wangzuohuai/WebRunLocal) | 643 | 工具 | 未明确（需查文档） | C++ | 2026-05-03 | 2026-11-10 |
-| 395 | [QuantJourneyOrg/quantjourney-bt](https://github.com/QuantJourneyOrg/quantjourney-bt) | 640 | 交易框架 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 396 | [Gbox4/tstock](https://github.com/Gbox4/tstock) | 638 | 工具 | 虚拟货币 | Python | 2024-10-07 | 2026-11-10 |
-| 397 | [tickflow-org/tickflow](https://github.com/tickflow-org/tickflow) | 638 | 工具 | A股 | Python | 2026-11-06 | 2026-11-10 |
-| 398 | [henrylin99/quantitative_analysis](https://github.com/henrylin99/quantitative_analysis) | 637 | 工具 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
-| 399 | [TimeCopilot/timecopilot](https://github.com/TimeCopilot/timecopilot) | 637 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 400 | [ibaihuo/chanvis](https://github.com/ibaihuo/chanvis) | 630 | 论文研究 | 虚拟货币 | Vue | 2024-07-02 | 2026-11-10 |
-| 401 | [51bitquant/ai-hedge-fund-crypto](https://github.com/51bitquant/ai-hedge-fund-crypto) | 627 | Agent | 虚拟货币 | Python | 2025-09-05 | 2026-11-10 |
-| 402 | [AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api](https://github.com/AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api) | 624 | 工具 | 虚拟货币 | Java | 2026-09-28 | 2026-11-10 |
+| 7 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 47520 | 工具 | 未明确（需查文档） | Python | 2026-04-13 | 2026-11-10 |
+| 8 | [vnpy/vnpy](https://github.com/vnpy/vnpy) | 46314 | 交易框架 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
+| 9 | [ccxt/ccxt](https://github.com/ccxt/ccxt) | 44847 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 10 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 39601 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
+| 11 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37995 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 12 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 29580 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 13 | [virattt/dexter](https://github.com/virattt/dexter) | 27809 | Agent | 未明确（需查文档） | TypeScript | 2026-09-23 | 2026-11-10 |
+| 14 | [Dujltqzv/Some-Many-Books](https://github.com/Dujltqzv/Some-Many-Books) | 25917 | 论文研究 | 虚拟货币 |  | 2026-06-18 | 2026-11-10 |
+| 15 | [mementum/backtrader](https://github.com/mementum/backtrader) | 23710 | 交易框架 | 未明确（需查文档） | Python | 2024-08-19 | 2026-11-10 |
+| 16 | [akfamily/akshare](https://github.com/akfamily/akshare) | 23282 | 工具 | A股、期货 | Python | 2026-11-09 | 2026-11-10 |
+| 17 | [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) | 23223 | Agent | 未明确（需查文档） | Python | 2026-06-11 | 2026-11-10 |
+| 18 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 22475 | 交易框架 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
+| 19 | [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | 21774 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-11-06 | 2026-11-10 |
+| 20 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | 21143 | Agent | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
+| 21 | [quantopian/zipline](https://github.com/quantopian/zipline) | 20226 | 工具 | 未明确（需查文档） | Python | 2024-02-13 | 2026-11-10 |
+| 22 | [bbfamily/abu](https://github.com/bbfamily/abu) | 19157 | 工具 | 虚拟货币、期货 | Python | 2026-10-16 | 2026-11-10 |
+| 23 | [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot) | 18796 | 论文研究 | 虚拟货币 | Jupyter Notebook | 2026-03-11 | 2026-11-10 |
+| 24 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | 15296 | 论文研究 | 期货 | Python | 2026-09-28 | 2026-11-10 |
+| 25 | [myhhub/stock](https://github.com/myhhub/stock) | 15088 | 交易框架 | 未明确（需查文档） | Python | 2026-04-02 | 2026-11-10 |
+| 26 | [xcanwin/KeepChatGPT](https://github.com/xcanwin/KeepChatGPT) | 14888 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-20 | 2026-11-10 |
+| 27 | [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | 13674 | Agent | 虚拟货币、因子 | Python | 2026-11-10 | 2026-11-10 |
+| 28 | [NoFxAiOS/nofx](https://github.com/NoFxAiOS/nofx) | 13252 | Agent | 美股、虚拟货币 | Go | 2026-11-04 | 2026-11-10 |
+| 29 | [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) | 13145 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
+| 30 | [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) | 11677 | Agent | A股、期货 | Python | 2026-11-03 | 2026-11-10 |
+| 31 | [yutiansut/QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) | 11355 | 交易框架 | 期货 | Python | 2026-09-18 | 2026-11-10 |
+| 32 | [je-suis-tm/quant-trading](https://github.com/je-suis-tm/quant-trading) | 11227 | 工具 | 未明确（需查文档） | Python | 2026-06-20 | 2026-11-10 |
+| 33 | [daniulive/SmarterStreaming](https://github.com/daniulive/SmarterStreaming) | 11172 | 工具 | 未明确（需查文档） | Java | 2026-04-15 | 2026-11-10 |
+| 34 | [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | 11085 | 交易框架 | 虚拟货币 | C# | 2026-11-07 | 2026-11-10 |
+| 35 | [ValueCell-ai/valuecell](https://github.com/ValueCell-ai/valuecell) | 11053 | Agent | 虚拟货币 | Python | 2026-03-09 | 2026-11-10 |
+| 36 | [chaitin/PandaWiki](https://github.com/chaitin/PandaWiki) | 10489 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-05 | 2026-11-10 |
+| 37 | [shidenggui/easytrader](https://github.com/shidenggui/easytrader) | 10275 | 工具 | 未明确（需查文档） | Python | 2026-10-16 | 2026-11-10 |
+| 38 | [JessYanCoding/MVPArms](https://github.com/JessYanCoding/MVPArms) | 10222 | 工具 | 未明确（需查文档） | Java | 2026-11-04 | 2026-11-10 |
+| 39 | [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | 9798 | 论文研究 | 虚拟货币 | Python | 2026-11-08 | 2026-11-10 |
+| 40 | [anbeime/skill](https://github.com/anbeime/skill) | 9394 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 41 | [kernc/backtesting.py](https://github.com/kernc/backtesting.py) | 9222 | 交易框架 | 未明确（需查文档） | Python | 2026-08-05 | 2026-11-10 |
+| 42 | [Rockyzsu/stock](https://github.com/Rockyzsu/stock) | 9021 | 工具 | 未明确（需查文档） | Python | 2026-04-17 | 2026-11-10 |
+| 43 | [firmai/financial-machine-learning](https://github.com/firmai/financial-machine-learning) | 8837 | 工具 | 虚拟货币 | Python | 2025-01-03 | 2026-11-10 |
+| 44 | [ccxt/binance-trade-bot](https://github.com/ccxt/binance-trade-bot) | 8816 | 工具 | 虚拟货币 | Python | 2025-03-12 | 2026-11-10 |
+| 45 | [jesse-ai/jesse](https://github.com/jesse-ai/jesse) | 8791 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 46 | [lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder) | 8784 | 工具 | 未明确（需查文档） | Swift | 2025-06-11 | 2026-11-10 |
+| 47 | [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) | 8610 | 工具 | A股 | Python | 2026-07-10 | 2026-11-10 |
+| 48 | [timercrack/trader](https://github.com/timercrack/trader) | 8480 | 工具 | 期货 | C | 2026-02-28 | 2026-11-10 |
+| 49 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | 8404 | Agent | 未明确（需查文档） | Python | 2026-10-24 | 2026-11-10 |
+| 50 | [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | 8106 | 工具 | A股 | Go | 2026-11-10 | 2026-11-10 |
+| 51 | [wbh604/UZI-Skill](https://github.com/wbh604/UZI-Skill) | 7579 | 工具 | A股 | Python | 2026-11-05 | 2026-11-10 |
+| 52 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 7507 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 53 | [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book) | 7447 | 工具 | 未明确（需查文档） | Python | 2026-10-01 | 2026-11-10 |
+| 54 | [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) | 7443 | Agent | 虚拟货币 | TypeScript | 2026-11-10 | 2026-11-10 |
+| 55 | [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) | 7266 | Agent | 未明确（需查文档） | Python | 2026-02-19 | 2026-11-10 |
+| 56 | [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | 6918 | 论文研究 | 虚拟货币 | Python | 2026-11-02 | 2026-11-10 |
+| 57 | [hugo2046/QuantsPlaybook](https://github.com/hugo2046/QuantsPlaybook) | 6872 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-03 | 2026-11-10 |
+| 58 | [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | 6866 | 交易框架 | 期货 | Python | 2026-10-28 | 2026-11-10 |
+| 59 | [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) | 6737 | 工具 | 虚拟货币 |  | 2026-09-08 | 2026-11-10 |
+| 60 | [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) | 6676 | Agent | 未明确（需查文档） | Python | 2026-05-11 | 2026-11-10 |
+| 61 | [waditu/czsc](https://github.com/waditu/czsc) | 6590 | 工具 | A股、期货 | Rust | 2026-11-08 | 2026-11-10 |
+| 62 | [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 6543 | 交易框架 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
+| 63 | [wondertrader/wondertrader](https://github.com/wondertrader/wondertrader) | 6434 | 工具 | 期货 | C++ | 2026-09-01 | 2026-11-10 |
+| 64 | [cmliu/WorkerVless2sub](https://github.com/cmliu/WorkerVless2sub) | 6316 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-11 | 2026-11-10 |
+| 65 | [achannarasappa/ticker](https://github.com/achannarasappa/ticker) | 6265 | 工具 | 虚拟货币、期货 | Go | 2026-06-28 | 2026-11-10 |
+| 66 | [PyPortfolio/PyPortfolioOpt](https://github.com/PyPortfolio/PyPortfolioOpt) | 6159 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-07-07 | 2026-11-10 |
+| 67 | [fmzquant/strategies](https://github.com/fmzquant/strategies) | 6048 | 工具 | 未明确（需查文档） |  | 2025-04-30 | 2026-11-10 |
+| 68 | [WeiYe-Jing/datax-web](https://github.com/WeiYe-Jing/datax-web) | 6026 | 工具 | 未明确（需查文档） | Java | 2024-06-02 | 2026-11-10 |
+| 69 | [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 5860 | 交易框架 | 虚拟货币 | TypeScript | 2026-11-03 | 2026-11-10 |
+| 70 | [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) | 5781 | 论文研究 | 虚拟货币 | JavaScript | 2026-11-07 | 2026-11-10 |
+| 71 | [CryptoSignal/Crypto-Signal](https://github.com/CryptoSignal/Crypto-Signal) | 5659 | 工具 | 虚拟货币 | Python | 2024-07-07 | 2026-11-10 |
+| 72 | [freqtrade/freqtrade-strategies](https://github.com/freqtrade/freqtrade-strategies) | 5643 | 工具 | 虚拟货币 | Python | 2026-09-08 | 2026-11-10 |
+| 73 | [chrisleekr/binance-trading-bot](https://github.com/chrisleekr/binance-trading-bot) | 5602 | Agent | 虚拟货币 | TypeScript | 2026-11-10 | 2026-11-10 |
+| 74 | [JerBouma/FinanceToolkit](https://github.com/JerBouma/FinanceToolkit) | 5515 | 工具 | 因子 | Python | 2026-11-10 | 2026-11-10 |
+| 75 | [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) | 5392 | 交易框架 | 虚拟货币、期货 | HTML | 2026-11-03 | 2026-11-10 |
+| 76 | [1nchaos/adata](https://github.com/1nchaos/adata) | 5382 | 工具 | A股 | Python | 2026-10-31 | 2026-11-10 |
+| 77 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | 5261 | 交易框架 | 虚拟货币、期货 | Python | 2026-11-07 | 2026-11-10 |
+| 78 | [WeThinkIn/AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book) | 5204 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 79 | [shinnytech/tqsdk-python](https://github.com/shinnytech/tqsdk-python) | 5131 | 工具 | 期货 | Python | 2026-10-26 | 2026-11-10 |
+| 80 | [nkaz001/hftbacktest](https://github.com/nkaz001/hftbacktest) | 5067 | 交易框架 | 虚拟货币 | Rust | 2025-12-23 | 2026-11-10 |
+| 81 | [shibing624/text2vec](https://github.com/shibing624/text2vec) | 4976 | 工具 | 未明确（需查文档） | Python | 2026-02-14 | 2026-11-10 |
+| 82 | [RomelTorres/alpha_vantage](https://github.com/RomelTorres/alpha_vantage) | 4943 | 工具 | 虚拟货币 | Python | 2026-07-26 | 2026-11-10 |
+| 83 | [skyming/iOS-Performance-Optimization](https://github.com/skyming/iOS-Performance-Optimization) | 4878 | 工具 | 未明确（需查文档） | Objective-C | 2025-07-05 | 2026-11-10 |
+| 84 | [GuanYixuan/pyJianYingDraft](https://github.com/GuanYixuan/pyJianYingDraft) | 4864 | 工具 | 未明确（需查文档） | Python | 2026-10-14 | 2026-11-10 |
+| 85 | [MemeCalculate/moyin-creator](https://github.com/MemeCalculate/moyin-creator) | 4835 | 工具 | 未明确（需查文档） | TypeScript | 2026-08-27 | 2026-11-10 |
+| 86 | [dcajasn/Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | 4602 | 工具 | 因子 | C++ | 2026-11-04 | 2026-11-10 |
+| 87 | [quantopian/alphalens](https://github.com/quantopian/alphalens) | 4511 | 工具 | 因子 | Jupyter Notebook | 2024-02-12 | 2026-11-10 |
+| 88 | [matplotlib/mplfinance](https://github.com/matplotlib/mplfinance) | 4461 | 工具 | 未明确（需查文档） | Python | 2024-08-08 | 2026-11-10 |
+| 89 | [LLMQuant/quant-wiki](https://github.com/LLMQuant/quant-wiki) | 4442 | 工具 | 未明确（需查文档） |  | 2026-04-16 | 2026-11-10 |
+| 90 | [xuchonglang/investing-for-beginners](https://github.com/xuchonglang/investing-for-beginners) | 4420 | 工具 | 虚拟货币、期货 |  | 2026-10-03 | 2026-11-10 |
+| 91 | [shashankvemuri/Finance](https://github.com/shashankvemuri/Finance) | 4371 | 交易框架 | 未明确（需查文档） | Python | 2026-09-12 | 2026-11-10 |
+| 92 | [zvtvz/zvt](https://github.com/zvtvz/zvt) | 4334 | 交易框架 | 虚拟货币 | Python | 2026-07-01 | 2026-11-10 |
+| 93 | [EliteQuant/EliteQuant](https://github.com/EliteQuant/EliteQuant) | 4270 | 工具 | 未明确（需查文档） |  | 2024-06-15 | 2026-11-10 |
+| 94 | [Micro-sheep/efinance](https://github.com/Micro-sheep/efinance) | 4171 | 交易框架 | 期货 | Python | 2026-07-17 | 2026-11-10 |
+| 95 | [donknap/dpanel](https://github.com/donknap/dpanel) | 4166 | 工具 | 未明确（需查文档） | Go | 2026-10-29 | 2026-11-10 |
+| 96 | [cybergeekgyan/Quant-Developers-Resources](https://github.com/cybergeekgyan/Quant-Developers-Resources) | 4139 | 论文研究 | 未明确（需查文档） | Python | 2026-09-19 | 2026-11-10 |
+| 97 | [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) | 4114 | Agent | A股 | TypeScript | 2026-09-22 | 2026-11-10 |
+| 98 | [Hacker233/resume-design](https://github.com/Hacker233/resume-design) | 4112 | 工具 | 未明确（需查文档） | Vue | 2026-04-20 | 2026-11-10 |
+| 99 | [grananqvist/Awesome-Quant-Machine-Learning-Trading](https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading) | 4106 | 工具 | 未明确（需查文档） |  | 2025-05-21 | 2026-11-10 |
+| 100 | [Nixtla/nixtla](https://github.com/Nixtla/nixtla) | 4045 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-11-10 | 2026-11-10 |
+| 101 | [simonlin1212/TradingAgents-astock](https://github.com/simonlin1212/TradingAgents-astock) | 3943 | Agent | A股 | Python | 2026-10-30 | 2026-11-10 |
+| 102 | [mpquant/Ashare](https://github.com/mpquant/Ashare) | 3939 | 论文研究 | A股 | Python | 2025-12-24 | 2026-11-10 |
+| 103 | [Jon-Becker/prediction-market-analysis](https://github.com/Jon-Becker/prediction-market-analysis) | 3938 | 工具 | 未明确（需查文档） | Python | 2026-10-29 | 2026-11-10 |
+| 104 | [AI4Finance-Foundation/FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading) | 3926 | 论文研究 | 未明确（需查文档） | Python | 2026-09-18 | 2026-11-10 |
+| 105 | [cuemacro/finmarketpy](https://github.com/cuemacro/finmarketpy) | 3825 | 交易框架 | 未明确（需查文档） | Python | 2026-04-16 | 2026-11-10 |
+| 106 | [gaboolic/rime-frost](https://github.com/gaboolic/rime-frost) | 3825 | 工具 | 未明确（需查文档） | Lua | 2026-11-10 | 2026-11-10 |
+| 107 | [ctubio/Krypto-trading-bot](https://github.com/ctubio/Krypto-trading-bot) | 3734 | 工具 | 虚拟货币 | C++ | 2024-12-15 | 2026-11-10 |
+| 108 | [fasiondog/hikyuu](https://github.com/fasiondog/hikyuu) | 3703 | 交易框架 | 未明确（需查文档） | C++ | 2026-11-10 | 2026-11-10 |
+| 109 | [shidenggui/easyquant](https://github.com/shidenggui/easyquant) | 3689 | 交易框架 | 未明确（需查文档） | Python | 2025-03-27 | 2026-11-10 |
+| 110 | [edtechre/pybroker](https://github.com/edtechre/pybroker) | 3682 | 交易框架 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
+| 111 | [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | 3576 | Agent | A股 | TypeScript | 2026-10-29 | 2026-11-10 |
+| 112 | [Haehnchen/crypto-trading-bot](https://github.com/Haehnchen/crypto-trading-bot) | 3551 | 工具 | 虚拟货币 | TypeScript | 2026-08-02 | 2026-11-10 |
+| 113 | [iterativv/NostalgiaForInfinity](https://github.com/iterativv/NostalgiaForInfinity) | 3526 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 114 | [himself65/finance-skills](https://github.com/himself65/finance-skills) | 3521 | Agent | 未明确（需查文档） | JavaScript | 2026-11-04 | 2026-11-10 |
+| 115 | [mhallsmoore/qstrader](https://github.com/mhallsmoore/qstrader) | 3488 | 交易框架 | 未明确（需查文档） | Python | 2024-06-30 | 2026-11-10 |
+| 116 | [thrasher-corp/gocryptotrader](https://github.com/thrasher-corp/gocryptotrader) | 3468 | 工具 | 虚拟货币 | Go | 2026-11-09 | 2026-11-10 |
+| 117 | [jones2000/HQChart](https://github.com/jones2000/HQChart) | 3428 | 工具 | A股、虚拟货币、期货 | JavaScript | 2026-10-08 | 2026-11-10 |
+| 118 | [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship) | 3330 | Agent | A股、虚拟货币、期货 | HTML | 2026-02-05 | 2026-11-10 |
+| 119 | [hello245m/free-stockdb](https://github.com/hello245m/free-stockdb) | 3155 | 论文研究 | A股 | HTML | 2026-10-12 | 2026-11-10 |
+| 120 | [LLMQuant/quant-mind](https://github.com/LLMQuant/quant-mind) | 3131 | Agent | 未明确（需查文档） | Python | 2026-08-15 | 2026-11-10 |
+| 121 | [TradeMaster-NTU/TradeMaster](https://github.com/TradeMaster-NTU/TradeMaster) | 3126 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-06-04 | 2026-11-10 |
+| 122 | [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | 3113 | Agent | 未明确（需查文档） | Python | 2026-03-29 | 2026-11-10 |
+| 123 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | 3092 | Agent | 虚拟货币、期货 | TypeScript | 2026-11-06 | 2026-11-10 |
+| 124 | [weslynn/AlphaTree-graphic-deep-neural-network](https://github.com/weslynn/AlphaTree-graphic-deep-neural-network) | 3027 | 论文研究 | 未明确（需查文档） |  | 2026-10-13 | 2026-11-10 |
+| 125 | [bmoscon/cryptofeed](https://github.com/bmoscon/cryptofeed) | 3020 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
+| 126 | [pmorissette/bt](https://github.com/pmorissette/bt) | 3020 | 交易框架 | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
+| 127 | [hosseinmoein/DataFrame](https://github.com/hosseinmoein/DataFrame) | 2999 | 工具 | 未明确（需查文档） | C++ | 2026-11-07 | 2026-11-10 |
+| 128 | [0xemmkty/QuantMuse](https://github.com/0xemmkty/QuantMuse) | 2987 | 工具 | 未明确（需查文档） | Python | 2025-07-29 | 2026-11-10 |
+| 129 | [openctp/openctp](https://github.com/openctp/openctp) | 2980 | 工具 | A股、期货 | C++ | 2026-11-09 | 2026-11-10 |
+| 130 | [binance/binance-connector-python](https://github.com/binance/binance-connector-python) | 2959 | 工具 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
+| 131 | [datawhalechina/whale-quant](https://github.com/datawhalechina/whale-quant) | 2931 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-01-15 | 2026-11-10 |
+| 132 | [Open-Trader/opentrader](https://github.com/Open-Trader/opentrader) | 2924 | 工具 | 虚拟货币 | TypeScript | 2025-06-29 | 2026-11-10 |
+| 133 | [xiaojinzi123/Component](https://github.com/xiaojinzi123/Component) | 2918 | 工具 | 未明确（需查文档） | Java | 2024-08-28 | 2026-11-10 |
+| 134 | [nickmccullum/algorithmic-trading-python](https://github.com/nickmccullum/algorithmic-trading-python) | 2915 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-06-20 | 2026-11-10 |
+| 135 | [mpquant/MyTT](https://github.com/mpquant/MyTT) | 2892 | 交易框架 | 虚拟货币、期货 | Python | 2026-06-13 | 2026-11-10 |
+| 136 | [FinMind/FinMind](https://github.com/FinMind/FinMind) | 2881 | 工具 | 未明确（需查文档） | HTML | 2026-11-03 | 2026-11-10 |
+| 137 | [codercup/unibest](https://github.com/codercup/unibest) | 2864 | 工具 | 未明确（需查文档） | TypeScript | 2026-03-28 | 2026-11-10 |
+| 138 | [liyupi/yu-ai-agent](https://github.com/liyupi/yu-ai-agent) | 2767 | Agent | 未明确（需查文档） | Java | 2026-01-07 | 2026-11-10 |
+| 139 | [yasinkuyu/binance-trader](https://github.com/yasinkuyu/binance-trader) | 2760 | 工具 | 虚拟货币 | Python | 2026-01-03 | 2026-11-10 |
+| 140 | [wquguru/nof0](https://github.com/wquguru/nof0) | 2753 | Agent | 虚拟货币 | Go | 2025-12-07 | 2026-11-10 |
+| 141 | [Jack-Cherish/quantitative](https://github.com/Jack-Cherish/quantitative) | 2746 | 工具 | 未明确（需查文档） | Python | 2023-11-25 | 2026-11-10 |
+| 142 | [likaia/nginxpulse](https://github.com/likaia/nginxpulse) | 2716 | 工具 | 未明确（需查文档） | Go | 2026-11-04 | 2026-11-10 |
+| 143 | [quantskills/quantskills](https://github.com/quantskills/quantskills) | 2642 | Agent | 因子 | JavaScript | 2026-11-10 | 2026-11-10 |
+| 144 | [skfolio/skfolio](https://github.com/skfolio/skfolio) | 2619 | 交易框架 | 因子 | Python | 2026-11-08 | 2026-11-10 |
+| 145 | [akfamily/akquant](https://github.com/akfamily/akquant) | 2583 | 论文研究 | A股 | Python | 2026-11-09 | 2026-11-10 |
+| 146 | [shirosaidev/stocksight](https://github.com/shirosaidev/stocksight) | 2552 | 工具 | 未明确（需查文档） | Python | 2023-12-05 | 2026-11-10 |
+| 147 | [botcrypto-io/awesome-crypto-trading-bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots) | 2551 | 工具 | 虚拟货币 |  | 2026-08-10 | 2026-11-10 |
+| 148 | [Ocyss/boss-helper](https://github.com/Ocyss/boss-helper) | 2517 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-07 | 2026-11-10 |
+| 149 | [xtuhcy/gecco](https://github.com/xtuhcy/gecco) | 2511 | 工具 | 未明确（需查文档） | Java | 2026-10-09 | 2026-11-10 |
+| 150 | [mlt131220/Astral3D](https://github.com/mlt131220/Astral3D) | 2492 | 工具 | 未明确（需查文档） | JavaScript | 2026-10-31 | 2026-11-10 |
+| 151 | [blankly-finance/blankly](https://github.com/blankly-finance/blankly) | 2487 | 交易框架 | 虚拟货币 | Python | 2024-12-30 | 2026-11-10 |
+| 152 | [larashero3-dotcom/lieflat-gongwen](https://github.com/larashero3-dotcom/lieflat-gongwen) | 2477 | 工具 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
+| 153 | [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch) | 2441 | Agent | A股 | Python | 2026-11-08 | 2026-11-10 |
+| 154 | [barter-rs/barter-rs](https://github.com/barter-rs/barter-rs) | 2368 | 交易框架 | 虚拟货币 | Rust | 2026-08-24 | 2026-11-10 |
+| 155 | [warp-id/solana-trading-bot](https://github.com/warp-id/solana-trading-bot) | 2345 | 工具 | 虚拟货币 | TypeScript | 2024-08-10 | 2026-11-10 |
+| 156 | [feige996/unibest](https://github.com/feige996/unibest) | 2325 | 工具 | 未明确（需查文档） | Vue | 2026-11-09 | 2026-11-10 |
+| 157 | [tvjsx/trading-vue-js](https://github.com/tvjsx/trading-vue-js) | 2311 | 工具 | 虚拟货币 | JavaScript | 2024-06-24 | 2026-11-10 |
+| 158 | [Moonofweisheng/wot-design-uni](https://github.com/Moonofweisheng/wot-design-uni) | 2300 | 工具 | 未明确（需查文档） | TypeScript | 2026-09-24 | 2026-11-10 |
+| 159 | [mizhexiaoxiao/vue-fastapi-admin](https://github.com/mizhexiaoxiao/vue-fastapi-admin) | 2290 | 工具 | 未明确（需查文档） | Vue | 2025-07-04 | 2026-11-10 |
+| 160 | [ProsusAI/finBERT](https://github.com/ProsusAI/finBERT) | 2278 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-10-12 | 2026-11-10 |
+| 161 | [ginlix-ai/LangAlpha](https://github.com/ginlix-ai/LangAlpha) | 2263 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 162 | [coding-kitties/investing-algorithm-framework](https://github.com/coding-kitties/investing-algorithm-framework) | 2237 | 交易框架 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
+| 163 | [jiawanlong/Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) | 2228 | 工具 | 未明确（需查文档） | JavaScript | 2026-10-16 | 2026-11-10 |
+| 164 | [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) | 2221 | Agent | 美股、虚拟货币、期货 | Python | 2026-11-10 | 2026-11-10 |
+| 165 | [dou-jiang/codex-console](https://github.com/dou-jiang/codex-console) | 2216 | 工具 | 未明确（需查文档） | Python | 2026-08-06 | 2026-11-10 |
+| 166 | [joshyattridge/smart-money-concepts](https://github.com/joshyattridge/smart-money-concepts) | 2203 | 工具 | 虚拟货币 | Python | 2026-04-03 | 2026-11-10 |
+| 167 | [LeoYeAI/agent-master-skills](https://github.com/LeoYeAI/agent-master-skills) | 2186 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
+| 168 | [phodal/ledge](https://github.com/phodal/ledge) | 2173 | 工具 | 未明确（需查文档） | TypeScript | 2023-12-05 | 2026-11-10 |
+| 169 | [continew-org/continew-admin](https://github.com/continew-org/continew-admin) | 2163 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
+| 170 | [enarjord/passivbot](https://github.com/enarjord/passivbot) | 2162 | 工具 | 虚拟货币、期货 | Python | 2026-11-10 | 2026-11-10 |
+| 171 | [jmfernandes/robin_stocks](https://github.com/jmfernandes/robin_stocks) | 2127 | 工具 | 虚拟货币 | Python | 2026-02-11 | 2026-11-10 |
+| 172 | [frankiejun/serv00-play](https://github.com/frankiejun/serv00-play) | 2117 | 工具 | 未明确（需查文档） | Shell | 2026-11-08 | 2026-11-10 |
+| 173 | [gege-circle/.github](https://github.com/gege-circle/.github) | 2089 | Agent | A股、虚拟货币、期货 |  | 2025-10-04 | 2026-11-10 |
+| 174 | [LastAncientOne/Stock_Analysis_For_Quant](https://github.com/LastAncientOne/Stock_Analysis_For_Quant) | 2089 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-05-04 | 2026-11-10 |
+| 175 | [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) | 2082 | Agent | A股 | Python | 2026-10-10 | 2026-11-10 |
+| 176 | [whittlem/pycryptobot](https://github.com/whittlem/pycryptobot) | 2061 | 交易框架 | 虚拟货币 | Python | 2026-03-26 | 2026-11-10 |
+| 177 | [chen-zeong/DTV](https://github.com/chen-zeong/DTV) | 2042 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
+| 178 | [virattt/ai-financial-agent](https://github.com/virattt/ai-financial-agent) | 2040 | Agent | 未明确（需查文档） | TypeScript | 2025-08-19 | 2026-11-10 |
+| 179 | [hotyue/IP-Sentinel](https://github.com/hotyue/IP-Sentinel) | 2028 | 工具 | 未明确（需查文档） | Shell | 2026-11-10 | 2026-11-10 |
+| 180 | [zhangxiangliang/stock-api](https://github.com/zhangxiangliang/stock-api) | 1998 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
+| 181 | [tkfy920/qstock](https://github.com/tkfy920/qstock) | 1951 | 交易框架 | 未明确（需查文档） | Python | 2025-03-16 | 2026-11-10 |
+| 182 | [SleepingBag945/dddd](https://github.com/SleepingBag945/dddd) | 1948 | 工具 | 未明确（需查文档） | Go | 2024-08-02 | 2026-11-10 |
+| 183 | [Yvictor/TradingGym](https://github.com/Yvictor/TradingGym) | 1930 | Agent | 未明确（需查文档） | Python | 2024-02-11 | 2026-11-10 |
+| 184 | [cinar/indicator](https://github.com/cinar/indicator) | 1917 | 交易框架 | 未明确（需查文档） | Go | 2026-11-09 | 2026-11-10 |
+| 185 | [questflowai/investorskills](https://github.com/questflowai/investorskills) | 1917 | Agent | 未明确（需查文档） | Swift | 2026-08-23 | 2026-11-10 |
+| 186 | [qusong0627/QuantMind](https://github.com/qusong0627/QuantMind) | 1905 | Agent | A股、期货、因子 | Python | 2026-11-10 | 2026-11-10 |
+| 187 | [fabston/TradingView-Webhook-Bot](https://github.com/fabston/TradingView-Webhook-Bot) | 1901 | 工具 | 虚拟货币 | Python | 2026-11-05 | 2026-11-10 |
+| 188 | [asavinov/intelligent-trading-bot](https://github.com/asavinov/intelligent-trading-bot) | 1897 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 189 | [abc123info/BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | 1895 | 工具 | 未明确（需查文档） |  | 2026-07-25 | 2026-11-10 |
+| 190 | [quant-science/sunday-quant-scientist](https://github.com/quant-science/sunday-quant-scientist) | 1882 | 工具 | 未明确（需查文档） | HTML | 2025-09-20 | 2026-11-10 |
+| 191 | [guchengwuyue/yshop-oa-crm](https://github.com/guchengwuyue/yshop-oa-crm) | 1880 | 工具 | 未明确（需查文档） | Java | 2026-11-05 | 2026-11-10 |
+| 192 | [Barca0412/Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance) | 1874 | Agent | 因子 | Python | 2026-11-06 | 2026-11-10 |
+| 193 | [alvarobartt/investpy](https://github.com/alvarobartt/investpy) | 1867 | 工具 | 未明确（需查文档） | Python | 2026-04-13 | 2026-11-10 |
+| 194 | [simonlin1212/global-stock-data](https://github.com/simonlin1212/global-stock-data) | 1865 | 工具 | 未明确（需查文档） |  | 2026-11-02 | 2026-11-10 |
+| 195 | [avhz/RustQuant](https://github.com/avhz/RustQuant) | 1842 | 工具 | 未明确（需查文档） | Rust | 2026-10-04 | 2026-11-10 |
+| 196 | [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) | 1809 | Agent | A股 | Go | 2026-11-10 | 2026-11-10 |
+| 197 | [thinkgem/jeesite5](https://github.com/thinkgem/jeesite5) | 1804 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-03 | 2026-11-10 |
+| 198 | [ib-api-reloaded/ib_async](https://github.com/ib-api-reloaded/ib_async) | 1788 | 工具 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 199 | [ScottfreeLLC/AlphaPy](https://github.com/ScottfreeLLC/AlphaPy) | 1784 | 交易框架 | 虚拟货币 | Python | 2026-10-05 | 2026-11-10 |
+| 200 | [austin-starks/NextTrade](https://github.com/austin-starks/NextTrade) | 1774 | 工具 | 未明确（需查文档） | TypeScript | 2025-05-15 | 2026-11-10 |
+| 201 | [ZeroDeng01/sublinkPro](https://github.com/ZeroDeng01/sublinkPro) | 1749 | 工具 | 未明确（需查文档） | Go | 2026-11-09 | 2026-11-10 |
+| 202 | [jammy928/CoinExchange_CryptoExchange_Java](https://github.com/jammy928/CoinExchange_CryptoExchange_Java) | 1736 | 交易框架 | 虚拟货币 | Java | 2024-05-12 | 2026-11-10 |
+| 203 | [TA-Lib/ta-lib](https://github.com/TA-Lib/ta-lib) | 1732 | 交易框架 | 未明确（需查文档） | C | 2026-11-10 | 2026-11-10 |
+| 204 | [ivopetiz/algotrading](https://github.com/ivopetiz/algotrading) | 1717 | 交易框架 | 虚拟货币 | Python | 2026-01-07 | 2026-11-10 |
+| 205 | [intel/auto-round](https://github.com/intel/auto-round) | 1700 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 206 | [cryptocj520/crypto-trading-open](https://github.com/cryptocj520/crypto-trading-open) | 1695 | 工具 | 虚拟货币 | Python | 2025-12-20 | 2026-11-10 |
+| 207 | [c9s/bbgo](https://github.com/c9s/bbgo) | 1676 | 工具 | 虚拟货币 | Go | 2026-11-10 | 2026-11-10 |
+| 208 | [ccxt/node-binance-api](https://github.com/ccxt/node-binance-api) | 1673 | 工具 | 虚拟货币 | TypeScript | 2026-10-31 | 2026-11-10 |
+| 209 | [jd-opensource/drip-table](https://github.com/jd-opensource/drip-table) | 1659 | 工具 | 未明确（需查文档） | TypeScript | 2025-02-21 | 2026-11-10 |
+| 210 | [QuantaAlpha/QuantaAlpha](https://github.com/QuantaAlpha/QuantaAlpha) | 1656 | Agent | 因子 | Python | 2026-06-29 | 2026-11-10 |
+| 211 | [PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original](https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original) | 1649 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-04-22 | 2026-11-10 |
+| 212 | [liangdabiao/ecom-details-image](https://github.com/liangdabiao/ecom-details-image) | 1637 | Agent | 未明确（需查文档） | Python | 2026-10-31 | 2026-11-10 |
+| 213 | [khscience/OSkhQuant](https://github.com/khscience/OSkhQuant) | 1636 | 交易框架 | A股 | Python | 2026-10-19 | 2026-11-10 |
+| 214 | [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) | 1636 | 工具 | 未明确（需查文档） | Go | 2026-11-10 | 2026-11-10 |
+| 215 | [rodrigo-brito/ninjabot](https://github.com/rodrigo-brito/ninjabot) | 1634 | 工具 | 虚拟货币 | Go | 2026-11-01 | 2026-11-10 |
+| 216 | [alpacahq/alpaca-py](https://github.com/alpacahq/alpaca-py) | 1591 | 工具 | 美股、虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 217 | [FinanceData/FinanceDataReader](https://github.com/FinanceData/FinanceDataReader) | 1574 | 工具 | 虚拟货币 | Python | 2026-05-13 | 2026-11-10 |
+| 218 | [akfamily/aktools](https://github.com/akfamily/aktools) | 1562 | Agent | A股 | Python | 2026-11-10 | 2026-11-10 |
+| 219 | [goldspanlabs/optopsy](https://github.com/goldspanlabs/optopsy) | 1515 | 论文研究 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 220 | [DemonDamon/FinnewsHunter](https://github.com/DemonDamon/FinnewsHunter) | 1505 | Agent | 因子 | Python | 2026-11-10 | 2026-11-10 |
+| 221 | [AI4Finance-Foundation/FinNLP](https://github.com/AI4Finance-Foundation/FinNLP) | 1496 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-07-01 | 2026-11-10 |
+| 222 | [Nriver/Episode-ReName](https://github.com/Nriver/Episode-ReName) | 1493 | 工具 | 未明确（需查文档） | Python | 2025-05-19 | 2026-11-10 |
+| 223 | [pegasusTrader/PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) | 1487 | 工具 | 未明确（需查文档） | C++ | 2025-10-18 | 2026-11-10 |
+| 224 | [ScottZt/jin-ce-zhi-suan](https://github.com/ScottZt/jin-ce-zhi-suan) | 1473 | 交易框架 | 未明确（需查文档） | HTML | 2026-07-20 | 2026-11-10 |
+| 225 | [mnemox-ai/tradememory-protocol](https://github.com/mnemox-ai/tradememory-protocol) | 1443 | Agent | 虚拟货币 | Python | 2026-10-23 | 2026-11-10 |
+| 226 | [JoinQuant/jqdatasdk](https://github.com/JoinQuant/jqdatasdk) | 1434 | 工具 | 未明确（需查文档） | Python | 2026-01-29 | 2026-11-10 |
+| 227 | [thinh-vu/vnstock](https://github.com/thinh-vu/vnstock) | 1424 | 工具 | 未明确（需查文档） |  | 2026-11-07 | 2026-11-10 |
+| 228 | [arrobalytics/django-ledger](https://github.com/arrobalytics/django-ledger) | 1399 | 工具 | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
+| 229 | [sensorsdata/sa-sdk-android](https://github.com/sensorsdata/sa-sdk-android) | 1376 | 工具 | 未明确（需查文档） | Java | 2026-11-04 | 2026-11-10 |
+| 230 | [shner-elmo/TradingView-Screener](https://github.com/shner-elmo/TradingView-Screener) | 1355 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
+| 231 | [berndruecker/flowing-retail](https://github.com/berndruecker/flowing-retail) | 1332 | 工具 | 未明确（需查文档） | Java | 2024-08-01 | 2026-11-10 |
+| 232 | [dromara/orion-visor](https://github.com/dromara/orion-visor) | 1325 | 工具 | 未明确（需查文档） | Java | 2026-02-07 | 2026-11-10 |
+| 233 | [cvxgrp/cvxportfolio](https://github.com/cvxgrp/cvxportfolio) | 1321 | 工具 | 未明确（需查文档） | Python | 2026-04-27 | 2026-11-10 |
+| 234 | [ICT-FinD-Lab/alphagen](https://github.com/ICT-FinD-Lab/alphagen) | 1295 | 论文研究 | 因子 | Python | 2026-06-04 | 2026-11-10 |
+| 235 | [alibaba/GaiaX](https://github.com/alibaba/GaiaX) | 1284 | 工具 | 未明确（需查文档） | C | 2026-01-08 | 2026-11-10 |
+| 236 | [appspa/app-space](https://github.com/appspa/app-space) | 1276 | 工具 | 未明确（需查文档） | C | 2024-08-08 | 2026-11-10 |
+| 237 | [evan-kolberg/prediction-market-backtesting](https://github.com/evan-kolberg/prediction-market-backtesting) | 1267 | 交易框架 | 未明确（需查文档） | Python | 2026-05-16 | 2026-11-10 |
+| 238 | [hanliang97/MatrixMedia](https://github.com/hanliang97/MatrixMedia) | 1262 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-10 | 2026-11-10 |
+| 239 | [FinHackCN/finhack](https://github.com/FinHackCN/finhack) | 1258 | 交易框架 | 因子 | Python | 2026-10-22 | 2026-11-10 |
+| 240 | [PacktPublishing/Python-for-Algorithmic-Trading-Cookbook](https://github.com/PacktPublishing/Python-for-Algorithmic-Trading-Cookbook) | 1256 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-03-02 | 2026-11-10 |
+| 241 | [facioquo/stock-indicators-dotnet](https://github.com/facioquo/stock-indicators-dotnet) | 1253 | 交易框架 | 虚拟货币 | C# | 2026-11-08 | 2026-11-10 |
+| 242 | [qqxpee/antigravity2-cn](https://github.com/qqxpee/antigravity2-cn) | 1242 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-10 | 2026-11-10 |
+| 243 | [binance/binance-futures-connector-python](https://github.com/binance/binance-futures-connector-python) | 1239 | 工具 | 虚拟货币、期货 | Python | 2025-07-18 | 2026-11-10 |
+| 244 | [sinall/StrategyEase-Python-SDK](https://github.com/sinall/StrategyEase-Python-SDK) | 1239 | 工具 | 未明确（需查文档） | Python | 2025-02-05 | 2026-11-10 |
+| 245 | [bwjoke/BTC-Trading-Since-2020](https://github.com/bwjoke/BTC-Trading-Since-2020) | 1225 | 工具 | 虚拟货币 |  | 2026-09-11 | 2026-11-10 |
+| 246 | [bitcoinvsalts/node-binance-trader](https://github.com/bitcoinvsalts/node-binance-trader) | 1224 | 工具 | 虚拟货币 | TypeScript | 2024-08-19 | 2026-11-10 |
+| 247 | [qu-niao/LimApiTest](https://github.com/qu-niao/LimApiTest) | 1221 | 工具 | 未明确（需查文档） | TypeScript | 2025-11-27 | 2026-11-10 |
+| 248 | [visualHFT/VisualHFT](https://github.com/visualHFT/VisualHFT) | 1216 | 工具 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
+| 249 | [jankrepl/deepdow](https://github.com/jankrepl/deepdow) | 1199 | 工具 | 未明确（需查文档） | Python | 2024-01-24 | 2026-11-10 |
+| 250 | [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) | 1198 | 交易框架 | 虚拟货币、期货 | Python | 2026-11-03 | 2026-11-10 |
+| 251 | [kkyon/botflow](https://github.com/kkyon/botflow) | 1194 | 工具 | 未明确（需查文档） | Python | 2026-02-03 | 2026-11-10 |
+| 252 | [0voice/Awesome-QuantDev-Learn](https://github.com/0voice/Awesome-QuantDev-Learn) | 1193 | 交易框架 | 未明确（需查文档） |  | 2025-07-04 | 2026-11-10 |
+| 253 | [mars-tw/anti-gambling-trader-tw](https://github.com/mars-tw/anti-gambling-trader-tw) | 1177 | 论文研究 | 虚拟货币 | Python | 2026-11-02 | 2026-11-10 |
+| 254 | [JKorf/Binance.Net](https://github.com/JKorf/Binance.Net) | 1175 | 工具 | 虚拟货币、期货 | C# | 2026-11-04 | 2026-11-10 |
+| 255 | [51bitquant/bitquant](https://github.com/51bitquant/bitquant) | 1166 | 交易框架 | 虚拟货币 | Python | 2025-04-10 | 2026-11-10 |
+| 256 | [saniales/golang-crypto-trading-bot](https://github.com/saniales/golang-crypto-trading-bot) | 1162 | 工具 | 虚拟货币 | Go | 2025-11-20 | 2026-11-10 |
+| 257 | [DR-lin-eng/stock-scanner](https://github.com/DR-lin-eng/stock-scanner) | 1158 | 工具 | A股 | Python | 2026-03-02 | 2026-11-10 |
+| 258 | [ztx888/HaloWebUI](https://github.com/ztx888/HaloWebUI) | 1157 | 工具 | 未明确（需查文档） | Python | 2026-06-04 | 2026-11-10 |
+| 259 | [funkygao/cp-ddd-framework](https://github.com/funkygao/cp-ddd-framework) | 1156 | 工具 | 未明确（需查文档） | Java | 2025-12-19 | 2026-11-10 |
+| 260 | [whchien/ai-trader](https://github.com/whchien/ai-trader) | 1135 | Agent | 未明确（需查文档） | Python | 2026-03-28 | 2026-11-10 |
+| 261 | [Kami958/WhoShitsonMyC](https://github.com/Kami958/WhoShitsonMyC) | 1112 | 工具 | 未明确（需查文档） | Python | 2026-10-30 | 2026-11-10 |
+| 262 | [kingston-csj/jforgame](https://github.com/kingston-csj/jforgame) | 1102 | 游戏 | 未明确（需查文档） | Java | 2026-11-09 | 2026-11-10 |
+| 263 | [PyPatel/Options-Trading-Strategies-in-Python](https://github.com/PyPatel/Options-Trading-Strategies-in-Python) | 1102 | 工具 | 未明确（需查文档） | Python | 2024-04-22 | 2026-11-10 |
+| 264 | [Finnhub-Stock-API/finnhub-python](https://github.com/Finnhub-Stock-API/finnhub-python) | 1099 | 工具 | 未明确（需查文档） | Python | 2026-11-05 | 2026-11-10 |
+| 265 | [yijixiuxin/chanlun-pro](https://github.com/yijixiuxin/chanlun-pro) | 1092 | 工具 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 266 | [phoenix-zhou/goshop](https://github.com/phoenix-zhou/goshop) | 1089 | 工具 | 未明确（需查文档） | CSS | 2025-10-12 | 2026-11-10 |
+| 267 | [santoshlite/EigenLedger](https://github.com/santoshlite/EigenLedger) | 1088 | 交易框架 | 期货 | Python | 2025-09-14 | 2026-11-10 |
+| 268 | [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) | 1074 | 工具 | 美股、虚拟货币 | Python | 2026-11-04 | 2026-11-10 |
+| 269 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | 1067 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 270 | [ijry/lyadmin](https://github.com/ijry/lyadmin) | 1059 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-07 | 2026-11-10 |
+| 271 | [hustcer/star](https://github.com/hustcer/star) | 1058 | 论文研究 | 未明确（需查文档） | JavaScript | 2024-10-07 | 2026-11-10 |
+| 272 | [RuoJi6/audit-skills](https://github.com/RuoJi6/audit-skills) | 1043 | 工具 | 未明确（需查文档） | Python | 2026-06-16 | 2026-11-10 |
+| 273 | [beizhu-1209/AIHelms](https://github.com/beizhu-1209/AIHelms) | 1033 | Agent | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 274 | [merovinh/best-of-algorithmic-trading](https://github.com/merovinh/best-of-algorithmic-trading) | 1031 | 工具 | 未明确（需查文档） |  | 2026-11-10 | 2026-11-10 |
+| 275 | [ctpbee/ctpbee](https://github.com/ctpbee/ctpbee) | 1024 | 工具 | 期货 | Python | 2026-11-06 | 2026-11-10 |
+| 276 | [TreborNamor/TradingView-Machine-Learning-GUI](https://github.com/TreborNamor/TradingView-Machine-Learning-GUI) | 1021 | 交易框架 | 未明确（需查文档） | Python | 2026-08-18 | 2026-11-10 |
+| 277 | [uniswap-python/uniswap-python](https://github.com/uniswap-python/uniswap-python) | 1019 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
+| 278 | [bennycode/trading-signals](https://github.com/bennycode/trading-signals) | 1007 | 工具 | 虚拟货币 | TypeScript | 2026-11-10 | 2026-11-10 |
+| 279 | [G-Joker/WeaponApp](https://github.com/G-Joker/WeaponApp) | 1003 | 工具 | 未明确（需查文档） | Java | 2024-05-27 | 2026-11-10 |
+| 280 | [rootSunc/CNEquity](https://github.com/rootSunc/CNEquity) | 997 | Agent | A股、期货 | Python | 2026-11-06 | 2026-11-10 |
+| 281 | [simonlin1212/vibe-astock](https://github.com/simonlin1212/vibe-astock) | 993 | Agent | A股 | TypeScript | 2026-10-29 | 2026-11-10 |
+| 282 | [0xfdf/toraniko](https://github.com/0xfdf/toraniko) | 982 | 工具 | 因子 | Python | 2024-08-16 | 2026-11-10 |
+| 283 | [JECSand/yahoofinancials](https://github.com/JECSand/yahoofinancials) | 978 | 工具 | 虚拟货币、期货 | Python | 2024-02-06 | 2026-11-10 |
+| 284 | [quarkfin/qf-lib](https://github.com/quarkfin/qf-lib) | 977 | 交易框架 | 虚拟货币、期货 | Python | 2026-08-31 | 2026-11-10 |
+| 285 | [51bitquant/howtrader](https://github.com/51bitquant/howtrader) | 972 | 交易框架 | 虚拟货币 | Python | 2026-06-07 | 2026-11-10 |
+| 286 | [PacktPublishing/Learn-Algorithmic-Trading](https://github.com/PacktPublishing/Learn-Algorithmic-Trading) | 972 | 工具 | 未明确（需查文档） | Python | 2026-03-02 | 2026-11-10 |
+| 287 | [ailabx/agilab](https://github.com/ailabx/agilab) | 970 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 288 | [dromara/dante-cloud](https://github.com/dromara/dante-cloud) | 969 | Agent | 未明确（需查文档） | Java | 2026-11-05 | 2026-11-10 |
+| 289 | [xieliaing/CausalInferenceIntro](https://github.com/xieliaing/CausalInferenceIntro) | 969 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-03-16 | 2026-11-10 |
+| 290 | [Leo4815162342/dukascopy-node](https://github.com/Leo4815162342/dukascopy-node) | 962 | 交易框架 | 虚拟货币 | TypeScript | 2026-10-28 | 2026-11-10 |
+| 291 | [sensorsdata/sa-sdk-javascript](https://github.com/sensorsdata/sa-sdk-javascript) | 958 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-10 | 2026-11-10 |
+| 292 | [mst272/LLM-Dojo](https://github.com/mst272/LLM-Dojo) | 939 | 工具 | 未明确（需查文档） | Python | 2026-03-08 | 2026-11-10 |
+| 293 | [LuxAlgo/PineTS](https://github.com/LuxAlgo/PineTS) | 938 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-11-04 | 2026-11-10 |
+| 294 | [finvfamily/finshare](https://github.com/finvfamily/finshare) | 937 | 工具 | 未明确（需查文档） | Python | 2026-04-27 | 2026-11-10 |
+| 295 | [jianweiweng05/qsx-strategy-score](https://github.com/jianweiweng05/qsx-strategy-score) | 928 | 交易框架 | 未明确（需查文档） | Python | 2026-10-25 | 2026-11-10 |
+| 296 | [TickDB/tickdb-unified-realtime-marketdata-api](https://github.com/TickDB/tickdb-unified-realtime-marketdata-api) | 922 | Agent | A股、虚拟货币、期货 | Python | 2026-11-06 | 2026-11-10 |
+| 297 | [business-science/tidyquant](https://github.com/business-science/tidyquant) | 920 | 工具 | 未明确（需查文档） | R | 2026-11-01 | 2026-11-10 |
+| 298 | [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 915 | 工具 | 未明确（需查文档） | Go | 2026-11-10 | 2026-11-10 |
+| 299 | [rush86999/atom](https://github.com/rush86999/atom) | 915 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 300 | [komako-workshop/digital-oracle](https://github.com/komako-workshop/digital-oracle) | 911 | Agent | 虚拟货币 | Python | 2026-07-26 | 2026-11-10 |
+| 301 | [yorkeccak/finance](https://github.com/yorkeccak/finance) | 910 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
+| 302 | [sdcoffey/techan](https://github.com/sdcoffey/techan) | 905 | 工具 | 虚拟货币 | Go | 2026-09-04 | 2026-11-10 |
+| 303 | [bcefghj/learn-nanobot](https://github.com/bcefghj/learn-nanobot) | 897 | 工具 | 未明确（需查文档） | Python | 2026-04-01 | 2026-11-10 |
+| 304 | [SII-WANGZJ/Polymarket_data](https://github.com/SII-WANGZJ/Polymarket_data) | 897 | 论文研究 | 未明确（需查文档） | Python | 2026-01-01 | 2026-11-10 |
+| 305 | [hananedupouy/LLMs-in-Finance](https://github.com/hananedupouy/LLMs-in-Finance) | 896 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-11-01 | 2026-11-10 |
+| 306 | [KylinMountain/TradingAgents-AShare](https://github.com/KylinMountain/TradingAgents-AShare) | 896 | Agent | A股 | Python | 2026-10-30 | 2026-11-10 |
+| 307 | [The-FinAI/PIXIU](https://github.com/The-FinAI/PIXIU) | 896 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-08 | 2026-11-10 |
+| 308 | [kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis) | 894 | 工具 | 美股 | Python | 2024-02-19 | 2026-11-10 |
+| 309 | [weibaohui/k8m](https://github.com/weibaohui/k8m) | 893 | Agent | 未明确（需查文档） | Go | 2026-11-07 | 2026-11-10 |
+| 310 | [jwangkun/claude-for-financial-services-cn](https://github.com/jwangkun/claude-for-financial-services-cn) | 888 | 工具 | 未明确（需查文档） | Python | 2026-09-14 | 2026-11-10 |
+| 311 | [xingwudao/xquant-beginner](https://github.com/xingwudao/xquant-beginner) | 887 | 论文研究 | 因子 | TypeScript | 2026-11-02 | 2026-11-10 |
+| 312 | [boyboi86/AFML](https://github.com/boyboi86/AFML) | 883 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-09-05 | 2026-11-10 |
+| 313 | [WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction](https://github.com/WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction) | 883 | 工具 | 未明确（需查文档） | Python | 2024-07-15 | 2026-11-10 |
+| 314 | [SoYuCry/awesome-quant-interview](https://github.com/SoYuCry/awesome-quant-interview) | 880 | 工具 | 因子 |  | 2026-08-25 | 2026-11-10 |
+| 315 | [gbeced/basana](https://github.com/gbeced/basana) | 879 | 交易框架 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
+| 316 | [NewLifeX/NewLife.Redis](https://github.com/NewLifeX/NewLife.Redis) | 879 | 工具 | 未明确（需查文档） | C# | 2026-10-26 | 2026-11-10 |
+| 317 | [TencentBlueKing/bk-job](https://github.com/TencentBlueKing/bk-job) | 875 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
+| 318 | [idanya/algo-trader](https://github.com/idanya/algo-trader) | 872 | 交易框架 | 虚拟货币 | Python | 2023-11-20 | 2026-11-10 |
+| 319 | [unfairmarket/SMA-outfits](https://github.com/unfairmarket/SMA-outfits) | 866 | 工具 | 未明确（需查文档） |  | 2025-08-20 | 2026-11-10 |
+| 320 | [gazbert/bxbot](https://github.com/gazbert/bxbot) | 863 | 工具 | 虚拟货币 | Java | 2026-11-02 | 2026-11-10 |
+| 321 | [Adamant-im/adamant-tradebot](https://github.com/Adamant-im/adamant-tradebot) | 862 | 工具 | 虚拟货币 | JavaScript | 2026-11-09 | 2026-11-10 |
+| 322 | [zgsfsec/Full-Chain-Sentinel-System](https://github.com/zgsfsec/Full-Chain-Sentinel-System) | 860 | Agent | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
+| 323 | [swapperfinance/swapper-toolkit](https://github.com/swapperfinance/swapper-toolkit) | 855 | Agent | 虚拟货币 |  | 2026-04-07 | 2026-11-10 |
+| 324 | [kelvinau/crypto-arbitrage](https://github.com/kelvinau/crypto-arbitrage) | 851 | 工具 | 虚拟货币 | Python | 2024-02-17 | 2026-11-10 |
+| 325 | [KunMoe/kun-touchgal-next](https://github.com/KunMoe/kun-touchgal-next) | 848 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
+| 326 | [liudf0716/xfrpc](https://github.com/liudf0716/xfrpc) | 844 | 工具 | 未明确（需查文档） | C | 2026-09-08 | 2026-11-10 |
+| 327 | [AsyncAlgoTrading/aat](https://github.com/AsyncAlgoTrading/aat) | 843 | 交易框架 | 虚拟货币 | C++ | 2026-07-27 | 2026-11-10 |
+| 328 | [kingschan1204/istock](https://github.com/kingschan1204/istock) | 843 | 工具 | A股 | Java | 2024-12-27 | 2026-11-10 |
+| 329 | [huanyuejue/Fluent-Steam-Lua](https://github.com/huanyuejue/Fluent-Steam-Lua) | 839 | 工具 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
+| 330 | [Heerozh/spectre](https://github.com/Heerozh/spectre) | 831 | 交易框架 | 因子 | Python | 2026-11-05 | 2026-11-10 |
+| 331 | [SUFE-AIFLM-Lab/Fin-R1](https://github.com/SUFE-AIFLM-Lab/Fin-R1) | 823 | 工具 | 未明确（需查文档） |  | 2025-03-27 | 2026-11-10 |
+| 332 | [Yohann0617/oci-helper](https://github.com/Yohann0617/oci-helper) | 823 | 工具 | 未明确（需查文档） | Java | 2026-09-29 | 2026-11-10 |
+| 333 | [garagesteve1155/PowerTrader_AI](https://github.com/garagesteve1155/PowerTrader_AI) | 820 | 工具 | 虚拟货币 | Python | 2026-10-28 | 2026-11-10 |
+| 334 | [gadicc/yahoo-finance2](https://github.com/gadicc/yahoo-finance2) | 815 | Agent | 未明确（需查文档） | HTML | 2026-11-08 | 2026-11-10 |
+| 335 | [wkingnet/stock-analysis](https://github.com/wkingnet/stock-analysis) | 814 | 工具 | 未明确（需查文档） | Python | 2026-01-02 | 2026-11-10 |
+| 336 | [OrionStarAI/Orion](https://github.com/OrionStarAI/Orion) | 808 | Agent | 未明确（需查文档） | Python | 2024-06-03 | 2026-11-10 |
+| 337 | [krakenfx/kraken-cli](https://github.com/krakenfx/kraken-cli) | 807 | Agent | 虚拟货币、期货 | Rust | 2026-10-29 | 2026-11-10 |
+| 338 | [dragon1086/prism-insight](https://github.com/dragon1086/prism-insight) | 805 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 339 | [claw-codes/wx4py](https://github.com/claw-codes/wx4py) | 802 | 工具 | 未明确（需查文档） | Python | 2026-04-11 | 2026-11-10 |
+| 340 | [JulyIghor/QtBitcoinTrader](https://github.com/JulyIghor/QtBitcoinTrader) | 800 | 工具 | 虚拟货币 | C++ | 2025-06-25 | 2026-11-10 |
+| 341 | [edmcouncil/fibo](https://github.com/edmcouncil/fibo) | 799 | 工具 | 未明确（需查文档） | Shell | 2026-10-27 | 2026-11-10 |
+| 342 | [virattt/financial-agent-ui](https://github.com/virattt/financial-agent-ui) | 795 | Agent | 未明确（需查文档） | TypeScript | 2024-09-29 | 2026-11-10 |
+| 343 | [twelvedata/twelvedata-python](https://github.com/twelvedata/twelvedata-python) | 793 | 工具 | 虚拟货币 | Python | 2026-08-12 | 2026-11-10 |
+| 344 | [AUTO-MAS-Project/AUTO-MAS](https://github.com/AUTO-MAS-Project/AUTO-MAS) | 788 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 345 | [jinbooooom/ai-infra-hpc](https://github.com/jinbooooom/ai-infra-hpc) | 788 | 工具 | 未明确（需查文档） | Cuda | 2026-04-27 | 2026-11-10 |
+| 346 | [jiyuanwang-afk/Explainable-AI-in-Financial-Fraud-and-Anomaly-Detection](https://github.com/jiyuanwang-afk/Explainable-AI-in-Financial-Fraud-and-Anomaly-Detection) | 788 | 工具 | 未明确（需查文档） | Python | 2025-10-20 | 2026-11-10 |
+| 347 | [letianzj/quanttrader](https://github.com/letianzj/quanttrader) | 787 | 交易框架 | 未明确（需查文档） | HTML | 2024-06-20 | 2026-11-10 |
+| 348 | [taniman/profit-trailer](https://github.com/taniman/profit-trailer) | 784 | 工具 | 虚拟货币 | Shell | 2026-10-10 | 2026-11-10 |
+| 349 | [robswc/tradingview-webhooks-bot](https://github.com/robswc/tradingview-webhooks-bot) | 781 | 工具 | 虚拟货币 | Python | 2024-02-29 | 2026-11-10 |
+| 350 | [liuhuanyong/ChainKnowledgeGraph](https://github.com/liuhuanyong/ChainKnowledgeGraph) | 778 | 工具 | A股 | Python | 2025-12-22 | 2026-11-10 |
+| 351 | [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) | 773 | Agent | A股 | Python | 2026-11-10 | 2026-11-10 |
+| 352 | [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 759 | 工具 | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
+| 353 | [soaring-xiongkulu/easyaiot](https://github.com/soaring-xiongkulu/easyaiot) | 757 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 354 | [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) | 756 | 论文研究 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 355 | [binance/binance-connector-js](https://github.com/binance/binance-connector-js) | 755 | 工具 | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
+| 356 | [quant-king299/EasyXT](https://github.com/quant-king299/EasyXT) | 753 | 工具 | 未明确（需查文档） | Python | 2026-09-16 | 2026-11-10 |
+| 357 | [xxnuo/dns-benchmark](https://github.com/xxnuo/dns-benchmark) | 750 | 论文研究 | 未明确（需查文档） | Go | 2025-10-10 | 2026-11-10 |
+| 358 | [iTXTech/mirai-console-loader](https://github.com/iTXTech/mirai-console-loader) | 738 | 工具 | 未明确（需查文档） | Java | 2023-12-24 | 2026-11-10 |
+| 359 | [ling-0729/KHunter](https://github.com/ling-0729/KHunter) | 735 | 交易框架 | A股 | Python | 2026-10-07 | 2026-11-10 |
+| 360 | [y123456yz/middleware_development_learning](https://github.com/y123456yz/middleware_development_learning) | 727 | 工具 | 未明确（需查文档） | C | 2024-10-31 | 2026-11-10 |
+| 361 | [yangfeng20/ai-job](https://github.com/yangfeng20/ai-job) | 727 | Agent | 未明确（需查文档） | Java | 2026-08-18 | 2026-11-10 |
+| 362 | [alleyway/add-tradingview-alerts-tool](https://github.com/alleyway/add-tradingview-alerts-tool) | 723 | 工具 | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
+| 363 | [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) | 722 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 364 | [rosemarycox5334-debug/AlphaMaster](https://github.com/rosemarycox5334-debug/AlphaMaster) | 715 | 交易框架 | 因子 | Python | 2026-11-07 | 2026-11-10 |
+| 365 | [electkismet/eltdx](https://github.com/electkismet/eltdx) | 711 | 工具 | A股 | Python | 2026-11-06 | 2026-11-10 |
+| 366 | [TheFourGreatErrors/alpha-rptr](https://github.com/TheFourGreatErrors/alpha-rptr) | 710 | 工具 | 虚拟货币、期货 | Python | 2026-06-19 | 2026-11-10 |
+| 367 | [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) | 707 | Agent | 虚拟货币 | Python | 2026-10-29 | 2026-11-10 |
+| 368 | [akfamily/akhub](https://github.com/akfamily/akhub) | 705 | 论文研究 | A股 |  | 2026-11-07 | 2026-11-10 |
+| 369 | [alpacahq/alpaca-backtrader-api](https://github.com/alpacahq/alpaca-backtrader-api) | 705 | 交易框架 | 美股 | Python | 2026-06-23 | 2026-11-10 |
+| 370 | [sensorsdata/sa-sdk-ios](https://github.com/sensorsdata/sa-sdk-ios) | 703 | 工具 | 未明确（需查文档） | Objective-C | 2026-09-03 | 2026-11-10 |
+| 371 | [casual-silva/NewsCrawl](https://github.com/casual-silva/NewsCrawl) | 690 | 工具 | 未明确（需查文档） | Python | 2026-05-23 | 2026-11-10 |
+| 372 | [geraked/metatrader5](https://github.com/geraked/metatrader5) | 690 | 交易框架 | 虚拟货币 | MQL5 | 2025-11-15 | 2026-11-10 |
+| 373 | [banbox/banbot](https://github.com/banbox/banbot) | 688 | 工具 | 虚拟货币 | Go | 2026-11-10 | 2026-11-10 |
+| 374 | [Albert-Z-Guo/Deep-Reinforcement-Stock-Trading](https://github.com/Albert-Z-Guo/Deep-Reinforcement-Stock-Trading) | 687 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-11-06 | 2026-11-10 |
+| 375 | [rburkholder/trade-frame](https://github.com/rburkholder/trade-frame) | 687 | 工具 | 美股、期货 | C++ | 2026-10-13 | 2026-11-10 |
+| 376 | [LucivHuang/heimdallr-sdk](https://github.com/LucivHuang/heimdallr-sdk) | 686 | 工具 | 未明确（需查文档） | TypeScript | 2026-08-22 | 2026-11-10 |
+| 377 | [WeBankFinTech/WeDataSphere](https://github.com/WeBankFinTech/WeDataSphere) | 682 | 工具 | 未明确（需查文档） |  | 2024-03-14 | 2026-11-10 |
+| 378 | [zslucky/algorithmic_trading_book](https://github.com/zslucky/algorithmic_trading_book) | 681 | 工具 | 未明确（需查文档） | Python | 2024-06-17 | 2026-11-10 |
+| 379 | [zjn-zjn/ice](https://github.com/zjn-zjn/ice) | 679 | 工具 | 未明确（需查文档） | Go | 2026-11-04 | 2026-11-10 |
+| 380 | [liangdabiao/easy_investment_Agent_crewai](https://github.com/liangdabiao/easy_investment_Agent_crewai) | 676 | Agent | A股 | Python | 2026-05-07 | 2026-11-10 |
+| 381 | [xxjwxc/shares](https://github.com/xxjwxc/shares) | 674 | 工具 | A股 | PLpgSQL | 2025-01-09 | 2026-11-10 |
+| 382 | [VarunS2002/Python-NSE-Option-Chain-Analyzer](https://github.com/VarunS2002/Python-NSE-Option-Chain-Analyzer) | 673 | 工具 | 期货 | Python | 2026-05-22 | 2026-11-10 |
+| 383 | [Quantweb3-com/NexusTrader](https://github.com/Quantweb3-com/NexusTrader) | 671 | 交易框架 | 虚拟货币 | Python | 2026-05-16 | 2026-11-10 |
+| 384 | [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) | 665 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-10-24 | 2026-11-10 |
+| 385 | [conor19w/Binance-Futures-Trading-Bot](https://github.com/conor19w/Binance-Futures-Trading-Bot) | 664 | 交易框架 | 虚拟货币、期货 | Python | 2024-07-28 | 2026-11-10 |
+| 386 | [cassandre-tech/cassandre-trading-bot](https://github.com/cassandre-tech/cassandre-trading-bot) | 663 | 工具 | 虚拟货币 | Java | 2025-03-01 | 2026-11-10 |
+| 387 | [songjiayang/prometheus_practice](https://github.com/songjiayang/prometheus_practice) | 663 | 工具 | 未明确（需查文档） | HTML | 2023-12-17 | 2026-11-10 |
+| 388 | [CuriousLearnerDev/TrafficEye](https://github.com/CuriousLearnerDev/TrafficEye) | 660 | 论文研究 | 未明确（需查文档） |  | 2026-08-04 | 2026-11-10 |
+| 389 | [bi-box/Median](https://github.com/bi-box/Median) | 653 | 工具 | 未明确（需查文档） | Java | 2026-11-06 | 2026-11-10 |
+| 390 | [SecNN/AiScan-N](https://github.com/SecNN/AiScan-N) | 652 | Agent | 未明确（需查文档） |  | 2026-09-22 | 2026-11-10 |
+| 391 | [ArturSepp/QuantInvestStrats](https://github.com/ArturSepp/QuantInvestStrats) | 650 | 交易框架 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 392 | [Austin-Patrician/eastmoney](https://github.com/Austin-Patrician/eastmoney) | 648 | 工具 | 未明确（需查文档） | Python | 2026-02-24 | 2026-11-10 |
+| 393 | [mitchspano/trigger-actions-framework](https://github.com/mitchspano/trigger-actions-framework) | 647 | 工具 | 未明确（需查文档） | Apex | 2026-03-02 | 2026-11-10 |
+| 394 | [nuglifeleoji/Options-Analytics-Agent](https://github.com/nuglifeleoji/Options-Analytics-Agent) | 647 | Agent | 未明确（需查文档） | Python | 2025-12-15 | 2026-11-10 |
+| 395 | [wangzuohuai/WebRunLocal](https://github.com/wangzuohuai/WebRunLocal) | 643 | 工具 | 未明确（需查文档） | C++ | 2026-05-03 | 2026-11-10 |
+| 396 | [QuantJourneyOrg/quantjourney-bt](https://github.com/QuantJourneyOrg/quantjourney-bt) | 640 | 交易框架 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 397 | [Gbox4/tstock](https://github.com/Gbox4/tstock) | 638 | 工具 | 虚拟货币 | Python | 2024-10-07 | 2026-11-10 |
+| 398 | [tickflow-org/tickflow](https://github.com/tickflow-org/tickflow) | 638 | 工具 | A股 | Python | 2026-11-06 | 2026-11-10 |
+| 399 | [henrylin99/quantitative_analysis](https://github.com/henrylin99/quantitative_analysis) | 637 | 工具 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
+| 400 | [TimeCopilot/timecopilot](https://github.com/TimeCopilot/timecopilot) | 637 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 401 | [ibaihuo/chanvis](https://github.com/ibaihuo/chanvis) | 630 | 论文研究 | 虚拟货币 | Vue | 2024-07-02 | 2026-11-10 |
+| 402 | [51bitquant/ai-hedge-fund-crypto](https://github.com/51bitquant/ai-hedge-fund-crypto) | 627 | Agent | 虚拟货币 | Python | 2025-09-05 | 2026-11-10 |
 | 403 | [AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api](https://github.com/AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api) | 624 | 工具 | 虚拟货币 | Java | 2026-09-28 | 2026-11-10 |
 | 404 | [jianzhnie/LLamaTuner](https://github.com/jianzhnie/LLamaTuner) | 624 | 工具 | 未明确（需查文档） | Python | 2025-01-24 | 2026-11-10 |
 | 405 | [TauricResearch/Trading-R1](https://github.com/TauricResearch/Trading-R1) | 624 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
@@ -556,800 +556,797 @@
 | 515 | [MilkClouds/awesome-vla-study](https://github.com/MilkClouds/awesome-vla-study) | 418 | 论文研究 | 未明确（需查文档） |  | 2026-03-21 | 2026-11-10 |
 | 516 | [aozorae/EdgeSSH](https://github.com/aozorae/EdgeSSH) | 416 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-01 | 2026-11-10 |
 | 517 | [0xethanq/astra-quant-agent](https://github.com/0xethanq/astra-quant-agent) | 415 | Agent | 虚拟货币 | Python | 2026-10-03 | 2026-11-10 |
-| 518 | [0xethanq/astra-quant-agent](https://github.com/0xethanq/astra-quant-agent) | 415 | Agent | 虚拟货币 | Python | 2026-10-03 | 2026-11-10 |
-| 519 | [jackyideal/AlphaTeam](https://github.com/jackyideal/AlphaTeam) | 413 | 交易框架 | 未明确（需查文档） | Python | 2026-04-19 | 2026-11-10 |
-| 520 | [Luchkata/Algorithmic_Trading_Machine_Learning](https://github.com/Luchkata/Algorithmic_Trading_Machine_Learning) | 413 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-04 | 2026-11-10 |
-| 521 | [IBM/AMLSim](https://github.com/IBM/AMLSim) | 412 | Agent | 未明确（需查文档） | Python | 2025-09-17 | 2026-11-10 |
-| 522 | [bfolkens/py-market-profile](https://github.com/bfolkens/py-market-profile) | 410 | 工具 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
-| 523 | [Erfaniaa/binance-futures-trading-bot](https://github.com/Erfaniaa/binance-futures-trading-bot) | 410 | 工具 | 虚拟货币、期货 | Python | 2024-03-13 | 2026-11-10 |
-| 524 | [pkjmesra/PKScreener](https://github.com/pkjmesra/PKScreener) | 410 | 交易框架 | 美股 | Python | 2026-10-02 | 2026-11-10 |
-| 525 | [teamdArk5/FscanParser](https://github.com/teamdArk5/FscanParser) | 410 | 工具 | 未明确（需查文档） |  | 2025-01-04 | 2026-11-10 |
-| 526 | [PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Bots-with-Python](https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Bots-with-Python) | 409 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-12-15 | 2026-11-10 |
-| 527 | [sleep1223/fast-soy-admin](https://github.com/sleep1223/fast-soy-admin) | 409 | 工具 | 未明确（需查文档） | Python | 2026-08-25 | 2026-11-10 |
-| 528 | [massive-com/mcp_massive](https://github.com/massive-com/mcp_massive) | 401 | 工具 | 虚拟货币 | Python | 2026-11-03 | 2026-11-10 |
-| 529 | [baidu/brcc](https://github.com/baidu/brcc) | 400 | 工具 | 未明确（需查文档） | Java | 2026-10-30 | 2026-11-10 |
-| 530 | [WeBankFinTech/Schedulis](https://github.com/WeBankFinTech/Schedulis) | 400 | 工具 | 未明确（需查文档） | Java | 2026-09-24 | 2026-11-10 |
-| 531 | [rinchao0721/Melodia](https://github.com/rinchao0721/Melodia) | 398 | 工具 | 未明确（需查文档） | Kotlin | 2026-11-10 | 2026-11-10 |
-| 532 | [hengruiyun/AI-Stock-Master](https://github.com/hengruiyun/AI-Stock-Master) | 396 | 工具 | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
-| 533 | [moss-site/moss-trade-bot-skills](https://github.com/moss-site/moss-trade-bot-skills) | 393 | Agent | 虚拟货币 | Python | 2026-10-20 | 2026-11-10 |
-| 534 | [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) | 392 | 工具 | A股、虚拟货币 | Python | 2026-03-26 | 2026-11-10 |
-| 535 | [Qwejay/Qflow](https://github.com/Qwejay/Qflow) | 392 | 工具 | 未明确（需查文档） | Python | 2026-10-13 | 2026-11-10 |
-| 536 | [get-zeked/perplexity-super-skills](https://github.com/get-zeked/perplexity-super-skills) | 391 | Agent | 未明确（需查文档） |  | 2026-04-01 | 2026-11-10 |
-| 537 | [OhMyMeme/OhMyMeme](https://github.com/OhMyMeme/OhMyMeme) | 391 | 工具 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
-| 538 | [cirosantilli/china-dictatroship-7](https://github.com/cirosantilli/china-dictatroship-7) | 389 | Agent | A股、虚拟货币、期货 | HTML | 2026-02-05 | 2026-11-10 |
-| 539 | [KittenCN/stock_prediction](https://github.com/KittenCN/stock_prediction) | 389 | 工具 | 未明确（需查文档） | Python | 2026-09-28 | 2026-11-10 |
-| 540 | [xiweicheng/tms](https://github.com/xiweicheng/tms) | 389 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-14 | 2026-11-10 |
-| 541 | [Hitheshkaranth/OpenTerminalUI](https://github.com/Hitheshkaranth/OpenTerminalUI) | 388 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-11-06 | 2026-11-10 |
-| 542 | [ivebotunac/PrimoAgent](https://github.com/ivebotunac/PrimoAgent) | 388 | Agent | 未明确（需查文档） | Python | 2026-01-12 | 2026-11-10 |
-| 543 | [happydasch/btplotting](https://github.com/happydasch/btplotting) | 385 | 交易框架 | 未明确（需查文档） | Python | 2025-05-04 | 2026-11-10 |
-| 544 | [tradingstrategy-ai/trading-strategy](https://github.com/tradingstrategy-ai/trading-strategy) | 383 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 545 | [crunz-ailab/nativePDF-structurer](https://github.com/crunz-ailab/nativePDF-structurer) | 382 | 工具 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
-| 546 | [veighna-global/vnpy_evo](https://github.com/veighna-global/vnpy_evo) | 380 | 交易框架 | 虚拟货币 | Python | 2024-12-16 | 2026-11-10 |
-| 547 | [liangdabiao/Claude-Code-Stock-Deep-Research-Agent](https://github.com/liangdabiao/Claude-Code-Stock-Deep-Research-Agent) | 379 | Agent | 未明确（需查文档） |  | 2026-03-07 | 2026-11-10 |
-| 548 | [binghe001/technology-binghe](https://github.com/binghe001/technology-binghe) | 378 | 工具 | 未明确（需查文档） |  | 2024-08-06 | 2026-11-10 |
-| 549 | [yuedai-pbc/FINESSE-Financial-Reasoning-Agent](https://github.com/yuedai-pbc/FINESSE-Financial-Reasoning-Agent) | 378 | Agent | 未明确（需查文档） | Python | 2026-08-24 | 2026-11-10 |
-| 550 | [We-Hack-Studio/nuts](https://github.com/We-Hack-Studio/nuts) | 377 | 工具 | 虚拟货币 | CSS | 2025-05-03 | 2026-11-10 |
-| 551 | [hummingbot/dashboard](https://github.com/hummingbot/dashboard) | 373 | 交易框架 | 未明确（需查文档） | Python | 2025-10-27 | 2026-11-10 |
-| 552 | [stefmolin/stock-analysis](https://github.com/stefmolin/stock-analysis) | 372 | 工具 | 虚拟货币 | Python | 2023-12-28 | 2026-11-10 |
-| 553 | [woshijielie/stock_prediction_and_recommendation](https://github.com/woshijielie/stock_prediction_and_recommendation) | 371 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-02-14 | 2026-11-10 |
-| 554 | [sethGu/FinancialFraudDataGenerator](https://github.com/sethGu/FinancialFraudDataGenerator) | 370 | 工具 | 未明确（需查文档） | Python | 2025-10-18 | 2026-11-10 |
-| 555 | [Alex2Yang97/yahoo-finance-mcp](https://github.com/Alex2Yang97/yahoo-finance-mcp) | 368 | 工具 | 未明确（需查文档） | Python | 2026-09-19 | 2026-11-10 |
-| 556 | [himanshu2406/Algo.Py](https://github.com/himanshu2406/Algo.Py) | 368 | 交易框架 | 未明确（需查文档） | Jupyter Notebook | 2026-06-30 | 2026-11-10 |
-| 557 | [cpagejs/Cpage.js](https://github.com/cpagejs/Cpage.js) | 367 | 工具 | 未明确（需查文档） | TypeScript | 2025-02-03 | 2026-11-10 |
-| 558 | [footprintcat/frost-iot](https://github.com/footprintcat/frost-iot) | 367 | 工具 | 未明确（需查文档） | Java | 2025-10-30 | 2026-11-10 |
-| 559 | [fintechees/Expert-Advisor-Studio](https://github.com/fintechees/Expert-Advisor-Studio) | 366 | 工具 | 虚拟货币 | JavaScript | 2026-10-18 | 2026-11-10 |
-| 560 | [richkuo/go-trader](https://github.com/richkuo/go-trader) | 365 | 论文研究 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 561 | [suenot/profitmaker](https://github.com/suenot/profitmaker) | 365 | 交易框架 | 虚拟货币 | TypeScript | 2026-08-25 | 2026-11-10 |
-| 562 | [stockalgo/stolgo](https://github.com/stockalgo/stolgo) | 364 | 工具 | 美股 | Python | 2026-11-03 | 2026-11-10 |
-| 563 | [sunnyswag/StockRL](https://github.com/sunnyswag/StockRL) | 362 | Agent | A股 | Jupyter Notebook | 2024-03-27 | 2026-11-10 |
-| 564 | [gameworkerkim/vibe-investing](https://github.com/gameworkerkim/vibe-investing) | 361 | Agent | 美股、虚拟货币 | HTML | 2026-11-09 | 2026-11-10 |
-| 565 | [peiqiF4ck/WebFrameworkTools-5.5-enhance](https://github.com/peiqiF4ck/WebFrameworkTools-5.5-enhance) | 361 | 工具 | 未明确（需查文档） | C# | 2026-08-09 | 2026-11-10 |
-| 566 | [wenyuanw/a-share-heatmap](https://github.com/wenyuanw/a-share-heatmap) | 361 | 工具 | A股 | TypeScript | 2026-11-09 | 2026-11-10 |
-| 567 | [yuriak/RLQuant](https://github.com/yuriak/RLQuant) | 359 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-14 | 2026-11-10 |
-| 568 | [cmliu/CFnat-Docker](https://github.com/cmliu/CFnat-Docker) | 358 | 工具 | 未明确（需查文档） | Dockerfile | 2026-04-17 | 2026-11-10 |
-| 569 | [koupleless/koupleless](https://github.com/koupleless/koupleless) | 358 | 工具 | 未明确（需查文档） | Java | 2026-05-13 | 2026-11-10 |
-| 570 | [risesoft-y9/Network-Drive](https://github.com/risesoft-y9/Network-Drive) | 357 | 工具 | 未明确（需查文档） | Java | 2026-11-06 | 2026-11-10 |
-| 571 | [teddysmithdev/FinShark](https://github.com/teddysmithdev/FinShark) | 357 | 工具 | 未明确（需查文档） | TypeScript | 2024-08-09 | 2026-11-10 |
-| 572 | [kay-ou/SimTradeLab](https://github.com/kay-ou/SimTradeLab) | 356 | 交易框架 | 未明确（需查文档） | Python | 2026-11-02 | 2026-11-10 |
-| 573 | [longsurf-ai/openchart](https://github.com/longsurf-ai/openchart) | 355 | Agent | 未明确（需查文档） | TypeScript | 2026-10-30 | 2026-11-10 |
-| 574 | [deshwalmahesh/NSE-Stock-Scanner](https://github.com/deshwalmahesh/NSE-Stock-Scanner) | 354 | 交易框架 | 期货 | Jupyter Notebook | 2025-03-28 | 2026-11-10 |
-| 575 | [Mr-xn/JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | 354 | 工具 | 未明确（需查文档） | Java | 2025-08-08 | 2026-11-10 |
-| 576 | [NanGePlus/RagLangChainTest](https://github.com/NanGePlus/RagLangChainTest) | 354 | 工具 | 未明确（需查文档） | Python | 2024-09-06 | 2026-11-10 |
-| 577 | [zhaohaojie1998/Control-Algorithm](https://github.com/zhaohaojie1998/Control-Algorithm) | 354 | 工具 | 未明确（需查文档） | Python | 2026-03-13 | 2026-11-10 |
-| 578 | [lukstei/trading-backtest](https://github.com/lukstei/trading-backtest) | 353 | 交易框架 | 未明确（需查文档） | Java | 2026-11-09 | 2026-11-10 |
-| 579 | [WellApp-ai/Well](https://github.com/WellApp-ai/Well) | 352 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-04 | 2026-11-10 |
-| 580 | [goku-open/goku-image-to-svg-tool](https://github.com/goku-open/goku-image-to-svg-tool) | 351 | 工具 | 未明确（需查文档） | Python | 2026-08-21 | 2026-11-10 |
-| 581 | [liangdabiao/perler-beads-ai](https://github.com/liangdabiao/perler-beads-ai) | 349 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-10 | 2026-11-10 |
-| 582 | [Ogannesson/ashare-llm-analyst](https://github.com/Ogannesson/ashare-llm-analyst) | 348 | 工具 | A股 | Python | 2026-11-09 | 2026-11-10 |
-| 583 | [cporter202/stock-market-signal-automation](https://github.com/cporter202/stock-market-signal-automation) | 347 | Agent | 未明确（需查文档） |  | 2026-10-17 | 2026-11-10 |
-| 584 | [binance/binance-connector-rust](https://github.com/binance/binance-connector-rust) | 345 | 工具 | 虚拟货币 | Rust | 2026-11-09 | 2026-11-10 |
-| 585 | [QuantMLResearch/AI-Kline](https://github.com/QuantMLResearch/AI-Kline) | 345 | 论文研究 | 未明确（需查文档） | Python | 2025-08-06 | 2026-11-10 |
-| 586 | [2881099/FreeScheduler](https://github.com/2881099/FreeScheduler) | 344 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-04 | 2026-11-10 |
-| 587 | [lineagett/cf-workers-nav](https://github.com/lineagett/cf-workers-nav) | 344 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-29 | 2026-11-10 |
-| 588 | [liuhuapiaoyuan/MinerU-webui](https://github.com/liuhuapiaoyuan/MinerU-webui) | 344 | 工具 | 未明确（需查文档） | Python | 2024-12-03 | 2026-11-10 |
-| 589 | [binance/binance-connector-go](https://github.com/binance/binance-connector-go) | 342 | 工具 | 虚拟货币 | Go | 2026-10-27 | 2026-11-10 |
-| 590 | [SimFin/simfin](https://github.com/SimFin/simfin) | 342 | 工具 | 未明确（需查文档） | Python | 2026-04-30 | 2026-11-10 |
-| 591 | [enryteam/smart-city](https://github.com/enryteam/smart-city) | 341 | 工具 | 未明确（需查文档） | Batchfile | 2024-03-12 | 2026-11-10 |
-| 592 | [guangxiangdebizi/TradingAgents-MCPmode](https://github.com/guangxiangdebizi/TradingAgents-MCPmode) | 340 | Agent | 未明确（需查文档） | Python | 2025-11-22 | 2026-11-10 |
-| 593 | [jbms/finance-dl](https://github.com/jbms/finance-dl) | 340 | 工具 | 未明确（需查文档） | Python | 2025-05-05 | 2026-11-10 |
-| 594 | [zhu1090093659/dsh-trading](https://github.com/zhu1090093659/dsh-trading) | 340 | Agent | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
-| 595 | [BichengWang/RL-pricing](https://github.com/BichengWang/RL-pricing) | 339 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 596 | [weishakeji/LearningSystem](https://github.com/weishakeji/LearningSystem) | 338 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-03 | 2026-11-10 |
-| 597 | [Blave-TW/blave-agent](https://github.com/Blave-TW/blave-agent) | 337 | Agent | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 598 | [electkismet/AxData](https://github.com/electkismet/AxData) | 337 | 工具 | A股 | Python | 2026-09-16 | 2026-11-10 |
-| 599 | [mirkovicdev/HFTENGINE](https://github.com/mirkovicdev/HFTENGINE) | 337 | 交易框架 | 虚拟货币、期货 | TypeScript | 2026-09-17 | 2026-11-10 |
-| 600 | [kansoku-trade/kansoku](https://github.com/kansoku-trade/kansoku) | 336 | Agent | 未明确（需查文档） | TypeScript | 2026-11-04 | 2026-11-10 |
-| 601 | [yuanwang589-dev/deepseek-harness-quant](https://github.com/yuanwang589-dev/deepseek-harness-quant) | 336 | 工具 | A股、因子 | Python | 2026-08-17 | 2026-11-10 |
-| 602 | [yuwei1203/datax-cloud](https://github.com/yuwei1203/datax-cloud) | 336 | 工具 | 未明确（需查文档） | Java | 2025-02-11 | 2026-11-10 |
-| 603 | [AojdevStudio/Finance-Guru](https://github.com/AojdevStudio/Finance-Guru) | 335 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
-| 604 | [bex-co/beancount-io](https://github.com/bex-co/beancount-io) | 334 | Agent | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
-| 605 | [Oft3r/agentic-trading-desk](https://github.com/Oft3r/agentic-trading-desk) | 334 | Agent | 未明确（需查文档） | Python | 2026-10-19 | 2026-11-10 |
-| 606 | [woijfwefw/ZsxqCrawler](https://github.com/woijfwefw/ZsxqCrawler) | 334 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 607 | [xkzhangsan/xk-time](https://github.com/xkzhangsan/xk-time) | 334 | 工具 | 未明确（需查文档） | Java | 2024-09-22 | 2026-11-10 |
-| 608 | [s-pms/SPMS-Server](https://github.com/s-pms/SPMS-Server) | 333 | 工具 | 未明确（需查文档） | Java | 2026-10-14 | 2026-11-10 |
-| 609 | [SequoiaDB/SequoiaDB_OLD](https://github.com/SequoiaDB/SequoiaDB_OLD) | 332 | 工具 | 未明确（需查文档） |  | 2025-07-30 | 2026-11-10 |
-| 610 | [zillionare/zillionare](https://github.com/zillionare/zillionare) | 332 | 交易框架 | A股 | Python | 2026-11-04 | 2026-11-10 |
-| 611 | [fidetolabs/qanat](https://github.com/fidetolabs/qanat) | 331 | 论文研究 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 612 | [cirosantilli/cirosantilli](https://github.com/cirosantilli/cirosantilli) | 329 | 论文研究 | 虚拟货币 | JavaScript | 2026-09-22 | 2026-11-10 |
-| 613 | [convexfi/riskparity.py](https://github.com/convexfi/riskparity.py) | 327 | 工具 | 未明确（需查文档） | Python | 2026-08-31 | 2026-11-10 |
-| 614 | [QuantMLResearch/pyrust-bt](https://github.com/QuantMLResearch/pyrust-bt) | 327 | 论文研究 | 未明确（需查文档） | Python | 2026-07-20 | 2026-11-10 |
-| 615 | [ShenzhenLime/open_quant](https://github.com/ShenzhenLime/open_quant) | 327 | 论文研究 | 未明确（需查文档） | Python | 2026-07-22 | 2026-11-10 |
-| 616 | [vam876/FastWLAT](https://github.com/vam876/FastWLAT) | 327 | 工具 | 未明确（需查文档） | JavaScript | 2026-02-13 | 2026-11-10 |
-| 617 | [open-net-worth-ai/open-net-worth](https://github.com/open-net-worth-ai/open-net-worth) | 325 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 618 | [sun977/Linuxgun](https://github.com/sun977/Linuxgun) | 325 | 工具 | 未明确（需查文档） | Shell | 2026-02-26 | 2026-11-10 |
-| 619 | [zubair-trabzada/ai-trading-claude](https://github.com/zubair-trabzada/ai-trading-claude) | 325 | Agent | 未明确（需查文档） | Python | 2026-04-07 | 2026-11-10 |
-| 620 | [nkaz001/algotrading-example](https://github.com/nkaz001/algotrading-example) | 324 | 交易框架 | 虚拟货币、期货 | Jupyter Notebook | 2023-12-04 | 2026-11-10 |
-| 621 | [SEC-API-io/sec-api-python](https://github.com/SEC-API-io/sec-api-python) | 324 | 工具 | 未明确（需查文档） | Python | 2026-04-13 | 2026-11-10 |
-| 622 | [justhalfbit/ghostty-terminal-config](https://github.com/justhalfbit/ghostty-terminal-config) | 323 | 工具 | 未明确（需查文档） | Shell | 2026-06-18 | 2026-11-10 |
-| 623 | [0xquqi/crypto-kol-quant](https://github.com/0xquqi/crypto-kol-quant) | 322 | 交易框架 | 虚拟货币、因子 | HTML | 2026-04-12 | 2026-11-10 |
-| 624 | [hzy1522/tickflow-stock-panel](https://github.com/hzy1522/tickflow-stock-panel) | 322 | 交易框架 | A股 | Python | 2026-08-31 | 2026-11-10 |
-| 625 | [ryantcullen/stock-bot](https://github.com/ryantcullen/stock-bot) | 322 | 交易框架 | 未明确（需查文档） | Python | 2026-02-25 | 2026-11-10 |
-| 626 | [sjev/trading-with-python](https://github.com/sjev/trading-with-python) | 322 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-12-29 | 2026-11-10 |
-| 627 | [feifeid47/Unity-Async-UIFrame](https://github.com/feifeid47/Unity-Async-UIFrame) | 321 | 工具 | 未明确（需查文档） | C# | 2024-04-14 | 2026-11-10 |
-| 628 | [hydrosquall/tiingo-python](https://github.com/hydrosquall/tiingo-python) | 321 | 工具 | 未明确（需查文档） | Python | 2025-12-14 | 2026-11-10 |
-| 629 | [conimade/quant_trade](https://github.com/conimade/quant_trade) | 320 | 工具 | 未明确（需查文档） | Python | 2025-08-10 | 2026-11-10 |
-| 630 | [freevolunteer/bondTrader](https://github.com/freevolunteer/bondTrader) | 320 | 工具 | A股 | Go | 2024-05-22 | 2026-11-10 |
-| 631 | [namuan/trading-utils](https://github.com/namuan/trading-utils) | 320 | 工具 | 未明确（需查文档） | Python | 2026-11-05 | 2026-11-10 |
-| 632 | [Delta-F/DeltaTrader](https://github.com/Delta-F/DeltaTrader) | 318 | 工具 | 未明确（需查文档） | Python | 2026-03-16 | 2026-11-10 |
-| 633 | [edinetdb/dexter-jp](https://github.com/edinetdb/dexter-jp) | 318 | Agent | 未明确（需查文档） | TypeScript | 2026-10-08 | 2026-11-10 |
-| 634 | [second-state/fintool](https://github.com/second-state/fintool) | 318 | Agent | A股、虚拟货币 | Rust | 2026-05-19 | 2026-11-10 |
-| 635 | [stonedtman/stonedt-yuqing](https://github.com/stonedtman/stonedt-yuqing) | 318 | 工具 | 未明确（需查文档） | JavaScript | 2025-11-27 | 2026-11-10 |
-| 636 | [yadnuses/Academic-Detective](https://github.com/yadnuses/Academic-Detective) | 318 | 论文研究 | 未明确（需查文档） | Python | 2026-10-10 | 2026-11-10 |
-| 637 | [cool-team-official/cool-unix](https://github.com/cool-team-official/cool-unix) | 316 | 工具 | 未明确（需查文档） | TypeScript | 2026-02-05 | 2026-11-10 |
-| 638 | [Grademark/grademark](https://github.com/Grademark/grademark) | 316 | 交易框架 | 未明确（需查文档） | TypeScript | 2024-10-26 | 2026-11-10 |
-| 639 | [kunkundi/niuone](https://github.com/kunkundi/niuone) | 316 | 论文研究 | A股 | Python | 2026-09-09 | 2026-11-10 |
-| 640 | [fortitudo-tech/fortitudo.tech](https://github.com/fortitudo-tech/fortitudo.tech) | 314 | 工具 | 未明确（需查文档） | Python | 2026-10-08 | 2026-11-10 |
-| 641 | [SEC-API-io/sec-api-node](https://github.com/SEC-API-io/sec-api-node) | 314 | 工具 | 未明确（需查文档） | JavaScript | 2026-04-29 | 2026-11-10 |
-| 642 | [javifalces/HFTFramework](https://github.com/javifalces/HFTFramework) | 311 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-11-09 | 2026-11-10 |
-| 643 | [vam876/FastBurp](https://github.com/vam876/FastBurp) | 310 | 工具 | 未明确（需查文档） | TypeScript | 2026-05-09 | 2026-11-10 |
-| 644 | [fja05680/pinkfish](https://github.com/fja05680/pinkfish) | 309 | 交易框架 | 未明确（需查文档） | Python | 2026-10-15 | 2026-11-10 |
-| 645 | [MobiusQuant/Gendangzou-skill](https://github.com/MobiusQuant/Gendangzou-skill) | 309 | Agent | A股 | Python | 2026-07-28 | 2026-11-10 |
-| 646 | [eternalcurse/PT-Accelerator](https://github.com/eternalcurse/PT-Accelerator) | 308 | 工具 | 未明确（需查文档） | Python | 2026-05-26 | 2026-11-10 |
-| 647 | [JizhiXiang/Quant-Strategy](https://github.com/JizhiXiang/Quant-Strategy) | 308 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-26 | 2026-11-10 |
-| 648 | [leoiceo/OpenSA](https://github.com/leoiceo/OpenSA) | 308 | 工具 | 未明确（需查文档） | JavaScript | 2025-02-20 | 2026-11-10 |
-| 649 | [bcefghj/learn-nano-vllm](https://github.com/bcefghj/learn-nano-vllm) | 307 | 工具 | 未明确（需查文档） | Python | 2026-04-02 | 2026-11-10 |
-| 650 | [rosasurfer/mt4-mql-framework](https://github.com/rosasurfer/mt4-mql-framework) | 307 | 工具 | 未明确（需查文档） | MQL4 | 2026-11-08 | 2026-11-10 |
-| 651 | [timhuang2003/AINEWPROJECT](https://github.com/timhuang2003/AINEWPROJECT) | 307 | 工具 | 未明确（需查文档） | TypeScript | 2025-12-07 | 2026-11-10 |
-| 652 | [bytebeats/mns](https://github.com/bytebeats/mns) | 306 | 工具 | A股、虚拟货币 | Java | 2025-06-25 | 2026-11-10 |
-| 653 | [xhlgogo/Quantitative-Investment-Trading-system](https://github.com/xhlgogo/Quantitative-Investment-Trading-system) | 306 | 工具 | 未明确（需查文档） | Python | 2024-04-06 | 2026-11-10 |
-| 654 | [sayantann11/all-classification-templetes-for-ML](https://github.com/sayantann11/all-classification-templetes-for-ML) | 305 | 工具 | 未明确（需查文档） | Python | 2024-05-15 | 2026-11-10 |
-| 655 | [hummingbot/quants-lab](https://github.com/hummingbot/quants-lab) | 304 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2025-11-04 | 2026-11-10 |
-| 656 | [sirnfs/OptionSuite](https://github.com/sirnfs/OptionSuite) | 304 | 交易框架 | 未明确（需查文档） | Python | 2026-06-01 | 2026-11-10 |
-| 657 | [YizhiSong/FriesTrader](https://github.com/YizhiSong/FriesTrader) | 304 | Agent | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
-| 658 | [CM-idea/SnowAir](https://github.com/CM-idea/SnowAir) | 303 | 工具 | 未明确（需查文档） | C++ | 2026-11-09 | 2026-11-10 |
-| 659 | [algobulls/pyalgotrading](https://github.com/algobulls/pyalgotrading) | 302 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-02-04 | 2026-11-10 |
-| 660 | [Cinderella-Man/hands-on-elixir-and-otp-cryptocurrency-trading-bot](https://github.com/Cinderella-Man/hands-on-elixir-and-otp-cryptocurrency-trading-bot) | 302 | 工具 | 虚拟货币 | CSS | 2026-05-04 | 2026-11-10 |
-| 661 | [SimFin/simfin-tutorials](https://github.com/SimFin/simfin-tutorials) | 301 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-07-30 | 2026-11-10 |
-| 662 | [Stock-Fund/XCrawler](https://github.com/Stock-Fund/XCrawler) | 301 | 工具 | A股 | Python | 2024-07-29 | 2026-11-10 |
-| 663 | [akumidv/tradingview-assistant-chrome-extension](https://github.com/akumidv/tradingview-assistant-chrome-extension) | 299 | 交易框架 | 未明确（需查文档） | JavaScript | 2026-10-18 | 2026-11-10 |
-| 664 | [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro) | 299 | 工具 | 未明确（需查文档） | Python | 2026-06-16 | 2026-11-10 |
-| 665 | [iKineticate/LinkEcho](https://github.com/iKineticate/LinkEcho) | 296 | 工具 | 未明确（需查文档） | Rust | 2026-08-21 | 2026-11-10 |
-| 666 | [soybeanjs/soybean-admin-quarkus](https://github.com/soybeanjs/soybean-admin-quarkus) | 296 | 工具 | 未明确（需查文档） | Kotlin | 2025-04-23 | 2026-11-10 |
-| 667 | [hrdZhu/modelviz-skill](https://github.com/hrdZhu/modelviz-skill) | 295 | 工具 | 未明确（需查文档） | Python | 2026-07-19 | 2026-11-10 |
-| 668 | [lo2cin4/lo2cin4bt](https://github.com/lo2cin4/lo2cin4bt) | 294 | 交易框架 | 未明确（需查文档） | Python | 2026-08-01 | 2026-11-10 |
-| 669 | [SUFE-AIFLM-Lab/FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval) | 294 | 论文研究 | 未明确（需查文档） | Python | 2025-06-23 | 2026-11-10 |
-| 670 | [finlab-python/finlab_crypto](https://github.com/finlab-python/finlab_crypto) | 293 | 交易框架 | 虚拟货币 | Python | 2026-09-24 | 2026-11-10 |
-| 671 | [finos/common-domain-model](https://github.com/finos/common-domain-model) | 293 | 工具 | 未明确（需查文档） | Java | 2026-11-09 | 2026-11-10 |
-| 672 | [ymj8903668-droid/trading-review-wiki](https://github.com/ymj8903668-droid/trading-review-wiki) | 293 | 工具 | 未明确（需查文档） | JavaScript | 2026-08-31 | 2026-11-10 |
-| 673 | [CloudWise-OpenSource/OMP](https://github.com/CloudWise-OpenSource/OMP) | 292 | 工具 | 未明确（需查文档） | Python | 2024-05-14 | 2026-11-10 |
-| 674 | [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) | 291 | Agent | 未明确（需查文档） | Python | 2026-08-22 | 2026-11-10 |
-| 675 | [quiknode-labs/hyperliquid-sdk](https://github.com/quiknode-labs/hyperliquid-sdk) | 291 | 工具 | 虚拟货币 | Python | 2026-10-27 | 2026-11-10 |
-| 676 | [BlackInspection/token-trade-telegram-bot](https://github.com/BlackInspection/token-trade-telegram-bot) | 290 | 工具 | 虚拟货币 | JavaScript | 2026-11-10 | 2026-11-10 |
-| 677 | [zookyy/crypto-sniper](https://github.com/zookyy/crypto-sniper) | 290 | 工具 | 虚拟货币 | JavaScript | 2024-03-19 | 2026-11-10 |
-| 678 | [OpenQuant-Community/quant-fund](https://github.com/OpenQuant-Community/quant-fund) | 289 | 工具 | 未明确（需查文档） |  | 2026-03-05 | 2026-11-10 |
-| 679 | [plouto-quants/FBDQA-2019A](https://github.com/plouto-quants/FBDQA-2019A) | 288 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-01-17 | 2026-11-10 |
-| 680 | [namename333/idapromcp_333](https://github.com/namename333/idapromcp_333) | 287 | 工具 | 未明确（需查文档） | Python | 2026-04-06 | 2026-11-10 |
-| 681 | [shsarv/Data-Analytics-Projects-in-python](https://github.com/shsarv/Data-Analytics-Projects-in-python) | 287 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-08-13 | 2026-11-10 |
-| 682 | [Geeksfino/finskills](https://github.com/Geeksfino/finskills) | 286 | Agent | 未明确（需查文档） | Python | 2026-03-05 | 2026-11-10 |
-| 683 | [zjp-CN/rustdx](https://github.com/zjp-CN/rustdx) | 286 | 工具 | 未明确（需查文档） | Rust | 2026-04-08 | 2026-11-10 |
-| 684 | [Tomortec/CryptoTradingAgents](https://github.com/Tomortec/CryptoTradingAgents) | 285 | Agent | 虚拟货币 | Python | 2025-12-22 | 2026-11-10 |
-| 685 | [eleven-h/n8n](https://github.com/eleven-h/n8n) | 284 | 工具 | 未明确（需查文档） |  | 2026-01-08 | 2026-11-10 |
-| 686 | [evelyyyyynnnnn/3.0-Financial-Ai-Systems](https://github.com/evelyyyyynnnnn/3.0-Financial-Ai-Systems) | 284 | 工具 | 未明确（需查文档） | HTML | 2026-11-09 | 2026-11-10 |
-| 687 | [huygiatrng/AlpacaTradingAgent](https://github.com/huygiatrng/AlpacaTradingAgent) | 284 | Agent | 美股、虚拟货币 | Python | 2026-10-27 | 2026-11-10 |
-| 688 | [qzz0518/Dukou](https://github.com/qzz0518/Dukou) | 284 | 工具 | 未明确（需查文档） | Swift | 2026-11-07 | 2026-11-10 |
-| 689 | [ALAGENT-HKU/x2strategy](https://github.com/ALAGENT-HKU/x2strategy) | 283 | Agent | 未明确（需查文档） | Python | 2026-06-12 | 2026-11-10 |
-| 690 | [infoway-api/realtime-market-data-api](https://github.com/infoway-api/realtime-market-data-api) | 283 | 工具 | 虚拟货币、期货 | Java | 2025-09-12 | 2026-11-10 |
-| 691 | [microsoft/finnts](https://github.com/microsoft/finnts) | 283 | Agent | 未明确（需查文档） | R | 2026-11-09 | 2026-11-10 |
-| 692 | [yennanliu/InvestSkill](https://github.com/yennanliu/InvestSkill) | 283 | Agent | 美股 | JavaScript | 2026-10-24 | 2026-11-10 |
-| 693 | [bye1158/Card-Tab](https://github.com/bye1158/Card-Tab) | 282 | 工具 | 未明确（需查文档） | JavaScript | 2026-01-06 | 2026-11-10 |
-| 694 | [steeply/gbot-trader](https://github.com/steeply/gbot-trader) | 281 | 工具 | 虚拟货币 | Dockerfile | 2024-05-14 | 2026-11-10 |
-| 695 | [alexey-ernest/go-hft-orderbook](https://github.com/alexey-ernest/go-hft-orderbook) | 280 | 工具 | 虚拟货币 | Go | 2023-12-18 | 2026-11-10 |
-| 696 | [shangyankeji/super-dev](https://github.com/shangyankeji/super-dev) | 280 | 工具 | 未明确（需查文档） | Python | 2026-06-19 | 2026-11-10 |
-| 697 | [sopersone/cabbage-trading-machine](https://github.com/sopersone/cabbage-trading-machine) | 279 | 论文研究 | 未明确（需查文档） | Python | 2026-09-24 | 2026-11-10 |
-| 698 | [zhouhuandev/BaseDemo](https://github.com/zhouhuandev/BaseDemo) | 279 | 工具 | 未明确（需查文档） | Java | 2025-03-24 | 2026-11-10 |
-| 699 | [fmzquant/backtest_python](https://github.com/fmzquant/backtest_python) | 278 | 交易框架 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 700 | [RUC-NLPIR/FinSight](https://github.com/RUC-NLPIR/FinSight) | 278 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-04-06 | 2026-11-10 |
-| 701 | [Lqz13Th/extrema_infra](https://github.com/Lqz13Th/extrema_infra) | 277 | 工具 | 虚拟货币 | Rust | 2026-10-27 | 2026-11-10 |
-| 702 | [mbk-dev/okama](https://github.com/mbk-dev/okama) | 277 | 工具 | 未明确（需查文档） | Python | 2026-10-27 | 2026-11-10 |
-| 703 | [pow1e/pfish](https://github.com/pow1e/pfish) | 277 | 工具 | 未明确（需查文档） | Go | 2024-11-28 | 2026-11-10 |
-| 704 | [sese972010/CloudNav-](https://github.com/sese972010/CloudNav-) | 277 | 工具 | 未明确（需查文档） | TypeScript | 2025-12-17 | 2026-11-10 |
-| 705 | [zhanggao2013/AmazingQuant](https://github.com/zhanggao2013/AmazingQuant) | 277 | 论文研究 | 未明确（需查文档） | C++ | 2024-04-03 | 2026-11-10 |
-| 706 | [EA31337/EA31337-classes](https://github.com/EA31337/EA31337-classes) | 276 | 工具 | 未明确（需查文档） | MQL5 | 2026-04-22 | 2026-11-10 |
-| 707 | [wangxb96/RAG-QA-Generator](https://github.com/wangxb96/RAG-QA-Generator) | 276 | 工具 | 未明确（需查文档） | Python | 2024-12-26 | 2026-11-10 |
-| 708 | [fqgate/FQGate-agent](https://github.com/fqgate/FQGate-agent) | 275 | Agent | A股 | TypeScript | 2026-11-04 | 2026-11-10 |
-| 709 | [mammuth/bitcoin-arbitrage-trading-bot](https://github.com/mammuth/bitcoin-arbitrage-trading-bot) | 275 | 工具 | 虚拟货币 | JavaScript | 2025-03-05 | 2026-11-10 |
-| 710 | [hieuwu/android-groceries-store](https://github.com/hieuwu/android-groceries-store) | 274 | 工具 | 未明确（需查文档） | Kotlin | 2025-10-22 | 2026-11-10 |
-| 711 | [Philip-Cao-9527/code-note-helper](https://github.com/Philip-Cao-9527/code-note-helper) | 274 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-15 | 2026-11-10 |
-| 712 | [UditGupta10/GPT-InvestAR](https://github.com/UditGupta10/GPT-InvestAR) | 271 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-08-02 | 2026-11-10 |
-| 713 | [WeBankFinTech/Visualis](https://github.com/WeBankFinTech/Visualis) | 271 | 工具 | 未明确（需查文档） | TypeScript | 2025-01-02 | 2026-11-10 |
-| 714 | [alipay/financial_evaluation_dataset](https://github.com/alipay/financial_evaluation_dataset) | 270 | 工具 | 未明确（需查文档） | Python | 2023-12-25 | 2026-11-10 |
-| 715 | [fluidex/dingir-exchange](https://github.com/fluidex/dingir-exchange) | 269 | 交易框架 | 虚拟货币 | Rust | 2026-06-12 | 2026-11-10 |
-| 716 | [LAY-lgtm/novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework) | 269 | 工具 | 未明确（需查文档） |  | 2026-05-31 | 2026-11-10 |
-| 717 | [QuantMLResearch/QuantML](https://github.com/QuantMLResearch/QuantML) | 269 | 论文研究 | 因子 | HTML | 2025-07-24 | 2026-11-10 |
-| 718 | [wang4386/CDT-Monitor](https://github.com/wang4386/CDT-Monitor) | 269 | 工具 | 未明确（需查文档） | Go | 2026-11-06 | 2026-11-10 |
-| 719 | [BYTEX-TRADE/bytex](https://github.com/BYTEX-TRADE/bytex) | 267 | 论文研究 | 虚拟货币 | C# | 2026-10-02 | 2026-11-10 |
-| 720 | [randomwalkhan/Short-Term-Reversal-Strategy](https://github.com/randomwalkhan/Short-Term-Reversal-Strategy) | 267 | Agent | 虚拟货币 | Jupyter Notebook | 2026-11-09 | 2026-11-10 |
-| 721 | [sunsvip/PSD2UGUI_X](https://github.com/sunsvip/PSD2UGUI_X) | 267 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-05 | 2026-11-10 |
-| 722 | [l2999019/GZY.Quartz.MUI](https://github.com/l2999019/GZY.Quartz.MUI) | 265 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-03 | 2026-11-10 |
-| 723 | [tradingstrategy-ai/getting-started](https://github.com/tradingstrategy-ai/getting-started) | 265 | 交易框架 | 虚拟货币 | Jupyter Notebook | 2026-10-26 | 2026-11-10 |
-| 724 | [PyneSys/pynecore](https://github.com/PyneSys/pynecore) | 264 | 交易框架 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 725 | [ZgDaniel/cc-web](https://github.com/ZgDaniel/cc-web) | 264 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-08 | 2026-11-10 |
-| 726 | [guangxiangdebizi/QMT-MCP](https://github.com/guangxiangdebizi/QMT-MCP) | 261 | 工具 | 期货 | Python | 2025-07-17 | 2026-11-10 |
-| 727 | [ManojKumarPatnaik/Major-project-list](https://github.com/ManojKumarPatnaik/Major-project-list) | 261 | 论文研究 | 因子 |  | 2025-07-29 | 2026-11-10 |
-| 728 | [BlockRunAI/awesome-finance-mcp](https://github.com/BlockRunAI/awesome-finance-mcp) | 260 | Agent | 虚拟货币 |  | 2026-09-05 | 2026-11-10 |
-| 729 | [shouldnotappearcalm/a-share-skill](https://github.com/shouldnotappearcalm/a-share-skill) | 260 | Agent | A股 | Python | 2026-10-11 | 2026-11-10 |
-| 730 | [srikar-kodakandla/fully-automated-nifty-options-trading](https://github.com/srikar-kodakandla/fully-automated-nifty-options-trading) | 260 | 交易框架 | 未明确（需查文档） | Python | 2024-10-10 | 2026-11-10 |
-| 731 | [Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) | 260 | 论文研究 | 未明确（需查文档） |  | 2026-07-24 | 2026-11-10 |
-| 732 | [binance/binance-connector-dotnet](https://github.com/binance/binance-connector-dotnet) | 259 | 工具 | 虚拟货币 | C# | 2024-06-18 | 2026-11-10 |
-| 733 | [dearvn/trading-futures-tradingview-script](https://github.com/dearvn/trading-futures-tradingview-script) | 259 | 工具 | 期货 |  | 2026-09-12 | 2026-11-10 |
-| 734 | [Chen-zexi/LangAlpha](https://github.com/Chen-zexi/LangAlpha) | 258 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-10-05 | 2026-11-10 |
-| 735 | [rmcmillan34/algorithmic-trading-learning-roadmap](https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap) | 258 | 工具 | 未明确（需查文档） | Shell | 2026-02-07 | 2026-11-10 |
-| 736 | [Rockyzsu/convertible_bond](https://github.com/Rockyzsu/convertible_bond) | 258 | 工具 | 未明确（需查文档） | Python | 2026-01-22 | 2026-11-10 |
-| 737 | [FTShare-Lab/FTShare-MCP](https://github.com/FTShare-Lab/FTShare-MCP) | 257 | Agent | 因子 |  | 2026-10-09 | 2026-11-10 |
-| 738 | [WildDataX/suppr-mcp](https://github.com/WildDataX/suppr-mcp) | 257 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-09 | 2026-11-10 |
-| 739 | [different-ai/agent-bank](https://github.com/different-ai/agent-bank) | 256 | Agent | 未明确（需查文档） | TypeScript | 2026-04-03 | 2026-11-10 |
-| 740 | [WEP-56/EZVenera](https://github.com/WEP-56/EZVenera) | 256 | 工具 | 未明确（需查文档） | Dart | 2026-11-09 | 2026-11-10 |
-| 741 | [alexazhou/gt_ai_gateway](https://github.com/alexazhou/gt_ai_gateway) | 255 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
-| 742 | [Petersoj/alpaca-java](https://github.com/Petersoj/alpaca-java) | 255 | 工具 | 美股、虚拟货币 | Java | 2026-09-26 | 2026-11-10 |
-| 743 | [Sunnnnch/electro_data_process_tool](https://github.com/Sunnnnch/electro_data_process_tool) | 255 | 工具 | 未明确（需查文档） | Python | 2026-09-09 | 2026-11-10 |
-| 744 | [virattt/financial-agent](https://github.com/virattt/financial-agent) | 255 | Agent | 未明确（需查文档） | Python | 2024-04-01 | 2026-11-10 |
-| 745 | [sorry510/go_binance_futures](https://github.com/sorry510/go_binance_futures) | 254 | Agent | 虚拟货币、期货 | Go | 2026-11-10 | 2026-11-10 |
-| 746 | [thanhnguyennguyen/trading-indicator](https://github.com/thanhnguyennguyen/trading-indicator) | 254 | 工具 | 虚拟货币 | JavaScript | 2026-06-15 | 2026-11-10 |
-| 747 | [austin-starks/EOD-GPT](https://github.com/austin-starks/EOD-GPT) | 253 | 工具 | 未明确（需查文档） | TypeScript | 2025-07-19 | 2026-11-10 |
-| 748 | [gauss314/skills](https://github.com/gauss314/skills) | 253 | Agent | 未明确（需查文档） | Python | 2026-06-14 | 2026-11-10 |
-| 749 | [Ooples-Finance-LLC/OoplesFinance.StockIndicators](https://github.com/Ooples-Finance-LLC/OoplesFinance.StockIndicators) | 253 | 交易框架 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
-| 750 | [betcode-org/flumine](https://github.com/betcode-org/flumine) | 252 | 交易框架 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 751 | [ericcccsliu/imc-prosperity-2](https://github.com/ericcccsliu/imc-prosperity-2) | 252 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2024-05-22 | 2026-11-10 |
-| 752 | [dylanpersonguy/OpenCharts](https://github.com/dylanpersonguy/OpenCharts) | 249 | 工具 | 虚拟货币 | TypeScript | 2026-11-02 | 2026-11-10 |
-| 753 | [hchcx/fanqie_auto_publish](https://github.com/hchcx/fanqie_auto_publish) | 249 | 工具 | 未明确（需查文档） | Python | 2026-04-28 | 2026-11-10 |
-| 754 | [SiYuan-2002/PrettySQL](https://github.com/SiYuan-2002/PrettySQL) | 249 | 工具 | 未明确（需查文档） | Java | 2025-06-27 | 2026-11-10 |
-| 755 | [luguoli/ComfyUI-Qwen-Image-Integrated-KSampler](https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler) | 248 | 工具 | 未明确（需查文档） | Python | 2025-12-19 | 2026-11-10 |
-| 756 | [rsandx/AlphaSuite](https://github.com/rsandx/AlphaSuite) | 248 | 交易框架 | 未明确（需查文档） | Python | 2026-10-10 | 2026-11-10 |
-| 757 | [zzhahn/a_stock_level2_data](https://github.com/zzhahn/a_stock_level2_data) | 248 | Agent | A股 |  | 2026-11-02 | 2026-11-10 |
-| 758 | [ceyyy427/finathink](https://github.com/ceyyy427/finathink) | 247 | 论文研究 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 759 | [ceyyy427/finathink](https://github.com/ceyyy427/finathink) | 247 | 论文研究 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 760 | [LiamConnell/deep-algotrading](https://github.com/LiamConnell/deep-algotrading) | 247 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-06-10 | 2026-11-10 |
-| 761 | [pierridotite/stonks-dashboard](https://github.com/pierridotite/stonks-dashboard) | 247 | 工具 | 虚拟货币 | JavaScript | 2026-09-07 | 2026-11-10 |
-| 762 | [tangredtea/Spring-Blog](https://github.com/tangredtea/Spring-Blog) | 247 | 工具 | 未明确（需查文档） | Java | 2026-03-12 | 2026-11-10 |
-| 763 | [sumingyd/guangyu](https://github.com/sumingyd/guangyu) | 246 | 工具 | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
-| 764 | [The-Knowledge-Graph-Guys/vault-ld](https://github.com/The-Knowledge-Graph-Guys/vault-ld) | 246 | Agent | A股 | Python | 2026-10-29 | 2026-11-10 |
-| 765 | [zwldarren/akshare-one-mcp](https://github.com/zwldarren/akshare-one-mcp) | 246 | 工具 | A股 | Python | 2026-11-05 | 2026-11-10 |
-| 766 | [daniel3303/Equibles](https://github.com/daniel3303/Equibles) | 244 | Agent | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
-| 767 | [DresdenGman/EPSILON-trading-simulator](https://github.com/DresdenGman/EPSILON-trading-simulator) | 244 | 论文研究 | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
-| 768 | [EthanXiang777/circuit-framework](https://github.com/EthanXiang777/circuit-framework) | 244 | Agent | 未明确（需查文档） | Python | 2026-07-16 | 2026-11-10 |
-| 769 | [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) | 244 | 工具 | 未明确（需查文档） | Fortran | 2026-11-10 | 2026-11-10 |
-| 770 | [chjm-ai/stock-daily-analysis-skill](https://github.com/chjm-ai/stock-daily-analysis-skill) | 243 | 工具 | 未明确（需查文档） | Python | 2026-02-04 | 2026-11-10 |
-| 771 | [KOSASIH/eulers-shield](https://github.com/KOSASIH/eulers-shield) | 243 | 工具 | 未明确（需查文档） | Python | 2025-06-21 | 2026-11-10 |
-| 772 | [liangdabiao/hyperframes-fix](https://github.com/liangdabiao/hyperframes-fix) | 243 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-10 | 2026-11-10 |
-| 773 | [Stars-OC/thesis-creator](https://github.com/Stars-OC/thesis-creator) | 242 | Agent | 未明确（需查文档） | Python | 2026-06-02 | 2026-11-10 |
-| 774 | [WenjieDu/TSDB](https://github.com/WenjieDu/TSDB) | 242 | 工具 | 未明确（需查文档） | Python | 2026-10-26 | 2026-11-10 |
-| 775 | [cylind/scribe2srt](https://github.com/cylind/scribe2srt) | 241 | 工具 | 未明确（需查文档） | Python | 2026-06-04 | 2026-11-10 |
-| 776 | [enryteam/bigscreen](https://github.com/enryteam/bigscreen) | 241 | 工具 | 未明确（需查文档） | JavaScript | 2024-03-12 | 2026-11-10 |
-| 777 | [LianjiaTech/bella-openapi](https://github.com/LianjiaTech/bella-openapi) | 241 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
-| 778 | [PFund-Software-Ltd/pytrade.org](https://github.com/PFund-Software-Ltd/pytrade.org) | 240 | 交易框架 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 779 | [cmallwitz/Financials-Extension](https://github.com/cmallwitz/Financials-Extension) | 239 | 工具 | 未明确（需查文档） | Python | 2026-03-28 | 2026-11-10 |
-| 780 | [rnikitin/QuantNavigator](https://github.com/rnikitin/QuantNavigator) | 239 | 论文研究 | 虚拟货币 |  | 2026-11-06 | 2026-11-10 |
-| 781 | [zsrl/miniqmt-demo](https://github.com/zsrl/miniqmt-demo) | 238 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-08-01 | 2026-11-10 |
-| 782 | [thisiszhou/CTBZStock](https://github.com/thisiszhou/CTBZStock) | 237 | 工具 | A股 | Python | 2026-07-21 | 2026-11-10 |
-| 783 | [hstcscolor/awesome-trade](https://github.com/hstcscolor/awesome-trade) | 235 | 工具 | 未明确（需查文档） |  | 2026-04-28 | 2026-11-10 |
-| 784 | [Bitget-AI/agent_hub](https://github.com/Bitget-AI/agent_hub) | 234 | Agent | 虚拟货币 | JavaScript | 2026-06-30 | 2026-11-10 |
-| 785 | [leonyangdev/UltimateRAG](https://github.com/leonyangdev/UltimateRAG) | 233 | Agent | 未明确（需查文档） | Python | 2026-09-01 | 2026-11-10 |
-| 786 | [WISEPLAT/backtrader_binance](https://github.com/WISEPLAT/backtrader_binance) | 233 | 交易框架 | 虚拟货币 | Python | 2024-09-30 | 2026-11-10 |
-| 787 | [DigitalAllianceStudio/HSS_DataVisualizer](https://github.com/DigitalAllianceStudio/HSS_DataVisualizer) | 232 | 工具 | 未明确（需查文档） |  | 2026-10-08 | 2026-11-10 |
-| 788 | [Superior-Trade/superior-skills](https://github.com/Superior-Trade/superior-skills) | 232 | Agent | 未明确（需查文档） | JavaScript | 2026-09-10 | 2026-11-10 |
-| 789 | [byrnexu/betterquant](https://github.com/byrnexu/betterquant) | 231 | 工具 | 虚拟货币、期货 | C++ | 2024-06-06 | 2026-11-10 |
-| 790 | [lrvx/lrvx](https://github.com/lrvx/lrvx) | 231 | 交易框架 | 未明确（需查文档） | C++ | 2026-11-09 | 2026-11-10 |
-| 791 | [lrvx/lrvx](https://github.com/lrvx/lrvx) | 231 | 交易框架 | 未明确（需查文档） | C++ | 2026-11-09 | 2026-11-10 |
-| 792 | [oldratlee/software-practice-thoughts](https://github.com/oldratlee/software-practice-thoughts) | 231 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-01-08 | 2026-11-10 |
-| 793 | [wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil) | 231 | 交易框架 | 未明确（需查文档） | Rust | 2026-10-25 | 2026-11-10 |
-| 794 | [jeecgboot/MiniDao](https://github.com/jeecgboot/MiniDao) | 230 | 工具 | 未明确（需查文档） | Java | 2026-09-28 | 2026-11-10 |
-| 795 | [FreedomIntelligence/TwinMarket](https://github.com/FreedomIntelligence/TwinMarket) | 229 | Agent | 未明确（需查文档） | Python | 2026-03-07 | 2026-11-10 |
-| 796 | [WeBankFinTech/wxa](https://github.com/WeBankFinTech/wxa) | 229 | 工具 | 未明确（需查文档） | JavaScript | 2025-04-09 | 2026-11-10 |
-| 797 | [123quant/QMT-QuantLimit](https://github.com/123quant/QMT-QuantLimit) | 228 | 论文研究 | A股 | Python | 2025-01-16 | 2026-11-10 |
-| 798 | [alisonmitchell/Stock-Prediction](https://github.com/alisonmitchell/Stock-Prediction) | 228 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-08-21 | 2026-11-10 |
-| 799 | [DogsTailFarmer/martin-binance](https://github.com/DogsTailFarmer/martin-binance) | 228 | 交易框架 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
-| 800 | [hugocen/freqtrade-gym](https://github.com/hugocen/freqtrade-gym) | 228 | 工具 | 虚拟货币 | Python | 2026-01-08 | 2026-11-10 |
-| 801 | [fzn0x/idx](https://github.com/fzn0x/idx) | 227 | Agent | 未明确（需查文档） | Rust | 2026-11-09 | 2026-11-10 |
-| 802 | [stanleylsx/llms_tool](https://github.com/stanleylsx/llms_tool) | 226 | 工具 | 未明确（需查文档） | Python | 2023-12-08 | 2026-11-10 |
-| 803 | [IndexOutOfBounds998/quant4j](https://github.com/IndexOutOfBounds998/quant4j) | 225 | 工具 | 虚拟货币 | Java | 2023-12-05 | 2026-11-10 |
-| 804 | [0x727/BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727) | 224 | 工具 | 未明确（需查文档） | PHP | 2025-02-08 | 2026-11-10 |
-| 805 | [ahnazary/stockdex](https://github.com/ahnazary/stockdex) | 224 | 工具 | 未明确（需查文档） | Python | 2026-10-31 | 2026-11-10 |
-| 806 | [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) | 223 | Agent | 虚拟货币 | Python | 2026-07-12 | 2026-11-10 |
-| 807 | [Chras-fu/Liuma-platform](https://github.com/Chras-fu/Liuma-platform) | 222 | 工具 | 未明确（需查文档） | Vue | 2024-03-14 | 2026-11-10 |
-| 808 | [codernmx/Pycode](https://github.com/codernmx/Pycode) | 221 | 工具 | 未明确（需查文档） | Python | 2024-11-20 | 2026-11-10 |
-| 809 | [liqimore/quant-qmt-proxy](https://github.com/liqimore/quant-qmt-proxy) | 221 | 工具 | 未明确（需查文档） | Python | 2026-04-26 | 2026-11-10 |
-| 810 | [ruochuan12/mini-ci](https://github.com/ruochuan12/mini-ci) | 221 | 工具 | 未明确（需查文档） | TypeScript | 2024-08-09 | 2026-11-10 |
-| 811 | [braedonsaunders/homerun](https://github.com/braedonsaunders/homerun) | 220 | 论文研究 | 虚拟货币 | Python | 2026-10-27 | 2026-11-10 |
-| 812 | [continew-org/continew-starter](https://github.com/continew-org/continew-starter) | 220 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
-| 813 | [cove9988/TradingGym](https://github.com/cove9988/TradingGym) | 220 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-09-23 | 2026-11-10 |
-| 814 | [JDArmy/RTASS](https://github.com/JDArmy/RTASS) | 220 | 工具 | 未明确（需查文档） | Vue | 2026-03-02 | 2026-11-10 |
-| 815 | [OnePunchMonk/AgentQuant](https://github.com/OnePunchMonk/AgentQuant) | 220 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 816 | [alanvito1/ORSTAC](https://github.com/alanvito1/ORSTAC) | 219 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 817 | [geeeeeeeek/QuantStudy](https://github.com/geeeeeeeek/QuantStudy) | 219 | 工具 | 未明确（需查文档） | Python | 2026-06-08 | 2026-11-10 |
-| 818 | [saeed349/Deep-Reinforcement-Learning-in-Trading](https://github.com/saeed349/Deep-Reinforcement-Learning-in-Trading) | 219 | Agent | 未明确（需查文档） | Jupyter Notebook | 2023-11-18 | 2026-11-10 |
-| 819 | [cyberjunky/3commas-cyber-bots](https://github.com/cyberjunky/3commas-cyber-bots) | 218 | 工具 | 虚拟货币 | Python | 2026-10-26 | 2026-11-10 |
-| 820 | [StrateQueue/StrateQueue](https://github.com/StrateQueue/StrateQueue) | 218 | 交易框架 | 未明确（需查文档） | Python | 2026-05-19 | 2026-11-10 |
-| 821 | [zero-was-here/tradingbot](https://github.com/zero-was-here/tradingbot) | 218 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 822 | [bellingcat/EDGAR](https://github.com/bellingcat/EDGAR) | 217 | 论文研究 | 未明确（需查文档） | Python | 2025-05-15 | 2026-11-10 |
-| 823 | [donewiththedollar/directionalscalper](https://github.com/donewiththedollar/directionalscalper) | 217 | 交易框架 | 未明确（需查文档） | Python | 2026-10-24 | 2026-11-10 |
-| 824 | [Enping-Hu/minimind-deep-dive](https://github.com/Enping-Hu/minimind-deep-dive) | 217 | 工具 | 未明确（需查文档） | Python | 2026-10-21 | 2026-11-10 |
-| 825 | [outpoot/rugplay](https://github.com/outpoot/rugplay) | 217 | 工具 | 虚拟货币 | Svelte | 2026-11-09 | 2026-11-10 |
-| 826 | [Yijia-Xiao/FinanceHarness](https://github.com/Yijia-Xiao/FinanceHarness) | 217 | Agent | 未明确（需查文档） | Python | 2026-08-22 | 2026-11-10 |
-| 827 | [financial-data-science/CFDS](https://github.com/financial-data-science/CFDS) | 216 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-07-25 | 2026-11-10 |
-| 828 | [mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8](https://github.com/mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8) | 215 | Agent | A股、虚拟货币、期货 | HTML | 2026-02-05 | 2026-11-10 |
-| 829 | [Quantreo/2nd-edition-BOOK-AMAZON-Python-for-Finance-and-Algorithmic-Trading](https://github.com/Quantreo/2nd-edition-BOOK-AMAZON-Python-for-Finance-and-Algorithmic-Trading) | 215 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-04-16 | 2026-11-10 |
-| 830 | [xywml/PaperGrid](https://github.com/xywml/PaperGrid) | 215 | 论文研究 | 未明确（需查文档） | TypeScript | 2026-09-08 | 2026-11-10 |
-| 831 | [ZhuLinsen/alphaevo](https://github.com/ZhuLinsen/alphaevo) | 215 | Agent | 未明确（需查文档） | Python | 2026-07-03 | 2026-11-10 |
-| 832 | [0ldFive/Vue-Print-Designer](https://github.com/0ldFive/Vue-Print-Designer) | 214 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
-| 833 | [UFund-Me/UFund-miniprogram](https://github.com/UFund-Me/UFund-miniprogram) | 214 | 论文研究 | 未明确（需查文档） | JavaScript | 2025-02-23 | 2026-11-10 |
-| 834 | [harveybc/gym-fx](https://github.com/harveybc/gym-fx) | 213 | 交易框架 | 虚拟货币 | Python | 2026-10-28 | 2026-11-10 |
-| 835 | [4xian/claude-codex-api](https://github.com/4xian/claude-codex-api) | 211 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-16 | 2026-11-10 |
-| 836 | [agentii-ai/agentii-investment-intelligence](https://github.com/agentii-ai/agentii-investment-intelligence) | 210 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 837 | [Lynnette177/GirlHook](https://github.com/Lynnette177/GirlHook) | 210 | 工具 | 未明确（需查文档） | C++ | 2025-07-17 | 2026-11-10 |
-| 838 | [rosemarycox5334-debug/Detect_support_and_resistance_levels](https://github.com/rosemarycox5334-debug/Detect_support_and_resistance_levels) | 210 | 工具 | 虚拟货币、期货 | Python | 2026-09-10 | 2026-11-10 |
-| 839 | [ringoshinnytech/tqsdk-strategies](https://github.com/ringoshinnytech/tqsdk-strategies) | 209 | 工具 | 期货 | Python | 2026-08-06 | 2026-11-10 |
-| 840 | [AI4Finance-Foundation/FinRL_Crypto](https://github.com/AI4Finance-Foundation/FinRL_Crypto) | 208 | 论文研究 | 虚拟货币 | Python | 2025-12-15 | 2026-11-10 |
-| 841 | [cloudQuant/backtrader](https://github.com/cloudQuant/backtrader) | 208 | 交易框架 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 842 | [dwebagents/AgentPipe](https://github.com/dwebagents/AgentPipe) | 208 | Agent | 虚拟货币 | Python | 2026-11-08 | 2026-11-10 |
-| 843 | [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) | 208 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 844 | [odinsoft-lab/ccxt.net](https://github.com/odinsoft-lab/ccxt.net) | 208 | 工具 | 虚拟货币 | C# | 2026-02-27 | 2026-11-10 |
-| 845 | [a63414262/CF-Server-Monitor-Pro](https://github.com/a63414262/CF-Server-Monitor-Pro) | 207 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-09 | 2026-11-10 |
-| 846 | [drstevendev/ElliottWaveAnalyzer](https://github.com/drstevendev/ElliottWaveAnalyzer) | 207 | 工具 | 未明确（需查文档） | Python | 2024-06-05 | 2026-11-10 |
-| 847 | [MilleXi/stock_trading](https://github.com/MilleXi/stock_trading) | 207 | Agent | 未明确（需查文档） | Python | 2025-04-13 | 2026-11-10 |
-| 848 | [MkvAutoSubset/MkvAutoSubset](https://github.com/MkvAutoSubset/MkvAutoSubset) | 207 | 工具 | 未明确（需查文档） | Go | 2025-04-19 | 2026-11-10 |
-| 849 | [pineforge-4pass/pineforge-engine](https://github.com/pineforge-4pass/pineforge-engine) | 207 | 交易框架 | 虚拟货币 | C++ | 2026-11-10 | 2026-11-10 |
-| 850 | [v3ucn/Causallm14b_llama_webui_adult_version](https://github.com/v3ucn/Causallm14b_llama_webui_adult_version) | 207 | 工具 | 未明确（需查文档） | Python | 2024-02-23 | 2026-11-10 |
-| 851 | [kay-ou/ptradeAPI](https://github.com/kay-ou/ptradeAPI) | 205 | 交易框架 | 期货 | Python | 2026-04-09 | 2026-11-10 |
-| 852 | [erhardtconsulting/tensortrade-ng](https://github.com/erhardtconsulting/tensortrade-ng) | 204 | 工具 | 未明确（需查文档） | Python | 2024-08-28 | 2026-11-10 |
-| 853 | [imsatoshi/GeneTrader](https://github.com/imsatoshi/GeneTrader) | 204 | 工具 | 未明确（需查文档） | Python | 2026-07-29 | 2026-11-10 |
-| 854 | [OrangesHuang/Resonance](https://github.com/OrangesHuang/Resonance) | 204 | Agent | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
-| 855 | [jo-cho/Technical_Analysis_and_Feature_Engineering](https://github.com/jo-cho/Technical_Analysis_and_Feature_Engineering) | 203 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-16 | 2026-11-10 |
-| 856 | [pseudo-longinus/quant-buddy-skills](https://github.com/pseudo-longinus/quant-buddy-skills) | 203 | Agent | 美股、A股、期货、因子 | Python | 2026-11-10 | 2026-11-10 |
-| 857 | [SpringSunYY/LZ-litchi](https://github.com/SpringSunYY/LZ-litchi) | 203 | 工具 | 未明确（需查文档） | Java | 2026-10-25 | 2026-11-10 |
-| 858 | [vjmap/vjmap-playground](https://github.com/vjmap/vjmap-playground) | 203 | 工具 | 未明确（需查文档） | JavaScript | 2026-03-12 | 2026-11-10 |
-| 859 | [XTmingyue/harnessNovel](https://github.com/XTmingyue/harnessNovel) | 203 | Agent | 未明确（需查文档） | Python | 2026-08-23 | 2026-11-10 |
-| 860 | [zzjcode-com/Quickly-Use-Jetpack-Compose](https://github.com/zzjcode-com/Quickly-Use-Jetpack-Compose) | 203 | 工具 | 未明确（需查文档） | Kotlin | 2026-08-05 | 2026-11-10 |
-| 861 | [bigmacman1129/crypto-ai-trading-bot](https://github.com/bigmacman1129/crypto-ai-trading-bot) | 200 | Agent | 虚拟货币 | JavaScript | 2026-08-25 | 2026-11-10 |
-| 862 | [CharlesJ-ABu/FactorMiner](https://github.com/CharlesJ-ABu/FactorMiner) | 200 | 论文研究 | 因子 | Python | 2026-07-27 | 2026-11-10 |
-| 863 | [joutaojian/arkvol-skill](https://github.com/joutaojian/arkvol-skill) | 200 | Agent | 未明确（需查文档） | Python | 2026-07-27 | 2026-11-10 |
-| 864 | [nominhanggai/szaboqc](https://github.com/nominhanggai/szaboqc) | 200 | 工具 | 未明确（需查文档） | TeX | 2026-09-08 | 2026-11-10 |
-| 865 | [PacktPublishing/Building-AI-Agents-for-Finance](https://github.com/PacktPublishing/Building-AI-Agents-for-Finance) | 200 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-10-19 | 2026-11-10 |
-| 866 | [380992846-tech/My-Project](https://github.com/380992846-tech/My-Project) | 198 | 工具 | 未明确（需查文档） | HTML | 2026-10-24 | 2026-11-10 |
-| 867 | [clklog/clklog](https://github.com/clklog/clklog) | 198 | 工具 | 未明确（需查文档） | Java | 2026-11-03 | 2026-11-10 |
-| 868 | [DSPCalculator/dsp-calc](https://github.com/DSPCalculator/dsp-calc) | 198 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-06 | 2026-11-10 |
-| 869 | [sz8887031-bot/kol-claw](https://github.com/sz8887031-bot/kol-claw) | 198 | 工具 | 未明确（需查文档） | Python | 2026-03-16 | 2026-11-10 |
-| 870 | [zer0quant/zer0share](https://github.com/zer0quant/zer0share) | 198 | 工具 | A股、期货 | Python | 2026-11-07 | 2026-11-10 |
-| 871 | [LDLINGLINGLING/adan_application](https://github.com/LDLINGLINGLING/adan_application) | 197 | 工具 | 未明确（需查文档） | Python | 2026-01-30 | 2026-11-10 |
-| 872 | [LukePrior/Australian-Open-Banking-Data-Database](https://github.com/LukePrior/Australian-Open-Banking-Data-Database) | 197 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 873 | [YicunAI/Pnlclaw-community](https://github.com/YicunAI/Pnlclaw-community) | 196 | 交易框架 | 虚拟货币 | Python | 2026-04-08 | 2026-11-10 |
-| 874 | [DegenSugarBoo/OpenBook](https://github.com/DegenSugarBoo/OpenBook) | 194 | 工具 | 虚拟货币、期货 | Rust | 2026-03-02 | 2026-11-10 |
-| 875 | [The-Swarm-Corporation/swarms-rs](https://github.com/The-Swarm-Corporation/swarms-rs) | 194 | Agent | 未明确（需查文档） | Rust | 2026-10-26 | 2026-11-10 |
-| 876 | [baiziyu2002git/ZiyuQuant](https://github.com/baiziyu2002git/ZiyuQuant) | 193 | 论文研究 | 因子 | Python | 2026-11-04 | 2026-11-10 |
-| 877 | [cropflre/nowen-reader](https://github.com/cropflre/nowen-reader) | 193 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
-| 878 | [LAVARONG/wechat-automation-api](https://github.com/LAVARONG/wechat-automation-api) | 193 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 879 | [marketcalls/openalgo-charts](https://github.com/marketcalls/openalgo-charts) | 193 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-10-27 | 2026-11-10 |
-| 880 | [ArsenAbazian/CryptoTradingFramework](https://github.com/ArsenAbazian/CryptoTradingFramework) | 192 | 交易框架 | 虚拟货币 | C# | 2025-05-12 | 2026-11-10 |
-| 881 | [clawyi-com/china-market-data](https://github.com/clawyi-com/china-market-data) | 192 | Agent | A股、期货 | Python | 2026-09-28 | 2026-11-10 |
-| 882 | [JustinGongjj/chan-structure-workstation](https://github.com/JustinGongjj/chan-structure-workstation) | 192 | 工具 | A股、虚拟货币 | JavaScript | 2026-11-09 | 2026-11-10 |
-| 883 | [Polytutor-AI-Labs/polymarket-black-scholes-hft-bot](https://github.com/Polytutor-AI-Labs/polymarket-black-scholes-hft-bot) | 192 | 论文研究 | 虚拟货币 | Python | 2026-10-15 | 2026-11-10 |
-| 884 | [binance/binance-futures-connector-java](https://github.com/binance/binance-futures-connector-java) | 191 | 工具 | 虚拟货币、期货 | Java | 2025-04-25 | 2026-11-10 |
-| 885 | [Neon549/AlphaStock](https://github.com/Neon549/AlphaStock) | 190 | Agent | A股 | Python | 2026-08-29 | 2026-11-10 |
-| 886 | [yuxie2025/StarTools](https://github.com/yuxie2025/StarTools) | 190 | 游戏 | 未明确（需查文档） | JavaScript | 2023-11-13 | 2026-11-10 |
-| 887 | [bhoult/correlation](https://github.com/bhoult/correlation) | 189 | 工具 | 未明确（需查文档） | Python | 2026-10-31 | 2026-11-10 |
-| 888 | [ziguishian/brand-design-skill](https://github.com/ziguishian/brand-design-skill) | 189 | Agent | 未明确（需查文档） |  | 2026-06-27 | 2026-11-10 |
-| 889 | [iohao/ionet](https://github.com/iohao/ionet) | 188 | 游戏 | 未明确（需查文档） | Java | 2026-08-06 | 2026-11-10 |
-| 890 | [JiaqiLi404/IAmDirector-Text2Video-NextJS-Client](https://github.com/JiaqiLi404/IAmDirector-Text2Video-NextJS-Client) | 188 | 工具 | 未明确（需查文档） | JavaScript | 2024-03-14 | 2026-11-10 |
-| 891 | [liangdabiao/crewai_stock_analysis_system](https://github.com/liangdabiao/crewai_stock_analysis_system) | 188 | Agent | 未明确（需查文档） | Python | 2025-09-18 | 2026-11-10 |
-| 892 | [kingdee/lingee-bench](https://github.com/kingdee/lingee-bench) | 187 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
-| 893 | [uerax/all-in-one-bot](https://github.com/uerax/all-in-one-bot) | 187 | 工具 | 虚拟货币 | Go | 2026-09-17 | 2026-11-10 |
-| 894 | [sharzoy/auto-job-apply](https://github.com/sharzoy/auto-job-apply) | 186 | Agent | 未明确（需查文档） | Python | 2026-08-18 | 2026-11-10 |
-| 895 | [cacity/VideoHub](https://github.com/cacity/VideoHub) | 185 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
-| 896 | [Omar-Karimov/ChartScanAI](https://github.com/Omar-Karimov/ChartScanAI) | 185 | 工具 | 虚拟货币 | Python | 2024-06-29 | 2026-11-10 |
-| 897 | [wudengyao/stock-analysis-team](https://github.com/wudengyao/stock-analysis-team) | 185 | Agent | 未明确（需查文档） | HTML | 2026-09-23 | 2026-11-10 |
-| 898 | [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) | 184 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
-| 899 | [joemccann/market-data-warehouse](https://github.com/joemccann/market-data-warehouse) | 184 | 工具 | 未明确（需查文档） | Python | 2026-03-30 | 2026-11-10 |
-| 900 | [LilianaMajamay/AlphaGPT_Tushare](https://github.com/LilianaMajamay/AlphaGPT_Tushare) | 184 | 交易框架 | A股、因子 | Python | 2026-01-25 | 2026-11-10 |
-| 901 | [noimank/easyths](https://github.com/noimank/easyths) | 184 | 工具 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
-| 902 | [Markfans/cryptoquant-ai](https://github.com/Markfans/cryptoquant-ai) | 183 | 交易框架 | 虚拟货币 | TypeScript | 2026-05-01 | 2026-11-10 |
-| 903 | [VanGong1999/juben](https://github.com/VanGong1999/juben) | 183 | Agent | 未明确（需查文档） | Python | 2026-10-19 | 2026-11-10 |
-| 904 | [AndreWeiner/flowtorch](https://github.com/AndreWeiner/flowtorch) | 182 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 905 | [byrnexu/betterquant2](https://github.com/byrnexu/betterquant2) | 182 | 工具 | 未明确（需查文档） | C++ | 2024-06-06 | 2026-11-10 |
-| 906 | [Liu-Ming-Yu/alpha-forge](https://github.com/Liu-Ming-Yu/alpha-forge) | 182 | Agent | 未明确（需查文档） | Python | 2026-08-01 | 2026-11-10 |
-| 907 | [QuantInsti/blueshift-demo-strategies](https://github.com/QuantInsti/blueshift-demo-strategies) | 182 | 交易框架 | 未明确（需查文档） | Jupyter Notebook | 2025-09-26 | 2026-11-10 |
-| 908 | [tradex-app/TradeX-chart](https://github.com/tradex-app/TradeX-chart) | 182 | 工具 | 虚拟货币 | JavaScript | 2026-07-21 | 2026-11-10 |
-| 909 | [zandy700/Ultimate-Tracker](https://github.com/zandy700/Ultimate-Tracker) | 181 | 交易框架 | 美股 | JavaScript | 2026-11-06 | 2026-11-10 |
-| 910 | [0xramm/Indian-Stock-Market-API](https://github.com/0xramm/Indian-Stock-Market-API) | 180 | 工具 | 未明确（需查文档） | JavaScript | 2026-08-18 | 2026-11-10 |
-| 911 | [phoenix-zhou/prompt-tag-NLP](https://github.com/phoenix-zhou/prompt-tag-NLP) | 180 | 工具 | 未明确（需查文档） | Python | 2026-07-01 | 2026-11-10 |
-| 912 | [cokepoppy/my-quant](https://github.com/cokepoppy/my-quant) | 179 | 工具 | 未明确（需查文档） | Vue | 2025-09-23 | 2026-11-10 |
-| 913 | [jinhao2003/kaipanla-crawler](https://github.com/jinhao2003/kaipanla-crawler) | 179 | 工具 | A股 |  | 2026-03-11 | 2026-11-10 |
-| 914 | [MichealWayne/FundCharts](https://github.com/MichealWayne/FundCharts) | 179 | 工具 | 未明确（需查文档） | TypeScript | 2025-12-23 | 2026-11-10 |
-| 915 | [Renhuai123/nihai-tianji-corpus](https://github.com/Renhuai123/nihai-tianji-corpus) | 179 | 工具 | 未明确（需查文档） | HTML | 2026-10-06 | 2026-11-10 |
-| 916 | [seagull1985/LuckyFrameClient](https://github.com/seagull1985/LuckyFrameClient) | 179 | 工具 | 未明确（需查文档） | Java | 2024-03-20 | 2026-11-10 |
-| 917 | [wxiaoqi/ace-cache](https://github.com/wxiaoqi/ace-cache) | 178 | 工具 | 未明确（需查文档） | Java | 2025-07-12 | 2026-11-10 |
-| 918 | [xbfighting/tdx2db](https://github.com/xbfighting/tdx2db) | 178 | 工具 | A股 | Python | 2026-09-25 | 2026-11-10 |
-| 919 | [z-bool/Venom-Transponder](https://github.com/z-bool/Venom-Transponder) | 178 | 工具 | 未明确（需查文档） |  | 2025-03-03 | 2026-11-10 |
-| 920 | [Consensys-Incorporated/linea-attestation-registry](https://github.com/Consensys-Incorporated/linea-attestation-registry) | 177 | 工具 | A股 | TypeScript | 2026-11-10 | 2026-11-10 |
-| 921 | [DjangoPeng/ChatPPT](https://github.com/DjangoPeng/ChatPPT) | 177 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-12-11 | 2026-11-10 |
-| 922 | [huweihua123/stock-mcp](https://github.com/huweihua123/stock-mcp) | 177 | Agent | A股、虚拟货币 | Python | 2026-03-25 | 2026-11-10 |
-| 923 | [SilvioBaratto/optimizer](https://github.com/SilvioBaratto/optimizer) | 177 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 924 | [zzquant/zzshare](https://github.com/zzquant/zzshare) | 177 | 工具 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 925 | [ettec/open-trading-platform](https://github.com/ettec/open-trading-platform) | 176 | 工具 | 未明确（需查文档） | JavaScript | 2023-12-20 | 2026-11-10 |
-| 926 | [Foleyzhao/UBA](https://github.com/Foleyzhao/UBA) | 176 | 工具 | 未明确（需查文档） | Java | 2025-09-12 | 2026-11-10 |
-| 927 | [virajbhutada/InsightForge](https://github.com/virajbhutada/InsightForge) | 176 | 工具 | 未明确（需查文档） |  | 2024-10-30 | 2026-11-10 |
-| 928 | [luhuadong/StockHunter](https://github.com/luhuadong/StockHunter) | 175 | 工具 | 未明确（需查文档） |  | 2025-09-15 | 2026-11-10 |
-| 929 | [nicknochnack/LLMAgentCrypto](https://github.com/nicknochnack/LLMAgentCrypto) | 175 | Agent | 虚拟货币 | HTML | 2025-04-28 | 2026-11-10 |
-| 930 | [veighna-global/vnpy_okx](https://github.com/veighna-global/vnpy_okx) | 175 | 交易框架 | 虚拟货币 | Python | 2026-06-16 | 2026-11-10 |
-| 931 | [vpslog/vps-stock-monitor](https://github.com/vpslog/vps-stock-monitor) | 175 | 工具 | 未明确（需查文档） | Python | 2024-11-19 | 2026-11-10 |
-| 932 | [yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework](https://github.com/yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework) | 175 | 工具 | 未明确（需查文档） | Python | 2024-12-24 | 2026-11-10 |
-| 933 | [brishowkanem4/Polymarket](https://github.com/brishowkanem4/Polymarket) | 174 | 工具 | 虚拟货币 |  | 2026-04-20 | 2026-11-10 |
-| 934 | [MarkBrezina/Ctrl-Alt-DefeatTheMarket](https://github.com/MarkBrezina/Ctrl-Alt-DefeatTheMarket) | 174 | 工具 | 未明确（需查文档） |  | 2026-06-14 | 2026-11-10 |
-| 935 | [bigmacman1129/btc-arbitrage-trading-bot](https://github.com/bigmacman1129/btc-arbitrage-trading-bot) | 173 | 工具 | 虚拟货币 | JavaScript | 2026-08-25 | 2026-11-10 |
-| 936 | [grissomlin/taiwan-stock-monitor](https://github.com/grissomlin/taiwan-stock-monitor) | 173 | 工具 | 未明确（需查文档） | Python | 2025-12-25 | 2026-11-10 |
-| 937 | [joohw/boss-cli](https://github.com/joohw/boss-cli) | 173 | Agent | 未明确（需查文档） | TypeScript | 2026-09-20 | 2026-11-10 |
-| 938 | [liu-ziting/ThinkFlowAI](https://github.com/liu-ziting/ThinkFlowAI) | 173 | 工具 | 未明确（需查文档） | Vue | 2026-02-06 | 2026-11-10 |
-| 939 | [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) | 173 | Agent | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
-| 940 | [rancy777/quantdash-ai-stock](https://github.com/rancy777/quantdash-ai-stock) | 172 | 工具 | A股 | TypeScript | 2026-04-21 | 2026-11-10 |
-| 941 | [bqth29/simulated-bifurcation-algorithm](https://github.com/bqth29/simulated-bifurcation-algorithm) | 171 | 工具 | 未明确（需查文档） | Python | 2026-01-16 | 2026-11-10 |
-| 942 | [ForecastOS/investOS-repo-and-PyPI-module-now-live-in-forecastos](https://github.com/ForecastOS/investOS-repo-and-PyPI-module-now-live-in-forecastos) | 171 | 交易框架 | 未明确（需查文档） | Python | 2026-02-17 | 2026-11-10 |
-| 943 | [Nour-Br/Kalshi-crypto-15m-trading-bot](https://github.com/Nour-Br/Kalshi-crypto-15m-trading-bot) | 171 | 工具 | 虚拟货币 |  | 2026-10-14 | 2026-11-10 |
-| 944 | [rmbell09-lang/tradesight](https://github.com/rmbell09-lang/tradesight) | 171 | 论文研究 | 美股 | Python | 2026-10-08 | 2026-11-10 |
-| 945 | [balabala-sean/stock-analysis](https://github.com/balabala-sean/stock-analysis) | 170 | 工具 | A股、因子 | Python | 2026-04-11 | 2026-11-10 |
-| 946 | [dfkai/xtquantai](https://github.com/dfkai/xtquantai) | 170 | Agent | 因子 | Python | 2026-06-11 | 2026-11-10 |
-| 947 | [latiaoge/AI-Sphere-Butler](https://github.com/latiaoge/AI-Sphere-Butler) | 170 | 论文研究 | 未明确（需查文档） | Python | 2026-08-28 | 2026-11-10 |
-| 948 | [ucxn/ZTE-Stat_Max](https://github.com/ucxn/ZTE-Stat_Max) | 169 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-09 | 2026-11-10 |
-| 949 | [JingHao-Leon/dsh-alpha-desk](https://github.com/JingHao-Leon/dsh-alpha-desk) | 168 | Agent | 未明确（需查文档） | Python | 2026-09-23 | 2026-11-10 |
-| 950 | [qiaojoin586-droid/RAG_LearnLittleCode](https://github.com/qiaojoin586-droid/RAG_LearnLittleCode) | 168 | Agent | 未明确（需查文档） | Python | 2026-09-14 | 2026-11-10 |
-| 951 | [horses-framework/horses3d](https://github.com/horses-framework/horses3d) | 167 | 工具 | 未明确（需查文档） | Fortran | 2026-11-10 | 2026-11-10 |
-| 952 | [krishnaik06/Stock-Sentiment-Analysis](https://github.com/krishnaik06/Stock-Sentiment-Analysis) | 167 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-03-20 | 2026-11-10 |
-| 953 | [LeviathanLevi/Coinbase-Pro-Crypto-Trading-Bot-CrypFinder](https://github.com/LeviathanLevi/Coinbase-Pro-Crypto-Trading-Bot-CrypFinder) | 167 | 工具 | 虚拟货币 | JavaScript | 2024-05-04 | 2026-11-10 |
-| 954 | [bytesc/Image_Recognition_WebGUI](https://github.com/bytesc/Image_Recognition_WebGUI) | 166 | 工具 | 未明确（需查文档） | Python | 2025-01-22 | 2026-11-10 |
-| 955 | [FeiCoder/BreadFree-Simu](https://github.com/FeiCoder/BreadFree-Simu) | 166 | Agent | 未明确（需查文档） | Python | 2026-01-27 | 2026-11-10 |
-| 956 | [liangdabiao/autogen-financial-analysis](https://github.com/liangdabiao/autogen-financial-analysis) | 166 | Agent | 因子 | Python | 2025-09-17 | 2026-11-10 |
-| 957 | [Xtra-Computing/CryptoTrade](https://github.com/Xtra-Computing/CryptoTrade) | 166 | Agent | 虚拟货币 | Jupyter Notebook | 2024-12-01 | 2026-11-10 |
-| 958 | [jonathancornelissen/highfrequency](https://github.com/jonathancornelissen/highfrequency) | 165 | 工具 | 未明确（需查文档） | R | 2025-12-15 | 2026-11-10 |
-| 959 | [raoyutian/PaddleOCRSharp](https://github.com/raoyutian/PaddleOCRSharp) | 165 | 工具 | 未明确（需查文档） | C# | 2026-11-02 | 2026-11-10 |
-| 960 | [softage0/algorithm-trading-webapp](https://github.com/softage0/algorithm-trading-webapp) | 165 | 工具 | 未明确（需查文档） | Python | 2024-02-07 | 2026-11-10 |
-| 961 | [StephanAkkerman/fintwit-bot](https://github.com/StephanAkkerman/fintwit-bot) | 165 | 工具 | 虚拟货币 | Python | 2026-10-28 | 2026-11-10 |
-| 962 | [irisx3/attention_drl_trading](https://github.com/irisx3/attention_drl_trading) | 164 | Agent | 美股 | Python | 2025-10-16 | 2026-11-10 |
-| 963 | [sieblyio/orderbooks](https://github.com/sieblyio/orderbooks) | 164 | 工具 | 虚拟货币 | TypeScript | 2026-02-11 | 2026-11-10 |
-| 964 | [AIDotNet/ClaudeCodexUi](https://github.com/AIDotNet/ClaudeCodexUi) | 163 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-31 | 2026-11-10 |
-| 965 | [fa1314/KrLongAI](https://github.com/fa1314/KrLongAI) | 163 | Agent | 未明确（需查文档） | Python | 2026-04-02 | 2026-11-10 |
-| 966 | [jimtin/algorithmic_trading_bot](https://github.com/jimtin/algorithmic_trading_bot) | 163 | 工具 | 虚拟货币 | Python | 2025-04-09 | 2026-11-10 |
-| 967 | [Voine/Bert-VITS2-MNN](https://github.com/Voine/Bert-VITS2-MNN) | 163 | 工具 | 未明确（需查文档） | C++ | 2026-08-05 | 2026-11-10 |
-| 968 | [zackchewa/awesome-china-mcp](https://github.com/zackchewa/awesome-china-mcp) | 162 | Agent | A股 |  | 2026-11-08 | 2026-11-10 |
-| 969 | [alkalescent/hyperdrive](https://github.com/alkalescent/hyperdrive) | 161 | 工具 | 未明确（需查文档） | Python | 2026-08-25 | 2026-11-10 |
-| 970 | [cutemarkets/cutebacktests](https://github.com/cutemarkets/cutebacktests) | 161 | 交易框架 | 美股 | Python | 2026-05-30 | 2026-11-10 |
-| 971 | [davidastephens/pandas-finance](https://github.com/davidastephens/pandas-finance) | 161 | 工具 | 未明确（需查文档） | Python | 2025-03-07 | 2026-11-10 |
-| 972 | [joyfoxai/LTX2-ICEdit-Insight](https://github.com/joyfoxai/LTX2-ICEdit-Insight) | 161 | 工具 | 未明确（需查文档） | Python | 2026-06-01 | 2026-11-10 |
-| 973 | [andriy-git/stocksTUI](https://github.com/andriy-git/stocksTUI) | 160 | 工具 | 未明确（需查文档） | Python | 2026-10-24 | 2026-11-10 |
-| 974 | [chengwesley/taiwan-stock-analysis](https://github.com/chengwesley/taiwan-stock-analysis) | 160 | 工具 | 未明确（需查文档） | HTML | 2026-08-26 | 2026-11-10 |
-| 975 | [ChungKit-WAN/Quant-research-lab](https://github.com/ChungKit-WAN/Quant-research-lab) | 160 | 论文研究 | 因子 | Python | 2026-10-21 | 2026-11-10 |
-| 976 | [ChungKit-WAN/Quant-research-lab](https://github.com/ChungKit-WAN/Quant-research-lab) | 160 | 论文研究 | 因子 | Python | 2026-10-21 | 2026-11-10 |
-| 977 | [Snseam/boss-zhipin-mcp](https://github.com/Snseam/boss-zhipin-mcp) | 160 | 工具 | 未明确（需查文档） | Python | 2026-03-31 | 2026-11-10 |
-| 978 | [warp-c4/solana-trading-bot-v3](https://github.com/warp-c4/solana-trading-bot-v3) | 160 | 工具 | 虚拟货币 | TypeScript | 2026-11-08 | 2026-11-10 |
-| 979 | [zhaihao118/Seedance2-Chrome-Extensions](https://github.com/zhaihao118/Seedance2-Chrome-Extensions) | 160 | 工具 | 未明确（需查文档） | JavaScript | 2026-02-22 | 2026-11-10 |
-| 980 | [ayuanlmo/lmo-data-visualization](https://github.com/ayuanlmo/lmo-data-visualization) | 159 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
-| 981 | [Cloud9Trader/TechnicalIndicators](https://github.com/Cloud9Trader/TechnicalIndicators) | 159 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-09 | 2026-11-10 |
-| 982 | [qtcls-admin/quantclass-client-pro](https://github.com/qtcls-admin/quantclass-client-pro) | 159 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-29 | 2026-11-10 |
-| 983 | [zadescoxp/order-flow-screener](https://github.com/zadescoxp/order-flow-screener) | 159 | 工具 | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
-| 984 | [btrccts/btrccts](https://github.com/btrccts/btrccts) | 158 | 交易框架 | 虚拟货币 | Python | 2026-11-04 | 2026-11-10 |
-| 985 | [CodeCrafter-bit/emby-player](https://github.com/CodeCrafter-bit/emby-player) | 158 | 工具 | 未明确（需查文档） | JavaScript | 2025-07-27 | 2026-11-10 |
-| 986 | [nbyiansec/sskit](https://github.com/nbyiansec/sskit) | 158 | 工具 | 未明确（需查文档） |  | 2026-10-20 | 2026-11-10 |
-| 987 | [pdsuwwz/vite-ts-starter](https://github.com/pdsuwwz/vite-ts-starter) | 158 | 工具 | 未明确（需查文档） | Vue | 2025-12-19 | 2026-11-10 |
-| 988 | [algobulls/pyalgostrategypool](https://github.com/algobulls/pyalgostrategypool) | 157 | 论文研究 | 未明确（需查文档） | Python | 2026-07-29 | 2026-11-10 |
-| 989 | [cgkings/NFO.Editor](https://github.com/cgkings/NFO.Editor) | 157 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 990 | [parallel101/simdtutor](https://github.com/parallel101/simdtutor) | 157 | 工具 | 未明确（需查文档） | C++ | 2025-12-14 | 2026-11-10 |
-| 991 | [pen9un/cursor-auto-helper](https://github.com/pen9un/cursor-auto-helper) | 157 | Agent | 未明确（需查文档） |  | 2026-09-10 | 2026-11-10 |
-| 992 | [ruhhhi27/Backpack-Exchange](https://github.com/ruhhhi27/Backpack-Exchange) | 157 | 工具 | 虚拟货币 |  | 2024-12-02 | 2026-11-10 |
-| 993 | [wjsbjl/use-gplearn-to-generate-CTA-factor](https://github.com/wjsbjl/use-gplearn-to-generate-CTA-factor) | 157 | 交易框架 | 期货、因子 | Python | 2023-12-29 | 2026-11-10 |
-| 994 | [bluedabadi/SchwabAutoTrading](https://github.com/bluedabadi/SchwabAutoTrading) | 156 | 工具 | 未明确（需查文档） | Python | 2025-12-27 | 2026-11-10 |
-| 995 | [kanekoshoyu/kucoin_arbitrage](https://github.com/kanekoshoyu/kucoin_arbitrage) | 156 | 工具 | 虚拟货币 | Rust | 2026-05-28 | 2026-11-10 |
-| 996 | [li-xiu-qi/financial_research_report](https://github.com/li-xiu-qi/financial_research_report) | 156 | 论文研究 | 未明确（需查文档） | Python | 2025-07-02 | 2026-11-10 |
-| 997 | [trading-code/ninjatrader-freeorderflow](https://github.com/trading-code/ninjatrader-freeorderflow) | 156 | 工具 | 期货 | C# | 2025-11-19 | 2026-11-10 |
-| 998 | [Chras-fu/Liuma-engine](https://github.com/Chras-fu/Liuma-engine) | 155 | 工具 | 未明确（需查文档） | Python | 2024-03-13 | 2026-11-10 |
-| 999 | [Folgerjun/stock-tui](https://github.com/Folgerjun/stock-tui) | 155 | 工具 | 未明确（需查文档） | Python | 2026-10-21 | 2026-11-10 |
-| 1000 | [test-instructor/yangfan](https://github.com/test-instructor/yangfan) | 155 | 工具 | 未明确（需查文档） | Go | 2026-02-05 | 2026-11-10 |
-| 1001 | [DjangoPeng/agentic-ai](https://github.com/DjangoPeng/agentic-ai) | 154 | Agent | 未明确（需查文档） | Python | 2026-07-08 | 2026-11-10 |
-| 1002 | [Wind-Alice/AliceMarket](https://github.com/Wind-Alice/AliceMarket) | 154 | Agent | 期货 | Python | 2026-10-30 | 2026-11-10 |
-| 1003 | [jordantete/grid_trading_bot](https://github.com/jordantete/grid_trading_bot) | 153 | 交易框架 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
-| 1004 | [moonstream-to/api](https://github.com/moonstream-to/api) | 153 | 工具 | 虚拟货币 | Python | 2025-03-04 | 2026-11-10 |
-| 1005 | [ralphtradesz/trading-hub](https://github.com/ralphtradesz/trading-hub) | 153 | 交易框架 | 虚拟货币、期货 | C# | 2026-11-03 | 2026-11-10 |
-| 1006 | [waylonli/FINSABER](https://github.com/waylonli/FINSABER) | 153 | 论文研究 | 未明确（需查文档） | Python | 2026-09-17 | 2026-11-10 |
-| 1007 | [WizisCool/Nezha-Traffic-Alarm-Generator](https://github.com/WizisCool/Nezha-Traffic-Alarm-Generator) | 153 | 工具 | 未明确（需查文档） | HTML | 2026-03-22 | 2026-11-10 |
-| 1008 | [Bitvested/ta.js](https://github.com/Bitvested/ta.js) | 152 | 交易框架 | 虚拟货币 | JavaScript | 2026-10-10 | 2026-11-10 |
-| 1009 | [Hainrixz/maia-skill](https://github.com/Hainrixz/maia-skill) | 152 | Agent | 虚拟货币 | TypeScript | 2026-10-25 | 2026-11-10 |
-| 1010 | [huangchengsir/pipewright](https://github.com/huangchengsir/pipewright) | 152 | 工具 | 未明确（需查文档） | Go | 2026-11-10 | 2026-11-10 |
-| 1011 | [nardew/cryptoxlib-aio](https://github.com/nardew/cryptoxlib-aio) | 152 | 工具 | 虚拟货币、期货 | Python | 2024-05-20 | 2026-11-10 |
-| 1012 | [xingwudao/open-xquant](https://github.com/xingwudao/open-xquant) | 152 | Agent | 因子 | Python | 2026-10-12 | 2026-11-10 |
-| 1013 | [alkafinance/venice](https://github.com/alkafinance/venice) | 151 | 工具 | 未明确（需查文档） | TypeScript | 2024-04-02 | 2026-11-10 |
-| 1014 | [jkirkby3/fypy](https://github.com/jkirkby3/fypy) | 151 | 工具 | 未明确（需查文档） | Python | 2025-02-27 | 2026-11-10 |
-| 1015 | [liuhuapiaoyuan/MinerU-PDFScanner](https://github.com/liuhuapiaoyuan/MinerU-PDFScanner) | 151 | 工具 | 未明确（需查文档） | JavaScript | 2024-10-17 | 2026-11-10 |
-| 1016 | [losingloonies/Best-MACD-Trading-Validation](https://github.com/losingloonies/Best-MACD-Trading-Validation) | 151 | 论文研究 | 未明确（需查文档） | Python | 2025-11-02 | 2026-11-10 |
-| 1017 | [moon-like-gray-cat/WordFormatter](https://github.com/moon-like-gray-cat/WordFormatter) | 151 | 论文研究 | 未明确（需查文档） | Python | 2026-01-09 | 2026-11-10 |
-| 1018 | [mwangli/stock-trading](https://github.com/mwangli/stock-trading) | 151 | Agent | A股 | Python | 2026-11-10 | 2026-11-10 |
-| 1019 | [sqing33/PTNexus](https://github.com/sqing33/PTNexus) | 151 | 工具 | 未明确（需查文档） | Go | 2026-07-12 | 2026-11-10 |
-| 1020 | [tesserspace/tesser](https://github.com/tesserspace/tesser) | 151 | 交易框架 | 虚拟货币 | Rust | 2026-03-01 | 2026-11-10 |
-| 1021 | [Wbbbbjikjgo/ERP-AGENT](https://github.com/Wbbbbjikjgo/ERP-AGENT) | 151 | Agent | 未明确（需查文档） | Python | 2026-08-26 | 2026-11-10 |
-| 1022 | [zerotech-studio/zack](https://github.com/zerotech-studio/zack) | 151 | 交易框架 | 未明确（需查文档） | Zig | 2025-11-01 | 2026-11-10 |
-| 1023 | [AetherCore-Dev/relay-radar](https://github.com/AetherCore-Dev/relay-radar) | 150 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-09 | 2026-11-10 |
-| 1024 | [jiaodai1001/Mini-Web-Vulnerability-Scanner](https://github.com/jiaodai1001/Mini-Web-Vulnerability-Scanner) | 150 | 工具 | 未明确（需查文档） | Python | 2026-04-14 | 2026-11-10 |
-| 1025 | [yonathan95/BinanceTradingBot](https://github.com/yonathan95/BinanceTradingBot) | 150 | 工具 | 虚拟货币、期货 | Java | 2025-05-09 | 2026-11-10 |
-| 1026 | [bigmacman1129/crypto-arbitrage](https://github.com/bigmacman1129/crypto-arbitrage) | 149 | 交易框架 | 虚拟货币 | Python | 2026-08-26 | 2026-11-10 |
-| 1027 | [binance/ai-trading-prototype](https://github.com/binance/ai-trading-prototype) | 149 | 工具 | 虚拟货币 | Python | 2023-12-30 | 2026-11-10 |
-| 1028 | [imbenrabi/Financial-Modeling-Prep-MCP-Server](https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server) | 149 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-05 | 2026-11-10 |
-| 1029 | [kamathhrishi/finance-agent](https://github.com/kamathhrishi/finance-agent) | 149 | Agent | 未明确（需查文档） | Python | 2026-06-19 | 2026-11-10 |
-| 1030 | [kukapay/freqtrade-mcp](https://github.com/kukapay/freqtrade-mcp) | 149 | 工具 | 虚拟货币 | Python | 2025-12-06 | 2026-11-10 |
-| 1031 | [nirholas/pump-fun-sdk](https://github.com/nirholas/pump-fun-sdk) | 149 | Agent | 虚拟货币 | TypeScript | 2026-11-05 | 2026-11-10 |
-| 1032 | [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) | 149 | Agent | 虚拟货币 | TypeScript | 2026-07-09 | 2026-11-10 |
-| 1033 | [Tapetide-hq/nse-bse-indian-stock-market-data-mcp](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) | 149 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-28 | 2026-11-10 |
-| 1034 | [dvankley/firefly-plaid-connector-2](https://github.com/dvankley/firefly-plaid-connector-2) | 148 | 工具 | 未明确（需查文档） | Kotlin | 2026-03-31 | 2026-11-10 |
-| 1035 | [hhuayuan/spiderbuf](https://github.com/hhuayuan/spiderbuf) | 148 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 1036 | [imanoop7/Financial-Analysis--Multi-Agent-Open-Source-LLM](https://github.com/imanoop7/Financial-Analysis--Multi-Agent-Open-Source-LLM) | 148 | Agent | 未明确（需查文档） | Python | 2024-11-20 | 2026-11-10 |
-| 1037 | [KangOxford/AlphaTrade](https://github.com/KangOxford/AlphaTrade) | 148 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-03-16 | 2026-11-10 |
-| 1038 | [nessessary/autoxd](https://github.com/nessessary/autoxd) | 148 | 交易框架 | A股 | Python | 2026-09-10 | 2026-11-10 |
-| 1039 | [SaKongA/PopDownloader](https://github.com/SaKongA/PopDownloader) | 148 | 工具 | 未明确（需查文档） | Vue | 2026-10-30 | 2026-11-10 |
-| 1040 | [breeze-sys/Label-Only-MIA-Go](https://github.com/breeze-sys/Label-Only-MIA-Go) | 147 | 工具 | 未明确（需查文档） | Go | 2026-05-29 | 2026-11-10 |
-| 1041 | [JesseVent/crypto](https://github.com/JesseVent/crypto) | 147 | 工具 | 虚拟货币 | R | 2025-10-08 | 2026-11-10 |
-| 1042 | [kennethleungty/Finance-LLMs](https://github.com/kennethleungty/Finance-LLMs) | 147 | Agent | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
-| 1043 | [lyscf/FlowSage](https://github.com/lyscf/FlowSage) | 147 | 工具 | 未明确（需查文档） |  | 2026-07-27 | 2026-11-10 |
-| 1044 | [NLP-LOVE/Model_Log](https://github.com/NLP-LOVE/Model_Log) | 147 | 工具 | 未明确（需查文档） | Python | 2026-01-09 | 2026-11-10 |
-| 1045 | [tpmmthomas/binance-copy-trade-bot](https://github.com/tpmmthomas/binance-copy-trade-bot) | 147 | 工具 | 虚拟货币、期货 | Python | 2024-06-20 | 2026-11-10 |
-| 1046 | [aabacada/CloudNav-abcd](https://github.com/aabacada/CloudNav-abcd) | 146 | 工具 | 未明确（需查文档） | TypeScript | 2026-05-21 | 2026-11-10 |
-| 1047 | [Bel1eff-0228/How-to-Train-Better](https://github.com/Bel1eff-0228/How-to-Train-Better) | 146 | 论文研究 | 未明确（需查文档） | JavaScript | 2026-11-05 | 2026-11-10 |
-| 1048 | [Drakkar-Software/Triangular-Arbitrage](https://github.com/Drakkar-Software/Triangular-Arbitrage) | 146 | 工具 | 虚拟货币 | Python | 2025-12-12 | 2026-11-10 |
-| 1049 | [garciia28/CoinMarketCapSniper](https://github.com/garciia28/CoinMarketCapSniper) | 146 | 工具 | 虚拟货币 | Java | 2024-07-01 | 2026-11-10 |
-| 1050 | [grantcolley/tradeview](https://github.com/grantcolley/tradeview) | 146 | 工具 | 虚拟货币 | C# | 2026-02-22 | 2026-11-10 |
-| 1051 | [bytesc/Image-Recognition-system](https://github.com/bytesc/Image-Recognition-system) | 145 | 工具 | 未明确（需查文档） | Python | 2025-01-22 | 2026-11-10 |
-| 1052 | [esvhd/pypbo](https://github.com/esvhd/pypbo) | 145 | 交易框架 | 未明确（需查文档） | Python | 2026-07-06 | 2026-11-10 |
-| 1053 | [LunFengChen/proxypin-mcp-server](https://github.com/LunFengChen/proxypin-mcp-server) | 145 | 工具 | 未明确（需查文档） | Python | 2026-01-07 | 2026-11-10 |
-| 1054 | [Lvyizhuo/MyProject-SDAgent](https://github.com/Lvyizhuo/MyProject-SDAgent) | 145 | Agent | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
-| 1055 | [AndreaFerrante/Orderflow](https://github.com/AndreaFerrante/Orderflow) | 144 | 工具 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
-| 1056 | [CryptoGnome/Bybit-Lick-Hunter-v4](https://github.com/CryptoGnome/Bybit-Lick-Hunter-v4) | 144 | 工具 | 虚拟货币 | JavaScript | 2025-07-25 | 2026-11-10 |
-| 1057 | [liusai0820/Stock-Analysis-Skill](https://github.com/liusai0820/Stock-Analysis-Skill) | 144 | 工具 | 未明确（需查文档） | Python | 2026-03-04 | 2026-11-10 |
-| 1058 | [Senpi-ai/senpi-skills](https://github.com/Senpi-ai/senpi-skills) | 144 | Agent | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 1059 | [dapanyuntu/yuntu](https://github.com/dapanyuntu/yuntu) | 143 | 工具 | A股 |  | 2025-01-02 | 2026-11-10 |
-| 1060 | [diogomatoschaves/MyCryptoBot](https://github.com/diogomatoschaves/MyCryptoBot) | 143 | 交易框架 | 虚拟货币 | Python | 2026-06-17 | 2026-11-10 |
-| 1061 | [mamawai/wtfibought](https://github.com/mamawai/wtfibought) | 143 | Agent | 虚拟货币 | Java | 2026-11-10 | 2026-11-10 |
-| 1062 | [panyisheng095-ux/VisionQuant-Pro](https://github.com/panyisheng095-ux/VisionQuant-Pro) | 142 | 工具 | 未明确（需查文档） | Python | 2026-02-27 | 2026-11-10 |
-| 1063 | [StellarDust-AI/stockquant-suite-tutorial-qmt-PTrade](https://github.com/StellarDust-AI/stockquant-suite-tutorial-qmt-PTrade) | 142 | 工具 | 因子 |  | 2026-09-30 | 2026-11-10 |
-| 1064 | [WackyGem/Fleur](https://github.com/WackyGem/Fleur) | 142 | 交易框架 | A股 | Rust | 2026-10-09 | 2026-11-10 |
-| 1065 | [kevin-meng/financial_stock_knowledge_graph](https://github.com/kevin-meng/financial_stock_knowledge_graph) | 141 | 工具 | A股 | Jupyter Notebook | 2026-09-25 | 2026-11-10 |
-| 1066 | [lunarresearcher/copy](https://github.com/lunarresearcher/copy) | 141 | 论文研究 | 虚拟货币 | JavaScript | 2026-09-09 | 2026-11-10 |
-| 1067 | [Mastaaa1987/freqtrade-strategie](https://github.com/Mastaaa1987/freqtrade-strategie) | 141 | 交易框架 | 未明确（需查文档） | Python | 2026-09-15 | 2026-11-10 |
-| 1068 | [risesoft-y9/API-Platform](https://github.com/risesoft-y9/API-Platform) | 141 | 工具 | 未明确（需查文档） | Vue | 2025-10-10 | 2026-11-10 |
-| 1069 | [TaroYamada08/machine-learning-for-trading](https://github.com/TaroYamada08/machine-learning-for-trading) | 141 | 交易框架 | 未明确（需查文档） | Jupyter Notebook | 2026-04-17 | 2026-11-10 |
-| 1070 | [Ding-Kyoma/EasyTrans-mac](https://github.com/Ding-Kyoma/EasyTrans-mac) | 140 | 工具 | 未明确（需查文档） | Python | 2024-02-05 | 2026-11-10 |
-| 1071 | [CTradeExchange/free-quote](https://github.com/CTradeExchange/free-quote) | 139 | 工具 | A股 | Python | 2026-10-10 | 2026-11-10 |
-| 1072 | [jialuechen/flowforge](https://github.com/jialuechen/flowforge) | 139 | 工具 | 未明确（需查文档） | Python | 2026-08-23 | 2026-11-10 |
-| 1073 | [longsizhuo/openInvest](https://github.com/longsizhuo/openInvest) | 139 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 1074 | [tanmingtao1994-gif/fincrew](https://github.com/tanmingtao1994-gif/fincrew) | 139 | Agent | 未明确（需查文档） | TypeScript | 2026-04-01 | 2026-11-10 |
-| 1075 | [uwol/computational-economy](https://github.com/uwol/computational-economy) | 139 | Agent | 未明确（需查文档） | Java | 2026-03-01 | 2026-11-10 |
-| 1076 | [ahacker-1/cre-agent-skills](https://github.com/ahacker-1/cre-agent-skills) | 138 | Agent | 未明确（需查文档） | Python | 2026-09-02 | 2026-11-10 |
-| 1077 | [pssolanki111/polygon](https://github.com/pssolanki111/polygon) | 138 | 工具 | 虚拟货币 | Python | 2025-08-28 | 2026-11-10 |
-| 1078 | [anurag3407/career-pilot](https://github.com/anurag3407/career-pilot) | 137 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-05 | 2026-11-10 |
-| 1079 | [brainbytes-dev/everything-claude-trading](https://github.com/brainbytes-dev/everything-claude-trading) | 137 | Agent | 未明确（需查文档） | JavaScript | 2026-03-14 | 2026-11-10 |
-| 1080 | [daviddme/tradingview-indicator-search-mcp-server](https://github.com/daviddme/tradingview-indicator-search-mcp-server) | 137 | Agent | 未明确（需查文档） | JavaScript | 2026-07-25 | 2026-11-10 |
-| 1081 | [GalaxyLLMCI/lyraios](https://github.com/GalaxyLLMCI/lyraios) | 137 | Agent | 未明确（需查文档） | Python | 2025-03-18 | 2026-11-10 |
-| 1082 | [Surbeivol/PythonMatchingEngine](https://github.com/Surbeivol/PythonMatchingEngine) | 137 | 工具 | 未明确（需查文档） | Python | 2024-05-03 | 2026-11-10 |
-| 1083 | [dev4Fun/Auto-Trade-Crypto-Bot](https://github.com/dev4Fun/Auto-Trade-Crypto-Bot) | 136 | 工具 | 虚拟货币 | Python | 2023-12-15 | 2026-11-10 |
-| 1084 | [haigechanlun/chanlun_auto_trading](https://github.com/haigechanlun/chanlun_auto_trading) | 136 | 交易框架 | 未明确（需查文档） | Python | 2026-05-01 | 2026-11-10 |
-| 1085 | [HFTHaidra/HFT-Arbitrage-EA-MQL4-MQL5](https://github.com/HFTHaidra/HFT-Arbitrage-EA-MQL4-MQL5) | 136 | Agent | 未明确（需查文档） | MQL5 | 2025-12-02 | 2026-11-10 |
-| 1086 | [tradingeconomics/tradingeconomics-python](https://github.com/tradingeconomics/tradingeconomics-python) | 136 | 工具 | 未明确（需查文档） | Python | 2026-10-08 | 2026-11-10 |
-| 1087 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 136 | Agent | 未明确（需查文档） | Python | 2026-09-29 | 2026-11-10 |
-| 1088 | [Theclues/TradeGenuis-box](https://github.com/Theclues/TradeGenuis-box) | 135 | 工具 | A股、虚拟货币 | Python | 2026-09-06 | 2026-11-10 |
-| 1089 | [EA31337/EA-Tester](https://github.com/EA31337/EA-Tester) | 134 | 交易框架 | 未明确（需查文档） | Shell | 2025-03-09 | 2026-11-10 |
-| 1090 | [hyqibot/A-share-Ai](https://github.com/hyqibot/A-share-Ai) | 134 | Agent | A股 |  | 2026-11-08 | 2026-11-10 |
-| 1091 | [jsbzg/show](https://github.com/jsbzg/show) | 134 | 工具 | 未明确（需查文档） | Java | 2026-03-30 | 2026-11-10 |
-| 1092 | [9600dev/mmr](https://github.com/9600dev/mmr) | 133 | 交易框架 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
-| 1093 | [oficcejo/tradingagents](https://github.com/oficcejo/tradingagents) | 133 | Agent | A股 | Python | 2026-07-27 | 2026-11-10 |
-| 1094 | [yaomindong1996/forge-admin](https://github.com/yaomindong1996/forge-admin) | 133 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
-| 1095 | [bryanzhang1024/etf-dashboard-auto](https://github.com/bryanzhang1024/etf-dashboard-auto) | 132 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 1096 | [DVampire/FinWorld](https://github.com/DVampire/FinWorld) | 132 | Agent | 未明确（需查文档） | JavaScript | 2025-10-07 | 2026-11-10 |
-| 1097 | [MiChaelinzo/Trading-Agent-](https://github.com/MiChaelinzo/Trading-Agent-) | 132 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-02-05 | 2026-11-10 |
-| 1098 | [paduel/streamlit_finance_chart](https://github.com/paduel/streamlit_finance_chart) | 132 | 工具 | 未明确（需查文档） | Python | 2024-08-12 | 2026-11-10 |
-| 1099 | [pinky39/grove](https://github.com/pinky39/grove) | 132 | 游戏 | 未明确（需查文档） | C# | 2026-04-14 | 2026-11-10 |
-| 1100 | [Agentic-Analyst/stock-analyst](https://github.com/Agentic-Analyst/stock-analyst) | 131 | Agent | 未明确（需查文档） | Python | 2026-10-18 | 2026-11-10 |
-| 1101 | [EimanTahir027/100-AI-Agents-independent-projects](https://github.com/EimanTahir027/100-AI-Agents-independent-projects) | 131 | Agent | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
-| 1102 | [gschurck/tradoge](https://github.com/gschurck/tradoge) | 131 | 工具 | 虚拟货币 | Go | 2025-03-05 | 2026-11-10 |
-| 1103 | [JKorf/Bybit.Net](https://github.com/JKorf/Bybit.Net) | 131 | 工具 | 虚拟货币、期货 | C# | 2026-11-10 | 2026-11-10 |
-| 1104 | [liyupi/github-global](https://github.com/liyupi/github-global) | 131 | Agent | 未明确（需查文档） | TypeScript | 2026-03-03 | 2026-11-10 |
-| 1105 | [NanGePlus/LangChain_V1_Test](https://github.com/NanGePlus/LangChain_V1_Test) | 131 | Agent | 未明确（需查文档） | Python | 2026-07-27 | 2026-11-10 |
-| 1106 | [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) | 131 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-06 | 2026-11-10 |
-| 1107 | [ryan-yuuu/crypto-trading-arena](https://github.com/ryan-yuuu/crypto-trading-arena) | 131 | Agent | 虚拟货币 | Python | 2026-07-08 | 2026-11-10 |
-| 1108 | [AllenPan-Git/SimpleQuant](https://github.com/AllenPan-Git/SimpleQuant) | 130 | 交易框架 | A股 | Python | 2026-11-10 | 2026-11-10 |
-| 1109 | [bigcyy/customized-chat](https://github.com/bigcyy/customized-chat) | 130 | 工具 | 未明确（需查文档） | Java | 2025-09-21 | 2026-11-10 |
-| 1110 | [ColourCloudSky/review-ui-design-skill](https://github.com/ColourCloudSky/review-ui-design-skill) | 130 | 工具 | 未明确（需查文档） | Python | 2026-07-26 | 2026-11-10 |
-| 1111 | [fire-institute/fire](https://github.com/fire-institute/fire) | 130 | 工具 | 因子 | Jupyter Notebook | 2025-09-02 | 2026-11-10 |
-| 1112 | [freevolunteer/daban](https://github.com/freevolunteer/daban) | 130 | 工具 | A股 | Go | 2024-05-22 | 2026-11-10 |
-| 1113 | [laukkw/brale](https://github.com/laukkw/brale) | 130 | 论文研究 | 虚拟货币 |  | 2026-09-10 | 2026-11-10 |
-| 1114 | [mileswangs/pm-hftbacktest](https://github.com/mileswangs/pm-hftbacktest) | 130 | 交易框架 | 未明确（需查文档） | Rust | 2026-10-30 | 2026-11-10 |
-| 1115 | [OctagonAI/skills](https://github.com/OctagonAI/skills) | 130 | Agent | 未明确（需查文档） |  | 2026-06-05 | 2026-11-10 |
-| 1116 | [CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb) | 129 | 游戏 | 未明确（需查文档） | C++ | 2026-11-10 | 2026-11-10 |
-| 1117 | [hopit-ai/india-trade-cli](https://github.com/hopit-ai/india-trade-cli) | 129 | Agent | 未明确（需查文档） | Python | 2026-09-03 | 2026-11-10 |
-| 1118 | [jialuechen/trademind](https://github.com/jialuechen/trademind) | 129 | 交易框架 | 未明确（需查文档） | C++ | 2025-06-20 | 2026-11-10 |
-| 1119 | [kubehan/PromAI](https://github.com/kubehan/PromAI) | 129 | 工具 | 未明确（需查文档） | Go | 2026-11-06 | 2026-11-10 |
-| 1120 | [rundef/async_rithmic](https://github.com/rundef/async_rithmic) | 129 | 工具 | 期货 | Python | 2026-10-09 | 2026-11-10 |
-| 1121 | [zeta-zetra/chart_patterns](https://github.com/zeta-zetra/chart_patterns) | 129 | 工具 | 虚拟货币 | Python | 2024-07-08 | 2026-11-10 |
-| 1122 | [hiromaily/go-crypto-wallet](https://github.com/hiromaily/go-crypto-wallet) | 128 | 工具 | 虚拟货币 | Go | 2026-04-22 | 2026-11-10 |
-| 1123 | [minihellboy/factorminer](https://github.com/minihellboy/factorminer) | 128 | Agent | 因子 | Python | 2026-11-02 | 2026-11-10 |
-| 1124 | [qazwsx5293870/S-APICONT](https://github.com/qazwsx5293870/S-APICONT) | 128 | 工具 | 未明确（需查文档） |  | 2026-03-07 | 2026-11-10 |
-| 1125 | [Richard-Rose/SubMicroTrading](https://github.com/Richard-Rose/SubMicroTrading) | 128 | 交易框架 | 未明确（需查文档） | Java | 2024-02-03 | 2026-11-10 |
-| 1126 | [woodchen-ink/openai-billing-query](https://github.com/woodchen-ink/openai-billing-query) | 128 | 工具 | 未明确（需查文档） | JavaScript | 2025-07-11 | 2026-11-10 |
-| 1127 | [ahacker-1/cre-acquisition-orchestrator](https://github.com/ahacker-1/cre-acquisition-orchestrator) | 127 | Agent | 未明确（需查文档） | TypeScript | 2026-07-28 | 2026-11-10 |
-| 1128 | [Pitayafruits/kafka-dog](https://github.com/Pitayafruits/kafka-dog) | 127 | 工具 | 未明确（需查文档） | Java | 2024-12-08 | 2026-11-10 |
-| 1129 | [roman-rr/trading-skills](https://github.com/roman-rr/trading-skills) | 127 | Agent | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
-| 1130 | [ryansmccoy/py-sec-edgar](https://github.com/ryansmccoy/py-sec-edgar) | 127 | 工具 | 未明确（需查文档） | Python | 2026-04-23 | 2026-11-10 |
-| 1131 | [wangliyang206/GrainFullAndroid](https://github.com/wangliyang206/GrainFullAndroid) | 127 | 工具 | 未明确（需查文档） | Java | 2026-04-01 | 2026-11-10 |
-| 1132 | [xuanronaldo/positionbt](https://github.com/xuanronaldo/positionbt) | 127 | 交易框架 | 未明确（需查文档） | Python | 2025-06-24 | 2026-11-10 |
-| 1133 | [51bitquant/multi_pairs_martingle_bot](https://github.com/51bitquant/multi_pairs_martingle_bot) | 126 | 工具 | 虚拟货币、期货 | Python | 2023-12-26 | 2026-11-10 |
-| 1134 | [HustWolfzzb/easyQuantify](https://github.com/HustWolfzzb/easyQuantify) | 126 | 工具 | 未明确（需查文档） | Python | 2026-01-16 | 2026-11-10 |
-| 1135 | [keli/ctp-python](https://github.com/keli/ctp-python) | 126 | 工具 | 期货 | C | 2026-09-22 | 2026-11-10 |
-| 1136 | [matteoprata/LOBCAST](https://github.com/matteoprata/LOBCAST) | 126 | 工具 | 未明确（需查文档） | Python | 2024-05-09 | 2026-11-10 |
-| 1137 | [msd-rs/py-alpha-lib](https://github.com/msd-rs/py-alpha-lib) | 126 | 论文研究 | 因子 | Python | 2026-11-08 | 2026-11-10 |
-| 1138 | [QianQianLuLu1/MeowStarMap](https://github.com/QianQianLuLu1/MeowStarMap) | 126 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
-| 1139 | [rapmd73/JackrabbitRelay](https://github.com/rapmd73/JackrabbitRelay) | 126 | 工具 | 虚拟货币 | Python | 2026-08-14 | 2026-11-10 |
-| 1140 | [vrishank97/AlgoTrading](https://github.com/vrishank97/AlgoTrading) | 126 | 工具 | 未明确（需查文档） | Python | 2025-01-27 | 2026-11-10 |
-| 1141 | [algotrading-lab/ai-algotrading-agent](https://github.com/algotrading-lab/ai-algotrading-agent) | 125 | Agent | 未明确（需查文档） | Python | 2026-06-17 | 2026-11-10 |
-| 1142 | [bytesc/Image_Classify_WebGUI_CIFAR10](https://github.com/bytesc/Image_Classify_WebGUI_CIFAR10) | 125 | 工具 | 未明确（需查文档） | Python | 2024-09-18 | 2026-11-10 |
-| 1143 | [huimeicloud/hm_editor](https://github.com/huimeicloud/hm_editor) | 125 | Agent | 未明确（需查文档） | HTML | 2026-09-30 | 2026-11-10 |
-| 1144 | [Kai-dev7/QuantScope](https://github.com/Kai-dev7/QuantScope) | 125 | Agent | 未明确（需查文档） | Python | 2026-07-09 | 2026-11-10 |
-| 1145 | [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) | 125 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 1146 | [VernonOY/alpha-skills](https://github.com/VernonOY/alpha-skills) | 125 | 论文研究 | 因子 |  | 2026-04-14 | 2026-11-10 |
-| 1147 | [janushendersonassetallocation/loman](https://github.com/janushendersonassetallocation/loman) | 124 | 论文研究 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 1148 | [lissettecarlr/nano-banana-prompt-studio](https://github.com/lissettecarlr/nano-banana-prompt-studio) | 124 | 工具 | 未明确（需查文档） | Python | 2026-08-20 | 2026-11-10 |
-| 1149 | [nshen7/alpha-gfn](https://github.com/nshen7/alpha-gfn) | 124 | 工具 | 因子 | Jupyter Notebook | 2026-01-23 | 2026-11-10 |
-| 1150 | [TencentBlueKing/blueking-dbm](https://github.com/TencentBlueKing/blueking-dbm) | 124 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 1151 | [dev-zuo/zuo-deploy](https://github.com/dev-zuo/zuo-deploy) | 123 | 工具 | 未明确（需查文档） | HTML | 2024-06-16 | 2026-11-10 |
-| 1152 | [freestylefly/openclaw-stock-kb](https://github.com/freestylefly/openclaw-stock-kb) | 123 | 工具 | 未明确（需查文档） | Python | 2026-02-12 | 2026-11-10 |
-| 1153 | [hnking-star/FlySecAgent](https://github.com/hnking-star/FlySecAgent) | 123 | Agent | 未明确（需查文档） | Python | 2026-10-04 | 2026-11-10 |
-| 1154 | [MarcelBeining/EazeBot](https://github.com/MarcelBeining/EazeBot) | 123 | 工具 | 虚拟货币 | Python | 2024-05-28 | 2026-11-10 |
-| 1155 | [songshuquant/ssquant](https://github.com/songshuquant/ssquant) | 123 | 工具 | 期货 | Python | 2026-10-22 | 2026-11-10 |
-| 1156 | [hyli-org/hyli](https://github.com/hyli-org/hyli) | 122 | 工具 | 虚拟货币 | Rust | 2026-11-09 | 2026-11-10 |
-| 1157 | [Mael-J/mstarpy](https://github.com/Mael-J/mstarpy) | 122 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 1158 | [s-pms/SPMS-Web](https://github.com/s-pms/SPMS-Web) | 122 | 工具 | 未明确（需查文档） | Vue | 2026-10-14 | 2026-11-10 |
-| 1159 | [VeKiner/akshare-stock-data-fetcher](https://github.com/VeKiner/akshare-stock-data-fetcher) | 122 | 工具 | A股 | Python | 2026-10-25 | 2026-11-10 |
-| 1160 | [fleetinglife/levistock](https://github.com/fleetinglife/levistock) | 121 | 工具 | A股 | Python | 2026-10-04 | 2026-11-10 |
-| 1161 | [JKorf/Kraken.Net](https://github.com/JKorf/Kraken.Net) | 121 | 工具 | 虚拟货币、期货 | C# | 2026-10-23 | 2026-11-10 |
-| 1162 | [bitisanop/CryptoExchange_TradingPlatform_CoinExchange](https://github.com/bitisanop/CryptoExchange_TradingPlatform_CoinExchange) | 120 | 工具 | 虚拟货币 | Java | 2025-02-19 | 2026-11-10 |
-| 1163 | [Drakkar-Software/OctoBot-Prediction-Market](https://github.com/Drakkar-Software/OctoBot-Prediction-Market) | 120 | 工具 | 虚拟货币 | Python | 2026-03-30 | 2026-11-10 |
-| 1164 | [kuegi/kuegiBot](https://github.com/kuegi/kuegiBot) | 120 | 工具 | 虚拟货币 | JavaScript | 2025-05-09 | 2026-11-10 |
-| 1165 | [lookatwallstreet/WallTrading-Bot-MooMoo-Futu](https://github.com/lookatwallstreet/WallTrading-Bot-MooMoo-Futu) | 120 | 交易框架 | 未明确（需查文档） | Python | 2026-04-21 | 2026-11-10 |
-| 1166 | [vincentkoc/dexscraper](https://github.com/vincentkoc/dexscraper) | 120 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
-| 1167 | [alihaskar/pycharting](https://github.com/alihaskar/pycharting) | 119 | 交易框架 | 未明确（需查文档） | Python | 2026-10-27 | 2026-11-10 |
-| 1168 | [chen-zeong/dtv_mobile](https://github.com/chen-zeong/dtv_mobile) | 119 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-14 | 2026-11-10 |
-| 1169 | [dadaiwei/fe-deploy-cli](https://github.com/dadaiwei/fe-deploy-cli) | 119 | 工具 | 未明确（需查文档） | JavaScript | 2024-06-14 | 2026-11-10 |
-| 1170 | [JKorf/Kucoin.Net](https://github.com/JKorf/Kucoin.Net) | 119 | 工具 | 虚拟货币、期货 | C# | 2026-11-09 | 2026-11-10 |
-| 1171 | [Krexa-xyz/skills](https://github.com/Krexa-xyz/skills) | 119 | Agent | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
-| 1172 | [Laichj/box-spider](https://github.com/Laichj/box-spider) | 119 | 工具 | A股 | Java | 2024-04-15 | 2026-11-10 |
-| 1173 | [sanchezmarcos/binancio](https://github.com/sanchezmarcos/binancio) | 119 | 工具 | 虚拟货币 | JavaScript | 2024-01-03 | 2026-11-10 |
-| 1174 | [seasonstar/atmquant](https://github.com/seasonstar/atmquant) | 119 | 交易框架 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
-| 1175 | [xianer235/115-media-hub](https://github.com/xianer235/115-media-hub) | 119 | 工具 | 未明确（需查文档） | Python | 2026-11-02 | 2026-11-10 |
-| 1176 | [BUPT-GAMMA/iGraph](https://github.com/BUPT-GAMMA/iGraph) | 118 | Agent | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
-| 1177 | [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) | 118 | 工具 | 虚拟货币 | JavaScript | 2026-11-05 | 2026-11-10 |
-| 1178 | [cool-icu0/xgent](https://github.com/cool-icu0/xgent) | 118 | Agent | 未明确（需查文档） | Java | 2026-05-25 | 2026-11-10 |
-| 1179 | [duhu2000/dsh-mcp-connector](https://github.com/duhu2000/dsh-mcp-connector) | 118 | 论文研究 | 未明确（需查文档） | JavaScript | 2026-11-10 | 2026-11-10 |
-| 1180 | [kesslernity/awesome-copilot-chat-agents](https://github.com/kesslernity/awesome-copilot-chat-agents) | 118 | Agent | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
-| 1181 | [rookie0/rains](https://github.com/rookie0/rains) | 118 | 工具 | A股 | Rust | 2026-10-25 | 2026-11-10 |
-| 1182 | [zc6503204-collab/stock-strategy-dashboard](https://github.com/zc6503204-collab/stock-strategy-dashboard) | 118 | 论文研究 | A股 | Python | 2026-11-04 | 2026-11-10 |
-| 1183 | [huangzongmou/yolov8-pytorch_quantization](https://github.com/huangzongmou/yolov8-pytorch_quantization) | 117 | 工具 | 未明确（需查文档） | Python | 2023-11-10 | 2026-11-10 |
-| 1184 | [keeshii/ryuu-play](https://github.com/keeshii/ryuu-play) | 117 | 游戏 | 未明确（需查文档） | TypeScript | 2026-06-18 | 2026-11-10 |
-| 1185 | [openaccountant/skills](https://github.com/openaccountant/skills) | 117 | Agent | 未明确（需查文档） |  | 2026-04-09 | 2026-11-10 |
-| 1186 | [pseudocodes/ctp2rs](https://github.com/pseudocodes/ctp2rs) | 117 | 工具 | 期货 | Rust | 2026-08-08 | 2026-11-10 |
-| 1187 | [skygazer42/ForeSight](https://github.com/skygazer42/ForeSight) | 117 | 交易框架 | 未明确（需查文档） | Python | 2026-05-03 | 2026-11-10 |
-| 1188 | [xiongcp/stock-skill](https://github.com/xiongcp/stock-skill) | 117 | Agent | 美股、A股 | Python | 2026-11-02 | 2026-11-10 |
-| 1189 | [7skooooo/mql5-systems-mirror](https://github.com/7skooooo/mql5-systems-mirror) | 116 | 工具 | 未明确（需查文档） | HTML | 2026-11-10 | 2026-11-10 |
-| 1190 | [adamd1985/articles_materials](https://github.com/adamd1985/articles_materials) | 116 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-26 | 2026-11-10 |
-| 1191 | [Auquan/auquantoolbox](https://github.com/Auquan/auquantoolbox) | 116 | 交易框架 | 未明确（需查文档） | Python | 2024-01-11 | 2026-11-10 |
-| 1192 | [dex-original/okx-agent-trade-kit](https://github.com/dex-original/okx-agent-trade-kit) | 116 | Agent | 虚拟货币、期货 | TypeScript | 2026-06-01 | 2026-11-10 |
-| 1193 | [dodid/minitrade](https://github.com/dodid/minitrade) | 116 | 交易框架 | 未明确（需查文档） | Python | 2026-02-01 | 2026-11-10 |
-| 1194 | [HeBianGu/WPF-Control](https://github.com/HeBianGu/WPF-Control) | 116 | 工具 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
-| 1195 | [mathworks/2D-Lid-Driven-Cavity-Flow-Incompressible-Navier-Stokes-Solver](https://github.com/mathworks/2D-Lid-Driven-Cavity-Flow-Incompressible-Navier-Stokes-Solver) | 116 | 工具 | 未明确（需查文档） | MATLAB | 2024-03-08 | 2026-11-10 |
-| 1196 | [rsalianto/tradoor](https://github.com/rsalianto/tradoor) | 116 | 论文研究 | 虚拟货币 | Rust | 2026-11-07 | 2026-11-10 |
-| 1197 | [Auto-Plugin/autotoast.js](https://github.com/Auto-Plugin/autotoast.js) | 115 | 工具 | 未明确（需查文档） | TypeScript | 2025-10-15 | 2026-11-10 |
-| 1198 | [cenksari/react-crypto-exchange](https://github.com/cenksari/react-crypto-exchange) | 115 | 工具 | 虚拟货币 | TypeScript | 2026-06-12 | 2026-11-10 |
-| 1199 | [coinrust/trading-strategies](https://github.com/coinrust/trading-strategies) | 115 | 工具 | 未明确（需查文档） | Go | 2026-09-28 | 2026-11-10 |
-| 1200 | [hetaoBackend/deer-trade](https://github.com/hetaoBackend/deer-trade) | 115 | Agent | 未明确（需查文档） | Python | 2025-10-24 | 2026-11-10 |
-| 1201 | [HG-ha/SenseVoice-Api](https://github.com/HG-ha/SenseVoice-Api) | 115 | 工具 | 未明确（需查文档） | Python | 2024-09-02 | 2026-11-10 |
-| 1202 | [J700070/Stock-Analyzer-Python](https://github.com/J700070/Stock-Analyzer-Python) | 115 | 工具 | 未明确（需查文档） | Python | 2024-06-14 | 2026-11-10 |
-| 1203 | [KylinShinlyLin/QozeCode](https://github.com/KylinShinlyLin/QozeCode) | 115 | Agent | 未明确（需查文档） | Python | 2026-09-17 | 2026-11-10 |
-| 1204 | [residual-lab/alpha-harness](https://github.com/residual-lab/alpha-harness) | 115 | 论文研究 | 未明确（需查文档） | TypeScript | 2026-11-05 | 2026-11-10 |
-| 1205 | [424431185/pixel-asset-master-skills](https://github.com/424431185/pixel-asset-master-skills) | 114 | 游戏 | 未明确（需查文档） | HTML | 2026-05-05 | 2026-11-10 |
-| 1206 | [CarlMarkswx/comfyui_GaussianViewer](https://github.com/CarlMarkswx/comfyui_GaussianViewer) | 114 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-17 | 2026-11-10 |
-| 1207 | [terbed/finmlkit](https://github.com/terbed/finmlkit) | 114 | 论文研究 | 未明确（需查文档） | Python | 2026-10-25 | 2026-11-10 |
-| 1208 | [zsrl/qka](https://github.com/zsrl/qka) | 114 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 1209 | [Zzz-IT/GoclashZ](https://github.com/Zzz-IT/GoclashZ) | 114 | 工具 | 未明确（需查文档） | Go | 2026-10-30 | 2026-11-10 |
-| 1210 | [baobach/hft_papers](https://github.com/baobach/hft_papers) | 113 | 论文研究 | 未明确（需查文档） | Python | 2026-11-01 | 2026-11-10 |
-| 1211 | [IonRh/HomePage](https://github.com/IonRh/HomePage) | 113 | 工具 | 未明确（需查文档） | JavaScript | 2025-11-07 | 2026-11-10 |
-| 1212 | [Magica-Chen/GaussWorldTrader](https://github.com/Magica-Chen/GaussWorldTrader) | 113 | 交易框架 | 美股 | Python | 2026-09-26 | 2026-11-10 |
-| 1213 | [N00Bception/AI-CryptoTrader](https://github.com/N00Bception/AI-CryptoTrader) | 113 | 工具 | 虚拟货币 | Python | 2025-02-25 | 2026-11-10 |
-| 1214 | [VibeTradingLabs/vibetrading](https://github.com/VibeTradingLabs/vibetrading) | 113 | Agent | 未明确（需查文档） | Python | 2026-03-23 | 2026-11-10 |
-| 1215 | [vitorcgo/Niko](https://github.com/vitorcgo/Niko) | 113 | Agent | 未明确（需查文档） | TypeScript | 2026-11-03 | 2026-11-10 |
-| 1216 | [Caoyongqi912/case_auto_hub](https://github.com/Caoyongqi912/case_auto_hub) | 112 | 工具 | 未明确（需查文档） | Python | 2026-06-24 | 2026-11-10 |
-| 1217 | [FTShare-Lab/FTShare-python-sdk](https://github.com/FTShare-Lab/FTShare-python-sdk) | 112 | Agent | 因子 | Python | 2026-11-10 | 2026-11-10 |
-| 1218 | [heranliu/AlphaResearchOS](https://github.com/heranliu/AlphaResearchOS) | 112 | Agent | 因子 | Python | 2026-10-09 | 2026-11-10 |
-| 1219 | [joaquinbejar/market-maker-rs](https://github.com/joaquinbejar/market-maker-rs) | 112 | 交易框架 | 期货 | Rust | 2026-11-10 | 2026-11-10 |
-| 1220 | [sec-gov/python-for-dera-financial-datasets](https://github.com/sec-gov/python-for-dera-financial-datasets) | 112 | 工具 | 未明确（需查文档） | Python | 2026-01-21 | 2026-11-10 |
-| 1221 | [Tanglumy/Finance-Bro](https://github.com/Tanglumy/Finance-Bro) | 112 | Agent | 未明确（需查文档） | Python | 2025-11-08 | 2026-11-10 |
-| 1222 | [Ali-Marandi/finsight-pro](https://github.com/Ali-Marandi/finsight-pro) | 111 | 工具 | 未明确（需查文档） | Python | 2026-08-26 | 2026-11-10 |
-| 1223 | [Ambuj123-lab/agentic-rag-financial-parser](https://github.com/Ambuj123-lab/agentic-rag-financial-parser) | 111 | Agent | 未明确（需查文档） | Python | 2026-09-30 | 2026-11-10 |
-| 1224 | [manujajay/machinelearning4finance](https://github.com/manujajay/machinelearning4finance) | 111 | 工具 | 未明确（需查文档） | Python | 2024-02-24 | 2026-11-10 |
-| 1225 | [mgao6767/frds](https://github.com/mgao6767/frds) | 111 | 论文研究 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
-| 1226 | [QIYU-JACKMAN/codexQIYU-image-workflow](https://github.com/QIYU-JACKMAN/codexQIYU-image-workflow) | 111 | 工具 | 未明确（需查文档） | Python | 2026-08-19 | 2026-11-10 |
-| 1227 | [ZhuJD-China/RainbowGPT](https://github.com/ZhuJD-China/RainbowGPT) | 111 | Agent | 未明确（需查文档） | Python | 2025-02-06 | 2026-11-10 |
-| 1228 | [Azhagesan-dev/OrderFlowMap](https://github.com/Azhagesan-dev/OrderFlowMap) | 110 | 工具 | 未明确（需查文档） | HTML | 2026-04-17 | 2026-11-10 |
-| 1229 | [howdymary/autopredict](https://github.com/howdymary/autopredict) | 110 | Agent | 未明确（需查文档） | Python | 2026-07-15 | 2026-11-10 |
-| 1230 | [MOSEK/PortfolioOptimization](https://github.com/MOSEK/PortfolioOptimization) | 110 | 工具 | 未明确（需查文档） | HTML | 2026-04-29 | 2026-11-10 |
-| 1231 | [RahulAutade2288/fraud-detection-federated](https://github.com/RahulAutade2288/fraud-detection-federated) | 110 | 工具 | 未明确（需查文档） | Python | 2025-06-07 | 2026-11-10 |
-| 1232 | [woung717/backtest-manager-vscode](https://github.com/woung717/backtest-manager-vscode) | 110 | 交易框架 | 未明确（需查文档） | TypeScript | 2025-07-11 | 2026-11-10 |
-| 1233 | [AM1403x/financial-agent-india](https://github.com/AM1403x/financial-agent-india) | 109 | Agent | 未明确（需查文档） | Python | 2026-02-12 | 2026-11-10 |
-| 1234 | [csmar432/finai-research](https://github.com/csmar432/finai-research) | 109 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
-| 1235 | [haoge10241024/TradingAgents_for_Futures](https://github.com/haoge10241024/TradingAgents_for_Futures) | 109 | Agent | 期货 | Python | 2025-11-30 | 2026-11-10 |
-| 1236 | [Rsplwe/bili-live-hime](https://github.com/Rsplwe/bili-live-hime) | 109 | 工具 | 未明确（需查文档） | TypeScript | 2026-08-26 | 2026-11-10 |
-| 1237 | [WPeace-HcH/WPeGPT-Analyzer](https://github.com/WPeace-HcH/WPeGPT-Analyzer) | 109 | Agent | 未明确（需查文档） | PowerShell | 2026-05-27 | 2026-11-10 |
-| 1238 | [z-bool/Venom-aoman](https://github.com/z-bool/Venom-aoman) | 109 | 工具 | 未明确（需查文档） |  | 2024-05-14 | 2026-11-10 |
-| 1239 | [zhangyao1990/elegant-wui-uni](https://github.com/zhangyao1990/elegant-wui-uni) | 109 | 工具 | 未明确（需查文档） | Vue | 2025-07-16 | 2026-11-10 |
-| 1240 | [zhouqinglong520/trading-mastery](https://github.com/zhouqinglong520/trading-mastery) | 109 | 工具 | A股 | HTML | 2026-07-04 | 2026-11-10 |
-| 1241 | [122474363/DSQ](https://github.com/122474363/DSQ) | 108 | 工具 | 未明确（需查文档） | HTML | 2026-11-08 | 2026-11-10 |
-| 1242 | [aidatatools/quant-python-ai](https://github.com/aidatatools/quant-python-ai) | 108 | Agent | 未明确（需查文档） | Python | 2026-02-23 | 2026-11-10 |
-| 1243 | [Earnings-Call-Dataset/MAEC-A-Multimodal-Aligned-Earnings-Conference-Call-Dataset-for-Financial-Risk-Prediction](https://github.com/Earnings-Call-Dataset/MAEC-A-Multimodal-Aligned-Earnings-Conference-Call-Dataset-for-Financial-Risk-Prediction) | 108 | 论文研究 | 未明确（需查文档） | Python | 2024-02-15 | 2026-11-10 |
-| 1244 | [hugoguerrap/crypto-claude-desk](https://github.com/hugoguerrap/crypto-claude-desk) | 108 | Agent | 虚拟货币 | Python | 2026-08-23 | 2026-11-10 |
-| 1245 | [IBM/AML-Data](https://github.com/IBM/AML-Data) | 108 | Agent | 未明确（需查文档） |  | 2025-09-17 | 2026-11-10 |
-| 1246 | [Potato-py/ExportReport](https://github.com/Potato-py/ExportReport) | 108 | 工具 | 未明确（需查文档） | HTML | 2024-03-29 | 2026-11-10 |
-| 1247 | [sisong/sfpatcher](https://github.com/sisong/sfpatcher) | 108 | 工具 | 未明确（需查文档） |  | 2026-07-27 | 2026-11-10 |
-| 1248 | [sullyo/fingen](https://github.com/sullyo/fingen) | 108 | Agent | 未明确（需查文档） | TypeScript | 2024-03-25 | 2026-11-10 |
-| 1249 | [aitradingbotspro/cryto-trading-ai-assistant](https://github.com/aitradingbotspro/cryto-trading-ai-assistant) | 107 | 工具 | 虚拟货币 | Python | 2026-03-14 | 2026-11-10 |
-| 1250 | [Ali-Marandi/reportflow-automation](https://github.com/Ali-Marandi/reportflow-automation) | 107 | 工具 | 未明确（需查文档） | Python | 2026-08-30 | 2026-11-10 |
-| 1251 | [areed1192/portfolio-optimization](https://github.com/areed1192/portfolio-optimization) | 107 | 工具 | 未明确（需查文档） | Python | 2024-06-09 | 2026-11-10 |
-| 1252 | [initial-d/ml-quant-trading](https://github.com/initial-d/ml-quant-trading) | 107 | Agent | A股、因子 | Python | 2026-11-02 | 2026-11-10 |
-| 1253 | [mesh-3d/cesium-vectortile-gl](https://github.com/mesh-3d/cesium-vectortile-gl) | 107 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-14 | 2026-11-10 |
-| 1254 | [OriginQ/pyqpanda-algorithm](https://github.com/OriginQ/pyqpanda-algorithm) | 107 | 工具 | 未明确（需查文档） | Python | 2026-08-13 | 2026-11-10 |
-| 1255 | [wyh22/multi-agent-trading](https://github.com/wyh22/multi-agent-trading) | 107 | Agent | A股 | Python | 2026-09-09 | 2026-11-10 |
-| 1256 | [0xTaoDev/jupiter-python-cli](https://github.com/0xTaoDev/jupiter-python-cli) | 106 | 工具 | 虚拟货币 | Python | 2024-04-08 | 2026-11-10 |
-| 1257 | [Apress/Quantitative-Trading-Strategies-Using-Python](https://github.com/Apress/Quantitative-Trading-Strategies-Using-Python) | 106 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-14 | 2026-11-10 |
-| 1258 | [binance/binance-connector-php](https://github.com/binance/binance-connector-php) | 106 | 工具 | 虚拟货币 | PHP | 2026-10-28 | 2026-11-10 |
-| 1259 | [cmdch2017/GenerateAndAutoupload](https://github.com/cmdch2017/GenerateAndAutoupload) | 106 | 工具 | 未明确（需查文档） | Python | 2024-08-18 | 2026-11-10 |
-| 1260 | [LeastBit/SourceCodeDoc](https://github.com/LeastBit/SourceCodeDoc) | 106 | 工具 | 未明确（需查文档） | JavaScript | 2025-07-11 | 2026-11-10 |
-| 1261 | [manujajay/portfolio-optimize](https://github.com/manujajay/portfolio-optimize) | 106 | 工具 | 未明确（需查文档） | Python | 2024-03-11 | 2026-11-10 |
-| 1262 | [QuirkyTurtle94/GnuDash](https://github.com/QuirkyTurtle94/GnuDash) | 106 | 工具 | 未明确（需查文档） | TypeScript | 2026-09-29 | 2026-11-10 |
-| 1263 | [tigerfintech/tiger_quant](https://github.com/tigerfintech/tiger_quant) | 106 | 交易框架 | 未明确（需查文档） | Java | 2023-12-05 | 2026-11-10 |
-| 1264 | [0xrsydn/idx-cli](https://github.com/0xrsydn/idx-cli) | 105 | Agent | 未明确（需查文档） | Rust | 2026-11-10 | 2026-11-10 |
-| 1265 | [Etherstrings/JusticePlutus](https://github.com/Etherstrings/JusticePlutus) | 105 | 工具 | 未明确（需查文档） | Python | 2026-04-20 | 2026-11-10 |
-| 1266 | [fat7/KLinePlayground](https://github.com/fat7/KLinePlayground) | 105 | 工具 | A股 | Python | 2026-10-12 | 2026-11-10 |
-| 1267 | [friend-nicen/nicen-localize-image](https://github.com/friend-nicen/nicen-localize-image) | 105 | 工具 | 未明确（需查文档） | JavaScript | 2025-09-16 | 2026-11-10 |
-| 1268 | [wbbyfd/UniversalRotation](https://github.com/wbbyfd/UniversalRotation) | 105 | 工具 | 未明确（需查文档） | Python | 2025-07-02 | 2026-11-10 |
-| 1269 | [ApocData/ApocData-skill](https://github.com/ApocData/ApocData-skill) | 104 | Agent | A股 | Shell | 2026-10-14 | 2026-11-10 |
-| 1270 | [bzd6661/wechat-article-for-ai](https://github.com/bzd6661/wechat-article-for-ai) | 104 | Agent | 未明确（需查文档） | Python | 2026-03-04 | 2026-11-10 |
-| 1271 | [IAmTomShaw/stock-tracker-agent](https://github.com/IAmTomShaw/stock-tracker-agent) | 104 | Agent | 因子 | Python | 2025-11-23 | 2026-11-10 |
-| 1272 | [mrgoonie/vnstock-agent](https://github.com/mrgoonie/vnstock-agent) | 104 | Agent | 未明确（需查文档） | Python | 2026-04-01 | 2026-11-10 |
-| 1273 | [Potato-py/getIpInfo](https://github.com/Potato-py/getIpInfo) | 104 | 工具 | 未明确（需查文档） | Python | 2025-08-29 | 2026-11-10 |
-| 1274 | [SheldonJoO/AirCard-zh](https://github.com/SheldonJoO/AirCard-zh) | 104 | 工具 | 未明确（需查文档） | Swift | 2026-09-21 | 2026-11-10 |
-| 1275 | [yt-feng/VPIN](https://github.com/yt-feng/VPIN) | 104 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-04-30 | 2026-11-10 |
-| 1276 | [zhangsensen/etf-rotation-strategy](https://github.com/zhangsensen/etf-rotation-strategy) | 104 | 论文研究 | A股、因子 | Python | 2026-10-05 | 2026-11-10 |
-| 1277 | [arimanyus/warrenduffer](https://github.com/arimanyus/warrenduffer) | 103 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-09-23 | 2026-11-10 |
-| 1278 | [guowang23333/kiro-pro-batch](https://github.com/guowang23333/kiro-pro-batch) | 103 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-20 | 2026-11-10 |
-| 1279 | [HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction](https://github.com/HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction) | 103 | 工具 | 未明确（需查文档） | Python | 2024-05-18 | 2026-11-10 |
-| 1280 | [kacins/YPay](https://github.com/kacins/YPay) | 103 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-27 | 2026-11-10 |
-| 1281 | [Nasdaq/NasdaqCloudDataService-SDK-Python](https://github.com/Nasdaq/NasdaqCloudDataService-SDK-Python) | 103 | 工具 | 美股 | Python | 2026-11-06 | 2026-11-10 |
-| 1282 | [Trata-Inc/trata-hedge-bench](https://github.com/Trata-Inc/trata-hedge-bench) | 103 | Agent | 未明确（需查文档） | Python | 2026-06-18 | 2026-11-10 |
-| 1283 | [yzhbradoodrrpurp/FinFeed](https://github.com/yzhbradoodrrpurp/FinFeed) | 103 | 论文研究 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
-| 1284 | [Arthur19940725/stock-analysis-skill](https://github.com/Arthur19940725/stock-analysis-skill) | 102 | Agent | 未明确（需查文档） | Python | 2026-08-20 | 2026-11-10 |
-| 1285 | [automatedalgo/apex](https://github.com/automatedalgo/apex) | 102 | 论文研究 | 未明确（需查文档） | C++ | 2026-07-12 | 2026-11-10 |
-| 1286 | [chenwr727/Stock-Insight-AI](https://github.com/chenwr727/Stock-Insight-AI) | 102 | 工具 | 期货 | Python | 2025-05-26 | 2026-11-10 |
-| 1287 | [cmliu/EdgeOne-Pages-BestIP2SUB](https://github.com/cmliu/EdgeOne-Pages-BestIP2SUB) | 102 | 工具 | 未明确（需查文档） | JavaScript | 2025-10-13 | 2026-11-10 |
-| 1288 | [javajack/skill-algotrader](https://github.com/javajack/skill-algotrader) | 102 | Agent | 未明确（需查文档） | Python | 2026-02-14 | 2026-11-10 |
-| 1289 | [karimkhemkapital/quantitative-trading-free-lesson](https://github.com/karimkhemkapital/quantitative-trading-free-lesson) | 102 | 工具 | 未明确（需查文档） | Python | 2026-06-30 | 2026-11-10 |
-| 1290 | [Thomvanoorschot/zigma](https://github.com/Thomvanoorschot/zigma) | 102 | 交易框架 | 未明确（需查文档） | Zig | 2025-08-03 | 2026-11-10 |
-| 1291 | [0xhappyboy/candleview](https://github.com/0xhappyboy/candleview) | 101 | 工具 | 未明确（需查文档） | TypeScript | 2026-09-28 | 2026-11-10 |
-| 1292 | [DiscoverBox/awesome-ai-reverse-engineering](https://github.com/DiscoverBox/awesome-ai-reverse-engineering) | 101 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
-| 1293 | [dream-faster/fold](https://github.com/dream-faster/fold) | 101 | 交易框架 | 未明确（需查文档） | Python | 2024-02-29 | 2026-11-10 |
-| 1294 | [LuckyKuang/codex-tokens-compress](https://github.com/LuckyKuang/codex-tokens-compress) | 101 | Agent | 未明确（需查文档） | Python | 2026-04-10 | 2026-11-10 |
-| 1295 | [owl234/Awesome-SRC-experience](https://github.com/owl234/Awesome-SRC-experience) | 101 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-22 | 2026-11-10 |
-| 1296 | [shiyu2011/cookstock](https://github.com/shiyu2011/cookstock) | 101 | 工具 | 未明确（需查文档） | Python | 2025-05-17 | 2026-11-10 |
-| 1297 | [StellarDust-AI/miniqmt-tushare-xtquant-Ashare](https://github.com/StellarDust-AI/miniqmt-tushare-xtquant-Ashare) | 101 | 论文研究 | A股 | Python | 2026-09-30 | 2026-11-10 |
-| 1298 | [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) | 101 | Agent | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
+| 518 | [jackyideal/AlphaTeam](https://github.com/jackyideal/AlphaTeam) | 413 | 交易框架 | 未明确（需查文档） | Python | 2026-04-19 | 2026-11-10 |
+| 519 | [Luchkata/Algorithmic_Trading_Machine_Learning](https://github.com/Luchkata/Algorithmic_Trading_Machine_Learning) | 413 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-04 | 2026-11-10 |
+| 520 | [IBM/AMLSim](https://github.com/IBM/AMLSim) | 412 | Agent | 未明确（需查文档） | Python | 2025-09-17 | 2026-11-10 |
+| 521 | [bfolkens/py-market-profile](https://github.com/bfolkens/py-market-profile) | 410 | 工具 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
+| 522 | [Erfaniaa/binance-futures-trading-bot](https://github.com/Erfaniaa/binance-futures-trading-bot) | 410 | 工具 | 虚拟货币、期货 | Python | 2024-03-13 | 2026-11-10 |
+| 523 | [pkjmesra/PKScreener](https://github.com/pkjmesra/PKScreener) | 410 | 交易框架 | 美股 | Python | 2026-10-02 | 2026-11-10 |
+| 524 | [teamdArk5/FscanParser](https://github.com/teamdArk5/FscanParser) | 410 | 工具 | 未明确（需查文档） |  | 2025-01-04 | 2026-11-10 |
+| 525 | [PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Bots-with-Python](https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Bots-with-Python) | 409 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-12-15 | 2026-11-10 |
+| 526 | [sleep1223/fast-soy-admin](https://github.com/sleep1223/fast-soy-admin) | 409 | 工具 | 未明确（需查文档） | Python | 2026-08-25 | 2026-11-10 |
+| 527 | [massive-com/mcp_massive](https://github.com/massive-com/mcp_massive) | 401 | 工具 | 虚拟货币 | Python | 2026-11-03 | 2026-11-10 |
+| 528 | [baidu/brcc](https://github.com/baidu/brcc) | 400 | 工具 | 未明确（需查文档） | Java | 2026-10-30 | 2026-11-10 |
+| 529 | [WeBankFinTech/Schedulis](https://github.com/WeBankFinTech/Schedulis) | 400 | 工具 | 未明确（需查文档） | Java | 2026-09-24 | 2026-11-10 |
+| 530 | [rinchao0721/Melodia](https://github.com/rinchao0721/Melodia) | 398 | 工具 | 未明确（需查文档） | Kotlin | 2026-11-10 | 2026-11-10 |
+| 531 | [hengruiyun/AI-Stock-Master](https://github.com/hengruiyun/AI-Stock-Master) | 396 | 工具 | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
+| 532 | [moss-site/moss-trade-bot-skills](https://github.com/moss-site/moss-trade-bot-skills) | 393 | Agent | 虚拟货币 | Python | 2026-10-20 | 2026-11-10 |
+| 533 | [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) | 392 | 工具 | A股、虚拟货币 | Python | 2026-03-26 | 2026-11-10 |
+| 534 | [Qwejay/Qflow](https://github.com/Qwejay/Qflow) | 392 | 工具 | 未明确（需查文档） | Python | 2026-10-13 | 2026-11-10 |
+| 535 | [get-zeked/perplexity-super-skills](https://github.com/get-zeked/perplexity-super-skills) | 391 | Agent | 未明确（需查文档） |  | 2026-04-01 | 2026-11-10 |
+| 536 | [OhMyMeme/OhMyMeme](https://github.com/OhMyMeme/OhMyMeme) | 391 | 工具 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
+| 537 | [cirosantilli/china-dictatroship-7](https://github.com/cirosantilli/china-dictatroship-7) | 389 | Agent | A股、虚拟货币、期货 | HTML | 2026-02-05 | 2026-11-10 |
+| 538 | [KittenCN/stock_prediction](https://github.com/KittenCN/stock_prediction) | 389 | 工具 | 未明确（需查文档） | Python | 2026-09-28 | 2026-11-10 |
+| 539 | [xiweicheng/tms](https://github.com/xiweicheng/tms) | 389 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-14 | 2026-11-10 |
+| 540 | [Hitheshkaranth/OpenTerminalUI](https://github.com/Hitheshkaranth/OpenTerminalUI) | 388 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-11-06 | 2026-11-10 |
+| 541 | [ivebotunac/PrimoAgent](https://github.com/ivebotunac/PrimoAgent) | 388 | Agent | 未明确（需查文档） | Python | 2026-01-12 | 2026-11-10 |
+| 542 | [happydasch/btplotting](https://github.com/happydasch/btplotting) | 385 | 交易框架 | 未明确（需查文档） | Python | 2025-05-04 | 2026-11-10 |
+| 543 | [tradingstrategy-ai/trading-strategy](https://github.com/tradingstrategy-ai/trading-strategy) | 383 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 544 | [crunz-ailab/nativePDF-structurer](https://github.com/crunz-ailab/nativePDF-structurer) | 382 | 工具 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
+| 545 | [veighna-global/vnpy_evo](https://github.com/veighna-global/vnpy_evo) | 380 | 交易框架 | 虚拟货币 | Python | 2024-12-16 | 2026-11-10 |
+| 546 | [liangdabiao/Claude-Code-Stock-Deep-Research-Agent](https://github.com/liangdabiao/Claude-Code-Stock-Deep-Research-Agent) | 379 | Agent | 未明确（需查文档） |  | 2026-03-07 | 2026-11-10 |
+| 547 | [binghe001/technology-binghe](https://github.com/binghe001/technology-binghe) | 378 | 工具 | 未明确（需查文档） |  | 2024-08-06 | 2026-11-10 |
+| 548 | [yuedai-pbc/FINESSE-Financial-Reasoning-Agent](https://github.com/yuedai-pbc/FINESSE-Financial-Reasoning-Agent) | 378 | Agent | 未明确（需查文档） | Python | 2026-08-24 | 2026-11-10 |
+| 549 | [We-Hack-Studio/nuts](https://github.com/We-Hack-Studio/nuts) | 377 | 工具 | 虚拟货币 | CSS | 2025-05-03 | 2026-11-10 |
+| 550 | [hummingbot/dashboard](https://github.com/hummingbot/dashboard) | 373 | 交易框架 | 未明确（需查文档） | Python | 2025-10-27 | 2026-11-10 |
+| 551 | [stefmolin/stock-analysis](https://github.com/stefmolin/stock-analysis) | 372 | 工具 | 虚拟货币 | Python | 2023-12-28 | 2026-11-10 |
+| 552 | [woshijielie/stock_prediction_and_recommendation](https://github.com/woshijielie/stock_prediction_and_recommendation) | 371 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-02-14 | 2026-11-10 |
+| 553 | [sethGu/FinancialFraudDataGenerator](https://github.com/sethGu/FinancialFraudDataGenerator) | 370 | 工具 | 未明确（需查文档） | Python | 2025-10-18 | 2026-11-10 |
+| 554 | [Alex2Yang97/yahoo-finance-mcp](https://github.com/Alex2Yang97/yahoo-finance-mcp) | 368 | 工具 | 未明确（需查文档） | Python | 2026-09-19 | 2026-11-10 |
+| 555 | [himanshu2406/Algo.Py](https://github.com/himanshu2406/Algo.Py) | 368 | 交易框架 | 未明确（需查文档） | Jupyter Notebook | 2026-06-30 | 2026-11-10 |
+| 556 | [cpagejs/Cpage.js](https://github.com/cpagejs/Cpage.js) | 367 | 工具 | 未明确（需查文档） | TypeScript | 2025-02-03 | 2026-11-10 |
+| 557 | [footprintcat/frost-iot](https://github.com/footprintcat/frost-iot) | 367 | 工具 | 未明确（需查文档） | Java | 2025-10-30 | 2026-11-10 |
+| 558 | [fintechees/Expert-Advisor-Studio](https://github.com/fintechees/Expert-Advisor-Studio) | 366 | 工具 | 虚拟货币 | JavaScript | 2026-10-18 | 2026-11-10 |
+| 559 | [richkuo/go-trader](https://github.com/richkuo/go-trader) | 365 | 论文研究 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 560 | [suenot/profitmaker](https://github.com/suenot/profitmaker) | 365 | 交易框架 | 虚拟货币 | TypeScript | 2026-08-25 | 2026-11-10 |
+| 561 | [stockalgo/stolgo](https://github.com/stockalgo/stolgo) | 364 | 工具 | 美股 | Python | 2026-11-03 | 2026-11-10 |
+| 562 | [sunnyswag/StockRL](https://github.com/sunnyswag/StockRL) | 362 | Agent | A股 | Jupyter Notebook | 2024-03-27 | 2026-11-10 |
+| 563 | [gameworkerkim/vibe-investing](https://github.com/gameworkerkim/vibe-investing) | 361 | Agent | 美股、虚拟货币 | HTML | 2026-11-09 | 2026-11-10 |
+| 564 | [peiqiF4ck/WebFrameworkTools-5.5-enhance](https://github.com/peiqiF4ck/WebFrameworkTools-5.5-enhance) | 361 | 工具 | 未明确（需查文档） | C# | 2026-08-09 | 2026-11-10 |
+| 565 | [wenyuanw/a-share-heatmap](https://github.com/wenyuanw/a-share-heatmap) | 361 | 工具 | A股 | TypeScript | 2026-11-09 | 2026-11-10 |
+| 566 | [yuriak/RLQuant](https://github.com/yuriak/RLQuant) | 359 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-14 | 2026-11-10 |
+| 567 | [cmliu/CFnat-Docker](https://github.com/cmliu/CFnat-Docker) | 358 | 工具 | 未明确（需查文档） | Dockerfile | 2026-04-17 | 2026-11-10 |
+| 568 | [koupleless/koupleless](https://github.com/koupleless/koupleless) | 358 | 工具 | 未明确（需查文档） | Java | 2026-05-13 | 2026-11-10 |
+| 569 | [risesoft-y9/Network-Drive](https://github.com/risesoft-y9/Network-Drive) | 357 | 工具 | 未明确（需查文档） | Java | 2026-11-06 | 2026-11-10 |
+| 570 | [teddysmithdev/FinShark](https://github.com/teddysmithdev/FinShark) | 357 | 工具 | 未明确（需查文档） | TypeScript | 2024-08-09 | 2026-11-10 |
+| 571 | [kay-ou/SimTradeLab](https://github.com/kay-ou/SimTradeLab) | 356 | 交易框架 | 未明确（需查文档） | Python | 2026-11-02 | 2026-11-10 |
+| 572 | [longsurf-ai/openchart](https://github.com/longsurf-ai/openchart) | 355 | Agent | 未明确（需查文档） | TypeScript | 2026-10-30 | 2026-11-10 |
+| 573 | [deshwalmahesh/NSE-Stock-Scanner](https://github.com/deshwalmahesh/NSE-Stock-Scanner) | 354 | 交易框架 | 期货 | Jupyter Notebook | 2025-03-28 | 2026-11-10 |
+| 574 | [Mr-xn/JNDIExploit-1](https://github.com/Mr-xn/JNDIExploit-1) | 354 | 工具 | 未明确（需查文档） | Java | 2025-08-08 | 2026-11-10 |
+| 575 | [NanGePlus/RagLangChainTest](https://github.com/NanGePlus/RagLangChainTest) | 354 | 工具 | 未明确（需查文档） | Python | 2024-09-06 | 2026-11-10 |
+| 576 | [zhaohaojie1998/Control-Algorithm](https://github.com/zhaohaojie1998/Control-Algorithm) | 354 | 工具 | 未明确（需查文档） | Python | 2026-03-13 | 2026-11-10 |
+| 577 | [lukstei/trading-backtest](https://github.com/lukstei/trading-backtest) | 353 | 交易框架 | 未明确（需查文档） | Java | 2026-11-09 | 2026-11-10 |
+| 578 | [WellApp-ai/Well](https://github.com/WellApp-ai/Well) | 352 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-04 | 2026-11-10 |
+| 579 | [goku-open/goku-image-to-svg-tool](https://github.com/goku-open/goku-image-to-svg-tool) | 351 | 工具 | 未明确（需查文档） | Python | 2026-08-21 | 2026-11-10 |
+| 580 | [liangdabiao/perler-beads-ai](https://github.com/liangdabiao/perler-beads-ai) | 349 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-10 | 2026-11-10 |
+| 581 | [Ogannesson/ashare-llm-analyst](https://github.com/Ogannesson/ashare-llm-analyst) | 348 | 工具 | A股 | Python | 2026-11-09 | 2026-11-10 |
+| 582 | [cporter202/stock-market-signal-automation](https://github.com/cporter202/stock-market-signal-automation) | 347 | Agent | 未明确（需查文档） |  | 2026-10-17 | 2026-11-10 |
+| 583 | [binance/binance-connector-rust](https://github.com/binance/binance-connector-rust) | 345 | 工具 | 虚拟货币 | Rust | 2026-11-09 | 2026-11-10 |
+| 584 | [QuantMLResearch/AI-Kline](https://github.com/QuantMLResearch/AI-Kline) | 345 | 论文研究 | 未明确（需查文档） | Python | 2025-08-06 | 2026-11-10 |
+| 585 | [2881099/FreeScheduler](https://github.com/2881099/FreeScheduler) | 344 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-04 | 2026-11-10 |
+| 586 | [lineagett/cf-workers-nav](https://github.com/lineagett/cf-workers-nav) | 344 | 工具 | 未明确（需查文档） | JavaScript | 2026-09-29 | 2026-11-10 |
+| 587 | [liuhuapiaoyuan/MinerU-webui](https://github.com/liuhuapiaoyuan/MinerU-webui) | 344 | 工具 | 未明确（需查文档） | Python | 2024-12-03 | 2026-11-10 |
+| 588 | [binance/binance-connector-go](https://github.com/binance/binance-connector-go) | 342 | 工具 | 虚拟货币 | Go | 2026-10-27 | 2026-11-10 |
+| 589 | [SimFin/simfin](https://github.com/SimFin/simfin) | 342 | 工具 | 未明确（需查文档） | Python | 2026-04-30 | 2026-11-10 |
+| 590 | [enryteam/smart-city](https://github.com/enryteam/smart-city) | 341 | 工具 | 未明确（需查文档） | Batchfile | 2024-03-12 | 2026-11-10 |
+| 591 | [guangxiangdebizi/TradingAgents-MCPmode](https://github.com/guangxiangdebizi/TradingAgents-MCPmode) | 340 | Agent | 未明确（需查文档） | Python | 2025-11-22 | 2026-11-10 |
+| 592 | [jbms/finance-dl](https://github.com/jbms/finance-dl) | 340 | 工具 | 未明确（需查文档） | Python | 2025-05-05 | 2026-11-10 |
+| 593 | [zhu1090093659/dsh-trading](https://github.com/zhu1090093659/dsh-trading) | 340 | Agent | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
+| 594 | [BichengWang/RL-pricing](https://github.com/BichengWang/RL-pricing) | 339 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 595 | [weishakeji/LearningSystem](https://github.com/weishakeji/LearningSystem) | 338 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-03 | 2026-11-10 |
+| 596 | [Blave-TW/blave-agent](https://github.com/Blave-TW/blave-agent) | 337 | Agent | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 597 | [electkismet/AxData](https://github.com/electkismet/AxData) | 337 | 工具 | A股 | Python | 2026-09-16 | 2026-11-10 |
+| 598 | [mirkovicdev/HFTENGINE](https://github.com/mirkovicdev/HFTENGINE) | 337 | 交易框架 | 虚拟货币、期货 | TypeScript | 2026-09-17 | 2026-11-10 |
+| 599 | [kansoku-trade/kansoku](https://github.com/kansoku-trade/kansoku) | 336 | Agent | 未明确（需查文档） | TypeScript | 2026-11-04 | 2026-11-10 |
+| 600 | [yuanwang589-dev/deepseek-harness-quant](https://github.com/yuanwang589-dev/deepseek-harness-quant) | 336 | 工具 | A股、因子 | Python | 2026-08-17 | 2026-11-10 |
+| 601 | [yuwei1203/datax-cloud](https://github.com/yuwei1203/datax-cloud) | 336 | 工具 | 未明确（需查文档） | Java | 2025-02-11 | 2026-11-10 |
+| 602 | [AojdevStudio/Finance-Guru](https://github.com/AojdevStudio/Finance-Guru) | 335 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
+| 603 | [bex-co/beancount-io](https://github.com/bex-co/beancount-io) | 334 | Agent | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
+| 604 | [Oft3r/agentic-trading-desk](https://github.com/Oft3r/agentic-trading-desk) | 334 | Agent | 未明确（需查文档） | Python | 2026-10-19 | 2026-11-10 |
+| 605 | [woijfwefw/ZsxqCrawler](https://github.com/woijfwefw/ZsxqCrawler) | 334 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 606 | [xkzhangsan/xk-time](https://github.com/xkzhangsan/xk-time) | 334 | 工具 | 未明确（需查文档） | Java | 2024-09-22 | 2026-11-10 |
+| 607 | [s-pms/SPMS-Server](https://github.com/s-pms/SPMS-Server) | 333 | 工具 | 未明确（需查文档） | Java | 2026-10-14 | 2026-11-10 |
+| 608 | [SequoiaDB/SequoiaDB_OLD](https://github.com/SequoiaDB/SequoiaDB_OLD) | 332 | 工具 | 未明确（需查文档） |  | 2025-07-30 | 2026-11-10 |
+| 609 | [zillionare/zillionare](https://github.com/zillionare/zillionare) | 332 | 交易框架 | A股 | Python | 2026-11-04 | 2026-11-10 |
+| 610 | [fidetolabs/qanat](https://github.com/fidetolabs/qanat) | 331 | 论文研究 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 611 | [cirosantilli/cirosantilli](https://github.com/cirosantilli/cirosantilli) | 329 | 论文研究 | 虚拟货币 | JavaScript | 2026-09-22 | 2026-11-10 |
+| 612 | [convexfi/riskparity.py](https://github.com/convexfi/riskparity.py) | 327 | 工具 | 未明确（需查文档） | Python | 2026-08-31 | 2026-11-10 |
+| 613 | [QuantMLResearch/pyrust-bt](https://github.com/QuantMLResearch/pyrust-bt) | 327 | 论文研究 | 未明确（需查文档） | Python | 2026-07-20 | 2026-11-10 |
+| 614 | [ShenzhenLime/open_quant](https://github.com/ShenzhenLime/open_quant) | 327 | 论文研究 | 未明确（需查文档） | Python | 2026-07-22 | 2026-11-10 |
+| 615 | [vam876/FastWLAT](https://github.com/vam876/FastWLAT) | 327 | 工具 | 未明确（需查文档） | JavaScript | 2026-02-13 | 2026-11-10 |
+| 616 | [open-net-worth-ai/open-net-worth](https://github.com/open-net-worth-ai/open-net-worth) | 325 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 617 | [sun977/Linuxgun](https://github.com/sun977/Linuxgun) | 325 | 工具 | 未明确（需查文档） | Shell | 2026-02-26 | 2026-11-10 |
+| 618 | [zubair-trabzada/ai-trading-claude](https://github.com/zubair-trabzada/ai-trading-claude) | 325 | Agent | 未明确（需查文档） | Python | 2026-04-07 | 2026-11-10 |
+| 619 | [nkaz001/algotrading-example](https://github.com/nkaz001/algotrading-example) | 324 | 交易框架 | 虚拟货币、期货 | Jupyter Notebook | 2023-12-04 | 2026-11-10 |
+| 620 | [SEC-API-io/sec-api-python](https://github.com/SEC-API-io/sec-api-python) | 324 | 工具 | 未明确（需查文档） | Python | 2026-04-13 | 2026-11-10 |
+| 621 | [justhalfbit/ghostty-terminal-config](https://github.com/justhalfbit/ghostty-terminal-config) | 323 | 工具 | 未明确（需查文档） | Shell | 2026-06-18 | 2026-11-10 |
+| 622 | [0xquqi/crypto-kol-quant](https://github.com/0xquqi/crypto-kol-quant) | 322 | 交易框架 | 虚拟货币、因子 | HTML | 2026-04-12 | 2026-11-10 |
+| 623 | [hzy1522/tickflow-stock-panel](https://github.com/hzy1522/tickflow-stock-panel) | 322 | 交易框架 | A股 | Python | 2026-08-31 | 2026-11-10 |
+| 624 | [ryantcullen/stock-bot](https://github.com/ryantcullen/stock-bot) | 322 | 交易框架 | 未明确（需查文档） | Python | 2026-02-25 | 2026-11-10 |
+| 625 | [sjev/trading-with-python](https://github.com/sjev/trading-with-python) | 322 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-12-29 | 2026-11-10 |
+| 626 | [feifeid47/Unity-Async-UIFrame](https://github.com/feifeid47/Unity-Async-UIFrame) | 321 | 工具 | 未明确（需查文档） | C# | 2024-04-14 | 2026-11-10 |
+| 627 | [hydrosquall/tiingo-python](https://github.com/hydrosquall/tiingo-python) | 321 | 工具 | 未明确（需查文档） | Python | 2025-12-14 | 2026-11-10 |
+| 628 | [conimade/quant_trade](https://github.com/conimade/quant_trade) | 320 | 工具 | 未明确（需查文档） | Python | 2025-08-10 | 2026-11-10 |
+| 629 | [freevolunteer/bondTrader](https://github.com/freevolunteer/bondTrader) | 320 | 工具 | A股 | Go | 2024-05-22 | 2026-11-10 |
+| 630 | [namuan/trading-utils](https://github.com/namuan/trading-utils) | 320 | 工具 | 未明确（需查文档） | Python | 2026-11-05 | 2026-11-10 |
+| 631 | [Delta-F/DeltaTrader](https://github.com/Delta-F/DeltaTrader) | 318 | 工具 | 未明确（需查文档） | Python | 2026-03-16 | 2026-11-10 |
+| 632 | [edinetdb/dexter-jp](https://github.com/edinetdb/dexter-jp) | 318 | Agent | 未明确（需查文档） | TypeScript | 2026-10-08 | 2026-11-10 |
+| 633 | [second-state/fintool](https://github.com/second-state/fintool) | 318 | Agent | A股、虚拟货币 | Rust | 2026-05-19 | 2026-11-10 |
+| 634 | [stonedtman/stonedt-yuqing](https://github.com/stonedtman/stonedt-yuqing) | 318 | 工具 | 未明确（需查文档） | JavaScript | 2025-11-27 | 2026-11-10 |
+| 635 | [yadnuses/Academic-Detective](https://github.com/yadnuses/Academic-Detective) | 318 | 论文研究 | 未明确（需查文档） | Python | 2026-10-10 | 2026-11-10 |
+| 636 | [cool-team-official/cool-unix](https://github.com/cool-team-official/cool-unix) | 316 | 工具 | 未明确（需查文档） | TypeScript | 2026-02-05 | 2026-11-10 |
+| 637 | [Grademark/grademark](https://github.com/Grademark/grademark) | 316 | 交易框架 | 未明确（需查文档） | TypeScript | 2024-10-26 | 2026-11-10 |
+| 638 | [kunkundi/niuone](https://github.com/kunkundi/niuone) | 316 | 论文研究 | A股 | Python | 2026-09-09 | 2026-11-10 |
+| 639 | [fortitudo-tech/fortitudo.tech](https://github.com/fortitudo-tech/fortitudo.tech) | 314 | 工具 | 未明确（需查文档） | Python | 2026-10-08 | 2026-11-10 |
+| 640 | [SEC-API-io/sec-api-node](https://github.com/SEC-API-io/sec-api-node) | 314 | 工具 | 未明确（需查文档） | JavaScript | 2026-04-29 | 2026-11-10 |
+| 641 | [javifalces/HFTFramework](https://github.com/javifalces/HFTFramework) | 311 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-11-09 | 2026-11-10 |
+| 642 | [vam876/FastBurp](https://github.com/vam876/FastBurp) | 310 | 工具 | 未明确（需查文档） | TypeScript | 2026-05-09 | 2026-11-10 |
+| 643 | [fja05680/pinkfish](https://github.com/fja05680/pinkfish) | 309 | 交易框架 | 未明确（需查文档） | Python | 2026-10-15 | 2026-11-10 |
+| 644 | [MobiusQuant/Gendangzou-skill](https://github.com/MobiusQuant/Gendangzou-skill) | 309 | Agent | A股 | Python | 2026-07-28 | 2026-11-10 |
+| 645 | [eternalcurse/PT-Accelerator](https://github.com/eternalcurse/PT-Accelerator) | 308 | 工具 | 未明确（需查文档） | Python | 2026-05-26 | 2026-11-10 |
+| 646 | [JizhiXiang/Quant-Strategy](https://github.com/JizhiXiang/Quant-Strategy) | 308 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-26 | 2026-11-10 |
+| 647 | [leoiceo/OpenSA](https://github.com/leoiceo/OpenSA) | 308 | 工具 | 未明确（需查文档） | JavaScript | 2025-02-20 | 2026-11-10 |
+| 648 | [bcefghj/learn-nano-vllm](https://github.com/bcefghj/learn-nano-vllm) | 307 | 工具 | 未明确（需查文档） | Python | 2026-04-02 | 2026-11-10 |
+| 649 | [rosasurfer/mt4-mql-framework](https://github.com/rosasurfer/mt4-mql-framework) | 307 | 工具 | 未明确（需查文档） | MQL4 | 2026-11-08 | 2026-11-10 |
+| 650 | [timhuang2003/AINEWPROJECT](https://github.com/timhuang2003/AINEWPROJECT) | 307 | 工具 | 未明确（需查文档） | TypeScript | 2025-12-07 | 2026-11-10 |
+| 651 | [bytebeats/mns](https://github.com/bytebeats/mns) | 306 | 工具 | A股、虚拟货币 | Java | 2025-06-25 | 2026-11-10 |
+| 652 | [xhlgogo/Quantitative-Investment-Trading-system](https://github.com/xhlgogo/Quantitative-Investment-Trading-system) | 306 | 工具 | 未明确（需查文档） | Python | 2024-04-06 | 2026-11-10 |
+| 653 | [sayantann11/all-classification-templetes-for-ML](https://github.com/sayantann11/all-classification-templetes-for-ML) | 305 | 工具 | 未明确（需查文档） | Python | 2024-05-15 | 2026-11-10 |
+| 654 | [hummingbot/quants-lab](https://github.com/hummingbot/quants-lab) | 304 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2025-11-04 | 2026-11-10 |
+| 655 | [sirnfs/OptionSuite](https://github.com/sirnfs/OptionSuite) | 304 | 交易框架 | 未明确（需查文档） | Python | 2026-06-01 | 2026-11-10 |
+| 656 | [YizhiSong/FriesTrader](https://github.com/YizhiSong/FriesTrader) | 304 | Agent | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
+| 657 | [CM-idea/SnowAir](https://github.com/CM-idea/SnowAir) | 303 | 工具 | 未明确（需查文档） | C++ | 2026-11-09 | 2026-11-10 |
+| 658 | [algobulls/pyalgotrading](https://github.com/algobulls/pyalgotrading) | 302 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-02-04 | 2026-11-10 |
+| 659 | [Cinderella-Man/hands-on-elixir-and-otp-cryptocurrency-trading-bot](https://github.com/Cinderella-Man/hands-on-elixir-and-otp-cryptocurrency-trading-bot) | 302 | 工具 | 虚拟货币 | CSS | 2026-05-04 | 2026-11-10 |
+| 660 | [SimFin/simfin-tutorials](https://github.com/SimFin/simfin-tutorials) | 301 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-07-30 | 2026-11-10 |
+| 661 | [Stock-Fund/XCrawler](https://github.com/Stock-Fund/XCrawler) | 301 | 工具 | A股 | Python | 2024-07-29 | 2026-11-10 |
+| 662 | [akumidv/tradingview-assistant-chrome-extension](https://github.com/akumidv/tradingview-assistant-chrome-extension) | 299 | 交易框架 | 未明确（需查文档） | JavaScript | 2026-10-18 | 2026-11-10 |
+| 663 | [lizhianyuguangming/TomcatScanPro](https://github.com/lizhianyuguangming/TomcatScanPro) | 299 | 工具 | 未明确（需查文档） | Python | 2026-06-16 | 2026-11-10 |
+| 664 | [iKineticate/LinkEcho](https://github.com/iKineticate/LinkEcho) | 296 | 工具 | 未明确（需查文档） | Rust | 2026-08-21 | 2026-11-10 |
+| 665 | [soybeanjs/soybean-admin-quarkus](https://github.com/soybeanjs/soybean-admin-quarkus) | 296 | 工具 | 未明确（需查文档） | Kotlin | 2025-04-23 | 2026-11-10 |
+| 666 | [hrdZhu/modelviz-skill](https://github.com/hrdZhu/modelviz-skill) | 295 | 工具 | 未明确（需查文档） | Python | 2026-07-19 | 2026-11-10 |
+| 667 | [lo2cin4/lo2cin4bt](https://github.com/lo2cin4/lo2cin4bt) | 294 | 交易框架 | 未明确（需查文档） | Python | 2026-08-01 | 2026-11-10 |
+| 668 | [SUFE-AIFLM-Lab/FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval) | 294 | 论文研究 | 未明确（需查文档） | Python | 2025-06-23 | 2026-11-10 |
+| 669 | [finlab-python/finlab_crypto](https://github.com/finlab-python/finlab_crypto) | 293 | 交易框架 | 虚拟货币 | Python | 2026-09-24 | 2026-11-10 |
+| 670 | [finos/common-domain-model](https://github.com/finos/common-domain-model) | 293 | 工具 | 未明确（需查文档） | Java | 2026-11-09 | 2026-11-10 |
+| 671 | [ymj8903668-droid/trading-review-wiki](https://github.com/ymj8903668-droid/trading-review-wiki) | 293 | 工具 | 未明确（需查文档） | JavaScript | 2026-08-31 | 2026-11-10 |
+| 672 | [CloudWise-OpenSource/OMP](https://github.com/CloudWise-OpenSource/OMP) | 292 | 工具 | 未明确（需查文档） | Python | 2024-05-14 | 2026-11-10 |
+| 673 | [HKUSTDial/DeepEar](https://github.com/HKUSTDial/DeepEar) | 291 | Agent | 未明确（需查文档） | Python | 2026-08-22 | 2026-11-10 |
+| 674 | [quiknode-labs/hyperliquid-sdk](https://github.com/quiknode-labs/hyperliquid-sdk) | 291 | 工具 | 虚拟货币 | Python | 2026-10-27 | 2026-11-10 |
+| 675 | [BlackInspection/token-trade-telegram-bot](https://github.com/BlackInspection/token-trade-telegram-bot) | 290 | 工具 | 虚拟货币 | JavaScript | 2026-11-10 | 2026-11-10 |
+| 676 | [zookyy/crypto-sniper](https://github.com/zookyy/crypto-sniper) | 290 | 工具 | 虚拟货币 | JavaScript | 2024-03-19 | 2026-11-10 |
+| 677 | [OpenQuant-Community/quant-fund](https://github.com/OpenQuant-Community/quant-fund) | 289 | 工具 | 未明确（需查文档） |  | 2026-03-05 | 2026-11-10 |
+| 678 | [plouto-quants/FBDQA-2019A](https://github.com/plouto-quants/FBDQA-2019A) | 288 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-01-17 | 2026-11-10 |
+| 679 | [namename333/idapromcp_333](https://github.com/namename333/idapromcp_333) | 287 | 工具 | 未明确（需查文档） | Python | 2026-04-06 | 2026-11-10 |
+| 680 | [shsarv/Data-Analytics-Projects-in-python](https://github.com/shsarv/Data-Analytics-Projects-in-python) | 287 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-08-13 | 2026-11-10 |
+| 681 | [Geeksfino/finskills](https://github.com/Geeksfino/finskills) | 286 | Agent | 未明确（需查文档） | Python | 2026-03-05 | 2026-11-10 |
+| 682 | [zjp-CN/rustdx](https://github.com/zjp-CN/rustdx) | 286 | 工具 | 未明确（需查文档） | Rust | 2026-04-08 | 2026-11-10 |
+| 683 | [Tomortec/CryptoTradingAgents](https://github.com/Tomortec/CryptoTradingAgents) | 285 | Agent | 虚拟货币 | Python | 2025-12-22 | 2026-11-10 |
+| 684 | [eleven-h/n8n](https://github.com/eleven-h/n8n) | 284 | 工具 | 未明确（需查文档） |  | 2026-01-08 | 2026-11-10 |
+| 685 | [evelyyyyynnnnn/3.0-Financial-Ai-Systems](https://github.com/evelyyyyynnnnn/3.0-Financial-Ai-Systems) | 284 | 工具 | 未明确（需查文档） | HTML | 2026-11-09 | 2026-11-10 |
+| 686 | [huygiatrng/AlpacaTradingAgent](https://github.com/huygiatrng/AlpacaTradingAgent) | 284 | Agent | 美股、虚拟货币 | Python | 2026-10-27 | 2026-11-10 |
+| 687 | [qzz0518/Dukou](https://github.com/qzz0518/Dukou) | 284 | 工具 | 未明确（需查文档） | Swift | 2026-11-07 | 2026-11-10 |
+| 688 | [ALAGENT-HKU/x2strategy](https://github.com/ALAGENT-HKU/x2strategy) | 283 | Agent | 未明确（需查文档） | Python | 2026-06-12 | 2026-11-10 |
+| 689 | [infoway-api/realtime-market-data-api](https://github.com/infoway-api/realtime-market-data-api) | 283 | 工具 | 虚拟货币、期货 | Java | 2025-09-12 | 2026-11-10 |
+| 690 | [microsoft/finnts](https://github.com/microsoft/finnts) | 283 | Agent | 未明确（需查文档） | R | 2026-11-09 | 2026-11-10 |
+| 691 | [yennanliu/InvestSkill](https://github.com/yennanliu/InvestSkill) | 283 | Agent | 美股 | JavaScript | 2026-10-24 | 2026-11-10 |
+| 692 | [bye1158/Card-Tab](https://github.com/bye1158/Card-Tab) | 282 | 工具 | 未明确（需查文档） | JavaScript | 2026-01-06 | 2026-11-10 |
+| 693 | [steeply/gbot-trader](https://github.com/steeply/gbot-trader) | 281 | 工具 | 虚拟货币 | Dockerfile | 2024-05-14 | 2026-11-10 |
+| 694 | [alexey-ernest/go-hft-orderbook](https://github.com/alexey-ernest/go-hft-orderbook) | 280 | 工具 | 虚拟货币 | Go | 2023-12-18 | 2026-11-10 |
+| 695 | [shangyankeji/super-dev](https://github.com/shangyankeji/super-dev) | 280 | 工具 | 未明确（需查文档） | Python | 2026-06-19 | 2026-11-10 |
+| 696 | [sopersone/cabbage-trading-machine](https://github.com/sopersone/cabbage-trading-machine) | 279 | 论文研究 | 未明确（需查文档） | Python | 2026-09-24 | 2026-11-10 |
+| 697 | [zhouhuandev/BaseDemo](https://github.com/zhouhuandev/BaseDemo) | 279 | 工具 | 未明确（需查文档） | Java | 2025-03-24 | 2026-11-10 |
+| 698 | [fmzquant/backtest_python](https://github.com/fmzquant/backtest_python) | 278 | 交易框架 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 699 | [RUC-NLPIR/FinSight](https://github.com/RUC-NLPIR/FinSight) | 278 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-04-06 | 2026-11-10 |
+| 700 | [Lqz13Th/extrema_infra](https://github.com/Lqz13Th/extrema_infra) | 277 | 工具 | 虚拟货币 | Rust | 2026-10-27 | 2026-11-10 |
+| 701 | [mbk-dev/okama](https://github.com/mbk-dev/okama) | 277 | 工具 | 未明确（需查文档） | Python | 2026-10-27 | 2026-11-10 |
+| 702 | [pow1e/pfish](https://github.com/pow1e/pfish) | 277 | 工具 | 未明确（需查文档） | Go | 2024-11-28 | 2026-11-10 |
+| 703 | [sese972010/CloudNav-](https://github.com/sese972010/CloudNav-) | 277 | 工具 | 未明确（需查文档） | TypeScript | 2025-12-17 | 2026-11-10 |
+| 704 | [zhanggao2013/AmazingQuant](https://github.com/zhanggao2013/AmazingQuant) | 277 | 论文研究 | 未明确（需查文档） | C++ | 2024-04-03 | 2026-11-10 |
+| 705 | [EA31337/EA31337-classes](https://github.com/EA31337/EA31337-classes) | 276 | 工具 | 未明确（需查文档） | MQL5 | 2026-04-22 | 2026-11-10 |
+| 706 | [wangxb96/RAG-QA-Generator](https://github.com/wangxb96/RAG-QA-Generator) | 276 | 工具 | 未明确（需查文档） | Python | 2024-12-26 | 2026-11-10 |
+| 707 | [fqgate/FQGate-agent](https://github.com/fqgate/FQGate-agent) | 275 | Agent | A股 | TypeScript | 2026-11-04 | 2026-11-10 |
+| 708 | [mammuth/bitcoin-arbitrage-trading-bot](https://github.com/mammuth/bitcoin-arbitrage-trading-bot) | 275 | 工具 | 虚拟货币 | JavaScript | 2025-03-05 | 2026-11-10 |
+| 709 | [hieuwu/android-groceries-store](https://github.com/hieuwu/android-groceries-store) | 274 | 工具 | 未明确（需查文档） | Kotlin | 2025-10-22 | 2026-11-10 |
+| 710 | [Philip-Cao-9527/code-note-helper](https://github.com/Philip-Cao-9527/code-note-helper) | 274 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-15 | 2026-11-10 |
+| 711 | [UditGupta10/GPT-InvestAR](https://github.com/UditGupta10/GPT-InvestAR) | 271 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-08-02 | 2026-11-10 |
+| 712 | [WeBankFinTech/Visualis](https://github.com/WeBankFinTech/Visualis) | 271 | 工具 | 未明确（需查文档） | TypeScript | 2025-01-02 | 2026-11-10 |
+| 713 | [alipay/financial_evaluation_dataset](https://github.com/alipay/financial_evaluation_dataset) | 270 | 工具 | 未明确（需查文档） | Python | 2023-12-25 | 2026-11-10 |
+| 714 | [fluidex/dingir-exchange](https://github.com/fluidex/dingir-exchange) | 269 | 交易框架 | 虚拟货币 | Rust | 2026-06-12 | 2026-11-10 |
+| 715 | [LAY-lgtm/novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework) | 269 | 工具 | 未明确（需查文档） |  | 2026-05-31 | 2026-11-10 |
+| 716 | [QuantMLResearch/QuantML](https://github.com/QuantMLResearch/QuantML) | 269 | 论文研究 | 因子 | HTML | 2025-07-24 | 2026-11-10 |
+| 717 | [wang4386/CDT-Monitor](https://github.com/wang4386/CDT-Monitor) | 269 | 工具 | 未明确（需查文档） | Go | 2026-11-06 | 2026-11-10 |
+| 718 | [BYTEX-TRADE/bytex](https://github.com/BYTEX-TRADE/bytex) | 267 | 论文研究 | 虚拟货币 | C# | 2026-10-02 | 2026-11-10 |
+| 719 | [randomwalkhan/Short-Term-Reversal-Strategy](https://github.com/randomwalkhan/Short-Term-Reversal-Strategy) | 267 | Agent | 虚拟货币 | Jupyter Notebook | 2026-11-09 | 2026-11-10 |
+| 720 | [sunsvip/PSD2UGUI_X](https://github.com/sunsvip/PSD2UGUI_X) | 267 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-05 | 2026-11-10 |
+| 721 | [l2999019/GZY.Quartz.MUI](https://github.com/l2999019/GZY.Quartz.MUI) | 265 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-03 | 2026-11-10 |
+| 722 | [tradingstrategy-ai/getting-started](https://github.com/tradingstrategy-ai/getting-started) | 265 | 交易框架 | 虚拟货币 | Jupyter Notebook | 2026-10-26 | 2026-11-10 |
+| 723 | [PyneSys/pynecore](https://github.com/PyneSys/pynecore) | 264 | 交易框架 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 724 | [ZgDaniel/cc-web](https://github.com/ZgDaniel/cc-web) | 264 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-08 | 2026-11-10 |
+| 725 | [guangxiangdebizi/QMT-MCP](https://github.com/guangxiangdebizi/QMT-MCP) | 261 | 工具 | 期货 | Python | 2025-07-17 | 2026-11-10 |
+| 726 | [ManojKumarPatnaik/Major-project-list](https://github.com/ManojKumarPatnaik/Major-project-list) | 261 | 论文研究 | 因子 |  | 2025-07-29 | 2026-11-10 |
+| 727 | [BlockRunAI/awesome-finance-mcp](https://github.com/BlockRunAI/awesome-finance-mcp) | 260 | Agent | 虚拟货币 |  | 2026-09-05 | 2026-11-10 |
+| 728 | [shouldnotappearcalm/a-share-skill](https://github.com/shouldnotappearcalm/a-share-skill) | 260 | Agent | A股 | Python | 2026-10-11 | 2026-11-10 |
+| 729 | [srikar-kodakandla/fully-automated-nifty-options-trading](https://github.com/srikar-kodakandla/fully-automated-nifty-options-trading) | 260 | 交易框架 | 未明确（需查文档） | Python | 2024-10-10 | 2026-11-10 |
+| 730 | [Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) | 260 | 论文研究 | 未明确（需查文档） |  | 2026-07-24 | 2026-11-10 |
+| 731 | [binance/binance-connector-dotnet](https://github.com/binance/binance-connector-dotnet) | 259 | 工具 | 虚拟货币 | C# | 2024-06-18 | 2026-11-10 |
+| 732 | [dearvn/trading-futures-tradingview-script](https://github.com/dearvn/trading-futures-tradingview-script) | 259 | 工具 | 期货 |  | 2026-09-12 | 2026-11-10 |
+| 733 | [Chen-zexi/LangAlpha](https://github.com/Chen-zexi/LangAlpha) | 258 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-10-05 | 2026-11-10 |
+| 734 | [rmcmillan34/algorithmic-trading-learning-roadmap](https://github.com/rmcmillan34/algorithmic-trading-learning-roadmap) | 258 | 工具 | 未明确（需查文档） | Shell | 2026-02-07 | 2026-11-10 |
+| 735 | [Rockyzsu/convertible_bond](https://github.com/Rockyzsu/convertible_bond) | 258 | 工具 | 未明确（需查文档） | Python | 2026-01-22 | 2026-11-10 |
+| 736 | [FTShare-Lab/FTShare-MCP](https://github.com/FTShare-Lab/FTShare-MCP) | 257 | Agent | 因子 |  | 2026-10-09 | 2026-11-10 |
+| 737 | [WildDataX/suppr-mcp](https://github.com/WildDataX/suppr-mcp) | 257 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-09 | 2026-11-10 |
+| 738 | [different-ai/agent-bank](https://github.com/different-ai/agent-bank) | 256 | Agent | 未明确（需查文档） | TypeScript | 2026-04-03 | 2026-11-10 |
+| 739 | [WEP-56/EZVenera](https://github.com/WEP-56/EZVenera) | 256 | 工具 | 未明确（需查文档） | Dart | 2026-11-09 | 2026-11-10 |
+| 740 | [alexazhou/gt_ai_gateway](https://github.com/alexazhou/gt_ai_gateway) | 255 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
+| 741 | [Petersoj/alpaca-java](https://github.com/Petersoj/alpaca-java) | 255 | 工具 | 美股、虚拟货币 | Java | 2026-09-26 | 2026-11-10 |
+| 742 | [Sunnnnch/electro_data_process_tool](https://github.com/Sunnnnch/electro_data_process_tool) | 255 | 工具 | 未明确（需查文档） | Python | 2026-09-09 | 2026-11-10 |
+| 743 | [virattt/financial-agent](https://github.com/virattt/financial-agent) | 255 | Agent | 未明确（需查文档） | Python | 2024-04-01 | 2026-11-10 |
+| 744 | [sorry510/go_binance_futures](https://github.com/sorry510/go_binance_futures) | 254 | Agent | 虚拟货币、期货 | Go | 2026-11-10 | 2026-11-10 |
+| 745 | [thanhnguyennguyen/trading-indicator](https://github.com/thanhnguyennguyen/trading-indicator) | 254 | 工具 | 虚拟货币 | JavaScript | 2026-06-15 | 2026-11-10 |
+| 746 | [austin-starks/EOD-GPT](https://github.com/austin-starks/EOD-GPT) | 253 | 工具 | 未明确（需查文档） | TypeScript | 2025-07-19 | 2026-11-10 |
+| 747 | [gauss314/skills](https://github.com/gauss314/skills) | 253 | Agent | 未明确（需查文档） | Python | 2026-06-14 | 2026-11-10 |
+| 748 | [Ooples-Finance-LLC/OoplesFinance.StockIndicators](https://github.com/Ooples-Finance-LLC/OoplesFinance.StockIndicators) | 253 | 交易框架 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
+| 749 | [betcode-org/flumine](https://github.com/betcode-org/flumine) | 252 | 交易框架 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 750 | [ericcccsliu/imc-prosperity-2](https://github.com/ericcccsliu/imc-prosperity-2) | 252 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2024-05-22 | 2026-11-10 |
+| 751 | [dylanpersonguy/OpenCharts](https://github.com/dylanpersonguy/OpenCharts) | 249 | 工具 | 虚拟货币 | TypeScript | 2026-11-02 | 2026-11-10 |
+| 752 | [hchcx/fanqie_auto_publish](https://github.com/hchcx/fanqie_auto_publish) | 249 | 工具 | 未明确（需查文档） | Python | 2026-04-28 | 2026-11-10 |
+| 753 | [SiYuan-2002/PrettySQL](https://github.com/SiYuan-2002/PrettySQL) | 249 | 工具 | 未明确（需查文档） | Java | 2025-06-27 | 2026-11-10 |
+| 754 | [luguoli/ComfyUI-Qwen-Image-Integrated-KSampler](https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler) | 248 | 工具 | 未明确（需查文档） | Python | 2025-12-19 | 2026-11-10 |
+| 755 | [rsandx/AlphaSuite](https://github.com/rsandx/AlphaSuite) | 248 | 交易框架 | 未明确（需查文档） | Python | 2026-10-10 | 2026-11-10 |
+| 756 | [zzhahn/a_stock_level2_data](https://github.com/zzhahn/a_stock_level2_data) | 248 | Agent | A股 |  | 2026-11-02 | 2026-11-10 |
+| 757 | [ceyyy427/finathink](https://github.com/ceyyy427/finathink) | 247 | 论文研究 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 758 | [LiamConnell/deep-algotrading](https://github.com/LiamConnell/deep-algotrading) | 247 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-06-10 | 2026-11-10 |
+| 759 | [pierridotite/stonks-dashboard](https://github.com/pierridotite/stonks-dashboard) | 247 | 工具 | 虚拟货币 | JavaScript | 2026-09-07 | 2026-11-10 |
+| 760 | [tangredtea/Spring-Blog](https://github.com/tangredtea/Spring-Blog) | 247 | 工具 | 未明确（需查文档） | Java | 2026-03-12 | 2026-11-10 |
+| 761 | [sumingyd/guangyu](https://github.com/sumingyd/guangyu) | 246 | 工具 | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
+| 762 | [The-Knowledge-Graph-Guys/vault-ld](https://github.com/The-Knowledge-Graph-Guys/vault-ld) | 246 | Agent | A股 | Python | 2026-10-29 | 2026-11-10 |
+| 763 | [zwldarren/akshare-one-mcp](https://github.com/zwldarren/akshare-one-mcp) | 246 | 工具 | A股 | Python | 2026-11-05 | 2026-11-10 |
+| 764 | [daniel3303/Equibles](https://github.com/daniel3303/Equibles) | 244 | Agent | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
+| 765 | [DresdenGman/EPSILON-trading-simulator](https://github.com/DresdenGman/EPSILON-trading-simulator) | 244 | 论文研究 | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
+| 766 | [EthanXiang777/circuit-framework](https://github.com/EthanXiang777/circuit-framework) | 244 | Agent | 未明确（需查文档） | Python | 2026-07-16 | 2026-11-10 |
+| 767 | [pencil-code/pencil-code](https://github.com/pencil-code/pencil-code) | 244 | 工具 | 未明确（需查文档） | Fortran | 2026-11-10 | 2026-11-10 |
+| 768 | [chjm-ai/stock-daily-analysis-skill](https://github.com/chjm-ai/stock-daily-analysis-skill) | 243 | 工具 | 未明确（需查文档） | Python | 2026-02-04 | 2026-11-10 |
+| 769 | [KOSASIH/eulers-shield](https://github.com/KOSASIH/eulers-shield) | 243 | 工具 | 未明确（需查文档） | Python | 2025-06-21 | 2026-11-10 |
+| 770 | [liangdabiao/hyperframes-fix](https://github.com/liangdabiao/hyperframes-fix) | 243 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-10 | 2026-11-10 |
+| 771 | [Stars-OC/thesis-creator](https://github.com/Stars-OC/thesis-creator) | 242 | Agent | 未明确（需查文档） | Python | 2026-06-02 | 2026-11-10 |
+| 772 | [WenjieDu/TSDB](https://github.com/WenjieDu/TSDB) | 242 | 工具 | 未明确（需查文档） | Python | 2026-10-26 | 2026-11-10 |
+| 773 | [cylind/scribe2srt](https://github.com/cylind/scribe2srt) | 241 | 工具 | 未明确（需查文档） | Python | 2026-06-04 | 2026-11-10 |
+| 774 | [enryteam/bigscreen](https://github.com/enryteam/bigscreen) | 241 | 工具 | 未明确（需查文档） | JavaScript | 2024-03-12 | 2026-11-10 |
+| 775 | [LianjiaTech/bella-openapi](https://github.com/LianjiaTech/bella-openapi) | 241 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
+| 776 | [PFund-Software-Ltd/pytrade.org](https://github.com/PFund-Software-Ltd/pytrade.org) | 240 | 交易框架 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 777 | [cmallwitz/Financials-Extension](https://github.com/cmallwitz/Financials-Extension) | 239 | 工具 | 未明确（需查文档） | Python | 2026-03-28 | 2026-11-10 |
+| 778 | [rnikitin/QuantNavigator](https://github.com/rnikitin/QuantNavigator) | 239 | 论文研究 | 虚拟货币 |  | 2026-11-06 | 2026-11-10 |
+| 779 | [zsrl/miniqmt-demo](https://github.com/zsrl/miniqmt-demo) | 238 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-08-01 | 2026-11-10 |
+| 780 | [thisiszhou/CTBZStock](https://github.com/thisiszhou/CTBZStock) | 237 | 工具 | A股 | Python | 2026-07-21 | 2026-11-10 |
+| 781 | [hstcscolor/awesome-trade](https://github.com/hstcscolor/awesome-trade) | 235 | 工具 | 未明确（需查文档） |  | 2026-04-28 | 2026-11-10 |
+| 782 | [Bitget-AI/agent_hub](https://github.com/Bitget-AI/agent_hub) | 234 | Agent | 虚拟货币 | JavaScript | 2026-06-30 | 2026-11-10 |
+| 783 | [leonyangdev/UltimateRAG](https://github.com/leonyangdev/UltimateRAG) | 233 | Agent | 未明确（需查文档） | Python | 2026-09-01 | 2026-11-10 |
+| 784 | [WISEPLAT/backtrader_binance](https://github.com/WISEPLAT/backtrader_binance) | 233 | 交易框架 | 虚拟货币 | Python | 2024-09-30 | 2026-11-10 |
+| 785 | [DigitalAllianceStudio/HSS_DataVisualizer](https://github.com/DigitalAllianceStudio/HSS_DataVisualizer) | 232 | 工具 | 未明确（需查文档） |  | 2026-10-08 | 2026-11-10 |
+| 786 | [Superior-Trade/superior-skills](https://github.com/Superior-Trade/superior-skills) | 232 | Agent | 未明确（需查文档） | JavaScript | 2026-09-10 | 2026-11-10 |
+| 787 | [byrnexu/betterquant](https://github.com/byrnexu/betterquant) | 231 | 工具 | 虚拟货币、期货 | C++ | 2024-06-06 | 2026-11-10 |
+| 788 | [lrvx/lrvx](https://github.com/lrvx/lrvx) | 231 | 交易框架 | 未明确（需查文档） | C++ | 2026-11-09 | 2026-11-10 |
+| 789 | [oldratlee/software-practice-thoughts](https://github.com/oldratlee/software-practice-thoughts) | 231 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-01-08 | 2026-11-10 |
+| 790 | [wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil) | 231 | 交易框架 | 未明确（需查文档） | Rust | 2026-10-25 | 2026-11-10 |
+| 791 | [jeecgboot/MiniDao](https://github.com/jeecgboot/MiniDao) | 230 | 工具 | 未明确（需查文档） | Java | 2026-09-28 | 2026-11-10 |
+| 792 | [FreedomIntelligence/TwinMarket](https://github.com/FreedomIntelligence/TwinMarket) | 229 | Agent | 未明确（需查文档） | Python | 2026-03-07 | 2026-11-10 |
+| 793 | [WeBankFinTech/wxa](https://github.com/WeBankFinTech/wxa) | 229 | 工具 | 未明确（需查文档） | JavaScript | 2025-04-09 | 2026-11-10 |
+| 794 | [123quant/QMT-QuantLimit](https://github.com/123quant/QMT-QuantLimit) | 228 | 论文研究 | A股 | Python | 2025-01-16 | 2026-11-10 |
+| 795 | [alisonmitchell/Stock-Prediction](https://github.com/alisonmitchell/Stock-Prediction) | 228 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-08-21 | 2026-11-10 |
+| 796 | [DogsTailFarmer/martin-binance](https://github.com/DogsTailFarmer/martin-binance) | 228 | 交易框架 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
+| 797 | [hugocen/freqtrade-gym](https://github.com/hugocen/freqtrade-gym) | 228 | 工具 | 虚拟货币 | Python | 2026-01-08 | 2026-11-10 |
+| 798 | [fzn0x/idx](https://github.com/fzn0x/idx) | 227 | Agent | 未明确（需查文档） | Rust | 2026-11-09 | 2026-11-10 |
+| 799 | [stanleylsx/llms_tool](https://github.com/stanleylsx/llms_tool) | 226 | 工具 | 未明确（需查文档） | Python | 2023-12-08 | 2026-11-10 |
+| 800 | [IndexOutOfBounds998/quant4j](https://github.com/IndexOutOfBounds998/quant4j) | 225 | 工具 | 虚拟货币 | Java | 2023-12-05 | 2026-11-10 |
+| 801 | [0x727/BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727) | 224 | 工具 | 未明确（需查文档） | PHP | 2025-02-08 | 2026-11-10 |
+| 802 | [ahnazary/stockdex](https://github.com/ahnazary/stockdex) | 224 | 工具 | 未明确（需查文档） | Python | 2026-10-31 | 2026-11-10 |
+| 803 | [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) | 223 | Agent | 虚拟货币 | Python | 2026-07-12 | 2026-11-10 |
+| 804 | [Chras-fu/Liuma-platform](https://github.com/Chras-fu/Liuma-platform) | 222 | 工具 | 未明确（需查文档） | Vue | 2024-03-14 | 2026-11-10 |
+| 805 | [codernmx/Pycode](https://github.com/codernmx/Pycode) | 221 | 工具 | 未明确（需查文档） | Python | 2024-11-20 | 2026-11-10 |
+| 806 | [liqimore/quant-qmt-proxy](https://github.com/liqimore/quant-qmt-proxy) | 221 | 工具 | 未明确（需查文档） | Python | 2026-04-26 | 2026-11-10 |
+| 807 | [ruochuan12/mini-ci](https://github.com/ruochuan12/mini-ci) | 221 | 工具 | 未明确（需查文档） | TypeScript | 2024-08-09 | 2026-11-10 |
+| 808 | [braedonsaunders/homerun](https://github.com/braedonsaunders/homerun) | 220 | 论文研究 | 虚拟货币 | Python | 2026-10-27 | 2026-11-10 |
+| 809 | [continew-org/continew-starter](https://github.com/continew-org/continew-starter) | 220 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
+| 810 | [cove9988/TradingGym](https://github.com/cove9988/TradingGym) | 220 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-09-23 | 2026-11-10 |
+| 811 | [JDArmy/RTASS](https://github.com/JDArmy/RTASS) | 220 | 工具 | 未明确（需查文档） | Vue | 2026-03-02 | 2026-11-10 |
+| 812 | [OnePunchMonk/AgentQuant](https://github.com/OnePunchMonk/AgentQuant) | 220 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 813 | [alanvito1/ORSTAC](https://github.com/alanvito1/ORSTAC) | 219 | 工具 | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 814 | [geeeeeeeek/QuantStudy](https://github.com/geeeeeeeek/QuantStudy) | 219 | 工具 | 未明确（需查文档） | Python | 2026-06-08 | 2026-11-10 |
+| 815 | [saeed349/Deep-Reinforcement-Learning-in-Trading](https://github.com/saeed349/Deep-Reinforcement-Learning-in-Trading) | 219 | Agent | 未明确（需查文档） | Jupyter Notebook | 2023-11-18 | 2026-11-10 |
+| 816 | [cyberjunky/3commas-cyber-bots](https://github.com/cyberjunky/3commas-cyber-bots) | 218 | 工具 | 虚拟货币 | Python | 2026-10-26 | 2026-11-10 |
+| 817 | [StrateQueue/StrateQueue](https://github.com/StrateQueue/StrateQueue) | 218 | 交易框架 | 未明确（需查文档） | Python | 2026-05-19 | 2026-11-10 |
+| 818 | [zero-was-here/tradingbot](https://github.com/zero-was-here/tradingbot) | 218 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 819 | [bellingcat/EDGAR](https://github.com/bellingcat/EDGAR) | 217 | 论文研究 | 未明确（需查文档） | Python | 2025-05-15 | 2026-11-10 |
+| 820 | [donewiththedollar/directionalscalper](https://github.com/donewiththedollar/directionalscalper) | 217 | 交易框架 | 未明确（需查文档） | Python | 2026-10-24 | 2026-11-10 |
+| 821 | [Enping-Hu/minimind-deep-dive](https://github.com/Enping-Hu/minimind-deep-dive) | 217 | 工具 | 未明确（需查文档） | Python | 2026-10-21 | 2026-11-10 |
+| 822 | [outpoot/rugplay](https://github.com/outpoot/rugplay) | 217 | 工具 | 虚拟货币 | Svelte | 2026-11-09 | 2026-11-10 |
+| 823 | [Yijia-Xiao/FinanceHarness](https://github.com/Yijia-Xiao/FinanceHarness) | 217 | Agent | 未明确（需查文档） | Python | 2026-08-22 | 2026-11-10 |
+| 824 | [financial-data-science/CFDS](https://github.com/financial-data-science/CFDS) | 216 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-07-25 | 2026-11-10 |
+| 825 | [mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8](https://github.com/mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8) | 215 | Agent | A股、虚拟货币、期货 | HTML | 2026-02-05 | 2026-11-10 |
+| 826 | [Quantreo/2nd-edition-BOOK-AMAZON-Python-for-Finance-and-Algorithmic-Trading](https://github.com/Quantreo/2nd-edition-BOOK-AMAZON-Python-for-Finance-and-Algorithmic-Trading) | 215 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-04-16 | 2026-11-10 |
+| 827 | [xywml/PaperGrid](https://github.com/xywml/PaperGrid) | 215 | 论文研究 | 未明确（需查文档） | TypeScript | 2026-09-08 | 2026-11-10 |
+| 828 | [ZhuLinsen/alphaevo](https://github.com/ZhuLinsen/alphaevo) | 215 | Agent | 未明确（需查文档） | Python | 2026-07-03 | 2026-11-10 |
+| 829 | [0ldFive/Vue-Print-Designer](https://github.com/0ldFive/Vue-Print-Designer) | 214 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-09 | 2026-11-10 |
+| 830 | [UFund-Me/UFund-miniprogram](https://github.com/UFund-Me/UFund-miniprogram) | 214 | 论文研究 | 未明确（需查文档） | JavaScript | 2025-02-23 | 2026-11-10 |
+| 831 | [harveybc/gym-fx](https://github.com/harveybc/gym-fx) | 213 | 交易框架 | 虚拟货币 | Python | 2026-10-28 | 2026-11-10 |
+| 832 | [4xian/claude-codex-api](https://github.com/4xian/claude-codex-api) | 211 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-16 | 2026-11-10 |
+| 833 | [agentii-ai/agentii-investment-intelligence](https://github.com/agentii-ai/agentii-investment-intelligence) | 210 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 834 | [Lynnette177/GirlHook](https://github.com/Lynnette177/GirlHook) | 210 | 工具 | 未明确（需查文档） | C++ | 2025-07-17 | 2026-11-10 |
+| 835 | [rosemarycox5334-debug/Detect_support_and_resistance_levels](https://github.com/rosemarycox5334-debug/Detect_support_and_resistance_levels) | 210 | 工具 | 虚拟货币、期货 | Python | 2026-09-10 | 2026-11-10 |
+| 836 | [ringoshinnytech/tqsdk-strategies](https://github.com/ringoshinnytech/tqsdk-strategies) | 209 | 工具 | 期货 | Python | 2026-08-06 | 2026-11-10 |
+| 837 | [AI4Finance-Foundation/FinRL_Crypto](https://github.com/AI4Finance-Foundation/FinRL_Crypto) | 208 | 论文研究 | 虚拟货币 | Python | 2025-12-15 | 2026-11-10 |
+| 838 | [cloudQuant/backtrader](https://github.com/cloudQuant/backtrader) | 208 | 交易框架 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 839 | [dwebagents/AgentPipe](https://github.com/dwebagents/AgentPipe) | 208 | Agent | 虚拟货币 | Python | 2026-11-08 | 2026-11-10 |
+| 840 | [nlethetech/nepse-quant-terminal](https://github.com/nlethetech/nepse-quant-terminal) | 208 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 841 | [odinsoft-lab/ccxt.net](https://github.com/odinsoft-lab/ccxt.net) | 208 | 工具 | 虚拟货币 | C# | 2026-02-27 | 2026-11-10 |
+| 842 | [a63414262/CF-Server-Monitor-Pro](https://github.com/a63414262/CF-Server-Monitor-Pro) | 207 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-09 | 2026-11-10 |
+| 843 | [drstevendev/ElliottWaveAnalyzer](https://github.com/drstevendev/ElliottWaveAnalyzer) | 207 | 工具 | 未明确（需查文档） | Python | 2024-06-05 | 2026-11-10 |
+| 844 | [MilleXi/stock_trading](https://github.com/MilleXi/stock_trading) | 207 | Agent | 未明确（需查文档） | Python | 2025-04-13 | 2026-11-10 |
+| 845 | [MkvAutoSubset/MkvAutoSubset](https://github.com/MkvAutoSubset/MkvAutoSubset) | 207 | 工具 | 未明确（需查文档） | Go | 2025-04-19 | 2026-11-10 |
+| 846 | [pineforge-4pass/pineforge-engine](https://github.com/pineforge-4pass/pineforge-engine) | 207 | 交易框架 | 虚拟货币 | C++ | 2026-11-10 | 2026-11-10 |
+| 847 | [v3ucn/Causallm14b_llama_webui_adult_version](https://github.com/v3ucn/Causallm14b_llama_webui_adult_version) | 207 | 工具 | 未明确（需查文档） | Python | 2024-02-23 | 2026-11-10 |
+| 848 | [kay-ou/ptradeAPI](https://github.com/kay-ou/ptradeAPI) | 205 | 交易框架 | 期货 | Python | 2026-04-09 | 2026-11-10 |
+| 849 | [erhardtconsulting/tensortrade-ng](https://github.com/erhardtconsulting/tensortrade-ng) | 204 | 工具 | 未明确（需查文档） | Python | 2024-08-28 | 2026-11-10 |
+| 850 | [imsatoshi/GeneTrader](https://github.com/imsatoshi/GeneTrader) | 204 | 工具 | 未明确（需查文档） | Python | 2026-07-29 | 2026-11-10 |
+| 851 | [OrangesHuang/Resonance](https://github.com/OrangesHuang/Resonance) | 204 | Agent | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
+| 852 | [jo-cho/Technical_Analysis_and_Feature_Engineering](https://github.com/jo-cho/Technical_Analysis_and_Feature_Engineering) | 203 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-16 | 2026-11-10 |
+| 853 | [pseudo-longinus/quant-buddy-skills](https://github.com/pseudo-longinus/quant-buddy-skills) | 203 | Agent | 美股、A股、期货、因子 | Python | 2026-11-10 | 2026-11-10 |
+| 854 | [SpringSunYY/LZ-litchi](https://github.com/SpringSunYY/LZ-litchi) | 203 | 工具 | 未明确（需查文档） | Java | 2026-10-25 | 2026-11-10 |
+| 855 | [vjmap/vjmap-playground](https://github.com/vjmap/vjmap-playground) | 203 | 工具 | 未明确（需查文档） | JavaScript | 2026-03-12 | 2026-11-10 |
+| 856 | [XTmingyue/harnessNovel](https://github.com/XTmingyue/harnessNovel) | 203 | Agent | 未明确（需查文档） | Python | 2026-08-23 | 2026-11-10 |
+| 857 | [zzjcode-com/Quickly-Use-Jetpack-Compose](https://github.com/zzjcode-com/Quickly-Use-Jetpack-Compose) | 203 | 工具 | 未明确（需查文档） | Kotlin | 2026-08-05 | 2026-11-10 |
+| 858 | [bigmacman1129/crypto-ai-trading-bot](https://github.com/bigmacman1129/crypto-ai-trading-bot) | 200 | Agent | 虚拟货币 | JavaScript | 2026-08-25 | 2026-11-10 |
+| 859 | [CharlesJ-ABu/FactorMiner](https://github.com/CharlesJ-ABu/FactorMiner) | 200 | 论文研究 | 因子 | Python | 2026-07-27 | 2026-11-10 |
+| 860 | [joutaojian/arkvol-skill](https://github.com/joutaojian/arkvol-skill) | 200 | Agent | 未明确（需查文档） | Python | 2026-07-27 | 2026-11-10 |
+| 861 | [nominhanggai/szaboqc](https://github.com/nominhanggai/szaboqc) | 200 | 工具 | 未明确（需查文档） | TeX | 2026-09-08 | 2026-11-10 |
+| 862 | [PacktPublishing/Building-AI-Agents-for-Finance](https://github.com/PacktPublishing/Building-AI-Agents-for-Finance) | 200 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-10-19 | 2026-11-10 |
+| 863 | [380992846-tech/My-Project](https://github.com/380992846-tech/My-Project) | 198 | 工具 | 未明确（需查文档） | HTML | 2026-10-24 | 2026-11-10 |
+| 864 | [clklog/clklog](https://github.com/clklog/clklog) | 198 | 工具 | 未明确（需查文档） | Java | 2026-11-03 | 2026-11-10 |
+| 865 | [DSPCalculator/dsp-calc](https://github.com/DSPCalculator/dsp-calc) | 198 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-06 | 2026-11-10 |
+| 866 | [sz8887031-bot/kol-claw](https://github.com/sz8887031-bot/kol-claw) | 198 | 工具 | 未明确（需查文档） | Python | 2026-03-16 | 2026-11-10 |
+| 867 | [zer0quant/zer0share](https://github.com/zer0quant/zer0share) | 198 | 工具 | A股、期货 | Python | 2026-11-07 | 2026-11-10 |
+| 868 | [LDLINGLINGLING/adan_application](https://github.com/LDLINGLINGLING/adan_application) | 197 | 工具 | 未明确（需查文档） | Python | 2026-01-30 | 2026-11-10 |
+| 869 | [LukePrior/Australian-Open-Banking-Data-Database](https://github.com/LukePrior/Australian-Open-Banking-Data-Database) | 197 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 870 | [YicunAI/Pnlclaw-community](https://github.com/YicunAI/Pnlclaw-community) | 196 | 交易框架 | 虚拟货币 | Python | 2026-04-08 | 2026-11-10 |
+| 871 | [DegenSugarBoo/OpenBook](https://github.com/DegenSugarBoo/OpenBook) | 194 | 工具 | 虚拟货币、期货 | Rust | 2026-03-02 | 2026-11-10 |
+| 872 | [The-Swarm-Corporation/swarms-rs](https://github.com/The-Swarm-Corporation/swarms-rs) | 194 | Agent | 未明确（需查文档） | Rust | 2026-10-26 | 2026-11-10 |
+| 873 | [baiziyu2002git/ZiyuQuant](https://github.com/baiziyu2002git/ZiyuQuant) | 193 | 论文研究 | 因子 | Python | 2026-11-04 | 2026-11-10 |
+| 874 | [cropflre/nowen-reader](https://github.com/cropflre/nowen-reader) | 193 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
+| 875 | [LAVARONG/wechat-automation-api](https://github.com/LAVARONG/wechat-automation-api) | 193 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 876 | [marketcalls/openalgo-charts](https://github.com/marketcalls/openalgo-charts) | 193 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-10-27 | 2026-11-10 |
+| 877 | [ArsenAbazian/CryptoTradingFramework](https://github.com/ArsenAbazian/CryptoTradingFramework) | 192 | 交易框架 | 虚拟货币 | C# | 2025-05-12 | 2026-11-10 |
+| 878 | [clawyi-com/china-market-data](https://github.com/clawyi-com/china-market-data) | 192 | Agent | A股、期货 | Python | 2026-09-28 | 2026-11-10 |
+| 879 | [JustinGongjj/chan-structure-workstation](https://github.com/JustinGongjj/chan-structure-workstation) | 192 | 工具 | A股、虚拟货币 | JavaScript | 2026-11-09 | 2026-11-10 |
+| 880 | [Polytutor-AI-Labs/polymarket-black-scholes-hft-bot](https://github.com/Polytutor-AI-Labs/polymarket-black-scholes-hft-bot) | 192 | 论文研究 | 虚拟货币 | Python | 2026-10-15 | 2026-11-10 |
+| 881 | [binance/binance-futures-connector-java](https://github.com/binance/binance-futures-connector-java) | 191 | 工具 | 虚拟货币、期货 | Java | 2025-04-25 | 2026-11-10 |
+| 882 | [Neon549/AlphaStock](https://github.com/Neon549/AlphaStock) | 190 | Agent | A股 | Python | 2026-08-29 | 2026-11-10 |
+| 883 | [yuxie2025/StarTools](https://github.com/yuxie2025/StarTools) | 190 | 游戏 | 未明确（需查文档） | JavaScript | 2023-11-13 | 2026-11-10 |
+| 884 | [bhoult/correlation](https://github.com/bhoult/correlation) | 189 | 工具 | 未明确（需查文档） | Python | 2026-10-31 | 2026-11-10 |
+| 885 | [ziguishian/brand-design-skill](https://github.com/ziguishian/brand-design-skill) | 189 | Agent | 未明确（需查文档） |  | 2026-06-27 | 2026-11-10 |
+| 886 | [iohao/ionet](https://github.com/iohao/ionet) | 188 | 游戏 | 未明确（需查文档） | Java | 2026-08-06 | 2026-11-10 |
+| 887 | [JiaqiLi404/IAmDirector-Text2Video-NextJS-Client](https://github.com/JiaqiLi404/IAmDirector-Text2Video-NextJS-Client) | 188 | 工具 | 未明确（需查文档） | JavaScript | 2024-03-14 | 2026-11-10 |
+| 888 | [liangdabiao/crewai_stock_analysis_system](https://github.com/liangdabiao/crewai_stock_analysis_system) | 188 | Agent | 未明确（需查文档） | Python | 2025-09-18 | 2026-11-10 |
+| 889 | [kingdee/lingee-bench](https://github.com/kingdee/lingee-bench) | 187 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
+| 890 | [uerax/all-in-one-bot](https://github.com/uerax/all-in-one-bot) | 187 | 工具 | 虚拟货币 | Go | 2026-09-17 | 2026-11-10 |
+| 891 | [sharzoy/auto-job-apply](https://github.com/sharzoy/auto-job-apply) | 186 | Agent | 未明确（需查文档） | Python | 2026-08-18 | 2026-11-10 |
+| 892 | [cacity/VideoHub](https://github.com/cacity/VideoHub) | 185 | Agent | 未明确（需查文档） | Python | 2026-11-06 | 2026-11-10 |
+| 893 | [Omar-Karimov/ChartScanAI](https://github.com/Omar-Karimov/ChartScanAI) | 185 | 工具 | 虚拟货币 | Python | 2024-06-29 | 2026-11-10 |
+| 894 | [wudengyao/stock-analysis-team](https://github.com/wudengyao/stock-analysis-team) | 185 | Agent | 未明确（需查文档） | HTML | 2026-09-23 | 2026-11-10 |
+| 895 | [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) | 184 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
+| 896 | [joemccann/market-data-warehouse](https://github.com/joemccann/market-data-warehouse) | 184 | 工具 | 未明确（需查文档） | Python | 2026-03-30 | 2026-11-10 |
+| 897 | [LilianaMajamay/AlphaGPT_Tushare](https://github.com/LilianaMajamay/AlphaGPT_Tushare) | 184 | 交易框架 | A股、因子 | Python | 2026-01-25 | 2026-11-10 |
+| 898 | [noimank/easyths](https://github.com/noimank/easyths) | 184 | 工具 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
+| 899 | [Markfans/cryptoquant-ai](https://github.com/Markfans/cryptoquant-ai) | 183 | 交易框架 | 虚拟货币 | TypeScript | 2026-05-01 | 2026-11-10 |
+| 900 | [VanGong1999/juben](https://github.com/VanGong1999/juben) | 183 | Agent | 未明确（需查文档） | Python | 2026-10-19 | 2026-11-10 |
+| 901 | [AndreWeiner/flowtorch](https://github.com/AndreWeiner/flowtorch) | 182 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 902 | [byrnexu/betterquant2](https://github.com/byrnexu/betterquant2) | 182 | 工具 | 未明确（需查文档） | C++ | 2024-06-06 | 2026-11-10 |
+| 903 | [Liu-Ming-Yu/alpha-forge](https://github.com/Liu-Ming-Yu/alpha-forge) | 182 | Agent | 未明确（需查文档） | Python | 2026-08-01 | 2026-11-10 |
+| 904 | [QuantInsti/blueshift-demo-strategies](https://github.com/QuantInsti/blueshift-demo-strategies) | 182 | 交易框架 | 未明确（需查文档） | Jupyter Notebook | 2025-09-26 | 2026-11-10 |
+| 905 | [tradex-app/TradeX-chart](https://github.com/tradex-app/TradeX-chart) | 182 | 工具 | 虚拟货币 | JavaScript | 2026-07-21 | 2026-11-10 |
+| 906 | [zandy700/Ultimate-Tracker](https://github.com/zandy700/Ultimate-Tracker) | 181 | 交易框架 | 美股 | JavaScript | 2026-11-06 | 2026-11-10 |
+| 907 | [0xramm/Indian-Stock-Market-API](https://github.com/0xramm/Indian-Stock-Market-API) | 180 | 工具 | 未明确（需查文档） | JavaScript | 2026-08-18 | 2026-11-10 |
+| 908 | [phoenix-zhou/prompt-tag-NLP](https://github.com/phoenix-zhou/prompt-tag-NLP) | 180 | 工具 | 未明确（需查文档） | Python | 2026-07-01 | 2026-11-10 |
+| 909 | [cokepoppy/my-quant](https://github.com/cokepoppy/my-quant) | 179 | 工具 | 未明确（需查文档） | Vue | 2025-09-23 | 2026-11-10 |
+| 910 | [jinhao2003/kaipanla-crawler](https://github.com/jinhao2003/kaipanla-crawler) | 179 | 工具 | A股 |  | 2026-03-11 | 2026-11-10 |
+| 911 | [MichealWayne/FundCharts](https://github.com/MichealWayne/FundCharts) | 179 | 工具 | 未明确（需查文档） | TypeScript | 2025-12-23 | 2026-11-10 |
+| 912 | [Renhuai123/nihai-tianji-corpus](https://github.com/Renhuai123/nihai-tianji-corpus) | 179 | 工具 | 未明确（需查文档） | HTML | 2026-10-06 | 2026-11-10 |
+| 913 | [seagull1985/LuckyFrameClient](https://github.com/seagull1985/LuckyFrameClient) | 179 | 工具 | 未明确（需查文档） | Java | 2024-03-20 | 2026-11-10 |
+| 914 | [wxiaoqi/ace-cache](https://github.com/wxiaoqi/ace-cache) | 178 | 工具 | 未明确（需查文档） | Java | 2025-07-12 | 2026-11-10 |
+| 915 | [xbfighting/tdx2db](https://github.com/xbfighting/tdx2db) | 178 | 工具 | A股 | Python | 2026-09-25 | 2026-11-10 |
+| 916 | [z-bool/Venom-Transponder](https://github.com/z-bool/Venom-Transponder) | 178 | 工具 | 未明确（需查文档） |  | 2025-03-03 | 2026-11-10 |
+| 917 | [Consensys-Incorporated/linea-attestation-registry](https://github.com/Consensys-Incorporated/linea-attestation-registry) | 177 | 工具 | A股 | TypeScript | 2026-11-10 | 2026-11-10 |
+| 918 | [DjangoPeng/ChatPPT](https://github.com/DjangoPeng/ChatPPT) | 177 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-12-11 | 2026-11-10 |
+| 919 | [huweihua123/stock-mcp](https://github.com/huweihua123/stock-mcp) | 177 | Agent | A股、虚拟货币 | Python | 2026-03-25 | 2026-11-10 |
+| 920 | [SilvioBaratto/optimizer](https://github.com/SilvioBaratto/optimizer) | 177 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 921 | [zzquant/zzshare](https://github.com/zzquant/zzshare) | 177 | 工具 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 922 | [ettec/open-trading-platform](https://github.com/ettec/open-trading-platform) | 176 | 工具 | 未明确（需查文档） | JavaScript | 2023-12-20 | 2026-11-10 |
+| 923 | [Foleyzhao/UBA](https://github.com/Foleyzhao/UBA) | 176 | 工具 | 未明确（需查文档） | Java | 2025-09-12 | 2026-11-10 |
+| 924 | [virajbhutada/InsightForge](https://github.com/virajbhutada/InsightForge) | 176 | 工具 | 未明确（需查文档） |  | 2024-10-30 | 2026-11-10 |
+| 925 | [luhuadong/StockHunter](https://github.com/luhuadong/StockHunter) | 175 | 工具 | 未明确（需查文档） |  | 2025-09-15 | 2026-11-10 |
+| 926 | [nicknochnack/LLMAgentCrypto](https://github.com/nicknochnack/LLMAgentCrypto) | 175 | Agent | 虚拟货币 | HTML | 2025-04-28 | 2026-11-10 |
+| 927 | [veighna-global/vnpy_okx](https://github.com/veighna-global/vnpy_okx) | 175 | 交易框架 | 虚拟货币 | Python | 2026-06-16 | 2026-11-10 |
+| 928 | [vpslog/vps-stock-monitor](https://github.com/vpslog/vps-stock-monitor) | 175 | 工具 | 未明确（需查文档） | Python | 2024-11-19 | 2026-11-10 |
+| 929 | [yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework](https://github.com/yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework) | 175 | 工具 | 未明确（需查文档） | Python | 2024-12-24 | 2026-11-10 |
+| 930 | [brishowkanem4/Polymarket](https://github.com/brishowkanem4/Polymarket) | 174 | 工具 | 虚拟货币 |  | 2026-04-20 | 2026-11-10 |
+| 931 | [MarkBrezina/Ctrl-Alt-DefeatTheMarket](https://github.com/MarkBrezina/Ctrl-Alt-DefeatTheMarket) | 174 | 工具 | 未明确（需查文档） |  | 2026-06-14 | 2026-11-10 |
+| 932 | [bigmacman1129/btc-arbitrage-trading-bot](https://github.com/bigmacman1129/btc-arbitrage-trading-bot) | 173 | 工具 | 虚拟货币 | JavaScript | 2026-08-25 | 2026-11-10 |
+| 933 | [grissomlin/taiwan-stock-monitor](https://github.com/grissomlin/taiwan-stock-monitor) | 173 | 工具 | 未明确（需查文档） | Python | 2025-12-25 | 2026-11-10 |
+| 934 | [joohw/boss-cli](https://github.com/joohw/boss-cli) | 173 | Agent | 未明确（需查文档） | TypeScript | 2026-09-20 | 2026-11-10 |
+| 935 | [liu-ziting/ThinkFlowAI](https://github.com/liu-ziting/ThinkFlowAI) | 173 | 工具 | 未明确（需查文档） | Vue | 2026-02-06 | 2026-11-10 |
+| 936 | [vals-ai/finance-agent](https://github.com/vals-ai/finance-agent) | 173 | Agent | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
+| 937 | [rancy777/quantdash-ai-stock](https://github.com/rancy777/quantdash-ai-stock) | 172 | 工具 | A股 | TypeScript | 2026-04-21 | 2026-11-10 |
+| 938 | [bqth29/simulated-bifurcation-algorithm](https://github.com/bqth29/simulated-bifurcation-algorithm) | 171 | 工具 | 未明确（需查文档） | Python | 2026-01-16 | 2026-11-10 |
+| 939 | [ForecastOS/investOS-repo-and-PyPI-module-now-live-in-forecastos](https://github.com/ForecastOS/investOS-repo-and-PyPI-module-now-live-in-forecastos) | 171 | 交易框架 | 未明确（需查文档） | Python | 2026-02-17 | 2026-11-10 |
+| 940 | [Nour-Br/Kalshi-crypto-15m-trading-bot](https://github.com/Nour-Br/Kalshi-crypto-15m-trading-bot) | 171 | 工具 | 虚拟货币 |  | 2026-10-14 | 2026-11-10 |
+| 941 | [rmbell09-lang/tradesight](https://github.com/rmbell09-lang/tradesight) | 171 | 论文研究 | 美股 | Python | 2026-10-08 | 2026-11-10 |
+| 942 | [balabala-sean/stock-analysis](https://github.com/balabala-sean/stock-analysis) | 170 | 工具 | A股、因子 | Python | 2026-04-11 | 2026-11-10 |
+| 943 | [dfkai/xtquantai](https://github.com/dfkai/xtquantai) | 170 | Agent | 因子 | Python | 2026-06-11 | 2026-11-10 |
+| 944 | [latiaoge/AI-Sphere-Butler](https://github.com/latiaoge/AI-Sphere-Butler) | 170 | 论文研究 | 未明确（需查文档） | Python | 2026-08-28 | 2026-11-10 |
+| 945 | [ucxn/ZTE-Stat_Max](https://github.com/ucxn/ZTE-Stat_Max) | 169 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-09 | 2026-11-10 |
+| 946 | [JingHao-Leon/dsh-alpha-desk](https://github.com/JingHao-Leon/dsh-alpha-desk) | 168 | Agent | 未明确（需查文档） | Python | 2026-09-23 | 2026-11-10 |
+| 947 | [qiaojoin586-droid/RAG_LearnLittleCode](https://github.com/qiaojoin586-droid/RAG_LearnLittleCode) | 168 | Agent | 未明确（需查文档） | Python | 2026-09-14 | 2026-11-10 |
+| 948 | [horses-framework/horses3d](https://github.com/horses-framework/horses3d) | 167 | 工具 | 未明确（需查文档） | Fortran | 2026-11-10 | 2026-11-10 |
+| 949 | [krishnaik06/Stock-Sentiment-Analysis](https://github.com/krishnaik06/Stock-Sentiment-Analysis) | 167 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-03-20 | 2026-11-10 |
+| 950 | [LeviathanLevi/Coinbase-Pro-Crypto-Trading-Bot-CrypFinder](https://github.com/LeviathanLevi/Coinbase-Pro-Crypto-Trading-Bot-CrypFinder) | 167 | 工具 | 虚拟货币 | JavaScript | 2024-05-04 | 2026-11-10 |
+| 951 | [bytesc/Image_Recognition_WebGUI](https://github.com/bytesc/Image_Recognition_WebGUI) | 166 | 工具 | 未明确（需查文档） | Python | 2025-01-22 | 2026-11-10 |
+| 952 | [FeiCoder/BreadFree-Simu](https://github.com/FeiCoder/BreadFree-Simu) | 166 | Agent | 未明确（需查文档） | Python | 2026-01-27 | 2026-11-10 |
+| 953 | [liangdabiao/autogen-financial-analysis](https://github.com/liangdabiao/autogen-financial-analysis) | 166 | Agent | 因子 | Python | 2025-09-17 | 2026-11-10 |
+| 954 | [Xtra-Computing/CryptoTrade](https://github.com/Xtra-Computing/CryptoTrade) | 166 | Agent | 虚拟货币 | Jupyter Notebook | 2024-12-01 | 2026-11-10 |
+| 955 | [jonathancornelissen/highfrequency](https://github.com/jonathancornelissen/highfrequency) | 165 | 工具 | 未明确（需查文档） | R | 2025-12-15 | 2026-11-10 |
+| 956 | [raoyutian/PaddleOCRSharp](https://github.com/raoyutian/PaddleOCRSharp) | 165 | 工具 | 未明确（需查文档） | C# | 2026-11-02 | 2026-11-10 |
+| 957 | [softage0/algorithm-trading-webapp](https://github.com/softage0/algorithm-trading-webapp) | 165 | 工具 | 未明确（需查文档） | Python | 2024-02-07 | 2026-11-10 |
+| 958 | [StephanAkkerman/fintwit-bot](https://github.com/StephanAkkerman/fintwit-bot) | 165 | 工具 | 虚拟货币 | Python | 2026-10-28 | 2026-11-10 |
+| 959 | [irisx3/attention_drl_trading](https://github.com/irisx3/attention_drl_trading) | 164 | Agent | 美股 | Python | 2025-10-16 | 2026-11-10 |
+| 960 | [sieblyio/orderbooks](https://github.com/sieblyio/orderbooks) | 164 | 工具 | 虚拟货币 | TypeScript | 2026-02-11 | 2026-11-10 |
+| 961 | [AIDotNet/ClaudeCodexUi](https://github.com/AIDotNet/ClaudeCodexUi) | 163 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-31 | 2026-11-10 |
+| 962 | [fa1314/KrLongAI](https://github.com/fa1314/KrLongAI) | 163 | Agent | 未明确（需查文档） | Python | 2026-04-02 | 2026-11-10 |
+| 963 | [jimtin/algorithmic_trading_bot](https://github.com/jimtin/algorithmic_trading_bot) | 163 | 工具 | 虚拟货币 | Python | 2025-04-09 | 2026-11-10 |
+| 964 | [Voine/Bert-VITS2-MNN](https://github.com/Voine/Bert-VITS2-MNN) | 163 | 工具 | 未明确（需查文档） | C++ | 2026-08-05 | 2026-11-10 |
+| 965 | [zackchewa/awesome-china-mcp](https://github.com/zackchewa/awesome-china-mcp) | 162 | Agent | A股 |  | 2026-11-08 | 2026-11-10 |
+| 966 | [alkalescent/hyperdrive](https://github.com/alkalescent/hyperdrive) | 161 | 工具 | 未明确（需查文档） | Python | 2026-08-25 | 2026-11-10 |
+| 967 | [cutemarkets/cutebacktests](https://github.com/cutemarkets/cutebacktests) | 161 | 交易框架 | 美股 | Python | 2026-05-30 | 2026-11-10 |
+| 968 | [davidastephens/pandas-finance](https://github.com/davidastephens/pandas-finance) | 161 | 工具 | 未明确（需查文档） | Python | 2025-03-07 | 2026-11-10 |
+| 969 | [joyfoxai/LTX2-ICEdit-Insight](https://github.com/joyfoxai/LTX2-ICEdit-Insight) | 161 | 工具 | 未明确（需查文档） | Python | 2026-06-01 | 2026-11-10 |
+| 970 | [andriy-git/stocksTUI](https://github.com/andriy-git/stocksTUI) | 160 | 工具 | 未明确（需查文档） | Python | 2026-10-24 | 2026-11-10 |
+| 971 | [chengwesley/taiwan-stock-analysis](https://github.com/chengwesley/taiwan-stock-analysis) | 160 | 工具 | 未明确（需查文档） | HTML | 2026-08-26 | 2026-11-10 |
+| 972 | [ChungKit-WAN/Quant-research-lab](https://github.com/ChungKit-WAN/Quant-research-lab) | 160 | 论文研究 | 因子 | Python | 2026-10-21 | 2026-11-10 |
+| 973 | [Snseam/boss-zhipin-mcp](https://github.com/Snseam/boss-zhipin-mcp) | 160 | 工具 | 未明确（需查文档） | Python | 2026-03-31 | 2026-11-10 |
+| 974 | [warp-c4/solana-trading-bot-v3](https://github.com/warp-c4/solana-trading-bot-v3) | 160 | 工具 | 虚拟货币 | TypeScript | 2026-11-08 | 2026-11-10 |
+| 975 | [zhaihao118/Seedance2-Chrome-Extensions](https://github.com/zhaihao118/Seedance2-Chrome-Extensions) | 160 | 工具 | 未明确（需查文档） | JavaScript | 2026-02-22 | 2026-11-10 |
+| 976 | [ayuanlmo/lmo-data-visualization](https://github.com/ayuanlmo/lmo-data-visualization) | 159 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
+| 977 | [Cloud9Trader/TechnicalIndicators](https://github.com/Cloud9Trader/TechnicalIndicators) | 159 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-09 | 2026-11-10 |
+| 978 | [qtcls-admin/quantclass-client-pro](https://github.com/qtcls-admin/quantclass-client-pro) | 159 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-29 | 2026-11-10 |
+| 979 | [zadescoxp/order-flow-screener](https://github.com/zadescoxp/order-flow-screener) | 159 | 工具 | 虚拟货币 | TypeScript | 2026-11-09 | 2026-11-10 |
+| 980 | [btrccts/btrccts](https://github.com/btrccts/btrccts) | 158 | 交易框架 | 虚拟货币 | Python | 2026-11-04 | 2026-11-10 |
+| 981 | [CodeCrafter-bit/emby-player](https://github.com/CodeCrafter-bit/emby-player) | 158 | 工具 | 未明确（需查文档） | JavaScript | 2025-07-27 | 2026-11-10 |
+| 982 | [nbyiansec/sskit](https://github.com/nbyiansec/sskit) | 158 | 工具 | 未明确（需查文档） |  | 2026-10-20 | 2026-11-10 |
+| 983 | [pdsuwwz/vite-ts-starter](https://github.com/pdsuwwz/vite-ts-starter) | 158 | 工具 | 未明确（需查文档） | Vue | 2025-12-19 | 2026-11-10 |
+| 984 | [algobulls/pyalgostrategypool](https://github.com/algobulls/pyalgostrategypool) | 157 | 论文研究 | 未明确（需查文档） | Python | 2026-07-29 | 2026-11-10 |
+| 985 | [cgkings/NFO.Editor](https://github.com/cgkings/NFO.Editor) | 157 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 986 | [parallel101/simdtutor](https://github.com/parallel101/simdtutor) | 157 | 工具 | 未明确（需查文档） | C++ | 2025-12-14 | 2026-11-10 |
+| 987 | [pen9un/cursor-auto-helper](https://github.com/pen9un/cursor-auto-helper) | 157 | Agent | 未明确（需查文档） |  | 2026-09-10 | 2026-11-10 |
+| 988 | [ruhhhi27/Backpack-Exchange](https://github.com/ruhhhi27/Backpack-Exchange) | 157 | 工具 | 虚拟货币 |  | 2024-12-02 | 2026-11-10 |
+| 989 | [wjsbjl/use-gplearn-to-generate-CTA-factor](https://github.com/wjsbjl/use-gplearn-to-generate-CTA-factor) | 157 | 交易框架 | 期货、因子 | Python | 2023-12-29 | 2026-11-10 |
+| 990 | [bluedabadi/SchwabAutoTrading](https://github.com/bluedabadi/SchwabAutoTrading) | 156 | 工具 | 未明确（需查文档） | Python | 2025-12-27 | 2026-11-10 |
+| 991 | [kanekoshoyu/kucoin_arbitrage](https://github.com/kanekoshoyu/kucoin_arbitrage) | 156 | 工具 | 虚拟货币 | Rust | 2026-05-28 | 2026-11-10 |
+| 992 | [li-xiu-qi/financial_research_report](https://github.com/li-xiu-qi/financial_research_report) | 156 | 论文研究 | 未明确（需查文档） | Python | 2025-07-02 | 2026-11-10 |
+| 993 | [trading-code/ninjatrader-freeorderflow](https://github.com/trading-code/ninjatrader-freeorderflow) | 156 | 工具 | 期货 | C# | 2025-11-19 | 2026-11-10 |
+| 994 | [Chras-fu/Liuma-engine](https://github.com/Chras-fu/Liuma-engine) | 155 | 工具 | 未明确（需查文档） | Python | 2024-03-13 | 2026-11-10 |
+| 995 | [Folgerjun/stock-tui](https://github.com/Folgerjun/stock-tui) | 155 | 工具 | 未明确（需查文档） | Python | 2026-10-21 | 2026-11-10 |
+| 996 | [test-instructor/yangfan](https://github.com/test-instructor/yangfan) | 155 | 工具 | 未明确（需查文档） | Go | 2026-02-05 | 2026-11-10 |
+| 997 | [DjangoPeng/agentic-ai](https://github.com/DjangoPeng/agentic-ai) | 154 | Agent | 未明确（需查文档） | Python | 2026-07-08 | 2026-11-10 |
+| 998 | [Wind-Alice/AliceMarket](https://github.com/Wind-Alice/AliceMarket) | 154 | Agent | 期货 | Python | 2026-10-30 | 2026-11-10 |
+| 999 | [jordantete/grid_trading_bot](https://github.com/jordantete/grid_trading_bot) | 153 | 交易框架 | 虚拟货币 | Python | 2026-11-06 | 2026-11-10 |
+| 1000 | [moonstream-to/api](https://github.com/moonstream-to/api) | 153 | 工具 | 虚拟货币 | Python | 2025-03-04 | 2026-11-10 |
+| 1001 | [ralphtradesz/trading-hub](https://github.com/ralphtradesz/trading-hub) | 153 | 交易框架 | 虚拟货币、期货 | C# | 2026-11-03 | 2026-11-10 |
+| 1002 | [waylonli/FINSABER](https://github.com/waylonli/FINSABER) | 153 | 论文研究 | 未明确（需查文档） | Python | 2026-09-17 | 2026-11-10 |
+| 1003 | [WizisCool/Nezha-Traffic-Alarm-Generator](https://github.com/WizisCool/Nezha-Traffic-Alarm-Generator) | 153 | 工具 | 未明确（需查文档） | HTML | 2026-03-22 | 2026-11-10 |
+| 1004 | [Bitvested/ta.js](https://github.com/Bitvested/ta.js) | 152 | 交易框架 | 虚拟货币 | JavaScript | 2026-10-10 | 2026-11-10 |
+| 1005 | [Hainrixz/maia-skill](https://github.com/Hainrixz/maia-skill) | 152 | Agent | 虚拟货币 | TypeScript | 2026-10-25 | 2026-11-10 |
+| 1006 | [huangchengsir/pipewright](https://github.com/huangchengsir/pipewright) | 152 | 工具 | 未明确（需查文档） | Go | 2026-11-10 | 2026-11-10 |
+| 1007 | [nardew/cryptoxlib-aio](https://github.com/nardew/cryptoxlib-aio) | 152 | 工具 | 虚拟货币、期货 | Python | 2024-05-20 | 2026-11-10 |
+| 1008 | [xingwudao/open-xquant](https://github.com/xingwudao/open-xquant) | 152 | Agent | 因子 | Python | 2026-10-12 | 2026-11-10 |
+| 1009 | [alkafinance/venice](https://github.com/alkafinance/venice) | 151 | 工具 | 未明确（需查文档） | TypeScript | 2024-04-02 | 2026-11-10 |
+| 1010 | [jkirkby3/fypy](https://github.com/jkirkby3/fypy) | 151 | 工具 | 未明确（需查文档） | Python | 2025-02-27 | 2026-11-10 |
+| 1011 | [liuhuapiaoyuan/MinerU-PDFScanner](https://github.com/liuhuapiaoyuan/MinerU-PDFScanner) | 151 | 工具 | 未明确（需查文档） | JavaScript | 2024-10-17 | 2026-11-10 |
+| 1012 | [losingloonies/Best-MACD-Trading-Validation](https://github.com/losingloonies/Best-MACD-Trading-Validation) | 151 | 论文研究 | 未明确（需查文档） | Python | 2025-11-02 | 2026-11-10 |
+| 1013 | [moon-like-gray-cat/WordFormatter](https://github.com/moon-like-gray-cat/WordFormatter) | 151 | 论文研究 | 未明确（需查文档） | Python | 2026-01-09 | 2026-11-10 |
+| 1014 | [mwangli/stock-trading](https://github.com/mwangli/stock-trading) | 151 | Agent | A股 | Python | 2026-11-10 | 2026-11-10 |
+| 1015 | [sqing33/PTNexus](https://github.com/sqing33/PTNexus) | 151 | 工具 | 未明确（需查文档） | Go | 2026-07-12 | 2026-11-10 |
+| 1016 | [tesserspace/tesser](https://github.com/tesserspace/tesser) | 151 | 交易框架 | 虚拟货币 | Rust | 2026-03-01 | 2026-11-10 |
+| 1017 | [Wbbbbjikjgo/ERP-AGENT](https://github.com/Wbbbbjikjgo/ERP-AGENT) | 151 | Agent | 未明确（需查文档） | Python | 2026-08-26 | 2026-11-10 |
+| 1018 | [zerotech-studio/zack](https://github.com/zerotech-studio/zack) | 151 | 交易框架 | 未明确（需查文档） | Zig | 2025-11-01 | 2026-11-10 |
+| 1019 | [AetherCore-Dev/relay-radar](https://github.com/AetherCore-Dev/relay-radar) | 150 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-09 | 2026-11-10 |
+| 1020 | [jiaodai1001/Mini-Web-Vulnerability-Scanner](https://github.com/jiaodai1001/Mini-Web-Vulnerability-Scanner) | 150 | 工具 | 未明确（需查文档） | Python | 2026-04-14 | 2026-11-10 |
+| 1021 | [yonathan95/BinanceTradingBot](https://github.com/yonathan95/BinanceTradingBot) | 150 | 工具 | 虚拟货币、期货 | Java | 2025-05-09 | 2026-11-10 |
+| 1022 | [bigmacman1129/crypto-arbitrage](https://github.com/bigmacman1129/crypto-arbitrage) | 149 | 交易框架 | 虚拟货币 | Python | 2026-08-26 | 2026-11-10 |
+| 1023 | [binance/ai-trading-prototype](https://github.com/binance/ai-trading-prototype) | 149 | 工具 | 虚拟货币 | Python | 2023-12-30 | 2026-11-10 |
+| 1024 | [imbenrabi/Financial-Modeling-Prep-MCP-Server](https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server) | 149 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-05 | 2026-11-10 |
+| 1025 | [kamathhrishi/finance-agent](https://github.com/kamathhrishi/finance-agent) | 149 | Agent | 未明确（需查文档） | Python | 2026-06-19 | 2026-11-10 |
+| 1026 | [kukapay/freqtrade-mcp](https://github.com/kukapay/freqtrade-mcp) | 149 | 工具 | 虚拟货币 | Python | 2025-12-06 | 2026-11-10 |
+| 1027 | [nirholas/pump-fun-sdk](https://github.com/nirholas/pump-fun-sdk) | 149 | Agent | 虚拟货币 | TypeScript | 2026-11-05 | 2026-11-10 |
+| 1028 | [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server) | 149 | Agent | 虚拟货币 | TypeScript | 2026-07-09 | 2026-11-10 |
+| 1029 | [Tapetide-hq/nse-bse-indian-stock-market-data-mcp](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) | 149 | 工具 | 未明确（需查文档） | TypeScript | 2026-10-28 | 2026-11-10 |
+| 1030 | [dvankley/firefly-plaid-connector-2](https://github.com/dvankley/firefly-plaid-connector-2) | 148 | 工具 | 未明确（需查文档） | Kotlin | 2026-03-31 | 2026-11-10 |
+| 1031 | [hhuayuan/spiderbuf](https://github.com/hhuayuan/spiderbuf) | 148 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 1032 | [imanoop7/Financial-Analysis--Multi-Agent-Open-Source-LLM](https://github.com/imanoop7/Financial-Analysis--Multi-Agent-Open-Source-LLM) | 148 | Agent | 未明确（需查文档） | Python | 2024-11-20 | 2026-11-10 |
+| 1033 | [KangOxford/AlphaTrade](https://github.com/KangOxford/AlphaTrade) | 148 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-03-16 | 2026-11-10 |
+| 1034 | [nessessary/autoxd](https://github.com/nessessary/autoxd) | 148 | 交易框架 | A股 | Python | 2026-09-10 | 2026-11-10 |
+| 1035 | [SaKongA/PopDownloader](https://github.com/SaKongA/PopDownloader) | 148 | 工具 | 未明确（需查文档） | Vue | 2026-10-30 | 2026-11-10 |
+| 1036 | [breeze-sys/Label-Only-MIA-Go](https://github.com/breeze-sys/Label-Only-MIA-Go) | 147 | 工具 | 未明确（需查文档） | Go | 2026-05-29 | 2026-11-10 |
+| 1037 | [JesseVent/crypto](https://github.com/JesseVent/crypto) | 147 | 工具 | 虚拟货币 | R | 2025-10-08 | 2026-11-10 |
+| 1038 | [kennethleungty/Finance-LLMs](https://github.com/kennethleungty/Finance-LLMs) | 147 | Agent | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
+| 1039 | [lyscf/FlowSage](https://github.com/lyscf/FlowSage) | 147 | 工具 | 未明确（需查文档） |  | 2026-07-27 | 2026-11-10 |
+| 1040 | [NLP-LOVE/Model_Log](https://github.com/NLP-LOVE/Model_Log) | 147 | 工具 | 未明确（需查文档） | Python | 2026-01-09 | 2026-11-10 |
+| 1041 | [tpmmthomas/binance-copy-trade-bot](https://github.com/tpmmthomas/binance-copy-trade-bot) | 147 | 工具 | 虚拟货币、期货 | Python | 2024-06-20 | 2026-11-10 |
+| 1042 | [aabacada/CloudNav-abcd](https://github.com/aabacada/CloudNav-abcd) | 146 | 工具 | 未明确（需查文档） | TypeScript | 2026-05-21 | 2026-11-10 |
+| 1043 | [Bel1eff-0228/How-to-Train-Better](https://github.com/Bel1eff-0228/How-to-Train-Better) | 146 | 论文研究 | 未明确（需查文档） | JavaScript | 2026-11-05 | 2026-11-10 |
+| 1044 | [Drakkar-Software/Triangular-Arbitrage](https://github.com/Drakkar-Software/Triangular-Arbitrage) | 146 | 工具 | 虚拟货币 | Python | 2025-12-12 | 2026-11-10 |
+| 1045 | [garciia28/CoinMarketCapSniper](https://github.com/garciia28/CoinMarketCapSniper) | 146 | 工具 | 虚拟货币 | Java | 2024-07-01 | 2026-11-10 |
+| 1046 | [grantcolley/tradeview](https://github.com/grantcolley/tradeview) | 146 | 工具 | 虚拟货币 | C# | 2026-02-22 | 2026-11-10 |
+| 1047 | [bytesc/Image-Recognition-system](https://github.com/bytesc/Image-Recognition-system) | 145 | 工具 | 未明确（需查文档） | Python | 2025-01-22 | 2026-11-10 |
+| 1048 | [esvhd/pypbo](https://github.com/esvhd/pypbo) | 145 | 交易框架 | 未明确（需查文档） | Python | 2026-07-06 | 2026-11-10 |
+| 1049 | [LunFengChen/proxypin-mcp-server](https://github.com/LunFengChen/proxypin-mcp-server) | 145 | 工具 | 未明确（需查文档） | Python | 2026-01-07 | 2026-11-10 |
+| 1050 | [Lvyizhuo/MyProject-SDAgent](https://github.com/Lvyizhuo/MyProject-SDAgent) | 145 | Agent | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
+| 1051 | [AndreaFerrante/Orderflow](https://github.com/AndreaFerrante/Orderflow) | 144 | 工具 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-10 |
+| 1052 | [CryptoGnome/Bybit-Lick-Hunter-v4](https://github.com/CryptoGnome/Bybit-Lick-Hunter-v4) | 144 | 工具 | 虚拟货币 | JavaScript | 2025-07-25 | 2026-11-10 |
+| 1053 | [liusai0820/Stock-Analysis-Skill](https://github.com/liusai0820/Stock-Analysis-Skill) | 144 | 工具 | 未明确（需查文档） | Python | 2026-03-04 | 2026-11-10 |
+| 1054 | [Senpi-ai/senpi-skills](https://github.com/Senpi-ai/senpi-skills) | 144 | Agent | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 1055 | [dapanyuntu/yuntu](https://github.com/dapanyuntu/yuntu) | 143 | 工具 | A股 |  | 2025-01-02 | 2026-11-10 |
+| 1056 | [diogomatoschaves/MyCryptoBot](https://github.com/diogomatoschaves/MyCryptoBot) | 143 | 交易框架 | 虚拟货币 | Python | 2026-06-17 | 2026-11-10 |
+| 1057 | [mamawai/wtfibought](https://github.com/mamawai/wtfibought) | 143 | Agent | 虚拟货币 | Java | 2026-11-10 | 2026-11-10 |
+| 1058 | [panyisheng095-ux/VisionQuant-Pro](https://github.com/panyisheng095-ux/VisionQuant-Pro) | 142 | 工具 | 未明确（需查文档） | Python | 2026-02-27 | 2026-11-10 |
+| 1059 | [StellarDust-AI/stockquant-suite-tutorial-qmt-PTrade](https://github.com/StellarDust-AI/stockquant-suite-tutorial-qmt-PTrade) | 142 | 工具 | 因子 |  | 2026-09-30 | 2026-11-10 |
+| 1060 | [WackyGem/Fleur](https://github.com/WackyGem/Fleur) | 142 | 交易框架 | A股 | Rust | 2026-10-09 | 2026-11-10 |
+| 1061 | [kevin-meng/financial_stock_knowledge_graph](https://github.com/kevin-meng/financial_stock_knowledge_graph) | 141 | 工具 | A股 | Jupyter Notebook | 2026-09-25 | 2026-11-10 |
+| 1062 | [lunarresearcher/copy](https://github.com/lunarresearcher/copy) | 141 | 论文研究 | 虚拟货币 | JavaScript | 2026-09-09 | 2026-11-10 |
+| 1063 | [Mastaaa1987/freqtrade-strategie](https://github.com/Mastaaa1987/freqtrade-strategie) | 141 | 交易框架 | 未明确（需查文档） | Python | 2026-09-15 | 2026-11-10 |
+| 1064 | [risesoft-y9/API-Platform](https://github.com/risesoft-y9/API-Platform) | 141 | 工具 | 未明确（需查文档） | Vue | 2025-10-10 | 2026-11-10 |
+| 1065 | [TaroYamada08/machine-learning-for-trading](https://github.com/TaroYamada08/machine-learning-for-trading) | 141 | 交易框架 | 未明确（需查文档） | Jupyter Notebook | 2026-04-17 | 2026-11-10 |
+| 1066 | [Ding-Kyoma/EasyTrans-mac](https://github.com/Ding-Kyoma/EasyTrans-mac) | 140 | 工具 | 未明确（需查文档） | Python | 2024-02-05 | 2026-11-10 |
+| 1067 | [CTradeExchange/free-quote](https://github.com/CTradeExchange/free-quote) | 139 | 工具 | A股 | Python | 2026-10-10 | 2026-11-10 |
+| 1068 | [jialuechen/flowforge](https://github.com/jialuechen/flowforge) | 139 | 工具 | 未明确（需查文档） | Python | 2026-08-23 | 2026-11-10 |
+| 1069 | [longsizhuo/openInvest](https://github.com/longsizhuo/openInvest) | 139 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 1070 | [tanmingtao1994-gif/fincrew](https://github.com/tanmingtao1994-gif/fincrew) | 139 | Agent | 未明确（需查文档） | TypeScript | 2026-04-01 | 2026-11-10 |
+| 1071 | [uwol/computational-economy](https://github.com/uwol/computational-economy) | 139 | Agent | 未明确（需查文档） | Java | 2026-03-01 | 2026-11-10 |
+| 1072 | [ahacker-1/cre-agent-skills](https://github.com/ahacker-1/cre-agent-skills) | 138 | Agent | 未明确（需查文档） | Python | 2026-09-02 | 2026-11-10 |
+| 1073 | [pssolanki111/polygon](https://github.com/pssolanki111/polygon) | 138 | 工具 | 虚拟货币 | Python | 2025-08-28 | 2026-11-10 |
+| 1074 | [anurag3407/career-pilot](https://github.com/anurag3407/career-pilot) | 137 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-05 | 2026-11-10 |
+| 1075 | [brainbytes-dev/everything-claude-trading](https://github.com/brainbytes-dev/everything-claude-trading) | 137 | Agent | 未明确（需查文档） | JavaScript | 2026-03-14 | 2026-11-10 |
+| 1076 | [daviddme/tradingview-indicator-search-mcp-server](https://github.com/daviddme/tradingview-indicator-search-mcp-server) | 137 | Agent | 未明确（需查文档） | JavaScript | 2026-07-25 | 2026-11-10 |
+| 1077 | [GalaxyLLMCI/lyraios](https://github.com/GalaxyLLMCI/lyraios) | 137 | Agent | 未明确（需查文档） | Python | 2025-03-18 | 2026-11-10 |
+| 1078 | [Surbeivol/PythonMatchingEngine](https://github.com/Surbeivol/PythonMatchingEngine) | 137 | 工具 | 未明确（需查文档） | Python | 2024-05-03 | 2026-11-10 |
+| 1079 | [dev4Fun/Auto-Trade-Crypto-Bot](https://github.com/dev4Fun/Auto-Trade-Crypto-Bot) | 136 | 工具 | 虚拟货币 | Python | 2023-12-15 | 2026-11-10 |
+| 1080 | [haigechanlun/chanlun_auto_trading](https://github.com/haigechanlun/chanlun_auto_trading) | 136 | 交易框架 | 未明确（需查文档） | Python | 2026-05-01 | 2026-11-10 |
+| 1081 | [HFTHaidra/HFT-Arbitrage-EA-MQL4-MQL5](https://github.com/HFTHaidra/HFT-Arbitrage-EA-MQL4-MQL5) | 136 | Agent | 未明确（需查文档） | MQL5 | 2025-12-02 | 2026-11-10 |
+| 1082 | [tradingeconomics/tradingeconomics-python](https://github.com/tradingeconomics/tradingeconomics-python) | 136 | 工具 | 未明确（需查文档） | Python | 2026-10-08 | 2026-11-10 |
+| 1083 | [zoharbabin/due-diligence-agents](https://github.com/zoharbabin/due-diligence-agents) | 136 | Agent | 未明确（需查文档） | Python | 2026-09-29 | 2026-11-10 |
+| 1084 | [Theclues/TradeGenuis-box](https://github.com/Theclues/TradeGenuis-box) | 135 | 工具 | A股、虚拟货币 | Python | 2026-09-06 | 2026-11-10 |
+| 1085 | [EA31337/EA-Tester](https://github.com/EA31337/EA-Tester) | 134 | 交易框架 | 未明确（需查文档） | Shell | 2025-03-09 | 2026-11-10 |
+| 1086 | [hyqibot/A-share-Ai](https://github.com/hyqibot/A-share-Ai) | 134 | Agent | A股 |  | 2026-11-08 | 2026-11-10 |
+| 1087 | [jsbzg/show](https://github.com/jsbzg/show) | 134 | 工具 | 未明确（需查文档） | Java | 2026-03-30 | 2026-11-10 |
+| 1088 | [9600dev/mmr](https://github.com/9600dev/mmr) | 133 | 交易框架 | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
+| 1089 | [oficcejo/tradingagents](https://github.com/oficcejo/tradingagents) | 133 | Agent | A股 | Python | 2026-07-27 | 2026-11-10 |
+| 1090 | [yaomindong1996/forge-admin](https://github.com/yaomindong1996/forge-admin) | 133 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-10 |
+| 1091 | [bryanzhang1024/etf-dashboard-auto](https://github.com/bryanzhang1024/etf-dashboard-auto) | 132 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 1092 | [DVampire/FinWorld](https://github.com/DVampire/FinWorld) | 132 | Agent | 未明确（需查文档） | JavaScript | 2025-10-07 | 2026-11-10 |
+| 1093 | [MiChaelinzo/Trading-Agent-](https://github.com/MiChaelinzo/Trading-Agent-) | 132 | Agent | 未明确（需查文档） | Jupyter Notebook | 2026-02-05 | 2026-11-10 |
+| 1094 | [paduel/streamlit_finance_chart](https://github.com/paduel/streamlit_finance_chart) | 132 | 工具 | 未明确（需查文档） | Python | 2024-08-12 | 2026-11-10 |
+| 1095 | [pinky39/grove](https://github.com/pinky39/grove) | 132 | 游戏 | 未明确（需查文档） | C# | 2026-04-14 | 2026-11-10 |
+| 1096 | [Agentic-Analyst/stock-analyst](https://github.com/Agentic-Analyst/stock-analyst) | 131 | Agent | 未明确（需查文档） | Python | 2026-10-18 | 2026-11-10 |
+| 1097 | [EimanTahir027/100-AI-Agents-independent-projects](https://github.com/EimanTahir027/100-AI-Agents-independent-projects) | 131 | Agent | 未明确（需查文档） | Python | 2026-11-07 | 2026-11-10 |
+| 1098 | [gschurck/tradoge](https://github.com/gschurck/tradoge) | 131 | 工具 | 虚拟货币 | Go | 2025-03-05 | 2026-11-10 |
+| 1099 | [JKorf/Bybit.Net](https://github.com/JKorf/Bybit.Net) | 131 | 工具 | 虚拟货币、期货 | C# | 2026-11-10 | 2026-11-10 |
+| 1100 | [liyupi/github-global](https://github.com/liyupi/github-global) | 131 | Agent | 未明确（需查文档） | TypeScript | 2026-03-03 | 2026-11-10 |
+| 1101 | [NanGePlus/LangChain_V1_Test](https://github.com/NanGePlus/LangChain_V1_Test) | 131 | Agent | 未明确（需查文档） | Python | 2026-07-27 | 2026-11-10 |
+| 1102 | [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) | 131 | 工具 | 未明确（需查文档） | JavaScript | 2026-11-06 | 2026-11-10 |
+| 1103 | [ryan-yuuu/crypto-trading-arena](https://github.com/ryan-yuuu/crypto-trading-arena) | 131 | Agent | 虚拟货币 | Python | 2026-07-08 | 2026-11-10 |
+| 1104 | [AllenPan-Git/SimpleQuant](https://github.com/AllenPan-Git/SimpleQuant) | 130 | 交易框架 | A股 | Python | 2026-11-10 | 2026-11-10 |
+| 1105 | [bigcyy/customized-chat](https://github.com/bigcyy/customized-chat) | 130 | 工具 | 未明确（需查文档） | Java | 2025-09-21 | 2026-11-10 |
+| 1106 | [ColourCloudSky/review-ui-design-skill](https://github.com/ColourCloudSky/review-ui-design-skill) | 130 | 工具 | 未明确（需查文档） | Python | 2026-07-26 | 2026-11-10 |
+| 1107 | [fire-institute/fire](https://github.com/fire-institute/fire) | 130 | 工具 | 因子 | Jupyter Notebook | 2025-09-02 | 2026-11-10 |
+| 1108 | [freevolunteer/daban](https://github.com/freevolunteer/daban) | 130 | 工具 | A股 | Go | 2024-05-22 | 2026-11-10 |
+| 1109 | [laukkw/brale](https://github.com/laukkw/brale) | 130 | 论文研究 | 虚拟货币 |  | 2026-09-10 | 2026-11-10 |
+| 1110 | [mileswangs/pm-hftbacktest](https://github.com/mileswangs/pm-hftbacktest) | 130 | 交易框架 | 未明确（需查文档） | Rust | 2026-10-30 | 2026-11-10 |
+| 1111 | [OctagonAI/skills](https://github.com/OctagonAI/skills) | 130 | Agent | 未明确（需查文档） |  | 2026-06-05 | 2026-11-10 |
+| 1112 | [CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb](https://github.com/CrimsonCrossBunker/Cataclysm-Cleanwater-Bomb) | 129 | 游戏 | 未明确（需查文档） | C++ | 2026-11-10 | 2026-11-10 |
+| 1113 | [hopit-ai/india-trade-cli](https://github.com/hopit-ai/india-trade-cli) | 129 | Agent | 未明确（需查文档） | Python | 2026-09-03 | 2026-11-10 |
+| 1114 | [jialuechen/trademind](https://github.com/jialuechen/trademind) | 129 | 交易框架 | 未明确（需查文档） | C++ | 2025-06-20 | 2026-11-10 |
+| 1115 | [kubehan/PromAI](https://github.com/kubehan/PromAI) | 129 | 工具 | 未明确（需查文档） | Go | 2026-11-06 | 2026-11-10 |
+| 1116 | [rundef/async_rithmic](https://github.com/rundef/async_rithmic) | 129 | 工具 | 期货 | Python | 2026-10-09 | 2026-11-10 |
+| 1117 | [zeta-zetra/chart_patterns](https://github.com/zeta-zetra/chart_patterns) | 129 | 工具 | 虚拟货币 | Python | 2024-07-08 | 2026-11-10 |
+| 1118 | [hiromaily/go-crypto-wallet](https://github.com/hiromaily/go-crypto-wallet) | 128 | 工具 | 虚拟货币 | Go | 2026-04-22 | 2026-11-10 |
+| 1119 | [minihellboy/factorminer](https://github.com/minihellboy/factorminer) | 128 | Agent | 因子 | Python | 2026-11-02 | 2026-11-10 |
+| 1120 | [qazwsx5293870/S-APICONT](https://github.com/qazwsx5293870/S-APICONT) | 128 | 工具 | 未明确（需查文档） |  | 2026-03-07 | 2026-11-10 |
+| 1121 | [Richard-Rose/SubMicroTrading](https://github.com/Richard-Rose/SubMicroTrading) | 128 | 交易框架 | 未明确（需查文档） | Java | 2024-02-03 | 2026-11-10 |
+| 1122 | [woodchen-ink/openai-billing-query](https://github.com/woodchen-ink/openai-billing-query) | 128 | 工具 | 未明确（需查文档） | JavaScript | 2025-07-11 | 2026-11-10 |
+| 1123 | [ahacker-1/cre-acquisition-orchestrator](https://github.com/ahacker-1/cre-acquisition-orchestrator) | 127 | Agent | 未明确（需查文档） | TypeScript | 2026-07-28 | 2026-11-10 |
+| 1124 | [Pitayafruits/kafka-dog](https://github.com/Pitayafruits/kafka-dog) | 127 | 工具 | 未明确（需查文档） | Java | 2024-12-08 | 2026-11-10 |
+| 1125 | [roman-rr/trading-skills](https://github.com/roman-rr/trading-skills) | 127 | Agent | 虚拟货币 | Python | 2026-11-10 | 2026-11-10 |
+| 1126 | [ryansmccoy/py-sec-edgar](https://github.com/ryansmccoy/py-sec-edgar) | 127 | 工具 | 未明确（需查文档） | Python | 2026-04-23 | 2026-11-10 |
+| 1127 | [wangliyang206/GrainFullAndroid](https://github.com/wangliyang206/GrainFullAndroid) | 127 | 工具 | 未明确（需查文档） | Java | 2026-04-01 | 2026-11-10 |
+| 1128 | [xuanronaldo/positionbt](https://github.com/xuanronaldo/positionbt) | 127 | 交易框架 | 未明确（需查文档） | Python | 2025-06-24 | 2026-11-10 |
+| 1129 | [51bitquant/multi_pairs_martingle_bot](https://github.com/51bitquant/multi_pairs_martingle_bot) | 126 | 工具 | 虚拟货币、期货 | Python | 2023-12-26 | 2026-11-10 |
+| 1130 | [HustWolfzzb/easyQuantify](https://github.com/HustWolfzzb/easyQuantify) | 126 | 工具 | 未明确（需查文档） | Python | 2026-01-16 | 2026-11-10 |
+| 1131 | [keli/ctp-python](https://github.com/keli/ctp-python) | 126 | 工具 | 期货 | C | 2026-09-22 | 2026-11-10 |
+| 1132 | [matteoprata/LOBCAST](https://github.com/matteoprata/LOBCAST) | 126 | 工具 | 未明确（需查文档） | Python | 2024-05-09 | 2026-11-10 |
+| 1133 | [msd-rs/py-alpha-lib](https://github.com/msd-rs/py-alpha-lib) | 126 | 论文研究 | 因子 | Python | 2026-11-08 | 2026-11-10 |
+| 1134 | [QianQianLuLu1/MeowStarMap](https://github.com/QianQianLuLu1/MeowStarMap) | 126 | 工具 | 未明确（需查文档） | TypeScript | 2026-11-08 | 2026-11-10 |
+| 1135 | [rapmd73/JackrabbitRelay](https://github.com/rapmd73/JackrabbitRelay) | 126 | 工具 | 虚拟货币 | Python | 2026-08-14 | 2026-11-10 |
+| 1136 | [vrishank97/AlgoTrading](https://github.com/vrishank97/AlgoTrading) | 126 | 工具 | 未明确（需查文档） | Python | 2025-01-27 | 2026-11-10 |
+| 1137 | [algotrading-lab/ai-algotrading-agent](https://github.com/algotrading-lab/ai-algotrading-agent) | 125 | Agent | 未明确（需查文档） | Python | 2026-06-17 | 2026-11-10 |
+| 1138 | [bytesc/Image_Classify_WebGUI_CIFAR10](https://github.com/bytesc/Image_Classify_WebGUI_CIFAR10) | 125 | 工具 | 未明确（需查文档） | Python | 2024-09-18 | 2026-11-10 |
+| 1139 | [huimeicloud/hm_editor](https://github.com/huimeicloud/hm_editor) | 125 | Agent | 未明确（需查文档） | HTML | 2026-09-30 | 2026-11-10 |
+| 1140 | [Kai-dev7/QuantScope](https://github.com/Kai-dev7/QuantScope) | 125 | Agent | 未明确（需查文档） | Python | 2026-07-09 | 2026-11-10 |
+| 1141 | [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp) | 125 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 1142 | [VernonOY/alpha-skills](https://github.com/VernonOY/alpha-skills) | 125 | 论文研究 | 因子 |  | 2026-04-14 | 2026-11-10 |
+| 1143 | [janushendersonassetallocation/loman](https://github.com/janushendersonassetallocation/loman) | 124 | 论文研究 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 1144 | [lissettecarlr/nano-banana-prompt-studio](https://github.com/lissettecarlr/nano-banana-prompt-studio) | 124 | 工具 | 未明确（需查文档） | Python | 2026-08-20 | 2026-11-10 |
+| 1145 | [nshen7/alpha-gfn](https://github.com/nshen7/alpha-gfn) | 124 | 工具 | 因子 | Jupyter Notebook | 2026-01-23 | 2026-11-10 |
+| 1146 | [TencentBlueKing/blueking-dbm](https://github.com/TencentBlueKing/blueking-dbm) | 124 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 1147 | [dev-zuo/zuo-deploy](https://github.com/dev-zuo/zuo-deploy) | 123 | 工具 | 未明确（需查文档） | HTML | 2024-06-16 | 2026-11-10 |
+| 1148 | [freestylefly/openclaw-stock-kb](https://github.com/freestylefly/openclaw-stock-kb) | 123 | 工具 | 未明确（需查文档） | Python | 2026-02-12 | 2026-11-10 |
+| 1149 | [hnking-star/FlySecAgent](https://github.com/hnking-star/FlySecAgent) | 123 | Agent | 未明确（需查文档） | Python | 2026-10-04 | 2026-11-10 |
+| 1150 | [MarcelBeining/EazeBot](https://github.com/MarcelBeining/EazeBot) | 123 | 工具 | 虚拟货币 | Python | 2024-05-28 | 2026-11-10 |
+| 1151 | [songshuquant/ssquant](https://github.com/songshuquant/ssquant) | 123 | 工具 | 期货 | Python | 2026-10-22 | 2026-11-10 |
+| 1152 | [hyli-org/hyli](https://github.com/hyli-org/hyli) | 122 | 工具 | 虚拟货币 | Rust | 2026-11-09 | 2026-11-10 |
+| 1153 | [Mael-J/mstarpy](https://github.com/Mael-J/mstarpy) | 122 | 工具 | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 1154 | [s-pms/SPMS-Web](https://github.com/s-pms/SPMS-Web) | 122 | 工具 | 未明确（需查文档） | Vue | 2026-10-14 | 2026-11-10 |
+| 1155 | [VeKiner/akshare-stock-data-fetcher](https://github.com/VeKiner/akshare-stock-data-fetcher) | 122 | 工具 | A股 | Python | 2026-10-25 | 2026-11-10 |
+| 1156 | [fleetinglife/levistock](https://github.com/fleetinglife/levistock) | 121 | 工具 | A股 | Python | 2026-10-04 | 2026-11-10 |
+| 1157 | [JKorf/Kraken.Net](https://github.com/JKorf/Kraken.Net) | 121 | 工具 | 虚拟货币、期货 | C# | 2026-10-23 | 2026-11-10 |
+| 1158 | [bitisanop/CryptoExchange_TradingPlatform_CoinExchange](https://github.com/bitisanop/CryptoExchange_TradingPlatform_CoinExchange) | 120 | 工具 | 虚拟货币 | Java | 2025-02-19 | 2026-11-10 |
+| 1159 | [Drakkar-Software/OctoBot-Prediction-Market](https://github.com/Drakkar-Software/OctoBot-Prediction-Market) | 120 | 工具 | 虚拟货币 | Python | 2026-03-30 | 2026-11-10 |
+| 1160 | [kuegi/kuegiBot](https://github.com/kuegi/kuegiBot) | 120 | 工具 | 虚拟货币 | JavaScript | 2025-05-09 | 2026-11-10 |
+| 1161 | [lookatwallstreet/WallTrading-Bot-MooMoo-Futu](https://github.com/lookatwallstreet/WallTrading-Bot-MooMoo-Futu) | 120 | 交易框架 | 未明确（需查文档） | Python | 2026-04-21 | 2026-11-10 |
+| 1162 | [vincentkoc/dexscraper](https://github.com/vincentkoc/dexscraper) | 120 | 工具 | 虚拟货币 | Python | 2026-11-09 | 2026-11-10 |
+| 1163 | [alihaskar/pycharting](https://github.com/alihaskar/pycharting) | 119 | 交易框架 | 未明确（需查文档） | Python | 2026-10-27 | 2026-11-10 |
+| 1164 | [chen-zeong/dtv_mobile](https://github.com/chen-zeong/dtv_mobile) | 119 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-14 | 2026-11-10 |
+| 1165 | [dadaiwei/fe-deploy-cli](https://github.com/dadaiwei/fe-deploy-cli) | 119 | 工具 | 未明确（需查文档） | JavaScript | 2024-06-14 | 2026-11-10 |
+| 1166 | [JKorf/Kucoin.Net](https://github.com/JKorf/Kucoin.Net) | 119 | 工具 | 虚拟货币、期货 | C# | 2026-11-09 | 2026-11-10 |
+| 1167 | [Krexa-xyz/skills](https://github.com/Krexa-xyz/skills) | 119 | Agent | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
+| 1168 | [Laichj/box-spider](https://github.com/Laichj/box-spider) | 119 | 工具 | A股 | Java | 2024-04-15 | 2026-11-10 |
+| 1169 | [sanchezmarcos/binancio](https://github.com/sanchezmarcos/binancio) | 119 | 工具 | 虚拟货币 | JavaScript | 2024-01-03 | 2026-11-10 |
+| 1170 | [seasonstar/atmquant](https://github.com/seasonstar/atmquant) | 119 | 交易框架 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
+| 1171 | [xianer235/115-media-hub](https://github.com/xianer235/115-media-hub) | 119 | 工具 | 未明确（需查文档） | Python | 2026-11-02 | 2026-11-10 |
+| 1172 | [BUPT-GAMMA/iGraph](https://github.com/BUPT-GAMMA/iGraph) | 118 | Agent | 未明确（需查文档） | Python | 2026-11-08 | 2026-11-10 |
+| 1173 | [coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) | 118 | 工具 | 虚拟货币 | JavaScript | 2026-11-05 | 2026-11-10 |
+| 1174 | [cool-icu0/xgent](https://github.com/cool-icu0/xgent) | 118 | Agent | 未明确（需查文档） | Java | 2026-05-25 | 2026-11-10 |
+| 1175 | [duhu2000/dsh-mcp-connector](https://github.com/duhu2000/dsh-mcp-connector) | 118 | 论文研究 | 未明确（需查文档） | JavaScript | 2026-11-10 | 2026-11-10 |
+| 1176 | [kesslernity/awesome-copilot-chat-agents](https://github.com/kesslernity/awesome-copilot-chat-agents) | 118 | Agent | 未明确（需查文档） |  | 2026-11-03 | 2026-11-10 |
+| 1177 | [rookie0/rains](https://github.com/rookie0/rains) | 118 | 工具 | A股 | Rust | 2026-10-25 | 2026-11-10 |
+| 1178 | [zc6503204-collab/stock-strategy-dashboard](https://github.com/zc6503204-collab/stock-strategy-dashboard) | 118 | 论文研究 | A股 | Python | 2026-11-04 | 2026-11-10 |
+| 1179 | [huangzongmou/yolov8-pytorch_quantization](https://github.com/huangzongmou/yolov8-pytorch_quantization) | 117 | 工具 | 未明确（需查文档） | Python | 2023-11-10 | 2026-11-10 |
+| 1180 | [keeshii/ryuu-play](https://github.com/keeshii/ryuu-play) | 117 | 游戏 | 未明确（需查文档） | TypeScript | 2026-06-18 | 2026-11-10 |
+| 1181 | [openaccountant/skills](https://github.com/openaccountant/skills) | 117 | Agent | 未明确（需查文档） |  | 2026-04-09 | 2026-11-10 |
+| 1182 | [pseudocodes/ctp2rs](https://github.com/pseudocodes/ctp2rs) | 117 | 工具 | 期货 | Rust | 2026-08-08 | 2026-11-10 |
+| 1183 | [skygazer42/ForeSight](https://github.com/skygazer42/ForeSight) | 117 | 交易框架 | 未明确（需查文档） | Python | 2026-05-03 | 2026-11-10 |
+| 1184 | [xiongcp/stock-skill](https://github.com/xiongcp/stock-skill) | 117 | Agent | 美股、A股 | Python | 2026-11-02 | 2026-11-10 |
+| 1185 | [7skooooo/mql5-systems-mirror](https://github.com/7skooooo/mql5-systems-mirror) | 116 | 工具 | 未明确（需查文档） | HTML | 2026-11-10 | 2026-11-10 |
+| 1186 | [adamd1985/articles_materials](https://github.com/adamd1985/articles_materials) | 116 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-26 | 2026-11-10 |
+| 1187 | [Auquan/auquantoolbox](https://github.com/Auquan/auquantoolbox) | 116 | 交易框架 | 未明确（需查文档） | Python | 2024-01-11 | 2026-11-10 |
+| 1188 | [dex-original/okx-agent-trade-kit](https://github.com/dex-original/okx-agent-trade-kit) | 116 | Agent | 虚拟货币、期货 | TypeScript | 2026-06-01 | 2026-11-10 |
+| 1189 | [dodid/minitrade](https://github.com/dodid/minitrade) | 116 | 交易框架 | 未明确（需查文档） | Python | 2026-02-01 | 2026-11-10 |
+| 1190 | [HeBianGu/WPF-Control](https://github.com/HeBianGu/WPF-Control) | 116 | 工具 | 未明确（需查文档） | C# | 2026-11-10 | 2026-11-10 |
+| 1191 | [mathworks/2D-Lid-Driven-Cavity-Flow-Incompressible-Navier-Stokes-Solver](https://github.com/mathworks/2D-Lid-Driven-Cavity-Flow-Incompressible-Navier-Stokes-Solver) | 116 | 工具 | 未明确（需查文档） | MATLAB | 2024-03-08 | 2026-11-10 |
+| 1192 | [rsalianto/tradoor](https://github.com/rsalianto/tradoor) | 116 | 论文研究 | 虚拟货币 | Rust | 2026-11-07 | 2026-11-10 |
+| 1193 | [Auto-Plugin/autotoast.js](https://github.com/Auto-Plugin/autotoast.js) | 115 | 工具 | 未明确（需查文档） | TypeScript | 2025-10-15 | 2026-11-10 |
+| 1194 | [cenksari/react-crypto-exchange](https://github.com/cenksari/react-crypto-exchange) | 115 | 工具 | 虚拟货币 | TypeScript | 2026-06-12 | 2026-11-10 |
+| 1195 | [coinrust/trading-strategies](https://github.com/coinrust/trading-strategies) | 115 | 工具 | 未明确（需查文档） | Go | 2026-09-28 | 2026-11-10 |
+| 1196 | [hetaoBackend/deer-trade](https://github.com/hetaoBackend/deer-trade) | 115 | Agent | 未明确（需查文档） | Python | 2025-10-24 | 2026-11-10 |
+| 1197 | [HG-ha/SenseVoice-Api](https://github.com/HG-ha/SenseVoice-Api) | 115 | 工具 | 未明确（需查文档） | Python | 2024-09-02 | 2026-11-10 |
+| 1198 | [J700070/Stock-Analyzer-Python](https://github.com/J700070/Stock-Analyzer-Python) | 115 | 工具 | 未明确（需查文档） | Python | 2024-06-14 | 2026-11-10 |
+| 1199 | [KylinShinlyLin/QozeCode](https://github.com/KylinShinlyLin/QozeCode) | 115 | Agent | 未明确（需查文档） | Python | 2026-09-17 | 2026-11-10 |
+| 1200 | [residual-lab/alpha-harness](https://github.com/residual-lab/alpha-harness) | 115 | 论文研究 | 未明确（需查文档） | TypeScript | 2026-11-05 | 2026-11-10 |
+| 1201 | [424431185/pixel-asset-master-skills](https://github.com/424431185/pixel-asset-master-skills) | 114 | 游戏 | 未明确（需查文档） | HTML | 2026-05-05 | 2026-11-10 |
+| 1202 | [CarlMarkswx/comfyui_GaussianViewer](https://github.com/CarlMarkswx/comfyui_GaussianViewer) | 114 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-17 | 2026-11-10 |
+| 1203 | [terbed/finmlkit](https://github.com/terbed/finmlkit) | 114 | 论文研究 | 未明确（需查文档） | Python | 2026-10-25 | 2026-11-10 |
+| 1204 | [zsrl/qka](https://github.com/zsrl/qka) | 114 | 工具 | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 1205 | [Zzz-IT/GoclashZ](https://github.com/Zzz-IT/GoclashZ) | 114 | 工具 | 未明确（需查文档） | Go | 2026-10-30 | 2026-11-10 |
+| 1206 | [baobach/hft_papers](https://github.com/baobach/hft_papers) | 113 | 论文研究 | 未明确（需查文档） | Python | 2026-11-01 | 2026-11-10 |
+| 1207 | [IonRh/HomePage](https://github.com/IonRh/HomePage) | 113 | 工具 | 未明确（需查文档） | JavaScript | 2025-11-07 | 2026-11-10 |
+| 1208 | [Magica-Chen/GaussWorldTrader](https://github.com/Magica-Chen/GaussWorldTrader) | 113 | 交易框架 | 美股 | Python | 2026-09-26 | 2026-11-10 |
+| 1209 | [N00Bception/AI-CryptoTrader](https://github.com/N00Bception/AI-CryptoTrader) | 113 | 工具 | 虚拟货币 | Python | 2025-02-25 | 2026-11-10 |
+| 1210 | [VibeTradingLabs/vibetrading](https://github.com/VibeTradingLabs/vibetrading) | 113 | Agent | 未明确（需查文档） | Python | 2026-03-23 | 2026-11-10 |
+| 1211 | [vitorcgo/Niko](https://github.com/vitorcgo/Niko) | 113 | Agent | 未明确（需查文档） | TypeScript | 2026-11-03 | 2026-11-10 |
+| 1212 | [Caoyongqi912/case_auto_hub](https://github.com/Caoyongqi912/case_auto_hub) | 112 | 工具 | 未明确（需查文档） | Python | 2026-06-24 | 2026-11-10 |
+| 1213 | [FTShare-Lab/FTShare-python-sdk](https://github.com/FTShare-Lab/FTShare-python-sdk) | 112 | Agent | 因子 | Python | 2026-11-10 | 2026-11-10 |
+| 1214 | [heranliu/AlphaResearchOS](https://github.com/heranliu/AlphaResearchOS) | 112 | Agent | 因子 | Python | 2026-10-09 | 2026-11-10 |
+| 1215 | [joaquinbejar/market-maker-rs](https://github.com/joaquinbejar/market-maker-rs) | 112 | 交易框架 | 期货 | Rust | 2026-11-10 | 2026-11-10 |
+| 1216 | [sec-gov/python-for-dera-financial-datasets](https://github.com/sec-gov/python-for-dera-financial-datasets) | 112 | 工具 | 未明确（需查文档） | Python | 2026-01-21 | 2026-11-10 |
+| 1217 | [Tanglumy/Finance-Bro](https://github.com/Tanglumy/Finance-Bro) | 112 | Agent | 未明确（需查文档） | Python | 2025-11-08 | 2026-11-10 |
+| 1218 | [Ali-Marandi/finsight-pro](https://github.com/Ali-Marandi/finsight-pro) | 111 | 工具 | 未明确（需查文档） | Python | 2026-08-26 | 2026-11-10 |
+| 1219 | [Ambuj123-lab/agentic-rag-financial-parser](https://github.com/Ambuj123-lab/agentic-rag-financial-parser) | 111 | Agent | 未明确（需查文档） | Python | 2026-09-30 | 2026-11-10 |
+| 1220 | [manujajay/machinelearning4finance](https://github.com/manujajay/machinelearning4finance) | 111 | 工具 | 未明确（需查文档） | Python | 2024-02-24 | 2026-11-10 |
+| 1221 | [mgao6767/frds](https://github.com/mgao6767/frds) | 111 | 论文研究 | 未明确（需查文档） | Python | 2026-11-04 | 2026-11-10 |
+| 1222 | [QIYU-JACKMAN/codexQIYU-image-workflow](https://github.com/QIYU-JACKMAN/codexQIYU-image-workflow) | 111 | 工具 | 未明确（需查文档） | Python | 2026-08-19 | 2026-11-10 |
+| 1223 | [ZhuJD-China/RainbowGPT](https://github.com/ZhuJD-China/RainbowGPT) | 111 | Agent | 未明确（需查文档） | Python | 2025-02-06 | 2026-11-10 |
+| 1224 | [Azhagesan-dev/OrderFlowMap](https://github.com/Azhagesan-dev/OrderFlowMap) | 110 | 工具 | 未明确（需查文档） | HTML | 2026-04-17 | 2026-11-10 |
+| 1225 | [howdymary/autopredict](https://github.com/howdymary/autopredict) | 110 | Agent | 未明确（需查文档） | Python | 2026-07-15 | 2026-11-10 |
+| 1226 | [MOSEK/PortfolioOptimization](https://github.com/MOSEK/PortfolioOptimization) | 110 | 工具 | 未明确（需查文档） | HTML | 2026-04-29 | 2026-11-10 |
+| 1227 | [RahulAutade2288/fraud-detection-federated](https://github.com/RahulAutade2288/fraud-detection-federated) | 110 | 工具 | 未明确（需查文档） | Python | 2025-06-07 | 2026-11-10 |
+| 1228 | [woung717/backtest-manager-vscode](https://github.com/woung717/backtest-manager-vscode) | 110 | 交易框架 | 未明确（需查文档） | TypeScript | 2025-07-11 | 2026-11-10 |
+| 1229 | [AM1403x/financial-agent-india](https://github.com/AM1403x/financial-agent-india) | 109 | Agent | 未明确（需查文档） | Python | 2026-02-12 | 2026-11-10 |
+| 1230 | [csmar432/finai-research](https://github.com/csmar432/finai-research) | 109 | Agent | 未明确（需查文档） | Python | 2026-11-09 | 2026-11-10 |
+| 1231 | [haoge10241024/TradingAgents_for_Futures](https://github.com/haoge10241024/TradingAgents_for_Futures) | 109 | Agent | 期货 | Python | 2025-11-30 | 2026-11-10 |
+| 1232 | [Rsplwe/bili-live-hime](https://github.com/Rsplwe/bili-live-hime) | 109 | 工具 | 未明确（需查文档） | TypeScript | 2026-08-26 | 2026-11-10 |
+| 1233 | [WPeace-HcH/WPeGPT-Analyzer](https://github.com/WPeace-HcH/WPeGPT-Analyzer) | 109 | Agent | 未明确（需查文档） | PowerShell | 2026-05-27 | 2026-11-10 |
+| 1234 | [z-bool/Venom-aoman](https://github.com/z-bool/Venom-aoman) | 109 | 工具 | 未明确（需查文档） |  | 2024-05-14 | 2026-11-10 |
+| 1235 | [zhangyao1990/elegant-wui-uni](https://github.com/zhangyao1990/elegant-wui-uni) | 109 | 工具 | 未明确（需查文档） | Vue | 2025-07-16 | 2026-11-10 |
+| 1236 | [zhouqinglong520/trading-mastery](https://github.com/zhouqinglong520/trading-mastery) | 109 | 工具 | A股 | HTML | 2026-07-04 | 2026-11-10 |
+| 1237 | [122474363/DSQ](https://github.com/122474363/DSQ) | 108 | 工具 | 未明确（需查文档） | HTML | 2026-11-08 | 2026-11-10 |
+| 1238 | [aidatatools/quant-python-ai](https://github.com/aidatatools/quant-python-ai) | 108 | Agent | 未明确（需查文档） | Python | 2026-02-23 | 2026-11-10 |
+| 1239 | [Earnings-Call-Dataset/MAEC-A-Multimodal-Aligned-Earnings-Conference-Call-Dataset-for-Financial-Risk-Prediction](https://github.com/Earnings-Call-Dataset/MAEC-A-Multimodal-Aligned-Earnings-Conference-Call-Dataset-for-Financial-Risk-Prediction) | 108 | 论文研究 | 未明确（需查文档） | Python | 2024-02-15 | 2026-11-10 |
+| 1240 | [hugoguerrap/crypto-claude-desk](https://github.com/hugoguerrap/crypto-claude-desk) | 108 | Agent | 虚拟货币 | Python | 2026-08-23 | 2026-11-10 |
+| 1241 | [IBM/AML-Data](https://github.com/IBM/AML-Data) | 108 | Agent | 未明确（需查文档） |  | 2025-09-17 | 2026-11-10 |
+| 1242 | [Potato-py/ExportReport](https://github.com/Potato-py/ExportReport) | 108 | 工具 | 未明确（需查文档） | HTML | 2024-03-29 | 2026-11-10 |
+| 1243 | [sisong/sfpatcher](https://github.com/sisong/sfpatcher) | 108 | 工具 | 未明确（需查文档） |  | 2026-07-27 | 2026-11-10 |
+| 1244 | [sullyo/fingen](https://github.com/sullyo/fingen) | 108 | Agent | 未明确（需查文档） | TypeScript | 2024-03-25 | 2026-11-10 |
+| 1245 | [aitradingbotspro/cryto-trading-ai-assistant](https://github.com/aitradingbotspro/cryto-trading-ai-assistant) | 107 | 工具 | 虚拟货币 | Python | 2026-03-14 | 2026-11-10 |
+| 1246 | [Ali-Marandi/reportflow-automation](https://github.com/Ali-Marandi/reportflow-automation) | 107 | 工具 | 未明确（需查文档） | Python | 2026-08-30 | 2026-11-10 |
+| 1247 | [areed1192/portfolio-optimization](https://github.com/areed1192/portfolio-optimization) | 107 | 工具 | 未明确（需查文档） | Python | 2024-06-09 | 2026-11-10 |
+| 1248 | [initial-d/ml-quant-trading](https://github.com/initial-d/ml-quant-trading) | 107 | Agent | A股、因子 | Python | 2026-11-02 | 2026-11-10 |
+| 1249 | [mesh-3d/cesium-vectortile-gl](https://github.com/mesh-3d/cesium-vectortile-gl) | 107 | 工具 | 未明确（需查文档） | JavaScript | 2026-07-14 | 2026-11-10 |
+| 1250 | [OriginQ/pyqpanda-algorithm](https://github.com/OriginQ/pyqpanda-algorithm) | 107 | 工具 | 未明确（需查文档） | Python | 2026-08-13 | 2026-11-10 |
+| 1251 | [wyh22/multi-agent-trading](https://github.com/wyh22/multi-agent-trading) | 107 | Agent | A股 | Python | 2026-09-09 | 2026-11-10 |
+| 1252 | [0xTaoDev/jupiter-python-cli](https://github.com/0xTaoDev/jupiter-python-cli) | 106 | 工具 | 虚拟货币 | Python | 2024-04-08 | 2026-11-10 |
+| 1253 | [Apress/Quantitative-Trading-Strategies-Using-Python](https://github.com/Apress/Quantitative-Trading-Strategies-Using-Python) | 106 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2024-02-14 | 2026-11-10 |
+| 1254 | [binance/binance-connector-php](https://github.com/binance/binance-connector-php) | 106 | 工具 | 虚拟货币 | PHP | 2026-10-28 | 2026-11-10 |
+| 1255 | [cmdch2017/GenerateAndAutoupload](https://github.com/cmdch2017/GenerateAndAutoupload) | 106 | 工具 | 未明确（需查文档） | Python | 2024-08-18 | 2026-11-10 |
+| 1256 | [LeastBit/SourceCodeDoc](https://github.com/LeastBit/SourceCodeDoc) | 106 | 工具 | 未明确（需查文档） | JavaScript | 2025-07-11 | 2026-11-10 |
+| 1257 | [manujajay/portfolio-optimize](https://github.com/manujajay/portfolio-optimize) | 106 | 工具 | 未明确（需查文档） | Python | 2024-03-11 | 2026-11-10 |
+| 1258 | [QuirkyTurtle94/GnuDash](https://github.com/QuirkyTurtle94/GnuDash) | 106 | 工具 | 未明确（需查文档） | TypeScript | 2026-09-29 | 2026-11-10 |
+| 1259 | [tigerfintech/tiger_quant](https://github.com/tigerfintech/tiger_quant) | 106 | 交易框架 | 未明确（需查文档） | Java | 2023-12-05 | 2026-11-10 |
+| 1260 | [0xrsydn/idx-cli](https://github.com/0xrsydn/idx-cli) | 105 | Agent | 未明确（需查文档） | Rust | 2026-11-10 | 2026-11-10 |
+| 1261 | [Etherstrings/JusticePlutus](https://github.com/Etherstrings/JusticePlutus) | 105 | 工具 | 未明确（需查文档） | Python | 2026-04-20 | 2026-11-10 |
+| 1262 | [fat7/KLinePlayground](https://github.com/fat7/KLinePlayground) | 105 | 工具 | A股 | Python | 2026-10-12 | 2026-11-10 |
+| 1263 | [friend-nicen/nicen-localize-image](https://github.com/friend-nicen/nicen-localize-image) | 105 | 工具 | 未明确（需查文档） | JavaScript | 2025-09-16 | 2026-11-10 |
+| 1264 | [wbbyfd/UniversalRotation](https://github.com/wbbyfd/UniversalRotation) | 105 | 工具 | 未明确（需查文档） | Python | 2025-07-02 | 2026-11-10 |
+| 1265 | [ApocData/ApocData-skill](https://github.com/ApocData/ApocData-skill) | 104 | Agent | A股 | Shell | 2026-10-14 | 2026-11-10 |
+| 1266 | [bzd6661/wechat-article-for-ai](https://github.com/bzd6661/wechat-article-for-ai) | 104 | Agent | 未明确（需查文档） | Python | 2026-03-04 | 2026-11-10 |
+| 1267 | [IAmTomShaw/stock-tracker-agent](https://github.com/IAmTomShaw/stock-tracker-agent) | 104 | Agent | 因子 | Python | 2025-11-23 | 2026-11-10 |
+| 1268 | [mrgoonie/vnstock-agent](https://github.com/mrgoonie/vnstock-agent) | 104 | Agent | 未明确（需查文档） | Python | 2026-04-01 | 2026-11-10 |
+| 1269 | [Potato-py/getIpInfo](https://github.com/Potato-py/getIpInfo) | 104 | 工具 | 未明确（需查文档） | Python | 2025-08-29 | 2026-11-10 |
+| 1270 | [SheldonJoO/AirCard-zh](https://github.com/SheldonJoO/AirCard-zh) | 104 | 工具 | 未明确（需查文档） | Swift | 2026-09-21 | 2026-11-10 |
+| 1271 | [yt-feng/VPIN](https://github.com/yt-feng/VPIN) | 104 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2026-04-30 | 2026-11-10 |
+| 1272 | [zhangsensen/etf-rotation-strategy](https://github.com/zhangsensen/etf-rotation-strategy) | 104 | 论文研究 | A股、因子 | Python | 2026-10-05 | 2026-11-10 |
+| 1273 | [arimanyus/warrenduffer](https://github.com/arimanyus/warrenduffer) | 103 | 交易框架 | 未明确（需查文档） | TypeScript | 2026-09-23 | 2026-11-10 |
+| 1274 | [guowang23333/kiro-pro-batch](https://github.com/guowang23333/kiro-pro-batch) | 103 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-20 | 2026-11-10 |
+| 1275 | [HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction](https://github.com/HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction) | 103 | 工具 | 未明确（需查文档） | Python | 2024-05-18 | 2026-11-10 |
+| 1276 | [kacins/YPay](https://github.com/kacins/YPay) | 103 | 工具 | 未明确（需查文档） | JavaScript | 2026-05-27 | 2026-11-10 |
+| 1277 | [Nasdaq/NasdaqCloudDataService-SDK-Python](https://github.com/Nasdaq/NasdaqCloudDataService-SDK-Python) | 103 | 工具 | 美股 | Python | 2026-11-06 | 2026-11-10 |
+| 1278 | [Trata-Inc/trata-hedge-bench](https://github.com/Trata-Inc/trata-hedge-bench) | 103 | Agent | 未明确（需查文档） | Python | 2026-06-18 | 2026-11-10 |
+| 1279 | [yzhbradoodrrpurp/FinFeed](https://github.com/yzhbradoodrrpurp/FinFeed) | 103 | 论文研究 | 未明确（需查文档） | Python | 2026-11-03 | 2026-11-10 |
+| 1280 | [Arthur19940725/stock-analysis-skill](https://github.com/Arthur19940725/stock-analysis-skill) | 102 | Agent | 未明确（需查文档） | Python | 2026-08-20 | 2026-11-10 |
+| 1281 | [automatedalgo/apex](https://github.com/automatedalgo/apex) | 102 | 论文研究 | 未明确（需查文档） | C++ | 2026-07-12 | 2026-11-10 |
+| 1282 | [chenwr727/Stock-Insight-AI](https://github.com/chenwr727/Stock-Insight-AI) | 102 | 工具 | 期货 | Python | 2025-05-26 | 2026-11-10 |
+| 1283 | [cmliu/EdgeOne-Pages-BestIP2SUB](https://github.com/cmliu/EdgeOne-Pages-BestIP2SUB) | 102 | 工具 | 未明确（需查文档） | JavaScript | 2025-10-13 | 2026-11-10 |
+| 1284 | [javajack/skill-algotrader](https://github.com/javajack/skill-algotrader) | 102 | Agent | 未明确（需查文档） | Python | 2026-02-14 | 2026-11-10 |
+| 1285 | [karimkhemkapital/quantitative-trading-free-lesson](https://github.com/karimkhemkapital/quantitative-trading-free-lesson) | 102 | 工具 | 未明确（需查文档） | Python | 2026-06-30 | 2026-11-10 |
+| 1286 | [Thomvanoorschot/zigma](https://github.com/Thomvanoorschot/zigma) | 102 | 交易框架 | 未明确（需查文档） | Zig | 2025-08-03 | 2026-11-10 |
+| 1287 | [0xhappyboy/candleview](https://github.com/0xhappyboy/candleview) | 101 | 工具 | 未明确（需查文档） | TypeScript | 2026-09-28 | 2026-11-10 |
+| 1288 | [DiscoverBox/awesome-ai-reverse-engineering](https://github.com/DiscoverBox/awesome-ai-reverse-engineering) | 101 | Agent | 未明确（需查文档） | Python | 2026-11-10 | 2026-11-10 |
+| 1289 | [dream-faster/fold](https://github.com/dream-faster/fold) | 101 | 交易框架 | 未明确（需查文档） | Python | 2024-02-29 | 2026-11-10 |
+| 1290 | [LuckyKuang/codex-tokens-compress](https://github.com/LuckyKuang/codex-tokens-compress) | 101 | Agent | 未明确（需查文档） | Python | 2026-04-10 | 2026-11-10 |
+| 1291 | [owl234/Awesome-SRC-experience](https://github.com/owl234/Awesome-SRC-experience) | 101 | 工具 | 未明确（需查文档） | JavaScript | 2026-06-22 | 2026-11-10 |
+| 1292 | [shiyu2011/cookstock](https://github.com/shiyu2011/cookstock) | 101 | 工具 | 未明确（需查文档） | Python | 2025-05-17 | 2026-11-10 |
+| 1293 | [StellarDust-AI/miniqmt-tushare-xtquant-Ashare](https://github.com/StellarDust-AI/miniqmt-tushare-xtquant-Ashare) | 101 | 论文研究 | A股 | Python | 2026-09-30 | 2026-11-10 |
+| 1294 | [youdotcom-oss/agent-skills](https://github.com/youdotcom-oss/agent-skills) | 101 | Agent | 未明确（需查文档） | TypeScript | 2026-11-10 | 2026-11-10 |
 
 ## Agent
 
 | 项目 | ⭐ | 简介 | 市场/因子 | 语言 | 能力/用途 |
 |---|---:|---|---|---|---|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 121809 | TradingAgents: Multi-Agents LLM Financial Trading Framework | 未明确（需查文档） | Python | Agent |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 121811 | TradingAgents: Multi-Agents LLM Financial Trading Framework | 未明确（需查文档） | Python | Agent |
 | [openbq-org/OpenBB](https://github.com/openbq-org/OpenBB) | 75299 | Open Data Platform for analysts, quants and AI agents. | 虚拟货币、期货 | Python | Agent |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 69490 | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | 未明确（需查文档） | Python | Agent |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 69492 | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | 未明确（需查文档） | Python | Agent |
 | [microsoft/qlib](https://github.com/microsoft/qlib) | 50193 | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process. | 未明确（需查文档） | Python | Agent |
-| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 39600 | The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more. | 未明确（需查文档） | Python | Agent |
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 39601 | The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more. | 未明确（需查文档） | Python | Agent |
 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37995 | "Vibe-Trading: Your Personal Trading Agent" | 未明确（需查文档） | Python | Agent |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 29580 | 410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills. | 未明确（需查文档） | Python | Agent |
 | [virattt/dexter](https://github.com/virattt/dexter) | 27809 | An autonomous agent for deep financial research | 未明确（需查文档） | TypeScript | Agent |
+| [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) | 23223 | "AI-Trader: 100% Fully-Automated Agent-Native Trading"   | 未明确（需查文档） | Python | Agent |
 | [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | 21774 | Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution. | 未明确（需查文档） | Jupyter Notebook | Agent |
 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | 21143 | Open source software that helps you create and deploy high-frequency crypto trading bots | 虚拟货币 | Python | Agent |
 | [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | 13674 | The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery, backtesting, optimization, paper/live multi-asset execution, risk controls, monitoring, MCP, and multi-tenant SaaS in one auditable stack. | 虚拟货币、因子 | Python | Agent |
@@ -1358,7 +1355,7 @@
 | [ValueCell-ai/valuecell](https://github.com/ValueCell-ai/valuecell) | 11053 | ValueCell is a community-driven, multi-agent platform for financial applications. | 虚拟货币 | Python | Agent |
 | [anbeime/skill](https://github.com/anbeime/skill) | 9394 | 收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains. | 未明确（需查文档） | Python | Agent |
 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | 8404 | FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models | 未明确（需查文档） | Python | Agent |
-| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 7506 | TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台  \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 | 未明确（需查文档） | Python | Agent |
+| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 7507 | TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台  \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 | 未明确（需查文档） | Python | Agent |
 | [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) | 7443 | Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit. | 虚拟货币 | TypeScript | Agent |
 | [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) | 7266 | An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents. | 未明确（需查文档） | Python | Agent |
 | [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) | 6676 | Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution. | 未明确（需查文档） | Python | Agent |
@@ -1369,7 +1366,7 @@
 | [simonlin1212/TradingAgents-astock](https://github.com/simonlin1212/TradingAgents-astock) | 3943 | A股多Agent投研框架 — 适配A股数据源(龙虎榜/游资/解禁等)，7位分析师基于A股规则的辩论决策，基于TradingAgents深度改造，适配大A。A-share multi-agent investment research framework — 7 AI analysts, bull/bear debate, risk assessment。 | A股 | Python | Agent |
 | [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | 3576 | Vibe-Research：A 股、美股、港股的投研工作台 · 自选与持仓、每日复盘、产业资讯、产业研究、个股深挖、回测、研报库，168 个数据端点。支持 Claude Code、Codex、WorkBuddy 订阅或任意模型 API。 \| A research workbench for China A-shares, US and HK stocks. | A股 | TypeScript | Agent |
 | [himself65/finance-skills](https://github.com/himself65/finance-skills) | 3521 | A collection of skills for AI financial analysis. | 未明确（需查文档） | JavaScript | Agent |
-| [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship) | 3329 | 反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit.  Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓"法学"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及秘书班子中可以找到。王沪宁的“真才实学”只不过是一个只读四年小学的人，大半辈子在社会上磨炼特别是在中共官场滚打炼出的的手段和经验而已，他和习近平等保送的工农兵假“大学生”都一样，无法从事原“专业”都凭红资本而从政。六四学运期间各界一边倒支持学生，王沪宁一度去法国躲避和筹谋，他还加入了反学运签名，成为极少有的反学运者仕途突显，在六四和苏联垮台后中共意识形态危机，江泽民上台看上唯一能应急的王沪宁聚谋士泡制的"稳定统一领导"和之后的"新权威"谬论。左转被邓小平南巡阻止后，王策划顺邓经济改革却将政治改革逐步全面终止和倒退，泡制“三个代表”为极左转建立庞大牢固的红色既得利益集团。因此六四后各重大决策和危机难题都摆在中共中央政策研究室王沪宁桌面上，使王沪宁成了此后中共三朝都无法摆脱的幕后最有决策性实权的人，中共中央政策研究室是王为其野心巨资经营几十年，聚众谋士的间谍情报汇总研究的特务机关和策划制定决策重要机构与基地，王沪宁本人和决定其仕途关键的首任岳父及家属就有情报工作背景。中央政研室重要到王沪宁入常后为了死抓这中共情报与决策大权，宁可放弃国家副主席和中央党校校长。后再加个除习外唯他担任的中共几核心领导小组之一的“不忘初心牢记使命”主题教育工作小组组长。此后他把持的舆论必将以宣传“不忘初心牢记使命”为主，打造众所周知的所谓“习思想”其实是”王思想“。王自从主导中央政研室开始决策后，策划中止邓小平的与美妥协路线回归毛极左的反美路线。帮助前南斯拉夫提供情报打落美机放中使馆引发炸使馆事件，以此掀起六四后唯一的全国大规模游行并借此反美而起家。后又帮江泽民提供法轮功会是超过中共组织的情报，策划决策镇压迫害开始并没有把矛头指向江的法轮功群体，策划决定阻止党内外近三十年来平反六四的呼声。致远黑皮书马拉松程序员易支付英语台词文字匹配美团点评各业务线提供知识库团队共享阿里云高精Excel识别德讯 ·吉特胡布薄熙来黑科技习近平讲话模拟器习近平音源黑马程序员MySQL数据库玉米杂草数据集销售系统开发疫情期间网民情绪识别比赛996icu996 icu学习强国预测结果导出赖伟林刺杀小说家购物商场英语词汇量小程序联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗词数据库 唐宋两朝近一万四千古诗人 接近5 5万首唐诗加26万宋诗 两宋时期1564位词人 21 5 首词 uni app 是使用 Vue 语法开发小程序 H5 App的统一框架2 21年最新总结 阿里 腾讯 百度 美团 头条等技术面试题目 以及答案 专家出题人分析汇总 科学上网 自由上网 翻墙 软件 方法 一键翻墙浏览器 免费账号 节点分享 vps一键搭建脚本 教程AiLearning 机器学习 MachineLearning ML 深度学习 DeepLearning DL 自然语言处理 NLP123 6智能刷票 订票开放式跨端跨框架解决方案 支持使用 React Vue Nerv 等框架来开发微信 京东 百度 支付宝 字节跳动 QQ 小程序 H5 React Native 等应用 taro zone 掘金翻译计划 可能是世界最大最好的英译中技术社区 最懂读者和译者的翻译平台  no evil 程序员找工作黑名单 换工作和当技术合伙人需谨慎啊 更新有赞 算法面试 算法知识 针对小白的算法训练 还包括 1 阿里 字节 滴滴 百篇大厂面经汇总 2 千本开源电子书 3 百张思维导图 右侧来个 star 吧 English version supported 955 不加班的公司名单 工作 955 work–life balance 工作与生活的平衡 诊断利器Arthas The Way to Go 中文译本 中文正式名 Go 入门指南  Java面试 Java学习指南 一份涵盖大部分Java程序员所需要掌握的核心知识 教程 技术栈示例代码 快速简单上手教程 2 17年买房经历总结出来的买房购房知识分享给大家 希望对大家有所帮助 买房不易 且买且珍惜http下载工具 基于http代理 支持多连接分块下载 动手学深度学习 面向中文读者 能运行 可讨论 中英文版被全球175所大学采用教学 阿里云计算平台团队出品 为监控而生的数据库连接池程序员简历模板系列 包括PHP程序员简历模板 iOS程序员简历模板 Android程序员简历模板 Web前端程序员简历模板 Java程序员简历模板 C C 程序员简历模板 NodeJS程序员简历模板 架构师简历模板以及通用程序员简历模板采用自身模块规范编写的前端 UI 框架 遵循原生 HTML CSS JS 的书写形式 极低门槛 拿来即用 贵校课程资料民间整理 企业级低代码平台 前后端分离架构强大的代码生成器让前后端代码一键生成 无需写任何代码 引领新的开发模式OnlineCoding 代码生成 手工MERGE 帮助Java项目解决7 %重复工作 让开发更关注业务 既能快速提高效率 帮助公司节省成本 同时又不失灵活性 我是依扬 木易杨 公众号 高级前端进阶 作者 每天搞定一道前端大厂面试题 祝大家天天进步 一年后会看到不一样的自己 冴羽写博客的地方 预计写四个系列 JavaScript深入系列 JavaScript专题系列 ES6系列 React系列 中文分词 词性标注 命名实体识别 依存句法分析 语义依存分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理flutter 开发者帮助 APP 包含 flutter 常用 14 组件的demo 演示与中文文档 下拉刷新 上拉加载 二级刷新 淘宝二楼智能下拉刷新框架 支持越界回弹 越界拖动 具有极强的扩展性 集成了几十种炫酷的Header和 Footer 该项目已成功集成 actuator 监控 admin 可视化监控 logback 日志 aopLog 通过AOP记录web请求日志 统一异常处理 json级别和页面级别 freemarker 模板引擎 thymeleaf 模板引擎 Beetl 模板引擎 Enjoy 模板引擎 JdbcTemplate 通用JDBC操作数据库 JPA 强大的ORM框架 mybatis 强大的ORM框架 通用Mapper 快速操作Mybatis PageHelper 通用的Mybatis分页插件 mybatis plus 快速操作Mybatis BeetlSQL 强大的ORM框架 u Python资源大全中文版 包括 Web框架 网络爬虫 模板引擎 数据库 数据可视化 图片处理等 由 开源前哨 和 Python开发者 微信公号团队维护更新 吴恩达老师的机器学习课程个人笔记To Be Top Javaer Java工程师成神之路循序渐进 学习博客Spring系列源码 mrbird cc谢谢可能是让你受益匪浅的英语进阶指南镜像网易云音乐 Node js API service快速 简单避免OOM的java处理Excel工具基于 Vue js 的小程序开发框架 从底层支持 Vue js 语法和构建工具体系 中文版 Apple 官方 Swift 教程本项目曾冲到全球第一 干货集锦见本页面最底部 另完整精致的纸质版 编程之法 面试和算法心得 已在京东 当当上销售好耶 是女装Security Guide for Developers 实用性开发人员安全须知 阿里巴巴 MySQL binlog 增量订阅 消费组件  ECMAScript 6入门 是一本开源的 JavaScript 语言教程 全面介绍 ECMAScript 6 新增的语法特性  C C 技术面试基础知识总结 包括语言 程序库 数据结构 算法 系统 网络 链接装载库等知识及面试经验 招聘 内推等信息 一款优秀的开源博客发布应用  Solutions to LeetCode by Go 1 % test coverage runtime beats 1 % LeetCode 题解分布式任务调度平台XXL JOB  谷粒 Chrome插件英雄榜 为优秀的Chrome插件写一本中文说明书 让Chrome插件英雄们造福人类公众号 加1 同步更新互联网公司技术架构 微信 淘宝 微博 腾讯 阿里 美团点评 百度 Google Facebook Amazon eBay的架构 欢迎PR补充IntelliJ IDEA 简体中文专题教程程序员技能图谱前端面试每日 3 1 以面试题来驱动学习 提倡每日学习与思考 每天进步一点 每天早上5点纯手工发布面试题 死磕自己 愉悦大家 4 道前端面试题全面覆盖小程序 软技能 华为鸿蒙操作系统 互联网首份程序员考公指南 由3位已经进入体制内的前大厂程序员联合献上 Mac微信功能拓展 微信插件 微信小助手 A plugin for Mac WeChat  机器学习 西瓜书 公式推导解析 在线阅读地址一款轻量级 高性能 功能强大的内网穿透代理服务器 支持tcp udp socks5 http等几乎所有流量转发 可用来访问内网网站 本地支付接口调试 ssh访问 远程桌面 内网dns解析 内网socks5代理等等 并带有功能强大的web管理端一款面向泛前端产品研发全生命周期的效率平台 文言文編程語言清华大学计算机系课程攻略面向云原生微服务的高可用流控防护组件  On Java 8 中文版 本文原文由知名 Hacker Eric S Raymond 所撰寫 教你如何正確的提出技術問題並獲得你滿意的答案 React Native指南汇集了各类react native学习资源 开源App和组件1 Days Of ML Code中文版千古前端图文教程 超详细的前端入门到进阶学习笔记 从零开始学前端 做一名精致优雅的前端工程师 公众号 千古壹号 作者 基于 React 的渐进式研发框架 ice work视频播放器支持弹幕 外挂字幕 支持滤镜 水印 gif截图 片头广告 中间广告 多个同时播放 支持基本的拖动 声音 亮度调节 支持边播边缓存 支持视频自带rotation的旋转 9 27 之类 重力旋转与手动旋转的同步支持 支持列表播放 列表全屏动画 视频加载速度 列表小窗口支持拖动 动画效果 调整比例 多分辨率切换 支持切换播放器 进度条小窗口预览 列表切换详情页面无缝播放 rtsp concat mpeg JumpServer 是全球首款开源的堡垒机 是符合 4A 的专业运维安全审计系统 Linux命令大全搜索工具 内容包含Linux命令手册 详解 学习 搜集 git io linux book Node js 包教不包会 by alsotang又一个小商城 litemall Spring Boot后端 Vue管理员前端 微信小程序用户前端 Vue用户移动端微信 跳一跳 Python 辅助Java资源大全中文版 包括开发库 开发工具 网站 博客 微信 微博等 由伯乐在线持续更新  python模拟登陆一些大型网站 还有一些简单的爬虫 希望对你们有所帮助 ️ 如果喜欢记得给个star哦 C 那些事 网络爬虫实战 淘宝 京东 网易云 B站 123 6 抖音 笔趣阁 漫画小说下载 音乐电影下载等deeplearning ai 吴恩达老师的深度学习课程笔记及资源 Spring Boot基础教程 Spring Boot 2 x版本连载中 帮助 Android App 进行组件化改造的路由框架 最接近原生APP体验的高性能框架基于Vue3 Element Plus 的后台管理系统解决方案程序员如何优雅的挣零花钱 2 版 升级为小书了 从Java基础 JavaWeb基础到常用的框架再到面试题都有完整的教程 几乎涵盖了Java后端必备的知识点spring boot 实践学习案例 是 spring boot 初学者及核心技术巩固的最佳实践 另外写博客 用 OpenWrite 最好用的 V2Ray 一键安装脚本 管理脚本中国程序员容易发音错误的单词 统计学习方法 的代码实现关于Python的面试题本项目将 动手学深度学习 Dive into Deep Learning 原书中的MXNet实现改为PyTorch实现 提高 Android UI 开发效率的 UI 库前端精读周刊 帮你理解最前沿 实用的技术  的奇技淫巧时间选择器 省市区三级联动 Python爬虫代理IP池 proxy pool LeetCode 刷题攻略 2 道经典题目刷题顺序 共6 w字的详细图解 视频难点剖析 5 余张思维导图 从此算法学习不再迷茫 来看看 你会发现相见恨晚 一个基于 electron 的音乐软件Flutter 超完整的开源项目 功能丰富 适合学习和日常使用 GSYGithubApp系列的优势 我们目前已经拥有四个版本 功能齐全 项目框架内技术涉及面广 完成度高 持续维护 配套文章 适合全面学习 对比参考 跨平台的开源Github客户端App 更好的体验 更丰富的功能 旨在更好的日常管理和维护个人Github 提供更好更方便的驾车体验Σ 同款Weex版本同款React Native版本 https g 这是一个用于显示当前网速 CPU及内存利用率的桌面悬浮窗软件 并支持任务栏显示 支持更换皮肤 是一个跨平台的强加密无特征的代理软件 零配置 V2rayU 基于v2ray核心的mac版客户端 用于科学上网 使用swift编写 支持vmess shadowsocks socks5等服务协议 支持订阅 支持二维码 剪贴板导入 手动配置 二维码分享等算法模板 最科学的刷题方式 最快速的刷题路径 你值得拥有 经典编程书籍大全 涵盖 计算机系统与网络 系统架构 算法与数据结构 前端开发 后端开发 移动开发 数据库 测试 项目与团队 程序员职业修炼 求职面试等wangEditor 轻量级web富文本框前端跨框架跨平台框架 每个 JavaScript 工程师都应懂的33个概念 leonardomso一个可以观看国内主流视频平台所有视频的客户端Android开发人员不得不收集的工具类集合 支付宝支付 微信支付 统一下单 微信分享 Zip4j压缩 支持分卷压缩与加密 一键集成UCrop选择圆形头像 一键集成二维码和条形码的扫描与生成 常用Dialog WebView的封装可播放视频 仿斗鱼滑动验证码 Toast封装 震动 GPS Location定位 图片缩放 Exif 图片添加地理位置信息 经纬度 蛛网等级 颜色选择器 ArcGis VTPK 编译运行一下说不定会找到惊喜 123 6 购票助手 支持集群 多账号 多任务购票以及 Web 页面管理  编程随想 收藏的电子书清单 多个学科 含下载链接  Banner 2 来了 Android广告图片轮播控件 内部基于ViewPager2实现 Indicator和UI都可以自定义  零代码 热更新 自动化 ORM 库 后端接口和文档零代码 前端 客户端 定制返回 JSON 的数据和结构 Linux Windows macOS 跨平台 V2Ray 客户端 支持使用 C Qt 开发 可拓展插件式设计 walle 瓦力 Devops开源项目代码部署平台基于 node js Mongodb 构建的后台系统 js 源码解析一个涵盖六个专栏分布式消息队列 分布式事务的仓库 希望胖友小手一抖 右上角来个 Star 感恩 1 24基于 vue element ui 的后台管理系统磁力链接聚合搜索中华人民共和国行政区划 省级 省份直辖市自治区 地级 城市 县级 区县 乡级 乡镇街道 村级 村委会居委会 中国省市区镇村二级三级四级五级联动地址数据 iOS开发常用三方库 插件 知名博客等等LeetCode题解 151道题完整版／中文文案排版指北最良心的 Python 教程 业内为数不多致力于极致体验的超强全自研跨平台 windows android iOS 流媒体内核 通过模块化自由组合 支持实时RTMP推流 RTSP推流 RTMP播放器 RTSP播放器 录像 多路流媒体转发 音视频导播 动态视频合成 音频混音 直播互动 内置轻量级RTSP服务等 比快更快 业界真正靠谱的超低延迟直播SDK 1秒内 低延迟模式下2 4 ms  一个 PHP 微信 SDK ️ 跨平台桌面端视频资源播放器 简洁无广告 免费高颜值 后台管理主线版本基于三者并行开发维护 同时支持电脑 手机 平板 切换分支查看不同的vue版本 element plus版本已发布 vue3 vue3 vue vue3 x vue js 程序无国界 但程序员有国界 中国国家尊严不容挑衅 如果您在特殊时期 此项目是机器学习 Machine Learning 深度学习 Deep Learning NLP面试中常考到的知识点和代码实现 也是作为一个算法工程师必会的理论基础知识 夜读 通过 bilibili 在线直播的方式分享 Go 相关的技术话题 每天大家在微信 telegram Slack 上及时沟通交流编程技术话题 GitHubDaily 分享内容定期整理与分类 欢迎推荐 自荐项目 让更多人知道你的项目  支持多家云存储的云盘系统机器学习相关教程DataX是阿里云DataWorks数据集成的开源版本  这里是写博客的地方 Halfrost Field 冰霜之地mall学习教程 架构 业务 技术要点全方位解析 mall项目 4 k star 是一套电商系统 使用现阶段主流技术实现 涵盖了等技术 采用Docker容器化部署  chick 是使用 Node js 和 MongoDB 开发的社区系统一个非常适合IT团队的在线API文档 技术文档工具汇总各大互联网公司容易考察的高频leetcode题 1 Chinese Word Vectors 上百种预训练中文词向量 Android开源弹幕引擎 烈焰弹幕使 ～深度学习框架PyTorch 入门与实战 网易云音乐命令行版本 对开发人员有用的定律 理论 原则和模式TeachYourselfCS 的中文翻译高颜值的第三方网易云播放器 支持 Windows macOS Linux spring cloud vue oAuth2 全家桶实战 前后端分离模拟商城 完整的购物流程 后端运营平台 可以实现快速搭建企业级微服务项目 支持微信登录等三方登录  Chinese sticker pack More joy 表情包的博物馆 Github最有毒的仓库 中国表情包大集合 聚欢乐 Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由一款入门级的人脸 视频 文字检测以及识别的项目 vue2 vue router vuex 入门项目PanDownload的个人维护版本 一个基于Spring Boot MyBatis的种子项目 用于快速构建中小型API RESTful API项目 iOS interview questions iOS面试题集锦 附答案 学习qq群或 Telegram 群交流为互联网IT人打造的中文版awesome go强大 可定制 易扩展的 ViewPager 指示器框架 是的最佳替代品 支持角标 更支持在非ViewPager场景下使用 使用hide show 切换Fragment或使用se Kubernetes中文指南 云原生应用架构实践手册For macOS 百度网盘 破解SVIP 下载速度限制 架构师技术图谱 助你早日成为架构师mall admin web是一个电商后台管理系统的前端项目 基于Vue Element实现 主要包括商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等功能 网易云音乐第三方 编程随想 整理的 太子党关系网络 专门揭露赵国的权贵基于gin vue搭建的后台管理系统框架 集成jwt鉴权 权限管理 动态路由 分页封装 多点登录拦截 资源权限 上传下载 代码生成器 表单生成器 通用工作流等基础功能 五分钟一套CURD前后端代码 目VUE3版本正在重构 欢迎issue和pr 27天成为Java大神一个基于浏览器端 JS 实现的在线代理编程电子书 电子书 编程书籍 包括人工智能 大数据类 并发编程 数据库类 数据挖掘 新面试题 架构设计 算法系列 计算机类 设计模式 软件测试 重构优化 等更多分类ADB Usage Complete ADB 用法大全二维码生成器 支持 gif 动态图片二维码 Vim 从入门到精通阿布量化交易系统 股票 期权 期货 比特币 机器学习 基于python的开源量化交易 量化投资架构一个简洁优雅的hexo主题 Wiki of OI ICPC for everyone 某大型游戏线上攻略 内含炫酷算术魔法 Google 开源项目风格指南 中文版  Git AWS Google 镜像 SS SSR VMESS节点行业研究报告的知识储备库 cim cross IM 适用于开发者的分布式即时通讯系统微信小程序开源项目库汇总每天更新 全网热门 BT Tracker 列表 天用Go动手写 从零实现系列强大的哔哩哔哩增强脚本 下载视频 音乐 封面 弹幕 简化直播间 评论区 首页 自定义顶栏 删除广告 夜间模式 触屏设备支持Evil Huawei 华为作过的恶Android上一个优雅 万能自定义UI 仿iOS 支持垂直 水平方向切换 支持周视图 自定义周起始 性能高效的日历控件 支持热插拔实现的UI定制 支持标记 自定义颜色 农历 自定义月视图各种显示模式等 Canvas绘制 速度快 占用内存低 你真的想不到日历居然还可以如此优雅已不再维护科学上网插件的离线安装包储存在这里ThinkPHP Framework 十年匠心的高性能PHP框架 Java 程序员眼中的 Linux 一个支持多选 选原图和视频的图片选择器 同时有预览 裁剪功能 支持hsweb haʊs wɛb 是一个基于spring boot 2 x开发 首个使用全响应式编程的企业级后台管理系统基础项目 学习强国 懒人刷分工具 自动学习wxParse 微信小程序富文本解析自定义组件 支持HTML及markdown解析 newbee mall 项目 新蜂商城 是一套电商系统 包括 newbee mall 商城系统及 newbee mall admin 商城后台管理系统 基于 Spring Boot 2 X 及相关技术栈开发 前台商城系统包含首页门户 商品分类 新品上线 首页轮播 商品推荐 商品搜索 商品展示 购物车 订单结算 订单流程 个人订单管理 会员中心 帮助中心等模块 后台管理系统包含数据面板 轮播图管理 商品管理 订单管理 会员管理 分类管理 设置等模块  最全的前端资源汇总仓库 包括前端学习 开发资源 求职面试等 中文翻译手写实现李航 统计学习方法 书中全部算法 Python 抖音机器人 论如何在抖音上找到漂亮小姐姐？  ️A static blog writing client 一个静态博客写作客户端 超级速查表 编程语言 框架和开发工具的速查表 单个文件包含一切你需要知道的东西 迁移学习前端低代码框架 通过 JSON 配置就能生成各种页面 技术面试最后反问面试官的话Machine Learning Yearning 中文版 机器学习训练秘籍 Andrew Ng 著越来越多的网站具有反爬虫特性 有的用图片隐藏关键数据 有的使用反人类的验证码 建立反反爬虫的代码仓库 通过与不同特性的网站做斗争 无恶意 提高技术 欢迎提交难以采集的网站 因工作原因 项目暂停 本项目收藏这些年来看过或者听过的一些不错的常用的上千本书籍 没准你想找的书就在这里呢 包含了互联网行业大多数书籍和面试经验题目等等 有人工智能系列 常用深度学习框架TensorFlow pytorch keras NLP 机器学习 深度学习等等 大数据系列 Spark Hadoop Scala kafka等 程序员必修系列 C C java 数据结构 linux 设计模式 数据库等等  人人影视bot 完全对接人人影视全部无删减资源Spring Cloud基础教程 持续连载更新中一个用于在 macOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具 让你的滚轮爽如触控板阿里妈妈前端团队出品的开源接口管理工具RAP第二代超轻量级中文ocr 支持竖排文字识别 支持ncnn mnn tnn推理总模型仅4 7M 微信全平台 SDK Senparc Weixin for C 支持 NET Framework 及 NET Core NET 6 已支持微信公众号 小程序 小游戏 企业号 企业微信 开放平台 微信支付 JSSDK 微信周边等全平台 WeChat SDK for C 中文独立博客列表高效率 QQ 机器人支持库支持定制任何播放器SDK和控制层 OpenPower工作组收集汇总的医院开放数据Xray 基于 Nginx 的 VLESS XTLS 一键安装脚本 FlutterDemo合集 今天你fu了吗莫烦Python 中文AI教学中国特色 TabBar 一行代码实现 Lottie 动画TabBar 支持中间带 号的TabBar样式 自带红点角标 支持动态刷新 Flutter豆瓣客户端 Awesome Flutter Project 全网最1 %还原豆瓣客户端 首页 书影音 小组 市集及个人中心 一个不拉 img xuvip top douyademo mp4 基于SpringCloud2 1的微服务开发脚手架 整合了等 服务治理方面引入等 让项目开发快速进入业务开发 而不需过多时间花费在架构搭建上 持续更新中基于 Vue2 和 ECharts 封装的图表组件 SSR 去广告ACL规则 SS完整GFWList规则 Clash规则碎片 Telegram频道订阅地址和我一步步部署 kubernetes 集群搜集 整理 维护实用规则 中文自然语言处理相关资料基于SOA架构的分布式电商购物商城 前后端分离 前台商城 全家桶 后台管理系统等What happens when 的中文翻译 原仓库QMUI iOS 致力于提高项目 UI 开发效率的解决方案新型冠状病毒防疫信息收集平台告别枯燥 致力于打造 Python 实用小例子在线制作 sorry 为所欲为 的gifNodejs学习笔记以及经验总结 公众号 程序猿小卡 李宏毅 机器学习 笔记 在线阅读地址 Vue js 源码分析V部落 Vue SpringBoot实现的多用户博客管理平台 Android Signature V2 Scheme签名下的新一代渠道包打包神器Autoscroll Banner 无限循环图片 文字轮播器 多种编程语言实现 LeetCode 剑指 Offer 第 2 版 程序员面试金典 第 6 版 题解一套高质量的微信小程序 UI 组件库飞桨 官方模型库 包含多种学术前沿和工业场景验证的深度学习模型 中文 Python 笔记专门为刚开始刷题的同学准备的算法基地 没有最细只有更细 立志用动画将晦涩难懂的算法说的通俗易懂 版入门实例代码 实战教程 是一个高性能且低损耗的 goroutine 池 CVPR 2 21 论文和开源项目合集有 有  Python进阶 Intermediate Python 中文版 机器人视觉 移动机器人 VS SLAM ORB SLAM2 深度学习目标检测 yolov3 行为检测 opencv PCL 机器学习 无人驾驶后台管理系统解决方案创建在线课程 学术简历或初创网站  Chrome插件开发全攻略 配套完整Demo 欢迎clone体验QUANTAXIS 支持任务调度 分布式部署的 股票 期货 期权 港股 虚拟货币 数据 回测 模拟 交易 可视化 多账户 纯本地量化解决方案微信调试 各种WebView样式调试 手机浏览器的页面真机调试 便捷的远程调试手机页面 抓包工具 支持 HTTPS 无需USB连接设备 rich text 富文本编辑器 汉字拼音 hàn zì pīn yīn面向开发人员梳理的代码安全指南以撸代码的形式学习Python提供同花顺客户端 国金 华泰客户端 雪球的基金 股票自动程序化交易以及自动打新 支持跟踪 joinquant ricequant 模拟交易 和 实盘雪球组合 量化交易组件搜狐视频 sohu tv Redis私有云平台spring boot打造文件文档在线预览项目计算机基础 计算机网络 操作系统 数据库 Git 面试问题全面总结 包含详细的follow up question以及答案 全部采用 问题 追问 答案 的形式 即拿即用 直击互联网大厂面试 可用于模拟面试 面试前复习 短期内快速备战面试 首款微信 macOS 客户端撤回拦截与多开windows kernel exploits Windows平台提权漏洞集合权限管理系统 预览地址 47 1 4 7 138 loginpkuseg多领域中文分词工具一款完善的安全评估工具 支持常见 web 安全问题扫描和自定义 poc 使用之前务必先阅读文档零反射全动态Android插件框架Python入门网络爬虫之精华版分布式配置管理平台 中文 iOS Mac 开发博客列表周志华 机器学习 又称西瓜书是一本较为全面的书籍 书中详细介绍了机器学习领域不同类型的算法 例如 监督学习 无监督学习 半监督学习 强化学习 集成降维 特征选择等 记录了本人在学习过程中的理解思路与扩展知识点 希望对新人阅读西瓜书有所帮助  国内首个Spring Cloud微服务化RBAC的管理平台 核心采用前端采用d2 admin中台框架 记得上边点个star 关注更新Apache ECharts incubating 的微信小程序版本C 资源大全中文版 标准库 Web应用框架 人工智能 数据库 图片处理 机器学习 日志 代码分析等 由 开源前哨 和 CPP开发者 微信公号团队维护更新 stackoverflow上Java相关回答整理翻译 基于Google Flutter的WanAndroid客户端 支持Android和iOS 包括BLoC RxDart 国际化 主题色 启动页 引导页  本代码库是作者小傅哥多年从事一线互联网 Java 开发的学习历程技术汇总 旨在为大家提供一个清晰详细的学习教程 侧重点更倾向编写Java核心内容 如果本仓库能为您提供帮助 请给予支持 关注 点赞 分享 C 资源大全中文版 包括了 构建系统 编译器 数据库 加密 初中高的教程 指南 书籍 库等  NET m3u8 downloader 开源的命令行m3u8 HLS dash下载器 支持普通AES 128 CBC解密 多线程 自定义请求头等 支持简体中文 繁体中文和英文 English Supported 国内低代码平台从业者交流tcc transaction是TCC型事务java实现设计模式 Golang实现 研磨设计模式 读书笔记Vue数据可视化组件库 类似阿里DataV 大屏数据展示 提供SVG的边框及装饰 图表 水位图 飞线图等组件 简单易用 长期更新 React版已发布 自己动手做聊天机器人教程 RecyclerView侧滑菜单 Item拖拽 滑动删除Item 自动加载更多 HeaderView FooterView Item分组黏贴 腾讯物联网终端操作系统一个小巧 轻量的浏览器内核 用来取代wke和libcef包含美颜等4 余种实时滤镜相机 可拍照 录像 图片修改springboot 框架与其它组件结合如等用深度学习对对联  技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide 用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块  GitHub中文排行榜 帮助你发现高分优秀中文项目 更高效地吸收国人的优秀经验成果 榜单每周更新一次 敬请关注  算法面试 算法知识 针对小白的算法训练 还包括 1 阿里 字节 滴滴 百篇大厂面经汇总 2 千本开源电子书 3 百张思维导图 右侧来个 star 吧 English version supported 诊断利器Arthas教程 技术栈示例代码 快速简单上手教程 http下载工具 基于http代理 支持多连接分块下载阿里云计算平台团队出品 为监控而生的数据库连接池 企业级低代码平台 前后端分离架构强大的代码生成器让前后端代码一键生成 无需写任何代码 引领新的开发模式OnlineCoding 代码生成 手工MERGE 帮助Java项目解决7 %重复工作 让开发更关注业务 既能快速提高效率 帮助公司节省成本 同时又不失灵活性  下拉刷新 上拉加载 二级刷新 淘宝二楼智能下拉刷新框架 支持越界回弹 越界拖动 具有极强的扩展性 集成了几十种炫酷的Header和 Footer 该项目已成功集成 actuator 监控 admin 可视化监控 logback 日志 aopLog 通过AOP记录web请求日志 统一异常处理 json级别和页面级别 freemarker 模板引擎 thymeleaf 模板引擎 Beetl 模板引擎 Enjoy 模板引擎 JdbcTemplate 通用JDBC操作数据库 JPA 强大的ORM框架 mybatis 强大的ORM框架 通用Mapper 快速操作Mybatis PageHelper 通用的Mybatis分页插件 mybatis plus 快速操作Mybatis BeetlSQL 强大的ORM框架 u 微人事是一个前后端分离的人力资源管理系统 项目采用SpringBoot Vue开发  秒杀系统设计与实现 互联网工程师进阶与分析 To Be Top Javaer Java工程师成神之路循序渐进 学习博客Spring系列源码 mrbird cc快速 简单避免OOM的java处理Excel工具阿里巴巴 MySQL binlog 增量订阅 消费组件  一款优秀的开源博客发布应用 分布式任务调度平台XXL JOB 一款面向泛前端产品研发全生命周期的效率平台 面向云原生微服务的高可用流控防护组件 视频播放器支持弹幕 外挂字幕 支持滤镜 水印 gif截图 片头广告 中间广告 多个同时播放 支持基本的拖动 声音 亮度调节 支持边播边缓存 支持视频自带rotation的旋转 9 27 之类 重力旋转与手动旋转的同步支持 支持列表播放 列表全屏动画 视频加载速度 列表小窗口支持拖动 动画效果 调整比例 多分辨率切换 支持切换播放器 进度条小窗口预览 列表切换详情页面无缝播放 rtsp concat mpeg 又一个小商城 litemall Spring Boot后端 Vue管理员前端 微信小程序用户前端 Vue用户移动端基于Spring SpringMVC Mybatis分布式敏捷开发系统架构 提供整套公共微服务服务模块 集中权限管理 单点登录 内容管理 支付中心 用户管理 支持第三方登录 微信平台 存储系统 配置中心 日志分析 任务和通知等 支持服务治理 监控和追踪 努力为中小型企业打造全方位J2EE企业级开发解决方案 项目基于的前后端分离的后台管理系统 项目采用分模块开发方式 权限控制采用 RBAC 支持数据字典与数据权限管理 支持一键生成前后端代码 支持动态路由 史上最简单的Spring Cloud教程源码 CAT 作为服务端项目基础组件 提供了 Java C C Node js Python Go 等多语言客户端 已经在美团点评的基础架构中间件框架 MVC框架 RPC框架 数据库框架 缓存框架等 消息队列 配置系统等 深度集成 为美团点评各业务线提供系统丰富的性能指标 健康状况 实时告警等 spring boot 实践学习案例 是 spring boot 初学者及核心技术巩固的最佳实践 另外写博客 用 OpenWrite Spring Boot基础教程 Spring Boot 2 x版本连载中 帮助 Android App 进行组件化改造的路由框架 提高 Android UI 开发效率的 UI 库时间选择器 省市区三级联动 Luban 鲁班可能是最接近微信朋友圈的图片压缩算法 Gitee 最有价值开源项目 小而全而美的第三方登录开源组件 目前已支持Github Gitee 微博 钉钉 百度 Coding 腾讯云开发者平台 OSChina 支付宝 QQ 微信 淘宝 Google Facebook 抖音 领英 小米 微软 今日头条人人 华为 企业微信 酷家乐 Gitlab 美团 饿了么 推特 飞书 京东 阿里云 喜马拉雅 Amazon Slack和 Line 等第三方平台的授权登录 Login so easy 今日头条屏幕适配方案终极版 一个极低成本的 Android 屏幕适配方案  Banner 2 来了 Android广告图片轮播控件 内部基于ViewPager2实现 Indicator和UI都可以自定义  零代码 热更新 自动化 ORM 库 后端接口和文档零代码 前端 客户端 定制返回 JSON 的数据和结构一个涵盖六个专栏分布式消息队列 分布式事务的仓库 希望胖友小手一抖 右上角来个 Star 感恩 1 24Mybatis通用分页插件OkGo 3 震撼来袭 该库是基于 协议 封装了 OkHttp 的网络请求框架 比 Retrofit 更简单易用 支持 RxJava RxJava2 支持自定义缓存 支持批量断点下载管理和批量上传管理功能含 Flink 入门 概念 原理 实战 性能调优 源码解析等内容 涉及等内容的学习案例 还有 Flink 落地应用的大型项目案例 PVUV 日志存储 百亿数据实时去重 监控告警 分享 欢迎大家支持我的专栏 大数据实时计算引擎 Flink 实战与性能优化 安卓平台上的JavaScript自动化工具  ️一个整合了大量主流开源项目高度可配置化的 Android MVP 快速集成框架 Spring源码阅读大数据入门指南 android 4 4以上沉浸式状态栏和沉浸式导航栏管理 适配横竖屏切换 刘海屏 软键盘弹出等问题 可以修改状态栏字体颜色和导航栏图标颜色 以及不可修改字体颜色手机的适配 适用于一句代码轻松实现 以及对bar的其他设置 详见README 简书请参考 www jianshu com p 2a884e211a62业内为数不多致力于极致体验的超强全自研跨平台 windows android iOS 流媒体内核 通过模块化自由组合 支持实时RTMP推流 RTSP推流 RTMP播放器 RTSP播放器 录像 多路流媒体转发 音视频导播 动态视频合成 音频混音 直播互动 内置轻量级RTSP服务等 比快更快 业界真正靠谱的超低延迟直播SDK 1秒内 低延迟模式下2 4 ms DataX是阿里云DataWorks数据集成的开源版本 mall学习教程 架构 业务 技术要点全方位解析 mall项目 4 k star 是一套电商系统 使用现阶段主流技术实现 涵盖了等技术 采用Docker容器化部署 Android开源弹幕引擎 烈焰弹幕使 ～spring cloud vue oAuth2 全家桶实战 前后端分离模拟商城 完整的购物流程 后端运营平台 可以实现快速搭建企业级微服务项目 支持微信登录等三方登录  一个基于Spring Boot MyBatis的种子项目 用于快速构建中小型API RESTful API项目 强大 可定制 易扩展的 ViewPager 指示器框架 是的最佳替代品 支持角标 更支持在非ViewPager场景下使用 使用hide show 切换Fragment或使用se 27天成为Java大神安卓学习笔记 cim cross IM 适用于开发者的分布式即时通讯系统Android上一个优雅 万能自定义UI 仿iOS 支持垂直 水平方向切换 支持周视图 自定义周起始 性能高效的日历控件 支持热插拔实现的UI定制 支持标记 自定义颜色 农历 自定义月视图各种显示模式等 Canvas绘制 速度快 占用内存低 你真的想不到日历居然还可以如此优雅hsweb haʊs wɛb 是一个基于spring boot 2 x开发 首个使用全响应式编程的企业级后台管理系统基础项目  newbee mall 项目 新蜂商城 是一套电商系统 包括 newbee mall 商城系统及 newbee mall admin 商城后台管理系统 基于 Spring Boot 2 X 及相关技术栈开发 前台商城系统包含首页门户 商品分类 新品上线 首页轮播 商品推荐 商品搜索 商品展示 购物车 订单结算 订单流程 个人订单管理 会员中心 帮助中心等模块 后台管理系统包含数据面板 轮播图管理 商品管理 订单管理 会员管理 分类管理 设置等模块 mall swarm是一套微服务商城系统 采用了等核心技术 同时提供了基于Vue的管理后台方便快速搭建系统 mall swarm在电商业务的基础集成了注册中心 配置中心 监控中心 网关等系统功能 文档齐全 附带全套Spring Cloud教程 阅读是一款可以自定义来源阅读网络内容的工具 为广大网络文学爱好者提供一种方便 快捷舒适的试读体验 Spring Cloud基础教程 持续连载更新中阿里巴巴分布式数据库同步系统 解决中美异地机房  基于谷歌最新AAC架构 MVVM设计模式的一套快速开发库 整合OkRxJava Retrofit Glide等主流模块 满足日常开发需求 使用该框架可以快速开发一个高质量 易维护的Android应用 基于SpringCloud2 1的微服务开发脚手架 整合了等 服务治理方面引入等 让项目开发快速进入业务开发 而不需过多时间花费在架构搭建上 持续更新中基于SOA架构的分布式电商购物商城 前后端分离 前台商城 全家桶 后台管理系统等是 难得一见 的 Jetpack MVVM 最佳实践 在 以简驭繁 的代码中 对 视图控制器 乃至 标准化开发模式 形成正确 深入的理解 V部落 Vue SpringBoot实现的多用户博客管理平台 Android Signature V2 Scheme签名下的新一代渠道包打包神器即时通讯 IM 系统多种编程语言实现 LeetCode 剑指 Offer 第 2 版 程序员面试金典 第 6 版 题解专门为刚开始刷题的同学准备的算法基地 没有最细只有更细 立志用动画将晦涩难懂的算法说的通俗易懂 ansj分词 ict的真正java实现 分词效果速度都超过开源版的ict 中文分词 人名识别 词性标注 用户自定义词典 book 任阅 网络小说阅读器 3D翻页效果 txt pdf epub书籍阅读 Wifi传书 LeetCode刷题记录与面试整理mybatis generator界面工具 让你生成代码更简单更快捷Spring Cloud 学习案例 服务发现 服务治理 链路追踪 服务监控等 XPopup2 版本重磅来袭 2倍以上性能提升 带来可观的动画性能优化和交互细节的提升 功能强大 交互优雅 动画丝滑的通用弹窗 可以替代等组件 自带十几种效果良好的动画 支持完全的UI和动画自定义搜狐视频 sohu tv Redis私有云平台spring boot打造文件文档在线预览项目权限管理系统 预览地址 47 1 4 7 138 login零反射全动态Android插件框架分布式配置管理平台 通用 IM 聊天 UI 组件 已经同时支持 Android iOS RN 手把手教你整合最优雅SSM框架 SpringMVC Spring MyBatis换肤框架 极低的学习成本 极好的用户体验 一行 代码就可以实现换肤 你值得拥有  JVM 底层原理最全知识总结 国内首个Spring Cloud微服务化RBAC的管理平台 核心采用前端采用d2 admin中台框架 记得上边点个star 关注更新tcc transaction是TCC型事务java实现 RecyclerView侧滑菜单 Item拖拽 滑动删除Item 自动加载更多 HeaderView FooterView Item分组黏贴 包含美颜等4 余种实时滤镜相机 可拍照 录像 图片修改springboot 框架与其它组件结合如等安卓选择器类库 包括日期及时间选择器 可用于出生日期 营业时间等 单项选择器 可用于性别 民族 职业 学历 星座等 二三级联动选择器 可用于车牌号 基金定投日期等 城市地址选择器 分省级 地市级及区县级 数字选择器 可用于年龄 身高 体重 温度等 日历选日期择器 可用于酒店及机票预定日期 颜色选择器 文件及目录选择器等 Java工程师面试复习指南 本仓库涵盖大部分Java程序员所需要掌握的核心知识 整合了互联网上的很多优质Java技术文章 力求打造为最完整最实用的Java开发者学习指南 如果对你有帮助 给个star告诉我吧 谢谢  Android MVP 快速开发框架 做国内 示例最全面 注释最详细 使用最简单 代码最严谨 的 Android 开源 UI 框架几行代码快速集成二维码扫描功能MeterSphere 是一站式开源持续测试平台 涵盖测试跟踪 接口测试 性能测试 团队协作等功能 全面兼容 JMeter Postman Swagger 等开源 主流标准 记录各种学习笔记 算法 Java 数据库 并发 下一代Android打包工具 1 个渠道包只需要1 秒钟芋道 mall 商城 基于微服务的思想 构建在 B2C 电商场景下的项目实战 核心技术栈 是 Spring Boot Dubbo 未来 会重构成 Spring Cloud Alibaba Android 万能的等 支持多种Item类型的情况 lanproxy是一个将局域网个人电脑 服务器代理到公网的内网穿透工具 支持tcp流量转发 可支持任何tcp上层协议 访问内网网站 本地支付接口调试 ssh访问 远程桌面 目前市面上提供类似服务的有花生壳 TeamView GoToMyCloud等等 但要使用第三方的公网服务器就必须为第三方付费 并且这些服务都有各种各样的限制 此外 由于数据包会流经第三方 因此对数据安全也是一大隐患 技术交流QQ群 1 6742433 更优雅的驾车体验下载可以很简单 ️ 云阅 一款基于网易云音乐UI 使用玩架构开发的符合Google Material Design的Android客户端开源的 Material Design 豆瓣客户端一款针对系统PopupWindow优化的Popup库 功能强大 支持背景模糊 使用简单 你会爱上他的 PLDroidPlayer 是七牛推出的一款免费的适用于 Android 平台的播放器 SDK 采用全自研的跨平台播放内核 拥有丰富的功能和优异的性能 可高度定制化和二次开发 该项目已停止维护 9 Porn Android 客户端 突破游客每天观看1 次视频的限制 还可以下载视频 ️蓝绿 灰度 路由 限流 熔断 降级 隔离 追踪 流量染色 故障转移一本关于排序算法的 GitBook 在线书籍 十大经典排序算法 多语言实现 多种下拉刷新效果 上拉加载更多 可配置自定义头部广告位完全仿微信的图片选择 并且提供了多种图片加载接口 选择图片后可以旋转 可以裁剪成矩形或圆形 可以配置各种其他的参数SoloPi 自动化测试工具龙果支付系统 roncoo pay 是国内首款开源的互联网支付系统 拥有独立的账户体系 用户体系 支付接入体系 支付交易体系 对账清结算体系 目标是打造一款集成主流支付方式且轻量易用的支付收款系统 满足互联网业务系统打通支付通道实现支付收款和业务资金管理等功能 键盘面板冲突 布局闪动处理方案  咕泡学院实战项目 基于SpringBoot Dubbo构建的电商平台 微服务架构 商城 电商 微服务 高并发 kafka Elasticsearch停车场系统源码 停车场小程序 智能停车 Parking system 功能介绍 ①兼容市面上主流的多家相机 理论上兼容所有硬件 可灵活扩展 ②相机识别后数据自动上传到云端并记录 校验相机唯一id和硬件序列号 防止非法数据录入 ③用户手机查询停车记录详情可自主缴费 支持微信 支付宝 银行接口支付 支持每个停车场指定不同的商户进行收款 支付后出场在免费时间内会自动抬杆 ④支持app上查询附近停车场 导航 可用车位数 停车场费用 优惠券 评分 评论等 可预约车位 ⑤断电断网支持岗亭人员使用app可接管硬件进行停车记录的录入 技术架构 后端开发语言java 框架oauth2 spring 成长路线 但学到不仅仅是Java 业界首个支持渐进式组件化改造的Android组件化开源框架 支持跨进程调用SpringBoot2 从入门到实战 旨在打造在线最佳的 Java 学习笔记 含博客讲解和源码实例 包括 Java SE 和 Java WebJava诊断工具年薪百万互联网架构师课程文档及源码 公开部分 AndroidHttpCapture网络诊断工具 是一款Android手机抓包软件 主要功能包括 手机端抓包 PING DNS TraceRoute诊断 抓包HAR数据上传分享 你也可以看成是Android版的 Fiddler o 这可能是史上功能最全的Java权限认证框架 目前已集成 登录认证 权限认证 分布式Session会话 微服务网关鉴权 单点登录 OAuth2 踢人下线 Redis集成 前后台分离 记住我模式 模拟他人账号 临时身份切换 账号封禁 多账号认证体系 注解式鉴权 路由拦截式鉴权 花式token生成 自动续签 同端互斥登录 会话治理 密码加密 jwt集成 Spring集成 WebFlux集成 Android平台下的富文本解析器 支持Html和Markdown智能图片裁剪框架 自动识别边框 手动调节选区 使用透视变换裁剪并矫正选区 适用于身份证 名片 文档等照片的裁剪 俗名 可垂直跑 可水平跑的跑马灯 学名 可垂直翻 可水平翻的翻页公告 小马哥技术周报 Android Video Player 安卓视频播放器 封装模仿抖音并实现预加载 列表播放 悬浮播放 广告播放 弹幕 重学Java设计模式 是一本互联网真实案例实践书籍 以落地解决方案为核心 从实际业务中抽离出 交易 营销 秒杀 中间件 源码等22个真实场景 来学习设计模式的运用 欢迎关注小傅哥 微信 fustack 公众号 bugstack虫洞栈 博客 bugstack cnmybatis源码中文注释一款开源的GIF在线分享App 乐趣就要和世界分享 MPush开源实时消息推送系统在线云盘 网盘 OneDrive 云存储 私有云 对象存储 h5ai基于Spring Boot 2 x的一站式前后端分离快速开发平台XBoot 微信小程序 Uniapp 前端 Vue iView Admin 后端分布式限流 同步锁 验证码 SnowFlake雪花算法ID 动态权限 数据权限 工作流 代码生成 定时任务 社交账号 短信登录 单点登录 OAuth2开放平台 客服机器人 数据大屏 暗黑模式Guns基于SpringBoot 2 致力于做更简洁的后台管理系统 完美整合项目代码简洁 注释丰富 上手容易 同时Guns包含许多基础模块 用户管理 角色管理 部门管理 字典管理等1 个模块 可以直接作为一个后台管理系统的脚手架  Android 版本更新一个简洁而优雅的Android原生UI框架 解放你的双手 一套完整有效的android组件化方案 支持组件的组件完全隔离 单独调试 集成调试 组件交互 UI跳转 动态加载卸载等功能适用于Java和Android的快速 低内存占用的汉字转拼音库 Codes of my MOOC Course <我在慕课网上的课程 算法与数据结构 示例代码 包括C 和Java版本 课程的更多更新内容及辅助练习也将逐步添加进这个代码仓  Hope Boot 一款现代化的脚手架项目一个简单漂亮的SSM Spring SpringMVC Mybatis 博客系统根据Gson库使用的要求 将JSONObject格式的String 解析成实体B站 哔哩哔哩 Bilibili 自动签到投币工具 每天轻松获取65经验值 支持每日自动投币 银瓜子兑换硬币 领取大会员福利 大会员月底给自己充电等功能 呐 赶快和我一起成为Lv6吧 IJPay 让支付触手可及 封装了微信支付 QQ支付 支付宝支付 京东支付 银联支付 PayPal 支付等常用的支付方式以及各种常用的接口 不依赖任何第三方 mvc 框架 仅仅作为工具使用简单快速完成支付模块的开发 可轻松嵌入到任何系统里 右上角点下小星星  High quality pure Weex demo 网易严选 App 感受 Weex 开发Android 快速实现新手引导层的库 通过简洁链式调用 一行代码实现引导层的显示通过标签直接生成shape 无需再写shape xml 本库是一款基于RxJava2 Retrofit2实现简单易用的网络请求框架 结合android平台特性的网络封装库 采用api链式调用一点到底 集成cookie管理 多种缓存模式 极简https配置 上传下载进度显示 请求错误自动重试 请求携带token 时间戳 签名sign动态配置 自动登录成功后请求重发功能 3种层次的参数设置默认全局局部 默认标准ApiResult同时可以支持自定义的数据结构 已经能满足现在的大部分网络请求 Android BLE蓝牙通信库 基于Flink实现的商品实时推荐系统 flink统计商品热度 放入redis缓存 分析日志信息 将画像标签和实时记录放入Hbase 在用户发起推荐请求后 根据用户画像重排序热度榜 并结合协同过滤和标签两个推荐模块为新生成的榜单的每一个产品添加关联产品 最后返回新的用户列表 播放器基础库 专注于播放视图组件的高复用性和组件间的低耦合 轻松处理复杂业务 图片选择库 单选 多选 拍照 裁剪 压缩 自定义 包括视频选择和录制 DataX集成可视化页面 选择数据源即可一键生成数据同步任务 支持等数据源 批量创建RDBMS数据同步任务 集成开源调度系统 支持分布式 增量同步数据 实时查看运行日志 监控执行器资源 KILL运行进程 数据源信息加密等  Deprecated android 自定义日历控件 支持左右无限滑动 周月切换 标记日期显示 自定义显示效果跳转到指定日期一个通过动态加载本地皮肤包进行换肤的皮肤框架这是RedSpider社区成员原创与维护的Java多线程系列文章 一站式Apache Kafka集群指标监控与运维管控平台快速开发工具类收集 史上最全的开发工具类 欢迎Follow Fork Star后端技术总结 包括Java基础 JVM 数据库 mysql redis 计算机网络 算法 数据结构 操作系统 设计模式 系统设计 框架原理 最佳阅读地址Android源码设计模式分析项目可能是最好的支付SDK 停止维护 组件化综合案例 包含微信新闻 头条视频 美女图片 百度音乐 干活集中营 玩Android 豆瓣读书电影 知乎日报等等模块 架构模式 组件化阿里VLayout 腾讯X5 腾讯bugly 融合开发中需要的各种小案例 开源OA系统 码云GVP Java开源oa 企业OA办公平台 企业OA 协同办公OA 流程平台OA O2OA OA 支持国产麒麟操作系统和国产数据库 达梦 人大金仓 政务OA 军工信息化OA以Spring Cloud Netflix作为服务治理基础 展示基于tcc思想所实现的分布式事务解决方案一个帮助您完成从缩略视图到原视图无缝过渡转变的神奇框架 系统重构与迁移指南 手把手教你分析 评估现有系统 制定重构策略 探索可行重构方案 搭建测试防护网 进行系统架构重构 服务架构重构 模块重构 代码重构 数据库重构 重构后的架构守护版本检测升级 更新 库小说精品屋是一个多平台 web 安卓app 微信小程序 功能完善的屏幕自适应小说漫画连载系统 包含精品小说专区 轻小说专区和漫画专区 包括小说 漫画分类 小说 漫画搜索 小说 漫画排行 完本小说 漫画 小说 漫画评分 小说 漫画在线阅读 小说 漫画书架 小说 漫画阅读记录 小说下载 小说弹幕 小说 漫画自动采集 更新 纠错 小说内容自动分享到微博 邮件自动推广 链接自动推送到百度搜索引擎等功能 Android 徽章控件 致力于打造一款极致体验的 www wanandroid com 客户端 知识和美是可以并存的哦QAQn ≧ ≦ n 从源码层面 剖析挖掘互联网行业主流技术的底层实现原理 为广大开发者 “提升技术深度” 提供便利 目前开放 Spring 全家桶 Mybatis Netty Dubbo 框架 及 Redis Tomcat 中间件等Redis 一站式管理平台 支持集群的监控 安装 管理 告警以及基本的数据操作该项目不再维护 仅供学习参考专注批量推送的小而美的工具 目前支持 模板消息 公众号 模板消息 小程序 微信客服消息 微信企业号 企业微信消息 阿里云短信 阿里大于模板短信 腾讯云短信 云片网短信 E Mail HTTP请求 钉钉 华为云短信 百度云短信 又拍云短信 七牛云短信Android 平台开源天气 App 采用等开源库来实现 SpringBoot 相关漏洞学习资料 利用方法和技巧合集 黑盒安全评估 check listAndroid 权限请求框架 已适配 Android 11微信SDK JAVA 公众平台 开放平台 商户平台 服务商平台  QMQ是去哪儿网内部广泛使用的消息中间件 自2 12年诞生以来在去哪儿网所有业务场景中广泛的应用 包括跟交易息息相关的订单场景 也包括报价搜索等高吞吐量场景  Java 23种设计模式全归纳linux运维监控工具 支持系统信息 内存 cpu 温度 磁盘空间及IO 硬盘smart 系统负载 网络流量 进程等监控 API接口 大屏展示 拓扑图 端口监控 docker监控 日志文件监控 数据可视化 webSSH工具 堡垒机 跳板机 这可能是全网最好用的ViewPager轮播图 简单 高效 一行代码实现循环轮播 一屏三页任意变 指示器样式任你挑 一种简单有效的android组件化方案 支持组件的代码资源隔离 单独调试 集成调试 组件交互 UI跳转 生命周期等完整功能 一个强大 1 % 兼容 支持 AndroidX 支持 Kotlin并且灵活的组件化框架JPress 一个使用 Java 开发的建站神器 目前已经有 1 w 网站使用 JPress 进行驱动 其中包括多个政府机构 2 上市公司 中科院 红 字会等 分布式事务易用的轻量化网络爬虫 Android系统源码分析重构中一款免费的数据可视化工具 报表与大屏设计 类似于excel操作风格 在线拖拽完成报表设计 功能涵盖 报表设计 图形报表 打印设计 大屏设计等 永久免费 秉承“简单 易用 专业”的产品理念 极大的降低报表开发难度 缩短开发周期 节省成本 解决各类报表难题 Android Activity 滑动返回 支持微信滑动返回样式 横屏滑动返回 全屏滑动返回SpringBoot 基础教程 从入门到上瘾 基于2 M5制作 仿微信视频拍摄UI 基于ffmpeg的视频录制编辑Python 1 天从新手到大师 分享 GitHub 上有趣 入门级的开源项目中英文敏感词 语言检测 中外手机 电话归属地 运营商查询 名字推断性别 手机号抽取 身份证抽取 邮箱抽取 中日文人名库 中文缩写库 拆字词典 词汇情感值 停用词 反动词表 暴恐词表 繁简体转换 英文模拟中文发音 汪峰歌词生成器 职业名称词库 同义词库 反义词库 否定词库 汽车品牌词库 汽车零件词库 连续英文切割 各种中文词向量 公司名字大全 古诗词库 IT词库 财经词库 成语词库 地名词库 历史名人词库 诗词词库 医学词库 饮食词库 法律词库 汽车词库 动物词库 中文聊天语料 中文谣言数据 百度中文问答数据集 句子相似度匹配算法集合 bert资源 文本生成 摘要相关工具 cocoNLP信息抽取 2 21年最新总结 阿里 腾讯 百度 美团 头条等技术面试题目 以及答案 专家出题人分析汇总 AiLearning 机器学习 MachineLearning ML 深度学习 DeepLearning DL 自然语言处理 NLP123 6智能刷票 订票结巴中文分词 动手学深度学习 面向中文读者 能运行 可讨论 中英文版被全球175所大学采用教学 中文分词 词性标注 命名实体识别 依存句法分析 语义依存分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理微信个人号接口 微信机器人及命令行微信 三十行即可自定义个人号机器人 数据结构和算法必知必会的5 个代码实现JumpServer 是全球首款开源的堡垒机 是符合 4A 的专业运维安全审计系统 飞桨 核心框架 深度学习 机器学习高性能单机 分布式训练和跨平台部署 中国程序员容易发音错误的单词微信 跳一跳 Python 辅助 python模拟登陆一些大型网站 还有一些简单的爬虫 希望对你们有所帮助 ️ 如果喜欢记得给个star哦  网络爬虫实战 淘宝 京东 网易云 B站 123 6 抖音 笔趣阁 漫画小说下载 音乐电影下载等Python爬虫代理IP池 proxy pool wtfpython的中文翻译 施工结束 能力有限 欢迎帮我改进翻译提供多款 Shadowrocket 规则 带广告过滤功能 用于 iOS 未越狱设备选择性地自动翻墙  123 6 购票助手 支持集群 多账号 多任务购票以及 Web 页面管理 walle 瓦力 Devops开源项目代码部署平台一些非常有趣的python爬虫例子 对新手比较友好 主要爬取淘宝 天猫 微信 豆瓣 QQ等网站机器学习相关教程1 Chinese Word Vectors 上百种预训练中文词向量 网易云音乐命令行版本一款入门级的人脸 视频 文字检测以及识别的项目  编程随想 整理的 太子党关系网络 专门揭露赵国的权贵微信助手 1 每日定时给好友 女友 发送定制消息 2 机器人自动回复好友 3 群助手功能 例如 查询垃圾分类 天气 日历 电影实时票房 快递物流 PM2 5等 二维码生成器 支持 gif 动态图片二维码 阿布量化交易系统 股票 期权 期货 比特币 机器学习 基于python的开源量化交易 量化投资架构 book 中华新华字典数据库 包括歇后语 成语 词语 汉字  Git AWS Google 镜像 SS SSR VMESS节点行业研究报告的知识储备库中文翻译手写实现李航 统计学习方法 书中全部算法 Python 抖音机器人 论如何在抖音上找到漂亮小姐姐？ 迁移学习python爬虫教程系列 从 到1学习python爬虫 包括浏览器抓包 手机APP抓包 如 fiddler mitmproxy 各种爬虫涉及的模块的使用 如等 以及IP代理 验证码识别 Mysql MongoDB数据库的python使用 多线程多进程爬虫的使用 css 爬虫加密逆向破解 JS爬虫逆向 分布式爬虫 爬虫项目实战实例等Python脚本 模拟登录知乎 爬虫 操作excel 微信公众号 远程开机越来越多的网站具有反爬虫特性 有的用图片隐藏关键数据 有的使用反人类的验证码 建立反反爬虫的代码仓库 通过与不同特性的网站做斗争 无恶意 提高技术 欢迎提交难以采集的网站 因工作原因 项目暂停  人人影视bot 完全对接人人影视全部无删减资源莫烦Python 中文AI教学飞桨 官方模型库 包含多种学术前沿和工业场景验证的深度学习模型 轻量级人脸检测模型 百度云 百度网盘Python客户端 Python进阶 Intermediate Python 中文版 提供同花顺客户端 国金 华泰客户端 雪球的基金 股票自动程序化交易以及自动打新 支持跟踪 joinquant ricequant 模拟交易 和 实盘雪球组合 量化交易组件QUANTAXIS 支持任务调度 分布式部署的 股票 期货 期权 港股 虚拟货币 数据 回测 模拟 交易 可视化 多账户 纯本地量化解决方案INFO SPIDER 是一个集众多数据源于一身的爬虫工具箱 旨在安全快捷的帮助用户拿回自己的数据 工具代码开源 流程透明 支持数据源包括GitHub QQ邮箱 网易邮箱 阿里邮箱 新浪邮箱 Hotmail邮箱 Outlook邮箱 京东 淘宝 支付宝 中国移动 中国联通 中国电信 知乎 哔哩哔哩 网易云音乐 QQ好友 QQ群 生成朋友圈相册 浏览器浏览历史 123 6 博客园 CSDN博客 开源中国博客 简书 中文BERT wwm系列模型 Python入门网络爬虫之精华版中文 iOS Mac 开发博客列表Python网页微信APIpkuseg多领域中文分词工具自己动手做聊天机器人教程基于搜狗微信搜索的微信公众号爬虫接口用深度学习对对联 v2ray xray多用户管理部署程序各种脚本 关于 虾米 xiami com 百度网盘 pan baidu com 115网盘 115 com 网易音乐 music 163 com 百度音乐 music baidu com 36 网盘 云盘 yunpan cn 视频解析 flvxz com bt torrent ↔ magnet ed2k 搜索 tumblr 图片下载 unzip查看被删的微信好友定投改变命运 让时间陪你慢慢变富 onregularinvesting com 机器学习实战 Python3 kNN 决策树 贝叶斯 逻辑回归 SVM 线性回归 树回归Statistical learning methods 统计学习方法 第2版 李航 笔记 代码 notebook 参考文献 Errata lihang stock 股票系统 使用python进行开发 基于深度学习的中文语音识别系统京东抢购助手 包含登录 查询商品库存 价格 添加 清空购物车 抢购商品 下单 查询订单等功能莫烦Python 中文AI教学机器学习算法python实现新浪微博爬虫 用python爬取新浪微博数据的算法以及通用生成对抗网络图像生成的理论与实践研究 青岛大学开源 Online Judge QQ群 49671 125 admin qduoj comWeRoBot 是一个微信公众号开发框架 基于Django的博客系统 中文近义词 聊天机器人 智能问答工具包开源财经数据接口库巡风是一款适用于企业内网的漏洞快速应急 巡航扫描系统  番号大全 解决电脑 手机看电视直播的苦恼 收集各种直播源 电视直播网站知识图谱构建 自动问答 基于kg的自动问答 以疾病为中心的一定规模医药领域知识图谱 并以该知识图谱完成自动问答与分析服务 出处本地电影刮削与整理一体化解决方案自动化运维平台 CMDB CD DevOps 资产管理 任务编排 持续交付 系统监控 运维管理 配置管理 wukong robot 是一个简单 灵活 优雅的中文语音对话机器人 智能音箱项目 还可能是首个支持脑机交互的开源智能音箱项目 获取斗鱼 虎牙 哔哩哔哩 抖音 快手等 55 个直播平台的真实流媒体地址 直播源 和弹幕 直播源可在 PotPlayer flv js 等播放器中播放 宝塔Linux面板 简单好用的服务器运维面板农业知识图谱 AgriKG 农业领域的信息检索 命名实体识别 关系抽取 智能问答 辅助决策CODO是一款为用户提供企业多混合云 一站式DevOps 自动化运维 完全开源的云管理平台 自动化运维平台Web Pentesting Fuzz 字典 一个就够了  计算机网络 自顶向下方法 原书第6版 编程作业 Wireshark实验文档的翻译和解答 中文古诗自动作诗机器人 屌炸天 基于tensorflow1 1 api 正在积极维护升级中 快star 保持更新 PyQt Examples PyQt各种测试和例子 PyQt4 PyQt5海量中文预训练ALBERT模型汉字转拼音 pypinyin 数据结构与算法 leetcode lintcode题解  Pytorch模型训练实用教程 中配套代码实时获取新浪 腾讯 的免费股票行情 集思路的分级基金行情Python爬虫 Flask网站 免费ShadowSocks账号 ssr订阅 json 订阅实战 多种网站 电商数据爬虫 包含 淘宝商品 微信公众号 大众点评 企查查 招聘网站 闲鱼 阿里任务 博客园 微博 百度贴吧 豆瓣电影 包图网 全景网 豆瓣音乐 某省药监局 搜狐新闻 机器学习文本采集 fofa资产采集 汽车之家 国家统计局 百度关键词收录数 蜘蛛泛目录 今日头条 豆瓣影评 携程 小米应用商店 安居客 途家民宿 ️ ️ ️ 微信爬虫展示项目 SQL 审核查询平台团子翻译器 个人兴趣制作的一款基于OCR技术的翻译器自动化运维平台 代码及应用部署CI CD 资产管理CMDB 计划任务管理平台 SQL审核 回滚 任务调度 站内WIKISource Code Security Audit 源代码安全审计 Exphub 漏洞利用脚本库 包括的漏洞利用脚本 最新添加我的自学笔记 终身更新 当前专注System基础 MLSys 使用机器学习算法完成对123 6验证码的自动识别Python 开源项目之 自学编程之路 保姆级教程 AI实验室 宝藏视频 数据结构 学习指南 机器学习实战 深度学习实战 网络爬虫 大厂面经 程序人生 资源分享 中文文本分类基于pytorch 开箱即用 根据网易云音乐的歌单 下载flac无损音乐到本地腾讯优图高精度双分支人脸检测器文本纠错等模型实现 开箱即用 3 天掌握量化交易 持续更新 中文分词 词性标注 命名实体识别 依存句法分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁 自然语言处理中文公开聊天语料库豆瓣读书的爬虫总结梳理自然语言处理工程师 NLP 需要积累的各方面知识 包括面试题 各种基础知识 工程能力等等 提升核心竞争力中文自然语言处理数据集 平时做做实验的材料 欢迎补充提交合并 一个可以自己进行训练的中文聊天机器人 根据自己的语料训练出自己想要的聊天机器人 可以用于智能客服 在线问答 智能聊天等场景 目前包含seq2seq seqGAN版本 tf2 版本 pytorch版本 股票量化框架 支持行情获取以及交易微博爬虫 持续维护  Bilibili 用户爬虫 deepin源移植 Debian Ubuntu上最快的QQ 微信安装方式 新闻网页正文通用抽取器 Beta 版  flag on post 自动更新域名解析到本机IP 支持dnspod 阿里DNS CloudFlare 华为云 DNSCOM 本项目针对字符型图片验证码 使用tensorflow实现卷积神经网络 进行验证码识别 owllook 小说搜索引擎中文语言理解测评基准python中文库 python人工智能大数据自动化接口测试开发 书籍下载及python库汇总china testing github io 2 19新型冠状病毒疫情时间序列数据仓库Python 黑魔法手册单阶段通用目标检测器一个拍照做题程序 输入一张包含数学计算题的图片 输出识别出的数学计算式以及计算结果 video download B站视频下载中文命名实体识别 TensorFlow Python 中文数据结构和算法教程 验证码识别 训练Python爬虫实战 模拟登陆各大网站 包含但不限于 滑块验证 拼多多 美团 百度 bilibili 大众点评 淘宝 如果喜欢请start ️学无止下载器 慕课下载器 Mooc下载 慕课网下载 中国大学下载 爱课程下载 网易云课堂下载 学堂在线下载 超星学习通下载 支持视频 课件同时下载一个高级web目录 文件扫描工具 功能将会强于DirBuster Dirsearch cansina 御剑 搜索所有中文NLP数据集 附常用英文NLP数据集中文实体识别与关系提取2 19新型冠状病毒疫情实时爬虫及github release archive以及项目文件的加速项目安卓应用安全学习抓取大量免费代理 ip 提取有效 ip 使用RoBERTa中文预训练模型 RoBERTa for Chinese 用于训练中英文对话系统的语料库敏感词过滤的几种实现 某1w词敏感词库简单易用的Python爬虫框架 QQ交流群 59751 56 使用Bert ERNIE 进行中文文本分类为 CSAPP 视频课程提供字幕 翻译 PPT Lab PyTorch 官方中文教程包含 6 分钟快速入门教程 强化教程 计算机视觉 自然语言处理 生成对抗网络 强化学习 欢迎 Star Fork 兜哥出品 <一本开源的NLP入门书籍 图像翻译 条件GAN AI绘画用Resnet1 1 GPT搭建一个玩王者荣耀的AI各种漏洞poc Exp的收集或编写斗地主AIVulmap 是一款 web 漏洞扫描和验证工具 可对 webapps 进行漏洞扫描 并且具备漏洞验证功能提供超過 5 個金融資料 台股為主 每天更新 finmind github io 数据接口 百度 谷歌 头条 微博指数 宏观数据 利率数据 货币汇率 千里马 独角兽公司 新闻联播文字稿 影视票房数据 高校名单 疫情数据 PyOne 一款给力的onedrive文件管理 分享程序 使用开发的用于迅速搭建并使用 WebHook 进行自动化部署和运维 支持 Github GitLab Gogs GitOsc 跟我一起写Makefile重制版 python自动化运维 技术与最佳实践 书中示例及案例源码自然语言处理实验 sougou数据集 TF IDF 文本分类 聚类 词向量 情感识别 关系抽取等微信公众平台 Python 开发包 DEPRECATED Weblogic一键漏洞检测工具 V1 5 更新时间 2 2 73 完备优雅的微信公众号接口 原生支持同步 协程使用 本程序旨在为安全应急响应人员对Linux主机排查时提供便利 实现主机侧Checklist的自动全面化检测 根据检测结果自动数据聚合 进行黑客攻击路径溯源 PyCharm 中文指南 安装 破解 效率 技巧类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入GPT2 for Chinese chitchat 用于中文闲聊的GPT2模型 实现了DialoGPT的MMI思想 中华人民共和国国家标准 GB T 226 行政区划代码基于python的量化交易平台中文语音识别基于 OneBot 标准的 Python 异步 QQ 机器人框架Real World Masked Face Dataset 口罩人脸数据集 Vulfocus 是一个漏洞集成平台 将漏洞环境 docker 镜像 放入即可使用 开箱即用 谷歌 百度 必应图片下载 基于方面的情感分析 使用PyTorch实现  深度学习与计算机视觉 配套代码ART环境下自动化脱壳方案利用网络上公开的数据构建一个小型的证券知识图谱 知识库中文资源精选 官方网站 安装教程 入门教程 视频教程 实战项目 学习路径 QQ群 167122861 公众号 磐创AI 微信群二维码 www tensorflownews com Pre Trained Chinese XLNet 中文XLNet预训练模型 新浪微博Python SDK有关burpsuite的插件 非商店 文章以及使用技巧的收集 此项目不再提供burpsuite破解文件 如需要请在博客mrxn net下载Python3编写的CMS漏洞检测框架基于django的工作流引擎 工单 ️ 哔哩云 不支持任意文件的全速上传与下载微信SDK 包括微信支付 微信公众号 微信登陆 微信消息处理等中文自然语言理解堡垒机 云桌面自动化运维 审计 录像 文件管理 sftp上传 实时监控 录像回放 网页版rz sz上传下载 动态口令 django转换中国知网 CAJ 格式文献为 PDF 佛系转换 成功与否 皆是玄学 HanLP作者的新书 自然语言处理入门 详细笔记 业界良心之作 书中不是枯燥无味的公式罗列 而是用白话阐述的通俗易懂的算法模型 从基本概念出发 逐步介绍中文分词 词性标注 命名实体识别 信息抽取 文本聚类 文本分类 句法分析这几个热门问题的算法原理与工程实现  Python3 网络爬虫实战 部分含详细教程 猫眼 腾讯视频 豆瓣 研招网 微博 笔趣阁小说 百度热点 B站 CSDN 网易云阅读 阿里文学 百度股票 今日头条 微信公众号 网易云音乐 拉勾 有道 unsplash 实习僧 汽车之家 英雄联盟盒子 大众点评 链家 LPL赛程 台风 梦幻西游 阴阳师藏宝阁 天气 牛客网 百度文库 睡前故事 知乎 Wish微信公众号文章的爬虫 Python Web开发实战 书中源码一直可用的GoAgent 会定时扫描可用的google gae ip 提供可自动化获取ip运行的版本层剪枝 通道剪枝 知识蒸馏 中文命名实体识别 包括多种模型 HMM CRF BiLSTM BiLSTM CRF的具体实现  The Way to Go 中文译本 中文正式名 Go 入门指南 谢谢 Solutions to LeetCode by Go 1 % test coverage runtime beats 1 % LeetCode 题解一款轻量级 高性能 功能强大的内网穿透代理服务器 支持tcp udp socks5 http等几乎所有流量转发 可用来访问内网网站 本地支付接口调试 ssh访问 远程桌面 内网dns解析 内网socks5代理等等 并带有功能强大的web管理端 Go语言高级编程 开源图书 涵盖CGO Go汇编语言 RPC实现 Protobuf插件实现 Web框架实现 分布式系统等高阶主题 完稿 是一个跨平台的强加密无特征的代理软件 零配置 算法模板 最科学的刷题方式 最快速的刷题路径 你值得拥有 百度网盘不限速客户端 golang qt5 跨平台图形界面是golang实现的高性能http https websocket tcp socks5代理服务器 支持内网穿透 链式代理 通讯加密 夜读 通过 bilibili 在线直播的方式分享 Go 相关的技术话题 每天大家在微信 telegram Slack 上及时沟通交流编程技术话题  支持多家云存储的云盘系统 这里是写博客的地方 Halfrost Field 冰霜之地Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由基于gin vue搭建的后台管理系统框架 集成jwt鉴权 权限管理 动态路由 分页封装 多点登录拦截 资源权限 上传下载 代码生成器 表单生成器 通用工作流等基础功能 五分钟一套CURD前后端代码 目VUE3版本正在重构 欢迎issue和pr 分布式爬虫管理平台 支持任何语言和框架Golang标准库 对于程序员而言 标准库与语言本身同样重要 它好比一个百宝箱 能为各种常见的任务提供完美的解决方案 以示例驱动的方式讲解Golang的标准库 天用Go动手写 从零实现系列是一个高性能且低损耗的 goroutine 池 有 有 设计模式 Golang实现 研磨设计模式 读书笔记Golang实现的基于beego框架的接口在线文档管理系统高性能开源RTSP流媒体服务器 基于go语言研发 维护和优化 RTSP推模式转发 RTSP拉模式转发 是一个高性能 轻量级 非阻塞的事件驱动 Go 网络框架 基于Gin Vue Element UI的前后端分离权限管理系统脚手架 包含了 多租户的支持 基础用户管理功能 jwt鉴权 代码生成器 RBAC资源控制 表单构建 定时任务等 3分钟构建自己的中后台项目 文档蓝鲸智云配置平台 BlueKing CMDB 今日热榜 一个获取各大热门网站热门头条的聚合网站 使用Go语言编写 多协程异步快速抓取信息 预览 mo fish一条命令离线安装高可用kubernetes 3min装完 7 M 1 年证书 生产环境稳如老狗阿里巴巴开源的一款简单易用 功能强大的混沌实验注入工具  Go语言四十二章经 详细讲述Go语言规范与语法细节及开发中常见的误区 通过研读标准库等经典代码设计模式 启发读者深刻理解Go语言的核心思维 进入Go语言开发的更高阶段  ️一个轻巧的网络混淆代理 基于Golang轻量级TCP并发服务器框架定时任务管理系统KubeOperator 是一个开源的轻量级 Kubernetes 发行版 专注于帮助企业规划 部署和运营生产级别的 K8s 集群 本系统是集工单统计 任务钩子 权限管理 灵活配置流程与模版等等于一身的开源工单系统 当然也可以称之为工作流引擎 致力于减少跨部门之间的沟通 自动任务的执行 提升工作效率与工作质量 减少不必要的工作量与人为出错率 Go实现的Trojan代理 支持多路复用 路由功能 CDN中转 Shadowsocks混淆插件 多平台 无依赖 Go语法树入门 开启自制编程语言和编译器之旅 开源免费图书 Go语言进阶 掌握抽象语法树 Go语言AST 凹语言 一款可全平台运行的浏览器数据导出解密工具 Golang相关 审稿进度8 % Go语法 Go并发思想 Go与web开发 Go微服务设施等Jupiter是斗鱼开源的面向服务治理的Golang微服务框架Elasticsearch 可视化DashBoard 支持Es监控 实时搜索 Index template快捷替换修改 索引列表信息查看 SQL converts to DSL等  从问题切入 串连 Go 语言相关的所有知识 融会贯通 golang design go questionsWeChat SDK for Go 微信SDK 简单 易用 go fastdfs 是一个简单的分布式文件系统 私有云存储 具有无中心 高性能 高可靠 免维护等优点 支持断点续传 分块上传 小文件合并 自动同步 自动修复 Mastering GO 中文译本 玩转 GO 云原生且易用的应用管理平台 Go Web 基础 是一套针对 Google 出品的 Go 语言的视频语音教程 主要面向完成 Go 编程基础 教程后希望进一步了解有关 Go Web 开发的学习者 中文名 悟空 API 网关 是一个基于 Golang开发的微服务网关 能够实现高性能 HTTP API 转发 服务编排 多租户管理 API 访问权限控制等目的 拥有强大的自定义插件系统可以自行扩展 并且提供友好的图形化配置界面 能够快速帮助企业进行 API 服务治理 提高 API 服务的稳定性和安全性  集合多家 API 的新一代图床MIT课程 Distributed Systems 学习和翻译Go语言圣经中文版 只接收PR Issue请提交到golang china gopl zh trojan多用户管理部署程序 支持web页面管理BookStack 基于MinDoc 使用Beego开发的在线文档管理系统 功能类似Gitbook和看云 weixin wechat 微信公众平台 微信企业号 微信商户平台 微信支付 go golang sdk  蓝眼云盘 Eyeblue Cloud Storage 语言高性能编程 Go 语言陷阱 Gotchas Traps 使用 XMind 记录 Linux 操作系统 网络 C Golang 以及数据库的一些设计cqhttp的golang实现 轻量 原生跨平台 mqant是一款基于Golang语言的简洁 高效 高性能的分布式微服务框架基于react node js go开发的微商城 含微信小程序 MM Wiki 一个轻量级的企业知识分享与团队协同软件 可用于快速构建企业 Wiki 和团队知识分享平台 部署方便 使用简单 帮助团队构建一个信息共享 文档管理的协作环境 Go 语言中文网 Golang中文社区 Go语言学习园地 源码基于 Gin 进行模块化设计的 API 框架 封装了常用功能 使用简单 致力于进行快速的业务研发 比如 支持 cors 跨域 jwt 签名验证 zap 日志收集 panic 异常捕获 trace 链路追踪 prometheus 监控指标 swagger 文档生成 viper 配置文件解析 gorm 数据库组件 gormgen 代码生成工具 graphql 查询语言 errno 统一定义错误码 gRPC 的使用 等等 syncd是一款开源的代码部署工具 它具有简单 高效 易用等特点 可以提高团队的工作效率 一款由 YSRC 开源的主机入侵检测系统golang面试题集合这是一个可以识别视频语音自动生成字幕SRT文件的开源 Windows GUI 软件工具 一款内网综合扫描工具 方便一键自动化 全方位漏扫扫描 是一个用于在两个redis之间同步数据的工具 满足用户非常灵活的同步 迁移需求 Overlord是哔哩哔哩基于Go语言编写的memcache和redis cluster的代理及集群管理功能 致力于提供自动化高可用的缓存服务解决方案 Stack RPC 中文示例 教程 资料 源码解读ICMP流量伪装转发工具Freedom是一个基于六边形架构的框架 可以支撑充血的领域模型范式  Go2编程指南 开源图书 重点讲解Go2新特性 以及Go1教程中较少涉及的特性语言高性能分词golang写的IM服务器 服务组件形式  结巴 中文分词的Golang版本xorm是一个简单而强大的Go语言ORM库 通过它可以使数据库操作非常简便 本库是基于原版xorm的定制增强版本 为xorm提供类似ibatis的配置文件及动态SQL支持 支持AcitveRecord操作一个 Go 语言实现的快速 稳定 内嵌的 k v 数据库 高性能表格数据导出器基于Golang的开源社区系统 版本网易云音乐ncm文件格式转换 go 实现的压测工具 ab locust Jmeter压测工具介绍 单台机器1 w连接压测实战 抓包截取项目中的数据库请求并解析成相应的语句  Go专家编程 Go语言快速入门 轻松进阶 <<自己动手写docker 源码Go 每日一库kunpeng是一个Golang编写的开源POC框架 库 以动态链接库的形式提供各种语言调用 通过此项目可快速开发漏洞检测类的系统 vue js element框架 golang beego框架 开发的运维发布系统 支持git jenkins版本发布 go ssh BT两种文件传输方式选择 支持部署前准备任务和部署后任务钩子函数 Go 从入门到实战 学习笔记 从零开始学 Go Gin 框架 基本语法包括 26 个Demo Gin 框架包括 Gin 自定义路由配置 Gin 使用 Logrus 进行日志记录 Gin 数据绑定和验证 Gin 自定义错误处理 Go gRPC Hello World 持续更新中 Go 学习之路 Go 开发者博客 Go 微信公众号 Go 学习资料 文档 书籍 视频 微信 WeChat 支付宝 AliPay 的Go版本SDK 极简 易用的聚合支付SDK Go by Example 通过例子学 GolangPPGo Job是一款可视化的 多人多权限的 一任务多机执行的定时任务管理系统 采用golang开发 安装方便 资源消耗少 支持大并发 可同时管理多台服务器上的定时任务 Golang实现的IP代理池是一款用Go语言开发的web应用框架 API特性类似于Tornado并且拥有比Tornado更好的性能  自己动手写Java虚拟机 随书源代码支付宝 AliPay SDK for Go 集成简单 功能完善 持续更新 支持公钥证书和普通公钥进行签名和验签  ARCHIVED Geph 迷霧通帮助你将本地端口暴露在外网 支持TCP UDP 当然也支持HTTP 深入Go并发编程研讨课无状态子域名爆破工具手机号码归属地信息库 手机号归属地查询 phone dat 最后更新 2 21年 6月 golang基于websocket单台机器支持百万连接分布式聊天 IM 系统基于mongodb oplog的集群复制工具 可以满足迁移和同步的需求 进一步实现灾备和多活功能 Gin Gorm开发Golang API快速开发脚手架简单可信赖的任务管理工具Go语言实例教程从入门到进阶 包括基础库使用 设计模式 面试易错点 工具类 对接第三方等授权框架简体中文翻译 自动抓取tg频道 订阅地址 公开互联网上的ss ssr vmess trojan节点信息 聚合去重后提供节点列表轻量级 go 业务框架  哪吒监控 一站式轻监控轻运维系统 支持系统状态 TCP Ping 监控报警 命令批量执行和计划任务 Go 语言官方教程中文版工程师知识管理系统 基于golang go语言 beego框架 每个行业都有自己的知识管理系统 engineercms旨在为土木工程师们打造一款适用的基于web的知识管理系统 它既可以用于管理个人的项目资料 也可以用于管理项目团队资料 它既可以运行于个人电脑 也可以放到服务器上 支持提取码分享文件 onlyoffice实时文档协作 直接在线编辑dwg文件 office文档 在线利用mindoc创作你的书籍 阅览PDF文件 通用的业务流程设置 手机端配套小程序 微信搜索“珠三角设代”或“青少儿书画”即可呼出小程序 边界打点后的自动化渗透工具一个集审核 执行 备份及生成回滚语句于一身的MySQL运维工具汉字转拼音 Go资源精选中文版 含中文图书大全 语言实现的 Redis 服务器和分布式集群 超全golang面试题合集 golang学习指南 golang知识图谱 入门成长路线 一份涵盖大部分golang程序员所需要掌握的核心知识 常用第三方库 mysql mq es redis等 机器学习库 算法库 游戏库 开源框架 自然语言处理nlp库 网络库 视频库 微服务框架 视频教程 音频音乐库 图形图片库 物联网库 地理位置信息 嵌入式脚本库 编译器库 数据库 金融库 电子邮件库 电子书籍 分词 数据结构 设计模式 去html tag标签等 go学习 go面试go语言扩展包 收集一些常用的操作函数 辅助更快的完成开发工作 并减少重复代码百灵快传 基于Go语言的高性能 手机电脑超大文件传输神器 局域网共享文件服务器 LAN large file transfer tool 一个基于云存储的网盘系统 用于自建私人网盘或企业网盘 go分布式服务器 基于内存mmo个人博客微信小程序服务端 SDK for Golang 控制台颜色渲染工具库 支持16色 256色 RGB色彩渲染输出 使用类似于 Print Sprintf 兼容并支持 Windows 环境的色彩渲染基于 IoC 的 Go 后端一站式开发框架 v2ray web manager 是一个v2ray的面板 也是一个集群的解决方案 同时增加了流量控制 账号管理 限速等功能 key admin panel web cluster 集群 proxyServerScan一款使用Golang开发的高并发网络扫描 服务探测工具 是http client领域的瑞士军刀 小巧 强大 犀利 具体用法可看文档 如使用迷惑或者API用得不爽都可提issuesTcpRoute TCP 层的路由器 对于 TCP 连接自动从多个线路 电信 联通 移动 多个域名解析结果中选择最优线路 Bifrost 面向生产环境的 MySQL 同步到Redis MongoDB ClickHouse MySQL等服务的异构中间件应用网关 提供快速 安全的应用交付 身份认证 WAF CC HTTPS以及ACME自动证书 A telegram bot for rss reader 一个支持应用内阅读的 Telegram RSS Bot RESTful API 文档生成工具 支持和 Ruby 等大部分语言 基于gin gorm开发的个人博客项目基于Go语言的国密SM2 SM3 SM4算法库 Golang 设计模式一个阿里云盘列表程序 一款小巧的基于Go构建的开发框架 可以快速构建API服务或者Web网站进行业务开发 遵循SOLID设计原则并发编程实战 第2版 Go 学习 Go 进阶 Go 实用工具类 Go kit Go Micro 微服务实践 Go 推送基于DDD的o2o的业务模型及基础 使用Golang gRPC Thrift实现Sharingan 写轮眼 是一个基于golang的流量录制回放工具 适合项目重构 回归测试等 百度云网盘爬虫基于beego的进销存系统 TeaWeb 可视化的Web代理服务 DEMO teaos cn  白帽子安全开发实战 配套代码抖音推荐 搜索页视频列表视频爬虫方案 基于app 虚拟机或真机 相关技术 golang adb一款甲方资产巡航扫描系统 系统定位是发现资产 进行端口爆破 帮助企业更快发现弱口令问题 主要功能包括 资产探测 端口爆破 定时任务 管理后台识别 报表展示提供微信终端版本 微信命令行版本聊天功能 微信机器人 ️ 互联网最全大厂技术分享PPT 持续更新中 各大技术交流会 活动资料汇总 如 QCon 全球运维技术大会 GDG 全球技术领导力峰会 大前端大会 架构师峰会 敏捷开发DevOps OpenResty Elastic 欢迎 PR Issues日本麻将助手 牌效 防守 记牌 支持雀魂 天凤 开源客服系统GO语言开发GO FLY 免费客服系统一个查询IP地理信息和CDN服务提供商的离线终端工具 是一个用于系统重构 系统迁移和系统分析的瑞士军刀 它可以分析代码中的测试坏味道 模块化分析 行数统计 分析调用与依赖 Git 分析以及自动化重构等 一个直播录制工具Mastering Go 第二版中文版来袭 渗透测试情报收集工具分布式定时任务调度平台高度模块化 遵循 KISS原则的区块链开发框架golang版本的hangout 希望能省些内存 使用了自己写的Kafka lib 虚 不过我们在生产环境已经使用近1年 kafka 版本从 9 1到2 都在使用 目前情况稳定 吞吐量在每天2 亿条以上 Go 语言 Web 应用开发系列教程 从新手到双手残废iris 框架的后台api项目简单好用的DDNS 自动更新域名解析到公网IP 支持阿里云 腾讯云dnspod Cloudflare 华为云  自己动手实现Lua 随书源代码php直播go直播 短视频 直播带货 仿比心 猎游 tt语音聊天 美女约玩 陪玩系统源码开黑 约玩源码 社区开源 云原生的多云和混合云融合平台 Jiajun的编程随想Golang语言社区 腾讯课堂 网易云课堂 字节教育课程PPT及代码基于GF Go Frame 的后台管理系统带你了解一下Golang的市场行情mysql表结构自动同步工具 目前只支持字段 索引的同步 分区等高级功能暂不支持 基于Kubernetes的PaaS平台流媒体NetFlix解锁检测脚本稳定分支2 9 X 版本已更新 由 Golang语言游戏服务器 维护 全球服游戏服务器及区域服框架 目前协议支持websocket KCP TCP及RPC 采用状态同步 帧同步内测 愿景 打造MMO多人竞技游戏框架 功能持续更新中 基于 Golang 类似知乎的私有部署问答应用 包含问答 评论 点赞 管理后台等功能全新的开源漏洞测试框架 实现poc在线编辑 运行 批量测试 使用文档 XAPI MANAGER 专业实用的开源接口管理平台 为程序开发者提供一个灵活 方便 快捷的API管理工具 让API管理变的更加清晰 明朗 如果你觉得xApi对你有用的话 别忘了给我们点个赞哦 qq协议的golang实现 移植于miraigo版本极简工作流引擎全平台Go开源内网渗透扫描器框架 Windows Linux Mac内网渗透 使用它可轻松一键批量探测C段 B段 A段存活主机 高危漏洞检测MS17 1 SmbGhost 远程执行SSH Winrm 密码爆破端口扫描服务识别PortScan指纹识别多网卡主机 端口扫描服务识别PortScan iikira BaiduPCS Go原版基础上集成了分享链接 秒传链接转存功能 e签宝安全团队积累十几年的安全经验 都将对外逐步开放 首开的Ehoney欺骗防御系统 该系统是基于云原生的欺骗防御系统 也是业界唯一开源的对标商业系统的产品 欺骗防御系统通过部署高交互高仿真蜜罐及流量代理转发 再结合自研密签及诱饵 将攻击者攻击引导到蜜罐中达到扰乱引导以及延迟攻击的效果 可以很大程度上保护业务的安全 护网必备良药漂亮的Go语言通用后台管理框架 包含计划任务 MySQL管理 Redis管理 FTP管理 SSH管理 服务器管理 Caddy配置 云存储管理等功能  微信支付 WeChat Pay SDK for Golang用于监控系统的日志采集agent 可无缝对接open falcon阿里巴巴mysql数据库binlog的增量订阅 消费组件 Canal 的 go 客户端 github com alibaba canal 用于比较2个redis数据是否一致 支持单节点 主从 集群版 以及多种proxy 支持同构以及异构对比 redis的版本支持2 x 5 x 使用go micro微服务实现的在线电影院订票系统后端一站式微服务框架 提供API web websocket RPC 任务调度 消息消费服务器红蓝对抗跨平台远控工具Interchain protocol 跨链协议简单易用 足够轻量 性能好的 Golang 库一个go echo vue 开发的快速 简洁 美观 前后端分离的个人博客系统 blog 也可方便二次开发为CMS 内容管理系统 和各种企业门户网站 正在更新权限管理 hauth项目 不是一个前端or后台框架 而是一个集成权限管理 菜单资源管理 域管理 角色管理 用户管理 组织架构管理 操作日志管理等等的快速开发平台． hauth是一个基础产品 在这个基础产品上 根据业务需求 快速的开发应用服务．账号 admin 密码 123456通用的数据验证与过滤库 使用简单 内置大部分常用验证 过滤器 支持自定义验证器 自定义消息 字段翻译 CTF AWD Attack with Defense 线下赛平台 AWD platform 欢迎 Star 蓝鲸智云容器管理平台 BlueKing Container Service 程序员如何优雅的挣零花钱 2 版 升级为小书了 一个 PHP 微信 SDKAV 电影管理系统 avmoo javbus javlibrary 爬虫 线上 AV 影片图书馆 AV 磁力链接数据库ThinkPHP Framework 十年匠心的高性能PHP框架 最全的前端资源汇总仓库 包括前端学习 开发资源 求职面试等 多语言多货币多入口的开源电商 B2C 商城 支持移动端vue app html5 微信小程序微店 微信小程序商城等可能是我用过的最优雅的 Alipay 和 WeChat 的支付 SDK 扩展包了 基于词库的中文转拼音优质解决方案 我用爬虫一天时间“偷了”知乎一百万用户 只为证明PHP是世界上最好的语言 所使用的程序微信 SDK for Laravel 基于 overtrue wechat开源在线教育点播系统  一款满足你的多种发送需求的短信发送组件 基于 Laravel 的后台系统构建工具 Laravel Admin 使用很少的代码快速构建一个功能完善的高颜值后台系统 内置丰富的后台常用组件 开箱即用 让开发者告别冗杂的HTML代码一个想帮你总结所有类型的上传漏洞的靶场优雅的渐进式PHP采集框架 Laravel 电商实战教程的项目代码Payment是php版本的支付聚合第三方sdk 集成了微信支付 支付宝支付 招商一网通支付 提供统一的调用接口 方便快速接入各种支付 查询 退款 转账能力 服务端接入支付功能 方便 快捷 SPF Swoole PHP Framework 世界第一款基于Swoole扩展的PHP框架 开发者是Swoole创始人 A Wonderful WordPress Theme 樱花庄的白猫博客主题图床 此项目已弃用 基于 ThinkPHP 基础开发平台 登录账号密码都是 admin PanDownload网页复刻版一个开源的网址导航网站项目 您可以拿来制作自己的网址导航 使用PHP Swoole实现的网页即时聊天工具 独角数卡 发卡 开源式站长自动化售货解决方案 高效 稳定 快速 卡密商城系统 高效安全的在线卡密商城 ️命令行模式开发框架ShopXO免费开源商城系统 国内领先企业级B2C免费开源电商系统 包含PC h5 微信小程序 支付宝小程序 百度小程序 头条 抖音小程序 QQ小程序 APP 多商户 遵循MIT开源协议发布 基于 ThinkPHP5 1框架研发Wizard是一款开源的文档管理工具 支持Markdown Swagger Table类型的文档 Swoole MySQL Proxy 一个基于 MySQL 协议 Swoole 开发的MySQL数据库连接池 学习资源整合Freenom域名自动续期一个好玩的Web安全 漏洞测试平台一个基于Yii2高级框架的快速开发应用引擎蓝天采集器是一款免费的数据采集发布爬虫软件 采用php mysql开发 可部署在云服务器 几乎能采集所有类型的网页 无缝对接各类CMS建站程序 免登录实时发布数据 全自动无需人工干预 是网页大数据采集软件中完全跨平台的云端爬虫系统免费开源的中文搜索引擎 采用 C C 编写 基于 xapian 和 scws 提供 PHP 的开发接口和丰富文档WDScanner平台目前实现了如下功能 分布式web漏洞扫描 客户管理 漏洞定期扫描 子域名枚举 端口扫描 网站爬虫 暗链检测 坏链检测 网站指纹搜集 专项漏洞检测 代理搜集及部署等功能  ️兰空图床图标工场 移动应用图标生成工具 一键生成所有尺寸的应用图标和启动图 Argon 一个轻盈 简洁的 WordPress 主题Typecho Fans插件作品目录PHP代码审计分段讲解一个结构清晰的 易于维护的 现代的PHP Markdown解析器百度贴吧云签到 在服务器上配置好就无需进行任何操作便可以实现贴吧的全自动签到 配合插件使用还可实现云灌水 点赞 封禁 删帖 审查等功能 注意 Gitee 原Git osc 仓库将不再维护 目前唯一指定的仓库为 Github 本项目没有官方交流群 如需交流可以直接使用Github的Discussions 没有商业版本 目前贴吧云签到由社区共同维护 不会停止更新 PR 通常在一天内处理 微信调试 API调试和AJAX的调试的工具 能将日志通过WebSocket输出到Chrome浏览器的console中 結巴 中文分詞 做最好的 PHP 中文分詞 中文斷詞組件EleTeam开源项目 电商全套解决方案之PHP版 Shop for PHP Yii2 一个类似京东 天猫 淘宝的商城 有对应的APP支持 由EleTeam团队维护 RhaPHP是微信第三方管理平台 微信公众号管理系统 支持多公众号管理 CRM会员管理 小程序开发 APP接口开发 几乎集合微信功能 简洁 快速上手 快速开发微信各种各样应用 简洁 好用 快速 项目开发快几倍 群 656868 一刻社区后端 API 源码 新 微信服务号 微信小程序 微信支付 支付宝支付苹果cms v1 maccms v1 麦克cms 开源cms 内容管理系统 视频分享程序 分集剧情程序 网址导航程序 文章程序 漫画程序 图片程序一个PHP文件搞定支付宝支付系列 包括电脑网站支付 手机网站支付 现金红包 消费红包 扫码支付 JSAPI支付 单笔转账到支付宝账户 交易结算 分账 分润 网页授权获取用户信息等restful api风格接口 APP接口 APP接口权限 oauth2 接口版本管理 接口鉴权基于企业微信的开源SCRM应用开发框架 引擎 也是一套通用的企业私域流量管理系统 API接口大全不断更新中 欢迎Fork和Star 1 一言 古诗句版 api 2 必应每日一图api 3 在线ip查询 4 m3u8视频在线解析api 5 随机生成二次元图片api 6 快递查询api 支持国内百家快递 7 flv视频在线解析api 8 抖音视频无水印解析api 9 一句话随机图片api 1 QQ用户信息获取api 11 哔哩哔哩封面图获取api 12 千图网58pic无水印解析下载api 13 喜马拉雅主播FM数据采集api 14 网易云音乐api 15 CCTV央视网视频解析api 16 微信运动刷步数api 17 皮皮搞笑 基于swoole的定时器程序 支持秒级处理群 656868 ️ Saber PHP异步协程HTTP客户端微信支付单文件版 一个PHP文件搞定微信支付系列 包括原生支付 扫码支付 H5支付 公众号支付 现金红包 企业付款到零钱等 新增V3版 一个还不错的图床工具 支持Mac Win Linux服务器 支持压缩后上传 添加图片或文字水印 多文件同时上传 同时上传到多个云 右击任意文件上传 快捷键上传剪贴板截图 Web版上传 支持作为Mweb Typora发布图片接口 作为PicGo ShareX uPic等的自定义图床 支持在服务器上部署作为图床接口 支持上传任意格式文件 可能是我用过的最优雅的 Alipay 和 WeChat 的 laravel 支付扩展包了上传大文件的Laravel扩展包开发内功修炼Laravel核心代码学习南京邮电大学开源 Online Judge QQ群 6681 8264 免费IP地址数据库 已支持IPV4 IPV6 结构化输出为国家 省 市 县 运营商 中文数据库 方便实用 laravel5 5和vue js结合的前后端分离项目模板 后端使用了laravel的LTS版本 5 5 前端使用了流行的vue element template项目 作为程序的起点 可以直接以此为基础来进行业务扩展 模板内容包括基础的用户管理和权限管理 日志管理 集成第三方登录 整合laravel echo server 实现了websocket 做到了消息的实时推送 并在此基础上 实现了聊天室和客服功能 权限管理包括后端Token认证和前端vue js的动态权限 解决了前后端完整分离的情况下 vue js的认证与权限相关的痛点 已在本人的多个项目中集成使用  Web安全之机器学习入门 网易云音乐升级APIPHP 集成支付 SDK 集成了支付宝 微信支付的支付接口和其它相关接口的操作 支持 php fpm 和 Swoole 所有框架通用 宇润PHP全家桶技术支持群 17916227MDClub 社区系统后端代码imi 是基于 Swoole 的 PHP 协程开发框架 它支持 Http2 WebSocket TCP UDP MQTT 等主流协议的服务开发 特别适合互联网微服务 即时通讯聊天im 物联网等场景 QQ群 17916227WordPress 版 WebStack 导航主题 nav iowen cnLive2D 看板娘插件 www fghrsh net post 123 html 上使用的后端 API简单搜索 一个简单的前端界面 用惯了各种导航首页 满屏幕尽是各种不厌其烦的广告和资讯 尝试自己写个自己的主页 国内各大CTF赛题及writeup整理收集自网络各处的 webshell 样本 用于测试 webshell 扫描器检测率  PHP微信SDK 微信平台 微信支付 码小六 GitHub 代码泄露监控系统PHP表单生成器 快速生成现代化的form表单 支持前后端分离 内置复选框 单选框 输入框 下拉选择框 省市区三级联动 时间选择 日期选择 颜色选择 文件 图片上传等17种常用组件 悟空CRM 基于TP5 vue ElementUI的前后端分离CRM系统V免签PHP版 完全开源免费的个人免签约解决方案Composer 全量镜像发布于2 17年3月 曾不间断运行2年多 这个开源有助于理解 Composer 镜像的工作原理一个多彩 轻松上手 体验完善 具有强大自定义功能的WordPress主题 基于Sakura主题全球免费代理IP库 高可用IP 精心筛选优质IP 2s必达LaraCMS 是在学习 laravel web 开发实战进阶 实战构架 API 服务器 过程中产生的一个业余作品 试图通过简单的方式 快速构建一套基本的企业站同时保留很灵活的扩展能力和优雅的代码方式 当然这些都得益Laravel的优秀设计 同时LaraCMS 也是一个学习Laravel 不错的参考示例  已停止维护 HookPHP基于C扩展搭建内置AI编程的架构系统 支持微服务部署 热插拔业务组件 集成业务模型 权限模型 UI组件库 多模板 多平台 多域名 多终端 多语言 含常驻内存 前后分离 API平台 LUA QQ群 67911638 中华人民共和国居民身份证 中华人民共和国港澳居民居住证以及中华人民共和国台湾居民居住证号码验证工具 PHP 版 最简单的91porn爬虫php版本Fend 是一款短小精悍 可在 FPM Swoole 服务容器平滑切换的高性能PHP框架 no evil 实现过滤敏感词汇 基于确定有穷自动机 DFA 算法 支持composer安装扩展Z BlogPHP博客程序IYUU自动辅种工具 目前能对国内大部分的PT站点自动辅种 支持下载器集群 支持多盘位 支持多下载目录 支持远程连接等 果酱小店 基于 Laravel swoole 小程序的开源电商系统 优雅与性能兼顾 這是一份純靠北工程師的專案 請好好愛護它 謝謝 EC ecjia 到家是一款可开展O2O业务的移动电商系统 它包含 移动端APP 采用原生模式开发 覆盖使用iOS 及Android系统的移 动终端 后台系统 针对平台日常运营维护的平台后台 针对入驻店铺管理的商家后台 独立并行 移动端H5 能够灵活部署于微信及其他APP 网页等 Material Design 指南的中文翻译 一个纯php分词 thinkphp5 1 layui 实现的带rbac的基础管理后台 方便快速开发法使用百度pcs上传脚本目前最全的前端开发面试题及答案樱花内网穿透网站源代码 2 2 重制版MeepoPS是Meepo PHP Socket的缩写 旨在提供稳定的Socket服务 可以轻松构建在线实时聊天 即时游戏 视频流媒体播放等 基础目录 聚合所有其他目录 包含文档和例子基于 Vue js 的简洁一般强大的 WordPress 单栏博客主题阿里云打造Laravel最好的OSS Storage扩展 网上在线商城 综合网上购物平台swoolefy是一个基于swoole实现的轻量级 高性能 协程级 开放性的API应用服务框架基于redis实现高可用 易拓展 接入方便 生产环境稳定运行的延迟队列 一款基于WordPress开发的高颜值的自适应主题 支持白天与黑夜模式 无刷新加载等 阿里云 OSS 官方 SDK 的 Composer 封装 支持任何 PHP 项目 包括 Laravel Symfony TinyLara 等等 此插件将你的WordPress接入本土生态体系之中 使之更适合国内应用环境PHP的服务化框架 适用于Api Server Rpc Server 帮助原生PHP项目转向微服务化 出色的性能与支持高并发的协程相结合基于ThinkPHP V6 开发的面向API的后台管理系统  PHP Swoole 开发的在线同步点歌台 支持自由点歌 切歌 调整排序 删除指定音乐以及基础权限分级信呼 免费开源的办公OA系统 包括APP pc上客户端 REIM即时通信 服务端等 让每个企业单位都有自己的办公系统 来客电商 微信小程序商城 APP商城 公众号商城 PC商城系统 支付宝小程序商城 抖音小程序商城 百度小程序电商系统 前后端代码全部开源 注重界面美感与用户体验 打造独特电商系统生态圈哔哩哔哩 Bilibili B 站主站助手 直播助手 直播抽奖 挂机升级 贴心小棉袄脚本 Lv6 离你仅有一步之遥 PHP 版 Personal 一个运用php与swoole实现的统计监控系统短视频去水印 抖音 皮皮虾 火山 微视 微博 绿洲 最右 轻视频 快手 全民小视频 巴塞电影 陌陌 Before避风 开眼 Vue Vlog 小咖秀 皮皮搞笑 全民K歌 西瓜视频  中国农历 阴历 与阳历 公历 转换与查询工具AoiAWD 专为比赛设计 便携性好 低权限运行的EDR系统 项目管理系统后端接口ThinkPHP 队列支持Typecho Theme Aria 书写自己的篇章PHP 中文工具包 支持汉字转拼音 拼音分词 简繁互转 数字 金额大写 QQ群 17916227Yii2 community 请访问淘客5合一SDK 支持淘宝联盟 京东联盟 多多进宝 唯品会 苏宁基于 thinkphp 开发的的 blogMojito Admin 基于 Laravel Vue Element 构建的后台管理系统一个经典的XSS渗透管理平台一款基于 RageFrame2 的免费开源的基础销售功能的商城基于Laravel 5 4 的开发的博客系统 代号 myPersimmon证件照片排版在线生成器 在一张6寸的照片上排版多张证件照清华大学计算机学科推荐学术会议和期刊列表WordPress响应式免费主题 Art Blog唯品秀博客 weipxiu com 备用域名weipxiu cn 开源给小伙伴免费使用 如使用过程有任何问题 在线技术支持QQ 欢迎打扰 原创不易 如喜欢 请多多打赏 演示 EwoMail是基于Linux的企业邮箱服务器 集成了众多优秀稳定的组件 是一个快速部署 简单高效 多语言 安全稳定的邮件解决方案 笔记本新版简单强大的无数据库的图床2 版 演示地址  Bilibili B 站自动领瓜子 直播助手 直播挂机脚本 主站助手 PHP 版微信群二维码活码工具 生成微信群活码 随时可以切换二维码 短视频的PHP拓展包 集成各大短视频的去水印功能 抖音 快手 微视主流短视频 PHP去水印一个PHPer的升级之路酷瓜云课堂 在线教育 网课系统 网校系统 知识付费系统 不加密不阉割 1 %全功能开源 可免费商用 框架主要使用ThinkPHP6 layui 拥有完善的权限的管理模块以及敏捷的开发方式 让你开发起来更加的舒服 laravel5 5搭建的后台管理 和 api服务 的小程序商城基于ThinkPHP5 AdminLTE的后台管理系统魔改版本 为 OLAINDEX 添加多网盘挂载及一些小修复海豚PHP 基于ThinkPHP5 1 41LTS的快速开发框架挂载Teambition文件 可直链分享 支持网盘 需申请 和项目文件 无需邀请码 准确率99 9%的ip地址定位库laravel ant design vue 权限后台PHP 第三方登录授权 SDK 集成了QQ 微信 微博 Github等常用接口 支持 php fpm 和 Swoole 所有框架通用 QQ群 17916227抖音去水印PHP版接口一个分布式统计监控系统 包含PHP客户端 服务端整合多接口的IP查询工具 基于阿里云OSS的WordPress远程附件支持插件 后会有期 开箱即用的Laravel后台扩展 前后端分离 后端控制前端组件 无需编写vue即可创建一个的项目 丰富的表单 表格组件 强大的自定义组件功能 yii2 swoole 让yii2运行在swoole上胖鼠采集 WordPress优秀开源采集插件CatchAdmin是一款基于thinkphp6 和 element admin 开发的后台管理系统 基于 ServiceProvider 系统模块完全接耦 随时卸载安装模块 提供了完整的权限和数据权限等功能 大量内置的开发工具提升你的开发体验 官网地址 微信公众平台php版开发包微信小程序 校园小情书后台源码 好玩的表白墙 告白墙 功能全面的PHP命令行应用库 提供控制台参数解析 命令运行 颜色风格输出 用户信息交互 特殊格式信息显示基于 chinese poetry 数据整理的一份 mysql 格式数据帮助 thinkphp 5 开发者快速 轻松的构建Api hyperf admin 是基于 hyperf vue 的配置化后台开发工具 微信支付php 写的视频下载工具 现已支持 Youku Miaopai 腾讯 XVideos Pornhub 91porn 微博酷燃 bilibili 今日头条 芒果TVCorePress 主题 一款高性能 高颜值的WordPress主题快链电商 直播电商 分销商城 微信小程序商城 APP商城 公众号商城 PC商城系统 支付宝小程序商城 抖音小程序商城 百度小程序电商系统 前后端代码全部开源 Laravel vue开发 成熟商用项目 shop mall 商城 电商 利用 PHP cURL 转发 Disqus API 请求可能是最优雅 简易的淘宝客SDKUniAdmin是一套渐进式模块化开源后台 采用前后端分离技术 数据交互采用json格式 功能低耦合高内聚 核心模块支持系统设置 权限管理 用户管理 菜单管理 API管理等功能 后期上线模块商城将打造类似composer npm的开放式插件市场 同时我们将打造一套兼容性的API标准 从ThinkPHP5 1 Vue2开始 逐步吸引爱好者共同加入 以覆盖等多语言框架 PHP 多接口获取快递物流信息包LightCMS 是一个基于 Laravel 开发的轻量级 CMS 系统 也可以作为一个通用的后台管理框架使用单点登录系统快乐二级域名分发系统Typecho Theme Story 爱上你我的故事 一个轻量化的留言板 记事本 社交系统 博客 人类的本质是 咕咕咕？微信域名拦截检测 QQ域名拦截检测 t xzkxb com 查询有缓存 如需实时查询请自行部署 高性能分布式并发锁 行为限流Emlog是一款基于PHP和MySQL的功能强大的博客及CMS建站系统 追求快速 稳定 简单 舒适的建站体验Hyperf admin 基于Hyperf Element UI 通用管理后台企业仓库管理系统HisiPHP V2版是基于ThinkPHP5 1和Layui开发的后台框架 承诺永久免费开源 您可用于学习和商用 但须保留版权信息正常显示 如果HisiPHP对您有帮助 您可以点击右上角 Star 支持一下哦 谢谢 使用PHP开发的简约导航 书签管理系统 软擎是基于 Php 7 2 和 Swoole 4 4 的高性能 简单易用的开发框架 支持同时在 Swoole Server 和 php fpm 两种模式下运行 内置了服务 集成了大量成熟的组件 可以用于构建高性能的Web系统 API 中间件 基础服务等等 个人发卡源码 发卡系统 二次元发卡系统 二次元发卡源码 发卡程序 动漫发卡 PHP发卡源码聊天应用 php实现的dht爬虫搭建的webim客服系统 即时通讯一些实用的python脚本同城拼车微信小程序后端代码 一个响应式干净和简洁优雅的 Typecho 主题php仓库进销存深度学习5 问 以问答形式对常用的概率知识 线性代数 机器学习 深度学习 计算机视觉等热点问题进行阐述 以帮助自己及有需要的读者 全书分为18个章节 5 余万字 由于水平有限 书中不妥之处恳请广大读者批评指正 未完待续 如有意合作 联系scutjy2 15 163 com 版权所有 违权必究 Tan 2 18 6题解 记录自己的leetcode解题之路 最全中华古诗词数据库 唐宋两朝近一万四千古诗人 接近5 5万首唐诗加26万宋诗 两宋时期1564位词人 21 5 首词 uni app 是使用 Vue 语法开发小程序 H5 App的统一框架采用自身模块规范编写的前端 UI 框架 遵循原生 HTML CSS JS 的书写形式 极低门槛 拿来即用 我是依扬 木易杨 公众号 高级前端进阶 作者 每天搞定一道前端大厂面试题 祝大家天天进步 一年后会看到不一样的自己 YApi 是一个可本地部署的 打通前后端及QA的 可视化的接口管理平台小程序组件化开发框架网易云音乐 Node js API service基于 Vue js 的小程序开发框架 从底层支持 Vue js 语法和构建工具体系  ECMAScript 6入门 是一本开源的 JavaScript 语言教程 全面介绍 ECMAScript 6 新增的语法特性  谷粒 Chrome插件英雄榜 为优秀的Chrome插件写一本中文说明书 让Chrome插件英雄们造福人类公众号 加1 同步更新前端面试每日 3 1 以面试题来驱动学习 提倡每日学习与思考 每天进步一点 每天早上5点纯手工发布面试题 死磕自己 愉悦大家 4 道前端面试题全面覆盖小程序 软技能 本文原文由知名 Hacker Eric S Raymond 所撰寫 教你如何正確的提出技術問題並獲得你滿意的答案 千古前端图文教程 超详细的前端入门到进阶学习笔记 从零开始学前端 做一名精致优雅的前端工程师 公众号 千古壹号 作者  book Node js 包教不包会 by alsotang收集所有区块链 BlockChain 技术开发相关资料 包括Fabric和Ethereum开发资料轻量 可靠的小程序 UI 组件库微信小程序商城 微信小程序微店一个可以观看国内主流视频平台所有视频的客户端可伸缩布局方案基于 node js Mongodb 构建的后台系统 js 源码解析磁力链接聚合搜索中华人民共和国行政区划 省级 省份直辖市自治区 地级 城市 县级 区县 乡级 乡镇街道 村级 村委会居委会 中国省市区镇村二级三级四级五级联动地址数据 Web接口管理工具 开源免费 接口自动化 MOCK数据自动生成 自动化测试 企业级管理 阿里妈妈MUX团队出品 阿里巴巴都在用 1 公司的选择 RAP2已发布请移步至github com thx rap2 delosKuboard 是基于 Kubernetes 的微服务管理界面 同时提供 Kubernetes 免费中文教程 入门教程 最新版本的 Kubernetes v1 2 安装手册 k8s install 在线答疑 持续更新 ApacheCN 数据结构与算法译文集 chick 是使用 Node js 和 MongoDB 开发的社区系统一个非常适合IT团队的在线API文档 技术文档工具 Chinese sticker pack More joy 表情包的博物馆 Github最有毒的仓库 中国表情包大集合 聚欢乐 高颜值的第三方网易云播放器 支持 Windows macOS Linux vue2 vue router vuex 入门项目网易云音乐第三方 Flutter实战 电子书 一套代码运行多端 一端所见即多端所见 计算机速成课 Crash Course 字幕组 全4 集 2 18 5 1 精校完成 一个 react redux 的完整项目 和 个人总结中文独立博客列表CSS Inspiration 在这里找到写 CSS 的灵感 rich text 富文本编辑器 汉字拼音 hàn zì pīn yīn Chrome插件开发全攻略 配套完整Demo 欢迎clone体验微信调试 各种WebView样式调试 手机浏览器的页面真机调试 便捷的远程调试手机页面 抓包工具 支持 HTTPS 无需USB连接设备  master分支 渲染器 微信小程序组件 API 云开发示例简悦 SimpRead 让你瞬间进入沉浸式阅读的扩展让H5制作像搭积木一样简单 轻松搭建H5页面 H5网站 PC端网站 LowCode平台  一套组件化 可复用 易扩展的微信小程序 UI 组件库这是一个数据可视化项目 能够将历史数据排名转化为动态柱状图图表微信小程序图表charts组件 Charts for WeChat small app类似易企秀的H5制作 建站工具 可视化搭建系统 一个在你编程时疯狂称赞你的 VSCode 扩展插件全家桶后台管理框架解锁网易云音乐客户端变灰歌曲美观易用的React富文本编辑器 基于draft js开发一个致力于微信小程序和 Web 端同构的解决方案從零開始學 ReactJS ReactJS 1 1 是一本希望讓初學者一看就懂的 React 中文入門教學書 由淺入深學習 ReactJS 生態系源码解读 系列文章 完 我就是来分享脚本玩玩的开发者边车 github打不开 github加速 git clone加速 git release下载加速 stackoverflow加速vue源码逐行注释分析 4 多m的vue源码程序流程图思维导图 diff部分待后续更新 微信小程序解决方案 1KB javascript 覆盖状态管理 跨页通讯 插件开发和云数据库开发给老司机用的一个番号推荐系统 FeHelper Web前端助手记录成长的过程哔哩哔哩 bilibili com 辅助工具 可以替换播放器 推送通知并进行一些快捷操作提供了百度坐标 BD 9 国测局坐标 火星坐标 GCJ 2 和WGS84坐标系之间的转换F2etest是一个面向前端 测试 产品等岗位的多浏览器兼容性测试整体解决方案  ️ 阿里飞猪 很易用的中后台 表单 表格 图表 解决方案CRMEB Min 前后端分离版自带客服系统 是CRMEB品牌全新推出的一款轻量级 高性能 前后端分离的开源电商系统 完善的后台权限管理 会员管理 订单管理 产品管理 客服管理 CMS管理 多端管理 页面DIY 数据统计 系统配置 组合数据管理 日志管理 数据库管理 一键开通短信 产品采集 物流查询等接口  React技术揭秘 一本自顶向下的React源码分析书微信小程序 基于wepy 商城 微店 微信小程序 欢迎学习交流大屏数据可视化Pytorch 中文文档经典的网页对话框组件 强大的动态表单生成器 简洁 易用 灵活的微信小程序组件库 一款 Material Design 风格的 Hexo 主题签到一个帮助你自动申请京东价格保护的chrome拓展后台admin前端模板 基于 layui 编写的最简洁 易用的后台框架模板 只需提供一个接口就直接初始化整个框架 无需复杂操作 小程序生成图片库 轻松通过 json 方式绘制一张可以发到朋友圈的图片安卓应用层抓包通杀脚本一个轻量的工具集合婚礼大屏互动 微信请柬一站式解决方案mili 是一个开源的社区系统 界面优雅 功能丰富 丝般顺滑的触摸运动方案做最好的接口管理平台Mpx 一款具有优秀开发体验和深度性能优化的增强型跨端小程序框架省市区县乡镇三级或四级城市数据 带拼音标注 坐标 行政区域边界范围 2 21年 7月 3日最新采集 提供csv格式文件 支持在线转成多级联动js代码 通用json格式 提供软件转成shp geojson sql 导入数据库 带浏览器里面运行的js采集源码 综合了中华人民共和国民政部 国家统计局 高德地图 腾讯地图行政区划数据在vscode中用于生成文件头部注释和函数注释的插件 经过多版迭代后 插件 支持所有主流语言 功能强大 灵活方便 文档齐全 食用简单 觉得插件不错的话 点击右上角给个Star ️呀  JAVClub 让你的大姐姐不再走丢️你想要的最全 Android 进阶路线知识图谱 干货资料收集  开发者推荐阅读的书籍 2 2 淘宝 京东 支付宝双十一 双11全民养猫 全民营业自动化脚本 全额奖励 防检测 一款高性能敏感词 非法词 脏字 检测过滤组件 附带繁体简体互换 支持全角半角互换 汉字转拼音 模糊搜索等功能 前端博客 关注基础知识和性能优化 vue cli4配置vue config js持续更新PT 助手 Plus 为 Google Chrome 和 Firefox 浏览器插件 Web Extensions 主要用于辅助下载 PT 站的种子 基于vue2 koa2的 H5制作工具 让不会写代码的人也能轻松快速上手制作H5页面 类似易企秀 百度H5等H5制作 建站工具最全最新中国省 市 地区json及sql数据首个 Taro 多端统一实例 网易严选 小程序 H5 React Native By 趣店 FED地理信息可视化库企业级 Node js 应用性能监控与线上故障定位解决方案 Node js区块链开发 注 新版代码已开源 请star支持哦 基于Auto js的蚂蚁森林能量自动收取脚本 结巴 中文分词的Node js版本 译 面向机器学习的特征工程webfunny是一款轻量级的前端监控系统 webfunny也是一款前端性能监控系统 无埋点监控前端日志 实时分析前端健康状态一个实现汉字与拼音互转的小巧web工具库 演示地址  前端进阶 优质博文 一个 Chrome 插件 将 Google CDN 替换为国内的  Vue ElementUI构建的CMS开发框架超完整的React Native项目 功能丰富 适合学习和日常使用 GSYGithubApp系列的优势 我们目前已经拥有四个版本 功能齐全 项目框架内技术涉及面广 完成度高 配套文章 适合全面学习 对比参考 开源Github客户端App 更好的体验 更丰富的功能 旨在更好的日常管理和维护个人Github 提供更好更方便的驾车体验Σ 同款Weex版本同款Flutter版本 https github com CarGu 群 宇宙最强的前端面试指南 lucifer ren fe interview 微慕小程序开源版 WordPress版微信小程序函数式编程指北中文版Node js面试题 侧重后端应用与对Node核心的理解jQuery源码解析小白入坑vue三部曲 关于 vue 在工作的使用问题总结 请看博客 sunseekers github io 一直保持更新基于 Vue 的 PWA 解决方案 帮助开发者快速搭建 PWA 应用 解决接入 PWA 的各种问题ThinkCMF是一款支持Swoole的开源内容管理框架 基于ThinkPHP开发 同时支持PHP FPM和Swoole双模式 让WEB开发更快 微信小程序图片裁剪工具前端知识月刊Next Terminal是一个轻量级堡垒机系统 易安装 易使用 支持RDP SSH VNC Telnet Kubernetes协议 微信小程序 日历组件 基于 ueditor的更现代化的富文本编辑器 支持HTTPS基于JavaScript React Vue2的流程图组件 采用Spring MyBatis Shiro框架 开发的一套权限系统 极低门槛 拿来即用 设计之初 就非常注重安全性 为企业系统保驾护航 让一切都变得如此简单 QQ群 32478 2 4 145799952  一个前端的博客  春松客服 多渠道智能客服系统 开源客服系统 机器人客服一个工作流平台小程序 小游戏以及 Web 通用 Canvas 渲染引擎 在线工具秘籍 为在线工具写一本优质说明书 让在线工具造福人类 前端内参 有关于JavaScript 编程范式 设计模式 软件开发的艺术等大前端范畴内的知识分享 旨在帮助前端工程师们夯实技术基础以通过一线互联网企业技术面试  ️ vCards 中国黄页 优化 iOS Android 来电 信息界面体验各平台的分流规则 复写规则及自动化脚本 基于vue2 的实时聊天项目 图片剪裁上传组件 等笔记快速分享 GoogleDrive OneDrive 每日时报 以前端技术体系为主要分享课题 根据 文章 工具 新闻 视频几大板块作为主要分类 一款高效 高性能的帧动画生成工具 停止维护 一个在线音乐播放器 仅 UI 无功能 小程序富文本组件 支持渲染和编辑 html 支持在微信 QQ 百度 支付宝 头条和 uni app 平台使用基于 electron vue 开发的音乐播放器 界面模仿QQ音乐 技术栈欢迎starweui 是在weui和zepto基础上开发的增强UI组件 目前分为表单 基础 组件 js插件四大类 共计百余项功能 是最全的weui样式同步和更新大佬脚本库 更新懒人配置腾讯云即时通信 IM 服务 国内下载镜像 基于 Vue 的小程序开发框架React 16 8打造精美音乐WebAppWK系列开发框架 V1至V5 Java开源企业级开发框架 单应用 微服务 分布式  ️中国 省市区 三级联动 地址选择器 微信小程序2d动画库 分布式 Redis缓存 Shiro权限管理 Spring Session单点登录 Quartz分布式集群调度 Restful服务 QQ 微信登录 App token登录 微信 支付宝支付 日期转换 数据类型转换 序列化 汉字转拼音 身份证号码验证 数字转人民币 发送短信 发送邮件 加密解密 图片处理 excel导入导出 FTP SFTP fastDFS上传下载 二维码 XML读写 高精度计算 系统配置工具类等等 EduSoho 网络课堂是由杭州阔知网络科技有限公司研发的开源网校系统 EduSoho 包含了在线教学 招生和管理等完整功能 让教育机构可以零门槛建立网校 成功转型在线教育 EduSoho 也可作为企业内训平台 帮助企业实现人才培养  自用的一些乱七八糟 油猴脚本 为刚刚学习php语言以及web网站开发整理的一套资源 有视频 实战代码 学习路径等 会持续更新 This is a goindex theme 一个goindex的扩展主题 NumPy官方中文文档 完整版  搭建移动端开发 基于适配方案 axios封装 构建手机端模板脚手架 后台管理 脚手架接口 从简单开始 PhalApi简称π框架 一个轻量级PHP开源接口框架 专注于接口服务开发 前端特效存档Chrome浏览器 抢购 秒杀插件 秒杀助手 定时自动点击云存储管理客户端 支持七牛云 腾讯云 青云 阿里云 又拍云 亚马逊S3 京东云 仿文件夹管理 图片预览 拖拽上传 文件夹上传 同步 批量导出URL等功能font carrier是一个功能强大的字体操作库 使用它你可以随心所欲的操作字体 让你可以在svg的维度改造字体的展现形状 CRN是Ctrip React Native简称 由携程无线平台研发团队基于React Native框架优化 定制成稳定性和性能更佳 也更适合业务场景的跨平台开发框架  油猴脚本页面浮窗广告完全过滤净化 国服最强最全最新CSDN脚本微信小程序即时通讯模板 使用WebSocket通信小程序反编译 支持分包 “想学吗”个人知识管理与自媒体营销工具 超多经典 Canvas 实例 动态离子背景 炫彩小球 贪吃蛇 坦克大战 是男人就下1 层 心形文字等  Vue UEditor v model双向绑定 HQChart H5 微信小程序 沪深 港股 数字货币 期货 美股 K线图 kline 走势图 缩放 拖拽 十字光标 画图工具 截图 筹码图 分析家语法 通达信语法 麦语法 第3方数据替换接口基于koa2的标准前后端分离框架 一款企业信息化开发基础平台 拟集成OA 办公自动化 CMS 内容管理系统 等企业系统的通用业务功能 JeePlatform项目是一款以SpringBoot为核心框架 集ORM框架Mybatis Web层框架SpringMVC和多种开源组件框架而成的一款通用基础平台 代码已经捐赠给开源中国社区基于inception的自动化SQL操作平台 支持SQL执行 LDAP认证 发邮件 OSC SQL查询 SQL优化建议 权限管理等功能 支持docker镜像是一款专门面向个人 团队和小型组织的私有网盘系统 轻量 开源 完善 无论是在家庭 学校还是在办公室 您都能立刻开始使用它 了解更多请访问官方网站 Node js API 中文文档dubbo服务管理以及监控系统拯救B站的弹幕体验  对抗假消息系列项目之一 截屏 实锤？相信你就输了 ”突破性“更新 支持修改任何网站  ️一个简洁 优雅且高效的 Hugo 主题Vue js 示例项目 简易留言板 本项目拥有完善的文档说明与注释 让您快速上手 Vue js 开发? Vue Validator? Vuex?最佳实践基于 Node js Koa2 实战开发的一套完整的博客项目网站 用 React 编写的基于Taro Dva构建的适配不同端 微信 百度 支付宝小程序 H5 React Native 等 的时装衣橱信息泄漏监控系统 伪装115浏览器干爆前端 一网打尽前端面试 学习路径 优秀好文等各类内容 帮助大家一年内拿到期望的 offer 前端性能监控系统 消息队列 高可用 集群等相关架构SpringBoot v2项目是努力打造springboot框架的极致细腻的脚手架 包括一套漂亮的前台 无其他杂七杂八的功能 原生纯净 中文文本标注工具 最全最新中国 省 市 区县 乡镇街道 json csv sql数据 一款轻巧的渐进式微信小程序框架 全网 1 w 阅读量的进阶前端技术博客仓库 Vue 源码解析 React 深度实践 TypeScript 进阶艺术 工程化 性能优化实践 完整开源 Java快速开发平台 基于Spring SpringMVC Mybatis架构 MStore提供更多好用的插件与模板 文章 商城 微信 论坛 会员 评论 支付 积分 工作流 任务调度等 同时提供上百套免费模板任意选择 价值源自分享 铭飞系统不仅一套简单好用的开源系统 更是一整套优质的开源生态内容体系 铭飞的使命就是降低开发成本提高开发效率 提供全方位的企业级开发解决方案 每月28定期更新版本WeHalo 简约风 的微信小程序版博客 基于 vue2 vuex 构建一个具有 45 个页面的大型单页面应用基于Vue3 Element Plus 的后台管理系统解决方案基于 vue element ui 的后台管理系统鲜亮的高饱和色彩 专注视觉的小程序组件库 ️ 跨平台桌面端视频资源播放器 简洁无广告 免费高颜值 后台管理主线版本基于三者并行开发维护 同时支持电脑 手机 平板 切换分支查看不同的vue版本 element plus版本已发布 vue3 vue3 vue vue3 x vue js 程序无国界 但程序员有国界 中国国家尊严不容挑衅 如果您在特殊时期 mall admin web是一个电商后台管理系统的前端项目 基于Vue Element实现 主要包括商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等功能 一款完善的安全评估工具 支持常见 web 安全问题扫描和自定义 poc 使用之前务必先阅读文档Vue数据可视化组件库 类似阿里DataV 大屏数据展示 提供SVG的边框及装饰 图表 水位图 飞线图等组件 简单易用 长期更新 React版已发布  UI表单设计及代码生成器基于Vue的可视化表单设计器 让表单开发简单而高效 基于vue的高扩展在线网页制作平台 可自定义组件 可添加脚本 可数据统计 vue后台管理框架 精致的下拉刷新和上拉加载 js框架 支持vue 完美运行于移动端和主流PC浏览器 基于vue2 vuex element ui后台管理系统  Vue js高仿饿了么外卖App课程源码 coding imooc com class 74 html京东风格移动端 Vue2 Vue3 组件库eladmin前端源码 项目基于的前后端分离后台管理系统 权限控制采用 RBAC 菜单动态路由资源采集站在线播放uView UI 是uni app生态最优秀的UI框架 全面的组件和便捷的工具会让您信手拈来 如鱼得水Vue2 全家桶仿 微信App 项目 支持多人在线聊天和机器人聊天前端vue 后端koa 全栈式开发bilibili首页 A magical vue admin 记得star互联网大厂内推及大厂面经整理 并且每天一道面试题推送 每天五分钟 半年大厂中 Vue3 全家桶 Vant 搭建大型单页面商城项目 新蜂商城 Vue3 版本 技术栈为基于Vue开发的XMall商城前台页面 PC端 Vue全家桶 Vant 搭建大型单页面电商项目 ddbuy 7 orange cn前后端分离权限管理系统 精力有限 停止维护 用 Vue js 开发的跨三端应用Prototyping Tool For Vue Devs 适用于Vue的原型工具实战商城  基于Vue2 高仿微信App的单页应用electron跨平台音乐播放器 可搜网易云 QQ音乐 虾米音乐 支持QQ 微博 Github登录 云歌单 支持一键导入音乐平台歌单ThorUI组件库 轻量 简洁的移动端组件库 组件文档地址 thorui cn doc 最近更新时间 2 21 5 28uni app框架演示示例 Electron Vue 仿网易云音乐windows客户端 基于 Vue2 Vue CLI3 的高仿网易云 mac 客户端播放器 PC Online Music PlayerGitHub 泄露监控系统pear 梨子 轻量级的在线项目 任务协作系统 远程办公协作自选基金助手是一款Chrome扩展 用来快速获取关注基金的实时数据 查看自选基金的实时估值情况支持 markdown 渲染的博客前台展示Vue 音乐搜索 播放 Demo 一个基于 vue2 vue3 的 大转盘 九宫格 抽奖插件奖品 文字 图片 颜色 按钮均可配置 支持同步 异步抽奖 概率前 后端可控 自动根据 dpr 调整清晰度适配移动端 基于 Vue 的在线音乐播放器 PC Online music player美团饿了吗外卖红包外卖优惠券 先领红包再下单 外卖红包优惠券 cps分成 别人领红包下单 你拿佣金 讨论如何构建一套可靠的大型分布式系统用 vue 写小程序 基于 mpvue 框架重写 weui 基于Vue框架构建的github数据可视化平台使用GitHub API 搭建一个可动态发布文章的博客可视化拖拽组件库 DEMO基于开源组件 Inception SQLAdvisor SOAR 的SQL审核 SQL优化的Web平台显示当前网站的所有可用Tampermonkey脚本 专注Web与算法无缝滚动component精通以太坊 中文版 网页模拟桌面基于的多模块前后端分离的博客项目网易云音乐 QQ音乐 咪咕音乐 第三方 web端 可播放 vip 下架歌曲 基于权限管理的后台管理系统基于 Node js 的开源个人博客系统 采用 Nuxt Vue TypeScript 技术栈  一款简洁高效的VuePress知识管理 博客 blog 主题基于uni app的ui框架基于Vue Vuex iView的电子商城网站 Vue2 全家桶 Vant 搭建大型单页面商城项目 新蜂商城前后端分离版本 前端Vue项目源码酷狗 ️ 极客猿梦导航 独立开发者的导航站  Vue SpringBoot MyBatis 音乐网站基于 RageFrame2 的一款免费开源的基础商城销售功能的开源微商城 基于vue2 的网易云音乐播放器 api来自于NeteaseCloudMusicApi v2 为最新版本编写的一套后台管理系统全栈开发王者荣耀手机端官网和管理后台基于 Vue3 x TypeScript 的在线演示文稿应用 实现PPT幻灯片的在线编辑 演示 基于vue2 生态的后台管理系统模板开发的后台管理系统 Vchat 从头到脚 撸一个社交聊天系统 vue node mongodb h5编辑器类似maka 易企秀 账号 密码 admin996 公司展示 讨论Vue Spring boot前后端分离项目 wh web wh server的升级版 基于element ui的数据驱动表单组件基于 GitHub API 开发的图床神器 图片外链使用 jsDelivr 进行 CDN 加速 免下载 免安装 打开网站即可直接使用 免费 稳定 高效  ️ Vue初 中级项目 CnodeJS社区重构预览 DEMO 基于vue2全家桶实现的 仿移动端QQ基于Vue Echarts 构建的数据可视化平台 酷炫大屏展示模板和组件库 持续更新各行各业实用模板和炫酷小组件 基于Spring Boot的在线考试系统 预览地址 129 211 88 191 账户分别是admin teacher student 密码是admin123 6pan 6盘小白羊 第二版 vue3 antd typescript on bone and knife 基于Vue 全家桶 2 x 制作的美团外卖APP 本项目是一款基于 Avue 的表单设计器 拖拽式操作让你快速构建一个表单 一刻社区前端源码基于Vue iView Admin开发的XBoot前后端分离开放平台前端 权限可控制至按钮显示 动态路由权限菜单 多语言 简洁美观 前后端分离 ️一个开源的社区程序 临时测试站 https t myrpg cnecharts地图geoJson行政边界数据的实时获取与应用 省市区县多级联动下钻 真正意义的下钻至县级 附最新geoJson文件下载 Vue的Nuxt js服务端渲染框架 NodeJS为后端的全栈项目 Docker一键部署 面向小白的完美博客系统vue瀑布流组件 vue waterfall easy 2 x Ego 移动端购物商城 vue vuex ruoter webpack  Vue js Node js Mongodb 前后端分离的个人博客头像加口罩小程序 基于uniapp使用vue快速实现 广告月收入4k  基于vue3 的管理端模板教你如何打造舒适 高效 时尚的前端开发环境基于 Flask 和 Vue js 前后端分离的微型博客项目 支持多用户 Markdown文章 喜欢 收藏文章 粉丝关注 用户评论 点赞 动态通知 站内私信 黑名单 邮件支持 管理后台 权限管理 RQ任务队列 Elasticsearch全文搜索 Linux VPS部署 Docker容器部署等基于 vue 和 heyui 组件库的中后端系统 admin heyui topVue 轻量级后台管理系统基础模板uni app项目插件功能集合We川大小程序 scuplus 使用wepy开发的完善的校园综合小程序 4 页面 前后端开源 包括成绩 课表 失物招领 图书馆 新闻资讯等等常见校园场景功能一个全随机的刷装备小游戏一个vue全家桶入门Demo 是一個可以幫助您 Vue js 的項目測試及偵錯的工具 也同時支持 Vuex及 Vue Router  微信公众号管理系统 包含公众号菜单管理 自动回复 素材管理 模板消息 粉丝管理 ️等功能 前后端都开源免费  基于vue 的管理后台 配合Blog Core与Blog Vue等多个项目使用海风小店 开源商城 微信小程序商城管理后台 后台管理 VUE IT之家第三方小程序版客户端 使用 mpvue 开发 兼容 web vue 可以拖拽排序的树形表格 现代 Web 开发语法基础与工程实践 涵盖 Web 开发基础 前端工程化 应用架构 性能与体验优化 混合开发 React 实践 Vue 实践 WebAssembly 等多方面  数据大屏可视化编辑器一个适用于摄影从业者 爱好者 设计师等创意行业从业者的图像工具箱 武汉大学图书馆助手 桌面端基于form generator 仿钉钉审批流程创建 表单创建 流程节点可视化配置 必填条件及校验 一个完整electron桌面记账程序 技术栈主要使用electron vue vuetify 开机自动启动 自动更新 托盘最小化 闪烁等常用功能 Nsis制作漂亮的安装包 程序猿的婚礼邀请函 一个基于vue和element ui的树形穿梭框及邮件通讯录版本见示例见 基于Gin Vue Element UI的前后端分离权限管理系统的前端模块通用书籍阅读APP BookChat 的 uni app 实现版本 支持多端分发 编译生成Android和iOS 手机APP以及各平台的小程序基于Vue3的Material design风格移动端组件库进阶资深前端开发在线考试系统 springboot vue前后端分离的一个项目  ️ 无后端的仿 YouTube Live Chat 风格的简易 Bilibili 弹幕姬vue后端管理系统界面 基于ui组件iviewBilibili直播弹幕库 for Mac Windows LinuxVue高仿网易云音乐 基本实现网易云所有音乐 MV相关功能 现已更新到第二版 仅用于学习 下面有详细教程 武汉大学图书馆助手 移动端Zeus基于Golang Gin casbin 致力于做企业统一权限 账号中心管理系统 包含账号管理 数据权限 功能权限 应用管理 多数据库适配 可docker 一键运行 社区活跃 版本迭代快 加群免费技术支持 Vue高仿网易云音乐 Vue入门实践 在线预览 暂时停止基于 Vue 和 ElementUI 构建的一个企业级后台管理系统 ️ 跨平台移动端视频资源播放器 简洁免费 ZY Player 移动端 APP 基于 Uni app 开发 Vue实战项目基于参考小米商城 实现的电商项目 h5制作 移动端专题活动页面可视化编辑仿钉钉审批流程设置动态表单页面设计 自动生成页面微前端项目实战vue项目 基于vue3 qiankun2 进阶版 github com wl ui wl mfe基于 d2 admin的RBAC权限管理解决方案VueNode 是一套基于的前后端分离项目 基于仿京东淘宝的 移动端H5电商平台  巨树 基于ztree封装的Vue树形组件 轻松实现海量数据的高性能渲染 微信红包封面领取 用户观看视频广告或者邀请用户可获取微信红包序列号基于 Vue 的可视化布局编辑器插件kbone ui 是一套能同时支持 小程序 kbone 和 vue 框架开发的多端 UI 库 PS 新版 kbone ui 已出炉并迁移到 kbone 主仓库 此仓库仅做旧版维护之用  一个vue的个人博客项目 配合 net core api教程 打造前后端分离Tumo Blog For Vue js 前后端分离bpmn js流程设计器组件 基于vue elementui美化属性面板 满足9 %以上的业务需求专门为 Weex 前端开发者打造的一套高质量UI框架 想用vue把我现在的个人网站重新写一下 新的风格 新的技术 什么都是新的 本项目是一个在线聊天系统 最大程度的还原了Mac客户端QQ vue cli3 后台管理模板 heart 基于vue2和vuex的复杂单页面应用 2 页面53个API 仿实验楼 基于 Vue Koa 的 WebDesktop 视窗系统 Jeebase是一款前后端分离的开源开发框架 基于开发 一套SpringBoot后台 两套前端页面 可以自由选择基于ElementUI或者AntDesign的前端界面 二期会整合react前端框架 Ant Design React 在实际应用中已经使用这套框架开发了CMS网站系统 社区论坛系统 微信小程序 微信服务号等 后面会逐步整理开源 本项目主要目的在于整合主流技术框架 寻找应用最佳项目实践方案 实现可直接使用的快速开发框架 使用 vue cli3 搭建的vue vuex router element 开发模版 集成常用组件 功能模块JEECG BOOT APP 移动解决方案 采用uniapp框架 一份代码多终端适配 同时支持APP 小程序 H5 实现了与JeecgBoot平台完美对接的移动解决方案 目前已经实现登录 用户信息 通讯录 公告 移动首页 九宫格等基础功能 明日方舟工具箱 支持中台美日韩服vue的验证码插件这里有一些标准组件库可能没有的功能组件 已有组件 放大镜 签到 图片标签 滑动验证 倒计时 水印 拖拽 大家来找茬 基于Vue2 Nodejs MySQL的博客 有后台管理系统 支持 登陆 注册 留言 评论 回复 点赞长江证券郑州大学超市管理系统天安门坦克桌面行驶工况茶马古道金融文本情感自动黄河银行营销通许章润 | A股、虚拟货币、期货 | HTML | Agent |
+| [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship) | 3330 | 反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit.  Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓"法学"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及秘书班子中可以找到。王沪宁的“真才实学”只不过是一个只读四年小学的人，大半辈子在社会上磨炼特别是在中共官场滚打炼出的的手段和经验而已，他和习近平等保送的工农兵假“大学生”都一样，无法从事原“专业”都凭红资本而从政。六四学运期间各界一边倒支持学生，王沪宁一度去法国躲避和筹谋，他还加入了反学运签名，成为极少有的反学运者仕途突显，在六四和苏联垮台后中共意识形态危机，江泽民上台看上唯一能应急的王沪宁聚谋士泡制的"稳定统一领导"和之后的"新权威"谬论。左转被邓小平南巡阻止后，王策划顺邓经济改革却将政治改革逐步全面终止和倒退，泡制“三个代表”为极左转建立庞大牢固的红色既得利益集团。因此六四后各重大决策和危机难题都摆在中共中央政策研究室王沪宁桌面上，使王沪宁成了此后中共三朝都无法摆脱的幕后最有决策性实权的人，中共中央政策研究室是王为其野心巨资经营几十年，聚众谋士的间谍情报汇总研究的特务机关和策划制定决策重要机构与基地，王沪宁本人和决定其仕途关键的首任岳父及家属就有情报工作背景。中央政研室重要到王沪宁入常后为了死抓这中共情报与决策大权，宁可放弃国家副主席和中央党校校长。后再加个除习外唯他担任的中共几核心领导小组之一的“不忘初心牢记使命”主题教育工作小组组长。此后他把持的舆论必将以宣传“不忘初心牢记使命”为主，打造众所周知的所谓“习思想”其实是”王思想“。王自从主导中央政研室开始决策后，策划中止邓小平的与美妥协路线回归毛极左的反美路线。帮助前南斯拉夫提供情报打落美机放中使馆引发炸使馆事件，以此掀起六四后唯一的全国大规模游行并借此反美而起家。后又帮江泽民提供法轮功会是超过中共组织的情报，策划决策镇压迫害开始并没有把矛头指向江的法轮功群体，策划决定阻止党内外近三十年来平反六四的呼声。致远黑皮书马拉松程序员易支付英语台词文字匹配美团点评各业务线提供知识库团队共享阿里云高精Excel识别德讯 ·吉特胡布薄熙来黑科技习近平讲话模拟器习近平音源黑马程序员MySQL数据库玉米杂草数据集销售系统开发疫情期间网民情绪识别比赛996icu996 icu学习强国预测结果导出赖伟林刺杀小说家购物商场英语词汇量小程序联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗词数据库 唐宋两朝近一万四千古诗人 接近5 5万首唐诗加26万宋诗 两宋时期1564位词人 21 5 首词 uni app 是使用 Vue 语法开发小程序 H5 App的统一框架2 21年最新总结 阿里 腾讯 百度 美团 头条等技术面试题目 以及答案 专家出题人分析汇总 科学上网 自由上网 翻墙 软件 方法 一键翻墙浏览器 免费账号 节点分享 vps一键搭建脚本 教程AiLearning 机器学习 MachineLearning ML 深度学习 DeepLearning DL 自然语言处理 NLP123 6智能刷票 订票开放式跨端跨框架解决方案 支持使用 React Vue Nerv 等框架来开发微信 京东 百度 支付宝 字节跳动 QQ 小程序 H5 React Native 等应用 taro zone 掘金翻译计划 可能是世界最大最好的英译中技术社区 最懂读者和译者的翻译平台  no evil 程序员找工作黑名单 换工作和当技术合伙人需谨慎啊 更新有赞 算法面试 算法知识 针对小白的算法训练 还包括 1 阿里 字节 滴滴 百篇大厂面经汇总 2 千本开源电子书 3 百张思维导图 右侧来个 star 吧 English version supported 955 不加班的公司名单 工作 955 work–life balance 工作与生活的平衡 诊断利器Arthas The Way to Go 中文译本 中文正式名 Go 入门指南  Java面试 Java学习指南 一份涵盖大部分Java程序员所需要掌握的核心知识 教程 技术栈示例代码 快速简单上手教程 2 17年买房经历总结出来的买房购房知识分享给大家 希望对大家有所帮助 买房不易 且买且珍惜http下载工具 基于http代理 支持多连接分块下载 动手学深度学习 面向中文读者 能运行 可讨论 中英文版被全球175所大学采用教学 阿里云计算平台团队出品 为监控而生的数据库连接池程序员简历模板系列 包括PHP程序员简历模板 iOS程序员简历模板 Android程序员简历模板 Web前端程序员简历模板 Java程序员简历模板 C C 程序员简历模板 NodeJS程序员简历模板 架构师简历模板以及通用程序员简历模板采用自身模块规范编写的前端 UI 框架 遵循原生 HTML CSS JS 的书写形式 极低门槛 拿来即用 贵校课程资料民间整理 企业级低代码平台 前后端分离架构强大的代码生成器让前后端代码一键生成 无需写任何代码 引领新的开发模式OnlineCoding 代码生成 手工MERGE 帮助Java项目解决7 %重复工作 让开发更关注业务 既能快速提高效率 帮助公司节省成本 同时又不失灵活性 我是依扬 木易杨 公众号 高级前端进阶 作者 每天搞定一道前端大厂面试题 祝大家天天进步 一年后会看到不一样的自己 冴羽写博客的地方 预计写四个系列 JavaScript深入系列 JavaScript专题系列 ES6系列 React系列 中文分词 词性标注 命名实体识别 依存句法分析 语义依存分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理flutter 开发者帮助 APP 包含 flutter 常用 14 组件的demo 演示与中文文档 下拉刷新 上拉加载 二级刷新 淘宝二楼智能下拉刷新框架 支持越界回弹 越界拖动 具有极强的扩展性 集成了几十种炫酷的Header和 Footer 该项目已成功集成 actuator 监控 admin 可视化监控 logback 日志 aopLog 通过AOP记录web请求日志 统一异常处理 json级别和页面级别 freemarker 模板引擎 thymeleaf 模板引擎 Beetl 模板引擎 Enjoy 模板引擎 JdbcTemplate 通用JDBC操作数据库 JPA 强大的ORM框架 mybatis 强大的ORM框架 通用Mapper 快速操作Mybatis PageHelper 通用的Mybatis分页插件 mybatis plus 快速操作Mybatis BeetlSQL 强大的ORM框架 u Python资源大全中文版 包括 Web框架 网络爬虫 模板引擎 数据库 数据可视化 图片处理等 由 开源前哨 和 Python开发者 微信公号团队维护更新 吴恩达老师的机器学习课程个人笔记To Be Top Javaer Java工程师成神之路循序渐进 学习博客Spring系列源码 mrbird cc谢谢可能是让你受益匪浅的英语进阶指南镜像网易云音乐 Node js API service快速 简单避免OOM的java处理Excel工具基于 Vue js 的小程序开发框架 从底层支持 Vue js 语法和构建工具体系 中文版 Apple 官方 Swift 教程本项目曾冲到全球第一 干货集锦见本页面最底部 另完整精致的纸质版 编程之法 面试和算法心得 已在京东 当当上销售好耶 是女装Security Guide for Developers 实用性开发人员安全须知 阿里巴巴 MySQL binlog 增量订阅 消费组件  ECMAScript 6入门 是一本开源的 JavaScript 语言教程 全面介绍 ECMAScript 6 新增的语法特性  C C 技术面试基础知识总结 包括语言 程序库 数据结构 算法 系统 网络 链接装载库等知识及面试经验 招聘 内推等信息 一款优秀的开源博客发布应用  Solutions to LeetCode by Go 1 % test coverage runtime beats 1 % LeetCode 题解分布式任务调度平台XXL JOB  谷粒 Chrome插件英雄榜 为优秀的Chrome插件写一本中文说明书 让Chrome插件英雄们造福人类公众号 加1 同步更新互联网公司技术架构 微信 淘宝 微博 腾讯 阿里 美团点评 百度 Google Facebook Amazon eBay的架构 欢迎PR补充IntelliJ IDEA 简体中文专题教程程序员技能图谱前端面试每日 3 1 以面试题来驱动学习 提倡每日学习与思考 每天进步一点 每天早上5点纯手工发布面试题 死磕自己 愉悦大家 4 道前端面试题全面覆盖小程序 软技能 华为鸿蒙操作系统 互联网首份程序员考公指南 由3位已经进入体制内的前大厂程序员联合献上 Mac微信功能拓展 微信插件 微信小助手 A plugin for Mac WeChat  机器学习 西瓜书 公式推导解析 在线阅读地址一款轻量级 高性能 功能强大的内网穿透代理服务器 支持tcp udp socks5 http等几乎所有流量转发 可用来访问内网网站 本地支付接口调试 ssh访问 远程桌面 内网dns解析 内网socks5代理等等 并带有功能强大的web管理端一款面向泛前端产品研发全生命周期的效率平台 文言文編程語言清华大学计算机系课程攻略面向云原生微服务的高可用流控防护组件  On Java 8 中文版 本文原文由知名 Hacker Eric S Raymond 所撰寫 教你如何正確的提出技術問題並獲得你滿意的答案 React Native指南汇集了各类react native学习资源 开源App和组件1 Days Of ML Code中文版千古前端图文教程 超详细的前端入门到进阶学习笔记 从零开始学前端 做一名精致优雅的前端工程师 公众号 千古壹号 作者 基于 React 的渐进式研发框架 ice work视频播放器支持弹幕 外挂字幕 支持滤镜 水印 gif截图 片头广告 中间广告 多个同时播放 支持基本的拖动 声音 亮度调节 支持边播边缓存 支持视频自带rotation的旋转 9 27 之类 重力旋转与手动旋转的同步支持 支持列表播放 列表全屏动画 视频加载速度 列表小窗口支持拖动 动画效果 调整比例 多分辨率切换 支持切换播放器 进度条小窗口预览 列表切换详情页面无缝播放 rtsp concat mpeg JumpServer 是全球首款开源的堡垒机 是符合 4A 的专业运维安全审计系统 Linux命令大全搜索工具 内容包含Linux命令手册 详解 学习 搜集 git io linux book Node js 包教不包会 by alsotang又一个小商城 litemall Spring Boot后端 Vue管理员前端 微信小程序用户前端 Vue用户移动端微信 跳一跳 Python 辅助Java资源大全中文版 包括开发库 开发工具 网站 博客 微信 微博等 由伯乐在线持续更新  python模拟登陆一些大型网站 还有一些简单的爬虫 希望对你们有所帮助 ️ 如果喜欢记得给个star哦 C 那些事 网络爬虫实战 淘宝 京东 网易云 B站 123 6 抖音 笔趣阁 漫画小说下载 音乐电影下载等deeplearning ai 吴恩达老师的深度学习课程笔记及资源 Spring Boot基础教程 Spring Boot 2 x版本连载中 帮助 Android App 进行组件化改造的路由框架 最接近原生APP体验的高性能框架基于Vue3 Element Plus 的后台管理系统解决方案程序员如何优雅的挣零花钱 2 版 升级为小书了 从Java基础 JavaWeb基础到常用的框架再到面试题都有完整的教程 几乎涵盖了Java后端必备的知识点spring boot 实践学习案例 是 spring boot 初学者及核心技术巩固的最佳实践 另外写博客 用 OpenWrite 最好用的 V2Ray 一键安装脚本 管理脚本中国程序员容易发音错误的单词 统计学习方法 的代码实现关于Python的面试题本项目将 动手学深度学习 Dive into Deep Learning 原书中的MXNet实现改为PyTorch实现 提高 Android UI 开发效率的 UI 库前端精读周刊 帮你理解最前沿 实用的技术  的奇技淫巧时间选择器 省市区三级联动 Python爬虫代理IP池 proxy pool LeetCode 刷题攻略 2 道经典题目刷题顺序 共6 w字的详细图解 视频难点剖析 5 余张思维导图 从此算法学习不再迷茫 来看看 你会发现相见恨晚 一个基于 electron 的音乐软件Flutter 超完整的开源项目 功能丰富 适合学习和日常使用 GSYGithubApp系列的优势 我们目前已经拥有四个版本 功能齐全 项目框架内技术涉及面广 完成度高 持续维护 配套文章 适合全面学习 对比参考 跨平台的开源Github客户端App 更好的体验 更丰富的功能 旨在更好的日常管理和维护个人Github 提供更好更方便的驾车体验Σ 同款Weex版本同款React Native版本 https g 这是一个用于显示当前网速 CPU及内存利用率的桌面悬浮窗软件 并支持任务栏显示 支持更换皮肤 是一个跨平台的强加密无特征的代理软件 零配置 V2rayU 基于v2ray核心的mac版客户端 用于科学上网 使用swift编写 支持vmess shadowsocks socks5等服务协议 支持订阅 支持二维码 剪贴板导入 手动配置 二维码分享等算法模板 最科学的刷题方式 最快速的刷题路径 你值得拥有 经典编程书籍大全 涵盖 计算机系统与网络 系统架构 算法与数据结构 前端开发 后端开发 移动开发 数据库 测试 项目与团队 程序员职业修炼 求职面试等wangEditor 轻量级web富文本框前端跨框架跨平台框架 每个 JavaScript 工程师都应懂的33个概念 leonardomso一个可以观看国内主流视频平台所有视频的客户端Android开发人员不得不收集的工具类集合 支付宝支付 微信支付 统一下单 微信分享 Zip4j压缩 支持分卷压缩与加密 一键集成UCrop选择圆形头像 一键集成二维码和条形码的扫描与生成 常用Dialog WebView的封装可播放视频 仿斗鱼滑动验证码 Toast封装 震动 GPS Location定位 图片缩放 Exif 图片添加地理位置信息 经纬度 蛛网等级 颜色选择器 ArcGis VTPK 编译运行一下说不定会找到惊喜 123 6 购票助手 支持集群 多账号 多任务购票以及 Web 页面管理  编程随想 收藏的电子书清单 多个学科 含下载链接  Banner 2 来了 Android广告图片轮播控件 内部基于ViewPager2实现 Indicator和UI都可以自定义  零代码 热更新 自动化 ORM 库 后端接口和文档零代码 前端 客户端 定制返回 JSON 的数据和结构 Linux Windows macOS 跨平台 V2Ray 客户端 支持使用 C Qt 开发 可拓展插件式设计 walle 瓦力 Devops开源项目代码部署平台基于 node js Mongodb 构建的后台系统 js 源码解析一个涵盖六个专栏分布式消息队列 分布式事务的仓库 希望胖友小手一抖 右上角来个 Star 感恩 1 24基于 vue element ui 的后台管理系统磁力链接聚合搜索中华人民共和国行政区划 省级 省份直辖市自治区 地级 城市 县级 区县 乡级 乡镇街道 村级 村委会居委会 中国省市区镇村二级三级四级五级联动地址数据 iOS开发常用三方库 插件 知名博客等等LeetCode题解 151道题完整版／中文文案排版指北最良心的 Python 教程 业内为数不多致力于极致体验的超强全自研跨平台 windows android iOS 流媒体内核 通过模块化自由组合 支持实时RTMP推流 RTSP推流 RTMP播放器 RTSP播放器 录像 多路流媒体转发 音视频导播 动态视频合成 音频混音 直播互动 内置轻量级RTSP服务等 比快更快 业界真正靠谱的超低延迟直播SDK 1秒内 低延迟模式下2 4 ms  一个 PHP 微信 SDK ️ 跨平台桌面端视频资源播放器 简洁无广告 免费高颜值 后台管理主线版本基于三者并行开发维护 同时支持电脑 手机 平板 切换分支查看不同的vue版本 element plus版本已发布 vue3 vue3 vue vue3 x vue js 程序无国界 但程序员有国界 中国国家尊严不容挑衅 如果您在特殊时期 此项目是机器学习 Machine Learning 深度学习 Deep Learning NLP面试中常考到的知识点和代码实现 也是作为一个算法工程师必会的理论基础知识 夜读 通过 bilibili 在线直播的方式分享 Go 相关的技术话题 每天大家在微信 telegram Slack 上及时沟通交流编程技术话题 GitHubDaily 分享内容定期整理与分类 欢迎推荐 自荐项目 让更多人知道你的项目  支持多家云存储的云盘系统机器学习相关教程DataX是阿里云DataWorks数据集成的开源版本  这里是写博客的地方 Halfrost Field 冰霜之地mall学习教程 架构 业务 技术要点全方位解析 mall项目 4 k star 是一套电商系统 使用现阶段主流技术实现 涵盖了等技术 采用Docker容器化部署  chick 是使用 Node js 和 MongoDB 开发的社区系统一个非常适合IT团队的在线API文档 技术文档工具汇总各大互联网公司容易考察的高频leetcode题 1 Chinese Word Vectors 上百种预训练中文词向量 Android开源弹幕引擎 烈焰弹幕使 ～深度学习框架PyTorch 入门与实战 网易云音乐命令行版本 对开发人员有用的定律 理论 原则和模式TeachYourselfCS 的中文翻译高颜值的第三方网易云播放器 支持 Windows macOS Linux spring cloud vue oAuth2 全家桶实战 前后端分离模拟商城 完整的购物流程 后端运营平台 可以实现快速搭建企业级微服务项目 支持微信登录等三方登录  Chinese sticker pack More joy 表情包的博物馆 Github最有毒的仓库 中国表情包大集合 聚欢乐 Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由一款入门级的人脸 视频 文字检测以及识别的项目 vue2 vue router vuex 入门项目PanDownload的个人维护版本 一个基于Spring Boot MyBatis的种子项目 用于快速构建中小型API RESTful API项目 iOS interview questions iOS面试题集锦 附答案 学习qq群或 Telegram 群交流为互联网IT人打造的中文版awesome go强大 可定制 易扩展的 ViewPager 指示器框架 是的最佳替代品 支持角标 更支持在非ViewPager场景下使用 使用hide show 切换Fragment或使用se Kubernetes中文指南 云原生应用架构实践手册For macOS 百度网盘 破解SVIP 下载速度限制 架构师技术图谱 助你早日成为架构师mall admin web是一个电商后台管理系统的前端项目 基于Vue Element实现 主要包括商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等功能 网易云音乐第三方 编程随想 整理的 太子党关系网络 专门揭露赵国的权贵基于gin vue搭建的后台管理系统框架 集成jwt鉴权 权限管理 动态路由 分页封装 多点登录拦截 资源权限 上传下载 代码生成器 表单生成器 通用工作流等基础功能 五分钟一套CURD前后端代码 目VUE3版本正在重构 欢迎issue和pr 27天成为Java大神一个基于浏览器端 JS 实现的在线代理编程电子书 电子书 编程书籍 包括人工智能 大数据类 并发编程 数据库类 数据挖掘 新面试题 架构设计 算法系列 计算机类 设计模式 软件测试 重构优化 等更多分类ADB Usage Complete ADB 用法大全二维码生成器 支持 gif 动态图片二维码 Vim 从入门到精通阿布量化交易系统 股票 期权 期货 比特币 机器学习 基于python的开源量化交易 量化投资架构一个简洁优雅的hexo主题 Wiki of OI ICPC for everyone 某大型游戏线上攻略 内含炫酷算术魔法 Google 开源项目风格指南 中文版  Git AWS Google 镜像 SS SSR VMESS节点行业研究报告的知识储备库 cim cross IM 适用于开发者的分布式即时通讯系统微信小程序开源项目库汇总每天更新 全网热门 BT Tracker 列表 天用Go动手写 从零实现系列强大的哔哩哔哩增强脚本 下载视频 音乐 封面 弹幕 简化直播间 评论区 首页 自定义顶栏 删除广告 夜间模式 触屏设备支持Evil Huawei 华为作过的恶Android上一个优雅 万能自定义UI 仿iOS 支持垂直 水平方向切换 支持周视图 自定义周起始 性能高效的日历控件 支持热插拔实现的UI定制 支持标记 自定义颜色 农历 自定义月视图各种显示模式等 Canvas绘制 速度快 占用内存低 你真的想不到日历居然还可以如此优雅已不再维护科学上网插件的离线安装包储存在这里ThinkPHP Framework 十年匠心的高性能PHP框架 Java 程序员眼中的 Linux 一个支持多选 选原图和视频的图片选择器 同时有预览 裁剪功能 支持hsweb haʊs wɛb 是一个基于spring boot 2 x开发 首个使用全响应式编程的企业级后台管理系统基础项目 学习强国 懒人刷分工具 自动学习wxParse 微信小程序富文本解析自定义组件 支持HTML及markdown解析 newbee mall 项目 新蜂商城 是一套电商系统 包括 newbee mall 商城系统及 newbee mall admin 商城后台管理系统 基于 Spring Boot 2 X 及相关技术栈开发 前台商城系统包含首页门户 商品分类 新品上线 首页轮播 商品推荐 商品搜索 商品展示 购物车 订单结算 订单流程 个人订单管理 会员中心 帮助中心等模块 后台管理系统包含数据面板 轮播图管理 商品管理 订单管理 会员管理 分类管理 设置等模块  最全的前端资源汇总仓库 包括前端学习 开发资源 求职面试等 中文翻译手写实现李航 统计学习方法 书中全部算法 Python 抖音机器人 论如何在抖音上找到漂亮小姐姐？  ️A static blog writing client 一个静态博客写作客户端 超级速查表 编程语言 框架和开发工具的速查表 单个文件包含一切你需要知道的东西 迁移学习前端低代码框架 通过 JSON 配置就能生成各种页面 技术面试最后反问面试官的话Machine Learning Yearning 中文版 机器学习训练秘籍 Andrew Ng 著越来越多的网站具有反爬虫特性 有的用图片隐藏关键数据 有的使用反人类的验证码 建立反反爬虫的代码仓库 通过与不同特性的网站做斗争 无恶意 提高技术 欢迎提交难以采集的网站 因工作原因 项目暂停 本项目收藏这些年来看过或者听过的一些不错的常用的上千本书籍 没准你想找的书就在这里呢 包含了互联网行业大多数书籍和面试经验题目等等 有人工智能系列 常用深度学习框架TensorFlow pytorch keras NLP 机器学习 深度学习等等 大数据系列 Spark Hadoop Scala kafka等 程序员必修系列 C C java 数据结构 linux 设计模式 数据库等等  人人影视bot 完全对接人人影视全部无删减资源Spring Cloud基础教程 持续连载更新中一个用于在 macOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具 让你的滚轮爽如触控板阿里妈妈前端团队出品的开源接口管理工具RAP第二代超轻量级中文ocr 支持竖排文字识别 支持ncnn mnn tnn推理总模型仅4 7M 微信全平台 SDK Senparc Weixin for C 支持 NET Framework 及 NET Core NET 6 已支持微信公众号 小程序 小游戏 企业号 企业微信 开放平台 微信支付 JSSDK 微信周边等全平台 WeChat SDK for C 中文独立博客列表高效率 QQ 机器人支持库支持定制任何播放器SDK和控制层 OpenPower工作组收集汇总的医院开放数据Xray 基于 Nginx 的 VLESS XTLS 一键安装脚本 FlutterDemo合集 今天你fu了吗莫烦Python 中文AI教学中国特色 TabBar 一行代码实现 Lottie 动画TabBar 支持中间带 号的TabBar样式 自带红点角标 支持动态刷新 Flutter豆瓣客户端 Awesome Flutter Project 全网最1 %还原豆瓣客户端 首页 书影音 小组 市集及个人中心 一个不拉 img xuvip top douyademo mp4 基于SpringCloud2 1的微服务开发脚手架 整合了等 服务治理方面引入等 让项目开发快速进入业务开发 而不需过多时间花费在架构搭建上 持续更新中基于 Vue2 和 ECharts 封装的图表组件 SSR 去广告ACL规则 SS完整GFWList规则 Clash规则碎片 Telegram频道订阅地址和我一步步部署 kubernetes 集群搜集 整理 维护实用规则 中文自然语言处理相关资料基于SOA架构的分布式电商购物商城 前后端分离 前台商城 全家桶 后台管理系统等What happens when 的中文翻译 原仓库QMUI iOS 致力于提高项目 UI 开发效率的解决方案新型冠状病毒防疫信息收集平台告别枯燥 致力于打造 Python 实用小例子在线制作 sorry 为所欲为 的gifNodejs学习笔记以及经验总结 公众号 程序猿小卡 李宏毅 机器学习 笔记 在线阅读地址 Vue js 源码分析V部落 Vue SpringBoot实现的多用户博客管理平台 Android Signature V2 Scheme签名下的新一代渠道包打包神器Autoscroll Banner 无限循环图片 文字轮播器 多种编程语言实现 LeetCode 剑指 Offer 第 2 版 程序员面试金典 第 6 版 题解一套高质量的微信小程序 UI 组件库飞桨 官方模型库 包含多种学术前沿和工业场景验证的深度学习模型 中文 Python 笔记专门为刚开始刷题的同学准备的算法基地 没有最细只有更细 立志用动画将晦涩难懂的算法说的通俗易懂 版入门实例代码 实战教程 是一个高性能且低损耗的 goroutine 池 CVPR 2 21 论文和开源项目合集有 有  Python进阶 Intermediate Python 中文版 机器人视觉 移动机器人 VS SLAM ORB SLAM2 深度学习目标检测 yolov3 行为检测 opencv PCL 机器学习 无人驾驶后台管理系统解决方案创建在线课程 学术简历或初创网站  Chrome插件开发全攻略 配套完整Demo 欢迎clone体验QUANTAXIS 支持任务调度 分布式部署的 股票 期货 期权 港股 虚拟货币 数据 回测 模拟 交易 可视化 多账户 纯本地量化解决方案微信调试 各种WebView样式调试 手机浏览器的页面真机调试 便捷的远程调试手机页面 抓包工具 支持 HTTPS 无需USB连接设备 rich text 富文本编辑器 汉字拼音 hàn zì pīn yīn面向开发人员梳理的代码安全指南以撸代码的形式学习Python提供同花顺客户端 国金 华泰客户端 雪球的基金 股票自动程序化交易以及自动打新 支持跟踪 joinquant ricequant 模拟交易 和 实盘雪球组合 量化交易组件搜狐视频 sohu tv Redis私有云平台spring boot打造文件文档在线预览项目计算机基础 计算机网络 操作系统 数据库 Git 面试问题全面总结 包含详细的follow up question以及答案 全部采用 问题 追问 答案 的形式 即拿即用 直击互联网大厂面试 可用于模拟面试 面试前复习 短期内快速备战面试 首款微信 macOS 客户端撤回拦截与多开windows kernel exploits Windows平台提权漏洞集合权限管理系统 预览地址 47 1 4 7 138 loginpkuseg多领域中文分词工具一款完善的安全评估工具 支持常见 web 安全问题扫描和自定义 poc 使用之前务必先阅读文档零反射全动态Android插件框架Python入门网络爬虫之精华版分布式配置管理平台 中文 iOS Mac 开发博客列表周志华 机器学习 又称西瓜书是一本较为全面的书籍 书中详细介绍了机器学习领域不同类型的算法 例如 监督学习 无监督学习 半监督学习 强化学习 集成降维 特征选择等 记录了本人在学习过程中的理解思路与扩展知识点 希望对新人阅读西瓜书有所帮助  国内首个Spring Cloud微服务化RBAC的管理平台 核心采用前端采用d2 admin中台框架 记得上边点个star 关注更新Apache ECharts incubating 的微信小程序版本C 资源大全中文版 标准库 Web应用框架 人工智能 数据库 图片处理 机器学习 日志 代码分析等 由 开源前哨 和 CPP开发者 微信公号团队维护更新 stackoverflow上Java相关回答整理翻译 基于Google Flutter的WanAndroid客户端 支持Android和iOS 包括BLoC RxDart 国际化 主题色 启动页 引导页  本代码库是作者小傅哥多年从事一线互联网 Java 开发的学习历程技术汇总 旨在为大家提供一个清晰详细的学习教程 侧重点更倾向编写Java核心内容 如果本仓库能为您提供帮助 请给予支持 关注 点赞 分享 C 资源大全中文版 包括了 构建系统 编译器 数据库 加密 初中高的教程 指南 书籍 库等  NET m3u8 downloader 开源的命令行m3u8 HLS dash下载器 支持普通AES 128 CBC解密 多线程 自定义请求头等 支持简体中文 繁体中文和英文 English Supported 国内低代码平台从业者交流tcc transaction是TCC型事务java实现设计模式 Golang实现 研磨设计模式 读书笔记Vue数据可视化组件库 类似阿里DataV 大屏数据展示 提供SVG的边框及装饰 图表 水位图 飞线图等组件 简单易用 长期更新 React版已发布 自己动手做聊天机器人教程 RecyclerView侧滑菜单 Item拖拽 滑动删除Item 自动加载更多 HeaderView FooterView Item分组黏贴 腾讯物联网终端操作系统一个小巧 轻量的浏览器内核 用来取代wke和libcef包含美颜等4 余种实时滤镜相机 可拍照 录像 图片修改springboot 框架与其它组件结合如等用深度学习对对联  技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide 用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块  GitHub中文排行榜 帮助你发现高分优秀中文项目 更高效地吸收国人的优秀经验成果 榜单每周更新一次 敬请关注  算法面试 算法知识 针对小白的算法训练 还包括 1 阿里 字节 滴滴 百篇大厂面经汇总 2 千本开源电子书 3 百张思维导图 右侧来个 star 吧 English version supported 诊断利器Arthas教程 技术栈示例代码 快速简单上手教程 http下载工具 基于http代理 支持多连接分块下载阿里云计算平台团队出品 为监控而生的数据库连接池 企业级低代码平台 前后端分离架构强大的代码生成器让前后端代码一键生成 无需写任何代码 引领新的开发模式OnlineCoding 代码生成 手工MERGE 帮助Java项目解决7 %重复工作 让开发更关注业务 既能快速提高效率 帮助公司节省成本 同时又不失灵活性  下拉刷新 上拉加载 二级刷新 淘宝二楼智能下拉刷新框架 支持越界回弹 越界拖动 具有极强的扩展性 集成了几十种炫酷的Header和 Footer 该项目已成功集成 actuator 监控 admin 可视化监控 logback 日志 aopLog 通过AOP记录web请求日志 统一异常处理 json级别和页面级别 freemarker 模板引擎 thymeleaf 模板引擎 Beetl 模板引擎 Enjoy 模板引擎 JdbcTemplate 通用JDBC操作数据库 JPA 强大的ORM框架 mybatis 强大的ORM框架 通用Mapper 快速操作Mybatis PageHelper 通用的Mybatis分页插件 mybatis plus 快速操作Mybatis BeetlSQL 强大的ORM框架 u 微人事是一个前后端分离的人力资源管理系统 项目采用SpringBoot Vue开发  秒杀系统设计与实现 互联网工程师进阶与分析 To Be Top Javaer Java工程师成神之路循序渐进 学习博客Spring系列源码 mrbird cc快速 简单避免OOM的java处理Excel工具阿里巴巴 MySQL binlog 增量订阅 消费组件  一款优秀的开源博客发布应用 分布式任务调度平台XXL JOB 一款面向泛前端产品研发全生命周期的效率平台 面向云原生微服务的高可用流控防护组件 视频播放器支持弹幕 外挂字幕 支持滤镜 水印 gif截图 片头广告 中间广告 多个同时播放 支持基本的拖动 声音 亮度调节 支持边播边缓存 支持视频自带rotation的旋转 9 27 之类 重力旋转与手动旋转的同步支持 支持列表播放 列表全屏动画 视频加载速度 列表小窗口支持拖动 动画效果 调整比例 多分辨率切换 支持切换播放器 进度条小窗口预览 列表切换详情页面无缝播放 rtsp concat mpeg 又一个小商城 litemall Spring Boot后端 Vue管理员前端 微信小程序用户前端 Vue用户移动端基于Spring SpringMVC Mybatis分布式敏捷开发系统架构 提供整套公共微服务服务模块 集中权限管理 单点登录 内容管理 支付中心 用户管理 支持第三方登录 微信平台 存储系统 配置中心 日志分析 任务和通知等 支持服务治理 监控和追踪 努力为中小型企业打造全方位J2EE企业级开发解决方案 项目基于的前后端分离的后台管理系统 项目采用分模块开发方式 权限控制采用 RBAC 支持数据字典与数据权限管理 支持一键生成前后端代码 支持动态路由 史上最简单的Spring Cloud教程源码 CAT 作为服务端项目基础组件 提供了 Java C C Node js Python Go 等多语言客户端 已经在美团点评的基础架构中间件框架 MVC框架 RPC框架 数据库框架 缓存框架等 消息队列 配置系统等 深度集成 为美团点评各业务线提供系统丰富的性能指标 健康状况 实时告警等 spring boot 实践学习案例 是 spring boot 初学者及核心技术巩固的最佳实践 另外写博客 用 OpenWrite Spring Boot基础教程 Spring Boot 2 x版本连载中 帮助 Android App 进行组件化改造的路由框架 提高 Android UI 开发效率的 UI 库时间选择器 省市区三级联动 Luban 鲁班可能是最接近微信朋友圈的图片压缩算法 Gitee 最有价值开源项目 小而全而美的第三方登录开源组件 目前已支持Github Gitee 微博 钉钉 百度 Coding 腾讯云开发者平台 OSChina 支付宝 QQ 微信 淘宝 Google Facebook 抖音 领英 小米 微软 今日头条人人 华为 企业微信 酷家乐 Gitlab 美团 饿了么 推特 飞书 京东 阿里云 喜马拉雅 Amazon Slack和 Line 等第三方平台的授权登录 Login so easy 今日头条屏幕适配方案终极版 一个极低成本的 Android 屏幕适配方案  Banner 2 来了 Android广告图片轮播控件 内部基于ViewPager2实现 Indicator和UI都可以自定义  零代码 热更新 自动化 ORM 库 后端接口和文档零代码 前端 客户端 定制返回 JSON 的数据和结构一个涵盖六个专栏分布式消息队列 分布式事务的仓库 希望胖友小手一抖 右上角来个 Star 感恩 1 24Mybatis通用分页插件OkGo 3 震撼来袭 该库是基于 协议 封装了 OkHttp 的网络请求框架 比 Retrofit 更简单易用 支持 RxJava RxJava2 支持自定义缓存 支持批量断点下载管理和批量上传管理功能含 Flink 入门 概念 原理 实战 性能调优 源码解析等内容 涉及等内容的学习案例 还有 Flink 落地应用的大型项目案例 PVUV 日志存储 百亿数据实时去重 监控告警 分享 欢迎大家支持我的专栏 大数据实时计算引擎 Flink 实战与性能优化 安卓平台上的JavaScript自动化工具  ️一个整合了大量主流开源项目高度可配置化的 Android MVP 快速集成框架 Spring源码阅读大数据入门指南 android 4 4以上沉浸式状态栏和沉浸式导航栏管理 适配横竖屏切换 刘海屏 软键盘弹出等问题 可以修改状态栏字体颜色和导航栏图标颜色 以及不可修改字体颜色手机的适配 适用于一句代码轻松实现 以及对bar的其他设置 详见README 简书请参考 www jianshu com p 2a884e211a62业内为数不多致力于极致体验的超强全自研跨平台 windows android iOS 流媒体内核 通过模块化自由组合 支持实时RTMP推流 RTSP推流 RTMP播放器 RTSP播放器 录像 多路流媒体转发 音视频导播 动态视频合成 音频混音 直播互动 内置轻量级RTSP服务等 比快更快 业界真正靠谱的超低延迟直播SDK 1秒内 低延迟模式下2 4 ms DataX是阿里云DataWorks数据集成的开源版本 mall学习教程 架构 业务 技术要点全方位解析 mall项目 4 k star 是一套电商系统 使用现阶段主流技术实现 涵盖了等技术 采用Docker容器化部署 Android开源弹幕引擎 烈焰弹幕使 ～spring cloud vue oAuth2 全家桶实战 前后端分离模拟商城 完整的购物流程 后端运营平台 可以实现快速搭建企业级微服务项目 支持微信登录等三方登录  一个基于Spring Boot MyBatis的种子项目 用于快速构建中小型API RESTful API项目 强大 可定制 易扩展的 ViewPager 指示器框架 是的最佳替代品 支持角标 更支持在非ViewPager场景下使用 使用hide show 切换Fragment或使用se 27天成为Java大神安卓学习笔记 cim cross IM 适用于开发者的分布式即时通讯系统Android上一个优雅 万能自定义UI 仿iOS 支持垂直 水平方向切换 支持周视图 自定义周起始 性能高效的日历控件 支持热插拔实现的UI定制 支持标记 自定义颜色 农历 自定义月视图各种显示模式等 Canvas绘制 速度快 占用内存低 你真的想不到日历居然还可以如此优雅hsweb haʊs wɛb 是一个基于spring boot 2 x开发 首个使用全响应式编程的企业级后台管理系统基础项目  newbee mall 项目 新蜂商城 是一套电商系统 包括 newbee mall 商城系统及 newbee mall admin 商城后台管理系统 基于 Spring Boot 2 X 及相关技术栈开发 前台商城系统包含首页门户 商品分类 新品上线 首页轮播 商品推荐 商品搜索 商品展示 购物车 订单结算 订单流程 个人订单管理 会员中心 帮助中心等模块 后台管理系统包含数据面板 轮播图管理 商品管理 订单管理 会员管理 分类管理 设置等模块 mall swarm是一套微服务商城系统 采用了等核心技术 同时提供了基于Vue的管理后台方便快速搭建系统 mall swarm在电商业务的基础集成了注册中心 配置中心 监控中心 网关等系统功能 文档齐全 附带全套Spring Cloud教程 阅读是一款可以自定义来源阅读网络内容的工具 为广大网络文学爱好者提供一种方便 快捷舒适的试读体验 Spring Cloud基础教程 持续连载更新中阿里巴巴分布式数据库同步系统 解决中美异地机房  基于谷歌最新AAC架构 MVVM设计模式的一套快速开发库 整合OkRxJava Retrofit Glide等主流模块 满足日常开发需求 使用该框架可以快速开发一个高质量 易维护的Android应用 基于SpringCloud2 1的微服务开发脚手架 整合了等 服务治理方面引入等 让项目开发快速进入业务开发 而不需过多时间花费在架构搭建上 持续更新中基于SOA架构的分布式电商购物商城 前后端分离 前台商城 全家桶 后台管理系统等是 难得一见 的 Jetpack MVVM 最佳实践 在 以简驭繁 的代码中 对 视图控制器 乃至 标准化开发模式 形成正确 深入的理解 V部落 Vue SpringBoot实现的多用户博客管理平台 Android Signature V2 Scheme签名下的新一代渠道包打包神器即时通讯 IM 系统多种编程语言实现 LeetCode 剑指 Offer 第 2 版 程序员面试金典 第 6 版 题解专门为刚开始刷题的同学准备的算法基地 没有最细只有更细 立志用动画将晦涩难懂的算法说的通俗易懂 ansj分词 ict的真正java实现 分词效果速度都超过开源版的ict 中文分词 人名识别 词性标注 用户自定义词典 book 任阅 网络小说阅读器 3D翻页效果 txt pdf epub书籍阅读 Wifi传书 LeetCode刷题记录与面试整理mybatis generator界面工具 让你生成代码更简单更快捷Spring Cloud 学习案例 服务发现 服务治理 链路追踪 服务监控等 XPopup2 版本重磅来袭 2倍以上性能提升 带来可观的动画性能优化和交互细节的提升 功能强大 交互优雅 动画丝滑的通用弹窗 可以替代等组件 自带十几种效果良好的动画 支持完全的UI和动画自定义搜狐视频 sohu tv Redis私有云平台spring boot打造文件文档在线预览项目权限管理系统 预览地址 47 1 4 7 138 login零反射全动态Android插件框架分布式配置管理平台 通用 IM 聊天 UI 组件 已经同时支持 Android iOS RN 手把手教你整合最优雅SSM框架 SpringMVC Spring MyBatis换肤框架 极低的学习成本 极好的用户体验 一行 代码就可以实现换肤 你值得拥有  JVM 底层原理最全知识总结 国内首个Spring Cloud微服务化RBAC的管理平台 核心采用前端采用d2 admin中台框架 记得上边点个star 关注更新tcc transaction是TCC型事务java实现 RecyclerView侧滑菜单 Item拖拽 滑动删除Item 自动加载更多 HeaderView FooterView Item分组黏贴 包含美颜等4 余种实时滤镜相机 可拍照 录像 图片修改springboot 框架与其它组件结合如等安卓选择器类库 包括日期及时间选择器 可用于出生日期 营业时间等 单项选择器 可用于性别 民族 职业 学历 星座等 二三级联动选择器 可用于车牌号 基金定投日期等 城市地址选择器 分省级 地市级及区县级 数字选择器 可用于年龄 身高 体重 温度等 日历选日期择器 可用于酒店及机票预定日期 颜色选择器 文件及目录选择器等 Java工程师面试复习指南 本仓库涵盖大部分Java程序员所需要掌握的核心知识 整合了互联网上的很多优质Java技术文章 力求打造为最完整最实用的Java开发者学习指南 如果对你有帮助 给个star告诉我吧 谢谢  Android MVP 快速开发框架 做国内 示例最全面 注释最详细 使用最简单 代码最严谨 的 Android 开源 UI 框架几行代码快速集成二维码扫描功能MeterSphere 是一站式开源持续测试平台 涵盖测试跟踪 接口测试 性能测试 团队协作等功能 全面兼容 JMeter Postman Swagger 等开源 主流标准 记录各种学习笔记 算法 Java 数据库 并发 下一代Android打包工具 1 个渠道包只需要1 秒钟芋道 mall 商城 基于微服务的思想 构建在 B2C 电商场景下的项目实战 核心技术栈 是 Spring Boot Dubbo 未来 会重构成 Spring Cloud Alibaba Android 万能的等 支持多种Item类型的情况 lanproxy是一个将局域网个人电脑 服务器代理到公网的内网穿透工具 支持tcp流量转发 可支持任何tcp上层协议 访问内网网站 本地支付接口调试 ssh访问 远程桌面 目前市面上提供类似服务的有花生壳 TeamView GoToMyCloud等等 但要使用第三方的公网服务器就必须为第三方付费 并且这些服务都有各种各样的限制 此外 由于数据包会流经第三方 因此对数据安全也是一大隐患 技术交流QQ群 1 6742433 更优雅的驾车体验下载可以很简单 ️ 云阅 一款基于网易云音乐UI 使用玩架构开发的符合Google Material Design的Android客户端开源的 Material Design 豆瓣客户端一款针对系统PopupWindow优化的Popup库 功能强大 支持背景模糊 使用简单 你会爱上他的 PLDroidPlayer 是七牛推出的一款免费的适用于 Android 平台的播放器 SDK 采用全自研的跨平台播放内核 拥有丰富的功能和优异的性能 可高度定制化和二次开发 该项目已停止维护 9 Porn Android 客户端 突破游客每天观看1 次视频的限制 还可以下载视频 ️蓝绿 灰度 路由 限流 熔断 降级 隔离 追踪 流量染色 故障转移一本关于排序算法的 GitBook 在线书籍 十大经典排序算法 多语言实现 多种下拉刷新效果 上拉加载更多 可配置自定义头部广告位完全仿微信的图片选择 并且提供了多种图片加载接口 选择图片后可以旋转 可以裁剪成矩形或圆形 可以配置各种其他的参数SoloPi 自动化测试工具龙果支付系统 roncoo pay 是国内首款开源的互联网支付系统 拥有独立的账户体系 用户体系 支付接入体系 支付交易体系 对账清结算体系 目标是打造一款集成主流支付方式且轻量易用的支付收款系统 满足互联网业务系统打通支付通道实现支付收款和业务资金管理等功能 键盘面板冲突 布局闪动处理方案  咕泡学院实战项目 基于SpringBoot Dubbo构建的电商平台 微服务架构 商城 电商 微服务 高并发 kafka Elasticsearch停车场系统源码 停车场小程序 智能停车 Parking system 功能介绍 ①兼容市面上主流的多家相机 理论上兼容所有硬件 可灵活扩展 ②相机识别后数据自动上传到云端并记录 校验相机唯一id和硬件序列号 防止非法数据录入 ③用户手机查询停车记录详情可自主缴费 支持微信 支付宝 银行接口支付 支持每个停车场指定不同的商户进行收款 支付后出场在免费时间内会自动抬杆 ④支持app上查询附近停车场 导航 可用车位数 停车场费用 优惠券 评分 评论等 可预约车位 ⑤断电断网支持岗亭人员使用app可接管硬件进行停车记录的录入 技术架构 后端开发语言java 框架oauth2 spring 成长路线 但学到不仅仅是Java 业界首个支持渐进式组件化改造的Android组件化开源框架 支持跨进程调用SpringBoot2 从入门到实战 旨在打造在线最佳的 Java 学习笔记 含博客讲解和源码实例 包括 Java SE 和 Java WebJava诊断工具年薪百万互联网架构师课程文档及源码 公开部分 AndroidHttpCapture网络诊断工具 是一款Android手机抓包软件 主要功能包括 手机端抓包 PING DNS TraceRoute诊断 抓包HAR数据上传分享 你也可以看成是Android版的 Fiddler o 这可能是史上功能最全的Java权限认证框架 目前已集成 登录认证 权限认证 分布式Session会话 微服务网关鉴权 单点登录 OAuth2 踢人下线 Redis集成 前后台分离 记住我模式 模拟他人账号 临时身份切换 账号封禁 多账号认证体系 注解式鉴权 路由拦截式鉴权 花式token生成 自动续签 同端互斥登录 会话治理 密码加密 jwt集成 Spring集成 WebFlux集成 Android平台下的富文本解析器 支持Html和Markdown智能图片裁剪框架 自动识别边框 手动调节选区 使用透视变换裁剪并矫正选区 适用于身份证 名片 文档等照片的裁剪 俗名 可垂直跑 可水平跑的跑马灯 学名 可垂直翻 可水平翻的翻页公告 小马哥技术周报 Android Video Player 安卓视频播放器 封装模仿抖音并实现预加载 列表播放 悬浮播放 广告播放 弹幕 重学Java设计模式 是一本互联网真实案例实践书籍 以落地解决方案为核心 从实际业务中抽离出 交易 营销 秒杀 中间件 源码等22个真实场景 来学习设计模式的运用 欢迎关注小傅哥 微信 fustack 公众号 bugstack虫洞栈 博客 bugstack cnmybatis源码中文注释一款开源的GIF在线分享App 乐趣就要和世界分享 MPush开源实时消息推送系统在线云盘 网盘 OneDrive 云存储 私有云 对象存储 h5ai基于Spring Boot 2 x的一站式前后端分离快速开发平台XBoot 微信小程序 Uniapp 前端 Vue iView Admin 后端分布式限流 同步锁 验证码 SnowFlake雪花算法ID 动态权限 数据权限 工作流 代码生成 定时任务 社交账号 短信登录 单点登录 OAuth2开放平台 客服机器人 数据大屏 暗黑模式Guns基于SpringBoot 2 致力于做更简洁的后台管理系统 完美整合项目代码简洁 注释丰富 上手容易 同时Guns包含许多基础模块 用户管理 角色管理 部门管理 字典管理等1 个模块 可以直接作为一个后台管理系统的脚手架  Android 版本更新一个简洁而优雅的Android原生UI框架 解放你的双手 一套完整有效的android组件化方案 支持组件的组件完全隔离 单独调试 集成调试 组件交互 UI跳转 动态加载卸载等功能适用于Java和Android的快速 低内存占用的汉字转拼音库 Codes of my MOOC Course <我在慕课网上的课程 算法与数据结构 示例代码 包括C 和Java版本 课程的更多更新内容及辅助练习也将逐步添加进这个代码仓  Hope Boot 一款现代化的脚手架项目一个简单漂亮的SSM Spring SpringMVC Mybatis 博客系统根据Gson库使用的要求 将JSONObject格式的String 解析成实体B站 哔哩哔哩 Bilibili 自动签到投币工具 每天轻松获取65经验值 支持每日自动投币 银瓜子兑换硬币 领取大会员福利 大会员月底给自己充电等功能 呐 赶快和我一起成为Lv6吧 IJPay 让支付触手可及 封装了微信支付 QQ支付 支付宝支付 京东支付 银联支付 PayPal 支付等常用的支付方式以及各种常用的接口 不依赖任何第三方 mvc 框架 仅仅作为工具使用简单快速完成支付模块的开发 可轻松嵌入到任何系统里 右上角点下小星星  High quality pure Weex demo 网易严选 App 感受 Weex 开发Android 快速实现新手引导层的库 通过简洁链式调用 一行代码实现引导层的显示通过标签直接生成shape 无需再写shape xml 本库是一款基于RxJava2 Retrofit2实现简单易用的网络请求框架 结合android平台特性的网络封装库 采用api链式调用一点到底 集成cookie管理 多种缓存模式 极简https配置 上传下载进度显示 请求错误自动重试 请求携带token 时间戳 签名sign动态配置 自动登录成功后请求重发功能 3种层次的参数设置默认全局局部 默认标准ApiResult同时可以支持自定义的数据结构 已经能满足现在的大部分网络请求 Android BLE蓝牙通信库 基于Flink实现的商品实时推荐系统 flink统计商品热度 放入redis缓存 分析日志信息 将画像标签和实时记录放入Hbase 在用户发起推荐请求后 根据用户画像重排序热度榜 并结合协同过滤和标签两个推荐模块为新生成的榜单的每一个产品添加关联产品 最后返回新的用户列表 播放器基础库 专注于播放视图组件的高复用性和组件间的低耦合 轻松处理复杂业务 图片选择库 单选 多选 拍照 裁剪 压缩 自定义 包括视频选择和录制 DataX集成可视化页面 选择数据源即可一键生成数据同步任务 支持等数据源 批量创建RDBMS数据同步任务 集成开源调度系统 支持分布式 增量同步数据 实时查看运行日志 监控执行器资源 KILL运行进程 数据源信息加密等  Deprecated android 自定义日历控件 支持左右无限滑动 周月切换 标记日期显示 自定义显示效果跳转到指定日期一个通过动态加载本地皮肤包进行换肤的皮肤框架这是RedSpider社区成员原创与维护的Java多线程系列文章 一站式Apache Kafka集群指标监控与运维管控平台快速开发工具类收集 史上最全的开发工具类 欢迎Follow Fork Star后端技术总结 包括Java基础 JVM 数据库 mysql redis 计算机网络 算法 数据结构 操作系统 设计模式 系统设计 框架原理 最佳阅读地址Android源码设计模式分析项目可能是最好的支付SDK 停止维护 组件化综合案例 包含微信新闻 头条视频 美女图片 百度音乐 干活集中营 玩Android 豆瓣读书电影 知乎日报等等模块 架构模式 组件化阿里VLayout 腾讯X5 腾讯bugly 融合开发中需要的各种小案例 开源OA系统 码云GVP Java开源oa 企业OA办公平台 企业OA 协同办公OA 流程平台OA O2OA OA 支持国产麒麟操作系统和国产数据库 达梦 人大金仓 政务OA 军工信息化OA以Spring Cloud Netflix作为服务治理基础 展示基于tcc思想所实现的分布式事务解决方案一个帮助您完成从缩略视图到原视图无缝过渡转变的神奇框架 系统重构与迁移指南 手把手教你分析 评估现有系统 制定重构策略 探索可行重构方案 搭建测试防护网 进行系统架构重构 服务架构重构 模块重构 代码重构 数据库重构 重构后的架构守护版本检测升级 更新 库小说精品屋是一个多平台 web 安卓app 微信小程序 功能完善的屏幕自适应小说漫画连载系统 包含精品小说专区 轻小说专区和漫画专区 包括小说 漫画分类 小说 漫画搜索 小说 漫画排行 完本小说 漫画 小说 漫画评分 小说 漫画在线阅读 小说 漫画书架 小说 漫画阅读记录 小说下载 小说弹幕 小说 漫画自动采集 更新 纠错 小说内容自动分享到微博 邮件自动推广 链接自动推送到百度搜索引擎等功能 Android 徽章控件 致力于打造一款极致体验的 www wanandroid com 客户端 知识和美是可以并存的哦QAQn ≧ ≦ n 从源码层面 剖析挖掘互联网行业主流技术的底层实现原理 为广大开发者 “提升技术深度” 提供便利 目前开放 Spring 全家桶 Mybatis Netty Dubbo 框架 及 Redis Tomcat 中间件等Redis 一站式管理平台 支持集群的监控 安装 管理 告警以及基本的数据操作该项目不再维护 仅供学习参考专注批量推送的小而美的工具 目前支持 模板消息 公众号 模板消息 小程序 微信客服消息 微信企业号 企业微信消息 阿里云短信 阿里大于模板短信 腾讯云短信 云片网短信 E Mail HTTP请求 钉钉 华为云短信 百度云短信 又拍云短信 七牛云短信Android 平台开源天气 App 采用等开源库来实现 SpringBoot 相关漏洞学习资料 利用方法和技巧合集 黑盒安全评估 check listAndroid 权限请求框架 已适配 Android 11微信SDK JAVA 公众平台 开放平台 商户平台 服务商平台  QMQ是去哪儿网内部广泛使用的消息中间件 自2 12年诞生以来在去哪儿网所有业务场景中广泛的应用 包括跟交易息息相关的订单场景 也包括报价搜索等高吞吐量场景  Java 23种设计模式全归纳linux运维监控工具 支持系统信息 内存 cpu 温度 磁盘空间及IO 硬盘smart 系统负载 网络流量 进程等监控 API接口 大屏展示 拓扑图 端口监控 docker监控 日志文件监控 数据可视化 webSSH工具 堡垒机 跳板机 这可能是全网最好用的ViewPager轮播图 简单 高效 一行代码实现循环轮播 一屏三页任意变 指示器样式任你挑 一种简单有效的android组件化方案 支持组件的代码资源隔离 单独调试 集成调试 组件交互 UI跳转 生命周期等完整功能 一个强大 1 % 兼容 支持 AndroidX 支持 Kotlin并且灵活的组件化框架JPress 一个使用 Java 开发的建站神器 目前已经有 1 w 网站使用 JPress 进行驱动 其中包括多个政府机构 2 上市公司 中科院 红 字会等 分布式事务易用的轻量化网络爬虫 Android系统源码分析重构中一款免费的数据可视化工具 报表与大屏设计 类似于excel操作风格 在线拖拽完成报表设计 功能涵盖 报表设计 图形报表 打印设计 大屏设计等 永久免费 秉承“简单 易用 专业”的产品理念 极大的降低报表开发难度 缩短开发周期 节省成本 解决各类报表难题 Android Activity 滑动返回 支持微信滑动返回样式 横屏滑动返回 全屏滑动返回SpringBoot 基础教程 从入门到上瘾 基于2 M5制作 仿微信视频拍摄UI 基于ffmpeg的视频录制编辑Python 1 天从新手到大师 分享 GitHub 上有趣 入门级的开源项目中英文敏感词 语言检测 中外手机 电话归属地 运营商查询 名字推断性别 手机号抽取 身份证抽取 邮箱抽取 中日文人名库 中文缩写库 拆字词典 词汇情感值 停用词 反动词表 暴恐词表 繁简体转换 英文模拟中文发音 汪峰歌词生成器 职业名称词库 同义词库 反义词库 否定词库 汽车品牌词库 汽车零件词库 连续英文切割 各种中文词向量 公司名字大全 古诗词库 IT词库 财经词库 成语词库 地名词库 历史名人词库 诗词词库 医学词库 饮食词库 法律词库 汽车词库 动物词库 中文聊天语料 中文谣言数据 百度中文问答数据集 句子相似度匹配算法集合 bert资源 文本生成 摘要相关工具 cocoNLP信息抽取 2 21年最新总结 阿里 腾讯 百度 美团 头条等技术面试题目 以及答案 专家出题人分析汇总 AiLearning 机器学习 MachineLearning ML 深度学习 DeepLearning DL 自然语言处理 NLP123 6智能刷票 订票结巴中文分词 动手学深度学习 面向中文读者 能运行 可讨论 中英文版被全球175所大学采用教学 中文分词 词性标注 命名实体识别 依存句法分析 语义依存分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理微信个人号接口 微信机器人及命令行微信 三十行即可自定义个人号机器人 数据结构和算法必知必会的5 个代码实现JumpServer 是全球首款开源的堡垒机 是符合 4A 的专业运维安全审计系统 飞桨 核心框架 深度学习 机器学习高性能单机 分布式训练和跨平台部署 中国程序员容易发音错误的单词微信 跳一跳 Python 辅助 python模拟登陆一些大型网站 还有一些简单的爬虫 希望对你们有所帮助 ️ 如果喜欢记得给个star哦  网络爬虫实战 淘宝 京东 网易云 B站 123 6 抖音 笔趣阁 漫画小说下载 音乐电影下载等Python爬虫代理IP池 proxy pool wtfpython的中文翻译 施工结束 能力有限 欢迎帮我改进翻译提供多款 Shadowrocket 规则 带广告过滤功能 用于 iOS 未越狱设备选择性地自动翻墙  123 6 购票助手 支持集群 多账号 多任务购票以及 Web 页面管理 walle 瓦力 Devops开源项目代码部署平台一些非常有趣的python爬虫例子 对新手比较友好 主要爬取淘宝 天猫 微信 豆瓣 QQ等网站机器学习相关教程1 Chinese Word Vectors 上百种预训练中文词向量 网易云音乐命令行版本一款入门级的人脸 视频 文字检测以及识别的项目  编程随想 整理的 太子党关系网络 专门揭露赵国的权贵微信助手 1 每日定时给好友 女友 发送定制消息 2 机器人自动回复好友 3 群助手功能 例如 查询垃圾分类 天气 日历 电影实时票房 快递物流 PM2 5等 二维码生成器 支持 gif 动态图片二维码 阿布量化交易系统 股票 期权 期货 比特币 机器学习 基于python的开源量化交易 量化投资架构 book 中华新华字典数据库 包括歇后语 成语 词语 汉字  Git AWS Google 镜像 SS SSR VMESS节点行业研究报告的知识储备库中文翻译手写实现李航 统计学习方法 书中全部算法 Python 抖音机器人 论如何在抖音上找到漂亮小姐姐？ 迁移学习python爬虫教程系列 从 到1学习python爬虫 包括浏览器抓包 手机APP抓包 如 fiddler mitmproxy 各种爬虫涉及的模块的使用 如等 以及IP代理 验证码识别 Mysql MongoDB数据库的python使用 多线程多进程爬虫的使用 css 爬虫加密逆向破解 JS爬虫逆向 分布式爬虫 爬虫项目实战实例等Python脚本 模拟登录知乎 爬虫 操作excel 微信公众号 远程开机越来越多的网站具有反爬虫特性 有的用图片隐藏关键数据 有的使用反人类的验证码 建立反反爬虫的代码仓库 通过与不同特性的网站做斗争 无恶意 提高技术 欢迎提交难以采集的网站 因工作原因 项目暂停  人人影视bot 完全对接人人影视全部无删减资源莫烦Python 中文AI教学飞桨 官方模型库 包含多种学术前沿和工业场景验证的深度学习模型 轻量级人脸检测模型 百度云 百度网盘Python客户端 Python进阶 Intermediate Python 中文版 提供同花顺客户端 国金 华泰客户端 雪球的基金 股票自动程序化交易以及自动打新 支持跟踪 joinquant ricequant 模拟交易 和 实盘雪球组合 量化交易组件QUANTAXIS 支持任务调度 分布式部署的 股票 期货 期权 港股 虚拟货币 数据 回测 模拟 交易 可视化 多账户 纯本地量化解决方案INFO SPIDER 是一个集众多数据源于一身的爬虫工具箱 旨在安全快捷的帮助用户拿回自己的数据 工具代码开源 流程透明 支持数据源包括GitHub QQ邮箱 网易邮箱 阿里邮箱 新浪邮箱 Hotmail邮箱 Outlook邮箱 京东 淘宝 支付宝 中国移动 中国联通 中国电信 知乎 哔哩哔哩 网易云音乐 QQ好友 QQ群 生成朋友圈相册 浏览器浏览历史 123 6 博客园 CSDN博客 开源中国博客 简书 中文BERT wwm系列模型 Python入门网络爬虫之精华版中文 iOS Mac 开发博客列表Python网页微信APIpkuseg多领域中文分词工具自己动手做聊天机器人教程基于搜狗微信搜索的微信公众号爬虫接口用深度学习对对联 v2ray xray多用户管理部署程序各种脚本 关于 虾米 xiami com 百度网盘 pan baidu com 115网盘 115 com 网易音乐 music 163 com 百度音乐 music baidu com 36 网盘 云盘 yunpan cn 视频解析 flvxz com bt torrent ↔ magnet ed2k 搜索 tumblr 图片下载 unzip查看被删的微信好友定投改变命运 让时间陪你慢慢变富 onregularinvesting com 机器学习实战 Python3 kNN 决策树 贝叶斯 逻辑回归 SVM 线性回归 树回归Statistical learning methods 统计学习方法 第2版 李航 笔记 代码 notebook 参考文献 Errata lihang stock 股票系统 使用python进行开发 基于深度学习的中文语音识别系统京东抢购助手 包含登录 查询商品库存 价格 添加 清空购物车 抢购商品 下单 查询订单等功能莫烦Python 中文AI教学机器学习算法python实现新浪微博爬虫 用python爬取新浪微博数据的算法以及通用生成对抗网络图像生成的理论与实践研究 青岛大学开源 Online Judge QQ群 49671 125 admin qduoj comWeRoBot 是一个微信公众号开发框架 基于Django的博客系统 中文近义词 聊天机器人 智能问答工具包开源财经数据接口库巡风是一款适用于企业内网的漏洞快速应急 巡航扫描系统  番号大全 解决电脑 手机看电视直播的苦恼 收集各种直播源 电视直播网站知识图谱构建 自动问答 基于kg的自动问答 以疾病为中心的一定规模医药领域知识图谱 并以该知识图谱完成自动问答与分析服务 出处本地电影刮削与整理一体化解决方案自动化运维平台 CMDB CD DevOps 资产管理 任务编排 持续交付 系统监控 运维管理 配置管理 wukong robot 是一个简单 灵活 优雅的中文语音对话机器人 智能音箱项目 还可能是首个支持脑机交互的开源智能音箱项目 获取斗鱼 虎牙 哔哩哔哩 抖音 快手等 55 个直播平台的真实流媒体地址 直播源 和弹幕 直播源可在 PotPlayer flv js 等播放器中播放 宝塔Linux面板 简单好用的服务器运维面板农业知识图谱 AgriKG 农业领域的信息检索 命名实体识别 关系抽取 智能问答 辅助决策CODO是一款为用户提供企业多混合云 一站式DevOps 自动化运维 完全开源的云管理平台 自动化运维平台Web Pentesting Fuzz 字典 一个就够了  计算机网络 自顶向下方法 原书第6版 编程作业 Wireshark实验文档的翻译和解答 中文古诗自动作诗机器人 屌炸天 基于tensorflow1 1 api 正在积极维护升级中 快star 保持更新 PyQt Examples PyQt各种测试和例子 PyQt4 PyQt5海量中文预训练ALBERT模型汉字转拼音 pypinyin 数据结构与算法 leetcode lintcode题解  Pytorch模型训练实用教程 中配套代码实时获取新浪 腾讯 的免费股票行情 集思路的分级基金行情Python爬虫 Flask网站 免费ShadowSocks账号 ssr订阅 json 订阅实战 多种网站 电商数据爬虫 包含 淘宝商品 微信公众号 大众点评 企查查 招聘网站 闲鱼 阿里任务 博客园 微博 百度贴吧 豆瓣电影 包图网 全景网 豆瓣音乐 某省药监局 搜狐新闻 机器学习文本采集 fofa资产采集 汽车之家 国家统计局 百度关键词收录数 蜘蛛泛目录 今日头条 豆瓣影评 携程 小米应用商店 安居客 途家民宿 ️ ️ ️ 微信爬虫展示项目 SQL 审核查询平台团子翻译器 个人兴趣制作的一款基于OCR技术的翻译器自动化运维平台 代码及应用部署CI CD 资产管理CMDB 计划任务管理平台 SQL审核 回滚 任务调度 站内WIKISource Code Security Audit 源代码安全审计 Exphub 漏洞利用脚本库 包括的漏洞利用脚本 最新添加我的自学笔记 终身更新 当前专注System基础 MLSys 使用机器学习算法完成对123 6验证码的自动识别Python 开源项目之 自学编程之路 保姆级教程 AI实验室 宝藏视频 数据结构 学习指南 机器学习实战 深度学习实战 网络爬虫 大厂面经 程序人生 资源分享 中文文本分类基于pytorch 开箱即用 根据网易云音乐的歌单 下载flac无损音乐到本地腾讯优图高精度双分支人脸检测器文本纠错等模型实现 开箱即用 3 天掌握量化交易 持续更新 中文分词 词性标注 命名实体识别 依存句法分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁 自然语言处理中文公开聊天语料库豆瓣读书的爬虫总结梳理自然语言处理工程师 NLP 需要积累的各方面知识 包括面试题 各种基础知识 工程能力等等 提升核心竞争力中文自然语言处理数据集 平时做做实验的材料 欢迎补充提交合并 一个可以自己进行训练的中文聊天机器人 根据自己的语料训练出自己想要的聊天机器人 可以用于智能客服 在线问答 智能聊天等场景 目前包含seq2seq seqGAN版本 tf2 版本 pytorch版本 股票量化框架 支持行情获取以及交易微博爬虫 持续维护  Bilibili 用户爬虫 deepin源移植 Debian Ubuntu上最快的QQ 微信安装方式 新闻网页正文通用抽取器 Beta 版  flag on post 自动更新域名解析到本机IP 支持dnspod 阿里DNS CloudFlare 华为云 DNSCOM 本项目针对字符型图片验证码 使用tensorflow实现卷积神经网络 进行验证码识别 owllook 小说搜索引擎中文语言理解测评基准python中文库 python人工智能大数据自动化接口测试开发 书籍下载及python库汇总china testing github io 2 19新型冠状病毒疫情时间序列数据仓库Python 黑魔法手册单阶段通用目标检测器一个拍照做题程序 输入一张包含数学计算题的图片 输出识别出的数学计算式以及计算结果 video download B站视频下载中文命名实体识别 TensorFlow Python 中文数据结构和算法教程 验证码识别 训练Python爬虫实战 模拟登陆各大网站 包含但不限于 滑块验证 拼多多 美团 百度 bilibili 大众点评 淘宝 如果喜欢请start ️学无止下载器 慕课下载器 Mooc下载 慕课网下载 中国大学下载 爱课程下载 网易云课堂下载 学堂在线下载 超星学习通下载 支持视频 课件同时下载一个高级web目录 文件扫描工具 功能将会强于DirBuster Dirsearch cansina 御剑 搜索所有中文NLP数据集 附常用英文NLP数据集中文实体识别与关系提取2 19新型冠状病毒疫情实时爬虫及github release archive以及项目文件的加速项目安卓应用安全学习抓取大量免费代理 ip 提取有效 ip 使用RoBERTa中文预训练模型 RoBERTa for Chinese 用于训练中英文对话系统的语料库敏感词过滤的几种实现 某1w词敏感词库简单易用的Python爬虫框架 QQ交流群 59751 56 使用Bert ERNIE 进行中文文本分类为 CSAPP 视频课程提供字幕 翻译 PPT Lab PyTorch 官方中文教程包含 6 分钟快速入门教程 强化教程 计算机视觉 自然语言处理 生成对抗网络 强化学习 欢迎 Star Fork 兜哥出品 <一本开源的NLP入门书籍 图像翻译 条件GAN AI绘画用Resnet1 1 GPT搭建一个玩王者荣耀的AI各种漏洞poc Exp的收集或编写斗地主AIVulmap 是一款 web 漏洞扫描和验证工具 可对 webapps 进行漏洞扫描 并且具备漏洞验证功能提供超過 5 個金融資料 台股為主 每天更新 finmind github io 数据接口 百度 谷歌 头条 微博指数 宏观数据 利率数据 货币汇率 千里马 独角兽公司 新闻联播文字稿 影视票房数据 高校名单 疫情数据 PyOne 一款给力的onedrive文件管理 分享程序 使用开发的用于迅速搭建并使用 WebHook 进行自动化部署和运维 支持 Github GitLab Gogs GitOsc 跟我一起写Makefile重制版 python自动化运维 技术与最佳实践 书中示例及案例源码自然语言处理实验 sougou数据集 TF IDF 文本分类 聚类 词向量 情感识别 关系抽取等微信公众平台 Python 开发包 DEPRECATED Weblogic一键漏洞检测工具 V1 5 更新时间 2 2 73 完备优雅的微信公众号接口 原生支持同步 协程使用 本程序旨在为安全应急响应人员对Linux主机排查时提供便利 实现主机侧Checklist的自动全面化检测 根据检测结果自动数据聚合 进行黑客攻击路径溯源 PyCharm 中文指南 安装 破解 效率 技巧类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入GPT2 for Chinese chitchat 用于中文闲聊的GPT2模型 实现了DialoGPT的MMI思想 中华人民共和国国家标准 GB T 226 行政区划代码基于python的量化交易平台中文语音识别基于 OneBot 标准的 Python 异步 QQ 机器人框架Real World Masked Face Dataset 口罩人脸数据集 Vulfocus 是一个漏洞集成平台 将漏洞环境 docker 镜像 放入即可使用 开箱即用 谷歌 百度 必应图片下载 基于方面的情感分析 使用PyTorch实现  深度学习与计算机视觉 配套代码ART环境下自动化脱壳方案利用网络上公开的数据构建一个小型的证券知识图谱 知识库中文资源精选 官方网站 安装教程 入门教程 视频教程 实战项目 学习路径 QQ群 167122861 公众号 磐创AI 微信群二维码 www tensorflownews com Pre Trained Chinese XLNet 中文XLNet预训练模型 新浪微博Python SDK有关burpsuite的插件 非商店 文章以及使用技巧的收集 此项目不再提供burpsuite破解文件 如需要请在博客mrxn net下载Python3编写的CMS漏洞检测框架基于django的工作流引擎 工单 ️ 哔哩云 不支持任意文件的全速上传与下载微信SDK 包括微信支付 微信公众号 微信登陆 微信消息处理等中文自然语言理解堡垒机 云桌面自动化运维 审计 录像 文件管理 sftp上传 实时监控 录像回放 网页版rz sz上传下载 动态口令 django转换中国知网 CAJ 格式文献为 PDF 佛系转换 成功与否 皆是玄学 HanLP作者的新书 自然语言处理入门 详细笔记 业界良心之作 书中不是枯燥无味的公式罗列 而是用白话阐述的通俗易懂的算法模型 从基本概念出发 逐步介绍中文分词 词性标注 命名实体识别 信息抽取 文本聚类 文本分类 句法分析这几个热门问题的算法原理与工程实现  Python3 网络爬虫实战 部分含详细教程 猫眼 腾讯视频 豆瓣 研招网 微博 笔趣阁小说 百度热点 B站 CSDN 网易云阅读 阿里文学 百度股票 今日头条 微信公众号 网易云音乐 拉勾 有道 unsplash 实习僧 汽车之家 英雄联盟盒子 大众点评 链家 LPL赛程 台风 梦幻西游 阴阳师藏宝阁 天气 牛客网 百度文库 睡前故事 知乎 Wish微信公众号文章的爬虫 Python Web开发实战 书中源码一直可用的GoAgent 会定时扫描可用的google gae ip 提供可自动化获取ip运行的版本层剪枝 通道剪枝 知识蒸馏 中文命名实体识别 包括多种模型 HMM CRF BiLSTM BiLSTM CRF的具体实现  The Way to Go 中文译本 中文正式名 Go 入门指南 谢谢 Solutions to LeetCode by Go 1 % test coverage runtime beats 1 % LeetCode 题解一款轻量级 高性能 功能强大的内网穿透代理服务器 支持tcp udp socks5 http等几乎所有流量转发 可用来访问内网网站 本地支付接口调试 ssh访问 远程桌面 内网dns解析 内网socks5代理等等 并带有功能强大的web管理端 Go语言高级编程 开源图书 涵盖CGO Go汇编语言 RPC实现 Protobuf插件实现 Web框架实现 分布式系统等高阶主题 完稿 是一个跨平台的强加密无特征的代理软件 零配置 算法模板 最科学的刷题方式 最快速的刷题路径 你值得拥有 百度网盘不限速客户端 golang qt5 跨平台图形界面是golang实现的高性能http https websocket tcp socks5代理服务器 支持内网穿透 链式代理 通讯加密 夜读 通过 bilibili 在线直播的方式分享 Go 相关的技术话题 每天大家在微信 telegram Slack 上及时沟通交流编程技术话题  支持多家云存储的云盘系统 这里是写博客的地方 Halfrost Field 冰霜之地Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由基于gin vue搭建的后台管理系统框架 集成jwt鉴权 权限管理 动态路由 分页封装 多点登录拦截 资源权限 上传下载 代码生成器 表单生成器 通用工作流等基础功能 五分钟一套CURD前后端代码 目VUE3版本正在重构 欢迎issue和pr 分布式爬虫管理平台 支持任何语言和框架Golang标准库 对于程序员而言 标准库与语言本身同样重要 它好比一个百宝箱 能为各种常见的任务提供完美的解决方案 以示例驱动的方式讲解Golang的标准库 天用Go动手写 从零实现系列是一个高性能且低损耗的 goroutine 池 有 有 设计模式 Golang实现 研磨设计模式 读书笔记Golang实现的基于beego框架的接口在线文档管理系统高性能开源RTSP流媒体服务器 基于go语言研发 维护和优化 RTSP推模式转发 RTSP拉模式转发 是一个高性能 轻量级 非阻塞的事件驱动 Go 网络框架 基于Gin Vue Element UI的前后端分离权限管理系统脚手架 包含了 多租户的支持 基础用户管理功能 jwt鉴权 代码生成器 RBAC资源控制 表单构建 定时任务等 3分钟构建自己的中后台项目 文档蓝鲸智云配置平台 BlueKing CMDB 今日热榜 一个获取各大热门网站热门头条的聚合网站 使用Go语言编写 多协程异步快速抓取信息 预览 mo fish一条命令离线安装高可用kubernetes 3min装完 7 M 1 年证书 生产环境稳如老狗阿里巴巴开源的一款简单易用 功能强大的混沌实验注入工具  Go语言四十二章经 详细讲述Go语言规范与语法细节及开发中常见的误区 通过研读标准库等经典代码设计模式 启发读者深刻理解Go语言的核心思维 进入Go语言开发的更高阶段  ️一个轻巧的网络混淆代理 基于Golang轻量级TCP并发服务器框架定时任务管理系统KubeOperator 是一个开源的轻量级 Kubernetes 发行版 专注于帮助企业规划 部署和运营生产级别的 K8s 集群 本系统是集工单统计 任务钩子 权限管理 灵活配置流程与模版等等于一身的开源工单系统 当然也可以称之为工作流引擎 致力于减少跨部门之间的沟通 自动任务的执行 提升工作效率与工作质量 减少不必要的工作量与人为出错率 Go实现的Trojan代理 支持多路复用 路由功能 CDN中转 Shadowsocks混淆插件 多平台 无依赖 Go语法树入门 开启自制编程语言和编译器之旅 开源免费图书 Go语言进阶 掌握抽象语法树 Go语言AST 凹语言 一款可全平台运行的浏览器数据导出解密工具 Golang相关 审稿进度8 % Go语法 Go并发思想 Go与web开发 Go微服务设施等Jupiter是斗鱼开源的面向服务治理的Golang微服务框架Elasticsearch 可视化DashBoard 支持Es监控 实时搜索 Index template快捷替换修改 索引列表信息查看 SQL converts to DSL等  从问题切入 串连 Go 语言相关的所有知识 融会贯通 golang design go questionsWeChat SDK for Go 微信SDK 简单 易用 go fastdfs 是一个简单的分布式文件系统 私有云存储 具有无中心 高性能 高可靠 免维护等优点 支持断点续传 分块上传 小文件合并 自动同步 自动修复 Mastering GO 中文译本 玩转 GO 云原生且易用的应用管理平台 Go Web 基础 是一套针对 Google 出品的 Go 语言的视频语音教程 主要面向完成 Go 编程基础 教程后希望进一步了解有关 Go Web 开发的学习者 中文名 悟空 API 网关 是一个基于 Golang开发的微服务网关 能够实现高性能 HTTP API 转发 服务编排 多租户管理 API 访问权限控制等目的 拥有强大的自定义插件系统可以自行扩展 并且提供友好的图形化配置界面 能够快速帮助企业进行 API 服务治理 提高 API 服务的稳定性和安全性  集合多家 API 的新一代图床MIT课程 Distributed Systems 学习和翻译Go语言圣经中文版 只接收PR Issue请提交到golang china gopl zh trojan多用户管理部署程序 支持web页面管理BookStack 基于MinDoc 使用Beego开发的在线文档管理系统 功能类似Gitbook和看云 weixin wechat 微信公众平台 微信企业号 微信商户平台 微信支付 go golang sdk  蓝眼云盘 Eyeblue Cloud Storage 语言高性能编程 Go 语言陷阱 Gotchas Traps 使用 XMind 记录 Linux 操作系统 网络 C Golang 以及数据库的一些设计cqhttp的golang实现 轻量 原生跨平台 mqant是一款基于Golang语言的简洁 高效 高性能的分布式微服务框架基于react node js go开发的微商城 含微信小程序 MM Wiki 一个轻量级的企业知识分享与团队协同软件 可用于快速构建企业 Wiki 和团队知识分享平台 部署方便 使用简单 帮助团队构建一个信息共享 文档管理的协作环境 Go 语言中文网 Golang中文社区 Go语言学习园地 源码基于 Gin 进行模块化设计的 API 框架 封装了常用功能 使用简单 致力于进行快速的业务研发 比如 支持 cors 跨域 jwt 签名验证 zap 日志收集 panic 异常捕获 trace 链路追踪 prometheus 监控指标 swagger 文档生成 viper 配置文件解析 gorm 数据库组件 gormgen 代码生成工具 graphql 查询语言 errno 统一定义错误码 gRPC 的使用 等等 syncd是一款开源的代码部署工具 它具有简单 高效 易用等特点 可以提高团队的工作效率 一款由 YSRC 开源的主机入侵检测系统golang面试题集合这是一个可以识别视频语音自动生成字幕SRT文件的开源 Windows GUI 软件工具 一款内网综合扫描工具 方便一键自动化 全方位漏扫扫描 是一个用于在两个redis之间同步数据的工具 满足用户非常灵活的同步 迁移需求 Overlord是哔哩哔哩基于Go语言编写的memcache和redis cluster的代理及集群管理功能 致力于提供自动化高可用的缓存服务解决方案 Stack RPC 中文示例 教程 资料 源码解读ICMP流量伪装转发工具Freedom是一个基于六边形架构的框架 可以支撑充血的领域模型范式  Go2编程指南 开源图书 重点讲解Go2新特性 以及Go1教程中较少涉及的特性语言高性能分词golang写的IM服务器 服务组件形式  结巴 中文分词的Golang版本xorm是一个简单而强大的Go语言ORM库 通过它可以使数据库操作非常简便 本库是基于原版xorm的定制增强版本 为xorm提供类似ibatis的配置文件及动态SQL支持 支持AcitveRecord操作一个 Go 语言实现的快速 稳定 内嵌的 k v 数据库 高性能表格数据导出器基于Golang的开源社区系统 版本网易云音乐ncm文件格式转换 go 实现的压测工具 ab locust Jmeter压测工具介绍 单台机器1 w连接压测实战 抓包截取项目中的数据库请求并解析成相应的语句  Go专家编程 Go语言快速入门 轻松进阶 <<自己动手写docker 源码Go 每日一库kunpeng是一个Golang编写的开源POC框架 库 以动态链接库的形式提供各种语言调用 通过此项目可快速开发漏洞检测类的系统 vue js element框架 golang beego框架 开发的运维发布系统 支持git jenkins版本发布 go ssh BT两种文件传输方式选择 支持部署前准备任务和部署后任务钩子函数 Go 从入门到实战 学习笔记 从零开始学 Go Gin 框架 基本语法包括 26 个Demo Gin 框架包括 Gin 自定义路由配置 Gin 使用 Logrus 进行日志记录 Gin 数据绑定和验证 Gin 自定义错误处理 Go gRPC Hello World 持续更新中 Go 学习之路 Go 开发者博客 Go 微信公众号 Go 学习资料 文档 书籍 视频 微信 WeChat 支付宝 AliPay 的Go版本SDK 极简 易用的聚合支付SDK Go by Example 通过例子学 GolangPPGo Job是一款可视化的 多人多权限的 一任务多机执行的定时任务管理系统 采用golang开发 安装方便 资源消耗少 支持大并发 可同时管理多台服务器上的定时任务 Golang实现的IP代理池是一款用Go语言开发的web应用框架 API特性类似于Tornado并且拥有比Tornado更好的性能  自己动手写Java虚拟机 随书源代码支付宝 AliPay SDK for Go 集成简单 功能完善 持续更新 支持公钥证书和普通公钥进行签名和验签  ARCHIVED Geph 迷霧通帮助你将本地端口暴露在外网 支持TCP UDP 当然也支持HTTP 深入Go并发编程研讨课无状态子域名爆破工具手机号码归属地信息库 手机号归属地查询 phone dat 最后更新 2 21年 6月 golang基于websocket单台机器支持百万连接分布式聊天 IM 系统基于mongodb oplog的集群复制工具 可以满足迁移和同步的需求 进一步实现灾备和多活功能 Gin Gorm开发Golang API快速开发脚手架简单可信赖的任务管理工具Go语言实例教程从入门到进阶 包括基础库使用 设计模式 面试易错点 工具类 对接第三方等授权框架简体中文翻译 自动抓取tg频道 订阅地址 公开互联网上的ss ssr vmess trojan节点信息 聚合去重后提供节点列表轻量级 go 业务框架  哪吒监控 一站式轻监控轻运维系统 支持系统状态 TCP Ping 监控报警 命令批量执行和计划任务 Go 语言官方教程中文版工程师知识管理系统 基于golang go语言 beego框架 每个行业都有自己的知识管理系统 engineercms旨在为土木工程师们打造一款适用的基于web的知识管理系统 它既可以用于管理个人的项目资料 也可以用于管理项目团队资料 它既可以运行于个人电脑 也可以放到服务器上 支持提取码分享文件 onlyoffice实时文档协作 直接在线编辑dwg文件 office文档 在线利用mindoc创作你的书籍 阅览PDF文件 通用的业务流程设置 手机端配套小程序 微信搜索“珠三角设代”或“青少儿书画”即可呼出小程序 边界打点后的自动化渗透工具一个集审核 执行 备份及生成回滚语句于一身的MySQL运维工具汉字转拼音 Go资源精选中文版 含中文图书大全 语言实现的 Redis 服务器和分布式集群 超全golang面试题合集 golang学习指南 golang知识图谱 入门成长路线 一份涵盖大部分golang程序员所需要掌握的核心知识 常用第三方库 mysql mq es redis等 机器学习库 算法库 游戏库 开源框架 自然语言处理nlp库 网络库 视频库 微服务框架 视频教程 音频音乐库 图形图片库 物联网库 地理位置信息 嵌入式脚本库 编译器库 数据库 金融库 电子邮件库 电子书籍 分词 数据结构 设计模式 去html tag标签等 go学习 go面试go语言扩展包 收集一些常用的操作函数 辅助更快的完成开发工作 并减少重复代码百灵快传 基于Go语言的高性能 手机电脑超大文件传输神器 局域网共享文件服务器 LAN large file transfer tool 一个基于云存储的网盘系统 用于自建私人网盘或企业网盘 go分布式服务器 基于内存mmo个人博客微信小程序服务端 SDK for Golang 控制台颜色渲染工具库 支持16色 256色 RGB色彩渲染输出 使用类似于 Print Sprintf 兼容并支持 Windows 环境的色彩渲染基于 IoC 的 Go 后端一站式开发框架 v2ray web manager 是一个v2ray的面板 也是一个集群的解决方案 同时增加了流量控制 账号管理 限速等功能 key admin panel web cluster 集群 proxyServerScan一款使用Golang开发的高并发网络扫描 服务探测工具 是http client领域的瑞士军刀 小巧 强大 犀利 具体用法可看文档 如使用迷惑或者API用得不爽都可提issuesTcpRoute TCP 层的路由器 对于 TCP 连接自动从多个线路 电信 联通 移动 多个域名解析结果中选择最优线路 Bifrost 面向生产环境的 MySQL 同步到Redis MongoDB ClickHouse MySQL等服务的异构中间件应用网关 提供快速 安全的应用交付 身份认证 WAF CC HTTPS以及ACME自动证书 A telegram bot for rss reader 一个支持应用内阅读的 Telegram RSS Bot RESTful API 文档生成工具 支持和 Ruby 等大部分语言 基于gin gorm开发的个人博客项目基于Go语言的国密SM2 SM3 SM4算法库 Golang 设计模式一个阿里云盘列表程序 一款小巧的基于Go构建的开发框架 可以快速构建API服务或者Web网站进行业务开发 遵循SOLID设计原则并发编程实战 第2版 Go 学习 Go 进阶 Go 实用工具类 Go kit Go Micro 微服务实践 Go 推送基于DDD的o2o的业务模型及基础 使用Golang gRPC Thrift实现Sharingan 写轮眼 是一个基于golang的流量录制回放工具 适合项目重构 回归测试等 百度云网盘爬虫基于beego的进销存系统 TeaWeb 可视化的Web代理服务 DEMO teaos cn  白帽子安全开发实战 配套代码抖音推荐 搜索页视频列表视频爬虫方案 基于app 虚拟机或真机 相关技术 golang adb一款甲方资产巡航扫描系统 系统定位是发现资产 进行端口爆破 帮助企业更快发现弱口令问题 主要功能包括 资产探测 端口爆破 定时任务 管理后台识别 报表展示提供微信终端版本 微信命令行版本聊天功能 微信机器人 ️ 互联网最全大厂技术分享PPT 持续更新中 各大技术交流会 活动资料汇总 如 QCon 全球运维技术大会 GDG 全球技术领导力峰会 大前端大会 架构师峰会 敏捷开发DevOps OpenResty Elastic 欢迎 PR Issues日本麻将助手 牌效 防守 记牌 支持雀魂 天凤 开源客服系统GO语言开发GO FLY 免费客服系统一个查询IP地理信息和CDN服务提供商的离线终端工具 是一个用于系统重构 系统迁移和系统分析的瑞士军刀 它可以分析代码中的测试坏味道 模块化分析 行数统计 分析调用与依赖 Git 分析以及自动化重构等 一个直播录制工具Mastering Go 第二版中文版来袭 渗透测试情报收集工具分布式定时任务调度平台高度模块化 遵循 KISS原则的区块链开发框架golang版本的hangout 希望能省些内存 使用了自己写的Kafka lib 虚 不过我们在生产环境已经使用近1年 kafka 版本从 9 1到2 都在使用 目前情况稳定 吞吐量在每天2 亿条以上 Go 语言 Web 应用开发系列教程 从新手到双手残废iris 框架的后台api项目简单好用的DDNS 自动更新域名解析到公网IP 支持阿里云 腾讯云dnspod Cloudflare 华为云  自己动手实现Lua 随书源代码php直播go直播 短视频 直播带货 仿比心 猎游 tt语音聊天 美女约玩 陪玩系统源码开黑 约玩源码 社区开源 云原生的多云和混合云融合平台 Jiajun的编程随想Golang语言社区 腾讯课堂 网易云课堂 字节教育课程PPT及代码基于GF Go Frame 的后台管理系统带你了解一下Golang的市场行情mysql表结构自动同步工具 目前只支持字段 索引的同步 分区等高级功能暂不支持 基于Kubernetes的PaaS平台流媒体NetFlix解锁检测脚本稳定分支2 9 X 版本已更新 由 Golang语言游戏服务器 维护 全球服游戏服务器及区域服框架 目前协议支持websocket KCP TCP及RPC 采用状态同步 帧同步内测 愿景 打造MMO多人竞技游戏框架 功能持续更新中 基于 Golang 类似知乎的私有部署问答应用 包含问答 评论 点赞 管理后台等功能全新的开源漏洞测试框架 实现poc在线编辑 运行 批量测试 使用文档 XAPI MANAGER 专业实用的开源接口管理平台 为程序开发者提供一个灵活 方便 快捷的API管理工具 让API管理变的更加清晰 明朗 如果你觉得xApi对你有用的话 别忘了给我们点个赞哦 qq协议的golang实现 移植于miraigo版本极简工作流引擎全平台Go开源内网渗透扫描器框架 Windows Linux Mac内网渗透 使用它可轻松一键批量探测C段 B段 A段存活主机 高危漏洞检测MS17 1 SmbGhost 远程执行SSH Winrm 密码爆破端口扫描服务识别PortScan指纹识别多网卡主机 端口扫描服务识别PortScan iikira BaiduPCS Go原版基础上集成了分享链接 秒传链接转存功能 e签宝安全团队积累十几年的安全经验 都将对外逐步开放 首开的Ehoney欺骗防御系统 该系统是基于云原生的欺骗防御系统 也是业界唯一开源的对标商业系统的产品 欺骗防御系统通过部署高交互高仿真蜜罐及流量代理转发 再结合自研密签及诱饵 将攻击者攻击引导到蜜罐中达到扰乱引导以及延迟攻击的效果 可以很大程度上保护业务的安全 护网必备良药漂亮的Go语言通用后台管理框架 包含计划任务 MySQL管理 Redis管理 FTP管理 SSH管理 服务器管理 Caddy配置 云存储管理等功能  微信支付 WeChat Pay SDK for Golang用于监控系统的日志采集agent 可无缝对接open falcon阿里巴巴mysql数据库binlog的增量订阅 消费组件 Canal 的 go 客户端 github com alibaba canal 用于比较2个redis数据是否一致 支持单节点 主从 集群版 以及多种proxy 支持同构以及异构对比 redis的版本支持2 x 5 x 使用go micro微服务实现的在线电影院订票系统后端一站式微服务框架 提供API web websocket RPC 任务调度 消息消费服务器红蓝对抗跨平台远控工具Interchain protocol 跨链协议简单易用 足够轻量 性能好的 Golang 库一个go echo vue 开发的快速 简洁 美观 前后端分离的个人博客系统 blog 也可方便二次开发为CMS 内容管理系统 和各种企业门户网站 正在更新权限管理 hauth项目 不是一个前端or后台框架 而是一个集成权限管理 菜单资源管理 域管理 角色管理 用户管理 组织架构管理 操作日志管理等等的快速开发平台． hauth是一个基础产品 在这个基础产品上 根据业务需求 快速的开发应用服务．账号 admin 密码 123456通用的数据验证与过滤库 使用简单 内置大部分常用验证 过滤器 支持自定义验证器 自定义消息 字段翻译 CTF AWD Attack with Defense 线下赛平台 AWD platform 欢迎 Star 蓝鲸智云容器管理平台 BlueKing Container Service 程序员如何优雅的挣零花钱 2 版 升级为小书了 一个 PHP 微信 SDKAV 电影管理系统 avmoo javbus javlibrary 爬虫 线上 AV 影片图书馆 AV 磁力链接数据库ThinkPHP Framework 十年匠心的高性能PHP框架 最全的前端资源汇总仓库 包括前端学习 开发资源 求职面试等 多语言多货币多入口的开源电商 B2C 商城 支持移动端vue app html5 微信小程序微店 微信小程序商城等可能是我用过的最优雅的 Alipay 和 WeChat 的支付 SDK 扩展包了 基于词库的中文转拼音优质解决方案 我用爬虫一天时间“偷了”知乎一百万用户 只为证明PHP是世界上最好的语言 所使用的程序微信 SDK for Laravel 基于 overtrue wechat开源在线教育点播系统  一款满足你的多种发送需求的短信发送组件 基于 Laravel 的后台系统构建工具 Laravel Admin 使用很少的代码快速构建一个功能完善的高颜值后台系统 内置丰富的后台常用组件 开箱即用 让开发者告别冗杂的HTML代码一个想帮你总结所有类型的上传漏洞的靶场优雅的渐进式PHP采集框架 Laravel 电商实战教程的项目代码Payment是php版本的支付聚合第三方sdk 集成了微信支付 支付宝支付 招商一网通支付 提供统一的调用接口 方便快速接入各种支付 查询 退款 转账能力 服务端接入支付功能 方便 快捷 SPF Swoole PHP Framework 世界第一款基于Swoole扩展的PHP框架 开发者是Swoole创始人 A Wonderful WordPress Theme 樱花庄的白猫博客主题图床 此项目已弃用 基于 ThinkPHP 基础开发平台 登录账号密码都是 admin PanDownload网页复刻版一个开源的网址导航网站项目 您可以拿来制作自己的网址导航 使用PHP Swoole实现的网页即时聊天工具 独角数卡 发卡 开源式站长自动化售货解决方案 高效 稳定 快速 卡密商城系统 高效安全的在线卡密商城 ️命令行模式开发框架ShopXO免费开源商城系统 国内领先企业级B2C免费开源电商系统 包含PC h5 微信小程序 支付宝小程序 百度小程序 头条 抖音小程序 QQ小程序 APP 多商户 遵循MIT开源协议发布 基于 ThinkPHP5 1框架研发Wizard是一款开源的文档管理工具 支持Markdown Swagger Table类型的文档 Swoole MySQL Proxy 一个基于 MySQL 协议 Swoole 开发的MySQL数据库连接池 学习资源整合Freenom域名自动续期一个好玩的Web安全 漏洞测试平台一个基于Yii2高级框架的快速开发应用引擎蓝天采集器是一款免费的数据采集发布爬虫软件 采用php mysql开发 可部署在云服务器 几乎能采集所有类型的网页 无缝对接各类CMS建站程序 免登录实时发布数据 全自动无需人工干预 是网页大数据采集软件中完全跨平台的云端爬虫系统免费开源的中文搜索引擎 采用 C C 编写 基于 xapian 和 scws 提供 PHP 的开发接口和丰富文档WDScanner平台目前实现了如下功能 分布式web漏洞扫描 客户管理 漏洞定期扫描 子域名枚举 端口扫描 网站爬虫 暗链检测 坏链检测 网站指纹搜集 专项漏洞检测 代理搜集及部署等功能  ️兰空图床图标工场 移动应用图标生成工具 一键生成所有尺寸的应用图标和启动图 Argon 一个轻盈 简洁的 WordPress 主题Typecho Fans插件作品目录PHP代码审计分段讲解一个结构清晰的 易于维护的 现代的PHP Markdown解析器百度贴吧云签到 在服务器上配置好就无需进行任何操作便可以实现贴吧的全自动签到 配合插件使用还可实现云灌水 点赞 封禁 删帖 审查等功能 注意 Gitee 原Git osc 仓库将不再维护 目前唯一指定的仓库为 Github 本项目没有官方交流群 如需交流可以直接使用Github的Discussions 没有商业版本 目前贴吧云签到由社区共同维护 不会停止更新 PR 通常在一天内处理 微信调试 API调试和AJAX的调试的工具 能将日志通过WebSocket输出到Chrome浏览器的console中 結巴 中文分詞 做最好的 PHP 中文分詞 中文斷詞組件EleTeam开源项目 电商全套解决方案之PHP版 Shop for PHP Yii2 一个类似京东 天猫 淘宝的商城 有对应的APP支持 由EleTeam团队维护 RhaPHP是微信第三方管理平台 微信公众号管理系统 支持多公众号管理 CRM会员管理 小程序开发 APP接口开发 几乎集合微信功能 简洁 快速上手 快速开发微信各种各样应用 简洁 好用 快速 项目开发快几倍 群 656868 一刻社区后端 API 源码 新 微信服务号 微信小程序 微信支付 支付宝支付苹果cms v1 maccms v1 麦克cms 开源cms 内容管理系统 视频分享程序 分集剧情程序 网址导航程序 文章程序 漫画程序 图片程序一个PHP文件搞定支付宝支付系列 包括电脑网站支付 手机网站支付 现金红包 消费红包 扫码支付 JSAPI支付 单笔转账到支付宝账户 交易结算 分账 分润 网页授权获取用户信息等restful api风格接口 APP接口 APP接口权限 oauth2 接口版本管理 接口鉴权基于企业微信的开源SCRM应用开发框架 引擎 也是一套通用的企业私域流量管理系统 API接口大全不断更新中 欢迎Fork和Star 1 一言 古诗句版 api 2 必应每日一图api 3 在线ip查询 4 m3u8视频在线解析api 5 随机生成二次元图片api 6 快递查询api 支持国内百家快递 7 flv视频在线解析api 8 抖音视频无水印解析api 9 一句话随机图片api 1 QQ用户信息获取api 11 哔哩哔哩封面图获取api 12 千图网58pic无水印解析下载api 13 喜马拉雅主播FM数据采集api 14 网易云音乐api 15 CCTV央视网视频解析api 16 微信运动刷步数api 17 皮皮搞笑 基于swoole的定时器程序 支持秒级处理群 656868 ️ Saber PHP异步协程HTTP客户端微信支付单文件版 一个PHP文件搞定微信支付系列 包括原生支付 扫码支付 H5支付 公众号支付 现金红包 企业付款到零钱等 新增V3版 一个还不错的图床工具 支持Mac Win Linux服务器 支持压缩后上传 添加图片或文字水印 多文件同时上传 同时上传到多个云 右击任意文件上传 快捷键上传剪贴板截图 Web版上传 支持作为Mweb Typora发布图片接口 作为PicGo ShareX uPic等的自定义图床 支持在服务器上部署作为图床接口 支持上传任意格式文件 可能是我用过的最优雅的 Alipay 和 WeChat 的 laravel 支付扩展包了上传大文件的Laravel扩展包开发内功修炼Laravel核心代码学习南京邮电大学开源 Online Judge QQ群 6681 8264 免费IP地址数据库 已支持IPV4 IPV6 结构化输出为国家 省 市 县 运营商 中文数据库 方便实用 laravel5 5和vue js结合的前后端分离项目模板 后端使用了laravel的LTS版本 5 5 前端使用了流行的vue element template项目 作为程序的起点 可以直接以此为基础来进行业务扩展 模板内容包括基础的用户管理和权限管理 日志管理 集成第三方登录 整合laravel echo server 实现了websocket 做到了消息的实时推送 并在此基础上 实现了聊天室和客服功能 权限管理包括后端Token认证和前端vue js的动态权限 解决了前后端完整分离的情况下 vue js的认证与权限相关的痛点 已在本人的多个项目中集成使用  Web安全之机器学习入门 网易云音乐升级APIPHP 集成支付 SDK 集成了支付宝 微信支付的支付接口和其它相关接口的操作 支持 php fpm 和 Swoole 所有框架通用 宇润PHP全家桶技术支持群 17916227MDClub 社区系统后端代码imi 是基于 Swoole 的 PHP 协程开发框架 它支持 Http2 WebSocket TCP UDP MQTT 等主流协议的服务开发 特别适合互联网微服务 即时通讯聊天im 物联网等场景 QQ群 17916227WordPress 版 WebStack 导航主题 nav iowen cnLive2D 看板娘插件 www fghrsh net post 123 html 上使用的后端 API简单搜索 一个简单的前端界面 用惯了各种导航首页 满屏幕尽是各种不厌其烦的广告和资讯 尝试自己写个自己的主页 国内各大CTF赛题及writeup整理收集自网络各处的 webshell 样本 用于测试 webshell 扫描器检测率  PHP微信SDK 微信平台 微信支付 码小六 GitHub 代码泄露监控系统PHP表单生成器 快速生成现代化的form表单 支持前后端分离 内置复选框 单选框 输入框 下拉选择框 省市区三级联动 时间选择 日期选择 颜色选择 文件 图片上传等17种常用组件 悟空CRM 基于TP5 vue ElementUI的前后端分离CRM系统V免签PHP版 完全开源免费的个人免签约解决方案Composer 全量镜像发布于2 17年3月 曾不间断运行2年多 这个开源有助于理解 Composer 镜像的工作原理一个多彩 轻松上手 体验完善 具有强大自定义功能的WordPress主题 基于Sakura主题全球免费代理IP库 高可用IP 精心筛选优质IP 2s必达LaraCMS 是在学习 laravel web 开发实战进阶 实战构架 API 服务器 过程中产生的一个业余作品 试图通过简单的方式 快速构建一套基本的企业站同时保留很灵活的扩展能力和优雅的代码方式 当然这些都得益Laravel的优秀设计 同时LaraCMS 也是一个学习Laravel 不错的参考示例  已停止维护 HookPHP基于C扩展搭建内置AI编程的架构系统 支持微服务部署 热插拔业务组件 集成业务模型 权限模型 UI组件库 多模板 多平台 多域名 多终端 多语言 含常驻内存 前后分离 API平台 LUA QQ群 67911638 中华人民共和国居民身份证 中华人民共和国港澳居民居住证以及中华人民共和国台湾居民居住证号码验证工具 PHP 版 最简单的91porn爬虫php版本Fend 是一款短小精悍 可在 FPM Swoole 服务容器平滑切换的高性能PHP框架 no evil 实现过滤敏感词汇 基于确定有穷自动机 DFA 算法 支持composer安装扩展Z BlogPHP博客程序IYUU自动辅种工具 目前能对国内大部分的PT站点自动辅种 支持下载器集群 支持多盘位 支持多下载目录 支持远程连接等 果酱小店 基于 Laravel swoole 小程序的开源电商系统 优雅与性能兼顾 這是一份純靠北工程師的專案 請好好愛護它 謝謝 EC ecjia 到家是一款可开展O2O业务的移动电商系统 它包含 移动端APP 采用原生模式开发 覆盖使用iOS 及Android系统的移 动终端 后台系统 针对平台日常运营维护的平台后台 针对入驻店铺管理的商家后台 独立并行 移动端H5 能够灵活部署于微信及其他APP 网页等 Material Design 指南的中文翻译 一个纯php分词 thinkphp5 1 layui 实现的带rbac的基础管理后台 方便快速开发法使用百度pcs上传脚本目前最全的前端开发面试题及答案樱花内网穿透网站源代码 2 2 重制版MeepoPS是Meepo PHP Socket的缩写 旨在提供稳定的Socket服务 可以轻松构建在线实时聊天 即时游戏 视频流媒体播放等 基础目录 聚合所有其他目录 包含文档和例子基于 Vue js 的简洁一般强大的 WordPress 单栏博客主题阿里云打造Laravel最好的OSS Storage扩展 网上在线商城 综合网上购物平台swoolefy是一个基于swoole实现的轻量级 高性能 协程级 开放性的API应用服务框架基于redis实现高可用 易拓展 接入方便 生产环境稳定运行的延迟队列 一款基于WordPress开发的高颜值的自适应主题 支持白天与黑夜模式 无刷新加载等 阿里云 OSS 官方 SDK 的 Composer 封装 支持任何 PHP 项目 包括 Laravel Symfony TinyLara 等等 此插件将你的WordPress接入本土生态体系之中 使之更适合国内应用环境PHP的服务化框架 适用于Api Server Rpc Server 帮助原生PHP项目转向微服务化 出色的性能与支持高并发的协程相结合基于ThinkPHP V6 开发的面向API的后台管理系统  PHP Swoole 开发的在线同步点歌台 支持自由点歌 切歌 调整排序 删除指定音乐以及基础权限分级信呼 免费开源的办公OA系统 包括APP pc上客户端 REIM即时通信 服务端等 让每个企业单位都有自己的办公系统 来客电商 微信小程序商城 APP商城 公众号商城 PC商城系统 支付宝小程序商城 抖音小程序商城 百度小程序电商系统 前后端代码全部开源 注重界面美感与用户体验 打造独特电商系统生态圈哔哩哔哩 Bilibili B 站主站助手 直播助手 直播抽奖 挂机升级 贴心小棉袄脚本 Lv6 离你仅有一步之遥 PHP 版 Personal 一个运用php与swoole实现的统计监控系统短视频去水印 抖音 皮皮虾 火山 微视 微博 绿洲 最右 轻视频 快手 全民小视频 巴塞电影 陌陌 Before避风 开眼 Vue Vlog 小咖秀 皮皮搞笑 全民K歌 西瓜视频  中国农历 阴历 与阳历 公历 转换与查询工具AoiAWD 专为比赛设计 便携性好 低权限运行的EDR系统 项目管理系统后端接口ThinkPHP 队列支持Typecho Theme Aria 书写自己的篇章PHP 中文工具包 支持汉字转拼音 拼音分词 简繁互转 数字 金额大写 QQ群 17916227Yii2 community 请访问淘客5合一SDK 支持淘宝联盟 京东联盟 多多进宝 唯品会 苏宁基于 thinkphp 开发的的 blogMojito Admin 基于 Laravel Vue Element 构建的后台管理系统一个经典的XSS渗透管理平台一款基于 RageFrame2 的免费开源的基础销售功能的商城基于Laravel 5 4 的开发的博客系统 代号 myPersimmon证件照片排版在线生成器 在一张6寸的照片上排版多张证件照清华大学计算机学科推荐学术会议和期刊列表WordPress响应式免费主题 Art Blog唯品秀博客 weipxiu com 备用域名weipxiu cn 开源给小伙伴免费使用 如使用过程有任何问题 在线技术支持QQ 欢迎打扰 原创不易 如喜欢 请多多打赏 演示 EwoMail是基于Linux的企业邮箱服务器 集成了众多优秀稳定的组件 是一个快速部署 简单高效 多语言 安全稳定的邮件解决方案 笔记本新版简单强大的无数据库的图床2 版 演示地址  Bilibili B 站自动领瓜子 直播助手 直播挂机脚本 主站助手 PHP 版微信群二维码活码工具 生成微信群活码 随时可以切换二维码 短视频的PHP拓展包 集成各大短视频的去水印功能 抖音 快手 微视主流短视频 PHP去水印一个PHPer的升级之路酷瓜云课堂 在线教育 网课系统 网校系统 知识付费系统 不加密不阉割 1 %全功能开源 可免费商用 框架主要使用ThinkPHP6 layui 拥有完善的权限的管理模块以及敏捷的开发方式 让你开发起来更加的舒服 laravel5 5搭建的后台管理 和 api服务 的小程序商城基于ThinkPHP5 AdminLTE的后台管理系统魔改版本 为 OLAINDEX 添加多网盘挂载及一些小修复海豚PHP 基于ThinkPHP5 1 41LTS的快速开发框架挂载Teambition文件 可直链分享 支持网盘 需申请 和项目文件 无需邀请码 准确率99 9%的ip地址定位库laravel ant design vue 权限后台PHP 第三方登录授权 SDK 集成了QQ 微信 微博 Github等常用接口 支持 php fpm 和 Swoole 所有框架通用 QQ群 17916227抖音去水印PHP版接口一个分布式统计监控系统 包含PHP客户端 服务端整合多接口的IP查询工具 基于阿里云OSS的WordPress远程附件支持插件 后会有期 开箱即用的Laravel后台扩展 前后端分离 后端控制前端组件 无需编写vue即可创建一个的项目 丰富的表单 表格组件 强大的自定义组件功能 yii2 swoole 让yii2运行在swoole上胖鼠采集 WordPress优秀开源采集插件CatchAdmin是一款基于thinkphp6 和 element admin 开发的后台管理系统 基于 ServiceProvider 系统模块完全接耦 随时卸载安装模块 提供了完整的权限和数据权限等功能 大量内置的开发工具提升你的开发体验 官网地址 微信公众平台php版开发包微信小程序 校园小情书后台源码 好玩的表白墙 告白墙 功能全面的PHP命令行应用库 提供控制台参数解析 命令运行 颜色风格输出 用户信息交互 特殊格式信息显示基于 chinese poetry 数据整理的一份 mysql 格式数据帮助 thinkphp 5 开发者快速 轻松的构建Api hyperf admin 是基于 hyperf vue 的配置化后台开发工具 微信支付php 写的视频下载工具 现已支持 Youku Miaopai 腾讯 XVideos Pornhub 91porn 微博酷燃 bilibili 今日头条 芒果TVCorePress 主题 一款高性能 高颜值的WordPress主题快链电商 直播电商 分销商城 微信小程序商城 APP商城 公众号商城 PC商城系统 支付宝小程序商城 抖音小程序商城 百度小程序电商系统 前后端代码全部开源 Laravel vue开发 成熟商用项目 shop mall 商城 电商 利用 PHP cURL 转发 Disqus API 请求可能是最优雅 简易的淘宝客SDKUniAdmin是一套渐进式模块化开源后台 采用前后端分离技术 数据交互采用json格式 功能低耦合高内聚 核心模块支持系统设置 权限管理 用户管理 菜单管理 API管理等功能 后期上线模块商城将打造类似composer npm的开放式插件市场 同时我们将打造一套兼容性的API标准 从ThinkPHP5 1 Vue2开始 逐步吸引爱好者共同加入 以覆盖等多语言框架 PHP 多接口获取快递物流信息包LightCMS 是一个基于 Laravel 开发的轻量级 CMS 系统 也可以作为一个通用的后台管理框架使用单点登录系统快乐二级域名分发系统Typecho Theme Story 爱上你我的故事 一个轻量化的留言板 记事本 社交系统 博客 人类的本质是 咕咕咕？微信域名拦截检测 QQ域名拦截检测 t xzkxb com 查询有缓存 如需实时查询请自行部署 高性能分布式并发锁 行为限流Emlog是一款基于PHP和MySQL的功能强大的博客及CMS建站系统 追求快速 稳定 简单 舒适的建站体验Hyperf admin 基于Hyperf Element UI 通用管理后台企业仓库管理系统HisiPHP V2版是基于ThinkPHP5 1和Layui开发的后台框架 承诺永久免费开源 您可用于学习和商用 但须保留版权信息正常显示 如果HisiPHP对您有帮助 您可以点击右上角 Star 支持一下哦 谢谢 使用PHP开发的简约导航 书签管理系统 软擎是基于 Php 7 2 和 Swoole 4 4 的高性能 简单易用的开发框架 支持同时在 Swoole Server 和 php fpm 两种模式下运行 内置了服务 集成了大量成熟的组件 可以用于构建高性能的Web系统 API 中间件 基础服务等等 个人发卡源码 发卡系统 二次元发卡系统 二次元发卡源码 发卡程序 动漫发卡 PHP发卡源码聊天应用 php实现的dht爬虫搭建的webim客服系统 即时通讯一些实用的python脚本同城拼车微信小程序后端代码 一个响应式干净和简洁优雅的 Typecho 主题php仓库进销存深度学习5 问 以问答形式对常用的概率知识 线性代数 机器学习 深度学习 计算机视觉等热点问题进行阐述 以帮助自己及有需要的读者 全书分为18个章节 5 余万字 由于水平有限 书中不妥之处恳请广大读者批评指正 未完待续 如有意合作 联系scutjy2 15 163 com 版权所有 违权必究 Tan 2 18 6题解 记录自己的leetcode解题之路 最全中华古诗词数据库 唐宋两朝近一万四千古诗人 接近5 5万首唐诗加26万宋诗 两宋时期1564位词人 21 5 首词 uni app 是使用 Vue 语法开发小程序 H5 App的统一框架采用自身模块规范编写的前端 UI 框架 遵循原生 HTML CSS JS 的书写形式 极低门槛 拿来即用 我是依扬 木易杨 公众号 高级前端进阶 作者 每天搞定一道前端大厂面试题 祝大家天天进步 一年后会看到不一样的自己 YApi 是一个可本地部署的 打通前后端及QA的 可视化的接口管理平台小程序组件化开发框架网易云音乐 Node js API service基于 Vue js 的小程序开发框架 从底层支持 Vue js 语法和构建工具体系  ECMAScript 6入门 是一本开源的 JavaScript 语言教程 全面介绍 ECMAScript 6 新增的语法特性  谷粒 Chrome插件英雄榜 为优秀的Chrome插件写一本中文说明书 让Chrome插件英雄们造福人类公众号 加1 同步更新前端面试每日 3 1 以面试题来驱动学习 提倡每日学习与思考 每天进步一点 每天早上5点纯手工发布面试题 死磕自己 愉悦大家 4 道前端面试题全面覆盖小程序 软技能 本文原文由知名 Hacker Eric S Raymond 所撰寫 教你如何正確的提出技術問題並獲得你滿意的答案 千古前端图文教程 超详细的前端入门到进阶学习笔记 从零开始学前端 做一名精致优雅的前端工程师 公众号 千古壹号 作者  book Node js 包教不包会 by alsotang收集所有区块链 BlockChain 技术开发相关资料 包括Fabric和Ethereum开发资料轻量 可靠的小程序 UI 组件库微信小程序商城 微信小程序微店一个可以观看国内主流视频平台所有视频的客户端可伸缩布局方案基于 node js Mongodb 构建的后台系统 js 源码解析磁力链接聚合搜索中华人民共和国行政区划 省级 省份直辖市自治区 地级 城市 县级 区县 乡级 乡镇街道 村级 村委会居委会 中国省市区镇村二级三级四级五级联动地址数据 Web接口管理工具 开源免费 接口自动化 MOCK数据自动生成 自动化测试 企业级管理 阿里妈妈MUX团队出品 阿里巴巴都在用 1 公司的选择 RAP2已发布请移步至github com thx rap2 delosKuboard 是基于 Kubernetes 的微服务管理界面 同时提供 Kubernetes 免费中文教程 入门教程 最新版本的 Kubernetes v1 2 安装手册 k8s install 在线答疑 持续更新 ApacheCN 数据结构与算法译文集 chick 是使用 Node js 和 MongoDB 开发的社区系统一个非常适合IT团队的在线API文档 技术文档工具 Chinese sticker pack More joy 表情包的博物馆 Github最有毒的仓库 中国表情包大集合 聚欢乐 高颜值的第三方网易云播放器 支持 Windows macOS Linux vue2 vue router vuex 入门项目网易云音乐第三方 Flutter实战 电子书 一套代码运行多端 一端所见即多端所见 计算机速成课 Crash Course 字幕组 全4 集 2 18 5 1 精校完成 一个 react redux 的完整项目 和 个人总结中文独立博客列表CSS Inspiration 在这里找到写 CSS 的灵感 rich text 富文本编辑器 汉字拼音 hàn zì pīn yīn Chrome插件开发全攻略 配套完整Demo 欢迎clone体验微信调试 各种WebView样式调试 手机浏览器的页面真机调试 便捷的远程调试手机页面 抓包工具 支持 HTTPS 无需USB连接设备  master分支 渲染器 微信小程序组件 API 云开发示例简悦 SimpRead 让你瞬间进入沉浸式阅读的扩展让H5制作像搭积木一样简单 轻松搭建H5页面 H5网站 PC端网站 LowCode平台  一套组件化 可复用 易扩展的微信小程序 UI 组件库这是一个数据可视化项目 能够将历史数据排名转化为动态柱状图图表微信小程序图表charts组件 Charts for WeChat small app类似易企秀的H5制作 建站工具 可视化搭建系统 一个在你编程时疯狂称赞你的 VSCode 扩展插件全家桶后台管理框架解锁网易云音乐客户端变灰歌曲美观易用的React富文本编辑器 基于draft js开发一个致力于微信小程序和 Web 端同构的解决方案從零開始學 ReactJS ReactJS 1 1 是一本希望讓初學者一看就懂的 React 中文入門教學書 由淺入深學習 ReactJS 生態系源码解读 系列文章 完 我就是来分享脚本玩玩的开发者边车 github打不开 github加速 git clone加速 git release下载加速 stackoverflow加速vue源码逐行注释分析 4 多m的vue源码程序流程图思维导图 diff部分待后续更新 微信小程序解决方案 1KB javascript 覆盖状态管理 跨页通讯 插件开发和云数据库开发给老司机用的一个番号推荐系统 FeHelper Web前端助手记录成长的过程哔哩哔哩 bilibili com 辅助工具 可以替换播放器 推送通知并进行一些快捷操作提供了百度坐标 BD 9 国测局坐标 火星坐标 GCJ 2 和WGS84坐标系之间的转换F2etest是一个面向前端 测试 产品等岗位的多浏览器兼容性测试整体解决方案  ️ 阿里飞猪 很易用的中后台 表单 表格 图表 解决方案CRMEB Min 前后端分离版自带客服系统 是CRMEB品牌全新推出的一款轻量级 高性能 前后端分离的开源电商系统 完善的后台权限管理 会员管理 订单管理 产品管理 客服管理 CMS管理 多端管理 页面DIY 数据统计 系统配置 组合数据管理 日志管理 数据库管理 一键开通短信 产品采集 物流查询等接口  React技术揭秘 一本自顶向下的React源码分析书微信小程序 基于wepy 商城 微店 微信小程序 欢迎学习交流大屏数据可视化Pytorch 中文文档经典的网页对话框组件 强大的动态表单生成器 简洁 易用 灵活的微信小程序组件库 一款 Material Design 风格的 Hexo 主题签到一个帮助你自动申请京东价格保护的chrome拓展后台admin前端模板 基于 layui 编写的最简洁 易用的后台框架模板 只需提供一个接口就直接初始化整个框架 无需复杂操作 小程序生成图片库 轻松通过 json 方式绘制一张可以发到朋友圈的图片安卓应用层抓包通杀脚本一个轻量的工具集合婚礼大屏互动 微信请柬一站式解决方案mili 是一个开源的社区系统 界面优雅 功能丰富 丝般顺滑的触摸运动方案做最好的接口管理平台Mpx 一款具有优秀开发体验和深度性能优化的增强型跨端小程序框架省市区县乡镇三级或四级城市数据 带拼音标注 坐标 行政区域边界范围 2 21年 7月 3日最新采集 提供csv格式文件 支持在线转成多级联动js代码 通用json格式 提供软件转成shp geojson sql 导入数据库 带浏览器里面运行的js采集源码 综合了中华人民共和国民政部 国家统计局 高德地图 腾讯地图行政区划数据在vscode中用于生成文件头部注释和函数注释的插件 经过多版迭代后 插件 支持所有主流语言 功能强大 灵活方便 文档齐全 食用简单 觉得插件不错的话 点击右上角给个Star ️呀  JAVClub 让你的大姐姐不再走丢️你想要的最全 Android 进阶路线知识图谱 干货资料收集  开发者推荐阅读的书籍 2 2 淘宝 京东 支付宝双十一 双11全民养猫 全民营业自动化脚本 全额奖励 防检测 一款高性能敏感词 非法词 脏字 检测过滤组件 附带繁体简体互换 支持全角半角互换 汉字转拼音 模糊搜索等功能 前端博客 关注基础知识和性能优化 vue cli4配置vue config js持续更新PT 助手 Plus 为 Google Chrome 和 Firefox 浏览器插件 Web Extensions 主要用于辅助下载 PT 站的种子 基于vue2 koa2的 H5制作工具 让不会写代码的人也能轻松快速上手制作H5页面 类似易企秀 百度H5等H5制作 建站工具最全最新中国省 市 地区json及sql数据首个 Taro 多端统一实例 网易严选 小程序 H5 React Native By 趣店 FED地理信息可视化库企业级 Node js 应用性能监控与线上故障定位解决方案 Node js区块链开发 注 新版代码已开源 请star支持哦 基于Auto js的蚂蚁森林能量自动收取脚本 结巴 中文分词的Node js版本 译 面向机器学习的特征工程webfunny是一款轻量级的前端监控系统 webfunny也是一款前端性能监控系统 无埋点监控前端日志 实时分析前端健康状态一个实现汉字与拼音互转的小巧web工具库 演示地址  前端进阶 优质博文 一个 Chrome 插件 将 Google CDN 替换为国内的  Vue ElementUI构建的CMS开发框架超完整的React Native项目 功能丰富 适合学习和日常使用 GSYGithubApp系列的优势 我们目前已经拥有四个版本 功能齐全 项目框架内技术涉及面广 完成度高 配套文章 适合全面学习 对比参考 开源Github客户端App 更好的体验 更丰富的功能 旨在更好的日常管理和维护个人Github 提供更好更方便的驾车体验Σ 同款Weex版本同款Flutter版本 https github com CarGu 群 宇宙最强的前端面试指南 lucifer ren fe interview 微慕小程序开源版 WordPress版微信小程序函数式编程指北中文版Node js面试题 侧重后端应用与对Node核心的理解jQuery源码解析小白入坑vue三部曲 关于 vue 在工作的使用问题总结 请看博客 sunseekers github io 一直保持更新基于 Vue 的 PWA 解决方案 帮助开发者快速搭建 PWA 应用 解决接入 PWA 的各种问题ThinkCMF是一款支持Swoole的开源内容管理框架 基于ThinkPHP开发 同时支持PHP FPM和Swoole双模式 让WEB开发更快 微信小程序图片裁剪工具前端知识月刊Next Terminal是一个轻量级堡垒机系统 易安装 易使用 支持RDP SSH VNC Telnet Kubernetes协议 微信小程序 日历组件 基于 ueditor的更现代化的富文本编辑器 支持HTTPS基于JavaScript React Vue2的流程图组件 采用Spring MyBatis Shiro框架 开发的一套权限系统 极低门槛 拿来即用 设计之初 就非常注重安全性 为企业系统保驾护航 让一切都变得如此简单 QQ群 32478 2 4 145799952  一个前端的博客  春松客服 多渠道智能客服系统 开源客服系统 机器人客服一个工作流平台小程序 小游戏以及 Web 通用 Canvas 渲染引擎 在线工具秘籍 为在线工具写一本优质说明书 让在线工具造福人类 前端内参 有关于JavaScript 编程范式 设计模式 软件开发的艺术等大前端范畴内的知识分享 旨在帮助前端工程师们夯实技术基础以通过一线互联网企业技术面试  ️ vCards 中国黄页 优化 iOS Android 来电 信息界面体验各平台的分流规则 复写规则及自动化脚本 基于vue2 的实时聊天项目 图片剪裁上传组件 等笔记快速分享 GoogleDrive OneDrive 每日时报 以前端技术体系为主要分享课题 根据 文章 工具 新闻 视频几大板块作为主要分类 一款高效 高性能的帧动画生成工具 停止维护 一个在线音乐播放器 仅 UI 无功能 小程序富文本组件 支持渲染和编辑 html 支持在微信 QQ 百度 支付宝 头条和 uni app 平台使用基于 electron vue 开发的音乐播放器 界面模仿QQ音乐 技术栈欢迎starweui 是在weui和zepto基础上开发的增强UI组件 目前分为表单 基础 组件 js插件四大类 共计百余项功能 是最全的weui样式同步和更新大佬脚本库 更新懒人配置腾讯云即时通信 IM 服务 国内下载镜像 基于 Vue 的小程序开发框架React 16 8打造精美音乐WebAppWK系列开发框架 V1至V5 Java开源企业级开发框架 单应用 微服务 分布式  ️中国 省市区 三级联动 地址选择器 微信小程序2d动画库 分布式 Redis缓存 Shiro权限管理 Spring Session单点登录 Quartz分布式集群调度 Restful服务 QQ 微信登录 App token登录 微信 支付宝支付 日期转换 数据类型转换 序列化 汉字转拼音 身份证号码验证 数字转人民币 发送短信 发送邮件 加密解密 图片处理 excel导入导出 FTP SFTP fastDFS上传下载 二维码 XML读写 高精度计算 系统配置工具类等等 EduSoho 网络课堂是由杭州阔知网络科技有限公司研发的开源网校系统 EduSoho 包含了在线教学 招生和管理等完整功能 让教育机构可以零门槛建立网校 成功转型在线教育 EduSoho 也可作为企业内训平台 帮助企业实现人才培养  自用的一些乱七八糟 油猴脚本 为刚刚学习php语言以及web网站开发整理的一套资源 有视频 实战代码 学习路径等 会持续更新 This is a goindex theme 一个goindex的扩展主题 NumPy官方中文文档 完整版  搭建移动端开发 基于适配方案 axios封装 构建手机端模板脚手架 后台管理 脚手架接口 从简单开始 PhalApi简称π框架 一个轻量级PHP开源接口框架 专注于接口服务开发 前端特效存档Chrome浏览器 抢购 秒杀插件 秒杀助手 定时自动点击云存储管理客户端 支持七牛云 腾讯云 青云 阿里云 又拍云 亚马逊S3 京东云 仿文件夹管理 图片预览 拖拽上传 文件夹上传 同步 批量导出URL等功能font carrier是一个功能强大的字体操作库 使用它你可以随心所欲的操作字体 让你可以在svg的维度改造字体的展现形状 CRN是Ctrip React Native简称 由携程无线平台研发团队基于React Native框架优化 定制成稳定性和性能更佳 也更适合业务场景的跨平台开发框架  油猴脚本页面浮窗广告完全过滤净化 国服最强最全最新CSDN脚本微信小程序即时通讯模板 使用WebSocket通信小程序反编译 支持分包 “想学吗”个人知识管理与自媒体营销工具 超多经典 Canvas 实例 动态离子背景 炫彩小球 贪吃蛇 坦克大战 是男人就下1 层 心形文字等  Vue UEditor v model双向绑定 HQChart H5 微信小程序 沪深 港股 数字货币 期货 美股 K线图 kline 走势图 缩放 拖拽 十字光标 画图工具 截图 筹码图 分析家语法 通达信语法 麦语法 第3方数据替换接口基于koa2的标准前后端分离框架 一款企业信息化开发基础平台 拟集成OA 办公自动化 CMS 内容管理系统 等企业系统的通用业务功能 JeePlatform项目是一款以SpringBoot为核心框架 集ORM框架Mybatis Web层框架SpringMVC和多种开源组件框架而成的一款通用基础平台 代码已经捐赠给开源中国社区基于inception的自动化SQL操作平台 支持SQL执行 LDAP认证 发邮件 OSC SQL查询 SQL优化建议 权限管理等功能 支持docker镜像是一款专门面向个人 团队和小型组织的私有网盘系统 轻量 开源 完善 无论是在家庭 学校还是在办公室 您都能立刻开始使用它 了解更多请访问官方网站 Node js API 中文文档dubbo服务管理以及监控系统拯救B站的弹幕体验  对抗假消息系列项目之一 截屏 实锤？相信你就输了 ”突破性“更新 支持修改任何网站  ️一个简洁 优雅且高效的 Hugo 主题Vue js 示例项目 简易留言板 本项目拥有完善的文档说明与注释 让您快速上手 Vue js 开发? Vue Validator? Vuex?最佳实践基于 Node js Koa2 实战开发的一套完整的博客项目网站 用 React 编写的基于Taro Dva构建的适配不同端 微信 百度 支付宝小程序 H5 React Native 等 的时装衣橱信息泄漏监控系统 伪装115浏览器干爆前端 一网打尽前端面试 学习路径 优秀好文等各类内容 帮助大家一年内拿到期望的 offer 前端性能监控系统 消息队列 高可用 集群等相关架构SpringBoot v2项目是努力打造springboot框架的极致细腻的脚手架 包括一套漂亮的前台 无其他杂七杂八的功能 原生纯净 中文文本标注工具 最全最新中国 省 市 区县 乡镇街道 json csv sql数据 一款轻巧的渐进式微信小程序框架 全网 1 w 阅读量的进阶前端技术博客仓库 Vue 源码解析 React 深度实践 TypeScript 进阶艺术 工程化 性能优化实践 完整开源 Java快速开发平台 基于Spring SpringMVC Mybatis架构 MStore提供更多好用的插件与模板 文章 商城 微信 论坛 会员 评论 支付 积分 工作流 任务调度等 同时提供上百套免费模板任意选择 价值源自分享 铭飞系统不仅一套简单好用的开源系统 更是一整套优质的开源生态内容体系 铭飞的使命就是降低开发成本提高开发效率 提供全方位的企业级开发解决方案 每月28定期更新版本WeHalo 简约风 的微信小程序版博客 基于 vue2 vuex 构建一个具有 45 个页面的大型单页面应用基于Vue3 Element Plus 的后台管理系统解决方案基于 vue element ui 的后台管理系统鲜亮的高饱和色彩 专注视觉的小程序组件库 ️ 跨平台桌面端视频资源播放器 简洁无广告 免费高颜值 后台管理主线版本基于三者并行开发维护 同时支持电脑 手机 平板 切换分支查看不同的vue版本 element plus版本已发布 vue3 vue3 vue vue3 x vue js 程序无国界 但程序员有国界 中国国家尊严不容挑衅 如果您在特殊时期 mall admin web是一个电商后台管理系统的前端项目 基于Vue Element实现 主要包括商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等功能 一款完善的安全评估工具 支持常见 web 安全问题扫描和自定义 poc 使用之前务必先阅读文档Vue数据可视化组件库 类似阿里DataV 大屏数据展示 提供SVG的边框及装饰 图表 水位图 飞线图等组件 简单易用 长期更新 React版已发布  UI表单设计及代码生成器基于Vue的可视化表单设计器 让表单开发简单而高效 基于vue的高扩展在线网页制作平台 可自定义组件 可添加脚本 可数据统计 vue后台管理框架 精致的下拉刷新和上拉加载 js框架 支持vue 完美运行于移动端和主流PC浏览器 基于vue2 vuex element ui后台管理系统  Vue js高仿饿了么外卖App课程源码 coding imooc com class 74 html京东风格移动端 Vue2 Vue3 组件库eladmin前端源码 项目基于的前后端分离后台管理系统 权限控制采用 RBAC 菜单动态路由资源采集站在线播放uView UI 是uni app生态最优秀的UI框架 全面的组件和便捷的工具会让您信手拈来 如鱼得水Vue2 全家桶仿 微信App 项目 支持多人在线聊天和机器人聊天前端vue 后端koa 全栈式开发bilibili首页 A magical vue admin 记得star互联网大厂内推及大厂面经整理 并且每天一道面试题推送 每天五分钟 半年大厂中 Vue3 全家桶 Vant 搭建大型单页面商城项目 新蜂商城 Vue3 版本 技术栈为基于Vue开发的XMall商城前台页面 PC端 Vue全家桶 Vant 搭建大型单页面电商项目 ddbuy 7 orange cn前后端分离权限管理系统 精力有限 停止维护 用 Vue js 开发的跨三端应用Prototyping Tool For Vue Devs 适用于Vue的原型工具实战商城  基于Vue2 高仿微信App的单页应用electron跨平台音乐播放器 可搜网易云 QQ音乐 虾米音乐 支持QQ 微博 Github登录 云歌单 支持一键导入音乐平台歌单ThorUI组件库 轻量 简洁的移动端组件库 组件文档地址 thorui cn doc 最近更新时间 2 21 5 28uni app框架演示示例 Electron Vue 仿网易云音乐windows客户端 基于 Vue2 Vue CLI3 的高仿网易云 mac 客户端播放器 PC Online Music PlayerGitHub 泄露监控系统pear 梨子 轻量级的在线项目 任务协作系统 远程办公协作自选基金助手是一款Chrome扩展 用来快速获取关注基金的实时数据 查看自选基金的实时估值情况支持 markdown 渲染的博客前台展示Vue 音乐搜索 播放 Demo 一个基于 vue2 vue3 的 大转盘 九宫格 抽奖插件奖品 文字 图片 颜色 按钮均可配置 支持同步 异步抽奖 概率前 后端可控 自动根据 dpr 调整清晰度适配移动端 基于 Vue 的在线音乐播放器 PC Online music player美团饿了吗外卖红包外卖优惠券 先领红包再下单 外卖红包优惠券 cps分成 别人领红包下单 你拿佣金 讨论如何构建一套可靠的大型分布式系统用 vue 写小程序 基于 mpvue 框架重写 weui 基于Vue框架构建的github数据可视化平台使用GitHub API 搭建一个可动态发布文章的博客可视化拖拽组件库 DEMO基于开源组件 Inception SQLAdvisor SOAR 的SQL审核 SQL优化的Web平台显示当前网站的所有可用Tampermonkey脚本 专注Web与算法无缝滚动component精通以太坊 中文版 网页模拟桌面基于的多模块前后端分离的博客项目网易云音乐 QQ音乐 咪咕音乐 第三方 web端 可播放 vip 下架歌曲 基于权限管理的后台管理系统基于 Node js 的开源个人博客系统 采用 Nuxt Vue TypeScript 技术栈  一款简洁高效的VuePress知识管理 博客 blog 主题基于uni app的ui框架基于Vue Vuex iView的电子商城网站 Vue2 全家桶 Vant 搭建大型单页面商城项目 新蜂商城前后端分离版本 前端Vue项目源码酷狗 ️ 极客猿梦导航 独立开发者的导航站  Vue SpringBoot MyBatis 音乐网站基于 RageFrame2 的一款免费开源的基础商城销售功能的开源微商城 基于vue2 的网易云音乐播放器 api来自于NeteaseCloudMusicApi v2 为最新版本编写的一套后台管理系统全栈开发王者荣耀手机端官网和管理后台基于 Vue3 x TypeScript 的在线演示文稿应用 实现PPT幻灯片的在线编辑 演示 基于vue2 生态的后台管理系统模板开发的后台管理系统 Vchat 从头到脚 撸一个社交聊天系统 vue node mongodb h5编辑器类似maka 易企秀 账号 密码 admin996 公司展示 讨论Vue Spring boot前后端分离项目 wh web wh server的升级版 基于element ui的数据驱动表单组件基于 GitHub API 开发的图床神器 图片外链使用 jsDelivr 进行 CDN 加速 免下载 免安装 打开网站即可直接使用 免费 稳定 高效  ️ Vue初 中级项目 CnodeJS社区重构预览 DEMO 基于vue2全家桶实现的 仿移动端QQ基于Vue Echarts 构建的数据可视化平台 酷炫大屏展示模板和组件库 持续更新各行各业实用模板和炫酷小组件 基于Spring Boot的在线考试系统 预览地址 129 211 88 191 账户分别是admin teacher student 密码是admin123 6pan 6盘小白羊 第二版 vue3 antd typescript on bone and knife 基于Vue 全家桶 2 x 制作的美团外卖APP 本项目是一款基于 Avue 的表单设计器 拖拽式操作让你快速构建一个表单 一刻社区前端源码基于Vue iView Admin开发的XBoot前后端分离开放平台前端 权限可控制至按钮显示 动态路由权限菜单 多语言 简洁美观 前后端分离 ️一个开源的社区程序 临时测试站 https t myrpg cnecharts地图geoJson行政边界数据的实时获取与应用 省市区县多级联动下钻 真正意义的下钻至县级 附最新geoJson文件下载 Vue的Nuxt js服务端渲染框架 NodeJS为后端的全栈项目 Docker一键部署 面向小白的完美博客系统vue瀑布流组件 vue waterfall easy 2 x Ego 移动端购物商城 vue vuex ruoter webpack  Vue js Node js Mongodb 前后端分离的个人博客头像加口罩小程序 基于uniapp使用vue快速实现 广告月收入4k  基于vue3 的管理端模板教你如何打造舒适 高效 时尚的前端开发环境基于 Flask 和 Vue js 前后端分离的微型博客项目 支持多用户 Markdown文章 喜欢 收藏文章 粉丝关注 用户评论 点赞 动态通知 站内私信 黑名单 邮件支持 管理后台 权限管理 RQ任务队列 Elasticsearch全文搜索 Linux VPS部署 Docker容器部署等基于 vue 和 heyui 组件库的中后端系统 admin heyui topVue 轻量级后台管理系统基础模板uni app项目插件功能集合We川大小程序 scuplus 使用wepy开发的完善的校园综合小程序 4 页面 前后端开源 包括成绩 课表 失物招领 图书馆 新闻资讯等等常见校园场景功能一个全随机的刷装备小游戏一个vue全家桶入门Demo 是一個可以幫助您 Vue js 的項目測試及偵錯的工具 也同時支持 Vuex及 Vue Router  微信公众号管理系统 包含公众号菜单管理 自动回复 素材管理 模板消息 粉丝管理 ️等功能 前后端都开源免费  基于vue 的管理后台 配合Blog Core与Blog Vue等多个项目使用海风小店 开源商城 微信小程序商城管理后台 后台管理 VUE IT之家第三方小程序版客户端 使用 mpvue 开发 兼容 web vue 可以拖拽排序的树形表格 现代 Web 开发语法基础与工程实践 涵盖 Web 开发基础 前端工程化 应用架构 性能与体验优化 混合开发 React 实践 Vue 实践 WebAssembly 等多方面  数据大屏可视化编辑器一个适用于摄影从业者 爱好者 设计师等创意行业从业者的图像工具箱 武汉大学图书馆助手 桌面端基于form generator 仿钉钉审批流程创建 表单创建 流程节点可视化配置 必填条件及校验 一个完整electron桌面记账程序 技术栈主要使用electron vue vuetify 开机自动启动 自动更新 托盘最小化 闪烁等常用功能 Nsis制作漂亮的安装包 程序猿的婚礼邀请函 一个基于vue和element ui的树形穿梭框及邮件通讯录版本见示例见 基于Gin Vue Element UI的前后端分离权限管理系统的前端模块通用书籍阅读APP BookChat 的 uni app 实现版本 支持多端分发 编译生成Android和iOS 手机APP以及各平台的小程序基于Vue3的Material design风格移动端组件库进阶资深前端开发在线考试系统 springboot vue前后端分离的一个项目  ️ 无后端的仿 YouTube Live Chat 风格的简易 Bilibili 弹幕姬vue后端管理系统界面 基于ui组件iviewBilibili直播弹幕库 for Mac Windows LinuxVue高仿网易云音乐 基本实现网易云所有音乐 MV相关功能 现已更新到第二版 仅用于学习 下面有详细教程 武汉大学图书馆助手 移动端Zeus基于Golang Gin casbin 致力于做企业统一权限 账号中心管理系统 包含账号管理 数据权限 功能权限 应用管理 多数据库适配 可docker 一键运行 社区活跃 版本迭代快 加群免费技术支持 Vue高仿网易云音乐 Vue入门实践 在线预览 暂时停止基于 Vue 和 ElementUI 构建的一个企业级后台管理系统 ️ 跨平台移动端视频资源播放器 简洁免费 ZY Player 移动端 APP 基于 Uni app 开发 Vue实战项目基于参考小米商城 实现的电商项目 h5制作 移动端专题活动页面可视化编辑仿钉钉审批流程设置动态表单页面设计 自动生成页面微前端项目实战vue项目 基于vue3 qiankun2 进阶版 github com wl ui wl mfe基于 d2 admin的RBAC权限管理解决方案VueNode 是一套基于的前后端分离项目 基于仿京东淘宝的 移动端H5电商平台  巨树 基于ztree封装的Vue树形组件 轻松实现海量数据的高性能渲染 微信红包封面领取 用户观看视频广告或者邀请用户可获取微信红包序列号基于 Vue 的可视化布局编辑器插件kbone ui 是一套能同时支持 小程序 kbone 和 vue 框架开发的多端 UI 库 PS 新版 kbone ui 已出炉并迁移到 kbone 主仓库 此仓库仅做旧版维护之用  一个vue的个人博客项目 配合 net core api教程 打造前后端分离Tumo Blog For Vue js 前后端分离bpmn js流程设计器组件 基于vue elementui美化属性面板 满足9 %以上的业务需求专门为 Weex 前端开发者打造的一套高质量UI框架 想用vue把我现在的个人网站重新写一下 新的风格 新的技术 什么都是新的 本项目是一个在线聊天系统 最大程度的还原了Mac客户端QQ vue cli3 后台管理模板 heart 基于vue2和vuex的复杂单页面应用 2 页面53个API 仿实验楼 基于 Vue Koa 的 WebDesktop 视窗系统 Jeebase是一款前后端分离的开源开发框架 基于开发 一套SpringBoot后台 两套前端页面 可以自由选择基于ElementUI或者AntDesign的前端界面 二期会整合react前端框架 Ant Design React 在实际应用中已经使用这套框架开发了CMS网站系统 社区论坛系统 微信小程序 微信服务号等 后面会逐步整理开源 本项目主要目的在于整合主流技术框架 寻找应用最佳项目实践方案 实现可直接使用的快速开发框架 使用 vue cli3 搭建的vue vuex router element 开发模版 集成常用组件 功能模块JEECG BOOT APP 移动解决方案 采用uniapp框架 一份代码多终端适配 同时支持APP 小程序 H5 实现了与JeecgBoot平台完美对接的移动解决方案 目前已经实现登录 用户信息 通讯录 公告 移动首页 九宫格等基础功能 明日方舟工具箱 支持中台美日韩服vue的验证码插件这里有一些标准组件库可能没有的功能组件 已有组件 放大镜 签到 图片标签 滑动验证 倒计时 水印 拖拽 大家来找茬 基于Vue2 Nodejs MySQL的博客 有后台管理系统 支持 登陆 注册 留言 评论 回复 点赞长江证券郑州大学超市管理系统天安门坦克桌面行驶工况茶马古道金融文本情感自动黄河银行营销通许章润 | A股、虚拟货币、期货 | HTML | Agent |
 | [LLMQuant/quant-mind](https://github.com/LLMQuant/quant-mind) | 3131 | QuantMind is an open source agent-native knowledge extraction and retrieval framework for quantitative finance. | 未明确（需查文档） | Python | Agent |
 | [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | 3113 | A collection of Awesome Finance Agent Skills for free and easy to start \| 一系列开源免费的金融分析Agent Skills | 未明确（需查文档） | Python | Agent |
 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | 3092 | Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude. | 虚拟货币、期货 | TypeScript | Agent |
@@ -1385,7 +1382,7 @@
 | [virattt/ai-financial-agent](https://github.com/virattt/ai-financial-agent) | 2040 | A financial agent for investment research | 未明确（需查文档） | TypeScript | Agent |
 | [Yvictor/TradingGym](https://github.com/Yvictor/TradingGym) | 1930 | Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo. | 未明确（需查文档） | Python | Agent |
 | [questflowai/investorskills](https://github.com/questflowai/investorskills) | 1917 | Investor Skills is an open-source library that turns durable investing judgment into portable, structured formats. It collects how great investors think, filter opportunities, size risk, and act under uncertainty — then structures those patterns so humans can study them and AI finance agents can apply them. | 未明确（需查文档） | Swift | Agent |
-| [qusong0627/QuantMind](https://github.com/qusong0627/QuantMind) | 1904 |  QuantMind（量化大脑）开源版是一款面向个人开发者与投研团队的 AI 原生多市场量化交易平台。深度集成微软 Qlib、RD-Agent 因子演化与 QuantBot全能工作台，提供从 300+ 维因子挖掘、13 种机器学习与深度学习模型工场、Qlib 高性能回测、截面批量推理、7x24 实时舆情情绪分析，到通达信深度联动（板块推送/预警雷达/闪电下单）与实盘模拟交易的完整闭环。支持 A股、港股、美股、期货及区块链。可免费商用，系统采用 Docker Compose 一键私有化部署，数据与模型完全本地化，保障策略隐私，功能零门槛无限制。 | A股、期货、因子 | Python | Agent |
+| [qusong0627/QuantMind](https://github.com/qusong0627/QuantMind) | 1905 |  QuantMind（量化大脑）开源版是一款面向个人开发者与投研团队的 AI 原生多市场量化交易平台。深度集成微软 Qlib、RD-Agent 因子演化与 QuantBot全能工作台，提供从 300+ 维因子挖掘、13 种机器学习与深度学习模型工场、Qlib 高性能回测、截面批量推理、7x24 实时舆情情绪分析，到通达信深度联动（板块推送/预警雷达/闪电下单）与实盘模拟交易的完整闭环。支持 A股、港股、美股、期货及区块链。可免费商用，系统采用 Docker Compose 一键私有化部署，数据与模型完全本地化，保障策略隐私，功能零门槛无限制。 | A股、期货、因子 | Python | Agent |
 | [Barca0412/Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance) | 1874 | AI+金融（量化）：1.多因子股票量化框架开源教程 2.学界和业界的经典资料收录 3.AI + 金融的相关工作，包括LLM, Agent, benchmark(evaluation), etc. | 因子 | Python | Agent |
 | [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) | 1809 | A股 AI 投研 | A股 | Go | Agent |
 | [QuantaAlpha/QuantaAlpha](https://github.com/QuantaAlpha/QuantaAlpha) | 1656 | QuantaAlpha transforms how you discover quantitative alpha factors by combining LLM intelligence with evolutionary strategies. Just describe your research direction, and watch as factors are automatically mined, evolved, and validated through self-evolving trajectories. | 因子 | Python | Agent |
@@ -1415,7 +1412,7 @@
 | [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) | 773 | Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo | A股 | Python | Agent |
 | [yangfeng20/ai-job](https://github.com/yangfeng20/ai-job) | 727 | 找工作，用AI工作猎手！让AI帮您找工作！【DeepSeek+ChatGpt】赋能，ai助理作为您的求职者分身7*24小时在线找工作，并结合您的简历信息定制化回复。批量投递，自动发送简历，交换联系方式。hr拒绝挽留。高意向邮件通知，让您不错过每一份工作机会。BOSS直聘 | 未明确（需查文档） | Java | Agent |
 | [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) | 722 | Stock market MCP server for Yahoo Finance data, technical analysis, portfolio tracking, and Python backtesting. Runs locally with no API key for core tools. | 未明确（需查文档） | Python | Agent |
-| [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) | 706 | GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base. | 虚拟货币 | Python | Agent |
+| [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) | 707 | GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base. | 虚拟货币 | Python | Agent |
 | [liangdabiao/easy_investment_Agent_crewai](https://github.com/liangdabiao/easy_investment_Agent_crewai) | 676 | 基于AKShare和CrewAI的A股智能分析平台，通过多Agent协作提供专业的A股投资分析。  🚀 项目特色 📊 全面的A股数据分析：实时行情、财务数据、资金流向、市场情绪 🤖 多Agent协作：4个专业化AI角色协同工作 🇨🇳 A股市场特色：针对中国股市特点优化分析 📈 专业分析工具：基于AKShare的专业数据源 🎯 智能投资建议：综合分析提供投资决策参考 | A股 | Python | Agent |
 | [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) | 665 | A curated list of awesome resources for quantitative investment and trading strategies focusing on artificial intelligence and machine learning applications in finance. | 未明确（需查文档） | Jupyter Notebook | Agent |
 | [SecNN/AiScan-N](https://github.com/SecNN/AiScan-N) | 652 | AiScan-N 来了！这是一款基于人工智能驱动的Ai自动化网络安全（运维）工具，专注于网络安全评估、漏洞扫描、运维、应急响应、渗透测试自动化，Ai大模型工具集【CLI Agent】 ，Ai驱动的安全检测技术，提升安全测试（运维）效率，专为企业和个人用户打造，尤其适合初学者（小白）快速上手使用，让你轻松迈入智能安全攻防时代！适用场景 ：如（红队演练、CTF比赛、Web应用渗透测试、内网横向移动、密码破解与暴力攻击、流量分析与威胁检测、APT攻击模拟、漏洞赏金挑战等场景）🎥演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q | 未明确（需查文档） |  | Agent |
@@ -1440,7 +1437,6 @@
 | [ZhuLinsen/alphasift](https://github.com/ZhuLinsen/alphasift) | 466 | Full-market stock discovery for AI agents: A-shares plus US/HK/JP/KR/TW/IN, auditable YAML strategies, optional LLM ranking, sector-diversified picks, and true T+N evaluation vs. benchmark. AI选股 | A股 | Python | Agent |
 | [Liubsyy/HotSecondsIDEA](https://github.com/Liubsyy/HotSecondsIDEA) | 449 | HotSeconds是一款Java远程热部署的插件，可实现秒级一键化热更新。插件分为HotSecondsClient(IDEA热部署插件)和HotSecondsServer(服务端javaagent热更新插件)，可以热更新java和常用配置文件，也支持常用框架(Spring，MyBatis)的热更新，相对传统部署可节省大量时间提高开发效率。 | 未明确（需查文档） | Java | Agent |
 | [jaikydota/BullFlow](https://github.com/jaikydota/BullFlow) | 433 | 推量牛 BullFlow — 开源企业级 RAG 解决方案：从企业知识库、营销内容自动化生产到全域内容分发 \| Open-source enterprise RAG solution: knowledge base → automated marketing content → omnichannel publishing. 知识库全链路本地开源模型，无需付费模型；AI Agent 创作图文 / 图片 / 视频，一键发布抖音、小红书、公众号、LinkedIn、YouTube 等 17 个平台。Commercial-grade, multi-tenant, billing & admin built in. MIT | 未明确（需查文档） | TypeScript | Agent |
-| [0xethanq/astra-quant-agent](https://github.com/0xethanq/astra-quant-agent) | 415 | 结合多大模型分析与确定性代码风控的自主量化交易系统 ｜ Autonomous crypto trading system with multi-LLM analysis, deterministic Python risk control & OKX execution. | 虚拟货币 | Python | Agent |
 | [0xethanq/astra-quant-agent](https://github.com/0xethanq/astra-quant-agent) | 415 | 结合多大模型分析与确定性代码风控的自主量化交易系统 ｜ Autonomous crypto trading system with multi-LLM analysis, deterministic Python risk control & OKX execution. | 虚拟货币 | Python | Agent |
 | [IBM/AMLSim](https://github.com/IBM/AMLSim) | 412 | The AMLSim project is intended to provide a multi-agent based simulator that generates synthetic banking transaction data together with a set of known money laundering patterns - mainly for the purpose of testing machine learning models and graph algorithms.  We welcome you to enhance this effort since the data set related to money laundering is critical to advance detection capabilities of money laundering activities.  | 未明确（需查文档） | Python | Agent |
 | [moss-site/moss-trade-bot-skills](https://github.com/moss-site/moss-trade-bot-skills) | 393 | LLM-powered trading agents that turn plain natural language into a five-pillar strategy: Trend, Mean-Reversion, Momentum, Volume, and Risk. Each strategy is hosted, self-evolving, configurable through 30+ tunable parameters, and bit-exact between backtest and live execution. Built for simulated Hyperliquid perpetuals. | 虚拟货币 | Python | Agent |
@@ -1737,7 +1733,6 @@
 | [PFund-Software-Ltd/pytrade.org](https://github.com/PFund-Software-Ltd/pytrade.org) | 240 | Educational Hub for Python Trading | 未明确（需查文档） | Python | 回测：明确提及 |
 | [WISEPLAT/backtrader_binance](https://github.com/WISEPLAT/backtrader_binance) | 233 | Binance API integration with Backtrader. Run strategies for Backtest and Live Trading. Get historical price data for Bitcoin, Ethereum and all coins from Binance. EASY create your strategies. | 虚拟货币 | Python | 回测：明确提及 |
 | [lrvx/lrvx](https://github.com/lrvx/lrvx) | 231 | Framework for building trading systems | 未明确（需查文档） | C++ | 回测：明确提及 |
-| [lrvx/lrvx](https://github.com/lrvx/lrvx) | 231 | Framework for building trading systems | 未明确（需查文档） | C++ | 回测：明确提及 |
 | [wingfoil-io/wingfoil](https://github.com/wingfoil-io/wingfoil) | 231 | ultra low latency graph based stream processing framework | 未明确（需查文档） | Rust | 回测：明确提及 |
 | [DogsTailFarmer/martin-binance](https://github.com/DogsTailFarmer/martin-binance) | 228 | Free trading system for crypto exchanges SPOT market. Adaptive customizable reverse grid strategy based on martingale. | 虚拟货币 | Python | 回测：明确提及 |
 | [StrateQueue/StrateQueue](https://github.com/StrateQueue/StrateQueue) | 218 | The fastest way from backtest to live trading. | 未明确（需查文档） | Python | 回测：明确提及 |
@@ -1797,6 +1792,7 @@
 | 项目 | ⭐ | 简介 | 市场/因子 | 语言 | 能力/用途 |
 |---|---:|---|---|---|---|
 | [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | 56731 | Free, open source crypto trading bot | 虚拟货币 | Python | 分析/策略工具 |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 47520 | Kronos: A Foundation Model for the Language of Financial Markets | 未明确（需查文档） | Python | 分析/策略工具 |
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) | 44847 | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | 虚拟货币 | Python | 数据源 |
 | [akfamily/akshare](https://github.com/akfamily/akshare) | 23282 | AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库 | A股、期货 | Python | 数据源 |
 | [quantopian/zipline](https://github.com/quantopian/zipline) | 20226 | Zipline, a Pythonic Algorithmic Trading Library | 未明确（需查文档） | Python | 分析/策略工具 |
@@ -1929,7 +1925,7 @@
 | [appspa/app-space](https://github.com/appspa/app-space) | 1276 | 应用内网发布分发测试部署管理平台版本管理类似蒲公英蒲公英 类似fir.im fir App publish IOS超级签名免签 开源\| https://app-space.up.railway.app \|APP增量热更新\| 支持iOS、Android、flutter、 react-native更新摇一摇提Bug SDK 提供自动化部署jenkins fastlane 丰富组件库 安卓苹果发布发版publish 管理发发布适用于企业手机应用内测服务应用内测托管的平台开源 | 未明确（需查文档） | C | 分析/策略工具 |
 | [hanliang97/MatrixMedia](https://github.com/hanliang97/MatrixMedia) | 1262 | 视频矩阵工具 vue electorn puppeteer 批量发布 视频到各个视频平台 自媒体 矩阵 抖音 小红书 头条 视频号 快手等 ai 自动化 cli | 未明确（需查文档） | JavaScript | 分析/策略工具 |
 | [PacktPublishing/Python-for-Algorithmic-Trading-Cookbook](https://github.com/PacktPublishing/Python-for-Algorithmic-Trading-Cookbook) | 1256 | Python for Algorithmic Trading Cookbook, published by Packt | 未明确（需查文档） | Jupyter Notebook | 分析/策略工具 |
-| [qqxpee/antigravity2-cn](https://github.com/qqxpee/antigravity2-cn) | 1241 | 🚀 Antigravity 2.0 Chinese Localization Suite & Injector. 专为 2.0 新版 Electron 架构量身定制的零依赖中文汉化包。基于 ASAR 物理层动态包注入机制，完美汉化界面、系统菜单、任务栏托盘及设置面板，支持一键极速安装与无痕还原。 | 未明确（需查文档） | JavaScript | 分析/策略工具 |
+| [qqxpee/antigravity2-cn](https://github.com/qqxpee/antigravity2-cn) | 1242 | 🚀 Antigravity 2.0 Chinese Localization Suite & Injector. 专为 2.0 新版 Electron 架构量身定制的零依赖中文汉化包。基于 ASAR 物理层动态包注入机制，完美汉化界面、系统菜单、任务栏托盘及设置面板，支持一键极速安装与无痕还原。 | 未明确（需查文档） | JavaScript | 分析/策略工具 |
 | [binance/binance-futures-connector-python](https://github.com/binance/binance-futures-connector-python) | 1239 | Simple python connector to Binance Futures API | 虚拟货币、期货 | Python | 数据源 |
 | [sinall/StrategyEase-Python-SDK](https://github.com/sinall/StrategyEase-Python-SDK) | 1239 | 策略易（StrategyEase）Python SDK，策略自动化交易 API 及量化平台。 | 未明确（需查文档） | Python | 数据源 |
 | [bwjoke/BTC-Trading-Since-2020](https://github.com/bwjoke/BTC-Trading-Since-2020) | 1225 | Public BTC trading context since 2020. | 虚拟货币 |  | 数据源 |
@@ -1946,7 +1942,7 @@
 | [Kami958/WhoShitsonMyC](https://github.com/Kami958/WhoShitsonMyC) | 1112 | 磁盘空间变化对比轻量小工具；A lightweight disk space change comparison tool.  | 未明确（需查文档） | Python | 分析/策略工具 |
 | [PyPatel/Options-Trading-Strategies-in-Python](https://github.com/PyPatel/Options-Trading-Strategies-in-Python) | 1102 | Developing Options Trading Strategies using Technical Indicators and Quantitative Methods | 未明确（需查文档） | Python | 分析/策略工具 |
 | [Finnhub-Stock-API/finnhub-python](https://github.com/Finnhub-Stock-API/finnhub-python) | 1099 | Finnhub Python API Client. Finnhub API provides institutional-grade financial data to investors, fintech startups and investment firms. We support real-time stock price, global fundamentals, global ETFs holdings and alternative data. https://finnhub.io/docs/api | 未明确（需查文档） | Python | 数据源 |
-| [yijixiuxin/chanlun-pro](https://github.com/yijixiuxin/chanlun-pro) | 1091 | 基于缠中说禅所讲缠论理论，以便量化分析市场行情的工具 | 未明确（需查文档） | Python | 数据源 |
+| [yijixiuxin/chanlun-pro](https://github.com/yijixiuxin/chanlun-pro) | 1092 | 基于缠中说禅所讲缠论理论，以便量化分析市场行情的工具 | 未明确（需查文档） | Python | 数据源 |
 | [phoenix-zhou/goshop](https://github.com/phoenix-zhou/goshop) | 1089 | 本项目是一个基于 ​​Golang Gin 框架​​ 开发的 ​​B2C 电商平台​​，采用 ​​MVC（Model-View-Controller）架构​​ 进行模块化设计，能够扩展为实现前后端分离，支持后台商品管理、用户系统、订单交易、支付集成、数据分析等功能,系统地展示了现代Web应用的全貌。该项目描绘了一个功能完整、技术选型现代的​​全栈电商项目​​。它从前端交互到后端管理，从业务逻辑到技术架构，从开发到运维，都做了全面的考量。使用Go语言作为后端，预示着项目对高并发性能有较高的要求。同时支持RESTful，也体现了技术上的前瞻性和灵活性。 | 未明确（需查文档） | CSS | 数据源 |
 | [alpacahq/alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server) | 1074 | Alpaca’s official MCP Server lets you trade stocks, ETFs, crypto, and options, run data analysis, and build strategies in plain English directly from your favorite LLM tools and IDEs | 美股、虚拟货币 | Python | 数据源 |
 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | 1067 | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | 未明确（需查文档） | Python | 数据源 |
@@ -1965,9 +1961,9 @@
 | [mst272/LLM-Dojo](https://github.com/mst272/LLM-Dojo) | 939 | 轻量级 LLM Post-training 框架，支持 SFT、RLVR、On-Policy KD、Guide KD 及混合训练；实现单轮/多轮 Guide 蒸馏、多教师蒸馏、Reward 混合训练与自动化数据分流👩‍🎓👨‍🎓 | 未明确（需查文档） | Python | 数据源 |
 | [finvfamily/finshare](https://github.com/finvfamily/finshare) | 937 |  专业的金融数据获取工具库 - A Professional Financial Data Fetching Toolkit for   Python | 未明确（需查文档） | Python | 数据源 |
 | [business-science/tidyquant](https://github.com/business-science/tidyquant) | 920 | Bringing financial analysis to the tidyverse | 未明确（需查文档） | R | 数据源 |
+| [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 915 | Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。 | 未明确（需查文档） | Go | 分析/策略工具 |
 | [yorkeccak/finance](https://github.com/yorkeccak/finance) | 910 | The world's most powerful open-source financial AI assistant - Access institutional-grade financial data, run complex analyses, and create stunning visualizations, all through natural conversation. | 未明确（需查文档） | TypeScript | 看板、数据源 |
 | [sdcoffey/techan](https://github.com/sdcoffey/techan) | 905 | Technical Analysis Library for Golang | 虚拟货币 | Go | 分析/策略工具 |
-| [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 901 | Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。 | 未明确（需查文档） | Go | 分析/策略工具 |
 | [bcefghj/learn-nanobot](https://github.com/bcefghj/learn-nanobot) | 897 | 面向小白的 HKUDS/nanobot 面试学习指南 \| 17章深度教程 \| 134道八股文 \| 哆啦A梦漫画图解 \| STAR面试法 \| 简历模板 | 未明确（需查文档） | Python | 分析/策略工具 |
 | [kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis) | 894 | Stock Market Prediction Web App based on Machine Learning and Sentiment Analysis of Tweets (API keys included in code). The front end of the Web App is based on Flask and Wordpress. The App forecasts stock prices of the next seven days for any given stock under NASDAQ or NSE as input by the user. Predictions are made using three algorithms: ARIMA, LSTM, Linear Regression. The Web App combines the predicted prices of the next seven days with the sentiment analysis of tweets to give recommendation whether the price is going to rise or fall | 美股 | Python | 数据源 |
 | [jwangkun/claude-for-financial-services-cn](https://github.com/jwangkun/claude-for-financial-services-cn) | 888 |  63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。 | 未明确（需查文档） | Python | 分析/策略工具 |
@@ -2027,7 +2023,6 @@
 | [Gbox4/tstock](https://github.com/Gbox4/tstock) | 638 | 📈A command line tool to view stock charts in the terminal. | 虚拟货币 | Python | 看板 |
 | [tickflow-org/tickflow](https://github.com/tickflow-org/tickflow) | 638 | Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line data & financial reports. | A股 | Python | 数据源 |
 | [henrylin99/quantitative_analysis](https://github.com/henrylin99/quantitative_analysis) | 637 | 量化分析 | 未明确（需查文档） | Python | 分析/策略工具 |
-| [AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api](https://github.com/AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api) | 624 | AllTick real-time financial market data API with REST and WebSocket access to stocks, forex, crypto, commodities, and indices. | 虚拟货币 | Java | 数据源 |
 | [AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api](https://github.com/AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api) | 624 | AllTick real-time financial market data API with REST and WebSocket access to stocks, forex, crypto, commodities, and indices. | 虚拟货币 | Java | 数据源 |
 | [jianzhnie/LLamaTuner](https://github.com/jianzhnie/LLamaTuner) | 624 | Easy and Efficient Finetuning  LLMs. (Supported LLama, LLama2, LLama3, Qwen,  Baichuan, GLM , Falcon) 大模型高效量化训练+部署.  | 未明确（需查文档） | Python | 分析/策略工具 |
 | [billpwchan/futu_algo](https://github.com/billpwchan/futu_algo) | 623 | Futu Algorithmic Trading Solution (Python) 基於富途OpenAPI所開發量化交易程序 | 未明确（需查文档） | Python | 数据源 |
@@ -2574,7 +2569,7 @@
 | [cybergeekgyan/Quant-Developers-Resources](https://github.com/cybergeekgyan/Quant-Developers-Resources) | 4139 | Resources to Prepare for Quant Developers/ Quantitative Researcher/ Quantitative Trader/ Quant Analyst/ Software Engineers in Quant Trading Firms, HFTs and Hedge Funds | 未明确（需查文档） | Python | 论文研究 |
 | [mpquant/Ashare](https://github.com/mpquant/Ashare) | 3939 | 股票行情实时数据接口-A股,完全免费的沪深证券股票数据-中国股市,python最简封装的API接口,包含日线,历史K线,分时线,分钟线,全部实时采集，系统包括新浪腾讯双数据核心采集获取，自动故障切换，STOCK数据格式成DataFrame格式,可用来查询研究量化分析，股票程序自动化交易系统.为量化研究者在数据获取方面极大地减轻工作量，更加专注于策略和模型的研究与实现。 | A股 | Python | 论文研究 |
 | [AI4Finance-Foundation/FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading) | 3926 | FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading | 未明确（需查文档） | Python | 论文研究 |
-| [hello245m/free-stockdb](https://github.com/hello245m/free-stockdb) | 3154 | 面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。 | A股 | HTML | 论文研究 |
+| [hello245m/free-stockdb](https://github.com/hello245m/free-stockdb) | 3155 | 面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。 | A股 | HTML | 论文研究 |
 | [weslynn/AlphaTree-graphic-deep-neural-network](https://github.com/weslynn/AlphaTree-graphic-deep-neural-network) | 3027 | AI Roadmap:机器学习(Machine Learning)、深度学习(Deep Learning)、对抗神经网络(GAN），图神经网络（GNN），NLP，大数据相关的发展路书(roadmap), 并附海量源码（python，pytorch）带大家消化基本知识点，突破面试，完成从新手到合格工程师的跨越，其中深度学习相关论文附有tensorflow caffe官方源码，应用部分含推荐算法和知识图谱 | 未明确（需查文档） |  | 论文研究 |
 | [akfamily/akquant](https://github.com/akfamily/akquant) | 2583 | AKQuant is a high-performance quantitative research and trading framework built on Rust and Python! 开源量化回测框架 | A股 | Python | 论文研究 |
 | [goldspanlabs/optopsy](https://github.com/goldspanlabs/optopsy) | 1515 | A nimble options research and backtesting library for Python | 未明确（需查文档） | Python | 论文研究 |
@@ -2586,7 +2581,6 @@
 | [xingwudao/xquant-beginner](https://github.com/xingwudao/xquant-beginner) | 887 | 《XQuant：人人都是量化交易员》量化交易入门与自学开源书：用 AI 和 Python 从零跑通策略回测、风险评估、交易执行和因子研究。 | 因子 | TypeScript | 论文研究 |
 | [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) | 756 | 🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice. | 未明确（需查文档） | Python | 论文研究 |
 | [xxnuo/dns-benchmark](https://github.com/xxnuo/dns-benchmark) | 750 | dnspy 是一个批量 DNS 服务器基准测试工具，用于本地测量全世界的 DNS 服务器的可访问性和性能。生成可视化图表。dnspy is a bulk DNS server benchmarking tool used to measure the local accessibility and performance of DNS servers worldwide. It generates visual charts. | 未明确（需查文档） | Go | 论文研究 |
-| [akfamily/akhub](https://github.com/akfamily/akhub) | 705 | AKHub：金融与经济数据工具、数据源、量化投研框架和学习资源合集 \| A curated hub of financial data tools, data sources, quant research frameworks and learning resources | A股 |  | 论文研究 |
 | [akfamily/akhub](https://github.com/akfamily/akhub) | 705 | AKHub：金融与经济数据工具、数据源、量化投研框架和学习资源合集 \| A curated hub of financial data tools, data sources, quant research frameworks and learning resources | A股 |  | 论文研究 |
 | [CuriousLearnerDev/TrafficEye](https://github.com/CuriousLearnerDev/TrafficEye) | 660 |  This tool is designed to help penetration testers and network administrators identify potential security threats, especially those targeting web applications such as SQL injection, XSS, and WebShells. Its modular desig 该工具适用于 HW 蓝队对网络流量的深入分析，帮助安全研究人员、渗透测试人员及网络管理员等专业人士识别潜在的安全威胁，尤其是针对 Web 应用的攻击（如 SQL 注入、XSS、WebShell 等）。其模块化设计使用户能够根据实际需求自由选择并定制各类功能模块 | 未明确（需查文档） |  | 论文研究 |
 | [ibaihuo/chanvis](https://github.com/ibaihuo/chanvis) | 630 | 基于TradingView本地SDK的可视化前后端代码，适用于缠论量化研究，和其他的基于几何交易的量化研究。 缠论量化 摩尔缠论 缠论可视化 TradingView TV-SDK | 虚拟货币 | Vue | 论文研究 |
@@ -2620,7 +2614,6 @@
 | [Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers](https://github.com/Tom-roujiang/Awesome-LLM-Quantitative-Trading-Papers) | 260 | 🚀 A curated collection of papers focusing on LLM-based quantitative trading. | 未明确（需查文档） |  | 论文研究 |
 | [ericcccsliu/imc-prosperity-2](https://github.com/ericcccsliu/imc-prosperity-2) | 252 | research and trading algorithms for team Linear Utility, which placed second in IMC Prosperity 2 | 未明确（需查文档） | Jupyter Notebook | 论文研究 |
 | [ceyyy427/finathink](https://github.com/ceyyy427/finathink) | 247 | Finathink — Financial Research Optimizer for auditable, point-in-time research, mathematical learning, and constrained portfolio analysis. | 未明确（需查文档） | Python | 论文研究 |
-| [ceyyy427/finathink](https://github.com/ceyyy427/finathink) | 247 | Finathink — Financial Research Optimizer for auditable, point-in-time research, mathematical learning, and constrained portfolio analysis. | 未明确（需查文档） | Python | 论文研究 |
 | [DresdenGman/EPSILON-trading-simulator](https://github.com/DresdenGman/EPSILON-trading-simulator) | 244 | Open-source quantitative decision lab: test market assumptions, preserve negative results, and reproduce evidence. | 未明确（需查文档） | TypeScript | 论文研究 |
 | [rnikitin/QuantNavigator](https://github.com/rnikitin/QuantNavigator) | 239 | An extensible harness for quantitative research. Product vision and roadmap. | 虚拟货币 |  | 论文研究 |
 | [123quant/QMT-QuantLimit](https://github.com/123quant/QMT-QuantLimit) | 228 | 打板策略一直是a股生命力很顽强的策略，也造就了很多游资神话，本项目是研究如何将打板策略实现量化。 | A股 | Python | 论文研究 |
@@ -2634,7 +2627,6 @@
 | [Polytutor-AI-Labs/polymarket-black-scholes-hft-bot](https://github.com/Polytutor-AI-Labs/polymarket-black-scholes-hft-bot) | 192 | Real-time HFT bot for Polymarket crypto Up/Down markets combining CLOB order books, Chainlink feeds and multi-exchange prices with TWAP and Black-Scholes probability models; paper mode and backtests. | 虚拟货币 | Python | 论文研究 |
 | [rmbell09-lang/tradesight](https://github.com/rmbell09-lang/tradesight) | 171 | Self-hosted Python strategy research and Alpaca paper trading with broker reconciliation, evidence gates, and live execution disabled. | 美股 | Python | 论文研究 |
 | [latiaoge/AI-Sphere-Butler](https://github.com/latiaoge/AI-Sphere-Butler) | 170 | 终极愿景：目标是创造一个全方位服务于用户全场景的 AI 全能管家AGI—“小粒”。除了不具备物理形态外，“小粒”将提供与远程视频通话中的真人几乎无异的体验，具备思考、情感交流、视觉、听觉以及模拟触觉反馈等能力，并能够游走在任何家庭、车辆等场景显示设备上自由与人交互。功能覆盖智能家居控制、情感陪伴、学习交流、健康管理、安全防护、个人购物、外出导航及酒店预订等多个方面，还可以代理主人进入AI世界与AI网络互联，和其他用户的虚拟管家或者虚拟个体交互。为了实现 "小粒" 的终极愿景，将这个项目以开源的方式向全球开发者、研究者和技术爱好者开放，共同打造一个高度智能、情感化和人性化的全能管家。通过全球技术社区的力量和智慧，"小粒" 将成为用户生活中不可或缺的伙伴，为每个人提供更加贴近人性的陪伴与服务。 | 未明确（需查文档） | Python | 论文研究 |
-| [ChungKit-WAN/Quant-research-lab](https://github.com/ChungKit-WAN/Quant-research-lab) | 160 | Python framework for monthly sector ETF allocation and multifactor stock backtesting, with transaction-cost accounting and separate Chinese and English research reports. | 因子 | Python | 论文研究 |
 | [ChungKit-WAN/Quant-research-lab](https://github.com/ChungKit-WAN/Quant-research-lab) | 160 | Python framework for monthly sector ETF allocation and multifactor stock backtesting, with transaction-cost accounting and separate Chinese and English research reports. | 因子 | Python | 论文研究 |
 | [algobulls/pyalgostrategypool](https://github.com/algobulls/pyalgostrategypool) | 157 | Official pool of Algorithmic Trading Strategies powered by the AlgoBulls Platform | 未明确（需查文档） | Python | 论文研究 |
 | [li-xiu-qi/financial_research_report](https://github.com/li-xiu-qi/financial_research_report) | 156 | 金融多模态研究报告生成 | 未明确（需查文档） | Python | 论文研究 |
