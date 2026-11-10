@@ -1492,36 +1492,6 @@
         "topics": [],
         "url": "https://github.com/fadelmuhmmat883/crypto-trading-bot"
       },
-      "georgezouq/awesome-ai-in-finance": {
-        "created_at": "2018-08-29",
-        "description": "🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.",
-        "discovery": "active",
-        "first_seen": "2026-09-09",
-        "forks": 793,
-        "full_name": "georgezouq/awesome-ai-in-finance",
-        "id": 146531619,
-        "language": null,
-        "license": "CC0-1.0",
-        "pushed_at": "2026-09-08",
-        "score": 20.08,
-        "star_growth_7d": null,
-        "stars": 6497,
-        "topics": [
-          "analysis",
-          "awesome",
-          "awesome-list",
-          "cryptocurrency",
-          "deep-learning",
-          "financial",
-          "neural-network",
-          "quant",
-          "quantitative-finance",
-          "reinforcement-learning",
-          "stock-market",
-          "technology-analysis"
-        ],
-        "url": "https://github.com/georgezouq/awesome-ai-in-finance"
-      },
       "griddaimyorun/Metatraider-Traiding-Bot": {
         "created_at": "2026-06-14",
         "description": "Production-ready MetaTrader 5 (MT5) algorithmic trading bot framework. Features automated execution, real-time market data integration via Python API, risk management, and backtesting infrastructure for systematic strategies.",
@@ -1630,34 +1600,6 @@
           "trading-strategy-simulator"
         ],
         "url": "https://github.com/kay-ou/SimTradeLab"
-      },
-      "lisazhou886/Forex-hex-algo-strategy-mt4": {
-        "created_at": "2026-09-09",
-        "description": "Official documentation and guide for Forex HEX Algo Strategy on MetaTrader 4 (MT4). A rule-based, no-martingale quantitative trading solution featuring strict risk control, hard Stop-Loss, and dynamic momentum execution.",
-        "discovery": "new",
-        "first_seen": "2026-09-16",
-        "forks": 0,
-        "full_name": "lisazhou886/Forex-hex-algo-strategy-mt4",
-        "id": 1362600921,
-        "language": null,
-        "license": null,
-        "pushed_at": "2026-09-09",
-        "score": 9.37,
-        "star_growth_7d": null,
-        "stars": 21,
-        "topics": [
-          "algorithmic-tradin",
-          "expert-advisor",
-          "forex",
-          "metatrader4",
-          "mql4",
-          "mt4",
-          "no-martingale-ea",
-          "quant-trading-bot",
-          "trading-bot-2026",
-          "xauusd"
-        ],
-        "url": "https://github.com/lisazhou886/Forex-hex-algo-strategy-mt4"
       },
       "lisazhou886/smart-money-forex-strategy-mt4": {
         "created_at": "2026-09-09",
@@ -2181,27 +2123,6 @@
         "title": "QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code",
         "updated": "2026-09-30"
       },
-      "2609.40064": {
-        "abstract": "Purpose: This study examines whether domain-specific public mood is associated with stock-market dynamics and whether these relationships vary across communication domains and market conditions. It distinguishes public mood from investor sentiment and investigates whether heterogeneous sources of public communication exhibit different relationships with market behaviour. Design: The study analyses 610,422 posts published by 176 curated X accounts between January 2022 and December 2023, covering Politics and Government, Economy and Finance, and Media and Society. Posts are classified using fine-tuned Turkish transformer models under three domain-specific and one pooled regime. Public mood measures are constructed at daily, weekly, and monthly frequencies and examined alongside BIST100 and BIST30 market measures using correlation, Granger causality, vector autoregression, and impulse response analyses across the full period and selected market conditions. Findings: Public mood is not associated with the direction of stock-market returns but is associated with the magnitude of price movements, particularly for Media and Society and pooled communication. These relationships become stronger at longer aggregation frequencies. Predictive relationships are concentrated in Economy and Finance communication, while their magnitude and direction vary across market conditions, particularly during the 2023 election period. The pooled measure largely reflects the most active communication domain. Originality: The study contributes to behavioral-finance research by incorporating communication - domain heterogeneity into the analysis of public mood and market dynamics. It also demonstrates how aggregating heterogeneous sources can obscure domain-specific relationships between public communication and financial markets.",
-        "authors": [
-          "Ece Elif Adak",
-          "Bertaç Şakir Şahin",
-          "Şaziye Betül Özateş"
-        ],
-        "categories": [
-          "cs.CL"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-02",
-        "id": "2609.40064",
-        "paper_url": "https://arxiv.org/abs/2609.40064",
-        "pdf_url": "https://arxiv.org/pdf/2609.40064",
-        "published": "2026-09-30",
-        "title": "From Tweets to Trades: Analyzing the Influence of Public Mood over Stock Market Performance in Turkiye",
-        "updated": "2026-09-30"
-      },
       "2610.02255": {
         "abstract": "Time series forecasting remains a critical challenge across numerous domains. Despite significant advancements, existing approaches struggle with complex phenomena such as regime shifts, cross-domain knowledge transfer, and multimodal data integration. This paper introduces Multi-Agent Collaborative Time Series Forecasting with Emergent Memory (MACTS-EM), a novel framework where specialised agents collaborate to achieve superior forecasting performance. The MACTS-EM architecture integrates: (1) domain-specialised forecasting agents for pattern recognition, anomaly detection, causal inference, and uncertainty quantification; (2) a meta-cognitive layer for dynamic agent allocation; (3) an emergent memory mechanism enabling cross-domain pattern transfer; (4) multimodal contextual integration; and (5) adversarial robustness components. Evaluation across financial markets, climate patterns, energy consumption, and pandemic propagation demonstrates that MACTS-EM outperforms existing approaches in most scenarios, with 8-12% improvement in forecasting accuracy, 22-27% better zero-shot transfer capability, 16-21% enhanced resilience during regime shifts, and 15-18% faster recovery after distribution shifts. Our findings suggest that collaborative, agentic approaches to time series forecasting represent a promising direction beyond traditional architectures, particularly for complex real-world scenarios requiring multi-resolution temporal understanding and contextual adaptation.",
         "authors": [
@@ -2680,50 +2601,6 @@
         "title": "When News Gets Old: Portfolio Allocation with Reinforcement Learning and Large Language Models",
         "updated": "2026-10-22"
       },
-      "2610.32237": {
-        "abstract": "In modern financial markets, more than 3/4th of the large volume trade is executed by algorithmic trading based on advanced trading strategies to attain higher precision and speed than traditional human traders. The conventional strategies focused on price-based indicators are inadequate in capturing the market dynamism arising from real-world events such as social sentiments, political instability, or sudden economic shifts. With the rise of Deep Reinforcement Learning (DRL) and data availability, there is a requirement for more efficient algorithms that can incorporate these external factors in trading strategies. DRL has shown potential in simulating real-world scenarios and in simplifying complex decision-making since DRL agents can automate the trading process i.e. executing trades in a manner comparable to human traders. They have shown reliable performance since they can update their policies based on risk and quantitative factors. In this paper, we propose a DRL approach based on partial and deep-infusion of sentimental analysis. It features distinct policy designs of actor-critic-based agents: only policy optimization (A2C & PPO) and policy optimization along with Q-learning principles (DDPG, TD3 & SAC). Our findings reveal, that the agents based on policy optimization combined with Q-learning, significantly and consistently demonstrate improved performance upon sentiment deep-infusion in profit maximization as well as risk-averse trading.",
-        "authors": [
-          "Hrishikesh Singh",
-          "Aarti Sharma",
-          "Millie Pant"
-        ],
-        "categories": [
-          "cs.AI",
-          "q-fin.CP",
-          "q-fin.PM"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-26",
-        "id": "2610.32237",
-        "paper_url": "https://arxiv.org/abs/2610.32237",
-        "pdf_url": "https://arxiv.org/pdf/2610.32237",
-        "published": "2026-10-23",
-        "title": "Financial Context-Rich Strategy for Actor-Critic based Agents: A Deep Reinforcement Learning Approach for Stock Trading",
-        "updated": "2026-10-23"
-      },
-      "2610.32300": {
-        "abstract": "We provide the first systematic evidence on whether financial markets price political pressure on the Federal Reserve as a signal of future monetary policy. Using approximately four decades of Reuters newswire articles from 1988 to 2025, classified by an open-weight large language model ensemble into dovish and hawkish pressure, we estimate the daily response of interest rate expectations across the term structure, the US dollar, inflation compensation, and market volatility. Dovish pressure lowers near-term rate expectations by roughly one basis point per pressure event---equivalent to a four-percent increase in the implied probability of a rate cut at the next FOMC meeting---with the effect decaying monotonically and vanishing beyond the three-month horizon. Hawkish pressure has no detectable effect. Furthermore, excluding the Trump presidencies does not weaken the estimate, ruling out the possibility that the result is confined to an idiosyncratic recent episode. The response is accompanied by dollar depreciation, with stable inflation compensation and market volatility. We interpret the pattern as markets pricing anticipated monetary accommodation, rather than a credibility tax on the nominal anchor.",
-        "authors": [
-          "Michela Baretti",
-          "Umberto Collodel",
-          "Jacopo Zacché"
-        ],
-        "categories": [
-          "econ.GN"
-        ],
-        "code_match": null,
-        "code_url": null,
-        "comment": "",
-        "first_seen": "2026-10-26",
-        "id": "2610.32300",
-        "paper_url": "https://arxiv.org/abs/2610.32300",
-        "pdf_url": "https://arxiv.org/pdf/2610.32300",
-        "published": "2026-10-23",
-        "title": "Jawboning the Fed: Do Markets Listen When Administrations Talk?",
-        "updated": "2026-10-23"
-      },
       "2610.36083": {
         "abstract": "Recent advances in Generative AI have substantially improved financial sentiment analysis through post-trained financial large language models (LLMs). However, existing approaches remain confined to predicting the sentiment of each article in isolation and operate as black boxes, which limits contextual understanding and hinders deployment in high-stakes financial decision-making. To this end, we introduce FinLLM-KG, a model-agnostic framework that combines causal LLMs with a financial knowledge graph, in order to inject temporally grounded, company-level knowledge from SEC 10-K filings at inference time, without updating model weights. Within FinLLM-KG, context is supplied either as a natural-language company profile or as a small set of relevance-ranked factual triples. This enables sentiment predictions to account for broader firm-level information rather than the article alone, at almost zero computational cost and for any causal LLM. In addition, attributing each article-level sentiment score to individual sentences and to the retrieved knowledge-graph facts makes the evidence behind the prediction inspectable, thereby enhancing explainability and supporting human-in-the-loop review. Simulations demonstrate that FinLLM-KG consistently improves portfolio performance over the state-of-the-art baseline.",
         "authors": [
@@ -3091,23 +2968,6 @@
         "stars": 2253,
         "topics": [],
         "url": "https://github.com/ProsusAI/finBERT"
-      },
-      "Synpath-ai/prediction-market-arbitrage-trading-bot": {
-        "created_at": "2026-09-27",
-        "description": "Scans Kalshi and Polymarket for arbitrage opportunities, runs the strategy as paper trading on live prices, and backtests it. Built with https://synpath.dev",
-        "discovery": "new",
-        "first_seen": "2026-10-02",
-        "forks": 8,
-        "full_name": "Synpath-ai/prediction-market-arbitrage-trading-bot",
-        "id": 1390670695,
-        "language": "Python",
-        "license": "MIT",
-        "pushed_at": "2026-10-01",
-        "score": 10.85,
-        "star_growth_7d": null,
-        "stars": 28,
-        "topics": [],
-        "url": "https://github.com/Synpath-ai/prediction-market-arbitrage-trading-bot"
       },
       "TA-Lib/ta-lib": {
         "created_at": "2016-08-20",
