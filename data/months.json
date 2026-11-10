@@ -925,34 +925,6 @@
         ],
         "url": "https://github.com/Cortex-Arbitrage-Lab/cortex-ai-trading-bot"
       },
-      "DresdenGman/EPSILON-trading-simulator": {
-        "created_at": "2025-12-09",
-        "description": "Open-source quantitative decision lab for falsifiable market research.",
-        "discovery": "active",
-        "first_seen": "2026-09-11",
-        "forks": 39,
-        "full_name": "DresdenGman/EPSILON-trading-simulator",
-        "id": 1112772354,
-        "language": "TypeScript",
-        "license": "MIT",
-        "pushed_at": "2026-09-10",
-        "score": 13.58,
-        "star_growth_7d": null,
-        "stars": 139,
-        "topics": [
-          "backtesting",
-          "decision-science",
-          "fastapi",
-          "fintech",
-          "nextjs",
-          "open-source",
-          "python",
-          "quantitative-research",
-          "reproducible-research",
-          "typescript"
-        ],
-        "url": "https://github.com/DresdenGman/EPSILON-trading-simulator"
-      },
       "Erio-Harrison/rust-trade": {
         "created_at": "2024-12-13",
         "description": "A quantitative trading system built with Rust.",
@@ -1339,31 +1311,6 @@
           "trading"
         ],
         "url": "https://github.com/avhz/RustQuant"
-      },
-      "baobach/hft_papers": {
-        "created_at": "2024-05-28",
-        "description": "A curated list of Quantitative Finance papers.",
-        "discovery": "active",
-        "first_seen": "2026-09-02",
-        "forks": 10,
-        "full_name": "baobach/hft_papers",
-        "id": 806961200,
-        "language": "Python",
-        "license": "Apache-2.0",
-        "pushed_at": "2026-09-01",
-        "score": 13.13,
-        "star_growth_7d": null,
-        "stars": 107,
-        "topics": [
-          "academic",
-          "algo",
-          "algorithmic-trading",
-          "hft",
-          "paper",
-          "strategy",
-          "trading"
-        ],
-        "url": "https://github.com/baobach/hft_papers"
       },
       "binance/binance-connector-python": {
         "created_at": "2020-04-20",
@@ -2969,28 +2916,6 @@
         "topics": [],
         "url": "https://github.com/ProsusAI/finBERT"
       },
-      "TA-Lib/ta-lib": {
-        "created_at": "2016-08-20",
-        "description": "Technical analysis library: indicators and candlestick patterns in C, Java, C# and Rust",
-        "discovery": "active",
-        "first_seen": "2026-10-05",
-        "forks": 299,
-        "full_name": "TA-Lib/ta-lib",
-        "id": 66132152,
-        "language": "C",
-        "license": "BSD-3-Clause",
-        "pushed_at": "2026-10-05",
-        "score": 17.91,
-        "star_growth_7d": null,
-        "stars": 1691,
-        "topics": [
-          "financial",
-          "series-analysis",
-          "ta-lib",
-          "technical-analysis"
-        ],
-        "url": "https://github.com/TA-Lib/ta-lib"
-      },
       "TINGLISE/auto-trading-bot-pumpfun-solana-V2": {
         "created_at": "2026-10-06",
         "description": "Real-time Pump.fun trading bot for Solana: scores tokens every second, filters rugs and bundled wallets, auto-buys on momentum, and exits with TP/SL/trailing stop. Live web dashboard included.",
@@ -3277,26 +3202,6 @@
         ],
         "url": "https://github.com/akfamily/aktools"
       },
-      "akfamily/awesome-data": {
-        "created_at": "2020-03-02",
-        "description": "Awesome-data shows most interesting data-source around the financial world!",
-        "discovery": "active",
-        "first_seen": "2026-10-28",
-        "forks": 81,
-        "full_name": "akfamily/awesome-data",
-        "id": 244443668,
-        "language": null,
-        "license": "MIT",
-        "pushed_at": "2026-10-27",
-        "score": 16.39,
-        "star_growth_7d": null,
-        "stars": 702,
-        "topics": [
-          "data",
-          "data-science"
-        ],
-        "url": "https://github.com/akfamily/awesome-data"
-      },
       "aowang-ai/seris": {
         "created_at": "2026-10-05",
         "description": "Open-source desktop AI trading assistant for market research: chat beside live charts, price alerts, local backtests, bring your own model.",
@@ -3569,39 +3474,6 @@
         ],
         "url": "https://github.com/longsurf-ai/openchart"
       },
-      "lrvx/lrvx": {
-        "created_at": "2025-05-25",
-        "description": "Framework for building trading systems",
-        "discovery": "growth-watch",
-        "first_seen": "2026-10-11",
-        "forks": 38,
-        "full_name": "lrvx/lrvx",
-        "id": 990086023,
-        "language": "C++",
-        "license": "MIT",
-        "pushed_at": "2026-10-11",
-        "score": 14.43,
-        "star_growth_7d": null,
-        "stars": 227,
-        "topics": [
-          "algorithmic-trading",
-          "algotrading",
-          "backtesting",
-          "codon",
-          "cpp",
-          "framework",
-          "javascript",
-          "market-data",
-          "matching-engine",
-          "mcp",
-          "order-book",
-          "python",
-          "quant",
-          "tick-data",
-          "trading"
-        ],
-        "url": "https://github.com/lrvx/lrvx"
-      },
       "polytutor-ai/polymarket-black-scholes-hft-bot": {
         "created_at": "2026-10-14",
         "description": "High-frequency Polymarket trading bot for crypto Up/Down markets, using Black-Scholes and TWAP probability models, Chainlink and multi-exchange price feeds, fee-aware EV, and risk management.",
@@ -3807,44 +3679,6 @@
           "wyckoff"
         ],
         "url": "https://github.com/tradecatlabs-projects/tradecat-public"
-      },
-      "visualHFT/VisualHFT": {
-        "created_at": "2022-09-20",
-        "description": "VisualHFT Terminal: open-source observability and decision terminal for electronic trading desks. Live Level 2 order books, microstructure analytics, and quantitative execution monitoring.",
-        "discovery": "active",
-        "first_seen": "2026-10-05",
-        "forks": 249,
-        "full_name": "visualHFT/VisualHFT",
-        "id": 538784585,
-        "language": "C#",
-        "license": "Apache-2.0",
-        "pushed_at": "2026-10-05",
-        "score": 17.33,
-        "star_growth_7d": null,
-        "stars": 1206,
-        "topics": [
-          "analytics",
-          "csharp",
-          "high-frequency-analytics",
-          "high-frequency-data",
-          "high-frequency-trading",
-          "limit-order-book",
-          "market-analytics",
-          "market-data",
-          "market-microstructure",
-          "mvvm",
-          "mvvm-architecture",
-          "mvvm-pattern",
-          "orderbook-tick-data",
-          "tca",
-          "trading",
-          "trading-algorithms",
-          "trading-platform",
-          "wpf",
-          "wpf-application",
-          "wpf-ui"
-        ],
-        "url": "https://github.com/visualHFT/VisualHFT"
       },
       "wshobson/maverick-mcp": {
         "created_at": "2025-08-24",
@@ -4603,35 +4437,6 @@
         ],
         "url": "https://github.com/ZevFlashthorn/adaq-rpocket-team"
       },
-      "akfamily/akhub": {
-        "created_at": "2020-03-02",
-        "description": "AKHub：金融与经济数据工具、数据源、量化投研框架和学习资源合集 | A curated hub of financial data tools, data sources, quant research frameworks and learning resources",
-        "discovery": "active",
-        "first_seen": "2026-11-04",
-        "forks": 85,
-        "full_name": "akfamily/akhub",
-        "id": 244443668,
-        "language": null,
-        "license": "MIT",
-        "pushed_at": "2026-11-03",
-        "score": 16.4,
-        "star_growth_7d": null,
-        "stars": 705,
-        "topics": [
-          "akshare",
-          "awesome",
-          "awesome-list",
-          "backtesting",
-          "data",
-          "data-science",
-          "finance",
-          "financial-data",
-          "quant",
-          "quantitative-finance",
-          "stock-data"
-        ],
-        "url": "https://github.com/akfamily/akhub"
-      },
       "andyboss1995/ritmex-bot": {
         "created_at": "2026-11-05",
         "description": "Bun/TypeScript multi-exchange perpetuals trading bot + HK momentum strategy",
@@ -4695,35 +4500,6 @@
           "streamable-http"
         ],
         "url": "https://github.com/duhu2000/dsh-mcp-connector"
-      },
-      "fonrex/fonrex": {
-        "created_at": "2026-08-16",
-        "description": "Financial data, unlocked.",
-        "discovery": "growth-watch",
-        "first_seen": "2026-11-02",
-        "forks": 2,
-        "full_name": "fonrex/fonrex",
-        "id": 1335978839,
-        "language": "Python",
-        "license": "AGPL-3.0",
-        "pushed_at": "2026-11-01",
-        "score": 12.59,
-        "star_growth_7d": 70,
-        "stars": 78,
-        "topics": [
-          "api",
-          "finance",
-          "financial-data",
-          "fintech",
-          "open-source",
-          "openbb",
-          "openbb-ecosystem-plugin",
-          "openbb-workspace",
-          "self-hosted",
-          "stocks",
-          "trading-toolkit"
-        ],
-        "url": "https://github.com/fonrex/fonrex"
       },
       "git-wallet/gitwallet": {
         "created_at": "2026-10-30",
