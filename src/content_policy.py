@@ -24,7 +24,7 @@ def project_allowed(item):
     if not name:
         return True  # Papers use the topical policy, not repository naming rules.
     owner, _, repo = name.partition('/')
-    if repo.lower() == '.github' or repo.lower() == owner.lower():
+    if repo.lower() == '.github' or (repo.lower() == owner.lower() and not item.get('language')):
         return False
     description = ' '.join((item.get('description') or '').split())
     if len(description) > 400:
@@ -59,7 +59,9 @@ def review_repositories(client, repos, reviews):
         if not content_allowed(repo):
             return key, {'status': 'excluded', 'revision': revision, 'policy_version': POLICY_VERSION}
         old = reviews.get(key, {})
-        if old.get('policy_version') == POLICY_VERSION and old.get('revision') == revision and old.get('status') in ('passed', 'excluded'):
+        owner, _, name = repo['full_name'].partition('/')
+        recheck_profile = old.get('status') == 'excluded' and owner.lower() == name.lower() and bool(repo.get('language'))
+        if not recheck_profile and old.get('policy_version') == POLICY_VERSION and old.get('revision') == revision and old.get('status') in ('passed', 'excluded'):
             return key, old
         try:
             response = client.get(f"https://api.github.com/repos/{repo['full_name']}/readme", headers=client.github_headers)

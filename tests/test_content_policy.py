@@ -26,6 +26,8 @@ class ContentPolicyTests(unittest.TestCase):
             {'full_name':'x/tool','description':'x'*401},
         ]:
             self.assertFalse(content_allowed(repo))
+        self.assertTrue(content_allowed({'full_name':'freqtrade/freqtrade','language':'Python','description':'Crypto trading framework'}))
+        self.assertTrue(content_allowed({'full_name':'backtrader/backtrader','language':'Python','description':'Backtesting engine'}))
         self.assertTrue(content_allowed({'full_name':'x/backtest','description':'Python futures backtesting engine'}))
 
     def test_readme_review_cached_and_changed_revision_rechecked(self):
