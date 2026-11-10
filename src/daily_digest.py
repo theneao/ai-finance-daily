@@ -793,7 +793,15 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     seen_repo_names = set(state["seen"]["repository_names"])
     client = Client(os.getenv("GITHUB_TOKEN"))
 
-    papers = fetch_papers(client, config["papers"], cutoff)
+    collection_warnings = []
+    print("Collecting arXiv papers...", flush=True)
+    try:
+        papers = fetch_papers(client, config["papers"], cutoff)
+    except (requests.RequestException, ET.ParseError) as exc:
+        warning = f"arXiv 论文源采集失败（{type(exc).__name__}）；本次未获取新论文，已收录论文保留，GitHub 项目继续更新。"
+        collection_warnings.append(warning)
+        print(f"::warning::{warning}", flush=True)
+        papers = []
     papers = [paper for paper in papers if paper["id"] not in seen_paper_ids]
     papers = papers[: config["project"]["max_papers_per_run"]]
     for paper in papers:
@@ -803,6 +811,7 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
         )
         seen_paper_ids.add(paper["id"])
 
+    print("Collecting recent GitHub projects...", flush=True)
     repo_candidates = fetch_repositories(client, config["github"], cutoff.date().isoformat(), now)
     repos = apply_star_thresholds(
         repo_candidates, state["repo_star_history"], run_date, config["project"]
@@ -815,6 +824,7 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
 
     topic_papers: dict[str, list[dict[str, Any]]] = {}
     topic_repos: dict[str, list[dict[str, Any]]] = {}
+    print("Refreshing historical finance catalogue...", flush=True)
     catalog_repos, catalog_warnings = collect_catalog(
         client, config["github"], state["repositories"] | load_json(ROOT / "data" / "catalog.json", {}).get("repositories", {}), now, compact_repo
     )
@@ -850,6 +860,7 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
         latest["topic_papers"] = {}
         latest["topic_repositories"] = {}
         result = merge_daily_results(latest, result)
+    result["collection_warnings"] = collection_warnings
     save_json(LATEST_PATH, result)
     save_json(ROOT / "data" / "catalog.json", {
         "run_date": run_date,
@@ -861,7 +872,8 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     )
     publish_months(ROOT, result, load_json, save_json, render_digest)
     (ROOT / "README.md").write_text(
-        render_readme(run_date, result["papers"], result["repositories"], {}, {}, {}),
+        render_readme(run_date, result["papers"], result["repositories"], {}, {}, {})
+        + ("\n> " + "\n> ".join(collection_warnings) + "\n" if collection_warnings else ""),
         encoding="utf-8",
     )
     return result
