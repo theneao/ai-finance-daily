@@ -75,7 +75,7 @@
 | 49 | [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | 6925 | 论文研究 | 虚拟货币 | Python | 2026-11-02 | 2026-11-11 | +0.9%（自 2026-10-27） |
 | 50 | [hugo2046/QuantsPlaybook](https://github.com/hugo2046/QuantsPlaybook) | 6873 | 论文研究 | 未明确（需查文档） | Jupyter Notebook | 2026-10-03 | 2026-11-11 | — |
 | 51 | [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | 6870 | 交易框架 | 期货 | Python | 2026-10-28 | 2026-11-11 | +0.4%（自 2026-10-27） |
-| 52 | [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 6820 | 交易框架 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-11 | — |
+| 52 | [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 6822 | 交易框架 | 未明确（需查文档） | Python | 2026-10-20 | 2026-11-11 | — |
 | 53 | [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) | 6676 | Agent | 未明确（需查文档） | Python | 2026-05-11 | 2026-11-11 | — |
 | 54 | [waditu/czsc](https://github.com/waditu/czsc) | 6592 | 工具 | A股、期货 | Rust | 2026-11-08 | 2026-11-11 | — |
 | 55 | [wondertrader/wondertrader](https://github.com/wondertrader/wondertrader) | 6436 | 工具 | 期货 | C++ | 2026-09-01 | 2026-11-11 | — |
@@ -108,7 +108,7 @@
 | 82 | [shashankvemuri/Finance](https://github.com/shashankvemuri/Finance) | 4374 | 交易框架 | 未明确（需查文档） | Python | 2026-09-12 | 2026-11-11 | +3.7%（自 2026-09-11） |
 | 83 | [zvtvz/zvt](https://github.com/zvtvz/zvt) | 4335 | 交易框架 | 虚拟货币 | Python | 2026-07-01 | 2026-11-11 | — |
 | 84 | [Micro-sheep/efinance](https://github.com/Micro-sheep/efinance) | 4170 | 交易框架 | 期货 | Python | 2026-07-17 | 2026-11-11 | — |
-| 85 | [donknap/dpanel](https://github.com/donknap/dpanel) | 4168 | 工具 | 未明确（需查文档） | Go | 2026-10-29 | 2026-11-11 | — |
+| 85 | [donknap/dpanel](https://github.com/donknap/dpanel) | 4168 | 工具 | 未明确（需查文档） | Go | 2026-11-11 | 2026-11-11 | — |
 | 86 | [cybergeekgyan/Quant-Developers-Resources](https://github.com/cybergeekgyan/Quant-Developers-Resources) | 4140 | 论文研究 | 未明确（需查文档） | Python | 2026-09-19 | 2026-11-11 | +5.0%（自 2026-09-19） |
 | 87 | [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) | 4125 | Agent | A股 | TypeScript | 2026-09-22 | 2026-11-11 | +11.9%（自 2026-09-21） |
 | 88 | [Hacker233/resume-design](https://github.com/Hacker233/resume-design) | 4112 | 工具 | 未明确（需查文档） | Vue | 2026-04-20 | 2026-11-11 | — |
@@ -179,7 +179,7 @@
 | 153 | [continew-org/continew-admin](https://github.com/continew-org/continew-admin) | 2163 | 工具 | 未明确（需查文档） | Java | 2026-11-10 | 2026-11-11 | — |
 | 154 | [jmfernandes/robin_stocks](https://github.com/jmfernandes/robin_stocks) | 2127 | 工具 | 虚拟货币 | Python | 2026-02-11 | 2026-11-11 | — |
 | 155 | [frankiejun/serv00-play](https://github.com/frankiejun/serv00-play) | 2117 | 工具 | 未明确（需查文档） | Shell | 2026-11-08 | 2026-11-11 | — |
-| 156 | [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 2102 | 工具 | 未明确（需查文档） | Go | 2026-11-11 | 2026-11-11 | — |
+| 156 | [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 2107 | 工具 | 未明确（需查文档） | Go | 2026-11-11 | 2026-11-11 | — |
 | 157 | [LastAncientOne/Stock_Analysis_For_Quant](https://github.com/LastAncientOne/Stock_Analysis_For_Quant) | 2089 | 工具 | 未明确（需查文档） | Jupyter Notebook | 2025-05-04 | 2026-11-11 | — |
 | 158 | [oficcejo/aiagents-stock](https://github.com/oficcejo/aiagents-stock) | 2083 | Agent | A股 | Python | 2026-10-10 | 2026-11-11 | — |
 | 159 | [whittlem/pycryptobot](https://github.com/whittlem/pycryptobot) | 2061 | 交易框架 | 虚拟货币 | Python | 2026-03-26 | 2026-11-11 | — |
@@ -352,7 +352,7 @@
 | [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | 11090 | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 虚拟货币 | C# | 回测：明确提及 |
 | [kernc/backtesting.py](https://github.com/kernc/backtesting.py) | 9225 | 🔎 📈 🐍 💰  Backtest trading strategies in Python. | 未明确（需查文档） | Python | 回测：明确提及 |
 | [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | 6870 | A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities | 期货 | Python | 回测：明确提及 |
-| [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 6820 | 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. | 未明确（需查文档） | Python | 回测：明确提及 |
+| [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 6822 | 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. | 未明确（需查文档） | Python | 回测：明确提及 |
 | [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 5866 | 📈 Get real-time stocks from TradingView | 虚拟货币 | TypeScript | 回测：明确提及 |
 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | 5264 | MCP server for market analysis in AI assistants: screeners, multi-timeframe technical analysis, backtests and sentiment for crypto, stocks, forex and futures. 39 tools. Self-host free, or use the hosted version, TradingMCP. | 虚拟货币、期货 | Python | 回测：明确提及 |
 | [nkaz001/hftbacktest](https://github.com/nkaz001/hftbacktest) | 5073 | Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit | 虚拟货币 | Rust | 回测：明确提及 |
@@ -475,7 +475,7 @@
 | [continew-org/continew-admin](https://github.com/continew-org/continew-admin) | 2163 | 🔥Almost最佳后端规范🔥页面现代美观，且专注设计与代码细节的高质量多租户中后台管理系统框架。开箱即用，持续迭代优化，持续提供舒适的开发体验。当前采用技术栈：SpringBoot v3.4.x (Java17)、Vue3 & ArcoDesign、TS、Vite5 、SaToken、MyBatisPlus、Redisson、FastExcel、CosId、JetCache、JustAuth、Crane4j、SpringDoc、Hutool 等。  | 未明确（需查文档） | Java | 分析/策略工具 |
 | [jmfernandes/robin_stocks](https://github.com/jmfernandes/robin_stocks) | 2127 | This is a library to use with Robinhood Financial App. It currently supports trading crypto-currencies, options, and stocks. In addition, it can be used to get real time ticker information, assess the performance of your portfolio, and can also get tax documents, total dividends paid, and more. More info at | 虚拟货币 | Python | 数据源 |
 | [frankiejun/serv00-play](https://github.com/frankiejun/serv00-play) | 2117 | serv00/hostuno 上的一些应用，包括argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针\|面板 等, 自动化部署、批量保号、进程防杀、消息推送 | 未明确（需查文档） | Shell | 分析/策略工具 |
-| [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 2102 | Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。 | 未明确（需查文档） | Go | 分析/策略工具 |
+| [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 2107 | Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。 | 未明确（需查文档） | Go | 分析/策略工具 |
 | [LastAncientOne/Stock_Analysis_For_Quant](https://github.com/LastAncientOne/Stock_Analysis_For_Quant) | 2089 | Various Types of Stock Analysis in Excel, Matlab, Power BI, Python, R, and Tableau | 未明确（需查文档） | Jupyter Notebook | 数据源 |
 | [chen-zeong/DTV](https://github.com/chen-zeong/DTV) | 2044 | 抖音、b站、斗鱼、虎牙跨平台轻量化桌面客户端 | 未明确（需查文档） | TypeScript | 分析/策略工具 |
 | [hotyue/IP-Sentinel](https://github.com/hotyue/IP-Sentinel) | 2034 | IP-Sentinel 是一款轻量化、模块化的分布式 VPS 资产养护系统，通过地理位置信号锚定与高拟真本土流量注入，精准解决 IP 定位偏移（IP送中）及风控分过高的痛点，并配合 Telegram 实现全球多节点“低功耗、拟真、无人值守”的自动化资产养护。 | 未明确（需查文档） | Shell | 分析/策略工具 |

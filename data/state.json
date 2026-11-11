@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-11T11:27:02.796013+00:00",
+  "last_run": "2026-11-11T11:33:16.360684+00:00",
   "papers": {
     "2412.20138": {
       "abstract": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
@@ -1807,6 +1807,9 @@
     "0xemmkty/QuantMuse": {
       "2026-11-11": 2987
     },
+    "0xethanq/astra-quant-agent": {
+      "2026-11-11": 415
+    },
     "0xfdf/toraniko": {
       "2026-11-11": 982
     },
@@ -2472,6 +2475,9 @@
     },
     "BitSoulTech/BitSoulStockSkill": {
       "2026-11-11": 581
+    },
+    "Blave-TW/blave-agent": {
+      "2026-11-11": 341
     },
     "BloopAI/vibe-kanban": {
       "2026-10-27": 28474,
@@ -3499,6 +3505,9 @@
       "2026-09-09": 7,
       "2026-09-10": 7
     },
+    "Hitheshkaranth/OpenTerminalUI": {
+      "2026-11-11": 388
+    },
     "Huage001/Ascend-H3": {
       "2026-11-04": 30,
       "2026-11-05": 30,
@@ -3655,7 +3664,7 @@
       "2026-09-21": 103
     },
     "Jakeschincariol/day-trader-skill": {
-      "2026-11-11": 6820
+      "2026-11-11": 6822
     },
     "Jardy1999/CodeNexus": {
       "2026-09-01": 16,
@@ -3934,7 +3943,7 @@
       "2026-09-29": 28
     },
     "Lee-xeo/Claude-Cage": {
-      "2026-11-11": 2102
+      "2026-11-11": 2107
     },
     "Leo4815162342/dukascopy-node": {
       "2026-11-11": 963
@@ -7155,6 +7164,9 @@
     "billpwchan/futu_algo": {
       "2026-11-11": 624
     },
+    "binance/binance-connector-go": {
+      "2026-11-11": 342
+    },
     "binance/binance-connector-java": {
       "2026-11-11": 583
     },
@@ -7173,6 +7185,9 @@
       "2026-09-28": 2941,
       "2026-09-29": 2943,
       "2026-11-11": 2961
+    },
+    "binance/binance-connector-rust": {
+      "2026-11-11": 345
     },
     "binance/binance-futures-connector-python": {
       "2026-11-11": 1239
@@ -8673,6 +8688,9 @@
       "2026-11-10": 293,
       "2026-11-11": 293
     },
+    "fintechees/Expert-Advisor-Studio": {
+      "2026-11-11": 366
+    },
     "finvfamily/finshare": {
       "2026-11-11": 937
     },
@@ -8787,6 +8805,9 @@
     },
     "gadicc/yahoo-finance2": {
       "2026-11-11": 815
+    },
+    "gameworkerkim/vibe-investing": {
+      "2026-11-11": 362
     },
     "garagesteve1155/PowerTrader_AI": {
       "2026-11-11": 820
@@ -10078,6 +10099,9 @@
     "knownasrazi/rust-image-sharp": {
       "2026-09-11": 5
     },
+    "koreal6803/finlab-ai": {
+      "2026-11-11": 427
+    },
     "kraken222/sovereign-observer-mcp": {
       "2026-09-06": 5,
       "2026-09-07": 5,
@@ -10992,6 +11016,9 @@
       "2026-11-09": 903,
       "2026-11-10": 904
     },
+    "moss-site/moss-trade-bot-skills": {
+      "2026-11-11": 394
+    },
     "mozophe/ComfyUI-Qwen-Image-2.1-PromptEnhancer-MTP": {
       "2026-09-27": 5,
       "2026-09-28": 7,
@@ -11230,6 +11257,9 @@
       "2026-11-09": 13184,
       "2026-11-10": 13253
     },
+    "neurallayer/roboquant": {
+      "2026-11-11": 469
+    },
     "nexu-io/open-design": {
       "2026-09-04": 93921,
       "2026-09-05": 94127,
@@ -11260,6 +11290,9 @@
     },
     "nkaz001/hftbacktest": {
       "2026-11-11": 5073
+    },
+    "nktkas/hyperliquid": {
+      "2026-11-11": 454
     },
     "nobodywho-ooo/nobodywho": {
       "2026-10-26": 1644,
@@ -11709,6 +11742,9 @@
       "2026-09-04": 82,
       "2026-09-05": 83
     },
+    "pkjmesra/PKScreener": {
+      "2026-11-11": 410
+    },
     "pku-lemonade/TokenCake": {
       "2026-11-04": 15,
       "2026-11-05": 15,
@@ -11927,6 +11963,9 @@
     "questflowai/investorskills": {
       "2026-11-11": 1922
     },
+    "quiknode-labs/hyperliquid-sdk": {
+      "2026-11-11": 291
+    },
     "qusong0627/QuantMind": {
       "2026-11-11": 1905
     },
@@ -12137,6 +12176,9 @@
     },
     "richiemcilroy/Tov": {
       "2026-10-11": 260
+    },
+    "richkuo/go-trader": {
+      "2026-11-11": 366
     },
     "richlearntodo-debug/vibe-flow": {
       "2026-08-31": 40,
@@ -12445,6 +12487,9 @@
     },
     "sebbsssss/optimize-skill": {
       "2026-11-10": 8
+    },
+    "second-state/fintool": {
+      "2026-11-11": 318
     },
     "sensorsdata/sa-sdk-android": {
       "2026-11-11": 1376
@@ -12948,6 +12993,9 @@
       "2026-10-24": 44,
       "2026-10-25": 45,
       "2026-10-26": 45
+    },
+    "suenot/profitmaker": {
+      "2026-11-11": 365
     },
     "surajrimal07/NepseAPI-Unofficial": {
       "2026-10-27": 64,
@@ -14131,6 +14179,9 @@
     "xingwudao/xquant-beginner": {
       "2026-11-11": 888
     },
+    "xingwudao/xquant-learning": {
+      "2026-11-11": 445
+    },
     "xlabsg/prompTrading": {
       "2026-09-10": 2,
       "2026-09-11": 2,
@@ -14506,6 +14557,9 @@
       "2026-09-01": 114,
       "2026-09-02": 114
     },
+    "zhu1090093659/dsh-trading": {
+      "2026-11-11": 341
+    },
     "zickrian/isle": {
       "2026-10-25": 5,
       "2026-10-26": 33,
@@ -14798,6 +14852,34 @@
         "stock-trading-strategy"
       ],
       "url": "https://github.com/AI4Finance-Foundation/FinRL-Trading"
+    },
+    "AUTO-MAS-Project/AUTO-MAS": {
+      "archived": false,
+      "created_at": "2024-02-06",
+      "description": "多脚本多配置统一管理与自动化工具 | 轻松管理大量脚本并存储多个用户配置、设计自动化任务流、监看脚本日志，大幅提高自动化代理效率与稳定性！",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 62,
+      "full_name": "AUTO-MAS-Project/AUTO-MAS",
+      "id": 753607241,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-11",
+      "score": 16.59,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 788,
+      "topics": [
+        "arknights",
+        "arknights-endfield",
+        "maa",
+        "maaend",
+        "starrail",
+        "starrailcopilot"
+      ],
+      "url": "https://github.com/AUTO-MAS-Project/AUTO-MAS",
+      "verified_at": "2026-11-11"
     },
     "Adamant-im/adamant-tradebot": {
       "archived": false,
@@ -15477,6 +15559,35 @@
       ],
       "url": "https://github.com/Finnhub-Stock-API/finnhub-python"
     },
+    "GMGNAI/gmgn-skills": {
+      "archived": false,
+      "created_at": "2026-03-12",
+      "description": "GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base.",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 142,
+      "full_name": "GMGNAI/gmgn-skills",
+      "id": 1179404554,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-29",
+      "score": 14.24,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 711,
+      "topics": [
+        "ai-agents",
+        "api",
+        "cli-tool",
+        "crypto",
+        "gmgn",
+        "memecoin",
+        "trading"
+      ],
+      "url": "https://github.com/GMGNAI/gmgn-skills",
+      "verified_at": "2026-11-11"
+    },
     "Gloweuriddle/Cortex-AI-Crypto-Arbitrage-Bot": {
       "created_at": "2026-10-04",
       "description": "⚡ Cortex AI — Crypto arbitrage bot with sub-50ms execution across Binance, ByBit, OKX, HTX. AI signals, Polymarket copy trading, flash loan arbitrage, airdrop farming. Free, open-source, non-custodial. Official site: runcortex.xyz",
@@ -15564,6 +15675,34 @@
         "trading-bot"
       ],
       "url": "https://github.com/HammerGPT/Hyper-Alpha-Arena"
+    },
+    "Heerozh/spectre": {
+      "archived": false,
+      "created_at": "2019-10-08",
+      "description": "GPU-accelerated Factors analysis library and Backtester",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 133,
+      "full_name": "Heerozh/spectre",
+      "id": 213599662,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-05",
+      "score": 15.85,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 831,
+      "topics": [
+        "algorithmic-trading",
+        "backtester",
+        "backtesting",
+        "factor-analysis",
+        "quantitative-analysis",
+        "spectre"
+      ],
+      "url": "https://github.com/Heerozh/spectre",
+      "verified_at": "2026-11-11"
     },
     "HiThink-Tech/Financial-API": {
       "created_at": "2026-06-09",
@@ -16637,6 +16776,46 @@
       ],
       "url": "https://github.com/The-Knowledge-Graph-Guys/vault-ld"
     },
+    "TheFourGreatErrors/alpha-rptr": {
+      "archived": false,
+      "created_at": "2020-08-17",
+      "description": "A trading bot for automated algorithmic trading on Binance Futures, Bybit, BitMEX and FTX written in python.",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 85,
+      "full_name": "TheFourGreatErrors/alpha-rptr",
+      "id": 288293363,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-06-19",
+      "score": 11.41,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 711,
+      "topics": [
+        "algo",
+        "algorithmic-trading",
+        "binance",
+        "binance-futures",
+        "bitcoin",
+        "bitmex",
+        "bot",
+        "bybit",
+        "crypto",
+        "cryptocurrency",
+        "ftx",
+        "ftx-exchange",
+        "python",
+        "quantitative-trading",
+        "trading",
+        "trading-bot",
+        "trading-systems",
+        "websocket"
+      ],
+      "url": "https://github.com/TheFourGreatErrors/alpha-rptr",
+      "verified_at": "2026-11-11"
+    },
     "TickDB/tickdb-unified-realtime-marketdata-api": {
       "created_at": "2026-01-11",
       "description": "TickDB: AI-native real time stock API and market data API for US stocks, HK stocks, A-shares, forex, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，支持美股、港股、A 股、外汇、加密货币、指数和大宗商品。",
@@ -16892,6 +17071,58 @@
       ],
       "url": "https://github.com/WyrmSpongeHaul/quant-trading-bot"
     },
+    "Yohann0617/oci-helper": {
+      "archived": false,
+      "created_at": "2024-11-01",
+      "description": "基于 Oracle OCI SDK 🐢 开发的 web 端可视化甲骨文云助手（Y探长），目前实现的功能有：批量添加多个租户配置、更改实例配置、引导卷配置、一键开启免费AMD实例下行500Mbps、一键更新、一键救援/缩小硬盘、附加ipv6、安全列表、实时流量查询（分钟级别）、根据多个 CIDR 网段更换实例公共IP、多租户同时批量抢机、Cloud Shell 控制台、断点续抢、备份恢复、日志实时查看、消息通知、MFA登录验证、更新 Cloudflare DNS 记录、TG 机器人操作等功能。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 116,
+      "full_name": "Yohann0617/oci-helper",
+      "id": 881900964,
+      "language": "Java",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-09-29",
+      "score": 11.66,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 823,
+      "topics": [
+        "oci-helper",
+        "oci-java-sdk",
+        "oracle-cloud"
+      ],
+      "url": "https://github.com/Yohann0617/oci-helper",
+      "verified_at": "2026-11-11"
+    },
+    "YoungCan-Wang/WyckoffTradingAgent": {
+      "archived": false,
+      "created_at": "2026-01-12",
+      "description": "Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 216,
+      "full_name": "YoungCan-Wang/WyckoffTradingAgent",
+      "id": 1132473569,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-11",
+      "score": 16.55,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 773,
+      "topics": [
+        "a-shares",
+        "ai-trading-agent",
+        "trading-agent",
+        "volume-price-analysis",
+        "wyckoff"
+      ],
+      "url": "https://github.com/YoungCan-Wang/WyckoffTradingAgent",
+      "verified_at": "2026-11-11"
+    },
     "Yu-ChangCheng/manufacturing-forecasting-framework": {
       "created_at": "2026-10-07",
       "description": "Reproducible monthly demand forecasting with Random Forest, chronological backtests, transparent baselines, and a guided local app.",
@@ -17046,6 +17277,40 @@
       ],
       "url": "https://github.com/alihaskar/pycharting"
     },
+    "alleyway/add-tradingview-alerts-tool": {
+      "archived": false,
+      "created_at": "2020-09-28",
+      "description": "Automated entry of TradingView alerts for bot trading tools such as 3Commas, Alertatron, CryptoHopper, etc.",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 154,
+      "full_name": "alleyway/add-tradingview-alerts-tool",
+      "id": 299269406,
+      "language": "TypeScript",
+      "license": "MIT",
+      "pushed_at": "2026-11-09",
+      "score": 16.27,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 723,
+      "topics": [
+        "3commas",
+        "alertatron",
+        "alerts",
+        "binance",
+        "bot",
+        "bybit",
+        "coinbase",
+        "crypto",
+        "ftx",
+        "kraken",
+        "kucoin",
+        "tradingview"
+      ],
+      "url": "https://github.com/alleyway/add-tradingview-alerts-tool",
+      "verified_at": "2026-11-11"
+    },
     "alltick/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api": {
       "created_at": "2024-03-14",
       "description": "AllTick real-time financial market data API with REST and WebSocket access to stocks, forex, crypto, commodities, and indices.",
@@ -17078,6 +17343,41 @@
         "websocket-api"
       ],
       "url": "https://github.com/alltick/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api"
+    },
+    "alpacahq/alpaca-backtrader-api": {
+      "archived": false,
+      "created_at": "2018-10-28",
+      "description": "Alpaca Trading API integrated with backtrader ",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 160,
+      "full_name": "alpacahq/alpaca-backtrader-api",
+      "id": 155041481,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-23",
+      "score": 11.4,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 705,
+      "topics": [
+        "algotrading",
+        "alpaca",
+        "backtesting",
+        "backtrader",
+        "finance",
+        "hacktoberfest",
+        "python",
+        "quants",
+        "stock-market",
+        "stock-trading",
+        "trading",
+        "trading-algorithms",
+        "trading-bot"
+      ],
+      "url": "https://github.com/alpacahq/alpaca-backtrader-api",
+      "verified_at": "2026-11-11"
     },
     "andyboss1995/ritmex-bot": {
       "created_at": "2026-11-05",
@@ -17272,6 +17572,39 @@
         "typescript"
       ],
       "url": "https://github.com/bennycode/trading-signals"
+    },
+    "binance/binance-connector-js": {
+      "archived": false,
+      "created_at": "2020-05-06",
+      "description": "A simple connector to Binance Public API",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 227,
+      "full_name": "binance/binance-connector-js",
+      "id": 261664036,
+      "language": "TypeScript",
+      "license": "MIT",
+      "pushed_at": "2026-11-09",
+      "score": 16.35,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 755,
+      "topics": [
+        "binance",
+        "binance-api",
+        "connector",
+        "crypto",
+        "library",
+        "market-data",
+        "nodejs",
+        "real-time",
+        "sdk",
+        "trading",
+        "typescript"
+      ],
+      "url": "https://github.com/binance/binance-connector-js",
+      "verified_at": "2026-11-11"
     },
     "binance/binance-connector-python": {
       "created_at": "2020-04-20",
@@ -17827,6 +18160,33 @@
       ],
       "url": "https://github.com/dewydev10/digital-showcase"
     },
+    "dragon1086/prism-insight": {
+      "archived": false,
+      "created_at": "2025-08-15",
+      "description": "AI-based stock analysis and trading system",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 271,
+      "full_name": "dragon1086/prism-insight",
+      "id": 1038434342,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-11",
+      "score": 16.63,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 807,
+      "topics": [
+        "ai",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "stock"
+      ],
+      "url": "https://github.com/dragon1086/prism-insight",
+      "verified_at": "2026-11-11"
+    },
     "dromara/dante-cloud": {
       "archived": false,
       "created_at": "2021-05-19",
@@ -17907,6 +18267,35 @@
       ],
       "url": "https://github.com/duhu2000/dsh-mcp-connector"
     },
+    "edmcouncil/fibo": {
+      "archived": false,
+      "created_at": "2014-02-07",
+      "description": "The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business applications and the ways that those things can relate to one another. In this way, FIBO can give meaning to any data (e.g., spreadsheets, relational databases, XML documents) that describe the business of finance.",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 148,
+      "full_name": "edmcouncil/fibo",
+      "id": 16623579,
+      "language": "Shell",
+      "license": "MIT",
+      "pushed_at": "2026-10-27",
+      "score": 14.28,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 799,
+      "topics": [
+        "finance",
+        "financial-services",
+        "fintech",
+        "ontology",
+        "ontology-repository",
+        "owl",
+        "rdf"
+      ],
+      "url": "https://github.com/edmcouncil/fibo",
+      "verified_at": "2026-11-11"
+    },
     "edtechre/pybroker": {
       "created_at": "2023-01-16",
       "description": "Algorithmic Trading in Python with Machine Learning",
@@ -17968,6 +18357,35 @@
         "react"
       ],
       "url": "https://github.com/electkismet/AxData"
+    },
+    "electkismet/eltdx": {
+      "archived": false,
+      "created_at": "2026-02-26",
+      "description": "通达信A股行情协议 Python 库，MCP，支持快照、分时、逐笔、K 线、集合竞价、特殊指标等接口。适合作为量化数据源，支持其他语言通过HTTP或WebSocket调用",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 273,
+      "full_name": "electkismet/eltdx",
+      "id": 1167901241,
+      "language": "Python",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-06",
+      "score": 15.59,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 717,
+      "topics": [
+        "a-share",
+        "finance",
+        "market-data",
+        "python",
+        "stocks",
+        "tdx",
+        "tongdaxin"
+      ],
+      "url": "https://github.com/electkismet/eltdx",
+      "verified_at": "2026-11-11"
     },
     "enarjord/passivbot": {
       "created_at": "2020-12-11",
@@ -18163,6 +18581,54 @@
         "trading-bot"
       ],
       "url": "https://github.com/freqtrade/freqtrade"
+    },
+    "gadicc/yahoo-finance2": {
+      "archived": false,
+      "created_at": "2021-01-23",
+      "description": "Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 109,
+      "full_name": "gadicc/yahoo-finance2",
+      "id": 332135599,
+      "language": "HTML",
+      "license": "MIT",
+      "pushed_at": "2026-11-08",
+      "score": 16.31,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 815,
+      "topics": [
+        "agent-skill",
+        "finance",
+        "mcp-server",
+        "yahoo",
+        "yahoo-finance"
+      ],
+      "url": "https://github.com/gadicc/yahoo-finance2",
+      "verified_at": "2026-11-11"
+    },
+    "garagesteve1155/PowerTrader_AI": {
+      "archived": false,
+      "created_at": "2025-12-27",
+      "description": "Fully automated crypto trading powered by a custom price prediction AI and a structured/tiered DCA system. Website at PowerTrader.net",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 323,
+      "full_name": "garagesteve1155/PowerTrader_AI",
+      "id": 1123769463,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-28",
+      "score": 14.49,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 820,
+      "topics": [],
+      "url": "https://github.com/garagesteve1155/PowerTrader_AI",
+      "verified_at": "2026-11-11"
     },
     "gazbert/bxbot": {
       "archived": false,
@@ -18706,6 +19172,61 @@
       ],
       "url": "https://github.com/leftamber/CEXTrader-Grid-Dca-Automation-Bot-Platform"
     },
+    "liangdabiao/make-prompt-seedance2": {
+      "archived": false,
+      "created_at": "2026-02-14",
+      "description": "一句话：试错成本越来越高，提示词的重要性从来没有像今天这样大。seedance2结构化提示语和通用SKILL，整合了 Seedance 2.0（字节跳动 AI 视频生成模型）的结构化提示词使用方法，帮助用户快速上手并创作出高质量的视频内容。包含 16+ 个模板和 8+ 个示例 | 带货广告| TVC广告| 真人实拍视频效果",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 102,
+      "full_name": "liangdabiao/make-prompt-seedance2",
+      "id": 1157650290,
+      "language": null,
+      "license": null,
+      "pushed_at": "2026-11-03",
+      "score": 15.36,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 759,
+      "topics": [
+        "skill",
+        "skills"
+      ],
+      "url": "https://github.com/liangdabiao/make-prompt-seedance2",
+      "verified_at": "2026-11-11"
+    },
+    "ling-0729/KHunter": {
+      "archived": false,
+      "created_at": "2026-03-26",
+      "description": "KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 201,
+      "full_name": "ling-0729/KHunter",
+      "id": 1192309246,
+      "language": "Python",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-07",
+      "score": 11.47,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 738,
+      "topics": [
+        "a-share",
+        "china-stock",
+        "china-stock-market",
+        "pattern-recognition",
+        "python",
+        "quant",
+        "quantitative-trading",
+        "stock-screener",
+        "technical-analysis"
+      ],
+      "url": "https://github.com/ling-0729/KHunter",
+      "verified_at": "2026-11-11"
+    },
     "lisazhou886/smart-money-forex-strategy-mt4": {
       "created_at": "2026-09-09",
       "description": "An institutional Forex Market Balance strategy for MetaTrader 4 (MT4). Automate value area detection, identify order flow imbalances, and trade alongside smart money with high R:R setups.",
@@ -18992,6 +19513,27 @@
       ],
       "url": "https://github.com/pseudo-longinus/quant-buddy-skills"
     },
+    "quant-king299/EasyXT": {
+      "archived": false,
+      "created_at": "2025-09-12",
+      "description": "EasyXT是基于miniqmt中xtquant的二次开发封装库，旨在简化xtquant的使用，提供更友好的API接口。通过统一的接口设计、智能参数处理和完善的错误处理，让量化交易开发变得更加简单高效。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 224,
+      "full_name": "quant-king299/EasyXT",
+      "id": 1055609635,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-09-16",
+      "score": 11.52,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 756,
+      "topics": [],
+      "url": "https://github.com/quant-king299/EasyXT",
+      "verified_at": "2026-11-11"
+    },
     "quant-sentiment-ai/claude-equity-research": {
       "created_at": "2025-09-09",
       "description": "🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice.",
@@ -19240,6 +19782,27 @@
         "tushare"
       ],
       "url": "https://github.com/rootSunc/CNEquity"
+    },
+    "rosemarycox5334-debug/AlphaMaster": {
+      "archived": false,
+      "created_at": "2026-07-10",
+      "description": "MT5 factor mining, backtest, and web training UI",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 258,
+      "full_name": "rosemarycox5334-debug/AlphaMaster",
+      "id": 1296375920,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-07",
+      "score": 15.76,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 716,
+      "topics": [],
+      "url": "https://github.com/rosemarycox5334-debug/AlphaMaster",
+      "verified_at": "2026-11-11"
     },
     "rsalianto/tradoor": {
       "created_at": "2026-10-24",
@@ -19584,6 +20147,27 @@
       ],
       "url": "https://github.com/sjbsjb233/ZJ_Quant_03"
     },
+    "soaring-xiongkulu/easyaiot": {
+      "archived": false,
+      "created_at": "2025-08-04",
+      "description": "我希望全世界都能使用这个系统，实现AI的真正0门槛，人人都能体验到AI带来的好处，而并不只是掌握在少数人手里。支持上千种垂直场景，支持AI模型定制化和AI算法定制化开发 深度融合，赋能万物智视：EasyAIoT 构筑了物联网设备（尤其是海量摄像头）的高效接入与管控网络。我们深度融合流媒体实时传输技术与前沿人工智能（AI），打造一体化服务核心。这套方案不仅打通了异构设备的互联互通，更将高清视频流与强大的AI解析引擎深度集成，赋予监控系统“智能之眼”——精准实现人脸识别、异常行为分析、风险人员布控周界入侵检测。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 237,
+      "full_name": "soaring-xiongkulu/easyaiot",
+      "id": 1031570386,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-11-10",
+      "score": 16.35,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 758,
+      "topics": [],
+      "url": "https://github.com/soaring-xiongkulu/easyaiot",
+      "verified_at": "2026-11-11"
+    },
     "sopersone/cabbage-trading-machine": {
       "created_at": "2026-09-24",
       "description": "Spot trading bot - RSI + EMA signals, backtest, paper and live trading via CCXT. Built on Investing Algorithm Framework.",
@@ -19635,6 +20219,27 @@
         "trading-strategies"
       ],
       "url": "https://github.com/stefan-jansen/machine-learning-for-trading"
+    },
+    "taniman/profit-trailer": {
+      "archived": false,
+      "created_at": "2017-06-30",
+      "description": "The most advanced crypto trading bot",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 210,
+      "full_name": "taniman/profit-trailer",
+      "id": 95924052,
+      "language": "Shell",
+      "license": null,
+      "pushed_at": "2026-10-10",
+      "score": 11.58,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 784,
+      "topics": [],
+      "url": "https://github.com/taniman/profit-trailer",
+      "verified_at": "2026-11-11"
     },
     "thinh-vu/vnstock": {
       "created_at": "2022-02-27",
@@ -19825,6 +20430,42 @@
       ],
       "url": "https://github.com/tradingstrategy-ai/trading-strategy"
     },
+    "twelvedata/twelvedata-python": {
+      "archived": false,
+      "created_at": "2019-12-31",
+      "description": "Twelve Data Python Client - Financial data API & WebSocket",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 117,
+      "full_name": "twelvedata/twelvedata-python",
+      "id": 231087445,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-08-12",
+      "score": 11.6,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 793,
+      "topics": [
+        "cryptocurrency",
+        "financial-analysis",
+        "financial-data",
+        "forex",
+        "interactive-charts",
+        "matplotlib",
+        "ohlc",
+        "pandas",
+        "static-charts",
+        "stock-market",
+        "technical-indicators",
+        "twelve-data",
+        "twelvedata",
+        "websocket"
+      ],
+      "url": "https://github.com/twelvedata/twelvedata-python",
+      "verified_at": "2026-11-11"
+    },
     "visualHFT/VisualHFT": {
       "archived": false,
       "created_at": "2022-09-20",
@@ -19977,6 +20618,37 @@
         "vitepress"
       ],
       "url": "https://github.com/xingwudao/xquant-beginner"
+    },
+    "yangfeng20/ai-job": {
+      "archived": false,
+      "created_at": "2025-02-22",
+      "description": "找工作，用AI工作猎手！让AI帮您找工作！【DeepSeek+ChatGpt】赋能，ai助理作为您的求职者分身7*24小时在线找工作，并结合您的简历信息定制化回复。批量投递，自动发送简历，交换联系方式。hr拒绝挽留。高意向邮件通知，让您不错过每一份工作机会。BOSS直聘",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 101,
+      "full_name": "yangfeng20/ai-job",
+      "id": 937243099,
+      "language": "Java",
+      "license": "MIT",
+      "pushed_at": "2026-08-18",
+      "score": 11.45,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 727,
+      "topics": [
+        "ai",
+        "ai-agent",
+        "automation",
+        "boss-zhipin",
+        "chatgpt",
+        "deepseek",
+        "job-hunting",
+        "llm",
+        "resume"
+      ],
+      "url": "https://github.com/yangfeng20/ai-job",
+      "verified_at": "2026-11-11"
     },
     "yennanliu/InvestSkill": {
       "created_at": "2026-02-16",
@@ -21175,6 +21847,7 @@
       "AFK-surf/Comma",
       "AI4Finance-Foundation/FinRL-Trading",
       "ARahim3/kaggle-tpu-lab",
+      "AUTO-MAS-Project/AUTO-MAS",
       "Adamant-im/adamant-tradebot",
       "AetherLabsAI/Video2World",
       "Aevonix/FlashAlign",
@@ -21230,6 +21903,7 @@
       "Finnhub-Stock-API/finnhub-python",
       "Fission-AI/OpenSpec",
       "ForceInjection/AI-fundamentals",
+      "GMGNAI/gmgn-skills",
       "GamePhanesStudio/GamePhanes",
       "Gathin23/tv-vibehack",
       "GenericCoding/VibeContainers",
@@ -21242,6 +21916,7 @@
       "HKUDS/nanobot",
       "HammerGPT/Hyper-Alpha-Arena",
       "Harvil1/codeAgent",
+      "Heerozh/spectre",
       "HiThink-Tech/Financial-API",
       "Huage001/Ascend-H3",
       "I-You-Dream/NL2SQL_GRPO",
@@ -21338,6 +22013,7 @@
       "The-Knowledge-Graph-Guys/vault-ld",
       "The-Vibe-Company/Quivr",
       "The-Vibe-Company/quivr",
+      "TheFourGreatErrors/alpha-rptr",
       "TickDB/tickdb-unified-realtime-marketdata-api",
       "TommyLemon/APIAuto",
       "Tongyi-MAI/OpenGCUA",
@@ -21361,7 +22037,9 @@
       "Yamz-Labs/kyojin",
       "Yevanchen/reclaim-code-entropy",
       "Yinsongxu/LLM2Jev",
+      "Yohann0617/oci-helper",
       "YorEthereallab4497-alt/grand-tour-rpocket",
+      "YoungCan-Wang/WyckoffTradingAgent",
       "Yu-ChangCheng/manufacturing-forecasting-framework",
       "ZevFlashthorn/adaq-rpocket-team",
       "ZhuLinsen/LiteMoE",
@@ -21390,8 +22068,10 @@
       "alibaba/MNN",
       "alibaba/ServeGen",
       "alihaskar/pycharting",
+      "alleyway/add-tradingview-alerts-tool",
       "alleyxd/SecondThought",
       "alltick/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api",
+      "alpacahq/alpaca-backtrader-api",
       "amirmushichge/video-states-website",
       "amitshekhariitbhu/ai-engineering-course",
       "amitshekhariitbhu/llm-inference-engineering",
@@ -21417,6 +22097,7 @@
       "benjitaylor/skills",
       "benmaster82/Pithos",
       "bennycode/trading-signals",
+      "binance/binance-connector-js",
       "binance/binance-connector-python",
       "blakeandersonw/ai-app-playbook",
       "boshu2/agentops",
@@ -21463,6 +22144,7 @@
       "dolev31/lasagna",
       "dominikmartn/harp",
       "dphnAI/sonar",
+      "dragon1086/prism-insight",
       "dromara/dante-cloud",
       "drowzeys/keys-vLLm.0.27.1-GLM-5.3-Flash-NVFP4-NVFP4KV-1M-Context-Abliterated",
       "duhu2000/dsh-mcp-connector",
@@ -21472,11 +22154,13 @@
       "eagle-hq/EAGLE-4",
       "earendil-works/pi",
       "edison7009/EchoBird",
+      "edmcouncil/fibo",
       "edtechre/pybroker",
       "eduwxyz/tucano",
       "eecs498-aase/materials",
       "ekzhang/openjev-sglang",
       "electkismet/AxData",
+      "electkismet/eltdx",
       "eliasbiondo/antirion",
       "elizaOS/eliza",
       "elzobrito/ESAA-Security",
@@ -21497,6 +22181,8 @@
       "franzenzenhofer/big-arrow-on-the-screen",
       "fumingyang2004/Tulpa",
       "furkankly/zoetrope",
+      "gadicc/yahoo-finance2",
+      "garagesteve1155/PowerTrader_AI",
       "gauravapiscean/agentic-kv-cache",
       "gazbert/bxbot",
       "gbeced/basana",
@@ -21564,7 +22250,9 @@
       "leftamber/CEXTrader-Grid-Dca-Automation-Bot-Platform",
       "lemomo-ai/lemo-opuscar",
       "lemonade-sdk/lemonade",
+      "liangdabiao/make-prompt-seedance2",
       "lightseekorg/tokenspeed",
+      "ling-0729/KHunter",
       "linqiu919/better-context-engine",
       "lisazhou886/smart-money-forex-strategy-mt4",
       "liudf0716/xfrpc",
@@ -21638,6 +22326,7 @@
       "pydantic/logfire",
       "qiniu/xhub",
       "qiz029/dscode",
+      "quant-king299/EasyXT",
       "quant-sentiment-ai/claude-equity-research",
       "quarkfin/qf-lib",
       "qybaihe/mu",
@@ -21654,6 +22343,7 @@
       "rnikitin/QuantNavigator",
       "rokbenko/quackd",
       "rootSunc/CNEquity",
+      "rosemarycox5334-debug/AlphaMaster",
       "rsalianto/tradoor",
       "rsandx/AlphaSuite",
       "ruc-datalab/EvoOntology",
@@ -21685,6 +22375,7 @@
       "skyzh/tiny-llm",
       "sno-ai/sno-station",
       "sno-ai/sno-station-skills",
+      "soaring-xiongkulu/easyaiot",
       "sodiumsun/agenttrail",
       "sopersone/cabbage-trading-machine",
       "soumatheusgomes/vibe-coding-toolkit",
@@ -21699,6 +22390,7 @@
       "sybil-solutions/local-studio",
       "sybil-solutions/qwen38-flash-next-b70-offload",
       "t3dotgg/tstack",
+      "taniman/profit-trailer",
       "tetriz-ai/session-intelligence",
       "the-open-agent/openagent",
       "thedotmack/claude-mem",
@@ -21725,6 +22417,7 @@
       "trevaintdead/ai-game-modding-guides",
       "trymirai/uzu",
       "tw93/Waza",
+      "twelvedata/twelvedata-python",
       "twinnydotdev/twinny",
       "udhaykumarbala/cleanyourtv-app",
       "ultraworkers/claw-code",
@@ -21752,6 +22445,7 @@
       "xorbitsai/inference",
       "xp2001-coder/zero2vllm",
       "xxPcy/PharmaLLM-Agent",
+      "yangfeng20/ai-job",
       "yaya-sy/specspeech",
       "yennanliu/InvestSkill",
       "yetone/cumora",
