@@ -208,7 +208,7 @@ def publish_months(root, result, load_json, save_json, render_digest):
         data['repositories'] = {k: v for k, v in data['repositories'].items() if content_allowed(v)}
         papers = sorted(data['papers'].values(), key=lambda p: p.get('published', ''), reverse=True)
         repos = ranked(list(data['repositories'].values()))
-        content = render_digest(month, papers, repos).replace('AI 应用研究日报', 'AI 金融月度总结')
+        content = render_digest(month, papers, repos)
         (archive / f'{month}.md').write_text(content, encoding='utf-8')
     save_json(months_path, months)
     # Delete only legacy daily outputs after all summaries are safely written.

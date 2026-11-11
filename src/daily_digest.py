@@ -566,9 +566,9 @@ def render_digest(
     topic_repos = topic_repos or {}
     topic_configs = topic_configs or {}
     code_count = sum(bool(item.get("code_url")) for item in papers)
-    content = f"""# AI 应用研究日报 · {run_date}
+    content = f"""# AI 金融月报 · {run_date}
 
-本期新增：**{len(papers)} 篇论文**（其中 {code_count} 篇找到可能的代码）和 **{len(repos)} 个 GitHub 项目**。
+本月累计收录 **{len(papers)} 篇论文**（其中 {code_count} 篇找到可能的代码）和 **{len(repos)} 个 GitHub 项目**。
 
 ## AI 投资与交易论文
 
@@ -603,11 +603,7 @@ def render_digest(
 
 def render_readme(
     run_date: str,
-    papers: list[dict[str, Any]],
-    repos: list[dict[str, Any]],
-    topic_papers: dict[str, list[dict[str, Any]]],
-    topic_repos: dict[str, list[dict[str, Any]]],
-    topic_configs: dict[str, dict[str, Any]],
+    monthly_report: str,
     popular_repos: list[dict[str, Any]] | None = None,
 ) -> str:
     popular = sorted([r for r in (popular_repos or []) if eligible(r, dt.date.fromisoformat(run_date))], key=lambda r: (-r["stars"], r["full_name"]))
@@ -618,24 +614,27 @@ def render_readme(
             popular_sections += f"### {group}\n\n{repo_table(selected)}\n"
     if not popular:
         popular_sections += "暂无通过筛选的热门项目。\n"
+    report_section = re.sub(r"^(#+) ", r"\1# ", monthly_report, flags=re.MULTILINE)
     return f"""# AI Finance Daily
 
 [![Daily update](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml/badge.svg)](https://github.com/theneao/ai-finance-daily/actions/workflows/daily.yml)
 
 每天自动搜集 AI 投资研究、金融 Agent、交易框架、金融工具和交易游戏。论文源结合 arXiv 与 [Hugging Face Trending Papers](https://huggingface.co/papers/trending)，仅筛选 AI 投资交易研究，按 arXiv ID 去重；Trending 中重新走热的旧论文也可收录，保留原发表日期与 HF 社区热度。
 
-**[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[月度总结](archive/index.md)**
+**[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[本月月报](archive/{run_date[:7]}.md)** · **[历月归档](archive/index.md)**
 
-热门总榜每天随日报刷新，按 Star 降序排列。**500–999 Star** 须近一年有代码更新且 Star 增长 **≥ 30%**。**1,000 Star 及以上**须近三年有代码更新。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
+最近更新 {run_date}（北京时间）。
 
-每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页保留当日日报；历史内容每月仅一份 Markdown，月内累计去重更新，不再保存逐日日报文件。`data/` 中 JSON 用于累计和去重，不是逐日归档。日报项目须 **Star ≥ 200**，且近半年有代码更新或 Star 增长 **≥ 30%**。涨幅按窗口内最早一条有效 Star 快照与当前值比较，缺少历史快照时无法验证增长。项目名称、简介、topics、README 和论文标题、摘要会进行政治敏感主题筛选，检查不可用的仓库暂缓展示。同时排除 `.github`/个人主页仓库、资源导航合集及超过 400 字符的冗长简介仓库，优先展示可使用的项目。检索范围和阈值见 [`config.yaml`](config.yaml)。
+热门总榜每天刷新，按 Star 降序排列。**500–999 Star** 须近一年有代码更新且 Star 增长 **≥ 30%**。**1,000 Star 及以上**须近三年有代码更新。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
+
+每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页展示当月累计月报，每天合并去重，按月保存一份 Markdown。`data/` 中 JSON 用于累计和去重，不是逐日归档。月报新增项目须 **Star ≥ 200**，且近半年有代码更新或 Star 增长 **≥ 30%**。涨幅按窗口内最早一条有效 Star 快照与当前值比较，缺少历史快照时无法验证增长。项目名称、简介、topics、README 和论文标题、摘要会进行政治敏感主题筛选，检查不可用的仓库暂缓展示。同时排除 `.github`/个人主页仓库、资源导航合集及超过 400 字符的冗长简介仓库，优先展示可使用的项目。检索范围和阈值见 [`config.yaml`](config.yaml)。
 
 ---
 
 {popular_sections}
 ---
 
-{render_digest(run_date, papers, repos, topic_papers, topic_repos, topic_configs)}
+{report_section}
 """
 
 
@@ -985,8 +984,9 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
         render_catalog(catalog_repos, run_date, md_escape, catalog_warnings), encoding="utf-8"
     )
     publish_months(ROOT, result, load_json, save_json, render_digest)
+    monthly_report = (ROOT / "archive" / f"{run_date[:7]}.md").read_text(encoding="utf-8")
     (ROOT / "README.md").write_text(
-        render_readme(run_date, result["papers"], result["repositories"], {}, {}, {}, catalog_repos)
+        render_readme(run_date, monthly_report, catalog_repos)
         + ("\n> " + "\n> ".join(collection_warnings) + "\n" if collection_warnings else ""),
         encoding="utf-8",
     )

@@ -4,11 +4,13 @@
 
 每天自动搜集 AI 投资研究、金融 Agent、交易框架、金融工具和交易游戏。论文源结合 arXiv 与 [Hugging Face Trending Papers](https://huggingface.co/papers/trending)，仅筛选 AI 投资交易研究，按 arXiv ID 去重；Trending 中重新走热的旧论文也可收录，保留原发表日期与 HF 社区热度。
 
-**[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[月度总结](archive/index.md)**
+**[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[本月月报](archive/2026-11.md)** · **[历月归档](archive/index.md)**
 
-热门总榜每天随日报刷新，按 Star 降序排列。**500–999 Star** 须近一年有代码更新且 Star 增长 **≥ 30%**。**1,000 Star 及以上**须近三年有代码更新。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
+最近更新 2026-11-11（北京时间）。
 
-每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页保留当日日报；历史内容每月仅一份 Markdown，月内累计去重更新，不再保存逐日日报文件。`data/` 中 JSON 用于累计和去重，不是逐日归档。日报项目须 **Star ≥ 200**，且近半年有代码更新或 Star 增长 **≥ 30%**。涨幅按窗口内最早一条有效 Star 快照与当前值比较，缺少历史快照时无法验证增长。项目名称、简介、topics、README 和论文标题、摘要会进行政治敏感主题筛选，检查不可用的仓库暂缓展示。同时排除 `.github`/个人主页仓库、资源导航合集及超过 400 字符的冗长简介仓库，优先展示可使用的项目。检索范围和阈值见 [`config.yaml`](config.yaml)。
+热门总榜每天刷新，按 Star 降序排列。**500–999 Star** 须近一年有代码更新且 Star 增长 **≥ 30%**。**1,000 Star 及以上**须近三年有代码更新。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
+
+每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页展示当月累计月报，每天合并去重，按月保存一份 Markdown。`data/` 中 JSON 用于累计和去重，不是逐日归档。月报新增项目须 **Star ≥ 200**，且近半年有代码更新或 Star 增长 **≥ 30%**。涨幅按窗口内最早一条有效 Star 快照与当前值比较，缺少历史快照时无法验证增长。项目名称、简介、topics、README 和论文标题、摘要会进行政治敏感主题筛选，检查不可用的仓库暂缓展示。同时排除 `.github`/个人主页仓库、资源导航合集及超过 400 字符的冗长简介仓库，优先展示可使用的项目。检索范围和阈值见 [`config.yaml`](config.yaml)。
 
 ---
 
@@ -85,21 +87,47 @@
 
 ---
 
-# AI 应用研究日报 · 2026-11-11
+## AI 金融月报 · 2026-11
 
-本期新增：**1 篇论文**（其中 0 篇找到可能的代码）和 **44 个 GitHub 项目**。
+本月累计收录 **17 篇论文**（其中 6 篇找到可能的代码）和 **68 个 GitHub 项目**。
 
-## AI 投资与交易论文
+### AI 投资与交易论文
 
 | 日期 | 论文 | 作者 | 代码 | 市场/因子 | 来源/热度 |
 |---|---|---|---|---|---|
 | 2026-11-10 | [Online-Adaptive Fuzzy Cognitive Maps for Neuro-symbolic Financial Forecasting](https://arxiv.org/abs/2611.13388) | Brandon Rodriguez, Abel Deulofeu, Olaoluwa Adigun | — | 美股、因子 | arXiv |
+| 2026-11-09 | [Diversification Across Predictors: Heterogeneous Ensemble Learning for Cross-Sectional Return Prediction](https://arxiv.org/abs/2611.12389) | Danning Li | — | 因子 | arXiv |
+| 2026-11-07 | [M3FT: Micro-Macro-Micro Reasoning for Multi-Agent Cryptocurrency Perpetual Futures Trading](https://arxiv.org/abs/2611.10586) | Jiashun Wang, Beile Wang, Guangyan Gan 等 | — | 虚拟货币、期货 | arXiv |
+| 2026-11-07 | [A Bayesian oriented exploration and reinforcement learning in continuous-time mean-variance portfolio optimization](https://arxiv.org/abs/2611.10759) | Kexin Chen, Xiang Yu, Shanshan Zhao | — | 未明确（需查文档） | arXiv |
+| 2026-11-06 | [Towards Robust Reinforcement Learning Market Making: Lessons from Loss Function Experimentation](https://arxiv.org/abs/2611.09012) | Siddharth Nand, Bora Guney | — | 未明确（需查文档） | arXiv |
+| 2026-11-06 | [TailDART: Compute-Efficient Foundation Models for Financial Time-Series Forecasting](https://arxiv.org/abs/2611.09176) | Chiang Qin Zhi, Ranjan Satapathy, Erik Cambria 等 | — | 未明确（需查文档） | arXiv |
+| 2026-11-04 | [Constrained defined-contribution pension management: A reparameterized neural network approach](https://arxiv.org/abs/2611.06495) | Yueman Feng, Wenyuan Li | — | 因子 | arXiv |
+| 2026-11-03 | [LENS: Reliability-Aware Stock Prediction via LLM-Extracted Priors and News-Driven Semantic Graphs](https://arxiv.org/abs/2611.04217) | Hao Zhou, Tiejun Ma, Luis Felipe Costa Sperb | — | 美股 | arXiv |
+| 2026-11-03 | [Mitigating Return Drag and Regime Whipsaws in Sector Rotation: An Asymmetric Downside-Aware Nested Clustered Optimization Framework](https://arxiv.org/abs/2611.05310) |  Supriadi | [arXiv 页面](https://github.com/obo-cloud/sp500-asymmetric-nco) | 美股 | arXiv |
+| 2026-11-03 | [Generative Modeling for Cascading Extremes via Autoregressive Transformers](https://arxiv.org/abs/2611.05728) | Miguel de Carvalho, Myung Won Lee, Jordan Richards 等 | — | 期货 | arXiv |
+| 2026-11-01 | [LLM-Enhanced Multimodal House Price Prediction using Structured, Textual, and Visual Features](https://arxiv.org/abs/2611.01615) | Khandokar Md. Rahat Hossain, Souvik Das, Tahsina Hashem 等 | [arXiv 页面](https://github.com/rh2975/LLM-VLM-HousePrice) | 未明确（需查文档） | arXiv |
+| 2026-10-31 | [AStockArena: Beyond Returns, Can We Entrust Real Capital to the Decisions of Financial Agents?](https://arxiv.org/abs/2611.00515) | Zeyu Liu, Sing Kwong Lai, Xuanzhi Feng 等 | — | A股 | arXiv |
+| 2026-10-31 | [Entropy-Regularized Reinforcement Learning for the Regime-Switching Consumption-Investment Problem](https://arxiv.org/abs/2611.01046) | Congde Hu, Danping Li, Xun Li 等 | — | 未明确（需查文档） | arXiv |
+| 2025-12-01 | [AI-Trader: Benchmarking Autonomous Agents in Real-Time Financial Markets](https://arxiv.org/abs/2512.10971) | Tianyu Fan, Yuhao Yang, Yangqin Jiang 等 | [HF 社区代码候选](https://github.com/HKUDS/AI-Trader) | A股、虚拟货币、期货 | [HF Trending](https://huggingface.co/papers/2512.10971) · 👍 13 |
+| 2025-09-14 | [Trading-R1: Financial Trading with LLM Reasoning via Reinforcement   Learning](https://arxiv.org/abs/2509.11420) | Yijia Xiao, Edward Sun, Tong Chen 等 | [HF 社区代码候选](https://github.com/TauricResearch/Trading-R1) | 未明确（需查文档） | [HF Trending](https://huggingface.co/papers/2509.11420) · 👍 5 |
+| 2025-08-02 | [Kronos: A Foundation Model for the Language of Financial Markets](https://arxiv.org/abs/2508.02739) | Yu Shi, Zongliang Fu, Shuo Chen 等 | [HF 社区代码候选](https://github.com/shiyu-coder/Kronos) | 未明确（需查文档） | [HF Trending](https://huggingface.co/papers/2508.02739) · 👍 65 |
+| 2024-12-28 | [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138) | Yijia Xiao, Edward Sun, Di Luo 等 | [HF 社区代码候选](https://github.com/tauricresearch/tradingagents) | 未明确（需查文档） | [HF Trending](https://huggingface.co/papers/2412.20138) · 👍 164 |
 
 
-## GitHub 金融与交易工具
+### GitHub 金融与交易工具
 
 | 项目 | 简介 | ⭐ | 半年内已观测涨幅 | 语言 | 分类 | 市场/因子 | 能力/用途 |
 |---|---|---:|---:|---|---|---|---|
+| [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | Free, open source crypto trading bot | 56733 | — | Python | 工具 | 虚拟货币 | 分析/策略工具 |
+| [ccxt/ccxt](https://github.com/ccxt/ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | 44847 | — | Python | 工具 | 虚拟货币 | 数据源 |
+| [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and deploy high-frequency crypto trading bots | 21144 | — | Python | Agent | 虚拟货币 | Agent |
+| [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 11085 | — | C# | 交易框架 | 虚拟货币 | 回测：明确提及 |
+| [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) | Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments. | 5781 | — | JavaScript | 论文研究 | 虚拟货币 | 论文研究 |
+| [FinMind/FinMind](https://github.com/FinMind/FinMind) | Open Data, more than 50 financial data. 提供超過 50 個金融資料(台股為主)，每天更新 https://finmind.github.io/ | 2881 | — | HTML | 工具 | 未明确（需查文档） | 数据源 |
+| [TA-Lib/ta-lib](https://github.com/TA-Lib/ta-lib) | Technical analysis library: indicators and candlestick patterns, batch and streaming, native in C, Rust, Java, C#... and more | 1732 | — | C | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
+| [visualHFT/VisualHFT](https://github.com/visualHFT/VisualHFT) | VisualHFT Terminal: open-source observability and decision terminal for electronic trading desks. Live Level 2 order books, microstructure analytics, and quantitative execution monitoring. | 1216 | — | C# | 工具 | 未明确（需查文档） | 看板、数据源 |
+| [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) | AI Trading platform for Hyperliquid & Binance Futures AI 自动交易平台，支持 Hyperliquid 和币安合约 | 1198 | — | Python | 交易框架 | 虚拟货币、期货 | 回测：需查文档 |
+| [Finnhub-Stock-API/finnhub-python](https://github.com/Finnhub-Stock-API/finnhub-python) | Finnhub Python API Client. Finnhub API provides institutional-grade financial data to investors, fintech startups and investment firms. We support real-time stock price, global fundamentals, global ETFs holdings and alternative data. https://finnhub.io/docs/api | 1097 | — | Python | 工具 | 未明确（需查文档） | 数据源 |
 | [51bitquant/binance_grid_trader](https://github.com/51bitquant/binance_grid_trader) | Binance_grid_trader is a grid strategy bot trading with Binance Spot and Binance Futures Exchange. you can use it to trade any pair in Binance Exchange. Binance_grid_trader是一个币安网格策略软件, 目前支持币安现货，USDT合约和币币合约。 | 991 | — | Python | 工具 | 虚拟货币、期货 | 数据源 |
 | [51bitquant/howtrader](https://github.com/51bitquant/howtrader) | Howtrader: A crypto quant framework for developing, backtesting, and executing your own trading strategies. Seamlessly integrates with TradingView and other third-party signals. Simply send a post request to automate trading and order placement. Supports Binance and Okex exchanges. | 972 | — | Python | 交易框架 | 虚拟货币 | 回测：明确提及 |
 | [ailabx/agilab](https://github.com/ailabx/agilab) | AgiLab(Agi实验室)，专注于将前沿AI技术落地：量化投资，多智能体落地，科研自动化。 | 971 | — | Python | Agent | 未明确（需查文档） | Agent |
@@ -144,6 +172,20 @@
 | [GMGNAI/gmgn-skills](https://github.com/GMGNAI/gmgn-skills) | GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base. | 711 | — | Python | Agent | 虚拟货币 | Agent |
 | [TheFourGreatErrors/alpha-rptr](https://github.com/TheFourGreatErrors/alpha-rptr) | A trading bot for automated algorithmic trading on Binance Futures, Bybit, BitMEX and FTX written in python. | 711 | — | Python | 工具 | 虚拟货币、期货 | 分析/策略工具 |
 | [alpacahq/alpaca-backtrader-api](https://github.com/alpacahq/alpaca-backtrader-api) | Alpaca Trading API integrated with backtrader  | 705 | — | Python | 交易框架 | 美股 | 回测：明确提及 |
+| [rnikitin/QuantNavigator](https://github.com/rnikitin/QuantNavigator) | An extensible harness for quantitative research. Product vision and roadmap. | 239 | — |  | 论文研究 | 虚拟货币 | 论文研究 |
+| [WyrmSpongeHaul/quant-trading-bot](https://github.com/WyrmSpongeHaul/quant-trading-bot) | Quant Trading Bot 2026 - Full working installer with advanced trading algorithms, ready to run on your desktop. | 200 | — |  | 工具 | 虚拟货币、期货 | 分析/策略工具 |
+| [ralphtradesz/trading-hub](https://github.com/ralphtradesz/trading-hub) | Plataforma de trading gratis y de código abierto para Mac (con guía para portarla a Windows con Claude): footprint, DOM, backtesting anti-sobreoptimización y estrategias con IA. 100 % local. | 138 | — | C# | 交易框架 | 虚拟货币、期货 | 回测：明确提及 |
+| [duhu2000/dsh-mcp-connector](https://github.com/duhu2000/dsh-mcp-connector) | MCP Connector for DeepSeek Harness: a data marketplace connecting enterprise, financial, legal, patent and research data. Manage authorization, search tools and troubleshoot MCP connections. Supports OAuth, API keys and HTTP/stdio. | 104 | — | JavaScript | 论文研究 | 未明确（需查文档） | 论文研究 |
+| [git-wallet/gitwallet](https://github.com/git-wallet/gitwallet) | GitWallet — non-custodial multi-chain crypto wallet for Android. 14 blockchains, AI assistant, trading bot. Keys stay on your phone. | 59 | — | JavaScript | 工具 | 虚拟货币 | 分析/策略工具 |
+| [Stratumgreawning7/MemeCoin-Sniper-Bot](https://github.com/Stratumgreawning7/MemeCoin-Sniper-Bot) | Crypto Meme Coin Sniper Bot for Automated Trading, New Token Sniping, Meme Token Launch Detection, Smart Filtering, Fast Execution, Multi-Chain Crypto Trading & Windows Trading Software | 58 | — |  | 工具 | 虚拟货币 | 分析/策略工具 |
+| [Beingfluresurrect/Solana-token-sniper](https://github.com/Beingfluresurrect/Solana-token-sniper) | Solana token sniper for Raydium V4 and Pump.fun. Bypass mempool with Jito MEV bundles, auto-skip honeypots and rugpulls, and secure profits with trailing stops. High-winrate crypto trading bot. | 51 | — | Rust | Agent | 虚拟货币 | Agent |
+| [SapphireFarCzar/A.W.-rpocket-team-Stratgies-Indicator](https://github.com/SapphireFarCzar/A.W.-rpocket-team-Stratgies-Indicator) | A.W. Strategy: a rules-based intraday futures strategy for TradingView (market structure, order flow, GEX levels), with an automated options-data pipeline and a paper-trading research bot. | 42 | — | HTML | 论文研究 | 期货 | 论文研究 |
+| [ZevFlashthorn/adaq-rpocket-team](https://github.com/ZevFlashthorn/adaq-rpocket-team) | AdaQ (Ada Quant) is an AI-powered quantitative trading platform for equities and digital crypto assets. | 42 | — | HTML | 交易框架 | 虚拟货币 | 回测：需查文档 |
+| [andyboss1995/ritmex-bot](https://github.com/andyboss1995/ritmex-bot) | Bun/TypeScript multi-exchange perpetuals trading bot + HK momentum strategy | 39 | — | TypeScript | 工具 | 虚拟货币、期货 | 分析/策略工具 |
+| [WolfZorace44832/Orderflow-Claude-skill-resocket](https://github.com/WolfZorace44832/Orderflow-Claude-skill-resocket) | Evidence-graded order-flow & footprint skill for Claude. Reads footprint, DOM, profile and CVD screenshots, separates what’s measured from what’s inferred, and shows what flow is actually useful for, without making trade calls. | 39 | — | HTML | 工具 | 未明确（需查文档） | 分析/策略工具 |
+| [DegreeApprentice/Ton-token-sniper-bot](https://github.com/DegreeApprentice/Ton-token-sniper-bot) | TON token sniper bot for STON.fi and DeDust DEX. Auto-skip scam tokens and honeypots, secure profits with trailing stops. High-frequency crypto trading bot for The Open Network. Toncoin | 35 | — |  | 工具 | 虚拟货币 | 分析/策略工具 |
+| [leftamber/CEXTrader-Grid-Dca-Automation-Bot-Platform](https://github.com/leftamber/CEXTrader-Grid-Dca-Automation-Bot-Platform) | Open-source Grid + DCA trading bot for crypto. Supports Binance, Bybit, OKX, Hyperliquid, dYdX, Bitget. Advanced customization, OrderBook, risk management, Web UI and backtesting. | 22 | — | Python | 交易框架 | 虚拟货币 | 回测：明确提及 |
+| [Jokejoker-designer/QUANTSMART](https://github.com/Jokejoker-designer/QUANTSMART) | A local workspace for testing strategies and building your own quantitative algorithms. Strategy Cards, historical replay, traceable validation and an optional MT5 connector. | 20 | — | TypeScript | 工具 | 未明确（需查文档） | 分析/策略工具 |
 
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。

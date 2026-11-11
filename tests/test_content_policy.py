@@ -65,13 +65,16 @@ class ContentPolicyTests(unittest.TestCase):
         def repo(name,stars):
             return {'full_name':name,'url':'https://github.com/'+name,'stars':stars,'description':'financial agent','language':'Python','pushed_at':'2026-11-10'}
         rows=[repo('x/small',999),repo('x/boundary',1000),repo('x/large',5000),repo('x/politics',9000)]
-        text=render_readme('2026-11-10',[],[],{},{},{},rows)
+        text=render_readme('2026-11-10', '# AI 金融月报 · 2026-11\n\n本月累计内容\n', rows)
         self.assertIn('[x/boundary]',text)
         self.assertIn('[x/large]',text)
         self.assertNotIn('[x/small]',text)
         self.assertNotIn('[x/politics]',text)
         self.assertLess(text.index('[x/large]'),text.index('[x/boundary]'))
         self.assertIn('HOT_PROJECTS.md',text)
+        self.assertIn('## AI 金融月报 · 2026-11', text)
+        self.assertIn('本月累计内容', text)
+        self.assertIn('(archive/2026-11.md)', text)
         self.assertTrue(eligible(rows[1],dt.date(2026,11,10)))
         self.assertFalse(eligible(rows[0],dt.date(2026,11,10)))
 
