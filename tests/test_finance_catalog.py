@@ -20,6 +20,18 @@ class CatalogTests(unittest.TestCase):
             self.assertFalse(eligible(base | changes, today))
         self.assertEqual(active_cutoff(dt.date(2024, 2, 29)), '2021-02-28')
 
+    def test_mid_star_tier_requires_both_recent_update_and_growth(self):
+        today = dt.date(2026, 11, 11)
+        repo = {"stars": 520, "pushed_at": "2025-11-11",
+                "star_baseline_12m": {"date": "2026-03-01", "stars": 400}}
+        self.assertTrue(eligible(repo, today))
+        self.assertTrue(eligible(repo | {"stars": 500,
+                        "star_baseline_12m": {"date": "2026-03-01", "stars": 380}}, today))
+        self.assertFalse(eligible(repo | {"stars": 519}, today))
+        self.assertFalse(eligible(repo | {"pushed_at": "2025-11-10"}, today))
+        self.assertFalse(eligible(repo | {"star_baseline_12m": None}, today))
+        self.assertFalse(eligible(repo | {"star_baseline_12m": {"date": "2025-11-10", "stars": 400}}, today))
+
     def test_multiple_market_labels_and_unknown(self):
         self.assertEqual(market_labels({'description': 'A-share US stocks crypto futures alpha factor'}), '美股、A股、虚拟货币、期货、因子')
         self.assertIn('未明确', market_labels({'description': 'portfolio optimization'}))
@@ -35,7 +47,7 @@ class CatalogTests(unittest.TestCase):
                 return {'total_count': 101, 'items': [{'full_name': f'x/{page}', 'stars': 1000 + page, 'pushed_at': '2026-11-10'}]}
             def get(self, *args, **kwargs):
                 class Response:
-                    def json(self): return {'full_name': 'x/known', 'stars': 5000, 'pushed_at': '2020-01-01'}
+                    def json(self): return {'full_name': 'x/known', 'stars': 499, 'pushed_at': '2020-01-01'}
                 return Response()
         client = Client()
         repos, warnings = collect_catalog(client, {'catalog_queries': ['finance']}, {'x/known': {}}, dt.datetime(2026,11,10,tzinfo=dt.timezone.utc), lambda r,*args:r)

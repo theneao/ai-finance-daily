@@ -4,9 +4,7 @@ project:
   lookback_days: 14
   max_papers_per_run: 30
   max_repos_per_run: 30
-  min_popular_stars: 1000
   weekly_star_growth: 20
-  star_growth_days: 7
   archive_keep_days: 90
 code_sources:
   papers_with_code: true
@@ -62,7 +60,6 @@ papers:
   - payment fraud
 github:
   per_query: 12
-  min_stars: 2
   new_repo_queries:
   - AI quantitative trading
   - machine learning trading
@@ -84,17 +81,17 @@ github:
   - quantitative strategy
   - trading strategy backtest
   active_repo_queries:
-  - quantitative trading stars:>=100
-  - financial analysis stars:>=100
-  - backtesting stars:>=100
-  - stock market data API stars:>=50
-  - financial data source stars:>=50
-  - fund flow trading stars:>=20
-  - order flow trading stars:>=20
-  - quantitative strategy stars:>=50
-  - A-share data stars:>=20
-  - futures trading stars:>=50
-  - crypto trading stars:>=100
+  - quantitative trading
+  - financial analysis
+  - backtesting
+  - stock market data API
+  - financial data source
+  - fund flow trading
+  - order flow trading
+  - quantitative strategy
+  - A-share data
+  - futures trading
+  - crypto trading
   growth_repo_queries:
   - quantitative trading
   - financial data API

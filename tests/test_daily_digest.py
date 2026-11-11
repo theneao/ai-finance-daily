@@ -72,24 +72,21 @@ class DailyDigestTests(unittest.TestCase):
         stale = {"stargazers_count": 5, "pushed_at": "2025-01-01T00:00:00Z"}
         self.assertGreater(repo_score(fresh, now), repo_score(stale, now))
 
-    def test_star_threshold_accepts_popular_or_fast_growing(self):
-        project = {"min_popular_stars": 100, "weekly_star_growth": 20, "star_growth_days": 7}
+    def test_daily_requires_200_stars_and_activity_or_observed_growth(self):
         repos = [
-            {"full_name": "x/popular", "stars": 100, "created_at": "2020-01-01"},
-            {"full_name": "x/growing", "stars": 35, "created_at": "2020-01-01"},
-            {"full_name": "x/new", "stars": 20, "created_at": "2026-08-28"},
-            {"full_name": "x/quiet", "stars": 30, "created_at": "2020-01-01"},
+            {"full_name": "x/active", "stars": 200, "pushed_at": "2026-05-11"},
+            {"full_name": "x/growing", "stars": 260, "pushed_at": "2025-01-01"},
+            {"full_name": "x/quiet", "stars": 259, "pushed_at": "2025-01-01"},
+            {"full_name": "x/no-history", "stars": 500, "pushed_at": "2025-01-01"},
+            {"full_name": "x/small", "stars": 199, "pushed_at": "2026-11-11"},
         ]
-        history = {
-            "x/growing": {"2026-08-24": 10},
-            "x/quiet": {"2026-08-24": 25},
-        }
-        selected = apply_star_thresholds(repos, history, "2026-08-31", project)
-        self.assertEqual(
-            {repo["full_name"] for repo in selected}, {"x/popular", "x/growing", "x/new"}
-        )
-        growing = next(repo for repo in selected if repo["full_name"] == "x/growing")
-        self.assertEqual(growing["star_growth_7d"], 25)
+        history = {name: {"2026-04-01": 100, "2026-08-31": 200}
+                   for name in ("x/growing", "x/quiet")}
+        selected = apply_star_thresholds(repos, history, "2026-11-11")
+        self.assertEqual([r["full_name"] for r in selected], ["x/active", "x/growing"])
+        self.assertEqual(selected[1]["star_baseline_6m"], {"date": "2026-08-31", "stars": 200})
+        self.assertEqual(history["x/growing"]["2026-11-11"], 260)
+        self.assertIn("2026-04-01", history["x/growing"])
 
     def test_daily_reruns_merge_without_overwriting(self):
         existing = {

@@ -21,7 +21,9 @@ import yaml
 
 from content_policy import clean_batch, content_allowed, review_key, review_repositories
 
-from finance_catalog import category, collect_catalog, market_labels, publish_months, render_catalog, tool_kind
+from finance_catalog import (category, collect_catalog, eligible, grew_by_30_percent,
+                             market_labels, months_ago, publish_months, render_catalog,
+                             star_baseline, tool_kind)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -459,54 +461,46 @@ def fetch_repositories(
 ) -> list[dict[str, Any]]:
     found: dict[str, dict[str, Any]] = {}
     per_query = config["per_query"]
-    min_stars = config["min_stars"]
+    min_stars = 200
+    active_since = months_ago((now + dt.timedelta(hours=8)).date(), 6)
     for base in config["new_repo_queries"]:
         query = f"{base} created:>={cutoff_date} stars:>={min_stars} archived:false"
         for repo in client.github_search(query, per_query):
             found[repo["full_name"]] = compact_repo(repo, now, "new")
     for base in config.get("active_repo_queries", []):
-        query = f"{base} pushed:>={cutoff_date} archived:false"
+        query = f"{base} pushed:>={active_since} stars:200..999 archived:false"
         for repo in client.github_search(query, per_query):
             found.setdefault(repo["full_name"], compact_repo(repo, now, "active"))
     for base in config.get("growth_repo_queries", []):
-        query = f"{base} pushed:>={cutoff_date} stars:>=5 archived:false"
+        query = f"{base} stars:200..499 archived:false"
         for repo in client.github_search(query, per_query):
             found.setdefault(repo["full_name"], compact_repo(repo, now, "growth-watch"))
     # The public list is a popularity ranking: stars first, then freshness score.
     return sorted(found.values(), key=lambda item: (item["stars"], item["score"]), reverse=True)
 
 
-def apply_star_thresholds(
-    repos: list[dict[str, Any]],
-    history: dict[str, dict[str, int]],
-    run_date: str,
-    project: dict[str, Any],
-) -> list[dict[str, Any]]:
-    today = dt.date.fromisoformat(run_date)
-    growth_days = int(project["star_growth_days"])
-    target = today - dt.timedelta(days=growth_days)
-    keep_after = today - dt.timedelta(days=growth_days * 2 + 1)
-    selected: list[dict[str, Any]] = []
-    for repo in repos:
-        points = history.setdefault(repo["full_name"], {})
-        prior_dates = sorted(dt.date.fromisoformat(day) for day in points if day <= target.isoformat())
-        growth: int | None = None
-        if prior_dates:
-            baseline_day = prior_dates[-1].isoformat()
-            growth = repo["stars"] - int(points[baseline_day])
-        points[run_date] = repo["stars"]
-        for day in list(points):
-            if dt.date.fromisoformat(day) < keep_after:
-                del points[day]
+def daily_eligible(repo, today):
+    if (repo.get("stars", 0) < 200 or repo.get("archived") or repo.get("disabled")
+            or not content_allowed(repo)):
+        return False
+    pushed = (repo.get("pushed_at") or "")[:10]
+    cutoff = months_ago(today, 6)
+    baseline = repo.get("star_baseline_6m")
+    return (pushed >= cutoff or bool(baseline and cutoff <= baseline["date"] < today.isoformat()
+                                     and grew_by_30_percent(repo, baseline)))
 
-        created = dt.date.fromisoformat(repo["created_at"])
-        recent_with_momentum = created >= target and repo["stars"] >= project["weekly_star_growth"]
-        repo["star_growth_7d"] = growth
-        if (
-            repo["stars"] >= project["min_popular_stars"]
-            or (growth is not None and growth >= project["weekly_star_growth"])
-            or recent_with_momentum
-        ):
+
+def apply_star_thresholds(repos, history, run_date):
+    today = dt.date.fromisoformat(run_date)
+    selected = []
+    for repo in repos:
+        if not content_allowed(repo) or repo.get("stars", 0) < 200:
+            continue
+        points = history.setdefault(repo["full_name"], {})
+        repo["star_baseline_6m"] = star_baseline(points, today, 6)
+        repo["star_baseline_12m"] = star_baseline(points, today, 12)
+        points[run_date] = repo["stars"]
+        if daily_eligible(repo, today):
             selected.append(repo)
     return selected
 
@@ -544,15 +538,15 @@ def paper_table(papers: list[dict[str, Any]]) -> str:
 def repo_table(repos: list[dict[str, Any]]) -> str:
     if not repos:
         return "本期没有发现符合条件的新项目。\n"
-    rows = ["| 项目 | 简介 | ⭐ | 近7天 | 语言 | 分类 | 市场/因子 | 能力/用途 |", "|---|---|---:|---:|---|---|---|---|"]
+    rows = ["| 项目 | 简介 | ⭐ | 半年内已观测涨幅 | 语言 | 分类 | 市场/因子 | 能力/用途 |", "|---|---|---:|---:|---|---|---|---|"]
     for repo in repos:
         if not content_allowed(repo):
             continue
         name = f"[{repo['full_name']}]({repo['url']})"
         kind = category(repo)
         detail = ("回测：明确提及" if contains_term(str(repo), ["backtest", "回测"]) else "回测：需查文档") if kind == "交易框架" else tool_kind(repo) if kind == "工具" else kind
-        growth = repo.get("star_growth_7d")
-        growth_text = f"+{growth}" if growth is not None and growth >= 0 else (str(growth) if growth else "—")
+        baseline = repo.get("star_baseline_6m")
+        growth_text = f"{(repo['stars'] / baseline['stars'] - 1):+.1%}（自 {baseline['date']}）" if baseline else "—"
         rows.append(
             f"| {name} | {md_escape(repo.get('description', ''))} | {repo['stars']} | "
             f"{growth_text} | {md_escape(repo.get('language'))} | {kind} | {market_labels(repo)} | {detail} |"
@@ -616,8 +610,8 @@ def render_readme(
     topic_configs: dict[str, dict[str, Any]],
     popular_repos: list[dict[str, Any]] | None = None,
 ) -> str:
-    popular = sorted([r for r in (popular_repos or []) if r.get("stars", 0) >= 1000 and content_allowed(r)], key=lambda r: (-r["stars"], r["full_name"]))
-    popular_sections = "## 热门项目 · Star ≥ 1,000\n\n按 Star 降序，按分类直接展示各类前 10 个项目；[查看全部热门项目](HOT_PROJECTS.md)。\n\n"
+    popular = sorted([r for r in (popular_repos or []) if eligible(r, dt.date.fromisoformat(run_date))], key=lambda r: (-r["stars"], r["full_name"]))
+    popular_sections = "## 热门项目 · Star ≥ 500\n\n按 Star 降序，按分类直接展示各类前 10 个项目；[查看全部热门项目](HOT_PROJECTS.md)。\n\n"
     for group in ("Agent", "交易框架", "工具", "游戏", "论文研究"):
         selected = [r for r in popular if category(r) == group][:10]
         if selected:
@@ -632,9 +626,9 @@ def render_readme(
 
 **[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[月度总结](archive/index.md)**
 
-热门总榜不限制项目创建时间，收录 **Star ≥ 1,000** 且**近三年有代码更新**的非归档项目，包括历史成熟项目；每天随日报刷新，按 Star 降序排列。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
+热门总榜每天随日报刷新，按 Star 降序排列。**500–999 Star** 须近一年有代码更新且 Star 增长 **≥ 30%**。**1,000 Star 及以上**须近三年有代码更新。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
 
-每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页保留当日日报；历史内容每月仅一份 Markdown，月内累计去重更新，不再保存逐日日报文件。`data/` 中 JSON 用于累计和去重，不是逐日归档。日报仍允许近 7 天增长 ≥ 20 Star 的新项目，总榜采用Star ≥ 1,000 门槛。项目名称、简介、topics、README 和论文标题、摘要会进行政治敏感主题筛选，检查不可用的仓库暂缓展示。同时排除 `.github`/个人主页仓库、资源导航合集及超过 400 字符的冗长简介仓库，优先展示可使用的项目。检索范围和阈值见 [`config.yaml`](config.yaml)。
+每天北京时间 **08:30** 运行，也可在 Actions 页面手动运行。首页保留当日日报；历史内容每月仅一份 Markdown，月内累计去重更新，不再保存逐日日报文件。`data/` 中 JSON 用于累计和去重，不是逐日归档。日报项目须 **Star ≥ 200**，且近半年有代码更新或 Star 增长 **≥ 30%**。涨幅按窗口内最早一条有效 Star 快照与当前值比较，缺少历史快照时无法验证增长。项目名称、简介、topics、README 和论文标题、摘要会进行政治敏感主题筛选，检查不可用的仓库暂缓展示。同时排除 `.github`/个人主页仓库、资源导航合集及超过 400 字符的冗长简介仓库，优先展示可使用的项目。检索范围和阈值见 [`config.yaml`](config.yaml)。
 
 ---
 
@@ -891,19 +885,11 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
 
     print("Collecting recent GitHub projects...", flush=True)
     repo_candidates = fetch_repositories(client, config["github"], cutoff.date().isoformat(), now)
-    repos = apply_star_thresholds(
-        repo_candidates, state["repo_star_history"], run_date, config["project"]
-    )
-    repos = [repo for repo in repos if repo["full_name"] not in seen_repo_names]
-    repos = repos[: config["project"]["max_repos_per_run"]]
-    for repo in repos:
-        repo["first_seen"] = run_date
-        seen_repo_names.add(repo["full_name"])
-
     topic_papers: dict[str, list[dict[str, Any]]] = {}
     topic_repos: dict[str, list[dict[str, Any]]] = {}
     print("Refreshing historical finance catalogue...", flush=True)
-    known_repos = state["repositories"] | load_json(ROOT / "data" / "catalog.json", {}).get("repositories", {})
+    previous_catalog = load_json(ROOT / "data" / "catalog.json", {}).get("repositories", {})
+    known_repos = state["repositories"] | previous_catalog
     for paper in hf_papers:
         if paper.get("code_url"):
             name = paper["code_url"].split("github.com/", 1)[-1]
@@ -912,6 +898,26 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     catalog_repos, catalog_warnings = collect_catalog(
         client, config["github"], known_repos, now, compact_repo
     )
+    # Only current API observations enter the Star history.
+    current = {r["full_name"]: r for r in catalog_repos if r.get("verified_at") == now.date().isoformat()}
+    current.update({r["full_name"]: r for r in repo_candidates})
+    observations = sorted(current.values(), key=lambda r: (-r["stars"], r["full_name"]))
+    repos = apply_star_thresholds(observations, state["repo_star_history"], run_date)
+    daily_names = {repo["full_name"] for repo in repo_candidates}
+    repos = [repo for repo in repos if repo["full_name"] not in seen_repo_names
+             and (repo["full_name"] in daily_names or repo["full_name"] not in previous_catalog)]
+    repos = repos[: config["project"]["max_repos_per_run"]]
+    for repo in repos:
+        repo["first_seen"] = run_date
+    for repo in catalog_repos:
+        repo["star_baseline_12m"] = star_baseline(
+            state["repo_star_history"].get(repo["full_name"], {}), today_cn, 12)
+    catalog_repos = [repo for repo in catalog_repos if eligible(repo, today_cn)]
+    history_cutoff = months_ago(today_cn, 12)
+    state["repo_star_history"] = {
+        name: {day: stars for day, stars in points.items() if day >= history_cutoff}
+        for name, points in state["repo_star_history"].items()
+    }
     result = {
         "run_date": run_date,
         "papers": papers,
@@ -944,6 +950,7 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     for paper in papers:
         state["papers"][paper["id"]] = paper
     for repo in repos:
+        seen_repo_names.add(repo["full_name"])
         state["repositories"][repo["full_name"]] = repo
     for key, selected_papers in topic_papers.items():
         for paper in selected_papers:
@@ -963,6 +970,9 @@ def run(config_path: Path, dry_run: bool = False) -> dict[str, Any]:
     if latest.get("run_date") == run_date:
         latest["topic_papers"] = {}
         latest["topic_repositories"] = {}
+        latest["repositories"] = [r | current.get(r["full_name"], {}) for r in latest["repositories"]]
+        latest["repositories"] = [r for r in latest["repositories"]
+                                  if daily_eligible(r, today_cn) and content_allowed(r, reviews)]
         result = merge_daily_results(latest, result)
     result["collection_warnings"] = collection_warnings
     save_json(LATEST_PATH, result)
