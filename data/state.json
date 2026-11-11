@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-11T06:58:19.703771+00:00",
+  "last_run": "2026-11-11T11:27:02.796013+00:00",
   "papers": {
     "2412.20138": {
       "abstract": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
@@ -1804,6 +1804,12 @@
     "0xWhiteMage/qwen3.8-27b-kearuga-sglang-dgx-spark-dflash2": {
       "2026-09-01": 12
     },
+    "0xemmkty/QuantMuse": {
+      "2026-11-11": 2987
+    },
+    "0xfdf/toraniko": {
+      "2026-11-11": 982
+    },
     "0xohioism/polymarket-crypto-5m-15min-trading-bot": {
       "2026-08-31": 106,
       "2026-09-01": 107,
@@ -1825,6 +1831,21 @@
       "2026-10-03": 18,
       "2026-10-04": 19,
       "2026-10-05": 19
+    },
+    "1nchaos/adata": {
+      "2026-11-11": 5386
+    },
+    "51bitquant/ai-hedge-fund-crypto": {
+      "2026-11-11": 627
+    },
+    "51bitquant/binance_grid_trader": {
+      "2026-11-11": 991
+    },
+    "51bitquant/bitquant": {
+      "2026-11-11": 1166
+    },
+    "51bitquant/howtrader": {
+      "2026-11-11": 972
     },
     "555cute/r20-quantum-trader": {
       "2026-09-11": 169,
@@ -1853,6 +1874,9 @@
       "2026-10-11": 242,
       "2026-10-14": 256
     },
+    "AI4Finance-Foundation/FinNLP": {
+      "2026-11-11": 1496
+    },
     "AI4Finance-Foundation/FinRL-Trading": {
       "2026-09-18": 3710,
       "2026-09-19": 3724,
@@ -1867,7 +1891,14 @@
       "2026-09-28": 3762,
       "2026-09-29": 3764,
       "2026-09-30": 3770,
-      "2026-10-02": 3779
+      "2026-10-02": 3779,
+      "2026-11-11": 3930
+    },
+    "AI4Finance-Foundation/FinRobot": {
+      "2026-11-11": 8409
+    },
+    "ALAGENT-HKU/x2strategy": {
+      "2026-11-11": 283
     },
     "ALSAREM/MazCryptoBot": {
       "2026-11-10": 4,
@@ -1883,6 +1914,9 @@
       "2026-09-11": 178,
       "2026-09-12": 180
     },
+    "AUTO-MAS-Project/AUTO-MAS": {
+      "2026-11-11": 788
+    },
     "Aagam-Bothara/polyserve": {
       "2026-09-18": 5,
       "2026-09-19": 6,
@@ -1892,6 +1926,9 @@
     "Acromare/-AditusCavum": {
       "2026-09-29": 5,
       "2026-09-30": 5
+    },
+    "Adamant-im/adamant-tradebot": {
+      "2026-11-11": 863
     },
     "AetherLabsAI/Video2World": {
       "2026-10-26": 205,
@@ -1988,9 +2025,15 @@
     "AkiYangDev/mini-deepinfer": {
       "2026-10-25": 5
     },
+    "Albert-Z-Guo/Deep-Reinforcement-Stock-Trading": {
+      "2026-11-11": 687
+    },
     "Ali-Marandi/finsight-pro": {
       "2026-08-31": 109,
       "2026-09-01": 109
+    },
+    "AliHabibnia/Algorithmic_Trading_with_Python": {
+      "2026-11-11": 557
     },
     "Alinebm17/finance-api-tool": {
       "2026-09-16": 142,
@@ -2030,7 +2073,8 @@
       "2026-10-08": 618,
       "2026-10-09": 618,
       "2026-10-10": 618,
-      "2026-10-11": 618
+      "2026-10-11": 618,
+      "2026-11-11": 624
     },
     "Alpha-Park/genpark-agent-codebase-ast-dependency-slicer-skill": {
       "2026-09-29": 7,
@@ -2147,6 +2191,9 @@
       "2026-09-17": 8,
       "2026-09-18": 8
     },
+    "AminHP/gym-mtsim": {
+      "2026-11-11": 527
+    },
     "AndreXes03/motion-lab": {
       "2026-10-15": 7,
       "2026-10-18": 7,
@@ -2227,6 +2274,12 @@
       "2026-11-02": 15,
       "2026-11-04": 18
     },
+    "ArturSepp/QuantInvestStrats": {
+      "2026-11-11": 652
+    },
+    "ArvinLovegood/go-stock": {
+      "2026-11-11": 8117
+    },
     "Aryanutkarsh/SeeCode": {
       "2026-10-14": 468,
       "2026-10-15": 475,
@@ -2247,6 +2300,9 @@
       "2026-11-08": 46396,
       "2026-11-09": 46479,
       "2026-11-10": 46564
+    },
+    "AsyncAlgoTrading/aat": {
+      "2026-11-11": 843
     },
     "Atanasseri/agentic-engineering-assurance-system": {
       "2026-08-31": 5,
@@ -2299,6 +2355,9 @@
       "2026-11-08": 11,
       "2026-11-09": 13,
       "2026-11-10": 16
+    },
+    "Austin-Patrician/eastmoney": {
+      "2026-11-11": 648
     },
     "B-M-Capital-Research/hone-quant": {
       "2026-10-15": 5,
@@ -2411,6 +2470,9 @@
     "BinaryDeliverer/CodexDesk": {
       "2026-09-25": 223
     },
+    "BitSoulTech/BitSoulStockSkill": {
+      "2026-11-11": 581
+    },
     "BloopAI/vibe-kanban": {
       "2026-10-27": 28474,
       "2026-10-28": 28481,
@@ -2426,6 +2488,9 @@
       "2026-11-09": 28625,
       "2026-11-10": 28639
     },
+    "Bohr1005/xcrypto": {
+      "2026-11-11": 523
+    },
     "Boriwatopal/agent-skill-remotion-motion-graphics": {
       "2026-09-16": 15,
       "2026-09-17": 15,
@@ -2439,6 +2504,9 @@
       "2026-09-25": 16,
       "2026-09-26": 16,
       "2026-09-27": 16
+    },
+    "CCSH/IPTV": {
+      "2026-11-11": 551
     },
     "CHENG-LIANG1/real-company-interview-ai-coding-projects": {
       "2026-08-31": 277,
@@ -2597,10 +2665,19 @@
       "2026-09-16": 431,
       "2026-09-17": 658
     },
+    "CryptoSignal/Crypto-Signal": {
+      "2026-11-11": 5659
+    },
+    "CuriousLearnerDev/TrafficEye": {
+      "2026-11-11": 661
+    },
     "CypherSisters/HomeBotBuild": {
       "2026-10-22": 8,
       "2026-10-24": 9,
       "2026-10-25": 9
+    },
+    "DR-lin-eng/stock-scanner": {
+      "2026-11-11": 1158
     },
     "DRAGOX7/aaos": {
       "2026-10-08": 5
@@ -2685,6 +2762,9 @@
     "DegreeApprentice/Ton-token-sniper-bot": {
       "2026-11-08": 35,
       "2026-11-09": 35
+    },
+    "Delta-F/DeltaTrader": {
+      "2026-11-11": 318
     },
     "Delugeamongestate/cryptohopper-trading-bot": {
       "2026-10-03": 2,
@@ -2795,7 +2875,7 @@
       "2026-11-08": 6908,
       "2026-11-09": 6914,
       "2026-11-10": 6919,
-      "2026-11-11": 6922
+      "2026-11-11": 6925
     },
     "Drobiazkin/agent-gpu-calculator": {
       "2026-09-26": 7,
@@ -2823,6 +2903,9 @@
       "2026-09-10": 31,
       "2026-09-11": 32,
       "2026-09-12": 33
+    },
+    "Dzy-HW-XD/a-share-quant-selector": {
+      "2026-11-11": 513
     },
     "EL4CTEO/blender-skills": {
       "2026-10-20": 291,
@@ -3076,7 +3159,11 @@
       "2026-11-01": 1252,
       "2026-11-02": 1252,
       "2026-11-04": 1253,
-      "2026-11-05": 1254
+      "2026-11-05": 1254,
+      "2026-11-11": 1257
+    },
+    "FinanceData/FinanceDataReader": {
+      "2026-11-11": 1574
     },
     "Finnhub-Stock-API/finnhub-go": {
       "2026-11-04": 91,
@@ -3143,6 +3230,12 @@
       "2026-10-10": 4,
       "2026-10-11": 4
     },
+    "G-Joker/WeaponApp": {
+      "2026-11-11": 1003
+    },
+    "GMGNAI/gmgn-skills": {
+      "2026-11-11": 711
+    },
     "GamePhanesStudio/GamePhanes": {
       "2026-08-31": 540,
       "2026-09-01": 540,
@@ -3166,6 +3259,9 @@
     },
     "Gathin23/tv-vibehack": {
       "2026-10-18": 421
+    },
+    "Gbox4/tstock": {
+      "2026-11-11": 638
     },
     "GenericCoding/VibeContainers": {
       "2026-08-31": 25,
@@ -3245,6 +3341,9 @@
       "2026-10-21": 333,
       "2026-10-24": 349
     },
+    "GuanYixuan/pyJianYingDraft": {
+      "2026-11-11": 4869
+    },
     "Gunthor-xie/A-Simple-Quantitative-Trading-Strategy-Analysis-Platform-Based-On-Freqtrade": {
       "2026-10-05": 2,
       "2026-10-06": 2,
@@ -3268,6 +3367,9 @@
       "2026-09-28": 64,
       "2026-09-29": 71,
       "2026-09-30": 84
+    },
+    "HKUDS/AI-Trader": {
+      "2026-11-11": 23226
     },
     "HKUDS/RAG-Anything": {
       "2026-10-26": 24133,
@@ -3299,7 +3401,7 @@
       "2026-11-08": 37858,
       "2026-11-09": 37924,
       "2026-11-10": 37995,
-      "2026-11-11": 38022
+      "2026-11-11": 38030
     },
     "HKUDS/nanobot": {
       "2026-10-15": 49040,
@@ -3321,6 +3423,12 @@
       "2026-09-12": 8,
       "2026-09-16": 10,
       "2026-09-17": 10
+    },
+    "Hacker233/resume-design": {
+      "2026-11-11": 4112
+    },
+    "Haehnchen/crypto-trading-bot": {
+      "2026-11-11": 3551
     },
     "HajibagheriLabs/Web-Vibe-Security": {
       "2026-09-02": 5,
@@ -3346,6 +3454,9 @@
       "2026-10-14": 511,
       "2026-10-15": 672,
       "2026-10-16": 745
+    },
+    "Heerozh/spectre": {
+      "2026-11-11": 831
     },
     "Heluhan/Doccanon": {
       "2026-09-21": 5
@@ -3373,7 +3484,8 @@
       "2026-10-03": 3969,
       "2026-10-04": 3989,
       "2026-10-05": 4005,
-      "2026-10-06": 4046
+      "2026-10-06": 4046,
+      "2026-11-11": 4125
     },
     "High-Performance-AI-Lab/kvpack": {
       "2026-08-31": 5,
@@ -3405,6 +3517,12 @@
       "2026-11-05": 41,
       "2026-11-07": 41,
       "2026-11-08": 41
+    },
+    "ICT-FinD-Lab/alphagen": {
+      "2026-11-11": 1295
+    },
+    "IDouble/HTML-Crypto-Currency-Chart-Snippets": {
+      "2026-11-11": 598
     },
     "InesJemmali/local-financial-agent": {
       "2026-10-02": 3,
@@ -3455,6 +3573,9 @@
       "2026-10-18": 12,
       "2026-10-19": 12,
       "2026-10-20": 12
+    },
+    "JECSand/yahoofinancials": {
+      "2026-11-11": 978
     },
     "JKorf/Binance.Net": {
       "2026-10-27": 1174,
@@ -3521,6 +3642,9 @@
       "2026-10-31": 119,
       "2026-11-02": 119
     },
+    "Jack-Cherish/quantitative": {
+      "2026-11-11": 2746
+    },
     "JakeATX/llamAmpere": {
       "2026-09-12": 8,
       "2026-09-16": 81,
@@ -3529,6 +3653,9 @@
       "2026-09-19": 96,
       "2026-09-20": 100,
       "2026-09-21": 103
+    },
+    "Jakeschincariol/day-trader-skill": {
+      "2026-11-11": 6820
     },
     "Jardy1999/CodeNexus": {
       "2026-09-01": 16,
@@ -3574,7 +3701,10 @@
       "2026-11-08": 5508,
       "2026-11-09": 5512,
       "2026-11-10": 5515,
-      "2026-11-11": 5517
+      "2026-11-11": 5518
+    },
+    "JessYanCoding/MVPArms": {
+      "2026-11-11": 10222
     },
     "JetBrains/benjamin-plus-skill": {
       "2026-08-31": 297
@@ -3612,6 +3742,9 @@
       "2026-09-11": 7,
       "2026-09-12": 8
     },
+    "JoinQuant/jqdatasdk": {
+      "2026-11-11": 1434
+    },
     "Jokejoker-designer/QUANTSMART": {
       "2026-11-01": 2,
       "2026-11-02": 20,
@@ -3623,6 +3756,9 @@
       "2026-11-10": 46,
       "2026-11-11": 46
     },
+    "Jon-Becker/prediction-market-analysis": {
+      "2026-11-11": 3938
+    },
     "JuliusBrussee/caveman": {
       "2026-10-30": 116163,
       "2026-10-31": 116371,
@@ -3631,6 +3767,9 @@
       "2026-11-04": 117307,
       "2026-11-05": 117574,
       "2026-11-07": 118046
+    },
+    "JulyIghor/QtBitcoinTrader": {
+      "2026-11-11": 800
     },
     "Jwuthri/SelfJev": {
       "2026-09-29": 39,
@@ -3650,6 +3789,9 @@
       "2026-11-04": 5,
       "2026-11-05": 5,
       "2026-11-07": 5
+    },
+    "Kami958/WhoShitsonMyC": {
+      "2026-11-11": 1133
     },
     "KanishkSaini-007/Corporate-Intelligence-Lab": {
       "2026-10-18": 2,
@@ -3732,6 +3874,9 @@
       "2026-10-22": 3,
       "2026-10-24": 4
     },
+    "KunMoe/kun-touchgal-next": {
+      "2026-11-11": 849
+    },
     "Kurohiko-id/Kitab-Link-Self-Hosted": {
       "2026-09-22": 14,
       "2026-09-23": 16,
@@ -3746,9 +3891,18 @@
       "2026-10-31": 5,
       "2026-11-02": 5
     },
+    "KylinMountain/TradingAgents-AShare": {
+      "2026-11-11": 899
+    },
     "LC248902/claude-code": {
       "2026-08-31": 7,
       "2026-09-01": 6
+    },
+    "LLMQuant/quant-mind": {
+      "2026-11-11": 3131
+    },
+    "LLMQuant/quant-wiki": {
+      "2026-11-11": 4444
     },
     "LYiHub/pub-ai-inputs": {
       "2026-08-31": 16,
@@ -3771,10 +3925,19 @@
       "2026-09-11": 13,
       "2026-09-12": 13
     },
+    "LastAncientOne/Stock_Analysis_For_Quant": {
+      "2026-11-11": 2089
+    },
     "Laurent150/Who-Is-JSON": {
       "2026-09-27": 20,
       "2026-09-28": 23,
       "2026-09-29": 28
+    },
+    "Lee-xeo/Claude-Cage": {
+      "2026-11-11": 2102
+    },
+    "Leo4815162342/dukascopy-node": {
+      "2026-11-11": 963
     },
     "Leon-Laszczak/Yfio": {
       "2026-08-31": 2,
@@ -3871,11 +4034,18 @@
       "2026-11-07": 276,
       "2026-11-08": 277,
       "2026-11-09": 277,
-      "2026-11-10": 277
+      "2026-11-10": 277,
+      "2026-11-11": 277
     },
     "Lucas-Joly-GH/trends-research": {
       "2026-10-18": 84,
       "2026-10-19": 84
+    },
+    "LucindaYa/quant-resources": {
+      "2026-11-11": 484
+    },
+    "LucivHuang/heimdallr-sdk": {
+      "2026-11-11": 686
     },
     "LukePrior/Australian-Open-Banking-Data-Database": {
       "2026-11-09": 196,
@@ -3973,7 +4143,7 @@
       "2026-11-08": 5840,
       "2026-11-09": 5850,
       "2026-11-10": 5860,
-      "2026-11-11": 5864
+      "2026-11-11": 5866
     },
     "MaxHaiCom/VibeGauge": {
       "2026-09-24": 16,
@@ -4011,6 +4181,9 @@
       "2026-10-31": 480,
       "2026-11-01": 484,
       "2026-11-02": 494
+    },
+    "MemeCalculate/moyin-creator": {
+      "2026-11-11": 4837
     },
     "MervinPraison/PraisonAI": {
       "2026-09-16": 9058,
@@ -4064,6 +4237,9 @@
       "2026-09-05": 6,
       "2026-09-06": 6
     },
+    "Miasyster/QuantGPT": {
+      "2026-11-11": 508
+    },
     "Michael017801/Persona-Forge": {
       "2026-10-30": 41,
       "2026-10-31": 139,
@@ -4082,6 +4258,9 @@
       "2026-09-28": 299,
       "2026-09-29": 317,
       "2026-09-30": 331
+    },
+    "Micro-sheep/efinance": {
+      "2026-11-11": 4170
     },
     "MikeCaldera/intel-arc-pro-b70-qwen38-vllm": {
       "2026-09-10": 27,
@@ -4192,6 +4371,9 @@
       "2026-11-02": 136,
       "2026-11-04": 136
     },
+    "Moonofweisheng/wot-design-uni": {
+      "2026-11-11": 2300
+    },
     "Morrowmake/dsv41-flash-cmp170hx-recipe": {
       "2026-11-04": 20,
       "2026-11-07": 23
@@ -4213,6 +4395,9 @@
       "2026-11-01": 66,
       "2026-11-02": 23,
       "2026-11-04": 23
+    },
+    "NVIDIA-AI-Blueprints/portfolio-optimization": {
+      "2026-11-11": 505
     },
     "NVIDIA-Omniverse/ovstage": {
       "2026-10-16": 21,
@@ -4296,6 +4481,9 @@
       "2026-09-11": 216,
       "2026-09-12": 254
     },
+    "NehrenD/algo_trading_and_quant_strategies": {
+      "2026-11-11": 336
+    },
     "NeuralAlchemist-ai/Denoised-Neural-Portfolio-Optimizer": {
       "2026-10-28": 2,
       "2026-10-29": 2,
@@ -4309,6 +4497,9 @@
       "2026-11-08": 2,
       "2026-11-09": 2,
       "2026-11-10": 2
+    },
+    "NewLifeX/NewLife.Redis": {
+      "2026-11-11": 879
     },
     "Nexilume-AI/nexus-cloud": {
       "2026-10-10": 22,
@@ -4383,6 +4574,9 @@
       "2026-10-07": 2,
       "2026-10-08": 2
     },
+    "Nriver/Episode-ReName": {
+      "2026-11-11": 1493
+    },
     "OSINT-Forge-Community/osint-forge-skills": {
       "2026-10-20": 8,
       "2026-10-21": 8,
@@ -4390,6 +4584,9 @@
       "2026-10-25": 8,
       "2026-10-26": 8,
       "2026-10-27": 9
+    },
+    "Ocyss/boss-helper": {
+      "2026-11-11": 2524
     },
     "Oldcircle/geo-sleuth": {
       "2026-09-21": 210,
@@ -4427,6 +4624,9 @@
       "2026-10-16": 5,
       "2026-10-18": 5
     },
+    "Open-Trader/opentrader": {
+      "2026-11-11": 2926
+    },
     "OpenBMB/UltraRAG": {
       "2026-08-31": 5676
     },
@@ -4444,7 +4644,7 @@
       "2026-11-08": 13616,
       "2026-11-09": 13644,
       "2026-11-10": 13675,
-      "2026-11-11": 13687
+      "2026-11-11": 13693
     },
     "OpenByteInc/QuantDinger_Codex_Plugin": {
       "2026-09-12": 2,
@@ -4507,6 +4707,9 @@
       "2026-10-24": 13889,
       "2026-10-25": 13915
     },
+    "OrionStarAI/Orion": {
+      "2026-11-11": 808
+    },
     "OuterDelegateCrimp/pinescript-trading-script": {
       "2026-09-06": 2,
       "2026-09-07": 2,
@@ -4536,6 +4739,18 @@
       "2026-10-19": 68,
       "2026-10-20": 68,
       "2026-10-22": 68
+    },
+    "PacktPublishing/Learn-Algorithmic-Trading": {
+      "2026-11-11": 973
+    },
+    "PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original": {
+      "2026-11-11": 1649
+    },
+    "PacktPublishing/Python-Algorithmic-Trading-Cookbook": {
+      "2026-11-11": 620
+    },
+    "PacktPublishing/Python-for-Algorithmic-Trading-Cookbook": {
+      "2026-11-11": 1256
     },
     "ParnazAli/investment-portfolio-analysis": {
       "2026-09-05": 3,
@@ -4606,7 +4821,14 @@
       "2026-10-22": 2257,
       "2026-10-24": 2259,
       "2026-10-25": 2260,
-      "2026-10-26": 2264
+      "2026-10-26": 2264,
+      "2026-11-11": 2278
+    },
+    "PyPatel/Options-Trading-Strategies-in-Python": {
+      "2026-11-11": 1102
+    },
+    "PyPortfolio/PyPortfolioOpt": {
+      "2026-11-11": 6160
     },
     "PyneSys/pynecore": {
       "2026-10-27": 247,
@@ -4635,6 +4857,18 @@
       "2026-09-26": 341,
       "2026-09-27": 347,
       "2026-09-28": 347
+    },
+    "QuantConnect/Lean": {
+      "2026-11-11": 22481
+    },
+    "QuantJourneyOrg/quantjourney-bt": {
+      "2026-11-11": 645
+    },
+    "QuantMLResearch/pyrust-bt": {
+      "2026-11-11": 327
+    },
+    "Quantweb3-com/NexusTrader": {
+      "2026-11-11": 671
     },
     "Quat3rnion/halogen-dashboard": {
       "2026-10-21": 9,
@@ -4720,6 +4954,9 @@
       "2026-11-09": 3,
       "2026-11-10": 3
     },
+    "Rockyzsu/stock": {
+      "2026-11-11": 9023
+    },
     "RodriMora/dgx-spark-grafana-dashboard": {
       "2026-08-31": 38
     },
@@ -4736,6 +4973,9 @@
       "2026-11-07": 3,
       "2026-11-08": 3
     },
+    "RomelTorres/alpha_vantage": {
+      "2026-11-11": 4943
+    },
     "RonanLabsAI/dgx-station-frontier": {
       "2026-10-18": 15,
       "2026-10-19": 15,
@@ -4747,6 +4987,9 @@
       "2026-11-08": 9,
       "2026-11-09": 12,
       "2026-11-10": 488
+    },
+    "RuoJi6/audit-skills": {
+      "2026-11-11": 1043
     },
     "S2zxx0zxx/FinCo-pilot": {
       "2026-09-23": 8,
@@ -4766,6 +5009,18 @@
       "2026-09-30": 59,
       "2026-10-02": 58
     },
+    "SAOS-3624/dsh-see-now": {
+      "2026-11-11": 582
+    },
+    "SEC-API-io/sec-api-node": {
+      "2026-11-11": 314
+    },
+    "SEC-API-io/sec-api-python": {
+      "2026-11-11": 324
+    },
+    "SII-WANGZJ/Polymarket_data": {
+      "2026-11-11": 897
+    },
     "SRN0129/Agenttrust": {
       "2026-10-26": 12,
       "2026-10-27": 18,
@@ -4781,6 +5036,9 @@
       "2026-10-30": 6,
       "2026-10-31": 6,
       "2026-11-01": 6
+    },
+    "SUFE-AIFLM-Lab/Fin-R1": {
+      "2026-11-11": 824
     },
     "SXC214/gee-deepseek-assistant": {
       "2026-08-31": 20,
@@ -4835,12 +5093,21 @@
       "2026-09-20": 11,
       "2026-09-21": 11
     },
+    "ScottZt/jin-ce-zhi-suan": {
+      "2026-11-11": 1473
+    },
+    "ScottfreeLLC/AlphaPy": {
+      "2026-11-11": 1784
+    },
     "Sebastianmaxter/ai-profit-sniper-strategy": {
       "2026-09-01": 72,
       "2026-09-02": 81,
       "2026-09-03": 85,
       "2026-09-04": 93,
       "2026-09-05": 93
+    },
+    "SecNN/AiScan-N": {
+      "2026-11-11": 652
     },
     "Selim09hub/QuantMaster-V17-HFT-Core": {
       "2026-09-11": 2,
@@ -4987,6 +5254,9 @@
     "Singularity-Compute/super-decider": {
       "2026-10-27": 19
     },
+    "SleepingBag945/dddd": {
+      "2026-11-11": 1950
+    },
     "Spielewoy/autoprompt-skill": {
       "2026-08-31": 941
     },
@@ -5029,6 +5299,9 @@
       "2026-11-10": 60,
       "2026-11-11": 55
     },
+    "SwingFrog/Summer": {
+      "2026-11-11": 566
+    },
     "System64fumo/kappai": {
       "2026-08-31": 5
     },
@@ -5041,6 +5314,9 @@
     },
     "TINGLISE/auto-trading-bot-pumpfun-solana-V2": {
       "2026-10-07": 35
+    },
+    "TNT-Likely/PanWatch": {
+      "2026-11-11": 2445
     },
     "TakoData/tako-mcp": {
       "2026-10-25": 6,
@@ -5056,6 +5332,15 @@
       "2026-08-31": 8,
       "2026-09-01": 8,
       "2026-09-02": 8
+    },
+    "TauricResearch/Trading-R1": {
+      "2026-11-11": 639
+    },
+    "TauricResearch/TradingAgents": {
+      "2026-11-11": 121964
+    },
+    "TencentBlueKing/bk-job": {
+      "2026-11-11": 875
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "2026-10-26": 29935,
@@ -5097,7 +5382,8 @@
       "2026-10-19": 894,
       "2026-10-20": 894,
       "2026-10-21": 894,
-      "2026-10-22": 894
+      "2026-10-22": 894,
+      "2026-11-11": 896
     },
     "The-Knowledge-Graph-Guys/vault-ld": {
       "2026-10-31": 243,
@@ -5110,6 +5396,9 @@
       "2026-11-09": 246,
       "2026-11-10": 246,
       "2026-11-11": 246
+    },
+    "The-Swarm-Corporation/AutoHedge": {
+      "2026-11-11": 6676
     },
     "The-Vibe-Company/Quivr": {
       "2026-09-01": 39437
@@ -5144,6 +5433,9 @@
       "2026-10-08": 8,
       "2026-10-09": 8
     },
+    "TheFourGreatErrors/alpha-rptr": {
+      "2026-11-11": 711
+    },
     "ThinkFlowLab/system1-omni": {
       "2026-10-08": 27
     },
@@ -5165,7 +5457,10 @@
       "2026-11-08": 917,
       "2026-11-09": 919,
       "2026-11-10": 922,
-      "2026-11-11": 922
+      "2026-11-11": 921
+    },
+    "Timeverse/My-TW-Coverage": {
+      "2026-11-11": 569
     },
     "TommyLemon/APIAuto": {
       "2026-09-06": 2218
@@ -5184,6 +5479,9 @@
       "2026-11-09": 12775,
       "2026-11-10": 12798
     },
+    "TradeMaster-NTU/TradeMaster": {
+      "2026-11-11": 3126
+    },
     "TraderAlice/OpenAlice": {
       "2026-10-27": 7378,
       "2026-10-28": 7384,
@@ -5200,6 +5498,9 @@
       "2026-11-10": 7442,
       "2026-11-11": 7442
     },
+    "TreborNamor/TradingView-Machine-Learning-GUI": {
+      "2026-11-11": 1021
+    },
     "TrustifAI/typed_evals": {
       "2026-09-22": 6,
       "2026-09-23": 7,
@@ -5213,6 +5514,9 @@
       "2026-10-02": 14,
       "2026-10-03": 14,
       "2026-10-04": 14
+    },
+    "UFund-Me/Qbot": {
+      "2026-11-11": 18799
     },
     "Unitygnome94594/Orderflow-Claude-skill-resocket": {
       "2026-10-30": 32,
@@ -5232,6 +5536,12 @@
       "2026-10-10": 15,
       "2026-10-11": 15
     },
+    "VMsec/ihoneyBakFileScan_Modify": {
+      "2026-11-11": 526
+    },
+    "ValueCell-ai/valuecell": {
+      "2026-11-11": 11054
+    },
     "VanGong1999/FDE": {
       "2026-09-30": 17,
       "2026-10-02": 36,
@@ -5239,6 +5549,9 @@
       "2026-10-04": 131,
       "2026-10-05": 136,
       "2026-10-06": 140
+    },
+    "VarunS2002/Python-NSE-Option-Chain-Analyzer": {
+      "2026-11-11": 673
     },
     "VeKiner/akshare-stock-data-fetcher": {
       "2026-10-26": 121,
@@ -5350,6 +5663,9 @@
       "2026-11-09": 8,
       "2026-11-10": 8
     },
+    "WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction": {
+      "2026-11-11": 883
+    },
     "Wcrane-hhy/FinResearch-Agent": {
       "2026-09-09": 2,
       "2026-09-10": 2,
@@ -5362,10 +5678,19 @@
       "2026-09-20": 2,
       "2026-09-21": 2
     },
+    "WeBankFinTech/WeDataSphere": {
+      "2026-11-11": 682
+    },
+    "WeThinkIn/AIGC-Interview-Book": {
+      "2026-11-11": 5211
+    },
     "WeaveHelperCrucible/Quant-Trading-Bot": {
       "2026-10-31": 100,
       "2026-11-01": 100,
       "2026-11-02": 100
+    },
+    "WeiYe-Jing/datax-web": {
+      "2026-11-11": 6026
     },
     "WellApp-ai/Well": {
       "2026-10-27": 346,
@@ -5536,10 +5861,16 @@
       "2026-09-01": 2,
       "2026-09-02": 2
     },
+    "YichengYang-Ethan/oracle3-prediction-market-agent": {
+      "2026-11-11": 568
+    },
     "Yinsongxu/LLM2Jev": {
       "2026-09-21": 99,
       "2026-09-22": 125,
       "2026-09-23": 149
+    },
+    "Yohann0617/oci-helper": {
+      "2026-11-11": 823
     },
     "YorEthereallab4497-alt/grand-tour-rpocket": {
       "2026-10-30": 32,
@@ -5547,6 +5878,9 @@
       "2026-11-01": 68,
       "2026-11-02": 25,
       "2026-11-04": 25
+    },
+    "YoungCan-Wang/WyckoffTradingAgent": {
+      "2026-11-11": 773
     },
     "Yu-ChangCheng/manufacturing-forecasting-framework": {
       "2026-10-09": 73,
@@ -5559,6 +5893,9 @@
       "2026-10-19": 73,
       "2026-10-20": 73,
       "2026-10-21": 73
+    },
+    "Yvictor/TradingGym": {
+      "2026-11-11": 1930
     },
     "ZGonce819/XiheAgent": {
       "2026-09-21": 8,
@@ -5578,6 +5915,9 @@
     "ZJU-OmniAI/LLM_in_Work": {
       "2026-09-26": 5
     },
+    "ZeroDeng01/sublinkPro": {
+      "2026-11-11": 1749
+    },
     "ZevFlashthorn/adaq-rpocket-team": {
       "2026-11-08": 42,
       "2026-11-10": 40,
@@ -5590,6 +5930,9 @@
       "2026-11-08": 29,
       "2026-11-09": 29,
       "2026-11-10": 30
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+      "2026-11-11": 69704
     },
     "ZiChuanLan/agent-purge": {
       "2026-10-30": 882,
@@ -5637,6 +5980,12 @@
       "2026-10-09": 21,
       "2026-10-10": 21,
       "2026-10-11": 22
+    },
+    "abc123info/BlueTeamTools": {
+      "2026-11-11": 1896
+    },
+    "achannarasappa/ticker": {
+      "2026-11-11": 6265
     },
     "acryldev/acryl": {
       "2026-09-04": 237,
@@ -5706,6 +6055,9 @@
       "2026-09-23": 325,
       "2026-09-24": 326
     },
+    "agent-next/polymarket-paper-trader": {
+      "2026-11-11": 504
+    },
     "agentblazo/blazo": {
       "2026-10-02": 22,
       "2026-10-03": 41,
@@ -5725,6 +6077,9 @@
       "2026-09-03": 6,
       "2026-09-04": 6
     },
+    "agentpit-io/hunter-community": {
+      "2026-11-11": 609
+    },
     "agiprolabs/claude-trading-skills": {
       "2026-09-02": 333,
       "2026-09-03": 338,
@@ -5737,7 +6092,8 @@
       "2026-09-11": 354,
       "2026-09-12": 356,
       "2026-09-16": 362,
-      "2026-09-17": 364
+      "2026-09-17": 364,
+      "2026-11-11": 522
     },
     "ahanqiliu903/not-enough-markets": {
       "2026-10-09": 2,
@@ -5802,6 +6158,9 @@
     "aidaman01/ma-crossover-trading-bot": {
       "2026-10-05": 4
     },
+    "ailabx/agilab": {
+      "2026-11-11": 971
+    },
     "ailenwu2000/ricow": {
       "2026-09-21": 2,
       "2026-09-22": 2,
@@ -5864,7 +6223,10 @@
       "2026-11-08": 2564,
       "2026-11-09": 2572,
       "2026-11-10": 2583,
-      "2026-11-11": 2585
+      "2026-11-11": 2588
+    },
+    "akfamily/akshare": {
+      "2026-11-11": 23292
     },
     "akfamily/aktools": {
       "2026-10-30": 1503,
@@ -5927,6 +6289,9 @@
       "2026-10-31": 1926,
       "2026-11-01": 1954
     },
+    "alibaba/GaiaX": {
+      "2026-11-11": 1284
+    },
     "alibaba/MNN": {
       "2026-10-26": 16278,
       "2026-10-27": 16289,
@@ -5985,6 +6350,12 @@
       "2026-10-20": 119,
       "2026-10-21": 119
     },
+    "alirezarezvani/claude-skills": {
+      "2026-11-11": 29625
+    },
+    "alleyway/add-tradingview-alerts-tool": {
+      "2026-11-11": 723
+    },
     "alleyxd/SecondThought": {
       "2026-10-27": 20,
       "2026-10-28": 20,
@@ -6008,6 +6379,15 @@
       "2026-10-20": 61,
       "2026-10-21": 61,
       "2026-10-22": 61
+    },
+    "alpacahq/alpaca-backtrader-api": {
+      "2026-11-11": 705
+    },
+    "alpacahq/alpaca-mcp-server": {
+      "2026-11-11": 1075
+    },
+    "alpacahq/alpaca-py": {
+      "2026-11-11": 1592
     },
     "alphanume-markets/Alphanume-Strategy-Lab": {
       "2026-10-09": 65,
@@ -6229,6 +6609,9 @@
     },
     "altunyurt/kushkash": {
       "2026-10-30": 6
+    },
+    "alvarobartt/investpy": {
+      "2026-11-11": 1867
     },
     "amirhosssein0/ai-platform-lab": {
       "2026-09-02": 5
@@ -6467,6 +6850,9 @@
       "2026-10-15": 20,
       "2026-10-16": 46
     },
+    "appspa/app-space": {
+      "2026-11-11": 1276
+    },
     "apvcode/Termux-Dev": {
       "2026-08-31": 16,
       "2026-09-01": 17,
@@ -6495,6 +6881,9 @@
     },
     "arthurlin1979/no-pit-qwen38": {
       "2026-10-28": 28
+    },
+    "asavinov/intelligent-trading-bot": {
+      "2026-11-11": 1897
     },
     "asf0/libstrix": {
       "2026-11-08": 21,
@@ -6546,7 +6935,13 @@
       "2026-11-08": 5233,
       "2026-11-09": 5243,
       "2026-11-10": 5261,
-      "2026-11-11": 5263
+      "2026-11-11": 5264
+    },
+    "attack68/rateslib": {
+      "2026-11-11": 372
+    },
+    "austin-starks/NextTrade": {
+      "2026-11-11": 1775
     },
     "automazeio/vibeproxy": {
       "2026-10-26": 3397,
@@ -6567,7 +6962,8 @@
       "2026-10-14": 1822,
       "2026-10-15": 1824,
       "2026-10-16": 1825,
-      "2026-10-18": 1823
+      "2026-10-18": 1823,
+      "2026-11-11": 1842
     },
     "avibecoder42/ZotLLM": {
       "2026-10-24": 13,
@@ -6648,12 +7044,21 @@
       "2026-11-09": 40,
       "2026-11-10": 40
     },
+    "banbox/banbot": {
+      "2026-11-11": 688
+    },
     "bangtutorial/bang-motion": {
       "2026-09-12": 148,
       "2026-09-16": 336,
       "2026-09-17": 370,
       "2026-09-18": 380,
       "2026-09-19": 391
+    },
+    "bbfamily/abu": {
+      "2026-11-11": 19164
+    },
+    "bcefghj/learn-nanobot": {
+      "2026-11-11": 896
     },
     "be0hhh/blazing-market": {
       "2026-10-30": 6
@@ -6668,6 +7073,9 @@
       "2026-09-09": 7,
       "2026-09-10": 7,
       "2026-09-11": 7
+    },
+    "beizhu-1209/AIHelms": {
+      "2026-11-11": 1034
     },
     "bemlerlabs/qwen3.8-flash-next-dgx-spark-sglang": {
       "2026-09-02": 8,
@@ -6723,6 +7131,12 @@
       "2026-09-18": 2,
       "2026-09-19": 2
     },
+    "berndruecker/flowing-retail": {
+      "2026-11-11": 1332
+    },
+    "bi-box/Median": {
+      "2026-11-11": 653
+    },
     "bigcan/sharpen": {
       "2026-09-19": 2,
       "2026-09-20": 3,
@@ -6738,6 +7152,15 @@
       "2026-09-30": 4,
       "2026-10-02": 4
     },
+    "billpwchan/futu_algo": {
+      "2026-11-11": 624
+    },
+    "binance/binance-connector-java": {
+      "2026-11-11": 583
+    },
+    "binance/binance-connector-js": {
+      "2026-11-11": 755
+    },
     "binance/binance-connector-python": {
       "2026-09-20": 2932,
       "2026-09-21": 2934,
@@ -6748,7 +7171,14 @@
       "2026-09-26": 2938,
       "2026-09-27": 2941,
       "2026-09-28": 2941,
-      "2026-09-29": 2943
+      "2026-09-29": 2943,
+      "2026-11-11": 2961
+    },
+    "binance/binance-futures-connector-python": {
+      "2026-11-11": 1239
+    },
+    "bitcoinvsalts/node-binance-trader": {
+      "2026-11-11": 1224
     },
     "bkvargyas/dual-r9700-vllm-proxmox": {
       "2026-08-31": 7,
@@ -6801,6 +7231,9 @@
       "2026-11-08": 638,
       "2026-11-09": 639
     },
+    "blankly-finance/blankly": {
+      "2026-11-11": 2487
+    },
     "blockbrain-ai/cygnet-recipe": {
       "2026-10-06": 30,
       "2026-10-07": 31,
@@ -6823,6 +7256,12 @@
       "2026-09-23": 9,
       "2026-09-24": 9
     },
+    "bmoscon/cryptofeed": {
+      "2026-11-11": 3020
+    },
+    "bojieli/ai-infra-book": {
+      "2026-11-11": 7482
+    },
     "boshu2/agentops": {
       "2026-09-10": 434,
       "2026-09-11": 434,
@@ -6838,6 +7277,9 @@
       "2026-09-24": 445,
       "2026-09-25": 445
     },
+    "boyboi86/AFML": {
+      "2026-11-11": 883
+    },
     "brackenjoe/agent-infrastructure": {
       "2026-10-25": 5,
       "2026-10-26": 5,
@@ -6850,6 +7292,9 @@
       "2026-09-16": 5,
       "2026-09-17": 5,
       "2026-09-18": 5
+    },
+    "bsolomon1124/pyfinance": {
+      "2026-11-11": 337
     },
     "btschwertfeger/python-kraken-sdk": {
       "2026-10-19": 86,
@@ -6884,8 +7329,14 @@
       "2026-11-10": 920,
       "2026-11-11": 920
     },
+    "bwjoke/BTC-Trading-Since-2020": {
+      "2026-11-11": 1225
+    },
     "byte-od/mixture-of-scars": {
       "2026-11-10": 5
+    },
+    "c9s/bbgo": {
+      "2026-11-11": 1676
     },
     "cactus-compute/cactus": {
       "2026-09-25": 6058,
@@ -6953,6 +7404,12 @@
       "2026-09-23": 20,
       "2026-09-24": 21
     },
+    "cassandre-tech/cassandre-trading-bot": {
+      "2026-11-11": 663
+    },
+    "casual-silva/NewsCrawl": {
+      "2026-11-11": 690
+    },
     "cbecks1212/flexreport-python-client": {
       "2026-10-02": 2,
       "2026-10-03": 2,
@@ -6977,6 +7434,12 @@
       "2026-09-10": 1343,
       "2026-09-11": 1355
     },
+    "ccxt/binance-trade-bot": {
+      "2026-11-11": 8819
+    },
+    "ccxt/node-binance-api": {
+      "2026-11-11": 1673
+    },
     "cellinlab/cyber-hengdian": {
       "2026-10-18": 7,
       "2026-10-19": 7,
@@ -6999,7 +7462,8 @@
       "2026-10-28": 249,
       "2026-11-02": 249,
       "2026-11-04": 247,
-      "2026-11-05": 247
+      "2026-11-05": 247,
+      "2026-11-11": 247
     },
     "cfdude/mcp-finnhub": {
       "2026-11-02": 10
@@ -7016,6 +7480,9 @@
       "2026-09-19": 140,
       "2026-09-20": 142
     },
+    "chaitin/PandaWiki": {
+      "2026-11-11": 10496
+    },
     "changdaeoh/sharpening-tax": {
       "2026-10-03": 21,
       "2026-10-04": 22,
@@ -7027,6 +7494,9 @@
       "2026-10-10": 25,
       "2026-10-11": 25,
       "2026-10-14": 26
+    },
+    "chen-zeong/DTV": {
+      "2026-11-11": 2044
     },
     "chenhg5/cc-connect": {
       "2026-10-26": 16089,
@@ -7121,6 +7591,9 @@
       "2026-11-10": 482,
       "2026-11-11": 482
     },
+    "claw-codes/wx4py": {
+      "2026-11-11": 803
+    },
     "clawyi-com/china-market-data": {
       "2026-09-29": 7,
       "2026-09-30": 17,
@@ -7165,6 +7638,15 @@
       "2026-11-04": 5452,
       "2026-11-05": 5455
     },
+    "cm45t3r/candlestick": {
+      "2026-11-11": 543
+    },
+    "cmliu/WorkerVless2sub": {
+      "2026-11-11": 6317
+    },
+    "cn-vhql/FactorHub": {
+      "2026-11-11": 435
+    },
     "coconinja2/layerlens": {
       "2026-09-16": 5,
       "2026-09-17": 6,
@@ -7204,6 +7686,9 @@
       "2026-10-20": 10,
       "2026-10-21": 10
     },
+    "codercup/unibest": {
+      "2026-11-11": 2864
+    },
     "coding-kitties/investing-algorithm-framework": {
       "2026-10-27": 2195,
       "2026-10-28": 2196,
@@ -7240,6 +7725,9 @@
       "2026-09-30": 456,
       "2026-10-02": 498
     },
+    "conor19w/Binance-Futures-Trading-Bot": {
+      "2026-11-11": 664
+    },
     "containers/ramalama": {
       "2026-10-14": 3085,
       "2026-10-15": 3087,
@@ -7249,6 +7737,9 @@
       "2026-10-20": 3086,
       "2026-10-21": 3086,
       "2026-10-22": 3087
+    },
+    "continew-org/continew-admin": {
+      "2026-11-11": 2163
     },
     "cosscom/shipyard": {
       "2026-10-08": 272,
@@ -7303,6 +7794,9 @@
     "crit-labs/crit": {
       "2026-10-20": 13
     },
+    "cryptocj520/crypto-trading-open": {
+      "2026-11-11": 1695
+    },
     "csmar432/finai-research": {
       "2026-10-27": 108,
       "2026-10-28": 108,
@@ -7322,11 +7816,20 @@
     "ctoldigital/axuse": {
       "2026-10-25": 494
     },
+    "ctubio/Krypto-trading-bot": {
+      "2026-11-11": 3735
+    },
+    "cuemacro/finmarketpy": {
+      "2026-11-11": 3825
+    },
     "cutetailbud/ff-ruyijs": {
       "2026-11-07": 862,
       "2026-11-08": 893,
       "2026-11-09": 1088,
       "2026-11-10": 1201
+    },
+    "cvxgrp/cvxportfolio": {
+      "2026-11-11": 1321
     },
     "cybergeekgyan/Quant-Developers-Resources": {
       "2026-09-19": 3942,
@@ -7342,7 +7845,8 @@
       "2026-09-29": 3999,
       "2026-09-30": 4003,
       "2026-10-02": 4018,
-      "2026-10-03": 4021
+      "2026-10-03": 4021,
+      "2026-11-11": 4140
     },
     "damobianyuan0325/factor-forge-public": {
       "2026-09-23": 8,
@@ -7390,6 +7894,9 @@
       "2026-11-09": 288,
       "2026-11-10": 288
     },
+    "daniulive/SmarterStreaming": {
+      "2026-11-11": 11172
+    },
     "daoyi2026/vibe-coding-zero-to-ship": {
       "2026-10-10": 21,
       "2026-10-11": 22,
@@ -7435,6 +7942,9 @@
       "2026-11-02": 20286,
       "2026-11-04": 20329,
       "2026-11-05": 20349
+    },
+    "datawhalechina/whale-quant": {
+      "2026-11-11": 2933
     },
     "datawhalechina/zero-to-sglang": {
       "2026-11-05": 1707,
@@ -7486,6 +7996,9 @@
       "2026-10-28": 5,
       "2026-10-29": 5
     },
+    "dcajasn/Riskfolio-Lib": {
+      "2026-11-11": 4602
+    },
     "ddkellar01/AI-Muse-Trading-Advanced-Elite-Agent": {
       "2026-10-26": 3,
       "2026-10-27": 3,
@@ -7506,7 +8019,8 @@
       "2026-09-23": 255,
       "2026-09-24": 255,
       "2026-09-25": 255,
-      "2026-09-26": 255
+      "2026-09-26": 255,
+      "2026-11-11": 259
     },
     "deepset-ai/haystack": {
       "2026-10-26": 26843,
@@ -7547,6 +8061,9 @@
       "2026-09-05": 33,
       "2026-09-06": 34
     },
+    "discountry/ritmex-bot": {
+      "2026-11-11": 565
+    },
     "disler/ten-levels-of-jev": {
       "2026-10-05": 180,
       "2026-10-06": 193,
@@ -7578,6 +8095,9 @@
       "2026-11-01": 698,
       "2026-11-02": 700
     },
+    "donknap/dpanel": {
+      "2026-11-11": 4168
+    },
     "dorightyang/tushare-openclaw-skill": {
       "2026-10-14": 17,
       "2026-10-15": 17,
@@ -7589,6 +8109,9 @@
       "2026-10-22": 17,
       "2026-10-24": 17,
       "2026-10-25": 17
+    },
+    "dou-jiang/codex-console": {
+      "2026-11-11": 2214
     },
     "dphnAI/sonar": {
       "2026-10-26": 1885,
@@ -7605,6 +8128,18 @@
       "2026-11-08": 1905,
       "2026-11-09": 1906,
       "2026-11-10": 1907
+    },
+    "dragon1086/prism-insight": {
+      "2026-11-11": 807
+    },
+    "dromara/dante-cloud": {
+      "2026-11-11": 969
+    },
+    "dromara/northstar": {
+      "2026-11-11": 598
+    },
+    "dromara/orion-visor": {
+      "2026-11-11": 1325
     },
     "drowzeys/keys-vLLm.0.27.1-GLM-5.3-Flash-NVFP4-NVFP4KV-1M-Context-Abliterated": {
       "2026-09-01": 27,
@@ -7739,6 +8274,9 @@
       "2026-09-11": 3207,
       "2026-09-12": 3213
     },
+    "edmcouncil/fibo": {
+      "2026-11-11": 799
+    },
     "edtechre/pybroker": {
       "2026-10-27": 3662,
       "2026-10-28": 3663,
@@ -7753,7 +8291,7 @@
       "2026-11-08": 3679,
       "2026-11-09": 3680,
       "2026-11-10": 3682,
-      "2026-11-11": 3691
+      "2026-11-11": 3695
     },
     "eduwxyz/tucano": {
       "2026-11-10": 350
@@ -7831,7 +8369,11 @@
       "2026-09-27": 246,
       "2026-09-28": 255,
       "2026-09-29": 263,
-      "2026-09-30": 267
+      "2026-09-30": 267,
+      "2026-11-11": 338
+    },
+    "electkismet/eltdx": {
+      "2026-11-11": 717
     },
     "eliahilse/kyora": {
       "2026-10-06": 8
@@ -7849,6 +8391,9 @@
       "2026-10-29": 422,
       "2026-10-30": 473,
       "2026-10-31": 504
+    },
+    "eliasswu/AlphaPurify": {
+      "2026-11-11": 595
     },
     "elizaOS/eliza": {
       "2026-10-26": 19651,
@@ -7900,7 +8445,7 @@
       "2026-11-08": 2158,
       "2026-11-09": 2158,
       "2026-11-10": 2162,
-      "2026-11-11": 2164
+      "2026-11-11": 2165
     },
     "ernie-research/DCore": {
       "2026-10-31": 22,
@@ -7948,6 +8493,9 @@
     "eticmedya/Vibesecurity": {
       "2026-08-31": 10
     },
+    "evan-kolberg/prediction-market-backtesting": {
+      "2026-11-11": 1267
+    },
     "evelyyyyynnnnn/3.0-Financial-Ai-Systems": {
       "2026-10-18": 284,
       "2026-10-19": 284,
@@ -7962,7 +8510,8 @@
       "2026-10-29": 284,
       "2026-10-30": 284,
       "2026-10-31": 284,
-      "2026-11-01": 284
+      "2026-11-01": 284,
+      "2026-11-11": 284
     },
     "evidentlyai/evidently": {
       "2026-09-30": 7949,
@@ -7980,6 +8529,9 @@
     "evolving-foundry/ember-rsi": {
       "2026-11-10": 20
     },
+    "fabston/TradingView-Webhook-Bot": {
+      "2026-11-11": 1901
+    },
     "facioquo/stock-indicators-dotnet": {
       "2026-10-27": 1249,
       "2026-10-28": 1249,
@@ -7994,11 +8546,14 @@
       "2026-11-08": 1252,
       "2026-11-09": 1252,
       "2026-11-10": 1253,
-      "2026-11-11": 1252
+      "2026-11-11": 1253
     },
     "fadelmuhmmat883/crypto-trading-bot": {
       "2026-09-06": 48,
       "2026-09-07": 48
+    },
+    "fadewalk/serenity-stock-choke": {
+      "2026-11-11": 534
     },
     "farion1231/cc-switch": {
       "2026-10-14": 143930,
@@ -8030,7 +8585,10 @@
       "2026-11-08": 3689,
       "2026-11-09": 3691,
       "2026-11-10": 3705,
-      "2026-11-11": 3709
+      "2026-11-11": 3710
+    },
+    "fbertram/TuringTrader": {
+      "2026-11-11": 538
     },
     "fdiblen/rseng-agent-skills": {
       "2026-09-09": 10,
@@ -8061,6 +8619,9 @@
     },
     "feder-cr/open_scion": {
       "2026-10-16": 767
+    },
+    "feige996/unibest": {
+      "2026-11-11": 2326
     },
     "feitangyuan/onetake": {
       "2026-10-10": 2045
@@ -8112,6 +8673,9 @@
       "2026-11-10": 293,
       "2026-11-11": 293
     },
+    "finvfamily/finshare": {
+      "2026-11-11": 937
+    },
     "fishlikeX/sm70-attn": {
       "2026-09-01": 6
     },
@@ -8121,6 +8685,9 @@
       "2026-09-10": 240,
       "2026-09-11": 240,
       "2026-09-12": 242
+    },
+    "flagify-com/OctoMation": {
+      "2026-11-11": 512
     },
     "flashinfer-ai/flashinfer": {
       "2026-10-26": 6785,
@@ -8137,6 +8704,9 @@
       "2026-11-08": 6874,
       "2026-11-09": 6880,
       "2026-11-10": 6887
+    },
+    "fmzquant/strategies": {
+      "2026-11-11": 6048
     },
     "fourstoats/openfade": {
       "2026-10-06": 2,
@@ -8158,6 +8728,9 @@
       "2026-10-29": 6,
       "2026-10-30": 6
     },
+    "frankiejun/serv00-play": {
+      "2026-11-11": 2117
+    },
     "franzenzenhofer/big-arrow-on-the-screen": {
       "2026-10-10": 503,
       "2026-10-11": 597,
@@ -8169,6 +8742,12 @@
       "2026-10-20": 790,
       "2026-10-21": 795,
       "2026-10-22": 805
+    },
+    "freelawproject/courtlistener": {
+      "2026-11-11": 1067
+    },
+    "freqtrade/freqtrade-strategies": {
+      "2026-11-11": 5645
     },
     "fumingyang2004/Tulpa": {
       "2026-10-07": 189,
@@ -8197,11 +8776,20 @@
       "2026-11-10": 91,
       "2026-11-11": 91
     },
+    "gaboolic/rime-frost": {
+      "2026-11-11": 3824
+    },
     "gabrielolympie/sglang-flashnext-sm120": {
       "2026-09-09": 24,
       "2026-09-10": 27,
       "2026-09-11": 27,
       "2026-09-12": 27
+    },
+    "gadicc/yahoo-finance2": {
+      "2026-11-11": 815
+    },
+    "garagesteve1155/PowerTrader_AI": {
+      "2026-11-11": 820
     },
     "garnermccloud/sglang-ssd-stream": {
       "2026-09-10": 12
@@ -8216,6 +8804,9 @@
       "2026-09-22": 23,
       "2026-09-23": 23,
       "2026-09-24": 23
+    },
+    "gazbert/bxbot": {
+      "2026-11-11": 863
     },
     "gbeced/basana": {
       "2026-10-27": 871,
@@ -8233,6 +8824,9 @@
       "2026-11-10": 879,
       "2026-11-11": 879
     },
+    "geraked/metatrader5": {
+      "2026-11-11": 690
+    },
     "getrefined/Qwen3.8-Flash-Next-NVFP4-vLLM-DGX-Spark": {
       "2026-08-31": 8,
       "2026-09-01": 9,
@@ -8244,6 +8838,9 @@
       "2026-09-07": 11,
       "2026-09-09": 12,
       "2026-09-10": 12
+    },
+    "ginlix-ai/LangAlpha": {
+      "2026-11-11": 2269
     },
     "giodra96/project-wiki": {
       "2026-08-31": 8,
@@ -8320,6 +8917,9 @@
       "2026-10-15": 5,
       "2026-10-16": 5
     },
+    "goldspanlabs/optopsy": {
+      "2026-11-11": 1516
+    },
     "google/agents-cli": {
       "2026-10-26": 6176,
       "2026-10-27": 6184,
@@ -8359,6 +8959,9 @@
     },
     "groundingpi/GroundAnything": {
       "2026-10-14": 38
+    },
+    "guchengwuyue/yshop-oa-crm": {
+      "2026-11-11": 1879
     },
     "gunjanmimo/tradeflow": {
       "2026-09-30": 2,
@@ -8416,6 +9019,12 @@
       "2026-10-25": 8,
       "2026-10-26": 8,
       "2026-10-27": 8
+    },
+    "hananedupouy/LLMs-in-Finance": {
+      "2026-11-11": 896
+    },
+    "hanliang97/MatrixMedia": {
+      "2026-11-11": 1266
     },
     "hanxiao/DeepSeek-V4.1-Flash-1017-FP8-abliterated-4x-RTX-PRO-6000": {
       "2026-10-27": 25,
@@ -8490,6 +9099,12 @@
       "2026-09-20": 2,
       "2026-09-21": 2
     },
+    "hello245m/free-stockdb": {
+      "2026-11-11": 3160
+    },
+    "henrylin99/quantitative_analysis": {
+      "2026-11-11": 638
+    },
     "hermeshai/hermesh": {
       "2026-11-01": 12,
       "2026-11-02": 15,
@@ -8562,6 +9177,9 @@
       "2026-09-09": 632,
       "2026-09-10": 633
     },
+    "hmhm2022/Card-Tab": {
+      "2026-11-11": 536
+    },
     "hongfaqiu/strata-manager": {
       "2026-10-14": 6,
       "2026-10-15": 8,
@@ -8588,6 +9206,9 @@
       "2026-11-09": 2999,
       "2026-11-10": 2999,
       "2026-11-11": 2999
+    },
+    "hotyue/IP-Sentinel": {
+      "2026-11-11": 2034
     },
     "howardc38/motion-fx-lab": {
       "2026-09-30": 7,
@@ -8617,6 +9238,18 @@
       "2026-09-12": 41,
       "2026-09-16": 41,
       "2026-09-17": 41
+    },
+    "huanyuejue/Fluent-Steam-Lua": {
+      "2026-11-11": 844
+    },
+    "hugo2046/QuantsPlaybook": {
+      "2026-11-11": 6873
+    },
+    "hustcer/star": {
+      "2026-11-11": 1058
+    },
+    "hydrosquall/tiingo-python": {
+      "2026-11-11": 321
     },
     "hyetigran/legacy-skills": {
       "2026-09-03": 7,
@@ -8666,6 +9299,9 @@
       "2026-11-09": 34141,
       "2026-11-10": 34181
     },
+    "iTXTech/mirai-console-loader": {
+      "2026-11-11": 738
+    },
     "iamneilroberts/shadetree-ai": {
       "2026-10-09": 6,
       "2026-10-10": 6,
@@ -8675,6 +9311,12 @@
     "iawais-10/kalshi-trading-bot": {
       "2026-09-24": 2,
       "2026-09-25": 2
+    },
+    "ib-api-reloaded/ib_async": {
+      "2026-11-11": 1789
+    },
+    "ibaihuo/chanvis": {
+      "2026-11-11": 630
     },
     "ickma2311/FinRunbook": {
       "2026-09-05": 4,
@@ -8696,6 +9338,12 @@
       "2026-10-24": 10,
       "2026-10-25": 10,
       "2026-10-26": 11
+    },
+    "idanya/algo-trader": {
+      "2026-11-11": 872
+    },
+    "ijry/lyadmin": {
+      "2026-11-11": 1059
     },
     "ikarisz/PickleChart": {
       "2026-09-24": 11,
@@ -8763,7 +9411,8 @@
       "2026-10-31": 1695,
       "2026-11-01": 1697,
       "2026-11-02": 1698,
-      "2026-11-04": 1700
+      "2026-11-04": 1700,
+      "2026-11-11": 1700
     },
     "intel/gpu-ai-skills": {
       "2026-08-31": 16,
@@ -8771,6 +9420,12 @@
       "2026-09-02": 18,
       "2026-09-03": 20,
       "2026-09-04": 20
+    },
+    "isaiahbjork/Auto-GPT-MetaTrader-Plugin": {
+      "2026-11-11": 567
+    },
+    "isboyjc/GoProxy": {
+      "2026-11-11": 531
     },
     "ismailperim/prompilot": {
       "2026-09-21": 5,
@@ -8801,7 +9456,8 @@
       "2026-09-26": 3433,
       "2026-09-27": 3436,
       "2026-09-28": 3437,
-      "2026-09-29": 3441
+      "2026-09-29": 3441,
+      "2026-11-11": 3527
     },
     "itriones/AI-Quant-Framework": {
       "2026-09-02": 10,
@@ -8820,6 +9476,9 @@
       "2026-10-09": 52,
       "2026-10-10": 52,
       "2026-10-11": 52
+    },
+    "ivopetiz/algotrading": {
+      "2026-11-11": 1717
     },
     "ivyfan-toowell/IvyClaw": {
       "2026-09-16": 59,
@@ -8866,6 +9525,12 @@
       "2026-10-21": 89,
       "2026-10-22": 94
     },
+    "jackyideal/AlphaTeam": {
+      "2026-11-11": 413
+    },
+    "jadepeng/pytrader": {
+      "2026-11-11": 502
+    },
     "jaedync/crucible-strix-halo": {
       "2026-10-24": 6,
       "2026-10-25": 7,
@@ -8907,6 +9572,9 @@
       "2026-09-07": 22,
       "2026-09-09": 22,
       "2026-09-10": 22
+    },
+    "jankrepl/deepdow": {
+      "2026-11-11": 1200
     },
     "janushendersonassetallocation/loman": {
       "2026-11-11": 124
@@ -8970,6 +9638,9 @@
       "2026-09-09": 5,
       "2026-09-10": 5
     },
+    "jd-opensource/drip-table": {
+      "2026-11-11": 1659
+    },
     "jdj40211/vibe-check-security": {
       "2026-08-31": 7,
       "2026-09-01": 7,
@@ -8993,7 +9664,7 @@
       "2026-11-08": 8782,
       "2026-11-09": 8787,
       "2026-11-10": 8792,
-      "2026-11-11": 8795
+      "2026-11-11": 8794
     },
     "jhisse/spoor": {
       "2026-10-14": 5,
@@ -9005,6 +9676,21 @@
     "jiangmuran/vibepanel": {
       "2026-09-09": 6,
       "2026-09-10": 6
+    },
+    "jianweiweng05/qsx-strategy-score": {
+      "2026-11-11": 928
+    },
+    "jianzhnie/LLamaTuner": {
+      "2026-11-11": 623
+    },
+    "jiawanlong/Cesium-Examples": {
+      "2026-11-11": 2230
+    },
+    "jinbooooom/ai-infra-hpc": {
+      "2026-11-11": 789
+    },
+    "jiyuanwang-afk/Explainable-AI-in-Financial-Fraud-and-Anomaly-Detection": {
+      "2026-11-11": 788
     },
     "jkdansereau/goldeneye-pc-port": {
       "2026-09-05": 5,
@@ -9034,6 +9720,9 @@
       "2026-11-08": 388,
       "2026-11-09": 401,
       "2026-11-10": 406
+    },
+    "jmfernandes/robin_stocks": {
+      "2026-11-11": 2127
     },
     "jnardiello/GLM-5.3-Flash-FP8-4-DGX-Spark-Switchless": {
       "2026-09-12": 5,
@@ -9095,6 +9784,15 @@
       "2026-11-09": 19,
       "2026-11-10": 20
     },
+    "jones2000/HQChart": {
+      "2026-11-11": 3428
+    },
+    "josephchenhk/qtrader": {
+      "2026-11-11": 550
+    },
+    "joshyattridge/smart-money-concepts": {
+      "2026-11-11": 2209
+    },
     "jpezzulli/sglang-rtxpro6000": {
       "2026-08-31": 34,
       "2026-09-01": 36,
@@ -9104,6 +9802,15 @@
       "2026-09-05": 46,
       "2026-09-06": 50,
       "2026-09-07": 55
+    },
+    "jrmeier/fast-trade": {
+      "2026-11-11": 604
+    },
+    "jshachm/pi-rs": {
+      "2026-11-11": 541
+    },
+    "jugaad-py/jugaad-data": {
+      "2026-11-11": 594
     },
     "juliankang4/spark-scope": {
       "2026-10-02": 12,
@@ -9118,6 +9825,9 @@
       "2026-10-11": 52,
       "2026-10-14": 71,
       "2026-10-15": 71
+    },
+    "jundizhou/easy-stock": {
+      "2026-11-11": 1820
     },
     "justkyriecai/nanovllm2deepinfer": {
       "2026-11-02": 22,
@@ -9138,6 +9848,9 @@
       "2026-10-29": 158,
       "2026-10-30": 163,
       "2026-10-31": 166
+    },
+    "jwangkun/claude-for-financial-services-cn": {
+      "2026-11-11": 889
     },
     "jyyang26/Terminal-RSI": {
       "2026-10-22": 12,
@@ -9226,8 +9939,14 @@
       "2026-09-03": 6,
       "2026-09-04": 6
     },
+    "kelvinau/crypto-arbitrage": {
+      "2026-11-11": 851
+    },
     "kerim0x1/bettercode": {
       "2026-10-04": 252
+    },
+    "kernc/backtesting.py": {
+      "2026-11-11": 9225
     },
     "kerpopule/hermes-jev-skills": {
       "2026-09-21": 297,
@@ -9260,6 +9979,9 @@
       "2026-09-10": 2,
       "2026-09-11": 2,
       "2026-09-12": 2
+    },
+    "khscience/OSkhQuant": {
+      "2026-11-11": 1638
     },
     "kiesxoxo/burnout-crash-recomp": {
       "2026-10-19": 16,
@@ -9294,6 +10016,12 @@
       "2026-10-15": 8,
       "2026-10-16": 8
     },
+    "kingschan1204/istock": {
+      "2026-11-11": 843
+    },
+    "kingston-csj/jforgame": {
+      "2026-11-11": 1102
+    },
     "kiukfungeon/mdr": {
       "2026-11-01": 24,
       "2026-11-02": 25
@@ -9302,6 +10030,9 @@
       "2026-09-10": 10,
       "2026-09-11": 11,
       "2026-09-12": 11
+    },
+    "kkyon/botflow": {
+      "2026-11-11": 1194
     },
     "klonnist/crypto-paper-bot": {
       "2026-09-28": 3,
@@ -9410,7 +10141,8 @@
       "2026-09-20": 312,
       "2026-09-21": 312,
       "2026-09-22": 312,
-      "2026-09-23": 314
+      "2026-09-23": 314,
+      "2026-11-11": 316
     },
     "kunpengtalk/OmniStudio": {
       "2026-09-10": 17,
@@ -9535,6 +10267,9 @@
       "2026-11-09": 49,
       "2026-11-10": 49
     },
+    "lefterisloukas/edgar-crawler": {
+      "2026-11-11": 555
+    },
     "lemomo-ai/lemo-opuscar": {
       "2026-09-28": 410,
       "2026-09-29": 551,
@@ -9558,6 +10293,18 @@
       "2026-11-09": 6156,
       "2026-11-10": 6165
     },
+    "letianzj/quanttrader": {
+      "2026-11-11": 787
+    },
+    "liangdabiao/easy_investment_Agent_crewai": {
+      "2026-11-11": 676
+    },
+    "liangdabiao/ecom-details-image": {
+      "2026-11-11": 1648
+    },
+    "liangdabiao/make-prompt-seedance2": {
+      "2026-11-11": 759
+    },
     "lightseekorg/tokenspeed": {
       "2026-10-26": 2784,
       "2026-10-27": 2808,
@@ -9574,6 +10321,15 @@
       "2026-11-09": 2895,
       "2026-11-10": 2908
     },
+    "lihaoyun6/QuickRecorder": {
+      "2026-11-11": 8787
+    },
+    "lijiahangmax/orion-ops": {
+      "2026-11-11": 522
+    },
+    "likaia/nginxpulse": {
+      "2026-11-11": 2716
+    },
     "limitedmovie/DeepSeek-Desktop---DeepSeek-AI-Assistant-2026": {
       "2026-08-31": 10,
       "2026-09-01": 8,
@@ -9584,6 +10340,9 @@
       "2026-09-06": 8,
       "2026-09-07": 8,
       "2026-09-09": 8
+    },
+    "ling-0729/KHunter": {
+      "2026-11-11": 738
     },
     "linqiu919/better-context-engine": {
       "2026-09-11": 9,
@@ -9611,6 +10370,12 @@
       "2026-09-22": 33,
       "2026-09-23": 33
     },
+    "liudf0716/xfrpc": {
+      "2026-11-11": 844
+    },
+    "liuhuanyong/ChainKnowledgeGraph": {
+      "2026-11-11": 779
+    },
     "liyupi/ai-guide": {
       "2026-10-22": 21487,
       "2026-10-24": 21546,
@@ -9634,6 +10399,9 @@
       "2026-10-20": 336,
       "2026-10-21": 347,
       "2026-10-22": 356
+    },
+    "liyupi/yu-ai-agent": {
+      "2026-11-11": 2771
     },
     "llmware-ai/llmware": {
       "2026-10-02": 14825,
@@ -9687,7 +10455,7 @@
       "2026-11-08": 341,
       "2026-11-09": 351,
       "2026-11-10": 355,
-      "2026-11-11": 358
+      "2026-11-11": 359
     },
     "loopai-hq/pulsar": {
       "2026-10-10": 5,
@@ -9839,6 +10607,9 @@
       "2026-11-09": 14,
       "2026-11-10": 22
     },
+    "marcuswang6/stock-top-papers": {
+      "2026-11-11": 501
+    },
     "marketcalls/openalgo-charts": {
       "2026-10-27": 180,
       "2026-10-28": 181,
@@ -9870,6 +10641,9 @@
       "2026-10-02": 11,
       "2026-10-03": 11
     },
+    "mars-tw/anti-gambling-trader-tw": {
+      "2026-11-11": 1178
+    },
     "marticastany/pyeventbt": {
       "2026-10-15": 61,
       "2026-10-16": 61
@@ -9884,6 +10658,9 @@
       "2026-11-08": 29401,
       "2026-11-09": 29423,
       "2026-11-10": 29439
+    },
+    "matplotlib/mplfinance": {
+      "2026-11-11": 4462
     },
     "matthewprice/JobFinderOS": {
       "2026-09-18": 152,
@@ -9905,6 +10682,9 @@
     "maxritter/open-claude-design": {
       "2026-08-31": 6,
       "2026-09-01": 8
+    },
+    "mementum/backtrader": {
+      "2026-11-11": 23715
     },
     "merijjeyn/jive": {
       "2026-10-05": 177
@@ -9931,6 +10711,9 @@
     },
     "mguerrero896/does-option-flow-predict-volatility": {
       "2026-09-09": 2
+    },
+    "mhallsmoore/qstrader": {
+      "2026-11-11": 3488
     },
     "mhchy10/Tavrixa": {
       "2026-11-02": 2,
@@ -9968,6 +10751,9 @@
       "2026-11-09": 61753,
       "2026-11-10": 61769
     },
+    "microsoft/qlib": {
+      "2026-11-11": 50213
+    },
     "milocaetano/quantick": {
       "2026-10-27": 48,
       "2026-10-28": 48,
@@ -9983,6 +10769,9 @@
       "2026-11-09": 51,
       "2026-11-10": 51,
       "2026-11-11": 51
+    },
+    "mingli30119/stock-analysis": {
+      "2026-11-11": 620
     },
     "mingti-org/phyai": {
       "2026-10-26": 137,
@@ -10020,7 +10809,8 @@
       "2026-09-27": 259,
       "2026-09-28": 266,
       "2026-09-29": 272,
-      "2026-09-30": 275
+      "2026-09-30": 275,
+      "2026-11-11": 340
     },
     "missuo/herdrm": {
       "2026-08-31": 641,
@@ -10042,6 +10832,9 @@
       "2026-11-09": 5342,
       "2026-11-10": 5356
     },
+    "mitchspano/trigger-actions-framework": {
+      "2026-11-11": 647
+    },
     "mitkox/esf": {
       "2026-09-21": 72,
       "2026-09-22": 88,
@@ -10050,6 +10843,9 @@
       "2026-09-25": 133,
       "2026-09-26": 153,
       "2026-09-27": 159
+    },
+    "mizhexiaoxiao/vue-fastapi-admin": {
+      "2026-11-11": 2291
     },
     "mlc-ai/web-llm": {
       "2026-10-31": 19337,
@@ -10061,6 +10857,9 @@
       "2026-11-08": 19365,
       "2026-11-09": 19366,
       "2026-11-10": 19365
+    },
+    "mlt131220/Astral3D": {
+      "2026-11-11": 2492
     },
     "mmastrac/djev": {
       "2026-09-22": 14,
@@ -10076,6 +10875,9 @@
       "2026-10-03": 112,
       "2026-10-04": 112,
       "2026-10-05": 113
+    },
+    "mnemox-ai/tradememory-protocol": {
+      "2026-11-11": 1445
     },
     "modal-projects/spindle": {
       "2026-10-10": 5,
@@ -10218,6 +11020,12 @@
       "2026-10-16": 10,
       "2026-10-18": 13
     },
+    "mpquant/Ashare": {
+      "2026-11-11": 3939
+    },
+    "mpquant/MyTT": {
+      "2026-11-11": 2891
+    },
     "mratsim/sglang-qwen38fn-sm120-turbo": {
       "2026-09-07": 14,
       "2026-09-09": 14,
@@ -10260,6 +11068,9 @@
       "2026-10-09": 6,
       "2026-10-10": 6,
       "2026-10-11": 7
+    },
+    "mst272/LLM-Dojo": {
+      "2026-11-11": 939
     },
     "mtrinkner/edge-audit": {
       "2026-10-10": 2,
@@ -10320,6 +11131,9 @@
       "2026-11-04": 9,
       "2026-11-05": 9
     },
+    "myhhub/stock": {
+      "2026-11-11": 15102
+    },
     "nachisama/ai-data-extractor": {
       "2026-10-08": 31,
       "2026-10-09": 128,
@@ -10375,6 +11189,9 @@
       "2026-10-20": 77,
       "2026-10-21": 81,
       "2026-10-22": 81
+    },
+    "neavo/LinguaGacha": {
+      "2026-11-11": 2679
     },
     "nebulaanish/aftersight": {
       "2026-09-02": 7,
@@ -10432,11 +11249,17 @@
       "2026-09-21": 20,
       "2026-09-22": 20
     },
+    "nickmccullum/algorithmic-trading-python": {
+      "2026-11-11": 2915
+    },
     "nieledran/Deribit_Grid_Bot": {
       "2026-10-21": 4,
       "2026-10-22": 4,
       "2026-10-24": 4,
       "2026-10-25": 4
+    },
+    "nkaz001/hftbacktest": {
+      "2026-11-11": 5073
     },
     "nobodywho-ooo/nobodywho": {
       "2026-10-26": 1644,
@@ -10474,6 +11297,9 @@
       "2026-11-08": 2479,
       "2026-11-09": 2485,
       "2026-11-10": 2487
+    },
+    "nooperpudd/ctpwrapper": {
+      "2026-11-11": 620
     },
     "noorxsingh/backtesting-engine": {
       "2026-09-16": 3,
@@ -10518,6 +11344,9 @@
       "2026-11-09": 39,
       "2026-11-10": 39
     },
+    "nuglifeleoji/Options-Analytics-Agent": {
+      "2026-11-11": 647
+    },
     "nykooi1/vibe-wise": {
       "2026-10-06": 1930,
       "2026-10-07": 2739,
@@ -10548,6 +11377,9 @@
       "2026-11-08": 314218,
       "2026-11-09": 314712,
       "2026-11-10": 315316
+    },
+    "oficcejo/aiagents-stock": {
+      "2026-11-11": 2083
     },
     "ohgeebtw/geezuz-qwen3.8-27b-dual-gpu": {
       "2026-10-21": 10,
@@ -10589,6 +11421,9 @@
       "2026-10-04": 670,
       "2026-10-05": 1259
     },
+    "omnuron/omniclaw": {
+      "2026-11-11": 570
+    },
     "openJiuwen-ai/agent-infer": {
       "2026-09-17": 22,
       "2026-09-18": 38,
@@ -10627,6 +11462,9 @@
       "2026-11-08": 30553,
       "2026-11-09": 30568,
       "2026-11-10": 30593
+    },
+    "openbq-org/OpenBB": {
+      "2026-11-11": 75326
     },
     "openlake-project/openlake": {
       "2026-10-26": 2637,
@@ -10758,6 +11596,12 @@
       "2026-09-06": 5,
       "2026-09-07": 5
     },
+    "paulperry/quant": {
+      "2026-11-11": 460
+    },
+    "paulran/aioquant": {
+      "2026-11-11": 501
+    },
     "pavlenkovit/vibeling-tutor": {
       "2026-10-19": 10,
       "2026-10-20": 15,
@@ -10794,6 +11638,9 @@
       "2026-10-28": 5,
       "2026-10-29": 5,
       "2026-10-30": 6
+    },
+    "pegasusTrader/PandoraTrader": {
+      "2026-11-11": 1487
     },
     "peizhengl/signaldesk": {
       "2026-10-14": 2,
@@ -10839,8 +11686,20 @@
       "2026-11-10": 2,
       "2026-11-11": 2
     },
+    "phodal/ledge": {
+      "2026-11-11": 2173
+    },
+    "phoenix-zhou/go-micro-shop": {
+      "2026-11-11": 618
+    },
+    "phoenix-zhou/goshop": {
+      "2026-11-11": 1089
+    },
     "phuryn/product-engineering": {
       "2026-11-10": 422
+    },
+    "physercoe/starquant": {
+      "2026-11-11": 609
     },
     "pinoox/neuromesh": {
       "2026-08-31": 76,
@@ -10872,6 +11731,9 @@
       "2026-09-26": 179,
       "2026-09-27": 180
     },
+    "pmorissette/bt": {
+      "2026-11-11": 3020
+    },
     "poisonxa16/pxa": {
       "2026-09-16": 42,
       "2026-09-17": 43,
@@ -10894,7 +11756,7 @@
       "2026-11-08": 9745,
       "2026-11-09": 9769,
       "2026-11-10": 9798,
-      "2026-11-11": 9807
+      "2026-11-11": 9811
     },
     "polytutor-ai/polymarket-black-scholes-hft-bot": {
       "2026-10-15": 20
@@ -11013,6 +11875,18 @@
       "2026-11-10": 20,
       "2026-11-11": 20
     },
+    "qqxpee/antigravity2-cn": {
+      "2026-11-11": 1251
+    },
+    "qu-niao/LimApiTest": {
+      "2026-11-11": 1221
+    },
+    "quant-king299/EasyXT": {
+      "2026-11-11": 756
+    },
+    "quant-science/sunday-quant-scientist": {
+      "2026-11-11": 1883
+    },
     "quant-sentiment-ai/claude-equity-research": {
       "2026-10-27": 746,
       "2026-10-28": 746,
@@ -11029,6 +11903,12 @@
       "2026-11-10": 756,
       "2026-11-11": 756
     },
+    "quantopian/alphalens": {
+      "2026-11-11": 4510
+    },
+    "quantopian/zipline": {
+      "2026-11-11": 20230
+    },
     "quarkfin/qf-lib": {
       "2026-08-31": 957,
       "2026-09-01": 957,
@@ -11041,7 +11921,14 @@
       "2026-09-09": 965,
       "2026-09-10": 966,
       "2026-09-11": 966,
-      "2026-09-12": 966
+      "2026-09-12": 966,
+      "2026-11-11": 977
+    },
+    "questflowai/investorskills": {
+      "2026-11-11": 1922
+    },
+    "qusong0627/QuantMind": {
+      "2026-11-11": 1905
     },
     "qybaihe/mu": {
       "2026-09-27": 237,
@@ -11161,7 +12048,8 @@
       "2026-10-24": 682,
       "2026-10-25": 682,
       "2026-10-26": 683,
-      "2026-10-27": 683
+      "2026-10-27": 683,
+      "2026-11-11": 687
     },
     "rdilruba/codebase-map": {
       "2026-09-16": 6,
@@ -11281,8 +12169,17 @@
       "2026-11-10": 239,
       "2026-11-11": 239
     },
+    "robaho/go-trader": {
+      "2026-11-11": 523
+    },
     "robert0777/Automate-Financial-Data-Extraction-from-Banxico-into-Google-Sheets": {
       "2026-11-02": 9
+    },
+    "robswc/tradingview-webhooks-bot": {
+      "2026-11-11": 781
+    },
+    "rodrigo-brito/ninjabot": {
+      "2026-11-11": 1634
     },
     "rokbenko/quackd": {
       "2026-08-31": 74,
@@ -11296,6 +12193,9 @@
       "2026-09-09": 178,
       "2026-09-10": 181,
       "2026-09-11": 188
+    },
+    "rollin0-0/DiffHelper": {
+      "2026-11-11": 618
     },
     "rootSunc/CNEquity": {
       "2026-10-27": 876,
@@ -11311,7 +12211,10 @@
       "2026-11-08": 974,
       "2026-11-09": 980,
       "2026-11-10": 997,
-      "2026-11-11": 1010
+      "2026-11-11": 1014
+    },
+    "rosemarycox5334-debug/AlphaMaster": {
+      "2026-11-11": 716
     },
     "rsalianto/tradoor": {
       "2026-10-27": 70,
@@ -11341,7 +12244,8 @@
       "2026-10-20": 246,
       "2026-10-21": 246,
       "2026-10-22": 246,
-      "2026-10-24": 246
+      "2026-10-24": 246,
+      "2026-11-11": 248
     },
     "ruc-datalab/EvoOntology": {
       "2026-09-19": 165,
@@ -11383,12 +12287,18 @@
       "2026-10-21": 122,
       "2026-10-22": 123
     },
+    "rush86999/atom": {
+      "2026-11-11": 915
+    },
     "ruthwik511/zelta-btc-strategy": {
       "2026-10-24": 2,
       "2026-10-25": 2,
       "2026-10-26": 2,
       "2026-10-27": 2,
       "2026-10-28": 2
+    },
+    "saeed349/Microservices-Based-Algorithmic-Trading-System": {
+      "2026-11-11": 543
     },
     "sahibzada-allahyar/Formal-Verification-RSI": {
       "2026-10-22": 2850,
@@ -11450,6 +12360,9 @@
       "2026-09-10": 46,
       "2026-09-11": 46
     },
+    "samwafgo/SamWaf": {
+      "2026-11-11": 1636
+    },
     "san-digital/tokspur": {
       "2026-11-10": 8
     },
@@ -11463,11 +12376,17 @@
       "2026-11-10": 6,
       "2026-11-11": 6
     },
+    "santoshlite/EigenLedger": {
+      "2026-11-11": 1088
+    },
     "sardi-dev/wirehouse": {
       "2026-10-29": 8,
       "2026-10-30": 8,
       "2026-10-31": 8,
       "2026-11-01": 8
+    },
+    "sarim2000/pennywiseai-tracker": {
+      "2026-11-11": 623
     },
     "sarpstar/cinecode": {
       "2026-11-07": 497,
@@ -11493,6 +12412,9 @@
       "2026-10-05": 537,
       "2026-10-06": 538
     },
+    "sdcoffey/techan": {
+      "2026-11-11": 905
+    },
     "sdi2200262/agentic-project-management": {
       "2026-10-26": 2443,
       "2026-10-27": 2442,
@@ -11509,6 +12431,9 @@
       "2026-11-09": 2452,
       "2026-11-10": 2452
     },
+    "seagull1985/LuckyFrameWeb": {
+      "2026-11-11": 568
+    },
     "seanyourhighness/vllm-sm12x-nvfp4-dflash2": {
       "2026-08-31": 26,
       "2026-09-01": 31,
@@ -11520,6 +12445,15 @@
     },
     "sebbsssss/optimize-skill": {
       "2026-11-10": 8
+    },
+    "sensorsdata/sa-sdk-android": {
+      "2026-11-11": 1376
+    },
+    "sensorsdata/sa-sdk-ios": {
+      "2026-11-11": 703
+    },
+    "sensorsdata/sa-sdk-javascript": {
+      "2026-11-11": 958
     },
     "seoan1024/Korean-llm-v4": {
       "2026-09-12": 8,
@@ -11603,7 +12537,8 @@
       "2026-09-23": 4282,
       "2026-09-24": 4285,
       "2026-09-25": 4288,
-      "2026-09-26": 4290
+      "2026-09-26": 4290,
+      "2026-11-11": 4374
     },
     "shawnshekari/strixite": {
       "2026-10-06": 8,
@@ -11632,6 +12567,18 @@
       "2026-11-04": 2,
       "2026-11-05": 2
     },
+    "shibing624/text2vec": {
+      "2026-11-11": 4976
+    },
+    "shidenggui/easyquant": {
+      "2026-11-11": 3689
+    },
+    "shidenggui/easytrader": {
+      "2026-11-11": 10277
+    },
+    "shinnytech/tqsdk-python": {
+      "2026-11-11": 5132
+    },
     "shinshin86/mesh-avatar-studio": {
       "2026-10-05": 173,
       "2026-10-06": 275,
@@ -11644,6 +12591,9 @@
       "2026-10-15": 693,
       "2026-10-16": 746,
       "2026-10-18": 793
+    },
+    "shirosaidev/stocksight": {
+      "2026-11-11": 2552
     },
     "shivam65-sketch/medusa": {
       "2026-10-24": 2,
@@ -11658,6 +12608,12 @@
     "shivangsaxena2211/DEFINN-APP": {
       "2026-08-31": 2,
       "2026-09-01": 2
+    },
+    "shiyu-coder/Kronos": {
+      "2026-11-11": 47604
+    },
+    "shner-elmo/TradingView-Screener": {
+      "2026-11-11": 1355
     },
     "shoemoney/shoemoneyx": {
       "2026-09-22": 19,
@@ -11708,7 +12664,7 @@
       "2026-11-08": 7281,
       "2026-11-09": 7380,
       "2026-11-10": 7513,
-      "2026-11-11": 7574
+      "2026-11-11": 7591
     },
     "sidmanale643/helios": {
       "2026-09-01": 6,
@@ -11721,11 +12677,15 @@
       "2026-09-09": 10,
       "2026-09-10": 10
     },
+    "simonlin1212/TradingAgents-astock": {
+      "2026-11-11": 3948
+    },
     "simonlin1212/Vibe-Research": {
       "2026-11-07": 3517,
       "2026-11-08": 3529,
       "2026-11-09": 3542,
-      "2026-11-10": 3563
+      "2026-11-10": 3563,
+      "2026-11-11": 3595
     },
     "simonlin1212/a-stock-data": {
       "2026-10-27": 11161,
@@ -11741,10 +12701,19 @@
       "2026-11-08": 11583,
       "2026-11-09": 11609,
       "2026-11-10": 11681,
-      "2026-11-11": 11705
+      "2026-11-11": 11715
+    },
+    "simonlin1212/global-stock-data": {
+      "2026-11-11": 1867
+    },
+    "simonlin1212/vibe-astock": {
+      "2026-11-11": 1003
     },
     "simranjeet97/AI_Engineer_Roadmap_2027": {
       "2026-11-10": 5
+    },
+    "sinall/StrategyEase-Python-SDK": {
+      "2026-11-11": 1240
     },
     "sjbsjb233/ZJ_Quant_03": {
       "2026-10-24": 34,
@@ -11769,6 +12738,9 @@
       "2026-10-31": 6,
       "2026-11-02": 7
     },
+    "sjev/trading-with-python": {
+      "2026-11-11": 322
+    },
     "skyf0xx/hedgehog-core-copywriting-prose-engineering": {
       "2026-09-06": 6,
       "2026-09-07": 7,
@@ -11778,6 +12750,9 @@
       "2026-09-12": 11,
       "2026-09-16": 11,
       "2026-09-17": 11
+    },
+    "skyming/iOS-Performance-Optimization": {
+      "2026-11-11": 4878
     },
     "skyzh/tiny-llm": {
       "2026-10-26": 4789,
@@ -11795,6 +12770,9 @@
       "2026-11-09": 5692,
       "2026-11-10": 5703
     },
+    "sngyai/Sequoia-X": {
+      "2026-11-11": 8613
+    },
     "sno-ai/sno-station": {
       "2026-09-26": 232,
       "2026-09-27": 233,
@@ -11804,12 +12782,18 @@
       "2026-10-14": 311,
       "2026-10-15": 336
     },
+    "soaring-xiongkulu/easyaiot": {
+      "2026-11-11": 758
+    },
     "sodiumsun/agenttrail": {
       "2026-08-31": 564,
       "2026-09-01": 590,
       "2026-09-02": 603,
       "2026-09-03": 632,
       "2026-09-04": 638
+    },
+    "songjiayang/prometheus_practice": {
+      "2026-11-11": 663
     },
     "sopersone/cabbage-trading-machine": {
       "2026-09-26": 188,
@@ -11823,7 +12807,8 @@
       "2026-10-05": 263,
       "2026-10-06": 263,
       "2026-10-07": 266,
-      "2026-10-08": 266
+      "2026-10-08": 266,
+      "2026-11-11": 279
     },
     "soumatheusgomes/vibe-coding-toolkit": {
       "2026-11-07": 2298,
@@ -11943,7 +12928,7 @@
       "2026-11-08": 21751,
       "2026-11-09": 21761,
       "2026-11-10": 21775,
-      "2026-11-11": 21778
+      "2026-11-11": 21781
     },
     "stranger00135/PredictionDesk": {
       "2026-11-01": 2,
@@ -11986,6 +12971,9 @@
       "2026-10-26": 33,
       "2026-10-27": 34,
       "2026-10-28": 34
+    },
+    "swapperfinance/swapper-toolkit": {
+      "2026-11-11": 854
     },
     "swcstudiospace/PumpGrok": {
       "2026-09-01": 2,
@@ -12083,6 +13071,9 @@
       "2026-09-21": 10,
       "2026-09-22": 10
     },
+    "taniman/profit-trailer": {
+      "2026-11-11": 784
+    },
     "tastytrade/tastytrade-mcp": {
       "2026-10-27": 34,
       "2026-10-28": 34,
@@ -12130,6 +13121,12 @@
       "2026-09-11": 5,
       "2026-09-12": 5
     },
+    "teddysmithdev/FinShark": {
+      "2026-11-11": 357
+    },
+    "tensortrade-org/tensortrade": {
+      "2026-11-11": 7269
+    },
     "tetriz-ai/session-intelligence": {
       "2026-10-14": 17,
       "2026-10-15": 19,
@@ -12158,6 +13155,9 @@
       "2026-11-08": 5730,
       "2026-11-09": 5736,
       "2026-11-10": 5741
+    },
+    "theOGognf/finagg": {
+      "2026-11-11": 552
     },
     "thedotmack/claude-mem": {
       "2026-08-31": 92714,
@@ -12190,7 +13190,13 @@
       "2026-11-08": 1424,
       "2026-11-09": 1425,
       "2026-11-10": 1424,
-      "2026-11-11": 1424
+      "2026-11-11": 1423
+    },
+    "thinkgem/jeesite5": {
+      "2026-11-11": 1804
+    },
+    "thrasher-corp/gocryptotrader": {
+      "2026-11-11": 3468
     },
     "thusinh1969/vibe_rescue": {
       "2026-10-27": 14,
@@ -12243,6 +13249,9 @@
       "2026-09-02": 121,
       "2026-09-03": 139
     },
+    "timercrack/trader": {
+      "2026-11-11": 8482
+    },
     "titechprabhasolutions/Brahma-Ai-Evo": {
       "2026-10-02": 9,
       "2026-10-03": 17,
@@ -12254,6 +13263,9 @@
       "2026-10-09": 42,
       "2026-10-10": 44,
       "2026-10-11": 46
+    },
+    "tkfy920/qstock": {
+      "2026-11-11": 1951
     },
     "tlzmw001/naiyue-test-agent": {
       "2026-10-10": 10,
@@ -12497,6 +13509,9 @@
     "tuananh/fastvm": {
       "2026-11-09": 11
     },
+    "tvjsx/trading-vue-js": {
+      "2026-11-11": 2311
+    },
     "tw93/Waza": {
       "2026-10-26": 7358,
       "2026-10-27": 7367,
@@ -12512,6 +13527,9 @@
       "2026-11-08": 7532,
       "2026-11-09": 7543,
       "2026-11-10": 7546
+    },
+    "twelvedata/twelvedata-python": {
+      "2026-11-11": 793
     },
     "twinnydotdev/twinny": {
       "2026-09-26": 3651,
@@ -12593,6 +13611,9 @@
       "2026-09-25": 6,
       "2026-09-26": 6,
       "2026-09-27": 6
+    },
+    "unfairmarket/SMA-outfits": {
+      "2026-11-11": 866
     },
     "unitshaperextol/Legion-os": {
       "2026-10-31": 75,
@@ -12748,6 +13769,15 @@
       "2026-09-26": 228,
       "2026-09-27": 233
     },
+    "virattt/ai-financial-agent": {
+      "2026-11-11": 2040
+    },
+    "virattt/dexter": {
+      "2026-11-11": 27816
+    },
+    "virattt/financial-agent-ui": {
+      "2026-11-11": 795
+    },
     "vivian-labs/1point3acres-toolkit": {
       "2026-09-25": 10,
       "2026-09-26": 10,
@@ -12825,6 +13855,9 @@
       "2026-09-09": 10,
       "2026-09-10": 10
     },
+    "waditu/czsc": {
+      "2026-11-11": 6592
+    },
     "wangchenxi99/nova-trade-ai": {
       "2026-08-31": 12,
       "2026-09-01": 12,
@@ -12834,6 +13867,18 @@
       "2026-09-05": 12,
       "2026-09-06": 12,
       "2026-09-07": 12
+    },
+    "wangzuohuai/WebRunLocal": {
+      "2026-11-11": 642
+    },
+    "warp-id/solana-trading-bot": {
+      "2026-11-11": 2346
+    },
+    "wayn111/newbee-mall-pro": {
+      "2026-11-11": 512
+    },
+    "wbh604/UZI-Skill": {
+      "2026-11-11": 7584
     },
     "webull-inc/webull-openapi-python-sdk": {
       "2026-10-27": 72,
@@ -12845,6 +13890,9 @@
       "2026-11-02": 73,
       "2026-11-10": 73,
       "2026-11-11": 73
+    },
+    "wechat-article/wechat-article-exporter": {
+      "2026-11-11": 13147
     },
     "weijt606/crypto-trident": {
       "2026-11-01": 2,
@@ -12860,8 +13908,17 @@
       "2026-09-29": 2,
       "2026-09-30": 2
     },
+    "weslynn/AlphaTree-graphic-deep-neural-network": {
+      "2026-11-11": 3027
+    },
     "whaleyxbt/claude-motion": {
       "2026-10-11": 292
+    },
+    "whchien/ai-trader": {
+      "2026-11-11": 1137
+    },
+    "whittlem/pycryptobot": {
+      "2026-11-11": 2061
     },
     "whyefkan/eLuajs": {
       "2026-11-07": 5,
@@ -12919,7 +13976,8 @@
       "2026-11-04": 231,
       "2026-11-05": 231,
       "2026-11-07": 231,
-      "2026-11-08": 231
+      "2026-11-08": 231,
+      "2026-11-11": 231
     },
     "wingsmith-dev/wingsmith": {
       "2026-10-29": 5,
@@ -12933,6 +13991,9 @@
       "2026-11-08": 6,
       "2026-11-09": 6,
       "2026-11-10": 6
+    },
+    "wkingnet/stock-analysis": {
+      "2026-11-11": 814
     },
     "wnstnb/foliome": {
       "2026-10-05": 7,
@@ -12959,6 +14020,9 @@
       "2026-09-19": 13,
       "2026-09-20": 13
     },
+    "wquguru/nof0": {
+      "2026-11-11": 2753
+    },
     "wshobson/maverick-mcp": {
       "2026-10-27": 711,
       "2026-10-28": 711,
@@ -12973,7 +14037,7 @@
       "2026-11-08": 721,
       "2026-11-09": 721,
       "2026-11-10": 722,
-      "2026-11-11": 723
+      "2026-11-11": 724
     },
     "x1xhlol/system-prompts-and-models-of-ai-tools": {
       "2026-10-14": 144011,
@@ -13027,11 +14091,17 @@
       "2026-11-10": 73,
       "2026-11-11": 73
     },
+    "xcanwin/KeepChatGPT": {
+      "2026-11-11": 14890
+    },
     "xhluca/session-migrate": {
       "2026-08-31": 74
     },
     "xiangjiaowei/m3e-canvas": {
       "2026-09-12": 6
+    },
+    "xiaojinzi123/Component": {
+      "2026-11-11": 2918
     },
     "xiaomoBoy/pi-bluebook": {
       "2026-09-16": 226,
@@ -13041,6 +14111,9 @@
       "2026-09-20": 275,
       "2026-09-21": 278,
       "2026-09-22": 281
+    },
+    "xieliaing/CausalInferenceIntro": {
+      "2026-11-11": 969
     },
     "xinbetween/flowlight": {
       "2026-10-06": 6
@@ -13054,6 +14127,9 @@
       "2026-09-21": 2,
       "2026-09-22": 2,
       "2026-09-23": 2
+    },
+    "xingwudao/xquant-beginner": {
+      "2026-11-11": 888
     },
     "xlabsg/prompTrading": {
       "2026-09-10": 2,
@@ -13098,6 +14174,12 @@
       "2026-10-04": 25,
       "2026-10-05": 26
     },
+    "xtuhcy/gecco": {
+      "2026-11-11": 2511
+    },
+    "xuchonglang/investing-for-beginners": {
+      "2026-11-11": 4452
+    },
     "xxDoman/strata-gfx906": {
       "2026-10-09": 5,
       "2026-10-10": 5,
@@ -13119,8 +14201,20 @@
       "2026-11-08": 200,
       "2026-11-09": 202
     },
+    "xxd763795151/kafka-console-ui": {
+      "2026-11-11": 606
+    },
+    "xxjwxc/shares": {
+      "2026-11-11": 674
+    },
+    "xxnuo/dns-benchmark": {
+      "2026-11-11": 750
+    },
     "xzf-thu/VoiceMem": {
       "2026-08-31": 416
+    },
+    "y123456yz/middleware_development_learning": {
+      "2026-11-11": 727
     },
     "yadavshivkumar/amazon-stock-analysis-excel-dashboard": {
       "2026-10-24": 2,
@@ -13139,6 +14233,9 @@
       "2026-10-04": 3,
       "2026-10-05": 3,
       "2026-10-06": 3
+    },
+    "yangfeng20/ai-job": {
+      "2026-11-11": 727
     },
     "yanght27/GPU-Perf-Playground": {
       "2026-08-31": 104
@@ -13190,6 +14287,9 @@
       "2026-10-21": 2,
       "2026-10-22": 2
     },
+    "yasinkuyu/binance-trader": {
+      "2026-11-11": 2760
+    },
     "yassinelsharkawy/Comparative-Analysis-of-Particle-Swarm-Optimization-Variants-for-Clustering": {
       "2026-10-20": 2,
       "2026-10-21": 2,
@@ -13237,7 +14337,8 @@
       "2026-11-02": 272,
       "2026-11-04": 273,
       "2026-11-05": 274,
-      "2026-11-07": 279
+      "2026-11-07": 279,
+      "2026-11-11": 283
     },
     "yetone/cumora": {
       "2026-08-31": 3339
@@ -13266,6 +14367,9 @@
       "2026-09-18": 7,
       "2026-09-19": 7,
       "2026-09-20": 7
+    },
+    "yijixiuxin/chanlun-pro": {
+      "2026-11-11": 1092
     },
     "yjid/kensaku": {
       "2026-11-04": 740,
@@ -13301,6 +14405,12 @@
       "2026-10-22": 7,
       "2026-10-28": 7,
       "2026-10-29": 7
+    },
+    "yuriak/RLQuant": {
+      "2026-11-11": 359
+    },
+    "yutiansut/QUANTAXIS": {
+      "2026-11-11": 11359
     },
     "ywEdAi/teachable-code": {
       "2026-11-05": 10,
@@ -13354,6 +14464,9 @@
       "2026-10-03": 7342,
       "2026-10-04": 7380
     },
+    "zcakhaa/Deep-Learning-in-Quantitative-Trading": {
+      "2026-11-11": 467
+    },
     "zeroFhacker/vibeguard": {
       "2026-08-31": 7,
       "2026-09-01": 9,
@@ -13368,6 +14481,9 @@
       "2026-09-11": 19,
       "2026-09-12": 19
     },
+    "zgsfsec/Full-Chain-Sentinel-System": {
+      "2026-11-11": 869
+    },
     "zhangshuibai/molten": {
       "2026-10-26": 12,
       "2026-10-27": 22,
@@ -13381,6 +14497,9 @@
       "2026-11-05": 23,
       "2026-11-07": 24,
       "2026-11-08": 25
+    },
+    "zhangxiangliang/stock-api": {
+      "2026-11-11": 2000
     },
     "zhengzihaoPKU/KERV": {
       "2026-08-31": 114,
@@ -13408,6 +14527,9 @@
       "2026-11-02": 770,
       "2026-11-04": 809
     },
+    "zjn-zjn/ice": {
+      "2026-11-11": 679
+    },
     "zju3dv/PhysStudio": {
       "2026-11-04": 27,
       "2026-11-05": 28,
@@ -13428,6 +14550,15 @@
       "2026-09-05": 71,
       "2026-09-06": 71,
       "2026-09-07": 71
+    },
+    "zslucky/algorithmic_trading_book": {
+      "2026-11-11": 681
+    },
+    "ztx888/HaloWebUI": {
+      "2026-11-11": 1157
+    },
+    "zvtvz/zvt": {
+      "2026-11-11": 4335
     },
     "zwldarren/akshare-one": {
       "2026-10-27": 75,
@@ -13455,7 +14586,10 @@
       "2026-11-08": 237,
       "2026-11-09": 246,
       "2026-11-10": 248,
-      "2026-11-11": 251
+      "2026-11-11": 253
+    },
+    "zzn199216/Introduction-to-quantitative-trading": {
+      "2026-11-11": 314
     }
   },
   "repositories": {
@@ -13523,6 +14657,88 @@
       ],
       "url": "https://github.com/0xramm/Indian-Stock-Market-API"
     },
+    "51bitquant/binance_grid_trader": {
+      "archived": false,
+      "created_at": "2020-06-27",
+      "description": "Binance_grid_trader is a grid strategy bot trading with Binance Spot and Binance Futures Exchange. you can use it to trade any pair in Binance Exchange. Binance_grid_trader是一个币安网格策略软件, 目前支持币安现货，USDT合约和币币合约。",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-11",
+      "forks": 296,
+      "full_name": "51bitquant/binance_grid_trader",
+      "id": 275383163,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-06-07",
+      "score": 11.99,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 991,
+      "topics": [
+        "51bitquant",
+        "algo-trading",
+        "algorithms",
+        "binance",
+        "binance-api",
+        "binance-exchange",
+        "bitcoin",
+        "btc",
+        "grid",
+        "grid-strategy",
+        "market-maker",
+        "okex",
+        "okex-api",
+        "python3",
+        "quantitative-finance",
+        "strategy",
+        "trading-algorithms",
+        "trading-bot",
+        "trading-bots",
+        "trading-strategies"
+      ],
+      "url": "https://github.com/51bitquant/binance_grid_trader"
+    },
+    "51bitquant/howtrader": {
+      "archived": false,
+      "created_at": "2020-10-30",
+      "description": "Howtrader: A crypto quant framework for developing, backtesting, and executing your own trading strategies. Seamlessly integrates with TradingView and other third-party signals. Simply send a post request to automate trading and order placement. Supports Binance and Okex exchanges.",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-11",
+      "forks": 336,
+      "full_name": "51bitquant/howtrader",
+      "id": 308662682,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-06-07",
+      "score": 11.95,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 972,
+      "topics": [
+        "51bitquant",
+        "algo",
+        "binance",
+        "binance-api",
+        "binance-bot",
+        "binance-trader",
+        "bitcoin",
+        "cryptocurrency",
+        "eth",
+        "okx-exchange",
+        "okx-v5",
+        "python",
+        "quant",
+        "quantitative",
+        "trader",
+        "trading",
+        "tradingview",
+        "tradingview-alert",
+        "tradingview-webhooks",
+        "vnpy"
+      ],
+      "url": "https://github.com/51bitquant/howtrader"
+    },
     "555cute/r20-quantum-trader": {
       "created_at": "2026-08-30",
       "description": "⚡ LLM-Native Self-Evolving Quantitative Trading Terminal & Execution Engine (Bloomberg-Style Dark Terminal + 6-Asset AI Brain)",
@@ -13582,6 +14798,47 @@
         "stock-trading-strategy"
       ],
       "url": "https://github.com/AI4Finance-Foundation/FinRL-Trading"
+    },
+    "Adamant-im/adamant-tradebot": {
+      "archived": false,
+      "created_at": "2020-03-12",
+      "description": "Free self-hosted liquidity bot for token issuers who want to improve CEX market quality without sending tokens, funds, or API keys to a third-party market maker.",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-11",
+      "forks": 122,
+      "full_name": "Adamant-im/adamant-tradebot",
+      "id": 246768611,
+      "language": "JavaScript",
+      "license": null,
+      "pushed_at": "2026-11-10",
+      "score": 16.75,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 863,
+      "topics": [
+        "algorithmic-trading",
+        "bitcoin",
+        "blockchain",
+        "cex",
+        "crypto",
+        "crypto-bot",
+        "crypto-exchanges",
+        "cryptocurrency",
+        "liquidity",
+        "market-liquidity",
+        "market-making",
+        "order-book",
+        "orderbook",
+        "self-hosted",
+        "spread",
+        "token-issuers",
+        "trading",
+        "trading-bot",
+        "trading-volume",
+        "volume"
+      ],
+      "url": "https://github.com/Adamant-im/adamant-tradebot"
     },
     "Agentic-Analyst/stock-analyst": {
       "created_at": "2025-07-28",
@@ -13759,6 +15016,43 @@
         "trading-bot-guide"
       ],
       "url": "https://github.com/ArchDiverYank/lrt"
+    },
+    "AsyncAlgoTrading/aat": {
+      "archived": false,
+      "created_at": "2019-05-20",
+      "description": "Asynchronous, event-driven algorithmic trading in Python and C++",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 152,
+      "full_name": "AsyncAlgoTrading/aat",
+      "id": 187712019,
+      "language": "C++",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-07-27",
+      "score": 11.71,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 843,
+      "topics": [
+        "algo-trading",
+        "algorithmic-trading",
+        "automated-trading",
+        "backtest-engine",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "execution-engine",
+        "python",
+        "python3",
+        "risk-management-engine",
+        "stock-market",
+        "trading",
+        "trading-bot",
+        "trading-engine",
+        "trading-strategies"
+      ],
+      "url": "https://github.com/AsyncAlgoTrading/aat",
+      "verified_at": "2026-11-11"
     },
     "BYTEX-TRADE/bytex": {
       "created_at": "2026-10-02",
@@ -14513,6 +15807,118 @@
       "topics": [],
       "url": "https://github.com/Jokejoker-designer/QUANTSMART"
     },
+    "KunMoe/kun-touchgal-next": {
+      "archived": false,
+      "created_at": "2024-12-17",
+      "description": "TouchGal 是一个一站式 Galgame 文化社区。提供Galgame 论坛、Galgame 下载等服务。承诺永久免费, 高质量。为Galgame 爱好者提供一片净土！",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 44,
+      "full_name": "KunMoe/kun-touchgal-next",
+      "id": 904601269,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-10",
+      "score": 16.55,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 849,
+      "topics": [
+        "argon2",
+        "aws-s3",
+        "cloudflare-workers",
+        "eslint",
+        "jwt",
+        "milkdown",
+        "nextjs",
+        "nextjs-15",
+        "nextui",
+        "postcss",
+        "postgresql",
+        "prettier",
+        "prisma",
+        "react-19",
+        "redis",
+        "tailwindcss-v4",
+        "turbopack",
+        "zod",
+        "zustand"
+      ],
+      "url": "https://github.com/KunMoe/kun-touchgal-next",
+      "verified_at": "2026-11-11"
+    },
+    "KylinMountain/TradingAgents-AShare": {
+      "archived": false,
+      "created_at": "2026-03-02",
+      "description": "A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 244,
+      "full_name": "KylinMountain/TradingAgents-AShare",
+      "id": 1170370148,
+      "language": "Python",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-30",
+      "score": 14.82,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 899,
+      "topics": [
+        "agents",
+        "ai",
+        "finance",
+        "llm",
+        "openclaw",
+        "openclaw-skills",
+        "skills",
+        "stock"
+      ],
+      "url": "https://github.com/KylinMountain/TradingAgents-AShare",
+      "verified_at": "2026-11-11"
+    },
+    "Leo4815162342/dukascopy-node": {
+      "archived": false,
+      "created_at": "2019-06-08",
+      "description": "✨ Download historical and real-time price tick data for Crypto, Stocks, ETFs, CFDs, Forex via CLI and Node.js ✨",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-11",
+      "forks": 144,
+      "full_name": "Leo4815162342/dukascopy-node",
+      "id": 190938303,
+      "language": "TypeScript",
+      "license": "MIT",
+      "pushed_at": "2026-10-28",
+      "score": 14.6,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 963,
+      "topics": [
+        "backtesting",
+        "bitcoin",
+        "candlestick-chart",
+        "cli",
+        "crypto",
+        "dukascopy",
+        "etf",
+        "exchange-rates",
+        "forex",
+        "forex-data",
+        "historical-data",
+        "market-data",
+        "metatrader",
+        "nodejs",
+        "ohlc",
+        "stock",
+        "stock-data",
+        "stock-prices",
+        "tick-data",
+        "trading"
+      ],
+      "url": "https://github.com/Leo4815162342/dukascopy-node"
+    },
     "Lqz13Th/extrema_infra": {
       "created_at": "2025-09-01",
       "description": "A high-performance quantitative trading infrastructure built in Rust.",
@@ -14636,6 +16042,33 @@
         "tradingview-scraper"
       ],
       "url": "https://github.com/Mathieu2301/TradingView-API"
+    },
+    "NewLifeX/NewLife.Redis": {
+      "archived": false,
+      "created_at": "2018-08-29",
+      "description": "High performance redis client, support NETCore/. NET4. 0/. NET4. 5. It is specially optimized for big data and message queue. The average daily consumption of online single application is 10 billion. 高性能Redis客户端，支持.NETCore/.NET4.0/.NET4.5，为大数据与消息队列而特别优化，线上单应用日均100亿调用量",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 192,
+      "full_name": "NewLifeX/NewLife.Redis",
+      "id": 146626366,
+      "language": "C#",
+      "license": "MIT",
+      "pushed_at": "2026-10-26",
+      "score": 14.11,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 879,
+      "topics": [
+        "csharp",
+        "dotnet",
+        "memorycache",
+        "newlife",
+        "redis"
+      ],
+      "url": "https://github.com/NewLifeX/NewLife.Redis",
+      "verified_at": "2026-11-11"
     },
     "NoFxAiOS/nofx": {
       "created_at": "2025-10-28",
@@ -15116,6 +16549,33 @@
       ],
       "url": "https://github.com/TINGLISE/auto-trading-bot-pumpfun-solana-V2"
     },
+    "TencentBlueKing/bk-job": {
+      "archived": false,
+      "created_at": "2021-06-17",
+      "description": "蓝鲸作业平台（Job）是一套运维基础操作管理系统，具备海量任务并发处理能力。除了支持脚本执行、文件分发、定时任务等一系列基础运维场景以外，还支持通过流程调度能力将零碎的单个任务组装成一个自动化作业流程；而每个作业都可做为一个原子节点，提供给上层或周边系统/平台使用，实现调度自动化。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 220,
+      "full_name": "TencentBlueKing/bk-job",
+      "id": 377725467,
+      "language": "Java",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-10",
+      "score": 16.6,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 875,
+      "topics": [
+        "blueking",
+        "continuous-delivery",
+        "deployment-automation",
+        "java",
+        "operation"
+      ],
+      "url": "https://github.com/TencentBlueKing/bk-job",
+      "verified_at": "2026-11-11"
+    },
     "The-FinAI/PIXIU": {
       "created_at": "2023-06-02",
       "description": "This repository introduces PIXIU, an open-source resource featuring the first financial large language models (LLMs), instruction tuning data, and evaluation benchmarks to holistically assess financial LLMs. Our goal is to continually push forward the open-source development of financial artificial intelligence (AI).",
@@ -15486,6 +16946,27 @@
       "stars": 332,
       "topics": [],
       "url": "https://github.com/agiprolabs/claude-trading-skills"
+    },
+    "ailabx/agilab": {
+      "archived": false,
+      "created_at": "2017-12-10",
+      "description": "AgiLab(Agi实验室)，专注于将前沿AI技术落地：量化投资，多智能体落地，科研自动化。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 194,
+      "full_name": "ailabx/agilab",
+      "id": 113752803,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-11-11",
+      "score": 16.95,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 971,
+      "topics": [],
+      "url": "https://github.com/ailabx/agilab",
+      "verified_at": "2026-11-11"
     },
     "akfamily/akquant": {
       "created_at": "2026-01-30",
@@ -16346,6 +17827,48 @@
       ],
       "url": "https://github.com/dewydev10/digital-showcase"
     },
+    "dromara/dante-cloud": {
+      "archived": false,
+      "created_at": "2021-05-19",
+      "description": "🐉 Dante Cloud 是支持阻塞式与响应式服务并行的微服务云原生基座和面向AI Agent开发的智能基座，基于领域驱动模型（DDD）设计，以高质量代码与低安全漏洞为核心，高度模块化、组件化，覆盖IoT设备认证、国家等保三级、接口国密数字信封加密等多层次安全体系，并提供多租户解决方案。独创“一套代码实现微服务和单体架构灵活切换”，赋能企业级智能应用构建。🔝🔝点个star 持续关注更新！",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 216,
+      "full_name": "dromara/dante-cloud",
+      "id": 368698472,
+      "language": "Java",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-05",
+      "score": 15.95,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 969,
+      "topics": [
+        "ai-agent",
+        "harness-engineering",
+        "iot",
+        "loki",
+        "microservices",
+        "monolith",
+        "monorepo",
+        "mqtt",
+        "nacos",
+        "rsocket",
+        "spring-ai",
+        "spring-ai-alibaba",
+        "spring-authorization-server",
+        "spring-boot",
+        "spring-cloud",
+        "spring-cloud-alibaba",
+        "spring-cloud-tencent",
+        "spring-grpc",
+        "spring-integration",
+        "webflux"
+      ],
+      "url": "https://github.com/dromara/dante-cloud",
+      "verified_at": "2026-11-11"
+    },
     "duhu2000/dsh-mcp-connector": {
       "created_at": "2026-08-20",
       "description": "MCP Connector for DeepSeek Harness: a data marketplace connecting enterprise, financial, legal, patent and research data. Manage authorization, search tools and troubleshoot MCP connections. Supports OAuth, API keys and HTTP/stdio.",
@@ -16641,6 +18164,47 @@
       ],
       "url": "https://github.com/freqtrade/freqtrade"
     },
+    "gazbert/bxbot": {
+      "archived": false,
+      "created_at": "2015-09-04",
+      "description": "A simple Bitcoin trading bot written in Java.",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-11",
+      "forks": 281,
+      "full_name": "gazbert/bxbot",
+      "id": 41933697,
+      "language": "Java",
+      "license": "MIT",
+      "pushed_at": "2026-11-02",
+      "score": 15.25,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 863,
+      "topics": [
+        "bitcoin",
+        "bitfinex",
+        "bitstamp",
+        "bot",
+        "btc",
+        "coinbase",
+        "crypto",
+        "crypto-bot",
+        "crypto-trading",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "cryptocurrency-exchanges",
+        "exchange-api",
+        "gemini",
+        "java",
+        "kraken",
+        "rest-api",
+        "trading",
+        "trading-api",
+        "tradingbot"
+      ],
+      "url": "https://github.com/gazbert/bxbot"
+    },
     "gbeced/basana": {
       "created_at": "2023-03-04",
       "description": "A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.",
@@ -16728,6 +18292,27 @@
       ],
       "url": "https://github.com/griddaimyorun/Metatraider-Traiding-Bot"
     },
+    "hananedupouy/LLMs-in-Finance": {
+      "archived": false,
+      "created_at": "2024-05-21",
+      "description": "LLMs in Finance - Generative AI - AI Agents ",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 230,
+      "full_name": "hananedupouy/LLMs-in-Finance",
+      "id": 803945287,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "pushed_at": "2026-11-01",
+      "score": 15.14,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 896,
+      "topics": [],
+      "url": "https://github.com/hananedupouy/LLMs-in-Finance",
+      "verified_at": "2026-11-11"
+    },
     "himself65/finance-skills": {
       "created_at": "2026-03-13",
       "description": "A collection of skills for AI financial analysis.",
@@ -16782,6 +18367,27 @@
         "trading-strategies"
       ],
       "url": "https://github.com/hosseinmoein/DataFrame"
+    },
+    "huanyuejue/Fluent-Steam-Lua": {
+      "archived": false,
+      "created_at": "2026-07-22",
+      "description": "基于 WPF + Fluent Design 开发的现代化轻量级 Steam Lua 入库管理工具，目前仅适配OpenSteamTool",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 73,
+      "full_name": "huanyuejue/Fluent-Steam-Lua",
+      "id": 1308253188,
+      "language": "C#",
+      "license": "Zlib",
+      "pushed_at": "2026-11-11",
+      "score": 16.71,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 844,
+      "topics": [],
+      "url": "https://github.com/huanyuejue/Fluent-Steam-Lua",
+      "verified_at": "2026-11-11"
     },
     "hummingbot/hummingbot": {
       "archived": false,
@@ -16908,6 +18514,37 @@
       ],
       "url": "https://github.com/jesse-ai/jesse"
     },
+    "jianweiweng05/qsx-strategy-score": {
+      "archived": false,
+      "created_at": "2026-06-24",
+      "description": "Free strategy scorecard for trading backtests. Detect overfitting, weak edge, drawdown risk, and random-timing luck from returns, equity curves, or trade logs.",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-11",
+      "forks": 46,
+      "full_name": "jianweiweng05/qsx-strategy-score",
+      "id": 1278596602,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-10-25",
+      "score": 14.04,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 928,
+      "topics": [
+        "algorithmic-trading",
+        "backtesting",
+        "deflated-sharpe-ratio",
+        "monte-carlo",
+        "overfitting",
+        "python",
+        "quantitative-finance",
+        "risk-management",
+        "strategy-analysis",
+        "tradingview"
+      ],
+      "url": "https://github.com/jianweiweng05/qsx-strategy-score"
+    },
     "joaquinbejar/market-maker-rs": {
       "created_at": "2025-10-13",
       "description": "A Rust library implementing quantitative market making strategies, starting with the Avellaneda-Stoikov model. This library provides the mathematical foundations and domain models necessary for building automated market making systems for financial markets.",
@@ -16924,6 +18561,27 @@
       "stars": 101,
       "topics": [],
       "url": "https://github.com/joaquinbejar/market-maker-rs"
+    },
+    "jwangkun/claude-for-financial-services-cn": {
+      "archived": false,
+      "created_at": "2026-06-07",
+      "description": " 63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 143,
+      "full_name": "jwangkun/claude-for-financial-services-cn",
+      "id": 1262119018,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-09-14",
+      "score": 11.8,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 889,
+      "topics": [],
+      "url": "https://github.com/jwangkun/claude-for-financial-services-cn",
+      "verified_at": "2026-11-11"
     },
     "kan0un/minsung-crypto-pair-trading-model-desktop": {
       "created_at": "2026-10-23",
@@ -17075,6 +18733,35 @@
         "technical-analysis"
       ],
       "url": "https://github.com/lisazhou886/smart-money-forex-strategy-mt4"
+    },
+    "liudf0716/xfrpc": {
+      "archived": false,
+      "created_at": "2021-11-29",
+      "description": "xfrpc 是一个轻量级的 FRP 客户端，完美兼容 frps，采用 C 语言实现，专为 OpenWRT 和物联网等资源受限系统优化设计。它针对 ROM 和 RAM 空间有限的设备，提供高效的内网穿透解决方案。xfrpc 集成了xDPI（深度包检测）功能，增强了安全性，有效防止内网穿透中因恶意嗅探导致的安全威胁，确保数据传输和网络访问的可靠保护。购买下面的链接中的服务支持我的开源",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 128,
+      "full_name": "liudf0716/xfrpc",
+      "id": 432891057,
+      "language": "C",
+      "license": "GPL-3.0",
+      "pushed_at": "2026-09-08",
+      "score": 11.71,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 844,
+      "topics": [
+        "colab",
+        "frp",
+        "github-actions",
+        "instaloader",
+        "lan-proxy",
+        "openwrt",
+        "reverse-proxy"
+      ],
+      "url": "https://github.com/liudf0716/xfrpc",
+      "verified_at": "2026-11-11"
     },
     "longsurf-ai/openchart": {
       "created_at": "2026-10-05",
@@ -17652,6 +19339,96 @@
       ],
       "url": "https://github.com/rundef/async_rithmic"
     },
+    "rush86999/atom": {
+      "archived": false,
+      "created_at": "2023-01-22",
+      "description": "Atom Agent, Open-Source Governed AI Agent Platform for Self-Hosted Automation",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 95,
+      "full_name": "rush86999/atom",
+      "id": 591995344,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-11",
+      "score": 16.85,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 915,
+      "topics": [
+        "agentic-workflow",
+        "ai",
+        "ai-agent",
+        "calendar",
+        "finance",
+        "gdrive",
+        "gmail",
+        "google-calendar",
+        "notion",
+        "productivity",
+        "scheduler",
+        "shopify",
+        "slack",
+        "tasks",
+        "zoho",
+        "zoom"
+      ],
+      "url": "https://github.com/rush86999/atom",
+      "verified_at": "2026-11-11"
+    },
+    "sdcoffey/techan": {
+      "archived": false,
+      "created_at": "2017-03-08",
+      "description": "Technical Analysis Library for Golang",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 155,
+      "full_name": "sdcoffey/techan",
+      "id": 84272132,
+      "language": "Go",
+      "license": "MIT",
+      "pushed_at": "2026-09-04",
+      "score": 11.83,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 905,
+      "topics": [
+        "bitcoin",
+        "cryptocurrency",
+        "go",
+        "golang",
+        "stock",
+        "stock-market",
+        "technical-analysis",
+        "trading-bot",
+        "trading-strategies"
+      ],
+      "url": "https://github.com/sdcoffey/techan",
+      "verified_at": "2026-11-11"
+    },
+    "sensorsdata/sa-sdk-javascript": {
+      "archived": false,
+      "created_at": "2015-11-06",
+      "description": "神策数据官方 Web JavaScript 埋点 SDK，是一款轻量级用于 Web 端和 H5 端的数据采集埋点 SDK。使用原生 JavaScript 技术实现代码埋点、全埋点、可视化全埋点、网页热力图和触达图等功能。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 538,
+      "full_name": "sensorsdata/sa-sdk-javascript",
+      "id": 45662586,
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-09-10",
+      "score": 11.93,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 958,
+      "topics": [],
+      "url": "https://github.com/sensorsdata/sa-sdk-javascript",
+      "verified_at": "2026-11-11"
+    },
     "shashankvemuri/Finance": {
       "created_at": "2020-02-09",
       "description": "Python toolkit for quantitative finance: stock analysis, technical indicators, strategy backtesting, portfolio optimization, and financial modeling.",
@@ -18164,6 +19941,43 @@
       ],
       "url": "https://github.com/wshobson/maverick-mcp"
     },
+    "xingwudao/xquant-beginner": {
+      "archived": false,
+      "created_at": "2026-06-09",
+      "description": "《XQuant：人人都是量化交易员》量化交易入门与自学开源书：用 AI 和 Python 从零跑通策略回测、风险评估、交易执行和因子研究。",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-11",
+      "forks": 180,
+      "full_name": "xingwudao/xquant-beginner",
+      "id": 1263681504,
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-02",
+      "score": 15.46,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 888,
+      "topics": [
+        "ai",
+        "ai-quant",
+        "algorithmic-trading",
+        "backtesting",
+        "beginner-friendly",
+        "finance",
+        "fintech",
+        "gitbook",
+        "python",
+        "quant",
+        "quant-finance",
+        "quantitative-trading",
+        "trading",
+        "trading-strategy",
+        "tutorial",
+        "vitepress"
+      ],
+      "url": "https://github.com/xingwudao/xquant-beginner"
+    },
     "yennanliu/InvestSkill": {
       "created_at": "2026-02-16",
       "description": "US stock analysis skills for LLMs (Claude code, Gemini ...)  | #AI",
@@ -18235,6 +20049,38 @@
         "volatility"
       ],
       "url": "https://github.com/zadescoxp/order-flow-screener"
+    },
+    "zgsfsec/Full-Chain-Sentinel-System": {
+      "archived": false,
+      "created_at": "2026-10-16",
+      "description": "全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-11",
+      "forks": 256,
+      "full_name": "zgsfsec/Full-Chain-Sentinel-System",
+      "id": 1421622972,
+      "language": "TypeScript",
+      "license": "MIT",
+      "pushed_at": "2026-11-09",
+      "score": 16.59,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 869,
+      "topics": [
+        "agent",
+        "blue-team",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "pentest-tool",
+        "pentest-tools",
+        "pentesting-tools",
+        "security",
+        "security-tools",
+        "self-agent-id"
+      ],
+      "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+      "verified_at": "2026-11-11"
     },
     "zzhahn/a_stock_level2_data": {
       "created_at": "2026-09-28",
@@ -19323,10 +21169,13 @@
       "0xSero/DeepSeek-V4.1-Flash-Two-Sparks",
       "0xohioism/polymarket-crypto-5m-15min-trading-bot",
       "0xramm/Indian-Stock-Market-API",
+      "51bitquant/binance_grid_trader",
+      "51bitquant/howtrader",
       "555cute/r20-quantum-trader",
       "AFK-surf/Comma",
       "AI4Finance-Foundation/FinRL-Trading",
       "ARahim3/kaggle-tpu-lab",
+      "Adamant-im/adamant-tradebot",
       "AetherLabsAI/Video2World",
       "Aevonix/FlashAlign",
       "Agent-Field/SWE-AF",
@@ -19339,6 +21188,7 @@
       "ArchDiverYank/lrt",
       "Aryanutkarsh/SeeCode",
       "AstrBotDevs/AstrBot",
+      "AsyncAlgoTrading/aat",
       "Atoll92/agent-standup",
       "AtomicBot-ai/Atomic-Chat",
       "BYTEX-TRADE/bytex",
@@ -19414,6 +21264,9 @@
       "Kerneta/daidocs",
       "KhazP/vibe-coding-prompt-template",
       "KnifeLemon/Droidline",
+      "KunMoe/kun-touchgal-next",
+      "KylinMountain/TradingAgents-AShare",
+      "Leo4815162342/dukascopy-node",
       "Leonccaa/ReVolta",
       "Leonxlnx/earshot",
       "LockedinLabs-AI/agent-console",
@@ -19440,6 +21293,7 @@
       "Nanako0129/sepia",
       "Natively-AI-assistant/natively-cluely-ai-assistant",
       "Nehanth/swarmllm",
+      "NewLifeX/NewLife.Redis",
       "Nexilume-AI/nexus-cloud",
       "NiazMorshed2007/jev-review",
       "NirDiamant/agents-towards-production",
@@ -19478,6 +21332,7 @@
       "Stratumgreawning7/MemeCoin-Sniper-Bot",
       "T-Crypt/berth",
       "TINGLISE/auto-trading-bot-pumpfun-solana-V2",
+      "TencentBlueKing/bk-job",
       "TencentCloud/TencentDB-Agent-Memory",
       "The-FinAI/PIXIU",
       "The-Knowledge-Graph-Guys/vault-ld",
@@ -19525,6 +21380,7 @@
       "ahtx/kindi",
       "ai-dynamo/dynamo",
       "aicodeking/pandacode",
+      "ailabx/agilab",
       "aiskyhub/novel_to_comic",
       "aitofound/ScienceIDE",
       "akfamily/akquant",
@@ -19607,6 +21463,7 @@
       "dolev31/lasagna",
       "dominikmartn/harp",
       "dphnAI/sonar",
+      "dromara/dante-cloud",
       "drowzeys/keys-vLLm.0.27.1-GLM-5.3-Flash-NVFP4-NVFP4KV-1M-Context-Abliterated",
       "duhu2000/dsh-mcp-connector",
       "duty1g/x64dbg-mcp-server",
@@ -19641,6 +21498,7 @@
       "fumingyang2004/Tulpa",
       "furkankly/zoetrope",
       "gauravapiscean/agentic-kv-cache",
+      "gazbert/bxbot",
       "gbeced/basana",
       "git-wallet/gitwallet",
       "github/CopilotForXcode",
@@ -19648,6 +21506,7 @@
       "google/artemis",
       "griddaimyorun/Metatraider-Traiding-Bot",
       "halfrost/Halfrost-Field",
+      "hananedupouy/LLMs-in-Finance",
       "hanxiao/DeepSeek-V4.1-Flash-1017-FP8-abliterated-4x-RTX-PRO-6000",
       "happyme531/open_rknpu2_lm_infer",
       "hardbeat920/monocode",
@@ -19657,6 +21516,7 @@
       "hkqr/my-free-code",
       "hongfaqiu/strata-manager",
       "hosseinmoein/DataFrame",
+      "huanyuejue/Fluent-Steam-Lua",
       "i-am-manware/Manware-s-AI-Learning-Toolkit",
       "iOfficeAI/AionUi",
       "ikermoel/open-alternative-jev",
@@ -19674,12 +21534,14 @@
       "jayleaton/deepseek-v41-tensorfold-spark",
       "jayleaton/glm53-tensorfold-spark",
       "jesse-ai/jesse",
+      "jianweiweng05/qsx-strategy-score",
       "jlowin/vibecheck",
       "jmanico/grim-prompter",
       "joaquinbejar/market-maker-rs",
       "jpezzulli/sglang-rtxpro6000",
       "juliankang4/spark-scope",
       "justxor/deepseek-local-guide-ru",
+      "jwangkun/claude-for-financial-services-cn",
       "kan0un/minsung-crypto-pair-trading-model-desktop",
       "katanemo/plano",
       "kay-ou/SimTradeLab",
@@ -19705,6 +21567,7 @@
       "lightseekorg/tokenspeed",
       "linqiu919/better-context-engine",
       "lisazhou886/smart-money-forex-strategy-mt4",
+      "liudf0716/xfrpc",
       "liyupi/ai-guide",
       "liyupi/ai-promo-video-maker",
       "llmware-ai/llmware",
@@ -19796,12 +21659,15 @@
       "ruc-datalab/EvoOntology",
       "run-llama/llama_index",
       "rundef/async_rithmic",
+      "rush86999/atom",
       "sahibzada-allahyar/Formal-Verification-RSI",
       "samuelcardillo/glm-5.3-flash-2x-rtx-pro-6000-blackwell",
       "sarpstar/cinecode",
       "scaleapi/SWE-bench_Pro-os",
+      "sdcoffey/techan",
       "sdi2200262/agentic-project-management",
       "seanyourhighness/vllm-sm12x-nvfp4-dflash2",
+      "sensorsdata/sa-sdk-javascript",
       "seoan1024/Korean-llm-v4",
       "sfxnz/DeepSeek-V4.1-Flash-EXL3-vLLM-2x-DGX-Spark",
       "sgl-project/sglang",
@@ -19882,6 +21748,7 @@
       "xLLM-AI/xllm",
       "xLLM-AI/xllm-service",
       "xiaomoBoy/pi-bluebook",
+      "xingwudao/xquant-beginner",
       "xorbitsai/inference",
       "xp2001-coder/zero2vllm",
       "xxPcy/PharmaLLM-Agent",
@@ -19895,6 +21762,7 @@
       "zadescoxp/order-flow-screener",
       "zai-org/GLM-5",
       "zai-org/ZCode",
+      "zgsfsec/Full-Chain-Sentinel-System",
       "zhangshuibai/molten",
       "zhengzihaoPKU/KERV",
       "zickrian/isle",
