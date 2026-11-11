@@ -468,7 +468,7 @@ def fetch_repositories(
         for repo in client.github_search(query, per_query):
             found[repo["full_name"]] = compact_repo(repo, now, "new")
     for base in config.get("active_repo_queries", []):
-        query = f"{base} pushed:>={active_since} stars:200..999 archived:false"
+        query = f"{base} pushed:>={active_since} stars:200..499 archived:false"
         for repo in client.github_search(query, per_query):
             found.setdefault(repo["full_name"], compact_repo(repo, now, "active"))
     for base in config.get("growth_repo_queries", []):
