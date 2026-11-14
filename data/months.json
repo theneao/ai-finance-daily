@@ -4332,6 +4332,32 @@
         "url": "https://github.com/51bitquant/howtrader",
         "verified_at": "2026-11-11"
       },
+      "ALAGENT-HKU/x2strategy": {
+        "archived": false,
+        "created_at": "2026-03-26",
+        "description": "Extract structured strategy specifications from quantitative finance research papers — Agent Skill for GitHub Copilot & Claude Code",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-14",
+        "forks": 46,
+        "full_name": "ALAGENT-HKU/x2strategy",
+        "id": 1192629876,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-06-12",
+        "score": 9.81,
+        "star_baseline_12m": {
+          "date": "2026-11-11",
+          "stars": 283
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-11",
+          "stars": 283
+        },
+        "stars": 283,
+        "topics": [],
+        "url": "https://github.com/ALAGENT-HKU/x2strategy"
+      },
       "AUTO-MAS-Project/AUTO-MAS": {
         "archived": false,
         "created_at": "2024-02-06",
@@ -4528,6 +4554,46 @@
           "solana-transactions"
         ],
         "url": "https://github.com/Beingfluresurrect/Solana-token-sniper"
+      },
+      "Blave-TW/blave-agent": {
+        "archived": false,
+        "created_at": "2026-04-28",
+        "description": "Quant infrastructure for AI agents — a free, open-source desktop workspace for macOS and Windows where your Claude Code or Codex turns a trading idea into a backtested strategy and runs it live.",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-14",
+        "forks": 35,
+        "full_name": "Blave-TW/blave-agent",
+        "id": 1223137280,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-11-14",
+        "score": 15.16,
+        "star_baseline_12m": {
+          "date": "2026-11-11",
+          "stars": 341
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-11",
+          "stars": 341
+        },
+        "stars": 346,
+        "topics": [
+          "ai-agent",
+          "algorithmic-trading",
+          "backtesting",
+          "claude-code",
+          "codex",
+          "crypto",
+          "electron",
+          "macos",
+          "mcp",
+          "quant",
+          "taiwan-stock",
+          "trading-bot",
+          "windows"
+        ],
+        "url": "https://github.com/Blave-TW/blave-agent"
       },
       "CCSH/IPTV": {
         "archived": false,
@@ -5149,6 +5215,32 @@
         ],
         "url": "https://github.com/QuantJourneyOrg/quantjourney-bt",
         "verified_at": "2026-11-12"
+      },
+      "QuantMLResearch/pyrust-bt": {
+        "archived": false,
+        "created_at": "2025-08-08",
+        "description": "Hybrid Python + Rust backtesting framework ",
+        "disabled": false,
+        "discovery": "growth-watch",
+        "first_seen": "2026-11-14",
+        "forks": 63,
+        "full_name": "QuantMLResearch/pyrust-bt",
+        "id": 1034368393,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-07-20",
+        "score": 10.06,
+        "star_baseline_12m": {
+          "date": "2026-11-11",
+          "stars": 327
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-11",
+          "stars": 327
+        },
+        "stars": 327,
+        "topics": [],
+        "url": "https://github.com/QuantMLResearch/pyrust-bt"
       },
       "Quantweb3-com/NexusTrader": {
         "archived": false,
@@ -6238,6 +6330,41 @@
         "url": "https://github.com/billpwchan/futu_algo",
         "verified_at": "2026-11-12"
       },
+      "binance/binance-connector-go": {
+        "archived": false,
+        "created_at": "2023-03-31",
+        "description": "Simple GO connector to Binance API",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-14",
+        "forks": 120,
+        "full_name": "binance/binance-connector-go",
+        "id": 621815083,
+        "language": "Go",
+        "license": "MIT",
+        "pushed_at": "2026-11-12",
+        "score": 14.97,
+        "star_baseline_12m": {
+          "date": "2026-11-11",
+          "stars": 342
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-11",
+          "stars": 342
+        },
+        "stars": 342,
+        "topics": [
+          "binance-api",
+          "connector",
+          "crypto",
+          "golang",
+          "library",
+          "market-data",
+          "real-time",
+          "trading"
+        ],
+        "url": "https://github.com/binance/binance-connector-go"
+      },
       "binance/binance-connector-java": {
         "archived": false,
         "created_at": "2021-12-08",
@@ -6307,6 +6434,72 @@
         ],
         "url": "https://github.com/binance/binance-connector-js",
         "verified_at": "2026-11-11"
+      },
+      "binance/binance-connector-rust": {
+        "archived": false,
+        "created_at": "2022-12-06",
+        "description": "Simple Rust connector to Binance API",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-14",
+        "forks": 98,
+        "full_name": "binance/binance-connector-rust",
+        "id": 574841721,
+        "language": "Rust",
+        "license": "MIT",
+        "pushed_at": "2026-11-12",
+        "score": 14.99,
+        "star_baseline_12m": {
+          "date": "2026-11-11",
+          "stars": 345
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-11",
+          "stars": 345
+        },
+        "stars": 345,
+        "topics": [
+          "binance-api",
+          "connector",
+          "crypto",
+          "library",
+          "market",
+          "real-time",
+          "rust",
+          "spot",
+          "trading"
+        ],
+        "url": "https://github.com/binance/binance-connector-rust"
+      },
+      "bsolomon1124/pyfinance": {
+        "archived": false,
+        "created_at": "2017-08-24",
+        "description": "Python package designed for general financial and security returns analysis.",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-14",
+        "forks": 63,
+        "full_name": "bsolomon1124/pyfinance",
+        "id": 101308108,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-07-21",
+        "score": 10.12,
+        "star_baseline_12m": {
+          "date": "2026-11-11",
+          "stars": 337
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-11",
+          "stars": 337
+        },
+        "stars": 337,
+        "topics": [
+          "finance",
+          "investment-analysis",
+          "python3"
+        ],
+        "url": "https://github.com/bsolomon1124/pyfinance"
       },
       "casual-silva/NewsCrawl": {
         "archived": false,
@@ -7175,6 +7368,38 @@
         "url": "https://github.com/jadepeng/pytrader",
         "verified_at": "2026-11-13"
       },
+      "jaikydota/BullFlow": {
+        "archived": false,
+        "created_at": "2026-10-14",
+        "description": "推量牛 BullFlow — 开源企业级 RAG 解决方案：从企业知识库、营销内容自动化生产到全域内容分发 | Open-source enterprise RAG solution: knowledge base → automated marketing content → omnichannel publishing. 知识库全链路本地开源模型，无需付费模型；AI Agent 创作图文 / 图片 / 视频，一键发布抖音、小红书、公众号、LinkedIn、YouTube 等 17 个平台。Commercial-grade, multi-tenant, billing & admin built in. MIT",
+        "disabled": false,
+        "discovery": "historical",
+        "first_seen": "2026-11-14",
+        "forks": 31,
+        "full_name": "jaikydota/BullFlow",
+        "id": 1418531436,
+        "language": "TypeScript",
+        "license": "MIT",
+        "pushed_at": "2026-10-14",
+        "score": 10.88,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 523,
+        "topics": [
+          "ai-agents",
+          "bge-m3",
+          "content-generation",
+          "elasticsearch",
+          "knowledge-base",
+          "langgraph",
+          "milvus",
+          "multi-tenant",
+          "rag",
+          "social-media-marketing"
+        ],
+        "url": "https://github.com/jaikydota/BullFlow",
+        "verified_at": "2026-11-14"
+      },
       "jianweiweng05/qsx-strategy-score": {
         "archived": false,
         "created_at": "2026-06-24",
@@ -7490,6 +7715,42 @@
         ],
         "url": "https://github.com/liudf0716/xfrpc",
         "verified_at": "2026-11-11"
+      },
+      "lrvx/lrvx": {
+        "archived": false,
+        "created_at": "2025-05-25",
+        "description": "Framework for building trading systems",
+        "disabled": false,
+        "discovery": "growth-watch",
+        "first_seen": "2026-11-14",
+        "forks": 40,
+        "full_name": "lrvx/lrvx",
+        "id": 990086023,
+        "language": "C++",
+        "license": "MIT",
+        "pushed_at": "2026-11-14",
+        "score": 14.46,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 231,
+        "topics": [
+          "algorithmic-trading",
+          "algotrading",
+          "backtesting",
+          "codon",
+          "cpp",
+          "framework",
+          "javascript",
+          "market-data",
+          "matching-engine",
+          "mcp",
+          "order-book",
+          "python",
+          "quant",
+          "tick-data",
+          "trading"
+        ],
+        "url": "https://github.com/lrvx/lrvx"
       },
       "mingli30119/stock-analysis": {
         "archived": false,
@@ -7807,6 +8068,42 @@
         "topics": [],
         "url": "https://github.com/quant-king299/EasyXT",
         "verified_at": "2026-11-11"
+      },
+      "quiknode-labs/hyperliquid-sdk": {
+        "archived": false,
+        "created_at": "2026-02-27",
+        "description": "Hyperliquid SDK",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-14",
+        "forks": 10,
+        "full_name": "quiknode-labs/hyperliquid-sdk",
+        "id": 1168056305,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-10-27",
+        "score": 12.03,
+        "star_baseline_12m": {
+          "date": "2026-11-11",
+          "stars": 291
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-11",
+          "stars": 291
+        },
+        "stars": 291,
+        "topics": [
+          "blockchain",
+          "crypto",
+          "cryptocurrencies",
+          "cryptocurrency",
+          "hyperliquid",
+          "hyperliquid-api",
+          "trading",
+          "trading-api",
+          "web3"
+        ],
+        "url": "https://github.com/quiknode-labs/hyperliquid-sdk"
       },
       "ralphtradesz/trading-hub": {
         "created_at": "2026-10-17",
@@ -8449,6 +8746,35 @@
         ],
         "url": "https://github.com/yangfeng20/ai-job",
         "verified_at": "2026-11-11"
+      },
+      "zandy700/supply-chain-shock-map": {
+        "archived": false,
+        "created_at": "2026-11-05",
+        "description": "Predicts how news-driven supply-chain shocks ripple across S&P 500 stocks, with an event-study backtest and a hash-chained public prediction ledger. Built on MIT open-source SEC supply-graph code.",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-14",
+        "forks": 27,
+        "full_name": "zandy700/supply-chain-shock-map",
+        "id": 1446553661,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-11-14",
+        "score": 15.32,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 379,
+        "topics": [
+          "cloudflare-workers",
+          "d3",
+          "event-study",
+          "finance",
+          "gdelt",
+          "python",
+          "sec-edgar",
+          "supply-chain"
+        ],
+        "url": "https://github.com/zandy700/supply-chain-shock-map"
       },
       "zgsfsec/Full-Chain-Sentinel-System": {
         "archived": false,
