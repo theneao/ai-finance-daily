@@ -1,335 +1,65 @@
 {
-  "collection_warnings": [],
+  "collection_warnings": [
+    "arXiv 论文源采集失败（HTTPError）；本次未获取新论文，已收录论文保留，GitHub 项目继续更新。"
+  ],
   "papers": [],
   "repositories": [
     {
       "archived": false,
-      "created_at": "2026-10-14",
-      "description": "推量牛 BullFlow — 开源企业级 RAG 解决方案：从企业知识库、营销内容自动化生产到全域内容分发 | Open-source enterprise RAG solution: knowledge base → automated marketing content → omnichannel publishing. 知识库全链路本地开源模型，无需付费模型；AI Agent 创作图文 / 图片 / 视频，一键发布抖音、小红书、公众号、LinkedIn、YouTube 等 17 个平台。Commercial-grade, multi-tenant, billing & admin built in. MIT",
+      "created_at": "2026-10-15",
+      "description": "Self-hosted alternative to Claude and ChatGPT Personal Finance. An AI agent that manages your budget and investments, and can place trades.",
       "disabled": false,
       "discovery": "historical",
-      "first_seen": "2026-11-14",
-      "forks": 31,
-      "full_name": "jaikydota/BullFlow",
-      "id": 1418531436,
-      "language": "TypeScript",
-      "license": "MIT",
-      "pushed_at": "2026-10-14",
-      "score": 10.88,
-      "star_baseline_12m": null,
-      "star_baseline_6m": null,
-      "stars": 523,
-      "topics": [
-        "ai-agents",
-        "bge-m3",
-        "content-generation",
-        "elasticsearch",
-        "knowledge-base",
-        "langgraph",
-        "milvus",
-        "multi-tenant",
-        "rag",
-        "social-media-marketing"
-      ],
-      "url": "https://github.com/jaikydota/BullFlow",
-      "verified_at": "2026-11-14"
-    },
-    {
-      "archived": false,
-      "created_at": "2026-11-05",
-      "description": "Predicts how news-driven supply-chain shocks ripple across S&P 500 stocks, with an event-study backtest and a hash-chained public prediction ledger. Built on MIT open-source SEC supply-graph code.",
-      "disabled": false,
-      "discovery": "active",
-      "first_seen": "2026-11-14",
-      "forks": 27,
-      "full_name": "zandy700/supply-chain-shock-map",
-      "id": 1446553661,
-      "language": "JavaScript",
-      "license": "MIT",
-      "pushed_at": "2026-11-14",
-      "score": 15.32,
-      "star_baseline_12m": null,
-      "star_baseline_6m": null,
-      "stars": 379,
-      "topics": [
-        "cloudflare-workers",
-        "d3",
-        "event-study",
-        "finance",
-        "gdelt",
-        "python",
-        "sec-edgar",
-        "supply-chain"
-      ],
-      "url": "https://github.com/zandy700/supply-chain-shock-map"
-    },
-    {
-      "archived": false,
-      "created_at": "2026-04-28",
-      "description": "Quant infrastructure for AI agents — a free, open-source desktop workspace for macOS and Windows where your Claude Code or Codex turns a trading idea into a backtested strategy and runs it live.",
-      "disabled": false,
-      "discovery": "active",
-      "first_seen": "2026-11-14",
-      "forks": 35,
-      "full_name": "Blave-TW/blave-agent",
-      "id": 1223137280,
+      "first_seen": "2026-11-15",
+      "forks": 57,
+      "full_name": "open-net-worth-ai/open-net-worth",
+      "id": 1420862684,
       "language": "Python",
-      "license": "Apache-2.0",
-      "pushed_at": "2026-11-14",
-      "score": 15.16,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 341
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 341
-      },
-      "stars": 346,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-15",
+      "score": 15.81,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 504,
       "topics": [
+        "agentic-trader",
+        "agentic-trading-team",
         "ai-agent",
-        "algorithmic-trading",
-        "backtesting",
-        "claude-code",
-        "codex",
-        "crypto",
-        "electron",
-        "macos",
+        "budgeting",
+        "envelope-budgeting",
+        "investment-tracker",
+        "local-first",
         "mcp",
-        "quant",
-        "taiwan-stock",
-        "trading-bot",
-        "windows"
+        "net-worth",
+        "personal-finance",
+        "self-hosted",
+        "ynab-alternative"
       ],
-      "url": "https://github.com/Blave-TW/blave-agent"
+      "url": "https://github.com/open-net-worth-ai/open-net-worth",
+      "verified_at": "2026-11-15"
     },
     {
       "archived": false,
-      "created_at": "2022-12-06",
-      "description": "Simple Rust connector to Binance API",
+      "created_at": "2026-11-10",
+      "description": "Calibrain Harness: a forward-testing harness for trading crypto perpetuals with fast classification models (Kairos today) on Bybit testnet. Under development.",
       "disabled": false,
       "discovery": "active",
-      "first_seen": "2026-11-14",
-      "forks": 98,
-      "full_name": "binance/binance-connector-rust",
-      "id": 574841721,
-      "language": "Rust",
-      "license": "MIT",
-      "pushed_at": "2026-11-12",
-      "score": 14.99,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 345
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 345
-      },
-      "stars": 345,
-      "topics": [
-        "binance-api",
-        "connector",
-        "crypto",
-        "library",
-        "market",
-        "real-time",
-        "rust",
-        "spot",
-        "trading"
-      ],
-      "url": "https://github.com/binance/binance-connector-rust"
-    },
-    {
-      "archived": false,
-      "created_at": "2023-03-31",
-      "description": "Simple GO connector to Binance API",
-      "disabled": false,
-      "discovery": "active",
-      "first_seen": "2026-11-14",
-      "forks": 120,
-      "full_name": "binance/binance-connector-go",
-      "id": 621815083,
-      "language": "Go",
-      "license": "MIT",
-      "pushed_at": "2026-11-12",
-      "score": 14.97,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 342
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 342
-      },
-      "stars": 342,
-      "topics": [
-        "binance-api",
-        "connector",
-        "crypto",
-        "golang",
-        "library",
-        "market-data",
-        "real-time",
-        "trading"
-      ],
-      "url": "https://github.com/binance/binance-connector-go"
-    },
-    {
-      "archived": false,
-      "created_at": "2017-08-24",
-      "description": "Python package designed for general financial and security returns analysis.",
-      "disabled": false,
-      "discovery": "active",
-      "first_seen": "2026-11-14",
-      "forks": 63,
-      "full_name": "bsolomon1124/pyfinance",
-      "id": 101308108,
+      "first_seen": "2026-11-15",
+      "forks": 64,
+      "full_name": "zadescoxp/calibrain-harness",
+      "id": 1452485821,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-07-21",
-      "score": 10.12,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 337
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 337
-      },
-      "stars": 337,
-      "topics": [
-        "finance",
-        "investment-analysis",
-        "python3"
-      ],
-      "url": "https://github.com/bsolomon1124/pyfinance"
-    },
-    {
-      "archived": false,
-      "created_at": "2025-08-08",
-      "description": "Hybrid Python + Rust backtesting framework ",
-      "disabled": false,
-      "discovery": "growth-watch",
-      "first_seen": "2026-11-14",
-      "forks": 63,
-      "full_name": "QuantMLResearch/pyrust-bt",
-      "id": 1034368393,
-      "language": "Python",
-      "license": null,
-      "pushed_at": "2026-07-20",
-      "score": 10.06,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 327
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 327
-      },
-      "stars": 327,
-      "topics": [],
-      "url": "https://github.com/QuantMLResearch/pyrust-bt"
-    },
-    {
-      "archived": false,
-      "created_at": "2026-02-27",
-      "description": "Hyperliquid SDK",
-      "disabled": false,
-      "discovery": "active",
-      "first_seen": "2026-11-14",
-      "forks": 10,
-      "full_name": "quiknode-labs/hyperliquid-sdk",
-      "id": 1168056305,
-      "language": "Python",
-      "license": "MIT",
-      "pushed_at": "2026-10-27",
-      "score": 12.03,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 291
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 291
-      },
-      "stars": 291,
-      "topics": [
-        "blockchain",
-        "crypto",
-        "cryptocurrencies",
-        "cryptocurrency",
-        "hyperliquid",
-        "hyperliquid-api",
-        "trading",
-        "trading-api",
-        "web3"
-      ],
-      "url": "https://github.com/quiknode-labs/hyperliquid-sdk"
-    },
-    {
-      "archived": false,
-      "created_at": "2026-03-26",
-      "description": "Extract structured strategy specifications from quantitative finance research papers — Agent Skill for GitHub Copilot & Claude Code",
-      "disabled": false,
-      "discovery": "active",
-      "first_seen": "2026-11-14",
-      "forks": 46,
-      "full_name": "ALAGENT-HKU/x2strategy",
-      "id": 1192629876,
-      "language": "Python",
-      "license": null,
-      "pushed_at": "2026-06-12",
-      "score": 9.81,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 283
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 283
-      },
-      "stars": 283,
-      "topics": [],
-      "url": "https://github.com/ALAGENT-HKU/x2strategy"
-    },
-    {
-      "archived": false,
-      "created_at": "2025-05-25",
-      "description": "Framework for building trading systems",
-      "disabled": false,
-      "discovery": "growth-watch",
-      "first_seen": "2026-11-14",
-      "forks": 40,
-      "full_name": "lrvx/lrvx",
-      "id": 990086023,
-      "language": "C++",
-      "license": "MIT",
-      "pushed_at": "2026-11-14",
-      "score": 14.46,
+      "pushed_at": "2026-11-13",
+      "score": 14.78,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 231,
-      "topics": [
-        "algorithmic-trading",
-        "algotrading",
-        "backtesting",
-        "codon",
-        "cpp",
-        "framework",
-        "javascript",
-        "market-data",
-        "matching-engine",
-        "mcp",
-        "order-book",
-        "python",
-        "quant",
-        "tick-data",
-        "trading"
-      ],
-      "url": "https://github.com/lrvx/lrvx"
+      "stars": 306,
+      "topics": [],
+      "url": "https://github.com/zadescoxp/calibrain-harness"
     }
   ],
-  "run_date": "2026-11-14",
+  "run_date": "2026-11-15",
   "topic_papers": {},
   "topic_repositories": {}
 }
