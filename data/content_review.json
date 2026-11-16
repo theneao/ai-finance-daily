@@ -11,17 +11,17 @@
   },
   "0105f1ecc8be4936e95236307947becfa841a1d328199352b6d8c037bd8cb1da": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "01d5d48f737704f258313a9495b2051a0dceef0b0be9e2f6d54cd4fe0aab9505": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "01f202beb638810245cf92f9db91474a3682a609f3bc5b583ccae97e93ba35ca": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "excluded"
   },
   "02949c1917bea870536b090355992768ad2cd7c192b59cfd34cd924b4103333e": {
@@ -66,7 +66,7 @@
   },
   "07d381f4a3b65a89025132ef16dab07601d4966546f9b32709c6e9a855f59a35": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "0858c8d26f81b5d04d18ddaaf364a6394f02211c41094f3d2328a3812453ce36": {
@@ -136,7 +136,7 @@
   },
   "0d5a4bf1b6b8829c3b84764470ef4f4181651d619e7cabf073f78fa48967d55a": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "excluded"
   },
   "0d94cf8b7302c6c73c24032ae4c3ea9f58867799ddec5451a5479f89643711ca": {
@@ -146,7 +146,7 @@
   },
   "0df1c78ea14afdf551dd1b261106956cedc29214829abf0c3fed3c88d3ce776a": {
     "policy_version": 2,
-    "revision": "2026-11-13",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "0f031a438d9876db2274e98396886d2838e0010144c53ad862255582d601d958": {
@@ -181,7 +181,7 @@
   },
   "11b4039d7664690ed8d5f298e7c33173ef123d0cf78cb0a6d2334b01f8686d6c": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "1214b185a4de7cb517d22515999a39387deef031efe97aa972b5af4d463ae9c0": {
@@ -191,7 +191,7 @@
   },
   "1441cd946ac0000cdb4924379a87c5bee2bafd88985bd363e615cee7bd2e4b64": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "1455c00f05f751d8c3f50bc52e23cfda1a28cd354f06f576c11459a6606a2707": {
@@ -275,7 +275,7 @@
   },
   "1d32f714d6d5ef8c3f1ac39df43944e52be2b0604fd8aa3aad53649b6af99bda": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "1dd4ed6d8ddc143166cfb4fcbcb5d21dc5c465567ae04b4586f3b9b614360c5b": {
@@ -295,7 +295,7 @@
   },
   "1e62054861ff64a358511a046ec54d8b25e592eccc8300f784653b1b21491001": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "1e73037243f527f859bbd705068b623b1ff47ebf71fb460018186076a9ea14e8": {
@@ -400,7 +400,7 @@
   },
   "29823a8e7f2a2f3f0e0f15681e8d507c9f12c589dcbf6187b0e2ad1e2285221d": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "2a7321057ac1a540de065ca4d50261dade753b2182d4f5353f5506a2dd6d5843": {
@@ -435,7 +435,7 @@
   },
   "2bd6a3dadd587a129d3c50875aa9843add21f345e51359222332af4a12581f41": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "2bea803e0d6026a6e08070add0ac8f1d60d6d5b2f1c5b984e3f3545e7fac2938": {
@@ -455,7 +455,7 @@
   },
   "2d439882820d8d7945be1c6d6d4ebb9015ff3f843533007a7eccaab9dd34bed1": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "2e8a0e32be9e842df4a7f5a6797f3373074059ee1f6089fba19124b80cd5b82d": {
@@ -504,7 +504,7 @@
   },
   "319ed586b10b5efbb36d62ffb488a0cd487d394fc81d72cdf9a585ed3f00cf4c": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "excluded"
   },
   "3223814a0a41d4ab9fa78d43d804ede110d913bacf07073ec9db23d61a9e450a": {
@@ -524,7 +524,7 @@
   },
   "3347a87c7a6e22b2040c477ef8cb7d98861f5aacb220ac36c3a01e5a872506dd": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "336a17ed897449a48e3bcb5abb293596526c983e8aac8403eb34a0a072fde247": {
@@ -658,7 +658,7 @@
   },
   "42899a0cfa0dd9196d9d38c0bff449983cb133dfc4f996740102316299230d89": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "42ca899d52b02b3fff38bb74fc42009d18f17c35d302bb89eca4d02743195609": {
@@ -703,7 +703,7 @@
   },
   "45525008a33b56b45a3f2003464684d8552896cd5f68cb5c1ff88027ed35dc3f": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "4709fd76123ae72f8ba3df52225a20461a0af106045db9e25a03ae245a0ed0f3": {
@@ -713,7 +713,7 @@
   },
   "477d67fe3966c273ab17c1752a3d220bc68dea6a9858f3ef0676483240de8703": {
     "policy_version": 2,
-    "revision": "2026-11-11",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "4793d6817187072f7d103b7b28cbf6a3eaa5b53158e2d03160ac4cd5c3c1e4ea": {
@@ -777,12 +777,12 @@
   },
   "50abe543ced3fd3fd84af56ee5ae104d6a6f7a58a5660620e9f817b6d2999ef3": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "50cc292db4ce57e69bf36215e591ad2392d15d55278e35b1ebf7f14dc495e707": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "5110b383d9b80434192138c79e093d5c2e0fb779ca0ba446e9b7dd515e1aadd0": {
@@ -792,7 +792,7 @@
   },
   "5125e0ec1f67c14f8f81de2a44689e49bf51685a9e6f1c7041c98ddf058e92ab": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "51538ee04a9ff78a5ceaa73d19818b74267b84a0b3ab094540861b8feffd2623": {
@@ -807,7 +807,7 @@
   },
   "53249347065fe8b4a4fcb8b18f4333ed75985285f2002ea9a3f3098dcf671dcf": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "53b22dd443fac626c1310929cb423f9039dbc82381f7f600932bb646a50076fa": {
@@ -832,7 +832,7 @@
   },
   "54fc9f958f2f0e7058fbe8545be3f3a2e7f3cfdbb898f6f47a16292e813c2117": {
     "policy_version": 2,
-    "revision": "2026-11-12",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "55212a1571e0eb96fc04c6b39ebc50f95b66c3ea2a37fbc79254abda6be05f2d": {
@@ -937,7 +937,7 @@
   },
   "5ce11f6e6dfcc6ba65efcdfce0a6f92fc5a93ba988c2f3f662d22f582e25b8b2": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "5ce85693470bef623428cb3733deec18b70c8b72636542d0467393886060d18f": {
@@ -1020,7 +1020,7 @@
   },
   "650d16e3dc7e8ad7d2aff8d0c8ad35ee78cc989b4e36af54e92b7f621e72a5f4": {
     "policy_version": 2,
-    "revision": "2026-11-12",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "6565fd645b7cd50f42501647ec84c95763da7584ce87cdeff67a72f88b933641": {
@@ -1044,7 +1044,7 @@
   },
   "66924e1578458de6848dc0a0d4e1e37283c6d5f5a06fea427c280b20470c1b5b": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "67a5e19792a3591a0fb23f52ce96c98aea7ac009b6d5e5b26efa6e5b8412bdb1": {
@@ -1114,7 +1114,7 @@
   },
   "71973e7eeaefda6b9f4377a51633b6d63bc717d581f9e498cc5333d6445a9c5f": {
     "policy_version": 2,
-    "revision": "2026-11-13",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "71bbd1b9ee6c2b52c2ed250aa6185c1013b8ad49517dd34746fb727b62893857": {
@@ -1164,7 +1164,7 @@
   },
   "76b7b64449704713da23e640c2b84ad4f4dd833d53d1716c9216c98c20f4a997": {
     "policy_version": 2,
-    "revision": "2026-11-13",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "7724900c5d82712cc7ae6f9bbd2643bd22b096f23cce0cad5dade36a4032de9f": {
@@ -1174,7 +1174,7 @@
   },
   "77aa0e5cabec827f0e2804aaea8213b7fd3cab96243133eb88fc35e8b1536769": {
     "policy_version": 2,
-    "revision": "2026-10-31",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "77bb187769214943c03a4b1bbd585ebcbf65f46612ad73c3190e19ff860b9e77": {
@@ -1184,7 +1184,7 @@
   },
   "77e8c8fabc48a11498f8293bcb3535a46ff1addb247532b3d428a09df56fcdd6": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "7821b30ba864015ccbee51a9194e7b4848c5166f6c5fbab43493b2c9f07f5300": {
@@ -1209,7 +1209,7 @@
   },
   "7aedcc3defbf62932dba44b70bced4ea42de6a9ee395d14c55d352eb1afd6c1e": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "7b425fdc1d23fc656fc31b96bf74cb40575923dcc3b8717a98a2851db388c57d": {
@@ -1224,7 +1224,7 @@
   },
   "7d46f987a1e89d99d54b97e7255d9dcfb83be63ec3400dc3b9f0e819b21e142e": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "7da91927819956671c1b9aa1b631e5efb27c8f573e96a1d306f7be97f10f5960": {
@@ -1268,7 +1268,7 @@
   },
   "8055d870390449dbd97298e2cb01a06f294c12057d865ea29f3105719a65ed72": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "80c730d7f1821105b62e8299f7a998fc6eeb29d14d6d500f2c01c9cb0f0a8a13": {
@@ -1343,7 +1343,7 @@
   },
   "8571ad915e536b7697f5d94420d5de0e8dfdd7815f46c252cb2f61e7503815a4": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "8574f693eade6a86e74d4921c5a1a00b299d103e256f25d34509346de95e1a43": {
@@ -1363,12 +1363,12 @@
   },
   "86c93e603982f33f807383600ac9e47ad7618c95f2717195b027b79848c1c330": {
     "policy_version": 2,
-    "revision": "2026-11-02",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "8709b8bc95c4504a3ef02a34a00a33fcf4eb35182dce19da34b706d7f00b2109": {
     "policy_version": 2,
-    "revision": "2026-11-13",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "879aef682e5ff98192ee5a802522fd94acf926da555cf20e9c122e854ffcfd1f": {
@@ -1468,7 +1468,7 @@
   },
   "8fcf9c9d740a2a26b42cd369d274493990a10c2bf78784e7d66a5734266602c6": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "903198db8afcec78ce5b3e41e36d46d9f72a0fc97d685fa8eac1565fe9965f08": {
@@ -1572,7 +1572,7 @@
   },
   "99c3ac233976915ce504a3260a5485cae30cfa1f41a65495b540c0f4d3532a0b": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "99db71354e8e1117fcff661ed321c8dc435316f8152d9951fa0910f64f58075e": {
@@ -1582,12 +1582,12 @@
   },
   "99eed655b08bced5d4b5ad5859a55079913410868c2c971d0be2dab9e7faf454": {
     "policy_version": 2,
-    "revision": "2026-10-30",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "9bbdee6458b94e560a50aacabdd1eb804392773c4af6b1ff26b1d6307fc83303": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "9cd89521f916e5cebc6501bb8874a292cefafadf4dba79567d56dfe9ec9e7f3d": {
@@ -1647,7 +1647,7 @@
   },
   "a4e4c5a475eae4e2742d323913078b37424dcbb053a474a4bd293c355508a3e8": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "a6f5ad87f6a1c2b61b976c0dee86729c11d84c237e3a6a7e19672c7c359a0e75": {
@@ -1761,7 +1761,7 @@
   },
   "b2d1036633365cc2b676f1ed003cb82a17a12425e0819a9680aff09afcda9a46": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "b337500e13be7b8ed13206c8b09d7db3d044be85daafe3e7c4f5505740a9c10d": {
@@ -1815,7 +1815,7 @@
   },
   "b64fbc92fdc7352604a2cab47419932984e2dda55ab8d1160cab9e2d40ebbd2a": {
     "policy_version": 2,
-    "revision": "2026-11-09",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "b6b8e95e7bfbaeaa549c974c11066e5d3c087a5688ce2e2e5fa915838684ffd5": {
@@ -1835,7 +1835,7 @@
   },
   "b774c43fcbc7a1062780ed996608304bfff21455f76c857357923bbefb897ac4": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "b7a5e54447169ddda04777ec9e275930f8d41cebec669ea019b7759c20567fa8": {
@@ -1900,7 +1900,7 @@
   },
   "bc9b7d3da60fdeb97e6c6fb264f3cd89213f8dadbb0e4af14d74237b96b17848": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "bcd28b114c2e956fae78aa6ede79992d48748268a0da88bd2777773757016946": {
@@ -1945,7 +1945,7 @@
   },
   "be69bc3a060895afd711f786deabeb86a210552be5d9de3996aee380e653840e": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "be6c97a465348faadb59bfa6ad877d5a1051b333865e9dd732709d25b7a6c601": {
@@ -2025,7 +2025,7 @@
   },
   "c50a8ca7eb093a66b616e4a68f5f1656fbcbd32849548db2795c0f8b595dfc6a": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "c5a2cda6f8513ac5cc6b5683ad3705388b7ba3e1f563f5caed41886574230ad0": {
@@ -2104,7 +2104,7 @@
   },
   "cbcf796b4a6994f2f62c9b97d02d63000264f0a839c7117f27d047a8ecd590b5": {
     "policy_version": 2,
-    "revision": "2026-11-13",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "cc14da96299c6f2e9548d7e08abbe03686a6ee90abe4faa44170f99313f28751": {
@@ -2218,7 +2218,7 @@
   },
   "d5ba2b61fb6949133f9398da1b7d1a96404d76344a99ee1ce96718a0d0a74620": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "d779bf7cf55c24a0c3776e955a0da27e0a6d64908c4de11f544eee95e2518bfb": {
@@ -2283,7 +2283,7 @@
   },
   "dc2b0bf5883a50fb580a480ac07816caec99c2336e05ff77859b409d26eaf225": {
     "policy_version": 2,
-    "revision": "2026-11-15",
+    "revision": "2026-11-16",
     "status": "passed"
   },
   "dca75f06ec532356f2be1e89598fdce596d1f8938cedebdf3476b4e5442aadcf": {
@@ -2303,7 +2303,7 @@
   },
   "dfef27720abbd2b06291ae5f23d8037dcd3c3c3eb1f0a5a8479ca76e93c1854d": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "e13cd08e9ab096eaeb317b0a882f0d1a30c76bcf02ed77c99f126027e92359d5": {
@@ -2557,7 +2557,7 @@
   },
   "fcea423eed3ef4f89371712e3c3c5d45db5179dc5b0c10f0fef8b5d7e4fb021c": {
     "policy_version": 2,
-    "revision": "2026-11-14",
+    "revision": "2026-11-15",
     "status": "passed"
   },
   "fdb3d474561c66976df44824e35560ddafcc2b9956bd8b2cf6d75161da81d621": {
