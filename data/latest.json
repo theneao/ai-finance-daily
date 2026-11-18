@@ -2,207 +2,90 @@
   "collection_warnings": [],
   "papers": [
     {
-      "abstract": "Financial machine learning is widely used for market prediction, but many existing studies formulate trading as a directional forecasting problem and stop at predicting whether prices will rise or fall. Such predictions are difficult to translate directly into practical trading decisions, which also require execution rules, risk controls, and clearly defined actions. To address this gap, we propose an end-to-end machine learning framework for structured investment decision support. The framework integrates multi-asset market data, execution-aware label construction, feature engineering and refinement, specialist predictive models, and ensemble learning. Rather than defining learning targets solely according to future price direction, the proposed execution-aware formulation considers realised trading outcomes under predefined stop-loss and take-profit rules. Model outputs are subsequently converted into structured trading recommendations comprising trade direction, entry price, stop-loss, take-profit, and risk-reward ratio. The framework is evaluated using time-aware forward testing, with results showing that execution-aware labelling improves risk-adjusted trading performance over conventional directional labelling and that the integrated framework outperforms a simpler single-model baseline across key trading metrics. An automated cloud-based implementation further demonstrates the operational feasibility of the proposed approach. Overall, the findings suggest that closer alignment between predictive modelling, execution logic, and structured decision generation can improve the practical value of machine learning for financial trading.",
+      "abstract": "This study investigates the integration of sentiment analysis with machine learning models to forecast stock price movements using the Nvidia Corporation as a case study. Sentiment scores were derived from Nvidia-related financial news headlines using two sentiment analysis tools: FinBERT, a domain-specific tool, and TextBlob, a general-purpose tool. These scores were integrated into predictive frameworks based on bidirectional long short-term memory (Bi-LSTM) networks and multilayer perceptrons (MLPs) developed alongside historical stock price data. This study assesses the predictive performance over the entire observation period and across distinct market phases: bullish, stagnation, and strong bullish conditions. The findings indicate that sentiment features enhance predictive accuracy in specific contexts, particularly during stagnation phases, with TextBlob demonstrating superior performance to FinBERT in specific scenarios. In addition, Bi-LSTM models exhibit consistently superior performance in capturing temporal dependencies compared to MLPs. However, the impact of sentiment features diminished during strongly directional trends, such as those observed in strong bullish markets. The combination of FinBERT and TextBlob in the same dataset allows for a dual-perspective approach to sentiment analysis, thereby providing new insights into the dynamic relationship between market sentiment and stock price behavior. This research contributes to the existing literature on applying sentiment analysis to financial forecasting by advancing the integration of complementary sentiment tools and phase-specific evaluations.",
       "authors": [
-        "Aditya Bhardwaj",
-        "Xingchen Zhang"
+        "Ahmet Akusta"
       ],
       "categories": [
-        "cs.CE"
+        "q-fin.GN"
       ],
       "code_match": null,
       "code_url": null,
       "comment": "",
-      "first_seen": "2026-11-17",
-      "id": "2611.20348",
-      "paper_url": "https://arxiv.org/abs/2611.20348",
-      "pdf_url": "https://arxiv.org/pdf/2611.20348",
-      "published": "2026-11-16",
-      "title": "From Prediction to Action: An Execution-Aware End-to-End Machine Learning Framework for Structured Investment Decision Support",
-      "updated": "2026-11-16"
+      "first_seen": "2026-11-18",
+      "id": "2611.23057",
+      "paper_url": "https://arxiv.org/abs/2611.23057",
+      "pdf_url": "https://arxiv.org/pdf/2611.23057",
+      "published": "2026-11-17",
+      "title": "Integrating market sentiments for stock price prediction: A comparative study of Bi-LSTM and multilayer perceptions",
+      "updated": "2026-11-17"
     },
     {
-      "abstract": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives. We present AllocFlow, an end-to-end flow-matching framework that directly generates joint portfolio allocations from raw multi-asset market histories. To capture dependencies among portfolio positions, AllocFlow employs a cross-asset flow Transformer conditioned on temporal market representations to generate continuous, signed position weights across all instruments jointly. To address the sample inefficiency and instability of learning continuous allocation policies from scratch, we establish a two-stage training scheme: strategy-supervised imitation shapes a structured distribution of candidate portfolios, followed by group-relative reinforcement learning (RL) that refines joint decisions using portfolio-level financial rewards and a frozen policy reference. On hourly cryptocurrency perpetual futures, RL refinement raises the annualized net return of the imitation policy from $27.79\\%$ to $51.38\\%$ and its Calmar ratio from $0.955$ to $4.043$, surpassing the teacher strategy on every metric, and AllocFlow reaches a Calmar ratio of $4.90$ on six further months of unseen 2026 data without retraining.",
+      "abstract": "Financial market states lack a unique ground truth and must therefore be constructed from price data. Conventional labeling methods typically define states independently of the downstream classifier, leaving unresolved whether the resulting labels can be recovered from information available at prediction time. We propose DDSL, an iterative self-labeling framework that couples a price- and grammar-guided Viterbi labeler with a Transformer classifier through model feedback. DDSL constructs a nine-state representation that jointly encodes current and future market trends while retaining structured price emissions and temporal constraints throughout refinement. Experiments on SSE50, CSI300, CSI500, and NASDAQ100 show that DDSL increases held-out joint-state macro F1 by 78%-96% over single-pass dynamic-programming labeling. An independent GRU classifier that never participates in the labeling loop reproduces the same trend, while label entropy and class coverage remain stable, indicating that the gain transfers across architectures and is not caused by label collapse. We further show that learnability is controlled by both iteration and the model-feedback weight $β_{\\mathrm{model}}$. Iterative gains diminish as successive label systems converge, whereas stronger feedback increasingly widens the performance gap between the feedback Transformer and the independent GRU. Increased learnability is accompanied by declining segment-level price-feature separation after an initial improvement. Finally, a non-anticipative event study provides partial external validation: refinement strengthens a conditional BEAR$\\rightarrow$BULL reversal signal on the three A-share datasets, while the corresponding effect has the opposite sign on NASDAQ100. These results position DDSL as a structured framework for constructing market-state labels whose learnability can be explicitly controlled and evaluated.",
       "authors": [
-        "Annan Wang",
-        "Yuchen Xie",
-        "Yu Cen",
-        "Leon Liangyu Chen",
-        "Qianyu Julie Zhu",
-        "Xin Li",
-        "Tianyi Wei",
-        "Weisi Lin"
+        "Xianbin Gu",
+        "Qingyue Zhu",
+        "Yuhong Geng"
       ],
       "categories": [
-        "cs.LG",
-        "q-fin.TR"
-      ],
-      "code_match": "arxiv-id",
-      "code_url": "https://github.com/allocflow/AllocFlow",
-      "comment": "",
-      "first_seen": "2026-11-17",
-      "id": "2611.19937",
-      "paper_url": "https://arxiv.org/abs/2611.19937",
-      "pdf_url": "https://arxiv.org/pdf/2611.19937",
-      "published": "2026-11-15",
-      "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
-      "updated": "2026-11-15"
-    },
-    {
-      "abstract": "Nested Clustered Optimization (NCO) insulates asset allocation from Markowitz covariance ill-conditioning. However, classical tree clustering relies on static pairwise Pearson correlation, failing to capture time-varying, asymmetric downside risk contagion across multi-asset markets. We propose a unified deep graph machine learning architecture: Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization (ST-GAT-NCO) for multi-asset tactical allocation. The framework extracts temporal momentum and downside risk dynamics via causal dilated 1D-convolutions, then deploys a multi-head Graph Attention Network (GAT) over dynamic market topologies to learn latent spatial node representations. These learned embeddings define an angular metric distance space that guides two-stage downside NCO optimization under institutional constraints and turnover smoothing. Evaluated over a 73-month non-anticipative walk-forward out-of-sample window (January 2020 to January 2026) across 13 global asset classes net of 10 bps transaction costs, ST-GAT-NCO achieves a 5.32% CAGR and 37.06% cumulative net return, delivering an excess Sharpe ratio of 0.30 and a Sortino ratio of 0.48. This substantially outperforms classical Minimum Variance (3.68% CAGR, 0.08 Sharpe), Hierarchical Risk Parity (2.65% CAGR), and Plain Symmetric NCO (4.11% CAGR, 0.15 Sharpe), while restricting maximum drawdown to -13.07% (versus -19.44% for Equal-Weight and -16.36% for Downside NCO) under a controlled one-way turnover of 15.31%/month. Regime analysis confirms active capital preservation across the 2020 COVID-19 crash, 2022 monetary tightening, and 2023-2026 disinflation rallies.",
-      "authors": [
-        " Supriadi"
-      ],
-      "categories": [
-        "q-fin.PM",
         "cs.LG"
       ],
       "code_match": "arxiv-page",
-      "code_url": "https://github.com/obo-cloud/multiasset-stgat-nco",
+      "code_url": "https://github.com/hogwild/DDSL",
       "comment": "",
-      "first_seen": "2026-11-17",
-      "id": "2611.19903",
-      "paper_url": "https://arxiv.org/abs/2611.19903",
-      "pdf_url": "https://arxiv.org/pdf/2611.19903",
-      "published": "2026-11-15",
-      "title": "Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization for Multi-Asset Portfolios",
-      "updated": "2026-11-15"
-    },
-    {
-      "abstract": "Multi-agent LLM systems are built by fixing a cast of roles and then designing how the cast coordinates. Which agents should make up the group for a given task is left to the designer, and the same cast is reused for every task. Financial trading makes the cost of that choice visible: stocks trade differently, and the trading styles suited to one need not suit another. We study task-conditioned persona selection, composing the group from the characteristics of the task it will face, and instantiate it with FinPanel, an LLM multi-agent trading system in which a recruiter selects a panel of named trader personas for each stock from a direction-blind statistical sketch of how the stock trades, each persona gives an independent daily call in its own style, and a manager commits the trade after reading the panel's arguments and their desk-kept, hierarchical track records. Because nothing is returned to the traders, the panel stays the panel that was selected, and it can trade a new stock from an empty record. On eight US stocks over the out-of-knowledge year 2025, against three prior LLM trading agents re-implemented in the same framework and against rule-based, predictive and reinforcement-learning baselines, the selected panel is ahead of a fixed panel of the same size and of the prior agents run as their papers prescribe, with a shallower drawdown than buy-and-hold on every stock; it keeps its performance with no warm-up and with no record at all, whereas the memory-augmented agents' returns swing with their warm-up; and neither more seats nor the manager's reading of the arguments substitutes for selecting the right ones. Who is in the group is a design decision to be made per task, before how the group coordinates.",
-      "authors": [
-        "Boming Yang",
-        "Yuquan Wang",
-        "Jiaxian Guo",
-        "Yusuke Iwasawa",
-        "Yutaka Matsuo"
-      ],
-      "categories": [
-        "q-fin.TR",
-        "cs.AI"
-      ],
-      "code_match": "arxiv-page",
-      "code_url": "https://github.com/tinyrolls/FinPanel",
-      "comment": "",
-      "first_seen": "2026-11-17",
-      "id": "2611.18150",
-      "paper_url": "https://arxiv.org/abs/2611.18150",
-      "pdf_url": "https://arxiv.org/pdf/2611.18150",
-      "published": "2026-11-13",
-      "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
-      "updated": "2026-11-13"
+      "first_seen": "2026-11-18",
+      "id": "2611.22958",
+      "paper_url": "https://arxiv.org/abs/2611.22958",
+      "pdf_url": "https://arxiv.org/pdf/2611.22958",
+      "published": "2026-11-17",
+      "title": "DDSL: Iterative Self-Labeling for Financial Market States",
+      "updated": "2026-11-17"
     }
   ],
   "repositories": [
     {
       "archived": false,
-      "created_at": "2026-03-23",
-      "description": "DeFi toolkit for AI agents and coding assistants — deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor,   Windsurf, OpenClaw, CrewAI, AutoGPT, and other AI agent frameworks.",
-      "disabled": false,
-      "discovery": "historical",
-      "first_seen": "2026-11-17",
-      "forks": 39,
-      "full_name": "swapperfinance/swapper-toolkit",
-      "id": 1189465288,
-      "language": null,
-      "license": "MIT",
-      "pushed_at": "2026-11-16",
-      "score": 16.73,
-      "star_baseline_12m": {
-        "date": "2026-11-11",
-        "stars": 854
-      },
-      "star_baseline_6m": {
-        "date": "2026-11-11",
-        "stars": 854
-      },
-      "stars": 854,
-      "topics": [
-        "ai-agent",
-        "ai-agent-tools",
-        "ai-coding-assistant",
-        "autogpt",
-        "autonomous-agents",
-        "blockchain",
-        "claude-code",
-        "copilot",
-        "crewai",
-        "crypto",
-        "cursor",
-        "defi",
-        "dex",
-        "langchain",
-        "openclaw",
-        "token-swap",
-        "trading",
-        "wallet",
-        "web3",
-        "windsurf"
-      ],
-      "url": "https://github.com/swapperfinance/swapper-toolkit",
-      "verified_at": "2026-11-17"
-    },
-    {
-      "archived": false,
-      "created_at": "2020-10-02",
-      "description": "💰 Double-entry bookkeeping made easy — plain-text accounting for humans and AI agents. Polished iOS & Android app built with React Native + Expo.",
-      "disabled": false,
-      "discovery": "historical",
-      "first_seen": "2026-11-17",
-      "forks": 42,
-      "full_name": "bex-co/beancount-io",
-      "id": 300529232,
-      "language": "TypeScript",
-      "license": "MIT",
-      "pushed_at": "2026-11-17",
-      "score": 16.26,
-      "star_baseline_12m": null,
-      "star_baseline_6m": null,
-      "stars": 653,
-      "topics": [
-        "accounting",
-        "android",
-        "beancount",
-        "bookkeeping",
-        "double-entry",
-        "expo",
-        "finance",
-        "fintech",
-        "graphql",
-        "ios",
-        "ledger",
-        "mobile-app",
-        "money-manager",
-        "personal-finance",
-        "plaintext-accounting",
-        "react-native",
-        "typescript"
-      ],
-      "url": "https://github.com/bex-co/beancount-io",
-      "verified_at": "2026-11-17"
-    },
-    {
-      "archived": false,
-      "created_at": "2026-10-27",
-      "description": "Deterministic, dependency-free Chan-theory (缠论) structure engine + multi-market trading workstation (A-shares / HK / US / crypto) with teaching chart annotations and a mobile PWA.",
+      "created_at": "2026-10-24",
+      "description": "Open-source crypto trading terminal in the browser: charts, DOM, footprint, TPO market profile, liquidations and order flow from 14 exchanges, your own indicators in Frost Script, a journal and paper trading. Rust, WebAssembly, WebGL2.",
       "disabled": false,
       "discovery": "active",
-      "first_seen": "2026-11-17",
-      "forks": 1,
-      "full_name": "JustinGongjj/chan-structure-workstation",
-      "id": 1435413267,
-      "language": "JavaScript",
-      "license": "NOASSERTION",
-      "pushed_at": "2026-11-09",
-      "score": 13.98,
+      "first_seen": "2026-11-18",
+      "forks": 51,
+      "full_name": "tradoor-terminal/tradoor",
+      "id": 1431869627,
+      "language": "Rust",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-18",
+      "score": 14.35,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 344,
-      "topics": [],
-      "url": "https://github.com/JustinGongjj/chan-structure-workstation"
+      "stars": 216,
+      "topics": [
+        "binance",
+        "bybit",
+        "candlestick-chart",
+        "crypto-trading",
+        "cryptocurrency",
+        "footprint-chart",
+        "hyperliquid",
+        "liquidations",
+        "market-profile",
+        "order-flow",
+        "paper-trading",
+        "rust",
+        "solidjs",
+        "technical-analysis",
+        "tpo",
+        "trading-journal",
+        "trading-terminal",
+        "tradingview",
+        "webassembly",
+        "webgl2"
+      ],
+      "url": "https://github.com/tradoor-terminal/tradoor"
     }
   ],
-  "run_date": "2026-11-17",
+  "run_date": "2026-11-18",
   "topic_papers": {},
   "topic_repositories": {}
 }

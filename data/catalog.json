@@ -6,7 +6,7 @@
       "description": "A comprehensive quantitative trading system with AI-powered analysis, real-time data processing, and advanced risk management",
       "disabled": false,
       "discovery": "historical",
-      "forks": 623,
+      "forks": 624,
       "full_name": "0xemmkty/QuantMuse",
       "id": 916945194,
       "language": "Python",
@@ -21,14 +21,14 @@
         "date": "2026-11-11",
         "stars": 2987
       },
-      "stars": 3032,
+      "stars": 3035,
       "topics": [
         "machine-learning",
         "python",
         "quantitative-trading"
       ],
       "url": "https://github.com/0xemmkty/QuantMuse",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "1nchaos/adata": {
       "archived": false,
@@ -36,13 +36,13 @@
       "description": "免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】",
       "disabled": false,
       "discovery": "historical",
-      "forks": 714,
+      "forks": 715,
       "full_name": "1nchaos/adata",
       "id": 644231758,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-31",
-      "score": 17.26,
+      "score": 17.1,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 5386
@@ -51,7 +51,7 @@
         "date": "2026-11-11",
         "stars": 5386
       },
-      "stars": 5403,
+      "stars": 5405,
       "topics": [
         "3000",
         "a",
@@ -66,7 +66,7 @@
         "stock-market-data"
       ],
       "url": "https://github.com/1nchaos/adata",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "51bitquant/bitquant": {
       "archived": false,
@@ -89,7 +89,7 @@
         "date": "2026-11-11",
         "stars": 1166
       },
-      "stars": 1166,
+      "stars": 1165,
       "topics": [
         "51bitquant",
         "algorithmic-trading",
@@ -109,7 +109,7 @@
         "vnpy"
       ],
       "url": "https://github.com/51bitquant/bitquant",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "AI4Finance-Foundation/FinNLP": {
       "archived": false,
@@ -117,7 +117,7 @@
       "description": "Democratizing Internet-scale financial data.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 278,
+      "forks": 276,
       "full_name": "AI4Finance-Foundation/FinNLP",
       "id": 598517439,
       "language": "Jupyter Notebook",
@@ -135,7 +135,7 @@
       "stars": 1496,
       "topics": [],
       "url": "https://github.com/AI4Finance-Foundation/FinNLP",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "AI4Finance-Foundation/FinRL-Trading": {
       "archived": false,
@@ -143,7 +143,7 @@
       "description": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1140,
+      "forks": 1138,
       "full_name": "AI4Finance-Foundation/FinRL-Trading",
       "id": 282652875,
       "language": "Python",
@@ -176,7 +176,7 @@
         "stock-trading-strategy"
       ],
       "url": "https://github.com/AI4Finance-Foundation/FinRL-Trading",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "AI4Finance-Foundation/FinRobot": {
       "archived": false,
@@ -190,7 +190,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-24",
-      "score": 16.87,
+      "score": 16.71,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 8409
@@ -199,7 +199,7 @@
         "date": "2026-11-11",
         "stars": 8409
       },
-      "stars": 8441,
+      "stars": 8447,
       "topics": [
         "aiagent",
         "chatgpt",
@@ -211,7 +211,7 @@
         "robo-advisor"
       ],
       "url": "https://github.com/AI4Finance-Foundation/FinRobot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ArvinLovegood/go-stock": {
       "archived": false,
@@ -219,13 +219,13 @@
       "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1429,
+      "forks": 1431,
       "full_name": "ArvinLovegood/go-stock",
       "id": 904534974,
       "language": "Go",
       "license": "GPL-3.0",
       "pushed_at": "2026-11-16",
-      "score": 20.65,
+      "score": 20.49,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 8117
@@ -234,7 +234,7 @@
         "date": "2026-11-11",
         "stars": 8117
       },
-      "stars": 8184,
+      "stars": 8198,
       "topics": [
         "ai-tools",
         "deepseek",
@@ -247,7 +247,7 @@
         "wails"
       ],
       "url": "https://github.com/ArvinLovegood/go-stock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Barca0412/Introduction-to-Quantitative-Finance": {
       "archived": false,
@@ -261,7 +261,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-17",
-      "score": 18.1,
+      "score": 18.11,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 1843
@@ -270,7 +270,7 @@
         "date": "2026-10-27",
         "stars": 1843
       },
-      "stars": 1887,
+      "stars": 1890,
       "topics": [
         "agent",
         "ai4fin",
@@ -285,7 +285,7 @@
         "trading"
       ],
       "url": "https://github.com/Barca0412/Introduction-to-Quantitative-Finance",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "CryptoSignal/Crypto-Signal": {
       "archived": false,
@@ -293,7 +293,7 @@
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1329,
+      "forks": 1328,
       "full_name": "CryptoSignal/Crypto-Signal",
       "id": 103791045,
       "language": "Python",
@@ -308,7 +308,7 @@
         "date": "2026-11-11",
         "stars": 5659
       },
-      "stars": 5665,
+      "stars": 5663,
       "topics": [
         "abenezer-mamo",
         "algorithmic-trading",
@@ -332,7 +332,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "DR-lin-eng/stock-scanner": {
       "archived": false,
@@ -340,7 +340,7 @@
       "description": "开源A股量化分析（并且配合llm模型，进行高级分析）",
       "disabled": false,
       "discovery": "historical",
-      "forks": 441,
+      "forks": 440,
       "full_name": "DR-lin-eng/stock-scanner",
       "id": 940058896,
       "language": "Python",
@@ -355,10 +355,10 @@
         "date": "2026-11-11",
         "stars": 1158
       },
-      "stars": 1158,
+      "stars": 1159,
       "topics": [],
       "url": "https://github.com/DR-lin-eng/stock-scanner",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "DemonDamon/FinnewsHunter": {
       "archived": false,
@@ -372,7 +372,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-10",
-      "score": 16.55,
+      "score": 16.38,
       "star_baseline_12m": {
         "date": "2026-10-29",
         "stars": 1503
@@ -391,7 +391,7 @@
         "sentiment-analysis"
       ],
       "url": "https://github.com/DemonDamon/FinnewsHunter",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Drakkar-Software/OctoBot": {
       "archived": false,
@@ -399,13 +399,13 @@
       "description": "Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1324,
+      "forks": 1323,
       "full_name": "Drakkar-Software/OctoBot",
       "id": 122682362,
       "language": "Python",
       "license": "GPL-3.0",
       "pushed_at": "2026-11-16",
-      "score": 20.37,
+      "score": 20.2,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 6866
@@ -414,7 +414,7 @@
         "date": "2026-10-27",
         "stars": 6866
       },
-      "stars": 6952,
+      "stars": 6959,
       "topics": [
         "ai-trading",
         "backtest",
@@ -432,7 +432,7 @@
         "tradingview-pinescript-signal-alert-bot"
       ],
       "url": "https://github.com/Drakkar-Software/OctoBot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "FinHackCN/finhack": {
       "archived": false,
@@ -440,13 +440,13 @@
       "description": "FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 233,
+      "forks": 234,
       "full_name": "FinHackCN/finhack",
       "id": 568591662,
       "language": "Python",
       "license": "NOASSERTION",
       "pushed_at": "2026-10-22",
-      "score": 13.06,
+      "score": 12.9,
       "star_baseline_12m": {
         "date": "2026-10-22",
         "stars": 1248
@@ -455,7 +455,7 @@
         "date": "2026-10-22",
         "stars": 1248
       },
-      "stars": 1256,
+      "stars": 1258,
       "topics": [
         "investment",
         "quant",
@@ -464,7 +464,7 @@
         "trading"
       ],
       "url": "https://github.com/FinHackCN/finhack",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "FinMind/FinMind": {
       "archived": false,
@@ -478,10 +478,10 @@
       "language": "HTML",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-15",
-      "score": 18.68,
+      "score": 18.51,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 2887,
+      "stars": 2891,
       "topics": [
         "api",
         "crude-oil",
@@ -497,7 +497,7 @@
         "stock-prices"
       ],
       "url": "https://github.com/FinMind/FinMind",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "FinanceData/FinanceDataReader": {
       "archived": false,
@@ -532,7 +532,7 @@
         "symbol"
       ],
       "url": "https://github.com/FinanceData/FinanceDataReader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Finnhub-Stock-API/finnhub-python": {
       "archived": false,
@@ -546,7 +546,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-05",
-      "score": 15.34,
+      "score": 15.17,
       "star_baseline_12m": {
         "date": "2026-11-07",
         "stars": 1097
@@ -562,7 +562,7 @@
         "stock"
       ],
       "url": "https://github.com/Finnhub-Stock-API/finnhub-python",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "G-Joker/WeaponApp": {
       "archived": false,
@@ -598,7 +598,7 @@
         "unit-test"
       ],
       "url": "https://github.com/G-Joker/WeaponApp",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "GuanYixuan/pyJianYingDraft": {
       "archived": false,
@@ -621,7 +621,7 @@
         "date": "2026-11-11",
         "stars": 4869
       },
-      "stars": 4917,
+      "stars": 4924,
       "topics": [
         "api",
         "automation",
@@ -631,7 +631,7 @@
         "video-production"
       ],
       "url": "https://github.com/GuanYixuan/pyJianYingDraft",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "HKUDS/AI-Trader": {
       "archived": false,
@@ -639,7 +639,7 @@
       "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  ",
       "disabled": false,
       "discovery": "historical",
-      "forks": 3509,
+      "forks": 3513,
       "full_name": "HKUDS/AI-Trader",
       "id": 1081891045,
       "language": "Python",
@@ -654,10 +654,10 @@
         "date": "2026-11-11",
         "stars": 23226
       },
-      "stars": 23299,
+      "stars": 23316,
       "topics": [],
       "url": "https://github.com/HKUDS/AI-Trader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "HKUDS/Vibe-Trading": {
       "archived": false,
@@ -665,12 +665,12 @@
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "disabled": false,
       "discovery": "historical",
-      "forks": 6252,
+      "forks": 6264,
       "full_name": "HKUDS/Vibe-Trading",
       "id": 1198306812,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-18",
       "score": 23.34,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -680,7 +680,7 @@
         "date": "2026-10-27",
         "stars": 36795
       },
-      "stars": 38404,
+      "stars": 38468,
       "topics": [
         "ai-agent",
         "algorithmic-trading",
@@ -694,7 +694,7 @@
         "trading"
       ],
       "url": "https://github.com/HKUDS/Vibe-Trading",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Hacker233/resume-design": {
       "archived": false,
@@ -720,7 +720,7 @@
       "stars": 4118,
       "topics": [],
       "url": "https://github.com/Hacker233/resume-design",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Haehnchen/crypto-trading-bot": {
       "archived": false,
@@ -743,7 +743,7 @@
         "date": "2026-11-11",
         "stars": 3551
       },
-      "stars": 3550,
+      "stars": 3549,
       "topics": [
         "binance",
         "bitfinex",
@@ -766,7 +766,7 @@
         "websocket"
       ],
       "url": "https://github.com/Haehnchen/crypto-trading-bot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "HammerGPT/Hyper-Alpha-Arena": {
       "archived": false,
@@ -774,13 +774,13 @@
       "description": "AI Trading platform for Hyperliquid & Binance Futures AI 自动交易平台，支持 Hyperliquid 和币安合约",
       "disabled": false,
       "discovery": "historical",
-      "forks": 282,
+      "forks": 281,
       "full_name": "HammerGPT/Hyper-Alpha-Arena",
       "id": 1084078617,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-03",
-      "score": 15.16,
+      "score": 14.99,
       "star_baseline_12m": {
         "date": "2026-11-04",
         "stars": 1198
@@ -789,7 +789,7 @@
         "date": "2026-11-04",
         "stars": 1198
       },
-      "stars": 1204,
+      "stars": 1205,
       "topics": [
         "ai-trading",
         "automated-trading",
@@ -800,7 +800,7 @@
         "trading-bot"
       ],
       "url": "https://github.com/HammerGPT/Hyper-Alpha-Arena",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Hithink-Tech-Org/Financial-API": {
       "archived": false,
@@ -808,13 +808,13 @@
       "description": "同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 378,
+      "forks": 391,
       "full_name": "Hithink-Tech-Org/Financial-API",
       "id": 1263497845,
       "language": "TypeScript",
       "license": "MIT",
       "pushed_at": "2026-11-12",
-      "score": 18.81,
+      "score": 18.68,
       "star_baseline_12m": {
         "date": "2026-11-12",
         "stars": 4127
@@ -823,7 +823,7 @@
         "date": "2026-11-12",
         "stars": 4127
       },
-      "stars": 4161,
+      "stars": 4250,
       "topics": [
         "a-share",
         "ai-agent",
@@ -837,7 +837,7 @@
         "rest-api"
       ],
       "url": "https://github.com/Hithink-Tech-Org/Financial-API",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ICT-FinD-Lab/alphagen": {
       "archived": false,
@@ -851,7 +851,7 @@
       "language": "Python",
       "license": null,
       "pushed_at": "2026-06-04",
-      "score": 12.45,
+      "score": 12.46,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1295
@@ -860,14 +860,14 @@
         "date": "2026-11-11",
         "stars": 1295
       },
-      "stars": 1298,
+      "stars": 1300,
       "topics": [
         "quantitative-trading",
         "reinforcement-learning",
         "symbolic-regression"
       ],
       "url": "https://github.com/ICT-FinD-Lab/alphagen",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "JKorf/Binance.Net": {
       "archived": false,
@@ -880,7 +880,7 @@
       "id": 107303134,
       "language": "C#",
       "license": "MIT",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 17.28,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -910,7 +910,7 @@
         "tradeapi"
       ],
       "url": "https://github.com/JKorf/Binance.Net",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Jack-Cherish/quantitative": {
       "archived": false,
@@ -936,7 +936,7 @@
       "stars": 2752,
       "topics": [],
       "url": "https://github.com/Jack-Cherish/quantitative",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Jakeschincariol/day-trader-skill": {
       "archived": false,
@@ -944,13 +944,13 @@
       "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1977,
+      "forks": 2018,
       "full_name": "Jakeschincariol/day-trader-skill",
       "id": 1427126014,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-10-20",
-      "score": 16.17,
+      "score": 16.04,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 6822
@@ -959,7 +959,7 @@
         "date": "2026-11-11",
         "stars": 6822
       },
-      "stars": 8254,
+      "stars": 8459,
       "topics": [
         "backtesting",
         "claude",
@@ -968,7 +968,7 @@
         "stock-market"
       ],
       "url": "https://github.com/Jakeschincariol/day-trader-skill",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "JerBouma/FinanceToolkit": {
       "archived": false,
@@ -991,7 +991,7 @@
         "date": "2026-10-27",
         "stars": 5469
       },
-      "stars": 5531,
+      "stars": 5535,
       "topics": [
         "algorithmic-trading",
         "equities",
@@ -1015,7 +1015,7 @@
         "valuation"
       ],
       "url": "https://github.com/JerBouma/FinanceToolkit",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "JessYanCoding/MVPArms": {
       "archived": false,
@@ -1029,7 +1029,7 @@
       "language": "Java",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-04",
-      "score": 18.87,
+      "score": 18.7,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 10222
@@ -1038,7 +1038,7 @@
         "date": "2026-11-11",
         "stars": 10222
       },
-      "stars": 10221,
+      "stars": 10222,
       "topics": [
         "android",
         "android-application",
@@ -1062,7 +1062,7 @@
         "wiki-documentation"
       ],
       "url": "https://github.com/JessYanCoding/MVPArms",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "JoinQuant/jqdatasdk": {
       "archived": false,
@@ -1100,7 +1100,7 @@
         "stock-market-data"
       ],
       "url": "https://github.com/JoinQuant/jqdatasdk",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Jon-Becker/prediction-market-analysis": {
       "archived": false,
@@ -1114,7 +1114,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-10-29",
-      "score": 16.38,
+      "score": 16.22,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 3938
@@ -1123,7 +1123,7 @@
         "date": "2026-11-11",
         "stars": 3938
       },
-      "stars": 3943,
+      "stars": 3944,
       "topics": [
         "data",
         "data-science",
@@ -1134,7 +1134,7 @@
         "statistics"
       ],
       "url": "https://github.com/Jon-Becker/prediction-market-analysis",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Kami958/WhoShitsonMyC": {
       "archived": false,
@@ -1142,13 +1142,13 @@
       "description": "磁盘空间变化对比轻量小工具；A lightweight disk space change comparison tool. ",
       "disabled": false,
       "discovery": "historical",
-      "forks": 44,
+      "forks": 45,
       "full_name": "Kami958/WhoShitsonMyC",
       "id": 1297568442,
       "language": "Python",
       "license": "GPL-3.0",
       "pushed_at": "2026-11-16",
-      "score": 17.19,
+      "score": 17.03,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1133
@@ -1157,10 +1157,10 @@
         "date": "2026-11-11",
         "stars": 1133
       },
-      "stars": 1225,
+      "stars": 1231,
       "topics": [],
       "url": "https://github.com/Kami958/WhoShitsonMyC",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "LLMQuant/quant-mind": {
       "archived": false,
@@ -1168,7 +1168,7 @@
       "description": "QuantMind is an open source agent-native knowledge extraction and retrieval framework for quantitative finance.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 496,
+      "forks": 497,
       "full_name": "LLMQuant/quant-mind",
       "id": 948264786,
       "language": "Python",
@@ -1183,7 +1183,7 @@
         "date": "2026-11-11",
         "stars": 3131
       },
-      "stars": 3138,
+      "stars": 3142,
       "topics": [
         "agent",
         "context-engineering",
@@ -1197,7 +1197,7 @@
         "workflow"
       ],
       "url": "https://github.com/LLMQuant/quant-mind",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "LLMQuant/quant-wiki": {
       "archived": false,
@@ -1227,7 +1227,7 @@
         "wiki"
       ],
       "url": "https://github.com/LLMQuant/quant-wiki",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "LastAncientOne/Stock_Analysis_For_Quant": {
       "archived": false,
@@ -1250,7 +1250,7 @@
         "date": "2026-11-11",
         "stars": 2089
       },
-      "stars": 2090,
+      "stars": 2091,
       "topics": [
         "excel",
         "financial-analysis",
@@ -1273,7 +1273,7 @@
         "vba"
       ],
       "url": "https://github.com/LastAncientOne/Stock_Analysis_For_Quant",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Lee-xeo/Claude-Cage": {
       "archived": false,
@@ -1281,13 +1281,13 @@
       "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 715,
+      "forks": 745,
       "full_name": "Lee-xeo/Claude-Cage",
       "id": 1440971520,
       "language": "Go",
       "license": "MIT",
-      "pushed_at": "2026-11-17",
-      "score": 20.17,
+      "pushed_at": "2026-11-18",
+      "score": 20.25,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2107
@@ -1296,10 +1296,10 @@
         "date": "2026-11-11",
         "stars": 2107
       },
-      "stars": 6208,
+      "stars": 6478,
       "topics": [],
       "url": "https://github.com/Lee-xeo/Claude-Cage",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Lumiwealth/lumibot": {
       "archived": false,
@@ -1312,7 +1312,7 @@
       "id": 294371636,
       "language": "Python",
       "license": "GPL-3.0",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 18.4,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -1322,7 +1322,7 @@
         "date": "2026-10-27",
         "stars": 2172
       },
-      "stars": 2238,
+      "stars": 2240,
       "topics": [
         "agentic-trading",
         "ai-agents",
@@ -1346,7 +1346,7 @@
         "trading-bot"
       ],
       "url": "https://github.com/Lumiwealth/lumibot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Mathieu2301/TradingView-API": {
       "archived": false,
@@ -1360,7 +1360,7 @@
       "language": "TypeScript",
       "license": null,
       "pushed_at": "2026-11-14",
-      "score": 19.58,
+      "score": 19.42,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 5762
@@ -1369,7 +1369,7 @@
         "date": "2026-10-27",
         "stars": 5762
       },
-      "stars": 5902,
+      "stars": 5909,
       "topics": [
         "backtesting",
         "backtesting-trading-strategies",
@@ -1390,7 +1390,7 @@
         "tradingview-scraper"
       ],
       "url": "https://github.com/Mathieu2301/TradingView-API",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "MemeCalculate/moyin-creator": {
       "archived": false,
@@ -1413,10 +1413,10 @@
         "date": "2026-11-11",
         "stars": 4837
       },
-      "stars": 4858,
+      "stars": 4859,
       "topics": [],
       "url": "https://github.com/MemeCalculate/moyin-creator",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Micro-sheep/efinance": {
       "archived": false,
@@ -1439,7 +1439,7 @@
         "date": "2026-11-11",
         "stars": 4170
       },
-      "stars": 4182,
+      "stars": 4183,
       "topics": [
         "bond",
         "finance",
@@ -1449,7 +1449,7 @@
         "stock"
       ],
       "url": "https://github.com/Micro-sheep/efinance",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Moonofweisheng/wot-design-uni": {
       "archived": false,
@@ -1472,7 +1472,7 @@
         "date": "2026-11-11",
         "stars": 2300
       },
-      "stars": 2301,
+      "stars": 2302,
       "topics": [
         "components",
         "dark-mode",
@@ -1484,7 +1484,7 @@
         "wot-design-uni"
       ],
       "url": "https://github.com/Moonofweisheng/wot-design-uni",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Nixtla/nixtla": {
       "archived": false,
@@ -1497,11 +1497,11 @@
       "id": 409653223,
       "language": "Jupyter Notebook",
       "license": "NOASSERTION",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-18",
       "score": 19.43,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 4050,
+      "stars": 4049,
       "topics": [
         "agent",
         "agentic-ai",
@@ -1520,7 +1520,7 @@
         "timegpt"
       ],
       "url": "https://github.com/Nixtla/nixtla",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "NoFxAiOS/nofx": {
       "archived": false,
@@ -1528,13 +1528,13 @@
       "description": "Your AI trading terminal assistant for US stocks, commodities, forex, and crypto.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 3074,
+      "forks": 3076,
       "full_name": "NoFxAiOS/nofx",
       "id": 1084802670,
       "language": "Go",
       "license": "AGPL-3.0",
       "pushed_at": "2026-11-04",
-      "score": 19.5,
+      "score": 19.33,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 13159
@@ -1543,7 +1543,7 @@
         "date": "2026-10-27",
         "stars": 13159
       },
-      "stars": 13309,
+      "stars": 13312,
       "topics": [
         "agentictrading",
         "ai",
@@ -1564,7 +1564,7 @@
         "x402-agent"
       ],
       "url": "https://github.com/NoFxAiOS/nofx",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Nriver/Episode-ReName": {
       "archived": false,
@@ -1605,7 +1605,7 @@
         "windows"
       ],
       "url": "https://github.com/Nriver/Episode-ReName",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Ocyss/boss-helper": {
       "archived": false,
@@ -1618,8 +1618,8 @@
       "id": 763058873,
       "language": "TypeScript",
       "license": "MIT",
-      "pushed_at": "2026-11-10",
-      "score": 17.63,
+      "pushed_at": "2026-11-18",
+      "score": 18.63,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2524
@@ -1628,10 +1628,10 @@
         "date": "2026-11-11",
         "stars": 2524
       },
-      "stars": 2548,
+      "stars": 2556,
       "topics": [],
       "url": "https://github.com/Ocyss/boss-helper",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Open-Trader/opentrader": {
       "archived": false,
@@ -1639,7 +1639,7 @@
       "description": "🤖 Open-source crypto trading bot | 📈 DCA & GRID strategies | ✨ UI | ⭐ Star to support the project!",
       "disabled": false,
       "discovery": "historical",
-      "forks": 351,
+      "forks": 350,
       "full_name": "Open-Trader/opentrader",
       "id": 726678772,
       "language": "TypeScript",
@@ -1670,7 +1670,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/Open-Trader/opentrader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "OpenByteInc/QuantDinger": {
       "archived": false,
@@ -1678,13 +1678,13 @@
       "description": "The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery, backtesting, optimization, paper/live multi-asset execution, risk controls, monitoring, MCP, and multi-tenant SaaS in one auditable stack.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 2817,
+      "forks": 2822,
       "full_name": "OpenByteInc/QuantDinger",
       "id": 1124295269,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-16",
-      "score": 21.56,
+      "score": 21.4,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 13146
@@ -1693,7 +1693,7 @@
         "date": "2026-10-27",
         "stars": 13146
       },
-      "stars": 13814,
+      "stars": 13839,
       "topics": [
         "agentic-ai",
         "ai-agents",
@@ -1717,7 +1717,7 @@
         "technical-analysis"
       ],
       "url": "https://github.com/OpenByteInc/QuantDinger",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original": {
       "archived": false,
@@ -1743,7 +1743,7 @@
       "stars": 1651,
       "topics": [],
       "url": "https://github.com/PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "PacktPublishing/Python-for-Algorithmic-Trading-Cookbook": {
       "archived": false,
@@ -1766,10 +1766,10 @@
         "date": "2026-11-11",
         "stars": 1256
       },
-      "stars": 1257,
+      "stars": 1258,
       "topics": [],
       "url": "https://github.com/PacktPublishing/Python-for-Algorithmic-Trading-Cookbook",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ProsusAI/finBERT": {
       "archived": false,
@@ -1795,7 +1795,7 @@
       "stars": 2283,
       "topics": [],
       "url": "https://github.com/ProsusAI/finBERT",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "PyPatel/Options-Trading-Strategies-in-Python": {
       "archived": false,
@@ -1803,7 +1803,7 @@
       "description": "Developing Options Trading Strategies using Technical Indicators and Quantitative Methods",
       "disabled": false,
       "discovery": "historical",
-      "forks": 256,
+      "forks": 258,
       "full_name": "PyPatel/Options-Trading-Strategies-in-Python",
       "id": 101843482,
       "language": "Python",
@@ -1818,7 +1818,7 @@
         "date": "2026-11-11",
         "stars": 1102
       },
-      "stars": 1103,
+      "stars": 1104,
       "topics": [
         "indicators",
         "machine-learning",
@@ -1835,7 +1835,7 @@
         "technical-indicators"
       ],
       "url": "https://github.com/PyPatel/Options-Trading-Strategies-in-Python",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "PyPortfolio/PyPortfolioOpt": {
       "archived": false,
@@ -1858,7 +1858,7 @@
         "date": "2026-11-11",
         "stars": 6160
       },
-      "stars": 6170,
+      "stars": 6171,
       "topics": [
         "algorithmic-trading",
         "covariance",
@@ -1874,7 +1874,7 @@
         "quantitative-finance"
       ],
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "QuantConnect/Lean": {
       "archived": false,
@@ -1882,13 +1882,13 @@
       "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
       "disabled": false,
       "discovery": "historical",
-      "forks": 5430,
+      "forks": 5434,
       "full_name": "QuantConnect/Lean",
       "id": 27251463,
       "language": "C#",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-17",
-      "score": 22.41,
+      "score": 22.42,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 22481
@@ -1897,7 +1897,7 @@
         "date": "2026-11-11",
         "stars": 22481
       },
-      "stars": 22558,
+      "stars": 22588,
       "topics": [
         "algorithm",
         "algorithmic-trading-engine",
@@ -1916,7 +1916,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/QuantConnect/Lean",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "QuantaAlpha/QuantaAlpha": {
       "archived": false,
@@ -1933,7 +1933,7 @@
       "score": 12.89,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 1670,
+      "stars": 1671,
       "topics": [
         "code",
         "codeagent",
@@ -1942,7 +1942,7 @@
         "self-evolving"
       ],
       "url": "https://github.com/QuantaAlpha/QuantaAlpha",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Rockyzsu/stock": {
       "archived": false,
@@ -1950,7 +1950,7 @@
       "description": "30天掌握量化交易 (持续更新)",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1688,
+      "forks": 1692,
       "full_name": "Rockyzsu/stock",
       "id": 55381387,
       "language": "Python",
@@ -1965,14 +1965,14 @@
         "date": "2026-11-11",
         "stars": 9023
       },
-      "stars": 9063,
+      "stars": 9088,
       "topics": [
         "python",
         "quant",
         "stock"
       ],
       "url": "https://github.com/Rockyzsu/stock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "RomelTorres/alpha_vantage": {
       "archived": false,
@@ -1995,7 +1995,7 @@
         "date": "2026-11-11",
         "stars": 4943
       },
-      "stars": 4943,
+      "stars": 4944,
       "topics": [
         "alpha-vantage",
         "alphavantage",
@@ -2010,7 +2010,7 @@
         "stock"
       ],
       "url": "https://github.com/RomelTorres/alpha_vantage",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "RuoJi6/audit-skills": {
       "archived": false,
@@ -2024,7 +2024,7 @@
       "language": "Python",
       "license": null,
       "pushed_at": "2026-06-16",
-      "score": 12.08,
+      "score": 12.09,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1043
@@ -2033,10 +2033,10 @@
         "date": "2026-11-11",
         "stars": 1043
       },
-      "stars": 1049,
+      "stars": 1050,
       "topics": [],
       "url": "https://github.com/RuoJi6/audit-skills",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ScottZt/jin-ce-zhi-suan": {
       "archived": false,
@@ -2062,7 +2062,7 @@
       "stars": 1475,
       "topics": [],
       "url": "https://github.com/ScottZt/jin-ce-zhi-suan",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ScottfreeLLC/AlphaPy": {
       "archived": false,
@@ -2085,7 +2085,7 @@
         "date": "2026-11-11",
         "stars": 1784
       },
-      "stars": 1787,
+      "stars": 1789,
       "topics": [
         "backtesting",
         "classification",
@@ -2109,7 +2109,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/ScottfreeLLC/AlphaPy",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "SleepingBag945/dddd": {
       "archived": false,
@@ -2135,7 +2135,7 @@
       "stars": 1950,
       "topics": [],
       "url": "https://github.com/SleepingBag945/dddd",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "StockSharp/StockSharp": {
       "archived": false,
@@ -2143,16 +2143,16 @@
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "disabled": false,
       "discovery": "historical",
-      "forks": 2314,
+      "forks": 2315,
       "full_name": "StockSharp/StockSharp",
       "id": 27703983,
       "language": "C#",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-07",
-      "score": 19.69,
+      "score": 19.52,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 11125,
+      "stars": 11131,
       "topics": [
         "algorithmic-trading",
         "algorithmic-trading-engine",
@@ -2176,7 +2176,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/StockSharp/StockSharp",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Superalgos/Superalgos": {
       "archived": false,
@@ -2184,16 +2184,16 @@
       "description": "Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 5987,
+      "forks": 5988,
       "full_name": "Superalgos/Superalgos",
       "id": 201978761,
       "language": "JavaScript",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-14",
-      "score": 19.72,
+      "score": 19.56,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 5801,
+      "stars": 5804,
       "topics": [
         "algorithmic-trading",
         "algotrading",
@@ -2217,7 +2217,7 @@
         "trading-systems"
       ],
       "url": "https://github.com/Superalgos/Superalgos",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "TA-Lib/ta-lib": {
       "archived": false,
@@ -2225,16 +2225,16 @@
       "description": "Technical analysis library: indicators and candlestick patterns, batch and streaming, native in C, Rust, Java, C#... and more",
       "disabled": false,
       "discovery": "historical",
-      "forks": 300,
+      "forks": 301,
       "full_name": "TA-Lib/ta-lib",
       "id": 66132152,
       "language": "C",
       "license": "BSD-3-Clause",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 17.96,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 1738,
+      "stars": 1739,
       "topics": [
         "algorithmic-trading",
         "backtesting",
@@ -2254,7 +2254,7 @@
         "technical-analysis"
       ],
       "url": "https://github.com/TA-Lib/ta-lib",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "TNT-Likely/PanWatch": {
       "archived": false,
@@ -2267,8 +2267,8 @@
       "id": 1140582982,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-08",
-      "score": 17.11,
+      "pushed_at": "2026-11-17",
+      "score": 18.61,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2445
@@ -2277,7 +2277,7 @@
         "date": "2026-11-11",
         "stars": 2445
       },
-      "stars": 2524,
+      "stars": 2531,
       "topics": [
         "a-share",
         "agent",
@@ -2301,7 +2301,7 @@
         "trading-bot"
       ],
       "url": "https://github.com/TNT-Likely/PanWatch",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "TauricResearch/TradingAgents": {
       "archived": false,
@@ -2309,13 +2309,13 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "disabled": false,
       "discovery": "historical",
-      "forks": 23564,
+      "forks": 23584,
       "full_name": "TauricResearch/TradingAgents",
       "id": 909213664,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-17",
-      "score": 25.36,
+      "score": 25.19,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 121964
@@ -2324,7 +2324,7 @@
         "date": "2026-11-11",
         "stars": 121964
       },
-      "stars": 122890,
+      "stars": 123015,
       "topics": [
         "agent",
         "finance",
@@ -2333,7 +2333,7 @@
         "trading"
       ],
       "url": "https://github.com/TauricResearch/TradingAgents",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "The-Swarm-Corporation/AutoHedge": {
       "archived": false,
@@ -2341,7 +2341,7 @@
       "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 979,
+      "forks": 980,
       "full_name": "The-Swarm-Corporation/AutoHedge",
       "id": 901529145,
       "language": "Python",
@@ -2356,7 +2356,7 @@
         "date": "2026-11-11",
         "stars": 6676
       },
-      "stars": 6707,
+      "stars": 6712,
       "topics": [
         "ai",
         "blackrock",
@@ -2371,7 +2371,7 @@
         "trading"
       ],
       "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "TradeMaster-NTU/TradeMaster": {
       "archived": false,
@@ -2409,7 +2409,7 @@
         "trading-platform"
       ],
       "url": "https://github.com/TradeMaster-NTU/TradeMaster",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "TraderAlice/OpenAlice": {
       "archived": false,
@@ -2423,7 +2423,7 @@
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "pushed_at": "2026-11-17",
-      "score": 20.49,
+      "score": 20.32,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 7378
@@ -2435,7 +2435,7 @@
       "stars": 7458,
       "topics": [],
       "url": "https://github.com/TraderAlice/OpenAlice",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "TreborNamor/TradingView-Machine-Learning-GUI": {
       "archived": false,
@@ -2449,7 +2449,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-08-18",
-      "score": 12.04,
+      "score": 12.05,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1021
@@ -2458,7 +2458,7 @@
         "date": "2026-11-11",
         "stars": 1021
       },
-      "stars": 1024,
+      "stars": 1026,
       "topics": [
         "algorithmic-trading",
         "backtesting",
@@ -2475,7 +2475,7 @@
         "websocket"
       ],
       "url": "https://github.com/TreborNamor/TradingView-Machine-Learning-GUI",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "UFund-Me/Qbot": {
       "archived": false,
@@ -2483,7 +2483,7 @@
       "description": "[🔥updating ...] AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. 📃 online docs: https://ufund-me.github.io/Qbot   ✨ :news: qbot-mini: https://github.com/Charmve/iQuant",
       "disabled": false,
       "discovery": "historical",
-      "forks": 2620,
+      "forks": 2622,
       "full_name": "UFund-Me/Qbot",
       "id": 569509049,
       "language": "Jupyter Notebook",
@@ -2498,7 +2498,7 @@
         "date": "2026-11-11",
         "stars": 18799
       },
-      "stars": 18820,
+      "stars": 18833,
       "topics": [
         "backtest",
         "bitcoin",
@@ -2519,7 +2519,7 @@
         "trademarks"
       ],
       "url": "https://github.com/UFund-Me/Qbot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ValueCell-ai/valuecell": {
       "archived": false,
@@ -2527,13 +2527,13 @@
       "description": "ValueCell is a community-driven, multi-agent platform for financial applications.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1807,
+      "forks": 1808,
       "full_name": "ValueCell-ai/valuecell",
       "id": 1048320382,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-03-09",
-      "score": 16.17,
+      "score": 16.18,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 11054
@@ -2542,7 +2542,7 @@
         "date": "2026-11-11",
         "stars": 11054
       },
-      "stars": 11057,
+      "stars": 11060,
       "topics": [
         "agentic-ai",
         "agents",
@@ -2558,7 +2558,7 @@
         "stock-market"
       ],
       "url": "https://github.com/ValueCell-ai/valuecell",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "WeThinkIn/AIGC-Interview-Book": {
       "archived": false,
@@ -2571,7 +2571,7 @@
       "id": 704959035,
       "language": "Python",
       "license": "GPL-3.0",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 19.88,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -2581,7 +2581,7 @@
         "date": "2026-11-11",
         "stars": 5211
       },
-      "stars": 5256,
+      "stars": 5262,
       "topics": [
         "ai-agent",
         "aigc",
@@ -2599,7 +2599,7 @@
         "transformer"
       ],
       "url": "https://github.com/WeThinkIn/AIGC-Interview-Book",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "WeiYe-Jing/datax-web": {
       "archived": false,
@@ -2625,7 +2625,7 @@
       "stars": 6027,
       "topics": [],
       "url": "https://github.com/WeiYe-Jing/datax-web",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "Yvictor/TradingGym": {
       "archived": false,
@@ -2639,7 +2639,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2024-02-11",
-      "score": 13.14,
+      "score": 13.15,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1930
@@ -2648,7 +2648,7 @@
         "date": "2026-11-11",
         "stars": 1930
       },
-      "stars": 1932,
+      "stars": 1933,
       "topics": [
         "backtest",
         "backtesting-trading-strategies",
@@ -2662,7 +2662,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/Yvictor/TradingGym",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ZeroDeng01/sublinkPro": {
       "archived": false,
@@ -2676,7 +2676,7 @@
       "language": "Go",
       "license": "MIT",
       "pushed_at": "2026-11-17",
-      "score": 17.98,
+      "score": 17.81,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1749
@@ -2685,10 +2685,10 @@
         "date": "2026-11-11",
         "stars": 1749
       },
-      "stars": 1755,
+      "stars": 1756,
       "topics": [],
       "url": "https://github.com/ZeroDeng01/sublinkPro",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ZhuLinsen/daily_stock_analysis": {
       "archived": false,
@@ -2696,13 +2696,13 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 57714,
+      "forks": 57829,
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "id": 1131513930,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-16",
-      "score": 24.45,
+      "pushed_at": "2026-11-17",
+      "score": 24.46,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 69704
@@ -2711,7 +2711,7 @@
         "date": "2026-11-11",
         "stars": 69704
       },
-      "stars": 72934,
+      "stars": 73192,
       "topics": [
         "a-stock",
         "ai-agent",
@@ -2722,7 +2722,7 @@
         "quantitative-trading"
       ],
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "abc123info/BlueTeamTools": {
       "archived": false,
@@ -2736,7 +2736,7 @@
       "language": null,
       "license": null,
       "pushed_at": "2026-11-12",
-      "score": 17.46,
+      "score": 17.29,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1896
@@ -2745,10 +2745,10 @@
         "date": "2026-11-11",
         "stars": 1896
       },
-      "stars": 1909,
+      "stars": 1910,
       "topics": [],
       "url": "https://github.com/abc123info/BlueTeamTools",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "achannarasappa/ticker": {
       "archived": false,
@@ -2771,7 +2771,7 @@
         "date": "2026-11-11",
         "stars": 6265
       },
-      "stars": 6269,
+      "stars": 6267,
       "topics": [
         "bitcoin",
         "crypto-trading",
@@ -2792,7 +2792,7 @@
         "tui"
       ],
       "url": "https://github.com/achannarasappa/ticker",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "agiprolabs/claude-trading-skills": {
       "archived": false,
@@ -2806,7 +2806,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-09-03",
-      "score": 10.94,
+      "score": 10.99,
       "star_baseline_12m": {
         "date": "2026-09-02",
         "stars": 333
@@ -2815,10 +2815,10 @@
         "date": "2026-09-02",
         "stars": 333
       },
-      "stars": 543,
+      "stars": 559,
       "topics": [],
       "url": "https://github.com/agiprolabs/claude-trading-skills",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "akfamily/akquant": {
       "archived": false,
@@ -2831,7 +2831,7 @@
       "id": 1146075858,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 18.67,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -2841,7 +2841,7 @@
         "date": "2026-10-27",
         "stars": 2466
       },
-      "stars": 2611,
+      "stars": 2615,
       "topics": [
         "akshare",
         "backtest",
@@ -2849,7 +2849,7 @@
         "quant"
       ],
       "url": "https://github.com/akfamily/akquant",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "akfamily/akshare": {
       "archived": false,
@@ -2857,13 +2857,13 @@
       "description": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库",
       "disabled": false,
       "discovery": "historical",
-      "forks": 3576,
+      "forks": 3579,
       "full_name": "akfamily/akshare",
       "id": 212037775,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-17",
-      "score": 22.47,
+      "pushed_at": "2026-11-18",
+      "score": 22.48,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 23292
@@ -2872,7 +2872,7 @@
         "date": "2026-11-11",
         "stars": 23292
       },
-      "stars": 23368,
+      "stars": 23383,
       "topics": [
         "academic",
         "akshare",
@@ -2896,7 +2896,7 @@
         "stock"
       ],
       "url": "https://github.com/akfamily/akshare",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "akfamily/aktools": {
       "archived": false,
@@ -2904,13 +2904,13 @@
       "description": "HTTP API and MCP server for AKShare: fetch financial data from any programming language or AI assistant (Claude, Cursor)",
       "disabled": false,
       "discovery": "historical",
-      "forks": 254,
+      "forks": 255,
       "full_name": "akfamily/aktools",
       "id": 228558704,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-17",
-      "score": 17.78,
+      "score": 17.79,
       "star_baseline_12m": {
         "date": "2026-10-30",
         "stars": 1503
@@ -2919,7 +2919,7 @@
         "date": "2026-10-30",
         "stars": 1503
       },
-      "stars": 1569,
+      "stars": 1572,
       "topics": [
         "ai-agent",
         "akshare",
@@ -2936,7 +2936,7 @@
         "stock-market"
       ],
       "url": "https://github.com/akfamily/aktools",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "alibaba/GaiaX": {
       "archived": false,
@@ -2950,7 +2950,7 @@
       "language": "C",
       "license": "Apache-2.0",
       "pushed_at": "2026-01-08",
-      "score": 12.44,
+      "score": 12.43,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1284
@@ -2959,7 +2959,7 @@
         "date": "2026-11-11",
         "stars": 1284
       },
-      "stars": 1284,
+      "stars": 1283,
       "topics": [
         "android",
         "cross-platform",
@@ -2973,7 +2973,7 @@
         "swift"
       ],
       "url": "https://github.com/alibaba/GaiaX",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "alirezarezvani/claude-skills": {
       "archived": false,
@@ -2981,13 +2981,13 @@
       "description": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 4150,
+      "forks": 4163,
       "full_name": "alirezarezvani/claude-skills",
       "id": 1079084637,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-17",
-      "score": 22.9,
+      "score": 22.91,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 29625
@@ -2996,7 +2996,7 @@
         "date": "2026-11-11",
         "stars": 29625
       },
-      "stars": 29936,
+      "stars": 30023,
       "topics": [
         "agent-plugins",
         "agent-skills",
@@ -3020,7 +3020,7 @@
         "prompt-engineering"
       ],
       "url": "https://github.com/alirezarezvani/claude-skills",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "alpacahq/alpaca-mcp-server": {
       "archived": false,
@@ -3028,13 +3028,13 @@
       "description": "Alpaca’s official MCP Server lets you trade stocks, ETFs, crypto, and options, run data analysis, and build strategies in plain English directly from your favorite LLM tools and IDEs",
       "disabled": false,
       "discovery": "historical",
-      "forks": 366,
+      "forks": 365,
       "full_name": "alpacahq/alpaca-mcp-server",
       "id": 995562554,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-13",
-      "score": 16.66,
+      "score": 16.49,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1075
@@ -3043,7 +3043,7 @@
         "date": "2026-11-11",
         "stars": 1075
       },
-      "stars": 1095,
+      "stars": 1096,
       "topics": [
         "ai-trading",
         "algorithmic-trading",
@@ -3057,7 +3057,7 @@
         "trading-api"
       ],
       "url": "https://github.com/alpacahq/alpaca-mcp-server",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "alpacahq/alpaca-py": {
       "archived": false,
@@ -3065,7 +3065,7 @@
       "description": "The Official Python SDK for Alpaca API",
       "disabled": false,
       "discovery": "historical",
-      "forks": 432,
+      "forks": 430,
       "full_name": "alpacahq/alpaca-py",
       "id": 461335313,
       "language": "Python",
@@ -3080,7 +3080,7 @@
         "date": "2026-11-11",
         "stars": 1592
       },
-      "stars": 1596,
+      "stars": 1597,
       "topics": [
         "algorithmic-trading",
         "algotrading",
@@ -3099,7 +3099,7 @@
         "trading"
       ],
       "url": "https://github.com/alpacahq/alpaca-py",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "alvarobartt/investpy": {
       "archived": false,
@@ -3133,7 +3133,7 @@
         "investing-python"
       ],
       "url": "https://github.com/alvarobartt/investpy",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "appspa/app-space": {
       "archived": false,
@@ -3156,7 +3156,7 @@
         "date": "2026-11-11",
         "stars": 1276
       },
-      "stars": 1276,
+      "stars": 1275,
       "topics": [
         "android",
         "app-host",
@@ -3172,7 +3172,7 @@
         "sdk"
       ],
       "url": "https://github.com/appspa/app-space",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "arrobalytics/django-ledger": {
       "archived": false,
@@ -3185,8 +3185,8 @@
       "id": 155289518,
       "language": "Python",
       "license": "GPL-3.0",
-      "pushed_at": "2026-11-13",
-      "score": 17.09,
+      "pushed_at": "2026-11-17",
+      "score": 17.59,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 1393
@@ -3214,7 +3214,7 @@
         "quickbooks"
       ],
       "url": "https://github.com/arrobalytics/django-ledger",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "asavinov/intelligent-trading-bot": {
       "archived": false,
@@ -3227,7 +3227,7 @@
       "id": 420628968,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 18.12,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -3251,7 +3251,7 @@
         "trading-bots"
       ],
       "url": "https://github.com/asavinov/intelligent-trading-bot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "atilaahmettaner/tradingview-mcp": {
       "archived": false,
@@ -3259,13 +3259,13 @@
       "description": "MCP server for market analysis in AI assistants: screeners, multi-timeframe technical analysis, backtests and sentiment for crypto, stocks, forex and futures. 39 tools. Self-host free, or use the hosted version, TradingMCP.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1032,
+      "forks": 1033,
       "full_name": "atilaahmettaner/tradingview-mcp",
       "id": 1034736943,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-15",
-      "score": 19.73,
+      "score": 19.57,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 5148
@@ -3274,7 +3274,7 @@
         "date": "2026-10-27",
         "stars": 5148
       },
-      "stars": 5303,
+      "stars": 5305,
       "topics": [
         "claude-desktop",
         "cryptocurrency",
@@ -3291,7 +3291,7 @@
         "tradingview"
       ],
       "url": "https://github.com/atilaahmettaner/tradingview-mcp",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "austin-starks/NextTrade": {
       "archived": false,
@@ -3329,7 +3329,7 @@
         "ui"
       ],
       "url": "https://github.com/austin-starks/NextTrade",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "avhz/RustQuant": {
       "archived": false,
@@ -3369,7 +3369,7 @@
         "trading"
       ],
       "url": "https://github.com/avhz/RustQuant",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "barter-rs/barter-rs": {
       "archived": false,
@@ -3386,7 +3386,7 @@
       "score": 13.5,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 2374,
+      "stars": 2375,
       "topics": [
         "algo-trading",
         "algorithmic-trading",
@@ -3410,7 +3410,7 @@
         "trading-systems"
       ],
       "url": "https://github.com/barter-rs/barter-rs",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "bbfamily/abu": {
       "archived": false,
@@ -3418,7 +3418,7 @@
       "description": "阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构",
       "disabled": false,
       "discovery": "historical",
-      "forks": 4787,
+      "forks": 4785,
       "full_name": "bbfamily/abu",
       "id": 68619379,
       "language": "Python",
@@ -3433,7 +3433,7 @@
         "date": "2026-11-11",
         "stars": 19164
       },
-      "stars": 19200,
+      "stars": 19206,
       "topics": [
         "algorithmic-trading",
         "bitcoin",
@@ -3448,7 +3448,7 @@
         "trading"
       ],
       "url": "https://github.com/bbfamily/abu",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "beizhu-1209/AIHelms": {
       "archived": false,
@@ -3456,13 +3456,13 @@
       "description": "企业级 AI 资源纳管平台，提供统一 AI网关、Token调度能力，纳管 OpenAI、Azure、Claude、DeepSeek 等主流模型，并支持 MCP 工具与 Skill 的集中注册分发。具备内外双轨定价、成本归因、统一身份认证、安全审计与效能报表，帮助企业精准控制成本、量化 ROI，高效治理 AI 资产。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 106,
+      "forks": 107,
       "full_name": "beizhu-1209/AIHelms",
       "id": 1233558941,
       "language": "Python",
       "license": "GPL-3.0",
       "pushed_at": "2026-11-16",
-      "score": 17.06,
+      "score": 16.9,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1034
@@ -3495,7 +3495,7 @@
         "vue3"
       ],
       "url": "https://github.com/beizhu-1209/AIHelms",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "bennycode/trading-signals": {
       "archived": false,
@@ -3508,7 +3508,7 @@
       "id": 267563398,
       "language": "TypeScript",
       "license": null,
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-18",
       "score": 17.02,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -3542,7 +3542,7 @@
         "typescript"
       ],
       "url": "https://github.com/bennycode/trading-signals",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "berndruecker/flowing-retail": {
       "archived": false,
@@ -3568,7 +3568,7 @@
       "stars": 1332,
       "topics": [],
       "url": "https://github.com/berndruecker/flowing-retail",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "binance/binance-connector-python": {
       "archived": false,
@@ -3576,13 +3576,13 @@
       "description": "Simple connector to Binance Public API",
       "disabled": false,
       "discovery": "historical",
-      "forks": 714,
+      "forks": 715,
       "full_name": "binance/binance-connector-python",
       "id": 257171886,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-12",
-      "score": 18.22,
+      "pushed_at": "2026-11-17",
+      "score": 18.89,
       "star_baseline_12m": {
         "date": "2026-09-20",
         "stars": 2932
@@ -3603,7 +3603,7 @@
         "trading"
       ],
       "url": "https://github.com/binance/binance-connector-python",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "binance/binance-futures-connector-python": {
       "archived": false,
@@ -3617,7 +3617,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2025-07-18",
-      "score": 12.38,
+      "score": 12.37,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1239
@@ -3626,7 +3626,7 @@
         "date": "2026-11-11",
         "stars": 1239
       },
-      "stars": 1240,
+      "stars": 1239,
       "topics": [
         "binance-api",
         "connector",
@@ -3639,7 +3639,7 @@
         "trading"
       ],
       "url": "https://github.com/binance/binance-futures-connector-python",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "bitcoinvsalts/node-binance-trader": {
       "archived": false,
@@ -3674,7 +3674,7 @@
         "trading-bot"
       ],
       "url": "https://github.com/bitcoinvsalts/node-binance-trader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "blankly-finance/blankly": {
       "archived": false,
@@ -3718,7 +3718,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/blankly-finance/blankly",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "bmoscon/cryptofeed": {
       "archived": false,
@@ -3726,13 +3726,13 @@
       "description": "Cryptocurrency Exchange Websocket Data Feed Handler",
       "disabled": false,
       "discovery": "historical",
-      "forks": 797,
+      "forks": 798,
       "full_name": "bmoscon/cryptofeed",
       "id": 114459569,
       "language": "Python",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-16",
-      "score": 18.93,
+      "score": 18.76,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 3020
@@ -3764,7 +3764,7 @@
         "websockets"
       ],
       "url": "https://github.com/bmoscon/cryptofeed",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "bojieli/ai-infra-book": {
       "archived": false,
@@ -3772,13 +3772,13 @@
       "description": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
       "disabled": false,
       "discovery": "historical",
-      "forks": 649,
+      "forks": 655,
       "full_name": "bojieli/ai-infra-book",
       "id": 1342935078,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-01",
-      "score": 15.61,
+      "score": 15.62,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 7482
@@ -3787,7 +3787,7 @@
         "date": "2026-11-11",
         "stars": 7482
       },
-      "stars": 8008,
+      "stars": 8055,
       "topics": [
         "accelerator",
         "ai-infra",
@@ -3806,7 +3806,7 @@
         "performance-engineering"
       ],
       "url": "https://github.com/bojieli/ai-infra-book",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "bwjoke/BTC-Trading-Since-2020": {
       "archived": false,
@@ -3829,7 +3829,7 @@
         "date": "2026-11-11",
         "stars": 1225
       },
-      "stars": 1224,
+      "stars": 1223,
       "topics": [
         "bitcoin",
         "bitmex",
@@ -3839,7 +3839,7 @@
         "trading"
       ],
       "url": "https://github.com/bwjoke/BTC-Trading-Since-2020",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "c9s/bbgo": {
       "archived": false,
@@ -3852,7 +3852,7 @@
       "id": 301345449,
       "language": "Go",
       "license": "AGPL-3.0",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 17.9,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -3872,7 +3872,7 @@
         "trading-bot"
       ],
       "url": "https://github.com/c9s/bbgo",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ccxt/binance-trade-bot": {
       "archived": false,
@@ -3880,7 +3880,7 @@
       "description": "Automated cryptocurrency trading bot",
       "disabled": false,
       "discovery": "historical",
-      "forks": 2263,
+      "forks": 2260,
       "full_name": "ccxt/binance-trade-bot",
       "id": 196613241,
       "language": "Python",
@@ -3895,10 +3895,10 @@
         "date": "2026-11-11",
         "stars": 8819
       },
-      "stars": 8827,
+      "stars": 8829,
       "topics": [],
       "url": "https://github.com/ccxt/binance-trade-bot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ccxt/ccxt": {
       "archived": false,
@@ -3906,16 +3906,16 @@
       "description": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust",
       "disabled": false,
       "discovery": "historical",
-      "forks": 8986,
+      "forks": 8987,
       "full_name": "ccxt/ccxt",
       "id": 91253698,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 23.61,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 44903,
+      "stars": 44913,
       "topics": [
         "altcoin",
         "api",
@@ -3938,7 +3938,7 @@
         "trading"
       ],
       "url": "https://github.com/ccxt/ccxt",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ccxt/node-binance-api": {
       "archived": false,
@@ -3952,7 +3952,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "pushed_at": "2026-10-31",
-      "score": 15.23,
+      "score": 15.06,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1673
@@ -3973,7 +3973,7 @@
         "trading"
       ],
       "url": "https://github.com/ccxt/node-binance-api",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "chaitin/PandaWiki": {
       "archived": false,
@@ -3987,7 +3987,7 @@
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "pushed_at": "2026-11-05",
-      "score": 19.09,
+      "score": 18.92,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 10496
@@ -3996,7 +3996,7 @@
         "date": "2026-11-11",
         "stars": 10496
       },
-      "stars": 10508,
+      "stars": 10510,
       "topics": [
         "ai",
         "docs",
@@ -4009,7 +4009,7 @@
         "wiki"
       ],
       "url": "https://github.com/chaitin/PandaWiki",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "chen-zeong/DTV": {
       "archived": false,
@@ -4017,13 +4017,13 @@
       "description": "抖音、b站、斗鱼、虎牙跨平台轻量化桌面客户端",
       "disabled": false,
       "discovery": "historical",
-      "forks": 99,
+      "forks": 98,
       "full_name": "chen-zeong/DTV",
       "id": 1024932004,
       "language": "TypeScript",
       "license": null,
       "pushed_at": "2026-11-17",
-      "score": 18.25,
+      "score": 18.09,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2044
@@ -4032,7 +4032,7 @@
         "date": "2026-11-11",
         "stars": 2044
       },
-      "stars": 2058,
+      "stars": 2061,
       "topics": [
         "bilibili",
         "bilibili-live",
@@ -4045,7 +4045,7 @@
         "xgplayer"
       ],
       "url": "https://github.com/chen-zeong/DTV",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "chrisleekr/binance-trading-bot": {
       "archived": false,
@@ -4084,7 +4084,7 @@
         "traidingview"
       ],
       "url": "https://github.com/chrisleekr/binance-trading-bot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "cinar/indicator": {
       "archived": false,
@@ -4098,7 +4098,7 @@
       "language": "Go",
       "license": "AGPL-3.0",
       "pushed_at": "2026-11-12",
-      "score": 17.47,
+      "score": 17.3,
       "star_baseline_12m": {
         "date": "2026-11-09",
         "stars": 1917
@@ -4107,7 +4107,7 @@
         "date": "2026-11-09",
         "stars": 1917
       },
-      "stars": 1922,
+      "stars": 1923,
       "topics": [
         "bollinger-bands",
         "finance",
@@ -4123,7 +4123,7 @@
         "technical-analysis-library"
       ],
       "url": "https://github.com/cinar/indicator",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "cmliu/WorkerVless2sub": {
       "archived": false,
@@ -4131,7 +4131,7 @@
       "description": "自动化批量替换生成优选线路 VMess / VLESS / Trojan 节点的 优选订阅生成器",
       "disabled": false,
       "discovery": "historical",
-      "forks": 7625,
+      "forks": 7623,
       "full_name": "cmliu/WorkerVless2sub",
       "id": 735564629,
       "language": "JavaScript",
@@ -4146,10 +4146,10 @@
         "date": "2026-11-11",
         "stars": 6317
       },
-      "stars": 6329,
+      "stars": 6327,
       "topics": [],
       "url": "https://github.com/cmliu/WorkerVless2sub",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "codercup/unibest": {
       "archived": false,
@@ -4172,7 +4172,7 @@
         "date": "2026-11-11",
         "stars": 2864
       },
-      "stars": 2866,
+      "stars": 2865,
       "topics": [
         "template",
         "uni-app",
@@ -4181,7 +4181,7 @@
         "vue3"
       ],
       "url": "https://github.com/codercup/unibest",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "coding-kitties/investing-algorithm-framework": {
       "archived": false,
@@ -4194,7 +4194,7 @@
       "id": 228824550,
       "language": "Python",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 18.41,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -4204,7 +4204,7 @@
         "date": "2026-10-27",
         "stars": 2195
       },
-      "stars": 2249,
+      "stars": 2251,
       "topics": [
         "algorithmic-trading",
         "backtesting",
@@ -4222,7 +4222,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/coding-kitties/investing-algorithm-framework",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "continew-org/continew-admin": {
       "archived": false,
@@ -4230,12 +4230,12 @@
       "description": "🔥Almost最佳后端规范🔥页面现代美观，且专注设计与代码细节的高质量多租户中后台管理系统框架。开箱即用，持续迭代优化，持续提供舒适的开发体验。当前采用技术栈：SpringBoot v3.4.x (Java17)、Vue3 & ArcoDesign、TS、Vite5 、SaToken、MyBatisPlus、Redisson、FastExcel、CosId、JetCache、JustAuth、Crane4j、SpringDoc、Hutool 等。 ",
       "disabled": false,
       "discovery": "historical",
-      "forks": 464,
+      "forks": 465,
       "full_name": "continew-org/continew-admin",
       "id": 575913453,
       "language": "Java",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 18.34,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -4258,7 +4258,7 @@
         "vue3"
       ],
       "url": "https://github.com/continew-org/continew-admin",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "cryptocj520/crypto-trading-open": {
       "archived": false,
@@ -4284,7 +4284,7 @@
       "stars": 1697,
       "topics": [],
       "url": "https://github.com/cryptocj520/crypto-trading-open",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ctpbee/ctpbee": {
       "archived": false,
@@ -4298,10 +4298,10 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-06",
-      "score": 15.21,
+      "score": 15.04,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 1024,
+      "stars": 1025,
       "topics": [
         "ctp",
         "ctpbee",
@@ -4309,7 +4309,7 @@
         "quant"
       ],
       "url": "https://github.com/ctpbee/ctpbee",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ctubio/Krypto-trading-bot": {
       "archived": false,
@@ -4356,7 +4356,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/ctubio/Krypto-trading-bot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "cuemacro/finmarketpy": {
       "archived": false,
@@ -4386,7 +4386,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/cuemacro/finmarketpy",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "cvxgrp/cvxportfolio": {
       "archived": false,
@@ -4409,7 +4409,7 @@
         "date": "2026-11-11",
         "stars": 1321
       },
-      "stars": 1325,
+      "stars": 1327,
       "topics": [
         "convex-optimization",
         "finance",
@@ -4422,7 +4422,7 @@
         "time-series"
       ],
       "url": "https://github.com/cvxgrp/cvxportfolio",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "cybergeekgyan/Quant-Developers-Resources": {
       "archived": false,
@@ -4430,7 +4430,7 @@
       "description": "Resources to Prepare for Quant Developers/ Quantitative Researcher/ Quantitative Trader/ Quant Analyst/ Software Engineers in Quant Trading Firms, HFTs and Hedge Funds",
       "disabled": false,
       "discovery": "historical",
-      "forks": 494,
+      "forks": 495,
       "full_name": "cybergeekgyan/Quant-Developers-Resources",
       "id": 705801743,
       "language": "Python",
@@ -4445,7 +4445,7 @@
         "date": "2026-09-19",
         "stars": 3942
       },
-      "stars": 4164,
+      "stars": 4165,
       "topics": [
         "algorithmic-trading",
         "hedgefund",
@@ -4457,7 +4457,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/cybergeekgyan/Quant-Developers-Resources",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "daniulive/SmarterStreaming": {
       "archived": false,
@@ -4465,7 +4465,7 @@
       "description": "业内为数不多致力于极致体验的超强全自研跨平台(windows/linux/android/iOS)流媒体内核，通过模块化自由组合，支持实时RTMP推流、RTSP推流、RTMP播放器、RTSP播放器、录像、多路流媒体转发、音视频导播、动态视频合成、音频混音、直播互动、内置轻量级RTSP服务等，比快更快，业界真正靠谱的超低延迟直播SDK(延迟低至100~200ms)。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 2754,
+      "forks": 2753,
       "full_name": "daniulive/SmarterStreaming",
       "id": 54783462,
       "language": "Java",
@@ -4480,7 +4480,7 @@
         "date": "2026-11-11",
         "stars": 11172
       },
-      "stars": 11173,
+      "stars": 11174,
       "topics": [
         "android-rtmp",
         "gb28181",
@@ -4503,7 +4503,7 @@
         "windows-rtmp"
       ],
       "url": "https://github.com/daniulive/SmarterStreaming",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "datawhalechina/whale-quant": {
       "archived": false,
@@ -4517,7 +4517,7 @@
       "language": "Jupyter Notebook",
       "license": null,
       "pushed_at": "2026-11-12",
-      "score": 18.05,
+      "score": 17.88,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2933
@@ -4526,10 +4526,10 @@
         "date": "2026-11-11",
         "stars": 2933
       },
-      "stars": 2948,
+      "stars": 2950,
       "topics": [],
       "url": "https://github.com/datawhalechina/whale-quant",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "dcajasn/Riskfolio-Lib": {
       "archived": false,
@@ -4537,13 +4537,13 @@
       "description": "Portfolio Optimization in Python",
       "disabled": false,
       "discovery": "historical",
-      "forks": 739,
+      "forks": 740,
       "full_name": "dcajasn/Riskfolio-Lib",
       "id": 244460835,
       "language": "C++",
       "license": "BSD-3-Clause",
       "pushed_at": "2026-11-04",
-      "score": 17.49,
+      "score": 17.32,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 4602
@@ -4552,7 +4552,7 @@
         "date": "2026-11-11",
         "stars": 4602
       },
-      "stars": 4612,
+      "stars": 4614,
       "topics": [
         "asset-allocation",
         "convex-optimization",
@@ -4576,7 +4576,7 @@
         "trading"
       ],
       "url": "https://github.com/dcajasn/Riskfolio-Lib",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "donknap/dpanel": {
       "archived": false,
@@ -4589,8 +4589,8 @@
       "id": 722655859,
       "language": "Go",
       "license": "NOASSERTION",
-      "pushed_at": "2026-11-11",
-      "score": 18.65,
+      "pushed_at": "2026-11-17",
+      "score": 19.48,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 4168
@@ -4599,7 +4599,7 @@
         "date": "2026-11-11",
         "stars": 4168
       },
-      "stars": 4174,
+      "stars": 4175,
       "topics": [
         "1panel",
         "1panel-appstore",
@@ -4620,7 +4620,7 @@
         "react"
       ],
       "url": "https://github.com/donknap/dpanel",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "dou-jiang/codex-console": {
       "archived": false,
@@ -4643,10 +4643,10 @@
         "date": "2026-11-11",
         "stars": 2214
       },
-      "stars": 2209,
+      "stars": 2211,
       "topics": [],
       "url": "https://github.com/dou-jiang/codex-console",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "dromara/orion-visor": {
       "archived": false,
@@ -4691,7 +4691,7 @@
         "xterm"
       ],
       "url": "https://github.com/dromara/orion-visor",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "edtechre/pybroker": {
       "archived": false,
@@ -4705,7 +4705,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-16",
-      "score": 19.28,
+      "score": 19.12,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 3662
@@ -4714,7 +4714,7 @@
         "date": "2026-10-27",
         "stars": 3662
       },
-      "stars": 3717,
+      "stars": 3719,
       "topics": [
         "ai",
         "algorithmic-trading",
@@ -4735,7 +4735,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/edtechre/pybroker",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "enarjord/passivbot": {
       "archived": false,
@@ -4743,12 +4743,12 @@
       "description": "Trading bot running on Bybit, Bitget, OKX, GateIO, Binance, Kucoin, WEEX and Hyperliquid",
       "disabled": false,
       "discovery": "historical",
-      "forks": 694,
+      "forks": 695,
       "full_name": "enarjord/passivbot",
       "id": 320566331,
       "language": "Python",
       "license": "Unlicense",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 18.36,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -4758,7 +4758,7 @@
         "date": "2026-10-27",
         "stars": 2147
       },
-      "stars": 2182,
+      "stars": 2181,
       "topics": [
         "algorithmic-trading",
         "binance",
@@ -4772,7 +4772,7 @@
         "trading"
       ],
       "url": "https://github.com/enarjord/passivbot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "evan-kolberg/prediction-market-backtesting": {
       "archived": false,
@@ -4780,7 +4780,7 @@
       "description": "An extension for Nautilus Trader",
       "disabled": false,
       "discovery": "historical",
-      "forks": 202,
+      "forks": 203,
       "full_name": "evan-kolberg/prediction-market-backtesting",
       "id": 1156777542,
       "language": "Python",
@@ -4805,7 +4805,7 @@
         "polymarket"
       ],
       "url": "https://github.com/evan-kolberg/prediction-market-backtesting",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "fabston/TradingView-Webhook-Bot": {
       "archived": false,
@@ -4819,7 +4819,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-14",
-      "score": 17.63,
+      "score": 17.46,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1901
@@ -4828,7 +4828,7 @@
         "date": "2026-11-11",
         "stars": 1901
       },
-      "stars": 1910,
+      "stars": 1912,
       "topics": [
         "bitcoin",
         "bot",
@@ -4848,7 +4848,7 @@
         "webhooks-json"
       ],
       "url": "https://github.com/fabston/TradingView-Webhook-Bot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "facioquo/stock-indicators-dotnet": {
       "archived": false,
@@ -4861,8 +4861,8 @@
       "id": 230706417,
       "language": "C#",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-14",
-      "score": 17.06,
+      "pushed_at": "2026-11-18",
+      "score": 17.39,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 1249
@@ -4892,7 +4892,7 @@
         "technical-indicators"
       ],
       "url": "https://github.com/facioquo/stock-indicators-dotnet",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "fasiondog/hikyuu": {
       "archived": false,
@@ -4900,12 +4900,12 @@
       "description": "An open-source, high-performance quantitative trading framework in C++/Python focused on strategy analysis and backtesting Trading model R&D · Ultra-fast engine · Efficient backtesting",
       "disabled": false,
       "discovery": "historical",
-      "forks": 871,
+      "forks": 872,
       "full_name": "fasiondog/hikyuu",
       "id": 5103141,
       "language": "C++",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 19.29,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -4915,7 +4915,7 @@
         "date": "2026-10-27",
         "stars": 3631
       },
-      "stars": 3727,
+      "stars": 3732,
       "topics": [
         "algorithms-trading",
         "backtesting",
@@ -4928,7 +4928,7 @@
         "vestment"
       ],
       "url": "https://github.com/fasiondog/hikyuu",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "feige996/unibest": {
       "archived": false,
@@ -4942,7 +4942,7 @@
       "language": "Vue",
       "license": "MIT",
       "pushed_at": "2026-11-09",
-      "score": 17.14,
+      "score": 16.97,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2326
@@ -4951,7 +4951,7 @@
         "date": "2026-11-11",
         "stars": 2326
       },
-      "stars": 2330,
+      "stars": 2329,
       "topics": [
         "template",
         "uni-app",
@@ -4960,7 +4960,7 @@
         "vue3"
       ],
       "url": "https://github.com/feige996/unibest",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "fmzquant/strategies": {
       "archived": false,
@@ -4968,7 +4968,7 @@
       "description": "quantitative trading with Javascript, Python, C++, PineScript, Blockly, MyLanguage(麦语言)",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1900,
+      "forks": 1902,
       "full_name": "fmzquant/strategies",
       "id": 55355650,
       "language": null,
@@ -4983,10 +4983,10 @@
         "date": "2026-11-11",
         "stars": 6048
       },
-      "stars": 6057,
+      "stars": 6058,
       "topics": [],
       "url": "https://github.com/fmzquant/strategies",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "frankiejun/serv00-play": {
       "archived": false,
@@ -4994,13 +4994,13 @@
       "description": "serv00/hostuno 上的一些应用，包括argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针|面板 等, 自动化部署、批量保号、进程防杀、消息推送",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1928,
+      "forks": 1927,
       "full_name": "frankiejun/serv00-play",
       "id": 840911267,
       "language": "Shell",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-08",
-      "score": 16.8,
+      "score": 16.63,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2117
@@ -5012,7 +5012,7 @@
       "stars": 2114,
       "topics": [],
       "url": "https://github.com/frankiejun/serv00-play",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "freelawproject/courtlistener": {
       "archived": false,
@@ -5020,12 +5020,12 @@
       "description": "A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 287,
+      "forks": 290,
       "full_name": "freelawproject/courtlistener",
       "id": 22257580,
       "language": "Python",
       "license": "NOASSERTION",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 17.12,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -5035,7 +5035,7 @@
         "date": "2026-11-11",
         "stars": 1067
       },
-      "stars": 1069,
+      "stars": 1072,
       "topics": [
         "courts",
         "government",
@@ -5043,7 +5043,7 @@
         "legaltech"
       ],
       "url": "https://github.com/freelawproject/courtlistener",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "freqtrade/freqtrade": {
       "archived": false,
@@ -5051,16 +5051,16 @@
       "description": "Free, open source crypto trading bot",
       "disabled": false,
       "discovery": "historical",
-      "forks": 11762,
+      "forks": 11771,
       "full_name": "freqtrade/freqtrade",
       "id": 91629816,
       "language": "Python",
       "license": "GPL-3.0",
       "pushed_at": "2026-11-17",
-      "score": 24.02,
+      "score": 23.86,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 56970,
+      "stars": 57011,
       "topics": [
         "algorithmic-trading",
         "bitcoin",
@@ -5073,7 +5073,7 @@
         "trading-bot"
       ],
       "url": "https://github.com/freqtrade/freqtrade",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "freqtrade/freqtrade-strategies": {
       "archived": false,
@@ -5081,7 +5081,7 @@
       "description": "Free trading strategies for Freqtrade bot",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1470,
+      "forks": 1469,
       "full_name": "freqtrade/freqtrade-strategies",
       "id": 118317539,
       "language": "Python",
@@ -5096,7 +5096,7 @@
         "date": "2026-11-11",
         "stars": 5645
       },
-      "stars": 5662,
+      "stars": 5663,
       "topics": [
         "bitcoin",
         "cryptocurrency",
@@ -5106,7 +5106,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/freqtrade/freqtrade-strategies",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "gaboolic/rime-frost": {
       "archived": false,
@@ -5119,7 +5119,7 @@
       "id": 811705988,
       "language": "Lua",
       "license": "GPL-3.0",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 19.34,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -5129,10 +5129,10 @@
         "date": "2026-11-11",
         "stars": 3824
       },
-      "stars": 3837,
+      "stars": 3839,
       "topics": [],
       "url": "https://github.com/gaboolic/rime-frost",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ginlix-ai/LangAlpha": {
       "archived": false,
@@ -5145,8 +5145,8 @@
       "id": 1136616428,
       "language": "Python",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-17",
-      "score": 18.46,
+      "pushed_at": "2026-11-18",
+      "score": 18.47,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2269
@@ -5155,7 +5155,7 @@
         "date": "2026-11-11",
         "stars": 2269
       },
-      "stars": 2320,
+      "stars": 2325,
       "topics": [
         "agent",
         "investment",
@@ -5167,7 +5167,7 @@
         "trading"
       ],
       "url": "https://github.com/ginlix-ai/LangAlpha",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "goldspanlabs/optopsy": {
       "archived": false,
@@ -5181,7 +5181,7 @@
       "language": "Python",
       "license": "AGPL-3.0",
       "pushed_at": "2026-11-04",
-      "score": 15.73,
+      "score": 15.56,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1516
@@ -5213,7 +5213,7 @@
         "trading"
       ],
       "url": "https://github.com/goldspanlabs/optopsy",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "guchengwuyue/yshop-oa-crm": {
       "archived": false,
@@ -5227,7 +5227,7 @@
       "language": "Java",
       "license": "MIT",
       "pushed_at": "2026-11-17",
-      "score": 18.1,
+      "score": 17.93,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1879
@@ -5239,7 +5239,7 @@
       "stars": 1883,
       "topics": [],
       "url": "https://github.com/guchengwuyue/yshop-oa-crm",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "hanliang97/MatrixMedia": {
       "archived": false,
@@ -5247,13 +5247,13 @@
       "description": "视频矩阵工具 vue electorn puppeteer 批量发布 视频到各个视频平台 自媒体 矩阵 抖音 小红书 头条 视频号 快手等 ai 自动化 cli",
       "disabled": false,
       "discovery": "historical",
-      "forks": 228,
+      "forks": 238,
       "full_name": "hanliang97/MatrixMedia",
       "id": 1187686777,
       "language": "JavaScript",
       "license": "GPL-2.0",
       "pushed_at": "2026-11-14",
-      "score": 17.37,
+      "score": 17.26,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1266
@@ -5262,7 +5262,7 @@
         "date": "2026-11-11",
         "stars": 1266
       },
-      "stars": 1496,
+      "stars": 1552,
       "topics": [
         "autovideo",
         "dsh-plugin",
@@ -5271,7 +5271,7 @@
         "workbuddy-skill"
       ],
       "url": "https://github.com/hanliang97/MatrixMedia",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "hello245m/free-stockdb": {
       "archived": false,
@@ -5279,13 +5279,13 @@
       "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 476,
+      "forks": 478,
       "full_name": "hello245m/free-stockdb",
       "id": 1232995828,
       "language": "HTML",
       "license": "MIT",
       "pushed_at": "2026-11-11",
-      "score": 18.18,
+      "score": 18.01,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 3160
@@ -5294,7 +5294,7 @@
         "date": "2026-11-11",
         "stars": 3160
       },
-      "stars": 3178,
+      "stars": 3180,
       "topics": [
         "a-share",
         "algorithmic-trading",
@@ -5312,7 +5312,7 @@
         "time-series-database"
       ],
       "url": "https://github.com/hello245m/free-stockdb",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "himself65/finance-skills": {
       "archived": false,
@@ -5320,13 +5320,13 @@
       "description": "A collection of skills for AI financial analysis.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 406,
+      "forks": 408,
       "full_name": "himself65/finance-skills",
       "id": 1181272477,
       "language": "JavaScript",
       "license": "MIT",
       "pushed_at": "2026-11-04",
-      "score": 17.04,
+      "score": 16.88,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 3461
@@ -5335,7 +5335,7 @@
         "date": "2026-10-27",
         "stars": 3461
       },
-      "stars": 3566,
+      "stars": 3570,
       "topics": [
         "agent-skills",
         "claude-code",
@@ -5343,7 +5343,7 @@
         "trading"
       ],
       "url": "https://github.com/himself65/finance-skills",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "hosseinmoein/DataFrame": {
       "archived": false,
@@ -5356,7 +5356,7 @@
       "id": 108669343,
       "language": "C++",
       "license": "BSD-3-Clause",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 18.91,
       "star_baseline_12m": {
         "date": "2026-10-27",
@@ -5387,7 +5387,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/hosseinmoein/DataFrame",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "hotyue/IP-Sentinel": {
       "archived": false,
@@ -5395,13 +5395,13 @@
       "description": "IP-Sentinel 是一款轻量化、模块化的分布式 VPS 资产养护系统，通过地理位置信号锚定与高拟真本土流量注入，精准解决 IP 定位偏移（IP送中）及风控分过高的痛点，并配合 Telegram 实现全球多节点“低功耗、拟真、无人值守”的自动化资产养护。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 218,
+      "forks": 221,
       "full_name": "hotyue/IP-Sentinel",
       "id": 1200103459,
       "language": "Shell",
       "license": "AGPL-3.0",
-      "pushed_at": "2026-11-17",
-      "score": 18.25,
+      "pushed_at": "2026-11-18",
+      "score": 18.28,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2034
@@ -5410,10 +5410,10 @@
         "date": "2026-11-11",
         "stars": 2034
       },
-      "stars": 2055,
+      "stars": 2083,
       "topics": [],
       "url": "https://github.com/hotyue/IP-Sentinel",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "hugo2046/QuantsPlaybook": {
       "archived": false,
@@ -5421,7 +5421,7 @@
       "description": "量化研究-券商金工研报复现",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1549,
+      "forks": 1550,
       "full_name": "hugo2046/QuantsPlaybook",
       "id": 277436810,
       "language": "Jupyter Notebook",
@@ -5436,7 +5436,7 @@
         "date": "2026-11-11",
         "stars": 6873
       },
-      "stars": 6898,
+      "stars": 6902,
       "topics": [
         "quant",
         "quantitative-finance",
@@ -5444,7 +5444,7 @@
         "trading-algorithms"
       ],
       "url": "https://github.com/hugo2046/QuantsPlaybook",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "hummingbot/hummingbot": {
       "archived": false,
@@ -5452,16 +5452,16 @@
       "description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
       "disabled": false,
       "discovery": "historical",
-      "forks": 5151,
+      "forks": 5152,
       "full_name": "hummingbot/hummingbot",
       "id": 179163124,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-16",
-      "score": 22.14,
+      "score": 21.98,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 21236,
+      "stars": 21249,
       "topics": [
         "ai-agents",
         "algotrading",
@@ -5484,7 +5484,7 @@
         "trading-stategy"
       ],
       "url": "https://github.com/hummingbot/hummingbot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "hustcer/star": {
       "archived": false,
@@ -5498,7 +5498,7 @@
       "language": "JavaScript",
       "license": "MIT",
       "pushed_at": "2024-10-07",
-      "score": 12.1,
+      "score": 12.11,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1058
@@ -5507,14 +5507,14 @@
         "date": "2026-11-11",
         "stars": 1058
       },
-      "stars": 1060,
+      "stars": 1062,
       "topics": [
         "cli",
         "stock",
         "stock-analysis"
       ],
       "url": "https://github.com/hustcer/star",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ib-api-reloaded/ib_async": {
       "archived": false,
@@ -5528,7 +5528,7 @@
       "language": "Python",
       "license": "BSD-2-Clause",
       "pushed_at": "2026-11-16",
-      "score": 18.02,
+      "score": 17.85,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1789
@@ -5537,7 +5537,7 @@
         "date": "2026-11-11",
         "stars": 1789
       },
-      "stars": 1795,
+      "stars": 1796,
       "topics": [
         "ib-async",
         "ib-insync",
@@ -5548,7 +5548,7 @@
         "twsapi"
       ],
       "url": "https://github.com/ib-api-reloaded/ib_async",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ijry/lyadmin": {
       "archived": false,
@@ -5581,7 +5581,7 @@
         "tpshop"
       ],
       "url": "https://github.com/ijry/lyadmin",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "intel/auto-round": {
       "archived": false,
@@ -5589,12 +5589,12 @@
       "description": "PTQ-Level Efficiency, QAT-Level Accuracy | 训练后量化的效率，量化感知训练的精度",
       "disabled": false,
       "discovery": "historical",
-      "forks": 203,
+      "forks": 205,
       "full_name": "intel/auto-round",
       "id": 738776129,
       "language": "Python",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 17.93,
       "star_baseline_12m": {
         "date": "2026-10-20",
@@ -5621,7 +5621,7 @@
         "vlms"
       ],
       "url": "https://github.com/intel/auto-round",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "iterativv/NostalgiaForInfinity": {
       "archived": false,
@@ -5629,13 +5629,13 @@
       "description": "Trading strategy for the Freqtrade crypto bot",
       "disabled": false,
       "discovery": "historical",
-      "forks": 768,
+      "forks": 769,
       "full_name": "iterativv/NostalgiaForInfinity",
       "id": 386017669,
       "language": "Python",
       "license": "GPL-3.0",
-      "pushed_at": "2026-11-17",
-      "score": 19.19,
+      "pushed_at": "2026-11-18",
+      "score": 19.2,
       "star_baseline_12m": {
         "date": "2026-09-16",
         "stars": 3413
@@ -5644,10 +5644,10 @@
         "date": "2026-09-16",
         "stars": 3413
       },
-      "stars": 3536,
+      "stars": 3539,
       "topics": [],
       "url": "https://github.com/iterativv/NostalgiaForInfinity",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ivopetiz/algotrading": {
       "archived": false,
@@ -5694,7 +5694,7 @@
         "trading-simulator"
       ],
       "url": "https://github.com/ivopetiz/algotrading",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "jankrepl/deepdow": {
       "archived": false,
@@ -5717,7 +5717,7 @@
         "date": "2026-11-11",
         "stars": 1200
       },
-      "stars": 1202,
+      "stars": 1203,
       "topics": [
         "allocation",
         "convex-optimization",
@@ -5733,7 +5733,7 @@
         "wealth-management"
       ],
       "url": "https://github.com/jankrepl/deepdow",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "jd-opensource/drip-table": {
       "archived": false,
@@ -5765,7 +5765,7 @@
         "table"
       ],
       "url": "https://github.com/jd-opensource/drip-table",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "jesse-ai/jesse": {
       "archived": false,
@@ -5773,13 +5773,13 @@
       "description": "An advanced trading bot written in Python",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1287,
+      "forks": 1288,
       "full_name": "jesse-ai/jesse",
       "id": 156847937,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-10",
-      "score": 19.78,
+      "pushed_at": "2026-11-17",
+      "score": 20.78,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 8708
@@ -5788,7 +5788,7 @@
         "date": "2026-10-27",
         "stars": 8708
       },
-      "stars": 8813,
+      "stars": 8820,
       "topics": [
         "algo-trading",
         "algorithmic-trading",
@@ -5812,7 +5812,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/jesse-ai/jesse",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "jiawanlong/Cesium-Examples": {
       "archived": false,
@@ -5846,7 +5846,7 @@
         "cesiumjs-plugins"
       ],
       "url": "https://github.com/jiawanlong/Cesium-Examples",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "jmfernandes/robin_stocks": {
       "archived": false,
@@ -5885,7 +5885,7 @@
         "trading-api"
       ],
       "url": "https://github.com/jmfernandes/robin_stocks",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "jones2000/HQChart": {
       "archived": false,
@@ -5926,7 +5926,7 @@
         "wechat"
       ],
       "url": "https://github.com/jones2000/HQChart",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "joshyattridge/smart-money-concepts": {
       "archived": false,
@@ -5949,7 +5949,7 @@
         "date": "2026-11-11",
         "stars": 2209
       },
-      "stars": 2242,
+      "stars": 2244,
       "topics": [
         "circle",
         "concepts",
@@ -5967,7 +5967,7 @@
         "trading"
       ],
       "url": "https://github.com/joshyattridge/smart-money-concepts",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "jundizhou/easy-stock": {
       "archived": false,
@@ -5975,13 +5975,13 @@
       "description": "A股 AI 投研",
       "disabled": false,
       "discovery": "historical",
-      "forks": 222,
+      "forks": 224,
       "full_name": "jundizhou/easy-stock",
       "id": 1326915228,
       "language": "Go",
       "license": "NOASSERTION",
-      "pushed_at": "2026-11-15",
-      "score": 17.93,
+      "pushed_at": "2026-11-18",
+      "score": 18.1,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1820
@@ -5990,7 +5990,7 @@
         "date": "2026-11-11",
         "stars": 1820
       },
-      "stars": 1879,
+      "stars": 1885,
       "topics": [
         "a-share",
         "ai",
@@ -6014,7 +6014,7 @@
         "trading-agents"
       ],
       "url": "https://github.com/jundizhou/easy-stock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "kernc/backtesting.py": {
       "archived": false,
@@ -6022,13 +6022,13 @@
       "description": "🔎 📈 🐍 💰  Backtest trading strategies in Python.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1585,
+      "forks": 1587,
       "full_name": "kernc/backtesting.py",
       "id": 163788469,
       "language": "Python",
       "license": "AGPL-3.0",
       "pushed_at": "2026-08-05",
-      "score": 15.86,
+      "score": 15.87,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 9225
@@ -6037,7 +6037,7 @@
         "date": "2026-11-11",
         "stars": 9225
       },
-      "stars": 9251,
+      "stars": 9255,
       "topics": [
         "algo-trading",
         "algorithmic-trading",
@@ -6061,7 +6061,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/kernc/backtesting.py",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "khscience/OSkhQuant": {
       "archived": false,
@@ -6075,7 +6075,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "pushed_at": "2026-10-19",
-      "score": 13.2,
+      "score": 13.03,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1638
@@ -6100,7 +6100,7 @@
         "windows"
       ],
       "url": "https://github.com/khscience/OSkhQuant",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "kingston-csj/jforgame": {
       "archived": false,
@@ -6114,7 +6114,7 @@
       "language": "Java",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-15",
-      "score": 17.01,
+      "score": 16.84,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1102
@@ -6142,7 +6142,7 @@
         "websocket"
       ],
       "url": "https://github.com/kingston-csj/jforgame",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "kkyon/botflow": {
       "archived": false,
@@ -6165,10 +6165,10 @@
         "date": "2026-11-11",
         "stars": 1194
       },
-      "stars": 1195,
+      "stars": 1196,
       "topics": [],
       "url": "https://github.com/kkyon/botflow",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "liangdabiao/ecom-details-image": {
       "archived": false,
@@ -6176,13 +6176,13 @@
       "description": "一个面向workbuddy / Codex 等agent 的跨境电商和国内电商通用视觉创作 Skill。我精选25个高质量案例，涵盖纯色底产品主图、场景化生活图、平铺图、电商详情图、真实场景等等，全部配完整提示词，都可以利用 GPT-Image-2 、Seedream 5.5 API生成最终效果。一键生成电商相关图片！输入产品图片和需求描述，自动生成完整的电商主图、详情页图片、社媒推广图、直播间场景图等全套视觉素材。 与众不同之处是：**Campaign Style Lock** 机制 和 **强推广** 和 **重视转化效果**。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 230,
+      "forks": 232,
       "full_name": "liangdabiao/ecom-details-image",
       "id": 1231403659,
       "language": "Python",
       "license": null,
       "pushed_at": "2026-11-14",
-      "score": 17.6,
+      "score": 17.44,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1648
@@ -6191,7 +6191,7 @@
         "date": "2026-11-11",
         "stars": 1648
       },
-      "stars": 1712,
+      "stars": 1720,
       "topics": [
         "agent-skill",
         "agent-skills",
@@ -6199,7 +6199,7 @@
         "skills"
       ],
       "url": "https://github.com/liangdabiao/ecom-details-image",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "lihaoyun6/QuickRecorder": {
       "archived": false,
@@ -6222,10 +6222,10 @@
         "date": "2026-11-11",
         "stars": 8787
       },
-      "stars": 8796,
+      "stars": 8798,
       "topics": [],
       "url": "https://github.com/lihaoyun6/QuickRecorder",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "likaia/nginxpulse": {
       "archived": false,
@@ -6233,13 +6233,13 @@
       "description": "轻量级 Nginx 访问日志分析与可视化面板，提供实时统计、PV 过滤、IP 归属地与客户端解析。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 208,
+      "forks": 207,
       "full_name": "likaia/nginxpulse",
       "id": 1133235090,
       "language": "Go",
       "license": "MIT",
       "pushed_at": "2026-11-04",
-      "score": 16.74,
+      "score": 16.57,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2716
@@ -6251,7 +6251,7 @@
       "stars": 2719,
       "topics": [],
       "url": "https://github.com/likaia/nginxpulse",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "liyupi/yu-ai-agent": {
       "archived": false,
@@ -6259,7 +6259,7 @@
       "description": "编程导航 AI 开发实战新项目，基于 Spring Boot 3 + Java 21 + Spring AI 构建 AI 恋爱大师应用和 ReAct 模式自主规划智能体YuManus，覆盖 AI 大模型接入、Spring AI 核心特性、Prompt 工程和优化、RAG 检索增强、向量数据库、Tool Calling 工具调用、MCP 模型上下文协议、AI Agent 开发（Manas Java 实现）、Cursor AI 工具等核心知识。用一套教程将程序员必知必会的 AI 技术一网打尽，帮你成为 AI 时代企业的香饽饽，给你的简历和求职大幅增加竞争力。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 623,
+      "forks": 622,
       "full_name": "liyupi/yu-ai-agent",
       "id": 970578570,
       "language": "Java",
@@ -6274,7 +6274,7 @@
         "date": "2026-11-11",
         "stars": 2771
       },
-      "stars": 2781,
+      "stars": 2782,
       "topics": [
         "ai",
         "ai-model",
@@ -6290,7 +6290,7 @@
         "vector-database"
       ],
       "url": "https://github.com/liyupi/yu-ai-agent",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mars-tw/anti-gambling-trader-tw": {
       "archived": false,
@@ -6304,7 +6304,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-02",
-      "score": 14.8,
+      "score": 14.63,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1178
@@ -6313,7 +6313,7 @@
         "date": "2026-11-11",
         "stars": 1178
       },
-      "stars": 1186,
+      "stars": 1187,
       "topics": [
         "algorithmic-trading",
         "anti-fraud",
@@ -6333,7 +6333,7 @@
         "us-stock"
       ],
       "url": "https://github.com/mars-tw/anti-gambling-trader-tw",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "matplotlib/mplfinance": {
       "archived": false,
@@ -6356,7 +6356,7 @@
         "date": "2026-11-11",
         "stars": 4462
       },
-      "stars": 4468,
+      "stars": 4469,
       "topics": [
         "candlestick",
         "candlestick-chart",
@@ -6374,7 +6374,7 @@
         "trading-days"
       ],
       "url": "https://github.com/matplotlib/mplfinance",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mementum/backtrader": {
       "archived": false,
@@ -6382,7 +6382,7 @@
       "description": "Python Backtesting library for trading strategies",
       "disabled": false,
       "discovery": "historical",
-      "forks": 5328,
+      "forks": 5330,
       "full_name": "mementum/backtrader",
       "id": 29050338,
       "language": "Python",
@@ -6397,7 +6397,7 @@
         "date": "2026-11-11",
         "stars": 23715
       },
-      "stars": 23753,
+      "stars": 23757,
       "topics": [
         "backtesting",
         "metaclass",
@@ -6405,7 +6405,7 @@
         "trading"
       ],
       "url": "https://github.com/mementum/backtrader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mhallsmoore/qstrader": {
       "archived": false,
@@ -6436,7 +6436,7 @@
         "systematic-trading-strategies"
       ],
       "url": "https://github.com/mhallsmoore/qstrader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "microsoft/qlib": {
       "archived": false,
@@ -6444,13 +6444,13 @@
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 7947,
+      "forks": 7952,
       "full_name": "microsoft/qlib",
       "id": 287463830,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-04",
-      "score": 21.81,
+      "score": 21.64,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 50213
@@ -6459,7 +6459,7 @@
         "date": "2026-11-11",
         "stars": 50213
       },
-      "stars": 50346,
+      "stars": 50382,
       "topics": [
         "algorithmic-trading",
         "auto-quant",
@@ -6481,7 +6481,7 @@
         "stock-data"
       ],
       "url": "https://github.com/microsoft/qlib",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mizhexiaoxiao/vue-fastapi-admin": {
       "archived": false,
@@ -6504,7 +6504,7 @@
         "date": "2026-11-11",
         "stars": 2291
       },
-      "stars": 2291,
+      "stars": 2290,
       "topics": [
         "admin",
         "fastapi",
@@ -6526,7 +6526,7 @@
         "vue3"
       ],
       "url": "https://github.com/mizhexiaoxiao/vue-fastapi-admin",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mlt131220/Astral3D": {
       "archived": false,
@@ -6540,7 +6540,7 @@
       "language": "JavaScript",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-16",
-      "score": 18.42,
+      "score": 18.26,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2492
@@ -6549,7 +6549,7 @@
         "date": "2026-11-11",
         "stars": 2492
       },
-      "stars": 2495,
+      "stars": 2497,
       "topics": [
         "3d",
         "bim",
@@ -6562,7 +6562,7 @@
         "webgpu"
       ],
       "url": "https://github.com/mlt131220/Astral3D",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mnemox-ai/tradememory-protocol": {
       "archived": false,
@@ -6576,7 +6576,7 @@
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-10-23",
-      "score": 13.65,
+      "score": 13.48,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1445
@@ -6603,7 +6603,7 @@
         "trading"
       ],
       "url": "https://github.com/mnemox-ai/tradememory-protocol",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mpquant/Ashare": {
       "archived": false,
@@ -6611,13 +6611,13 @@
       "description": "股票行情实时数据接口-A股,完全免费的沪深证券股票数据-中国股市,python最简封装的API接口,包含日线,历史K线,分时线,分钟线,全部实时采集，系统包括新浪腾讯双数据核心采集获取，自动故障切换，STOCK数据格式成DataFrame格式,可用来查询研究量化分析，股票程序自动化交易系统.为量化研究者在数据获取方面极大地减轻工作量，更加专注于策略和模型的研究与实现。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 669,
+      "forks": 670,
       "full_name": "mpquant/Ashare",
       "id": 376044850,
       "language": "Python",
       "license": null,
       "pushed_at": "2025-12-24",
-      "score": 14.38,
+      "score": 14.39,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 3939
@@ -6626,7 +6626,7 @@
         "date": "2026-11-11",
         "stars": 3939
       },
-      "stars": 3945,
+      "stars": 3947,
       "topics": [
         "python",
         "quant",
@@ -6634,7 +6634,7 @@
         "tushare"
       ],
       "url": "https://github.com/mpquant/Ashare",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "mpquant/MyTT": {
       "archived": false,
@@ -6642,7 +6642,7 @@
       "description": "MyTT将通达信,同花顺,文华麦语言等指标公式,最简移植到Python中,核心库单个文件，仅百行代码,十几个核心函数，神奇的实现所有常见技术指标算法（不依赖talib库）的纯python实现和转换通达信MACD,RSI,BOLL,ATR,KDJ,CCI,PSY等公式,全部基于pandas函数计算方法封装，简洁且高性能，能非常方便的应用在股票指标公式,股市期货量化框架分析,自动程序化交易,数字货币量化等领域,它是您最精练的股市量化工具。Python library with most stock market indicators.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 734,
+      "forks": 735,
       "full_name": "mpquant/MyTT",
       "id": 368472013,
       "language": "Python",
@@ -6657,7 +6657,7 @@
         "date": "2026-11-11",
         "stars": 2891
       },
-      "stars": 2895,
+      "stars": 2896,
       "topics": [
         "atr",
         "boll",
@@ -6673,7 +6673,7 @@
         "stock"
       ],
       "url": "https://github.com/mpquant/MyTT",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "myhhub/stock": {
       "archived": false,
@@ -6681,7 +6681,7 @@
       "description": "stock股票.获取股票数据,计算股票指标,筹码分布,识别股票形态,综合选股,选股策略,股票验证回测,股票自动交易,支持PC及移动设备。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 3117,
+      "forks": 3118,
       "full_name": "myhhub/stock",
       "id": 616738094,
       "language": "Python",
@@ -6696,7 +6696,7 @@
         "date": "2026-11-11",
         "stars": 15102
       },
-      "stars": 15230,
+      "stars": 15250,
       "topics": [
         "backtest",
         "backtesting",
@@ -6712,7 +6712,7 @@
         "strategy"
       ],
       "url": "https://github.com/myhhub/stock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "neavo/LinguaGacha": {
       "archived": false,
@@ -6725,8 +6725,8 @@
       "id": 926902509,
       "language": "TypeScript",
       "license": null,
-      "pushed_at": "2026-11-17",
-      "score": 18.73,
+      "pushed_at": "2026-11-18",
+      "score": 18.74,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 2679
@@ -6735,7 +6735,7 @@
         "date": "2026-11-11",
         "stars": 2679
       },
-      "stars": 2712,
+      "stars": 2723,
       "topics": [
         "ai-agent",
         "ai-translation",
@@ -6755,7 +6755,7 @@
         "visual-novel"
       ],
       "url": "https://github.com/neavo/LinguaGacha",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "nickmccullum/algorithmic-trading-python": {
       "archived": false,
@@ -6778,10 +6778,10 @@
         "date": "2026-11-11",
         "stars": 2915
       },
-      "stars": 2916,
+      "stars": 2917,
       "topics": [],
       "url": "https://github.com/nickmccullum/algorithmic-trading-python",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "nkaz001/hftbacktest": {
       "archived": false,
@@ -6789,7 +6789,7 @@
       "description": "Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit",
       "disabled": false,
       "discovery": "historical",
-      "forks": 964,
+      "forks": 971,
       "full_name": "nkaz001/hftbacktest",
       "id": 528898425,
       "language": "Rust",
@@ -6804,7 +6804,7 @@
         "date": "2026-11-11",
         "stars": 5073
       },
-      "stars": 5090,
+      "stars": 5109,
       "topics": [
         "algorithmic-trading",
         "algotrading",
@@ -6828,7 +6828,7 @@
         "tradingbot"
       ],
       "url": "https://github.com/nkaz001/hftbacktest",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "oficcejo/aiagents-stock": {
       "archived": false,
@@ -6851,10 +6851,10 @@
         "date": "2026-11-11",
         "stars": 2083
       },
-      "stars": 2091,
+      "stars": 2092,
       "topics": [],
       "url": "https://github.com/oficcejo/aiagents-stock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "openbq-org/OpenBB": {
       "archived": false,
@@ -6862,13 +6862,13 @@
       "description": "Open Data Platform for analysts, quants and AI agents.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 7896,
+      "forks": 7901,
       "full_name": "openbq-org/OpenBB",
       "id": 323048702,
       "language": "Python",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-15",
-      "score": 24.34,
+      "score": 24.18,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 75326
@@ -6877,7 +6877,7 @@
         "date": "2026-11-11",
         "stars": 75326
       },
-      "stars": 75483,
+      "stars": 75513,
       "topics": [
         "ai",
         "crypto",
@@ -6894,7 +6894,7 @@
         "stocks"
       ],
       "url": "https://github.com/openbq-org/OpenBB",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "openctp/openctp": {
       "archived": false,
@@ -6907,11 +6907,11 @@
       "id": 393442632,
       "language": "C++",
       "license": "BSD-3-Clause",
-      "pushed_at": "2026-11-16",
-      "score": 18.74,
+      "pushed_at": "2026-11-18",
+      "score": 18.9,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 2988,
+      "stars": 2989,
       "topics": [
         "ctp",
         "ctpapi",
@@ -6926,7 +6926,7 @@
         "xtp"
       ],
       "url": "https://github.com/openctp/openctp",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "pegasusTrader/PandoraTrader": {
       "archived": false,
@@ -6957,7 +6957,7 @@
         "trading-platform"
       ],
       "url": "https://github.com/pegasusTrader/PandoraTrader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "phodal/ledge": {
       "archived": false,
@@ -6989,7 +6989,7 @@
         "platform"
       ],
       "url": "https://github.com/phodal/ledge",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "phoenix-zhou/goshop": {
       "archived": false,
@@ -7018,7 +7018,7 @@
         "golang"
       ],
       "url": "https://github.com/phoenix-zhou/goshop",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "pmorissette/bt": {
       "archived": false,
@@ -7026,13 +7026,13 @@
       "description": "bt - flexible backtesting for Python",
       "disabled": false,
       "discovery": "historical",
-      "forks": 511,
+      "forks": 513,
       "full_name": "pmorissette/bt",
       "id": 21006723,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-16",
-      "score": 18.92,
+      "score": 18.76,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 3020
@@ -7041,10 +7041,10 @@
         "date": "2026-11-11",
         "stars": 3020
       },
-      "stars": 3022,
+      "stars": 3032,
       "topics": [],
       "url": "https://github.com/pmorissette/bt",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "polakowo/vectorbt": {
       "archived": false,
@@ -7052,13 +7052,13 @@
       "description": "The research engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1310,
+      "forks": 1313,
       "full_name": "polakowo/vectorbt",
       "id": 110684325,
       "language": "Python",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-11",
-      "score": 20.14,
+      "score": 19.98,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 9551
@@ -7067,7 +7067,7 @@
         "date": "2026-10-27",
         "stars": 9551
       },
-      "stars": 9869,
+      "stars": 9880,
       "topics": [
         "algorithmic-trading",
         "algorithmic-traiding",
@@ -7085,7 +7085,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/polakowo/vectorbt",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "qqxpee/antigravity2-cn": {
       "archived": false,
@@ -7098,8 +7098,8 @@
       "id": 1253114461,
       "language": "JavaScript",
       "license": null,
-      "pushed_at": "2026-11-16",
-      "score": 17.42,
+      "pushed_at": "2026-11-18",
+      "score": 17.64,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1251
@@ -7108,10 +7108,10 @@
         "date": "2026-11-11",
         "stars": 1251
       },
-      "stars": 1404,
+      "stars": 1446,
       "topics": [],
       "url": "https://github.com/qqxpee/antigravity2-cn",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "qu-niao/LimApiTest": {
       "archived": false,
@@ -7149,7 +7149,7 @@
         "testplatform"
       ],
       "url": "https://github.com/qu-niao/LimApiTest",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "quant-science/sunday-quant-scientist": {
       "archived": false,
@@ -7175,7 +7175,7 @@
       "stars": 1886,
       "topics": [],
       "url": "https://github.com/quant-science/sunday-quant-scientist",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "quantopian/alphalens": {
       "archived": false,
@@ -7183,7 +7183,7 @@
       "description": "Performance analysis of predictive (alpha) stock factors",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1368,
+      "forks": 1369,
       "full_name": "quantopian/alphalens",
       "id": 60379729,
       "language": "Jupyter Notebook",
@@ -7208,7 +7208,7 @@
         "python"
       ],
       "url": "https://github.com/quantopian/alphalens",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "quantopian/zipline": {
       "archived": false,
@@ -7231,7 +7231,7 @@
         "date": "2026-11-11",
         "stars": 20230
       },
-      "stars": 20247,
+      "stars": 20246,
       "topics": [
         "algorithmic-trading",
         "python",
@@ -7239,7 +7239,7 @@
         "zipline"
       ],
       "url": "https://github.com/quantopian/zipline",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "questflowai/investorskills": {
       "archived": false,
@@ -7262,7 +7262,7 @@
         "date": "2026-11-11",
         "stars": 1922
       },
-      "stars": 1938,
+      "stars": 1940,
       "topics": [
         "ai",
         "investing",
@@ -7270,7 +7270,7 @@
         "skills"
       ],
       "url": "https://github.com/questflowai/investorskills",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "qusong0627/QuantMind": {
       "archived": false,
@@ -7278,13 +7278,13 @@
       "description": " QuantMind（量化大脑）开源版是一款面向个人开发者与投研团队的 AI 原生多市场量化交易平台。深度集成微软 Qlib、RD-Agent 因子演化与 QuantBot全能工作台，提供从 300+ 维因子挖掘、13 种机器学习与深度学习模型工场、Qlib 高性能回测、截面批量推理、7x24 实时舆情情绪分析，到通达信深度联动（板块推送/预警雷达/闪电下单）与实盘模拟交易的完整闭环。支持 A股、港股、美股、期货及区块链。可免费商用，系统采用 Docker Compose 一键私有化部署，数据与模型完全本地化，保障策略隐私，功能零门槛无限制。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 450,
+      "forks": 449,
       "full_name": "qusong0627/QuantMind",
       "id": 1211363505,
       "language": "Python",
       "license": "AGPL-3.0",
-      "pushed_at": "2026-11-17",
-      "score": 18.14,
+      "pushed_at": "2026-11-18",
+      "score": 18.15,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1905
@@ -7293,7 +7293,7 @@
         "date": "2026-11-11",
         "stars": 1905
       },
-      "stars": 1927,
+      "stars": 1934,
       "topics": [
         "ashare",
         "docker",
@@ -7304,7 +7304,7 @@
         "transformer"
       ],
       "url": "https://github.com/qusong0627/QuantMind",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ricequant/rqalpha": {
       "archived": false,
@@ -7318,7 +7318,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "pushed_at": "2026-10-28",
-      "score": 17.02,
+      "score": 16.85,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 6840
@@ -7327,7 +7327,7 @@
         "date": "2026-10-27",
         "stars": 6840
       },
-      "stars": 6881,
+      "stars": 6885,
       "topics": [
         "backtest",
         "finance",
@@ -7341,7 +7341,7 @@
         "trading"
       ],
       "url": "https://github.com/ricequant/rqalpha",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "rodrigo-brito/ninjabot": {
       "archived": false,
@@ -7355,7 +7355,7 @@
       "language": "Go",
       "license": "MIT",
       "pushed_at": "2026-11-01",
-      "score": 15.35,
+      "score": 15.19,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1634
@@ -7379,7 +7379,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/rodrigo-brito/ninjabot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "rootSunc/CNEquity": {
       "archived": false,
@@ -7387,13 +7387,13 @@
       "description": "开源中国股市（A股）本地数据湖：沪深股票行情、A股股票数据与金融数据，面向量化研究、量化交易与回测，含财务数据、期货数据、资金流向、公告、指数行业与宏观。86个日更数据集，复权与历史成分内置，行级溯源、PIT，MCP原生。免注册、免 Token，自托管。Open-source China stock market data lake for quant research, backtesting and AI agents.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 117,
+      "forks": 118,
       "full_name": "rootSunc/CNEquity",
       "id": 1283078615,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-13",
-      "score": 16.59,
+      "score": 16.43,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 876
@@ -7402,7 +7402,7 @@
         "date": "2026-10-27",
         "stars": 876
       },
-      "stars": 1051,
+      "stars": 1057,
       "topics": [
         "a-share",
         "a-shares",
@@ -7426,7 +7426,7 @@
         "tushare"
       ],
       "url": "https://github.com/rootSunc/CNEquity",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "samwafgo/SamWaf": {
       "archived": false,
@@ -7439,7 +7439,7 @@
       "id": 737285725,
       "language": "Go",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 17.87,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -7449,10 +7449,10 @@
         "date": "2026-11-11",
         "stars": 1636
       },
-      "stars": 1645,
+      "stars": 1646,
       "topics": [],
       "url": "https://github.com/samwafgo/SamWaf",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "santoshlite/EigenLedger": {
       "archived": false,
@@ -7496,7 +7496,7 @@
         "stock-market"
       ],
       "url": "https://github.com/santoshlite/EigenLedger",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "sensorsdata/sa-sdk-android": {
       "archived": false,
@@ -7510,7 +7510,7 @@
       "language": "Java",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-04",
-      "score": 15.39,
+      "score": 15.22,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1376
@@ -7522,7 +7522,7 @@
       "stars": 1376,
       "topics": [],
       "url": "https://github.com/sensorsdata/sa-sdk-android",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shashankvemuri/Finance": {
       "archived": false,
@@ -7545,7 +7545,7 @@
         "date": "2026-09-11",
         "stars": 4218
       },
-      "stars": 4390,
+      "stars": 4391,
       "topics": [
         "algorithmic-trading",
         "data-science",
@@ -7561,7 +7561,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/shashankvemuri/Finance",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shibing624/text2vec": {
       "archived": false,
@@ -7595,7 +7595,7 @@
         "word2vec"
       ],
       "url": "https://github.com/shibing624/text2vec",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shidenggui/easyquant": {
       "archived": false,
@@ -7618,10 +7618,10 @@
         "date": "2026-11-11",
         "stars": 3689
       },
-      "stars": 3692,
+      "stars": 3694,
       "topics": [],
       "url": "https://github.com/shidenggui/easyquant",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shidenggui/easytrader": {
       "archived": false,
@@ -7629,7 +7629,7 @@
       "description": "提供同花顺客户端/miniqmt/雪球的股票量化交易，支持跟踪 joinquant /ricequant 模拟交易 和 实盘雪球组合",
       "disabled": false,
       "discovery": "historical",
-      "forks": 3064,
+      "forks": 3065,
       "full_name": "shidenggui/easytrader",
       "id": 47453302,
       "language": "Python",
@@ -7647,7 +7647,7 @@
       "stars": 10275,
       "topics": [],
       "url": "https://github.com/shidenggui/easytrader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shinnytech/tqsdk-python": {
       "archived": false,
@@ -7661,7 +7661,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-26",
-      "score": 16.35,
+      "score": 16.18,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 5132
@@ -7670,7 +7670,7 @@
         "date": "2026-11-11",
         "stars": 5132
       },
-      "stars": 5145,
+      "stars": 5148,
       "topics": [
         "diff",
         "futures",
@@ -7680,7 +7680,7 @@
         "tqsdk"
       ],
       "url": "https://github.com/shinnytech/tqsdk-python",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shirosaidev/stocksight": {
       "archived": false,
@@ -7703,7 +7703,7 @@
         "date": "2026-11-11",
         "stars": 2552
       },
-      "stars": 2556,
+      "stars": 2557,
       "topics": [
         "elasticsearch",
         "natural-language-processing",
@@ -7724,7 +7724,7 @@
         "vader-sentiment-analysis"
       ],
       "url": "https://github.com/shirosaidev/stocksight",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shiyu-coder/Kronos": {
       "archived": false,
@@ -7732,7 +7732,7 @@
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "disabled": false,
       "discovery": "historical",
-      "forks": 7927,
+      "forks": 7935,
       "full_name": "shiyu-coder/Kronos",
       "id": 1011567289,
       "language": "Python",
@@ -7747,10 +7747,10 @@
         "date": "2026-11-11",
         "stars": 47604
       },
-      "stars": 47919,
+      "stars": 47955,
       "topics": [],
       "url": "https://github.com/shiyu-coder/Kronos",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shner-elmo/TradingView-Screener": {
       "archived": false,
@@ -7763,7 +7763,7 @@
       "id": 497854996,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 17.54,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -7773,7 +7773,7 @@
         "date": "2026-11-11",
         "stars": 1355
       },
-      "stars": 1362,
+      "stars": 1365,
       "topics": [
         "cfd",
         "crypto",
@@ -7797,7 +7797,7 @@
         "tvscreener"
       ],
       "url": "https://github.com/shner-elmo/TradingView-Screener",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "shy3130/tick-stock-panel": {
       "archived": false,
@@ -7805,13 +7805,13 @@
       "description": "TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1954,
+      "forks": 1973,
       "full_name": "shy3130/tick-stock-panel",
       "id": 1273015953,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-12",
-      "score": 19.94,
+      "pushed_at": "2026-11-18",
+      "score": 20.62,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 6355
@@ -7820,7 +7820,7 @@
         "date": "2026-10-27",
         "stars": 6355
       },
-      "stars": 7954,
+      "stars": 8026,
       "topics": [
         "a-stock",
         "ai-agent",
@@ -7844,7 +7844,7 @@
         "tsp"
       ],
       "url": "https://github.com/shy3130/tick-stock-panel",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "simonlin1212/TradingAgents-astock": {
       "archived": false,
@@ -7852,13 +7852,13 @@
       "description": "A股多Agent投研框架 — 适配A股数据源(龙虎榜/游资/解禁等)，7位分析师基于A股规则的辩论决策，基于TradingAgents深度改造，适配大A。A-share multi-agent investment research framework — 7 AI analysts, bull/bear debate, risk assessment。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 994,
+      "forks": 993,
       "full_name": "simonlin1212/TradingAgents-astock",
       "id": 1237174940,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-30",
-      "score": 16.57,
+      "score": 16.41,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 3948
@@ -7867,7 +7867,7 @@
         "date": "2026-11-11",
         "stars": 3948
       },
-      "stars": 3989,
+      "stars": 3994,
       "topics": [
         "a-share",
         "ai-agent",
@@ -7883,7 +7883,7 @@
         "trading-agents"
       ],
       "url": "https://github.com/simonlin1212/TradingAgents-astock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "simonlin1212/Vibe-Research": {
       "archived": false,
@@ -7897,7 +7897,7 @@
       "language": "TypeScript",
       "license": "MIT",
       "pushed_at": "2026-11-12",
-      "score": 18.63,
+      "score": 18.48,
       "star_baseline_12m": {
         "date": "2026-11-07",
         "stars": 3517
@@ -7906,7 +7906,7 @@
         "date": "2026-11-07",
         "stars": 3517
       },
-      "stars": 3758,
+      "stars": 3779,
       "topics": [
         "a-stock",
         "ai-agent",
@@ -7928,7 +7928,7 @@
         "workbuddy"
       ],
       "url": "https://github.com/simonlin1212/Vibe-Research",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "simonlin1212/a-stock-data": {
       "archived": false,
@@ -7936,13 +7936,13 @@
       "description": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, ticks, reports, fund flow, news, financials, filings, options, macro, futures, events, convertibles | 15 layers·87 endpoints·34 sources",
       "disabled": false,
       "discovery": "historical",
-      "forks": 2157,
+      "forks": 2160,
       "full_name": "simonlin1212/a-stock-data",
       "id": 1235056479,
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-03",
-      "score": 19.13,
+      "score": 18.97,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 11161
@@ -7951,7 +7951,7 @@
         "date": "2026-10-27",
         "stars": 11161
       },
-      "stars": 11869,
+      "stars": 11891,
       "topics": [
         "a-share",
         "ai-agent",
@@ -7969,7 +7969,7 @@
         "trading"
       ],
       "url": "https://github.com/simonlin1212/a-stock-data",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "simonlin1212/global-stock-data": {
       "archived": false,
@@ -7983,7 +7983,7 @@
       "language": null,
       "license": "Apache-2.0",
       "pushed_at": "2026-11-02",
-      "score": 15.77,
+      "score": 15.61,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1867
@@ -8010,7 +8010,7 @@
         "us-stocks"
       ],
       "url": "https://github.com/simonlin1212/global-stock-data",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "simonlin1212/vibe-astock": {
       "archived": false,
@@ -8024,7 +8024,7 @@
       "language": "TypeScript",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-12",
-      "score": 16.43,
+      "score": 16.28,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1003
@@ -8033,7 +8033,7 @@
         "date": "2026-11-11",
         "stars": 1003
       },
-      "stars": 1058,
+      "stars": 1066,
       "topics": [
         "a-share",
         "a-stock",
@@ -8057,7 +8057,7 @@
         "workbuddy"
       ],
       "url": "https://github.com/simonlin1212/vibe-astock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "sinall/StrategyEase-Python-SDK": {
       "archived": false,
@@ -8065,7 +8065,7 @@
       "description": "策略易（StrategyEase）Python SDK，策略自动化交易 API 及量化平台。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 365,
+      "forks": 364,
       "full_name": "sinall/StrategyEase-Python-SDK",
       "id": 73923592,
       "language": "Python",
@@ -8086,7 +8086,7 @@
         "trade"
       ],
       "url": "https://github.com/sinall/StrategyEase-Python-SDK",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "skfolio/skfolio": {
       "archived": false,
@@ -8099,11 +8099,11 @@
       "id": 731792488,
       "language": "Python",
       "license": "BSD-3-Clause",
-      "pushed_at": "2026-11-16",
-      "score": 18.7,
+      "pushed_at": "2026-11-17",
+      "score": 18.69,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 2653,
+      "stars": 2651,
       "topics": [
         "asset-allocation",
         "backtesting",
@@ -8122,7 +8122,7 @@
         "scikit-learn"
       ],
       "url": "https://github.com/skfolio/skfolio",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "skyming/iOS-Performance-Optimization": {
       "archived": false,
@@ -8148,7 +8148,7 @@
       "stars": 4883,
       "topics": [],
       "url": "https://github.com/skyming/iOS-Performance-Optimization",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "sngyai/Sequoia-X": {
       "archived": false,
@@ -8156,13 +8156,13 @@
       "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1722,
+      "forks": 1727,
       "full_name": "sngyai/Sequoia-X",
       "id": 141734943,
       "language": "Python",
       "license": null,
       "pushed_at": "2026-07-10",
-      "score": 15.75,
+      "score": 15.76,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 8613
@@ -8171,7 +8171,7 @@
         "date": "2026-11-11",
         "stars": 8613
       },
-      "stars": 8678,
+      "stars": 8701,
       "topics": [
         "a-shares",
         "akshare",
@@ -8184,7 +8184,7 @@
         "turtle-trade"
       ],
       "url": "https://github.com/sngyai/Sequoia-X",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "stefan-jansen/machine-learning-for-trading": {
       "archived": false,
@@ -8192,13 +8192,13 @@
       "description": "Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 5792,
+      "forks": 5797,
       "full_name": "stefan-jansen/machine-learning-for-trading",
       "id": 132754148,
       "language": "Jupyter Notebook",
       "license": "MIT",
       "pushed_at": "2026-11-13",
-      "score": 21.69,
+      "score": 21.53,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 21568
@@ -8207,7 +8207,7 @@
         "date": "2026-10-27",
         "stars": 21568
       },
-      "stars": 21848,
+      "stars": 21881,
       "topics": [
         "algorithmic-trading",
         "artificial-intelligence",
@@ -8229,7 +8229,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "tensortrade-org/tensortrade": {
       "archived": false,
@@ -8255,7 +8255,7 @@
       "stars": 7273,
       "topics": [],
       "url": "https://github.com/tensortrade-org/tensortrade",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "thinh-vu/vnstock": {
       "archived": false,
@@ -8269,7 +8269,7 @@
       "language": null,
       "license": "NOASSERTION",
       "pushed_at": "2026-11-07",
-      "score": 16.11,
+      "score": 15.95,
       "star_baseline_12m": {
         "date": "2026-10-27",
         "stars": 1417
@@ -8278,7 +8278,7 @@
         "date": "2026-10-27",
         "stars": 1417
       },
-      "stars": 1423,
+      "stars": 1424,
       "topics": [
         "data-extraction",
         "quantitative-analysis",
@@ -8288,7 +8288,7 @@
         "stock-screener"
       ],
       "url": "https://github.com/thinh-vu/vnstock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "thinkgem/jeesite5": {
       "archived": false,
@@ -8296,13 +8296,13 @@
       "description": "👍Java 快速开发平台，不仅仅是开发框架，它是一个轻量级、企业级低代码解决方案，支持国产化💖国密💖AI助手💖基于 Spring Boot 在线代码生成。包括：组织角色用户、菜单按钮授权、数据权限、内容管理、工作流等。快速增减模块；微内核；安全选项丰富，密码策略；在线预览文件；消息推送；第三方登录；在线任务调度；支持集群、多租户、多数据源、读写分离、微服务。😘动态看temp分支",
       "disabled": false,
       "discovery": "historical",
-      "forks": 842,
+      "forks": 843,
       "full_name": "thinkgem/jeesite5",
       "id": 122804820,
       "language": "JavaScript",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-17",
-      "score": 18.03,
+      "score": 17.86,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1804
@@ -8323,7 +8323,7 @@
         "spring-mvc"
       ],
       "url": "https://github.com/thinkgem/jeesite5",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "thrasher-corp/gocryptotrader": {
       "archived": false,
@@ -8336,7 +8336,7 @@
       "id": 25868356,
       "language": "Go",
       "license": "MIT",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 19.16,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -8360,7 +8360,7 @@
         "trading-platform"
       ],
       "url": "https://github.com/thrasher-corp/gocryptotrader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "timercrack/trader": {
       "archived": false,
@@ -8374,7 +8374,7 @@
       "language": "C",
       "license": "Apache-2.0",
       "pushed_at": "2026-02-28",
-      "score": 15.72,
+      "score": 15.71,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 8482
@@ -8383,7 +8383,7 @@
         "date": "2026-11-11",
         "stars": 8482
       },
-      "stars": 8487,
+      "stars": 8485,
       "topics": [
         "algorithm",
         "ctp",
@@ -8393,7 +8393,7 @@
         "trade"
       ],
       "url": "https://github.com/timercrack/trader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "tkfy920/qstock": {
       "archived": false,
@@ -8419,7 +8419,7 @@
       "stars": 1952,
       "topics": [],
       "url": "https://github.com/tkfy920/qstock",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "tvjsx/trading-vue-js": {
       "archived": false,
@@ -8459,7 +8459,7 @@
         "vuejs"
       ],
       "url": "https://github.com/tvjsx/trading-vue-js",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "uniswap-python/uniswap-python": {
       "archived": false,
@@ -8472,7 +8472,7 @@
       "id": 163547548,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-16",
+      "pushed_at": "2026-11-17",
       "score": 17.03,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
@@ -8499,7 +8499,7 @@
         "wrapper"
       ],
       "url": "https://github.com/uniswap-python/uniswap-python",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "virattt/ai-financial-agent": {
       "archived": false,
@@ -8522,10 +8522,10 @@
         "date": "2026-11-11",
         "stars": 2040
       },
-      "stars": 2045,
+      "stars": 2044,
       "topics": [],
       "url": "https://github.com/virattt/ai-financial-agent",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "virattt/dexter": {
       "archived": false,
@@ -8548,10 +8548,10 @@
         "date": "2026-11-11",
         "stars": 27816
       },
-      "stars": 27843,
+      "stars": 27848,
       "topics": [],
       "url": "https://github.com/virattt/dexter",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "visualHFT/VisualHFT": {
       "archived": false,
@@ -8559,16 +8559,16 @@
       "description": "VisualHFT Terminal: open-source observability and decision terminal for electronic trading desks. Live Level 2 order books, microstructure analytics, and quantitative execution monitoring.",
       "disabled": false,
       "discovery": "historical",
-      "forks": 253,
+      "forks": 254,
       "full_name": "visualHFT/VisualHFT",
       "id": 538784585,
       "language": "C#",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-16",
-      "score": 17.34,
+      "score": 17.18,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 1218,
+      "stars": 1223,
       "topics": [
         "analytics",
         "csharp",
@@ -8592,7 +8592,7 @@
         "wpf-ui"
       ],
       "url": "https://github.com/visualHFT/VisualHFT",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "vnpy/vnpy": {
       "archived": false,
@@ -8600,16 +8600,16 @@
       "description": "基于Python的开源量化交易平台开发框架",
       "disabled": false,
       "discovery": "historical",
-      "forks": 12610,
+      "forks": 12609,
       "full_name": "vnpy/vnpy",
       "id": 31522041,
       "language": "Python",
       "license": "MIT",
       "pushed_at": "2026-11-11",
-      "score": 22.67,
+      "score": 22.5,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 46400,
+      "stars": 46410,
       "topics": [
         "algotrading",
         "finance",
@@ -8621,7 +8621,7 @@
         "vnpy"
       ],
       "url": "https://github.com/vnpy/vnpy",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "waditu/czsc": {
       "archived": false,
@@ -8629,13 +8629,13 @@
       "description": "缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1815,
+      "forks": 1814,
       "full_name": "waditu/czsc",
       "id": 191319306,
       "language": "Rust",
       "license": "NOASSERTION",
       "pushed_at": "2026-11-08",
-      "score": 18.95,
+      "score": 18.78,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 6592
@@ -8644,14 +8644,14 @@
         "date": "2026-11-11",
         "stars": 6592
       },
-      "stars": 6611,
+      "stars": 6616,
       "topics": [
         "czsc",
         "quant",
         "tushare"
       ],
       "url": "https://github.com/waditu/czsc",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "warp-id/solana-trading-bot": {
       "archived": false,
@@ -8686,7 +8686,7 @@
         "solana-token-bot"
       ],
       "url": "https://github.com/warp-id/solana-trading-bot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "wbh604/UZI-Skill": {
       "archived": false,
@@ -8694,13 +8694,13 @@
       "description": "冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
       "disabled": false,
       "discovery": "historical",
-      "forks": 1065,
+      "forks": 1069,
       "full_name": "wbh604/UZI-Skill",
       "id": 1212241202,
       "language": "Python",
       "license": "MIT",
-      "pushed_at": "2026-11-11",
-      "score": 19.53,
+      "pushed_at": "2026-11-18",
+      "score": 20.54,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 7584
@@ -8709,10 +8709,10 @@
         "date": "2026-11-11",
         "stars": 7584
       },
-      "stars": 7640,
+      "stars": 7654,
       "topics": [],
       "url": "https://github.com/wbh604/UZI-Skill",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "wechat-article/wechat-article-exporter": {
       "archived": false,
@@ -8720,13 +8720,13 @@
       "description": "一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站 使用，支持 docker 私有化部署和 Cloudflare 部署。  支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 2293,
+      "forks": 2294,
       "full_name": "wechat-article/wechat-article-exporter",
       "id": 830077101,
       "language": "TypeScript",
       "license": "MIT",
       "pushed_at": "2026-11-09",
-      "score": 20.14,
+      "score": 19.98,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 13147
@@ -8735,7 +8735,7 @@
         "date": "2026-11-11",
         "stars": 13147
       },
-      "stars": 13164,
+      "stars": 13166,
       "topics": [
         "download",
         "wechat",
@@ -8743,7 +8743,7 @@
         "wechat-download"
       ],
       "url": "https://github.com/wechat-article/wechat-article-exporter",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "weslynn/AlphaTree-graphic-deep-neural-network": {
       "archived": false,
@@ -8774,7 +8774,7 @@
         "neural-network"
       ],
       "url": "https://github.com/weslynn/AlphaTree-graphic-deep-neural-network",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "whchien/ai-trader": {
       "archived": false,
@@ -8797,7 +8797,7 @@
         "date": "2026-11-11",
         "stars": 1137
       },
-      "stars": 1141,
+      "stars": 1140,
       "topics": [
         "ai",
         "ai-agents",
@@ -8812,7 +8812,7 @@
         "trading"
       ],
       "url": "https://github.com/whchien/ai-trader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "whittlem/pycryptobot": {
       "archived": false,
@@ -8835,7 +8835,7 @@
         "date": "2026-11-11",
         "stars": 2061
       },
-      "stars": 2062,
+      "stars": 2061,
       "topics": [
         "backtester",
         "backtesting",
@@ -8858,7 +8858,7 @@
         "trading-strategies"
       ],
       "url": "https://github.com/whittlem/pycryptobot",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "wondertrader/wondertrader": {
       "archived": false,
@@ -8875,7 +8875,7 @@
       "score": 15.24,
       "star_baseline_12m": null,
       "star_baseline_6m": null,
-      "stars": 6447,
+      "stars": 6451,
       "topics": [
         "algotrading",
         "cpp",
@@ -8888,7 +8888,7 @@
         "wondertrader"
       ],
       "url": "https://github.com/wondertrader/wondertrader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "wquguru/nof0": {
       "archived": false,
@@ -8911,7 +8911,7 @@
         "date": "2026-11-11",
         "stars": 2753
       },
-      "stars": 2754,
+      "stars": 2752,
       "topics": [
         "agentic-ai",
         "ai",
@@ -8926,7 +8926,7 @@
         "trading-bot"
       ],
       "url": "https://github.com/wquguru/nof0",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "xcanwin/KeepChatGPT": {
       "archived": false,
@@ -8934,13 +8934,13 @@
       "description": "这是一款提高ChatGPT的数据安全能力和效率的插件。并且免费共享大量创新功能，如：自动刷新、保持活跃、数据安全、取消审计、克隆对话、言无不尽、净化页面、展示大屏、拦截跟踪、日新月异、明察秋毫等。让我们的AI体验无比安全、顺畅、丝滑、高效、简洁。",
       "disabled": false,
       "discovery": "historical",
-      "forks": 741,
+      "forks": 739,
       "full_name": "xcanwin/KeepChatGPT",
       "id": 620458878,
       "language": "JavaScript",
       "license": "GPL-2.0",
       "pushed_at": "2026-11-11",
-      "score": 20.86,
+      "score": 20.69,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 14890
@@ -8949,7 +8949,7 @@
         "date": "2026-11-11",
         "stars": 14890
       },
-      "stars": 14889,
+      "stars": 14890,
       "topics": [
         "ai",
         "chatgpt",
@@ -8958,7 +8958,7 @@
         "userscript"
       ],
       "url": "https://github.com/xcanwin/KeepChatGPT",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "xiaojinzi123/Component": {
       "archived": false,
@@ -8981,7 +8981,7 @@
         "date": "2026-11-11",
         "stars": 2918
       },
-      "stars": 2918,
+      "stars": 2916,
       "topics": [
         "android",
         "android-architecture",
@@ -8997,7 +8997,7 @@
         "service"
       ],
       "url": "https://github.com/xiaojinzi123/Component",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "xtuhcy/gecco": {
       "archived": false,
@@ -9030,7 +9030,7 @@
         "jsoup"
       ],
       "url": "https://github.com/xtuhcy/gecco",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "xuchonglang/investing-for-beginners": {
       "archived": false,
@@ -9038,13 +9038,13 @@
       "description": "美股、期权与加密货币知识框架",
       "disabled": false,
       "discovery": "historical",
-      "forks": 306,
+      "forks": 308,
       "full_name": "xuchonglang/investing-for-beginners",
       "id": 1287845516,
       "language": null,
       "license": "NOASSERTION",
       "pushed_at": "2026-10-03",
-      "score": 14.64,
+      "score": 14.65,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 4452
@@ -9053,10 +9053,10 @@
         "date": "2026-11-11",
         "stars": 4452
       },
-      "stars": 4573,
+      "stars": 4588,
       "topics": [],
       "url": "https://github.com/xuchonglang/investing-for-beginners",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "yasinkuyu/binance-trader": {
       "archived": false,
@@ -9064,7 +9064,7 @@
       "description": "💰 Cryptocurrency Trading Bot for Binance (Experimental)",
       "disabled": false,
       "discovery": "historical",
-      "forks": 821,
+      "forks": 820,
       "full_name": "yasinkuyu/binance-trader",
       "id": 106051375,
       "language": "Python",
@@ -9079,7 +9079,7 @@
         "date": "2026-11-11",
         "stars": 2760
       },
-      "stars": 2760,
+      "stars": 2759,
       "topics": [
         "arbitrage",
         "binance",
@@ -9089,7 +9089,7 @@
         "trade"
       ],
       "url": "https://github.com/yasinkuyu/binance-trader",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "yijixiuxin/chanlun-pro": {
       "archived": false,
@@ -9103,7 +9103,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "pushed_at": "2026-11-17",
-      "score": 17.17,
+      "score": 17.0,
       "star_baseline_12m": {
         "date": "2026-11-11",
         "stars": 1092
@@ -9119,7 +9119,7 @@
         "python"
       ],
       "url": "https://github.com/yijixiuxin/chanlun-pro",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "yutiansut/QUANTAXIS": {
       "archived": false,
@@ -9142,12 +9142,49 @@
         "date": "2026-11-11",
         "stars": 11359
       },
-      "stars": 11370,
+      "stars": 11373,
       "topics": [
         "quant"
       ],
       "url": "https://github.com/yutiansut/QUANTAXIS",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
+    },
+    "zgsfsec/Full-Chain-Sentinel-System": {
+      "archived": false,
+      "created_at": "2026-10-16",
+      "description": "全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
+      "disabled": false,
+      "discovery": "historical",
+      "forks": 311,
+      "full_name": "zgsfsec/Full-Chain-Sentinel-System",
+      "id": 1421622972,
+      "language": "TypeScript",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "score": 16.71,
+      "star_baseline_12m": {
+        "date": "2026-11-11",
+        "stars": 869
+      },
+      "star_baseline_6m": {
+        "date": "2026-11-11",
+        "stars": 869
+      },
+      "stars": 1027,
+      "topics": [
+        "agent",
+        "blue-team",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "pentest-tool",
+        "pentest-tools",
+        "pentesting-tools",
+        "security",
+        "security-tools",
+        "self-agent-id"
+      ],
+      "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+      "verified_at": "2026-11-18"
     },
     "zhangxiangliang/stock-api": {
       "archived": false,
@@ -9160,7 +9197,7 @@
       "id": 281355218,
       "language": "TypeScript",
       "license": "MIT",
-      "pushed_at": "2026-11-17",
+      "pushed_at": "2026-11-18",
       "score": 18.21,
       "star_baseline_12m": {
         "date": "2026-11-11",
@@ -9170,7 +9207,7 @@
         "date": "2026-11-11",
         "stars": 2000
       },
-      "stars": 2003,
+      "stars": 2005,
       "topics": [
         "browser",
         "mcp",
@@ -9178,7 +9215,7 @@
         "stocks"
       ],
       "url": "https://github.com/zhangxiangliang/stock-api",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "ztx888/HaloWebUI": {
       "archived": false,
@@ -9204,7 +9241,7 @@
       "stars": 1157,
       "topics": [],
       "url": "https://github.com/ztx888/HaloWebUI",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     },
     "zvtvz/zvt": {
       "archived": false,
@@ -9227,7 +9264,7 @@
         "date": "2026-11-11",
         "stars": 4335
       },
-      "stars": 4336,
+      "stars": 4337,
       "topics": [
         "algorithmic-trading",
         "backtesting",
@@ -9249,10 +9286,10 @@
         "zvt"
       ],
       "url": "https://github.com/zvtvz/zvt",
-      "verified_at": "2026-11-17"
+      "verified_at": "2026-11-18"
     }
   },
-  "run_date": "2026-11-17",
+  "run_date": "2026-11-18",
   "warnings": [
     "项目已移除或不可访问：griddaimyorun/Metatraider-Traiding-Bot",
     "项目已移除或不可访问：tradecatlabs-projects/tradecat-public",
