@@ -7292,6 +7292,27 @@
         "url": "https://github.com/eliasswu/AlphaPurify",
         "verified_at": "2026-11-12"
       },
+      "elviscjn-cjn/antigravity-context-viewer": {
+        "archived": false,
+        "created_at": "2025-10-20",
+        "description": "Google Antigravity 2.x 的上下文与用量看板. 查看模型额度和生成速度及桌面端与 CLI Token 用量. 支持按模型设置上下文和客户端汉化及免 TUN 本地代理.",
+        "disabled": false,
+        "discovery": "historical",
+        "first_seen": "2026-11-21",
+        "forks": 57,
+        "full_name": "elviscjn-cjn/antigravity-context-viewer",
+        "id": 1079825753,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-11-20",
+        "score": 15.87,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 521,
+        "topics": [],
+        "url": "https://github.com/elviscjn-cjn/antigravity-context-viewer",
+        "verified_at": "2026-11-21"
+      },
       "fadewalk/serenity-stock-choke": {
         "archived": false,
         "created_at": "2026-05-29",
@@ -7793,6 +7814,33 @@
         ],
         "url": "https://github.com/jaikydota/BullFlow",
         "verified_at": "2026-11-14"
+      },
+      "jason8745/llm-agent-trader": {
+        "archived": false,
+        "created_at": "2025-07-31",
+        "description": "AI-powered stock trading backtesting system with LLM-based decision analysis, FastAPI backend, and Next.js frontend.",
+        "disabled": false,
+        "discovery": "historical",
+        "first_seen": "2026-11-21",
+        "forks": 113,
+        "full_name": "jason8745/llm-agent-trader",
+        "id": 1029874236,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-11-21",
+        "score": 15.81,
+        "star_baseline_12m": {
+          "date": "2026-11-18",
+          "stars": 500
+        },
+        "star_baseline_6m": {
+          "date": "2026-11-18",
+          "stars": 500
+        },
+        "stars": 503,
+        "topics": [],
+        "url": "https://github.com/jason8745/llm-agent-trader",
+        "verified_at": "2026-11-21"
       },
       "jianweiweng05/qsx-strategy-score": {
         "archived": false,
