@@ -6,7 +6,7 @@
 
 **[📚 完整热门项目总榜（全部历史项目 · Star 排名 · 分类导航）](HOT_PROJECTS.md)** · **[本月月报](archive/2026-11.md)** · **[历月归档](archive/index.md)**
 
-最近更新 2026-11-22（北京时间）。
+最近更新 2026-11-23（北京时间）。
 
 热门总榜每天刷新，按 Star 降序排列。**500–999 Star** 须近一年有代码更新且 Star 增长 **≥ 30%**。**1,000 Star 及以上**须近三年有代码更新。分类包括 Agent、交易框架（回测/语言）、工具（看板/数据源/创意）、游戏、论文研究，市场标签区分美股、A股、虚拟货币、期货、因子。
 
@@ -22,66 +22,67 @@
 
 | 项目 | 简介 | ⭐ | 半年内已观测涨幅 | 语言 | 分类 | 市场/因子 | 能力/用途 |
 |---|---|---:|---:|---|---|---|---|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | 123411 | +1.2%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
-| [openbq-org/OpenBB](https://github.com/openbq-org/OpenBB) | Open Data Platform for analysts, quants and AI agents. | 75631 | +0.4%（自 2026-11-11） | Python | Agent | 虚拟货币、期货 | Agent |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | 73654 | +5.7%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
-| [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process. | 50487 | +0.5%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | 38660 | +5.1%（自 2026-10-27） | Python | Agent | 未明确（需查文档） | Agent |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills. | 30261 | +2.1%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
-| [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research | 27990 | +0.6%（自 2026-11-11） | TypeScript | Agent | 未明确（需查文档） | Agent |
-| [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) | "AI-Trader: 100% Fully-Automated Agent-Native Trading"   | 23349 | +0.5%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
-| [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution. | 21938 | +1.7%（自 2026-10-27） | Jupyter Notebook | Agent | 未明确（需查文档） | Agent |
-| [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and deploy high-frequency crypto trading bots | 21342 | — | Python | Agent | 虚拟货币 | Agent |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | 123535 | +1.3%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
+| [openbq-org/OpenBB](https://github.com/openbq-org/OpenBB) | Open Data Platform for analysts, quants and AI agents. | 75652 | +0.4%（自 2026-11-11） | Python | Agent | 虚拟货币、期货 | Agent |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | 73788 | +5.9%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
+| [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process. | 50507 | +0.6%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | 38718 | +5.2%（自 2026-10-27） | Python | Agent | 未明确（需查文档） | Agent |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills. | 30307 | +2.3%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
+| [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research | 28006 | +0.7%（自 2026-11-11） | TypeScript | Agent | 未明确（需查文档） | Agent |
+| [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) | "AI-Trader: 100% Fully-Automated Agent-Native Trading"   | 23352 | +0.5%（自 2026-11-11） | Python | Agent | 未明确（需查文档） | Agent |
+| [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution. | 21984 | +1.9%（自 2026-10-27） | Jupyter Notebook | Agent | 未明确（需查文档） | Agent |
+| [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and deploy high-frequency crypto trading bots | 21360 | — | Python | Agent | 虚拟货币 | Agent |
 
 ### 交易框架
 
 | 项目 | 简介 | ⭐ | 半年内已观测涨幅 | 语言 | 分类 | 市场/因子 | 能力/用途 |
 |---|---|---:|---:|---|---|---|---|
-| [vnpy/vnpy](https://github.com/vnpy/vnpy) | 基于Python的开源量化交易平台开发框架 | 46450 | — | Python | 交易框架 | 未明确（需查文档） | 回测：需查文档 |
-| [mementum/backtrader](https://github.com/mementum/backtrader) | Python Backtesting library for trading strategies | 23775 | +0.3%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
-| [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by QuantConnect (Python, C#) | 22650 | +0.8%（自 2026-11-11） | C# | 交易框架 | 未明确（需查文档） | 回测：需查文档 |
-| [myhhub/stock](https://github.com/myhhub/stock) | stock股票.获取股票数据,计算股票指标,筹码分布,识别股票形态,综合选股,选股策略,股票验证回测,股票自动交易,支持PC及移动设备。 | 15299 | +1.3%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
-| [yutiansut/QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) | QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权  数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案 | 11382 | +0.2%（自 2026-11-11） | Python | 交易框架 | 期货 | 回测：明确提及 |
-| [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 11147 | — | C# | 交易框架 | 虚拟货币 | 回测：明确提及 |
-| [kernc/backtesting.py](https://github.com/kernc/backtesting.py) | 🔎 📈 🐍 💰  Backtest trading strategies in Python. | 9275 | +0.5%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
-| [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. | 9085 | +33.2%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
-| [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities | 6890 | +0.7%（自 2026-10-27） | Python | 交易框架 | 期货 | 回测：明确提及 |
-| [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 📈 Get real-time stocks from TradingView | 5925 | +2.8%（自 2026-10-27） | TypeScript | 交易框架 | 虚拟货币 | 回测：明确提及 |
+| [vnpy/vnpy](https://github.com/vnpy/vnpy) | 基于Python的开源量化交易平台开发框架 | 46465 | — | Python | 交易框架 | 未明确（需查文档） | 回测：需查文档 |
+| [mementum/backtrader](https://github.com/mementum/backtrader) | Python Backtesting library for trading strategies | 23785 | +0.3%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
+| [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by QuantConnect (Python, C#) | 22663 | +0.8%（自 2026-11-11） | C# | 交易框架 | 未明确（需查文档） | 回测：需查文档 |
+| [myhhub/stock](https://github.com/myhhub/stock) | stock股票.获取股票数据,计算股票指标,筹码分布,识别股票形态,综合选股,选股策略,股票验证回测,股票自动交易,支持PC及移动设备。 | 15319 | +1.4%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
+| [yutiansut/QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) | QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权  数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案 | 11384 | +0.2%（自 2026-11-11） | Python | 交易框架 | 期货 | 回测：明确提及 |
+| [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 11150 | — | C# | 交易框架 | 虚拟货币 | 回测：明确提及 |
+| [kernc/backtesting.py](https://github.com/kernc/backtesting.py) | 🔎 📈 🐍 💰  Backtest trading strategies in Python. | 9281 | +0.6%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
+| [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. | 9226 | +35.2%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
+| [ricequant/rqalpha](https://github.com/ricequant/rqalpha) | A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities | 6889 | +0.7%（自 2026-10-27） | Python | 交易框架 | 期货 | 回测：明确提及 |
+| [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 📈 Get real-time stocks from TradingView | 5927 | +2.9%（自 2026-10-27） | TypeScript | 交易框架 | 虚拟货币 | 回测：明确提及 |
 
 ### 工具
 
 | 项目 | 简介 | ⭐ | 半年内已观测涨幅 | 语言 | 分类 | 市场/因子 | 能力/用途 |
 |---|---|---:|---:|---|---|---|---|
-| [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | Free, open source crypto trading bot | 57149 | — | Python | 工具 | 虚拟货币 | 分析/策略工具 |
-| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | 48066 | +1.0%（自 2026-11-11） | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
-| [ccxt/ccxt](https://github.com/ccxt/ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | 44953 | — | Python | 工具 | 虚拟货币 | 数据源 |
-| [akfamily/akshare](https://github.com/akfamily/akshare) | AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库 | 23434 | +0.6%（自 2026-11-11） | Python | 工具 | A股、期货 | 数据源 |
-| [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. | 21672 | — | Jupyter Notebook | 工具 | 未明确（需查文档） | 分析/策略工具 |
-| [quantopian/zipline](https://github.com/quantopian/zipline) | Zipline, a Pythonic Algorithmic Trading Library | 20262 | +0.2%（自 2026-11-11） | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
-| [bbfamily/abu](https://github.com/bbfamily/abu) | 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构 | 19236 | +0.4%（自 2026-11-11） | Python | 工具 | 虚拟货币、期货 | 分析/策略工具 |
+| [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | Free, open source crypto trading bot | 57176 | — | Python | 工具 | 虚拟货币 | 分析/策略工具 |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | 48100 | +1.0%（自 2026-11-11） | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
+| [ccxt/ccxt](https://github.com/ccxt/ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | 44961 | — | Python | 工具 | 虚拟货币 | 数据源 |
+| [akfamily/akshare](https://github.com/akfamily/akshare) | AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库 | 23438 | +0.6%（自 2026-11-11） | Python | 工具 | A股、期货 | 数据源 |
+| [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. | 21688 | +0.1%（自 2026-11-22） | Jupyter Notebook | 工具 | 未明确（需查文档） | 分析/策略工具 |
+| [quantopian/zipline](https://github.com/quantopian/zipline) | Zipline, a Pythonic Algorithmic Trading Library | 20264 | +0.2%（自 2026-11-11） | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
+| [bbfamily/abu](https://github.com/bbfamily/abu) | 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构 | 19242 | +0.4%（自 2026-11-11） | Python | 工具 | 虚拟货币、期货 | 分析/策略工具 |
 | [xcanwin/KeepChatGPT](https://github.com/xcanwin/KeepChatGPT) | 这是一款提高ChatGPT的数据安全能力和效率的插件。并且免费共享大量创新功能，如：自动刷新、保持活跃、数据安全、取消审计、克隆对话、言无不尽、净化页面、展示大屏、拦截跟踪、日新月异、明察秋毫等。让我们的AI体验无比安全、顺畅、丝滑、高效、简洁。 | 14890 | +0.0%（自 2026-11-11） | JavaScript | 工具 | 未明确（需查文档） | 数据源 |
-| [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) | 一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站 使用，支持 docker 私有化部署和 Cloudflare 部署。  支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。 | 13172 | +0.2%（自 2026-11-11） | TypeScript | 工具 | 未明确（需查文档） | 数据源 |
-| [daniulive/SmarterStreaming](https://github.com/daniulive/SmarterStreaming) | 业内为数不多致力于极致体验的超强全自研跨平台(windows/linux/android/iOS)流媒体内核，通过模块化自由组合，支持实时RTMP推流、RTSP推流、RTMP播放器、RTSP播放器、录像、多路流媒体转发、音视频导播、动态视频合成、音频混音、直播互动、内置轻量级RTSP服务等，比快更快，业界真正靠谱的超低延迟直播SDK(延迟低至100~200ms)。 | 11175 | +0.0%（自 2026-11-11） | Java | 工具 | 未明确（需查文档） | 分析/策略工具 |
+| [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) | 一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站 使用，支持 docker 私有化部署和 Cloudflare 部署。  支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。 | 13176 | +0.2%（自 2026-11-11） | TypeScript | 工具 | 未明确（需查文档） | 数据源 |
+| [daniulive/SmarterStreaming](https://github.com/daniulive/SmarterStreaming) | 业内为数不多致力于极致体验的超强全自研跨平台(windows/linux/android/iOS)流媒体内核，通过模块化自由组合，支持实时RTMP推流、RTSP推流、RTMP播放器、RTSP播放器、录像、多路流媒体转发、音视频导播、动态视频合成、音频混音、直播互动、内置轻量级RTSP服务等，比快更快，业界真正靠谱的超低延迟直播SDK(延迟低至100~200ms)。 | 11176 | +0.0%（自 2026-11-11） | Java | 工具 | 未明确（需查文档） | 分析/策略工具 |
 
 ### 游戏
 
 | 项目 | 简介 | ⭐ | 半年内已观测涨幅 | 语言 | 分类 | 市场/因子 | 能力/用途 |
 |---|---|---:|---:|---|---|---|---|
+| [liyupi/yuindex](https://github.com/liyupi/yuindex) | 程序员鱼皮编程导航原创全栈项目，一款极客范儿的命令行浏览器主页与开源 Web 终端组件（Geek Browser Startpage & Web Terminal）。项目基于 Vue 3 + TypeScript + Vite + Pinia + Ant Design Vue + Node.js + Express + Sequelize + MySQL + Redis 实现，从 0 自研可复用的微终端和插件化命令系统，支持多引擎聚合搜索、类 Linux 书签空间管理、Tab 自动补全、全局快捷键、中英翻译、待办清单、变量命名、全网热榜、在线音乐、摸鱼小游戏、Docker 部署与 Chrome 新标签页扩展。既能作为程序员日常提效的个人起始页，也很适合前端进阶与全栈系统设计实战。 | 2111 | — | TypeScript | 游戏 | 未明确（需查文档） | 游戏 |
 | [kingston-csj/jforgame](https://github.com/kingston-csj/jforgame) | jforgame是一个一站式游戏服务器开发框架。包含游戏服务器开发所需要的各种组件，比如socket服务端与客户端，高性能线程模型，自定义二进制消息编解码，自定义orm工具，异步持久化方案，游戏热更新，配置表自动化仓库，游戏通用工具等等，同时提供大量业务案例以供学习。亦可用于其他socket应用，例如及时聊天等。 | 1103 | +0.1%（自 2026-11-11） | Java | 游戏 | 未明确（需查文档） | 游戏 |
 
 ### 论文研究
 
 | 项目 | 简介 | ⭐ | 半年内已观测涨幅 | 语言 | 分类 | 市场/因子 | 能力/用途 |
 |---|---|---:|---:|---|---|---|---|
-| [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot) | [🔥updating ...] AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. 📃 online docs: https://ufund-me.github.io/Qbot   ✨ :news: qbot-mini: https://github.com/Charmve/iQuant | 18851 | +0.3%（自 2026-11-11） | Jupyter Notebook | 论文研究 | 虚拟货币 | 论文研究 |
-| [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | The research engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one. | 9910 | +3.8%（自 2026-10-27） | Python | 论文研究 | 虚拟货币 | 论文研究 |
-| [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface. | 6970 | +1.5%（自 2026-10-27） | Python | 论文研究 | 虚拟货币 | 论文研究 |
-| [hugo2046/QuantsPlaybook](https://github.com/hugo2046/QuantsPlaybook) | 量化研究-券商金工研报复现 | 6917 | +0.6%（自 2026-11-11） | Jupyter Notebook | 论文研究 | 未明确（需查文档） | 论文研究 |
-| [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) | Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments. | 5815 | — | JavaScript | 论文研究 | 虚拟货币 | 论文研究 |
-| [cybergeekgyan/Quant-Developers-Resources](https://github.com/cybergeekgyan/Quant-Developers-Resources) | Resources to Prepare for Quant Developers/ Quantitative Researcher/ Quantitative Trader/ Quant Analyst/ Software Engineers in Quant Trading Firms, HFTs and Hedge Funds | 4181 | +6.1%（自 2026-09-19） | Python | 论文研究 | 未明确（需查文档） | 论文研究 |
-| [AI4Finance-Foundation/FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading) | FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading | 3958 | +6.7%（自 2026-09-18） | Python | 论文研究 | 未明确（需查文档） | 论文研究 |
-| [mpquant/Ashare](https://github.com/mpquant/Ashare) | 股票行情实时数据接口-A股,完全免费的沪深证券股票数据-中国股市,python最简封装的API接口,包含日线,历史K线,分时线,分钟线,全部实时采集，系统包括新浪腾讯双数据核心采集获取，自动故障切换，STOCK数据格式成DataFrame格式,可用来查询研究量化分析，股票程序自动化交易系统.为量化研究者在数据获取方面极大地减轻工作量，更加专注于策略和模型的研究与实现。 | 3949 | +0.3%（自 2026-11-11） | Python | 论文研究 | A股 | 论文研究 |
-| [hello245m/free-stockdb](https://github.com/hello245m/free-stockdb) | 面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。 | 3189 | +0.9%（自 2026-11-11） | HTML | 论文研究 | A股 | 论文研究 |
+| [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot) | [🔥updating ...] AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. 📃 online docs: https://ufund-me.github.io/Qbot   ✨ :news: qbot-mini: https://github.com/Charmve/iQuant | 18858 | +0.3%（自 2026-11-11） | Jupyter Notebook | 论文研究 | 虚拟货币 | 论文研究 |
+| [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | The research engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one. | 9917 | +3.8%（自 2026-10-27） | Python | 论文研究 | 虚拟货币 | 论文研究 |
+| [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface. | 6973 | +1.6%（自 2026-10-27） | Python | 论文研究 | 虚拟货币 | 论文研究 |
+| [hugo2046/QuantsPlaybook](https://github.com/hugo2046/QuantsPlaybook) | 量化研究-券商金工研报复现 | 6920 | +0.7%（自 2026-11-11） | Jupyter Notebook | 论文研究 | 未明确（需查文档） | 论文研究 |
+| [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) | Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments. | 5816 | — | JavaScript | 论文研究 | 虚拟货币 | 论文研究 |
+| [cybergeekgyan/Quant-Developers-Resources](https://github.com/cybergeekgyan/Quant-Developers-Resources) | Resources to Prepare for Quant Developers/ Quantitative Researcher/ Quantitative Trader/ Quant Analyst/ Software Engineers in Quant Trading Firms, HFTs and Hedge Funds | 4182 | +6.1%（自 2026-09-19） | Python | 论文研究 | 未明确（需查文档） | 论文研究 |
+| [AI4Finance-Foundation/FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading) | FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading | 3963 | +6.8%（自 2026-09-18） | Python | 论文研究 | 未明确（需查文档） | 论文研究 |
+| [mpquant/Ashare](https://github.com/mpquant/Ashare) | 股票行情实时数据接口-A股,完全免费的沪深证券股票数据-中国股市,python最简封装的API接口,包含日线,历史K线,分时线,分钟线,全部实时采集，系统包括新浪腾讯双数据核心采集获取，自动故障切换，STOCK数据格式成DataFrame格式,可用来查询研究量化分析，股票程序自动化交易系统.为量化研究者在数据获取方面极大地减轻工作量，更加专注于策略和模型的研究与实现。 | 3948 | +0.2%（自 2026-11-11） | Python | 论文研究 | A股 | 论文研究 |
+| [hello245m/free-stockdb](https://github.com/hello245m/free-stockdb) | 面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。 | 3194 | +1.1%（自 2026-11-11） | HTML | 论文研究 | A股 | 论文研究 |
 | [weslynn/AlphaTree-graphic-deep-neural-network](https://github.com/weslynn/AlphaTree-graphic-deep-neural-network) | AI Roadmap:机器学习(Machine Learning)、深度学习(Deep Learning)、对抗神经网络(GAN），图神经网络（GNN），NLP，大数据相关的发展路书(roadmap), 并附海量源码（python，pytorch）带大家消化基本知识点，突破面试，完成从新手到合格工程师的跨越，其中深度学习相关论文附有tensorflow caffe官方源码，应用部分含推荐算法和知识图谱 | 3028 | +0.0%（自 2026-11-11） |  | 论文研究 | 未明确（需查文档） | 论文研究 |
 
 
@@ -89,7 +90,7 @@
 
 ## AI 金融月报 · 2026-11
 
-本月累计收录 **28 篇论文**（其中 12 篇找到可能的代码）和 **159 个 GitHub 项目**。
+本月累计收录 **28 篇论文**（其中 12 篇找到可能的代码）和 **166 个 GitHub 项目**。
 
 ### AI 投资与交易论文
 
@@ -136,7 +137,10 @@
 | [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 11085 | — | C# | 交易框架 | 虚拟货币 | 回测：明确提及 |
 | [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) | Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments. | 5781 | — | JavaScript | 论文研究 | 虚拟货币 | 论文研究 |
 | [Hithink-Tech-Org/Financial-API](https://github.com/Hithink-Tech-Org/Financial-API) | 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development. | 4127 | — | TypeScript | Agent | A股 | Agent |
+| [liyupi/sql-generator](https://github.com/liyupi/sql-generator) | 结构化复杂 SQL 生成器（SQL Generator）是由程序员鱼皮开源的纯前端在线工具，支持用 JSON 模板以类似函数调用与嵌套传参的方式编写结构化语句并一键生成完整的复杂 SQL，也可作为通用重复代码生成器使用。项目面向大数据离线分析、Hive 与 Spark 数仓开发及日常 MySQL 查询场景，内置静态参数替换、参数透传、括号嵌套子查询解析与可视化调用树分析功能，有效降低上千行重复 SQL 的维护成本。技术栈基于 Vue 3、TypeScript、Vite、Ant Design Vue 与 Monaco Editor 构建，代码轻量清晰、重逻辑轻页面，适合前端开发者学习递归解析算法与代码编辑器集成，在线体验地址为 http://sql.yupi.icu | 3410 | — | Vue | 工具 | 未明确（需查文档） | 看板、数据源 |
 | [FinMind/FinMind](https://github.com/FinMind/FinMind) | Open Data, more than 50 financial data. 提供超過 50 個金融資料(台股為主)，每天更新 https://finmind.github.io/ | 2881 | — | HTML | 工具 | 未明确（需查文档） | 数据源 |
+| [liyupi/yuindex](https://github.com/liyupi/yuindex) | 程序员鱼皮编程导航原创全栈项目，一款极客范儿的命令行浏览器主页与开源 Web 终端组件（Geek Browser Startpage & Web Terminal）。项目基于 Vue 3 + TypeScript + Vite + Pinia + Ant Design Vue + Node.js + Express + Sequelize + MySQL + Redis 实现，从 0 自研可复用的微终端和插件化命令系统，支持多引擎聚合搜索、类 Linux 书签空间管理、Tab 自动补全、全局快捷键、中英翻译、待办清单、变量命名、全网热榜、在线音乐、摸鱼小游戏、Docker 部署与 Chrome 新标签页扩展。既能作为程序员日常提效的个人起始页，也很适合前端进阶与全栈系统设计实战。 | 2111 | — | TypeScript | 游戏 | 未明确（需查文档） | 游戏 |
+| [liyupi/sql-father-backend-public](https://github.com/liyupi/sql-father-backend-public) | SQL Father（SQL 之父）模拟数据与建表 SQL 生成平台的开源 Java 后端服务，由程序员鱼皮打造，支持可视化建表、智能导入、SQL 语句解析与 Excel 导入等多种输入方式，一键生成建表 DDL、批量插入 SQL、随机与正则模拟数据、JSON 数据以及 Java 和前端代码，并提供词库、表结构与字段信息的社区共享与管理后台。后端基于 Spring Boot、MyBatis-Plus、MySQL 与 Spring AOP 构建，融合统一 Table Schema 抽象、Druid SQL 解析、FreeMarker 模板引擎、Datafaker、EasyExcel 及策略、工厂、建造者与门面等多种设计模式，支持 Docker 部署，适合开发测试提效与实战学习。 | 2101 | — | Java | 工具 | 未明确（需查文档） | 看板、数据源 |
 | [TA-Lib/ta-lib](https://github.com/TA-Lib/ta-lib) | Technical analysis library: indicators and candlestick patterns, batch and streaming, native in C, Rust, Java, C#... and more | 1732 | — | C | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
 | [visualHFT/VisualHFT](https://github.com/visualHFT/VisualHFT) | VisualHFT Terminal: open-source observability and decision terminal for electronic trading desks. Live Level 2 order books, microstructure analytics, and quantitative execution monitoring. | 1216 | — | C# | 工具 | 未明确（需查文档） | 看板、数据源 |
 | [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) | AI Trading platform for Hyperliquid & Binance Futures AI 自动交易平台，支持 Hyperliquid 和币安合约 | 1198 | — | Python | 交易框架 | 虚拟货币、期货 | 回测：需查文档 |
@@ -154,12 +158,14 @@
 | [hananedupouy/LLMs-in-Finance](https://github.com/hananedupouy/LLMs-in-Finance) | LLMs in Finance - Generative AI - AI Agents  | 896 | — | Jupyter Notebook | Agent | 未明确（需查文档） | Agent |
 | [jwangkun/claude-for-financial-services-cn](https://github.com/jwangkun/claude-for-financial-services-cn) |  63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。 | 889 | — | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
 | [xingwudao/xquant-beginner](https://github.com/xingwudao/xquant-beginner) | 《XQuant：人人都是量化交易员》量化交易入门与自学开源书：用 AI 和 Python 从零跑通策略回测、风险评估、交易执行和因子研究。 | 888 | — | TypeScript | 论文研究 | 因子 | 论文研究 |
+| [liyupi/yu-auto-reply](https://github.com/liyupi/yu-auto-reply) | 基于 Java Spring Boot 的开源 AI 自动回复与多平台消息监控工具，支持通过灵活的配置文件接入多个业务平台，实现 7x24 小时智能客服与自动答疑。系统内置知识星球提问监控与 OpenAI（ChatGPT / GPT-4）自动回答能力，采用中介者模式、工厂模式与策略模式将监控者与回答者彻底解耦，结合 Spring Scheduler 实现多任务定时调度，方便开发者通过实现 Monitor 与 Answerer 接口快速扩展更多社区平台、微信或飞书群聊与主流大模型。同时支持 Docker 容器化部署、Railway 云端一键部署与环境变量动态配置，是学习 Java 后端设计模式与企业级 AI 应用架构的经典开源实战项目。 | 887 | — | Java | Agent | 未明确（需查文档） | Agent |
 | [NewLifeX/NewLife.Redis](https://github.com/NewLifeX/NewLife.Redis) | High performance redis client, support NETCore/. NET4. 0/. NET4. 5. It is specially optimized for big data and message queue. The average daily consumption of online single application is 10 billion. 高性能Redis客户端，支持.NETCore/.NET4.0/.NET4.5，为大数据与消息队列而特别优化，线上单应用日均100亿调用量 | 879 | — | C# | 工具 | 未明确（需查文档） | 数据源 |
 | [TencentBlueKing/bk-job](https://github.com/TencentBlueKing/bk-job) | 蓝鲸作业平台（Job）是一套运维基础操作管理系统，具备海量任务并发处理能力。除了支持脚本执行、文件分发、定时任务等一系列基础运维场景以外，还支持通过流程调度能力将零碎的单个任务组装成一个自动化作业流程；而每个作业都可做为一个原子节点，提供给上层或周边系统/平台使用，实现调度自动化。 | 875 | — | Java | 工具 | 未明确（需查文档） | 分析/策略工具 |
 | [zgsfsec/Full-Chain-Sentinel-System](https://github.com/zgsfsec/Full-Chain-Sentinel-System) | 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。 | 869 | — | TypeScript | Agent | 未明确（需查文档） | Agent |
 | [Adamant-im/adamant-tradebot](https://github.com/Adamant-im/adamant-tradebot) | Free self-hosted liquidity bot for token issuers who want to improve CEX market quality without sending tokens, funds, or API keys to a third-party market maker. | 863 | — | JavaScript | 工具 | 虚拟货币 | 数据源 |
 | [gazbert/bxbot](https://github.com/gazbert/bxbot) | A simple Bitcoin trading bot written in Java. | 863 | — | Java | 工具 | 虚拟货币 | 数据源 |
 | [swapperfinance/swapper-toolkit](https://github.com/swapperfinance/swapper-toolkit) | DeFi toolkit for AI agents and coding assistants — deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor,   Windsurf, OpenClaw, CrewAI, AutoGPT, and other AI agent frameworks. | 854 | +0.0%（自 2026-11-11） |  | Agent | 虚拟货币 | Agent |
+| [kelvinau/crypto-arbitrage](https://github.com/kelvinau/crypto-arbitrage) | Automatic Cryptocurrency Trading Bot using Triangular or Exchange Arbitrages | 853 | +0.2%（自 2026-11-11） | Python | 工具 | 虚拟货币 | 分析/策略工具 |
 | [KunMoe/kun-touchgal-next](https://github.com/KunMoe/kun-touchgal-next) | TouchGal 是一个一站式 Galgame 文化社区。提供Galgame 论坛、Galgame 下载等服务。承诺永久免费, 高质量。为Galgame 爱好者提供一片净土！ | 849 | — | TypeScript | 工具 | 未明确（需查文档） | 分析/策略工具 |
 | [huanyuejue/Fluent-Steam-Lua](https://github.com/huanyuejue/Fluent-Steam-Lua) | 基于 WPF + Fluent Design 开发的现代化轻量级 Steam Lua 入库管理工具，目前仅适配OpenSteamTool | 844 | — | C# | 工具 | 未明确（需查文档） | 分析/策略工具 |
 | [liudf0716/xfrpc](https://github.com/liudf0716/xfrpc) | xfrpc 是一个轻量级的 FRP 客户端，完美兼容 frps，采用 C 语言实现，专为 OpenWRT 和物联网等资源受限系统优化设计。它针对 ROM 和 RAM 空间有限的设备，提供高效的内网穿透解决方案。xfrpc 集成了xDPI（深度包检测）功能，增强了安全性，有效防止内网穿透中因恶意嗅探导致的安全威胁，确保数据传输和网络访问的可靠保护。购买下面的链接中的服务支持我的开源 | 844 | — | C | 工具 | 未明确（需查文档） | 数据源 |
@@ -174,6 +180,7 @@
 | [AUTO-MAS-Project/AUTO-MAS](https://github.com/AUTO-MAS-Project/AUTO-MAS) | 多脚本多配置统一管理与自动化工具 \| 轻松管理大量脚本并存储多个用户配置、设计自动化任务流、监看脚本日志，大幅提高自动化代理效率与稳定性！ | 788 | — | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
 | [taniman/profit-trailer](https://github.com/taniman/profit-trailer) | The most advanced crypto trading bot | 784 | — | Shell | 工具 | 虚拟货币 | 分析/策略工具 |
 | [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) | Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo | 773 | — | Python | Agent | A股 | Agent |
+| [liyupi/ai-code-helper](https://github.com/liyupi/ai-code-helper) | 基于 Spring Boot 3.5、Java 21、LangChain4j 与 Vue 3 打造的开源 AI 编程学习与求职辅导助手（AI Coding Assistant），由程序员鱼皮编程导航出品，适合希望快速入门 Java AI 全栈应用开发的程序员实战学习。项目以小而精的前后端分离架构，完整串联通义千问 Qwen 等大语言模型接入、AI Service 声明式开发、多轮对话记忆、结构化输出、RAG 向量知识库检索增强、Tool Calling 面试题爬虫工具调用、MCP 模型上下文协议、Guardrail 输入安全护轨、ChatModelListener 可观测性监听与 SSE 流式打字机响应，配套完整视频与文字教程，助你快速掌握企业级 LangChain4j 开发。 | 769 | — | Vue | 工具 | 未明确（需查文档） | 数据源 |
 | [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 一句话：试错成本越来越高，提示词的重要性从来没有像今天这样大。seedance2结构化提示语和通用SKILL，整合了 Seedance 2.0（字节跳动 AI 视频生成模型）的结构化提示词使用方法，帮助用户快速上手并创作出高质量的视频内容。包含 16+ 个模板和 8+ 个示例 \| 带货广告\| TVC广告\| 真人实拍视频效果 | 759 | — |  | 工具 | 未明确（需查文档） | 分析/策略工具 |
 | [soaring-xiongkulu/easyaiot](https://github.com/soaring-xiongkulu/easyaiot) | 我希望全世界都能使用这个系统，实现AI的真正0门槛，人人都能体验到AI带来的好处，而并不只是掌握在少数人手里。支持上千种垂直场景，支持AI模型定制化和AI算法定制化开发 深度融合，赋能万物智视：EasyAIoT 构筑了物联网设备（尤其是海量摄像头）的高效接入与管控网络。我们深度融合流媒体实时传输技术与前沿人工智能（AI），打造一体化服务核心。这套方案不仅打通了异构设备的互联互通，更将高清视频流与强大的AI解析引擎深度集成，赋予监控系统“智能之眼”——精准实现人脸识别、异常行为分析、风险人员布控周界入侵检测。 | 758 | — | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
 | [quant-king299/EasyXT](https://github.com/quant-king299/EasyXT) | EasyXT是基于miniqmt中xtquant的二次开发封装库，旨在简化xtquant的使用，提供更友好的API接口。通过统一的接口设计、智能参数处理和完善的错误处理，让量化交易开发变得更加简单高效。 | 756 | — | Python | 工具 | 未明确（需查文档） | 分析/策略工具 |
@@ -248,6 +255,7 @@
 | [cn-vhql/FactorHub](https://github.com/cn-vhql/FactorHub) | FactorHub is an open-source modern quantitative factor analysis platform designed specifically for the Chinese A-share market.  FactorHub = Factor + Hub  A full-stack quantitative investment research system integrating factor management, analysis, mining, portfolio optimization, and strategy backtesting. | 434 | -0.2%（自 2026-11-11） | Python | 论文研究 | A股、因子 | 论文研究 |
 | [AmpyFin/ampyfin](https://github.com/AmpyFin/ampyfin) | End-to-end ensemble trading framework that trains, backtests, and promotes validated strategies to live execution. | 428 | — | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
 | [koreal6803/finlab-ai](https://github.com/koreal6803/finlab-ai) | Official FinLab skill: backtest Taiwan and U.S. stocks with Claude Code or Codex on real market data. | 427 | +0.0%（自 2026-11-11） | Python | 交易框架 | 未明确（需查文档） | 回测：明确提及 |
+| [loudonline/metatrader-5-pro-win](https://github.com/loudonline/metatrader-5-pro-win) | MetaQuotes MetaTrader 5 Pro - electronic trading platform for algorithmic trading, technical analysis and multi-asset charting on Windows 10/11 | 423 | — |  | 交易框架 | 未明确（需查文档） | 回测：需查文档 |
 | [0xethanq/astra-quant-agent](https://github.com/0xethanq/astra-quant-agent) | 结合多大模型分析与确定性代码风控的自主量化交易系统 ｜ Autonomous crypto trading system with multi-LLM analysis, deterministic Python risk control & OKX execution. | 419 | +1.0%（自 2026-11-11） | Python | Agent | 虚拟货币 | Agent |
 | [jackson-cmd/risk-aware-trading-agents](https://github.com/jackson-cmd/risk-aware-trading-agents) | AI trading agents for US stocks with news backtesting that can't see the future: a public LLM trading agent leaderboard (rta-bench-1), frozen point-in-time 2020/2022/2026 markets (prices, VIX, news), a look-ahead check on every run, LLM agents over MCP, and paper/live trading on 10 brokers. 风险感知美股交易智能体 · 新闻回测 · LLM 榜单 | 416 | — | Python | Agent | 美股、期货 | Agent |
 | [pkjmesra/PKScreener](https://github.com/pkjmesra/PKScreener) | A Python-based stock screener for NSE, India. PKScreener is an advanced free stock screener to find potential breakout stocks from NSE and show its possible breakout values. It also helps to find the stocks which are consolidating and may breakout, or the particular chart patterns that you're looking specifically to make your decisions. | 410 | +0.0%（自 2026-11-11） | Python | 交易框架 | 美股 | 回测：明确提及 |
@@ -292,3 +300,5 @@
 
 > 论文代码按“论文自带链接 → Papers with Code → ResearchCode → arXiv 页面 → GitHub”依次匹配；低可信标题匹配仍需人工复核。本仓库只做研究信息整理，不构成投资建议。
 
+
+> arXiv 论文源采集失败（HTTPError）；本次未获取新论文，已收录论文保留，GitHub 项目继续更新。
