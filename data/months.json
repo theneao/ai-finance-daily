@@ -6044,6 +6044,33 @@
         "url": "https://github.com/VarunS2002/Python-NSE-Option-Chain-Analyzer",
         "verified_at": "2026-11-12"
       },
+      "WhiteBr1ck/agy-powertools": {
+        "archived": false,
+        "created_at": "2026-11-16",
+        "description": "Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板",
+        "disabled": false,
+        "discovery": "historical",
+        "first_seen": "2026-11-25",
+        "forks": 24,
+        "full_name": "WhiteBr1ck/agy-powertools",
+        "id": 1460598165,
+        "language": "JavaScript",
+        "license": "MIT",
+        "pushed_at": "2026-11-25",
+        "score": 16.01,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 563,
+        "topics": [
+          "antigravity",
+          "antigravity-plugin",
+          "codex",
+          "telemetry",
+          "ui-enhancement"
+        ],
+        "url": "https://github.com/WhiteBr1ck/agy-powertools",
+        "verified_at": "2026-11-25"
+      },
       "WolfZorace44832/Orderflow-Claude-skill-resocket": {
         "created_at": "2026-11-05",
         "description": "Evidence-graded order-flow & footprint skill for Claude. Reads footprint, DOM, profile and CVD screenshots, separates what’s measured from what’s inferred, and shows what flow is actually useful for, without making trade calls.",
@@ -8731,6 +8758,30 @@
           "trading"
         ],
         "url": "https://github.com/lrvx/lrvx"
+      },
+      "lzwme/finance-quant-skills": {
+        "archived": false,
+        "created_at": "2026-03-25",
+        "description": "一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。",
+        "disabled": false,
+        "discovery": "historical",
+        "first_seen": "2026-11-25",
+        "forks": 88,
+        "full_name": "lzwme/finance-quant-skills",
+        "id": 1191397731,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-11-10",
+        "score": 13.3,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 500,
+        "topics": [
+          "agent-skills",
+          "skills"
+        ],
+        "url": "https://github.com/lzwme/finance-quant-skills",
+        "verified_at": "2026-11-25"
       },
       "mingli30119/stock-analysis": {
         "archived": false,
