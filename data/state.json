@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-26T08:46:54.445030+00:00",
+  "last_run": "2026-11-27T08:57:38.044038+00:00",
   "papers": {
     "2310.04027": {
       "abstract": "Financial sentiment analysis is critical for valuation and investment\ndecision-making. Traditional NLP models, however, are limited by their\nparameter size and the scope of their training datasets, which hampers their\ngeneralization capabilities and effectiveness in this field. Recently, Large\nLanguage Models (LLMs) pre-trained on extensive corpora have demonstrated\nsuperior performance across various NLP tasks due to their commendable\nzero-shot abilities. Yet, directly applying LLMs to financial sentiment\nanalysis presents challenges: The discrepancy between the pre-training\nobjective of LLMs and predicting the sentiment label can compromise their\npredictive performance. Furthermore, the succinct nature of financial news,\noften devoid of sufficient context, can significantly diminish the reliability\nof LLMs' sentiment analysis. To address these challenges, we introduce a\nretrieval-augmented LLMs framework for financial sentiment analysis. This\nframework includes an instruction-tuned LLMs module, which ensures LLMs behave\nas predictors of sentiment labels, and a retrieval-augmentation module which\nretrieves additional context from reliable external sources. Benchmarked\nagainst traditional models and LLMs like ChatGPT and LLaMA, our approach\nachieves 15\\% to 48\\% performance gain in accuracy and F1 score.",
@@ -1976,6 +1976,112 @@
       "published": "2026-11-18",
       "title": "Vibe-Trading: Towards Agent-Native Trading",
       "updated": "2026-11-18"
+    },
+    "2611.30112": {
+      "abstract": "On a given trading day, a stock-factor panel describes both how stocks differ across factors and how each factor varies across stocks. Most stock Transformers model relationships among stocks or across time. We introduce FToken, which also models relationships among factors. Its factor branch encodes all stocks' values for one factor as a token, applies self-attention across factors, and maps the result back to one return forecast per stock. A second branch applies attention across stocks in the same panel. A gate combines their forecasts using trailing factor covariance and market volatility. We evaluate both branches on NASDAQ, NYSE, and S&P 500 with the benchmarks' five price features and with 158 factors computed from the same data. On the 158-factor NASDAQ panel, averaging the two forecasts yields an information coefficient (IC) of 0.0421, compared with 0.0392 for the strongest external baseline. The gate raises IC to 0.0443 and gives the highest annualized excess return after costs. The equal-weight ensemble has the higher portfolio information ratio. Both combinations also improve on the strongest external baseline in mean IC on the other two 158-factor panels. On the five-feature NYSE panel, the differences are within the variation across seeds. ```",
+      "authors": [
+        "Juntang Wang",
+        "Yihan Wang",
+        "Sheng'en Li",
+        "Dongmian Zou",
+        "Shixin Xu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-11-27",
+      "id": "2611.30112",
+      "paper_url": "https://arxiv.org/abs/2611.30112",
+      "pdf_url": "https://arxiv.org/pdf/2611.30112",
+      "published": "2026-11-23",
+      "title": "FToken: Factors as Tokens for Dual-Axis Cross-Sectional Return Prediction",
+      "updated": "2026-11-23"
+    },
+    "2611.30584": {
+      "abstract": "Although technical analysis remains widely used in practice, the need for manually constructed indicators is increasingly questioned as deep learning models can extract features directly from OHLC price data. This paper examines the standalone economic value of trading volume and manually constructed technical-indicator groups and whether adding these groups to OHLC candlestick charts provides incremental economic value. Using daily data for 1,707 Chinese A-share stocks from 2013 to 2025, we construct approximately 3.36 million stock-window samples and encode them as multi-channel images containing candlestick charts, trading volume, and seven widely used manually constructed technical indicators. The primary analysis uses a 2D CNN on these images; complementary tests apply a logistic regression, a 1D CNN, and an LSTM to numerical representations of the same samples. Out-of-sample performance from 2021 to 2025 is evaluated using decile portfolios, Sharpe ratios, Fama--French alphas, and formal pairwise tests. Our empirical results yield two central findings. First, specifications based separately on OHLC, trading volume, and each technical-indicator group produce significantly positive high-minus-low returns and factor-adjusted alphas, together with economically meaningful Sharpe ratios; the OHLC-only specifications generally perform best under the nonlinear models. Second, adding these technical-indicator groups to OHLC does not systematically improve any of these performance measures in our setting. Together, these results provide the first large-scale evidence from the Chinese A-share market on the standalone and incremental economic value of these technical-indicator groups across multiple representations and model architectures.",
+      "authors": [
+        "Peng Liu",
+        "Yanyan Zheng"
+      ],
+      "categories": [
+        "econ.GN",
+        "cs.CE",
+        "cs.LG",
+        "q-fin.PM",
+        "q-fin.TR"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-11-27",
+      "id": "2611.30584",
+      "paper_url": "https://arxiv.org/abs/2611.30584",
+      "pdf_url": "https://arxiv.org/pdf/2611.30584",
+      "published": "2026-11-23",
+      "title": "Do Candlestick Charts Suffice? The Incremental Economic Value of Technical Indicators in Stock Return Prediction",
+      "updated": "2026-11-23"
+    },
+    "2611.31731": {
+      "abstract": "Conventional post-hoc explanation methods were developed largely for non-spatial inputs and often provide limited explicit treatment of geographic context. We introduce Geo-SMILE, a model-agnostic framework that distinguishes substantive Feature explanation from geographic-position response through complementary perturbation branches. The Feature branch masks substantive predictors while retaining observed coordinates; the Geo branch relocates geographic units while holding substantive predictors fixed. Following the statistical-distance-weighted surrogate principle of SMILE, input-distribution Wasserstein distances determine coalition locality weights and weighted Ridge surrogates approximate expected black-box predictions. GeoSensitivity, signed in the keep orientation, quantifies fitted-model responses to geographic-player relocation under the specified design. Across crime prediction in Hull, housing-price prediction in Seattle and ride-hailing demand in Chicago, held-out weighted surrogate fidelity ranges from $R_w^2=0.910$ to $0.989$ in the Feature branch and from $0.842$ to $0.906$ in the Geo branch. The framework makes geographic position an explicit object of post-hoc explanation while requiring separate assessment of interpretation, stability and reference dependence.",
+      "authors": [
+        "Shadieh Mohammadi",
+        "Koorosh Aslansefat"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-11-27",
+      "id": "2611.31731",
+      "paper_url": "https://arxiv.org/abs/2611.31731",
+      "pdf_url": "https://arxiv.org/pdf/2611.31731",
+      "published": "2026-11-24",
+      "title": "Geo-SMILE: Statistical Model-Agnostic Interpretability with Local Explanations for Geospatial Machine Learning",
+      "updated": "2026-11-24"
+    },
+    "2611.33652": {
+      "abstract": "Portfolio management involves balancing diverse financial assets, a critical yet challenging task in quantitative trading. Although deep reinforcement learning has emerged as an active research domain for solving complex sequential decision-making problems over the past decade, deploying reinforcement learning frameworks in non-stationary financial markets raises formidable difficulties. Most existing reinforcement learning-based portfolio management models fail to account for tick-level intraday market dynamics (e.g., order flow imbalances and liquidity fluctuations), which reflect rapid capital movements. Simultaneously, these models suffer from unstable learning processes due to reinforcement learning's inherent high variance. This paper presents a Self-supervised Clipped-objective Portfolio management framework (SCP), which addresses these limitations through a two-phase architecture. Market feature integration phase (application contribution) integrates micro-level market microstructure patterns with macro-level financial indicators to enhance sensitivity to intraday asset trend dynamics. Policy optimization Phase (AI contribution) employs intermediate asset state representations to derive optimal portfolio allocations via a self-supervised clipped-objective policy-learner, ensuring both effectiveness and computational efficiency. Extensive evaluations on three major index datasets from China's A-share market demonstrate that SCP's superior performance in balancing risk-return trade-offs compared to state-of-the-art baselines. Exploratory and ablation studies further validate the contributions of SCP's key components.",
+      "authors": [
+        "Zongshen Mu"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "code_match": null,
+      "code_url": null,
+      "comment": "",
+      "first_seen": "2026-11-27",
+      "id": "2611.33652",
+      "paper_url": "https://arxiv.org/abs/2611.33652",
+      "pdf_url": "https://arxiv.org/pdf/2611.33652",
+      "published": "2026-11-25",
+      "title": "Self-supervised Clipped-objective Reinforcement Leaning Framework for Risk-aware Portfolio Management",
+      "updated": "2026-11-25"
+    },
+    "2611.33942": {
+      "abstract": "Quantum-inspired machine learning in econophysics describes states of financial markets through matrix Hamiltonians, using ground-state expectations to predict returns and spectral gaps to identify crises. Although early work reports encouraging advances, it remains unclear whether these stem from genuine noncommutative quantum geometry or from conventional classical regularization and scale effects. We test this in a controlled audit of matrix-form Quantum Cognition Machine Learning (QCML) and variational quantum circuits on the Moscow Exchange (2020-2025), combining daily equity data with causally lagged macro news under realistic trading costs, short-selling bans, and abrupt shifts in market regimes. By using capacity-matched operator swaps -- which progressively eliminate complex Berry phases and matrix noncommutativity down to a commuting classical Gibbs radial-basis limit under scale-invariant regularization -- as well as testing spectral indicators against radial-norm null hypotheses and untrained GUE random matrices, we isolate the contribution of each quantum element. In out-of-sample data, neither complex phases, noncommutativity, nor circuit entanglement improves the ranking of returns relative to classical controls. Once feature magnitudes are normalized, apparent crisis detection from raw spectral gaps drops below chance levels. These results show that on noisy equity panels, matrix-form QCML acts as an adaptive spectrally bounded classical smoothing kernel: it reliably integrates lagged news and curbs extreme crisis forecasts without passing economic multiple-testing thresholds, while our audit provides operator-swap and random-matrix controls for evaluating future quantum-inspired financial models.",
+      "authors": [
+        "Pavel Chuklanov"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "code_match": "arxiv-page",
+      "code_url": "https://github.com/alpha7en/QCML_Emerging_Market",
+      "comment": "",
+      "first_seen": "2026-11-27",
+      "id": "2611.33942",
+      "paper_url": "https://arxiv.org/abs/2611.33942",
+      "pdf_url": "https://arxiv.org/pdf/2611.33942",
+      "published": "2026-11-25",
+      "title": "Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market",
+      "updated": "2026-11-25"
     }
   },
   "repo_star_history": {
@@ -2070,7 +2176,8 @@
       "2026-11-23": 3037,
       "2026-11-24": 3038,
       "2026-11-25": 3038,
-      "2026-11-26": 3040
+      "2026-11-26": 3040,
+      "2026-11-27": 3042
     },
     "0xethanq/astra-quant-agent": {
       "2026-11-11": 415,
@@ -2088,7 +2195,8 @@
       "2026-11-23": 424,
       "2026-11-24": 425,
       "2026-11-25": 425,
-      "2026-11-26": 425
+      "2026-11-26": 425,
+      "2026-11-27": 426
     },
     "0xfdf/toraniko": {
       "2026-11-11": 982,
@@ -2106,7 +2214,8 @@
       "2026-11-23": 1003,
       "2026-11-24": 1003,
       "2026-11-25": 1003,
-      "2026-11-26": 1004
+      "2026-11-26": 1004,
+      "2026-11-27": 1006
     },
     "0xohioism/polymarket-crypto-5m-15min-trading-bot": {
       "2026-08-31": 106,
@@ -2146,7 +2255,8 @@
       "2026-11-23": 5420,
       "2026-11-24": 5424,
       "2026-11-25": 5427,
-      "2026-11-26": 5428
+      "2026-11-26": 5428,
+      "2026-11-27": 5435
     },
     "51bitquant/ai-hedge-fund-crypto": {
       "2026-11-11": 627,
@@ -2164,7 +2274,8 @@
       "2026-11-23": 630,
       "2026-11-24": 630,
       "2026-11-25": 631,
-      "2026-11-26": 631
+      "2026-11-26": 631,
+      "2026-11-27": 631
     },
     "51bitquant/binance_grid_trader": {
       "2026-11-11": 991,
@@ -2182,7 +2293,8 @@
       "2026-11-23": 995,
       "2026-11-24": 995,
       "2026-11-25": 996,
-      "2026-11-26": 996
+      "2026-11-26": 996,
+      "2026-11-27": 997
     },
     "51bitquant/bitquant": {
       "2026-11-11": 1166,
@@ -2200,7 +2312,8 @@
       "2026-11-23": 1165,
       "2026-11-24": 1165,
       "2026-11-25": 1165,
-      "2026-11-26": 1165
+      "2026-11-26": 1165,
+      "2026-11-27": 1165
     },
     "51bitquant/howtrader": {
       "2026-11-11": 972,
@@ -2218,7 +2331,8 @@
       "2026-11-23": 973,
       "2026-11-24": 973,
       "2026-11-25": 974,
-      "2026-11-26": 975
+      "2026-11-26": 975,
+      "2026-11-27": 975
     },
     "555cute/r20-quantum-trader": {
       "2026-09-11": 169,
@@ -2252,7 +2366,8 @@
       "2026-11-23": 21688,
       "2026-11-24": 21699,
       "2026-11-25": 21710,
-      "2026-11-26": 21717
+      "2026-11-26": 21717,
+      "2026-11-27": 21726
     },
     "AI4Finance-Foundation/FinNLP": {
       "2026-11-11": 1496,
@@ -2270,7 +2385,8 @@
       "2026-11-23": 1496,
       "2026-11-24": 1496,
       "2026-11-25": 1496,
-      "2026-11-26": 1496
+      "2026-11-26": 1496,
+      "2026-11-27": 1495
     },
     "AI4Finance-Foundation/FinRL-Trading": {
       "2026-09-18": 3710,
@@ -2302,7 +2418,8 @@
       "2026-11-23": 3963,
       "2026-11-24": 3966,
       "2026-11-25": 3971,
-      "2026-11-26": 3975
+      "2026-11-26": 3975,
+      "2026-11-27": 3977
     },
     "AI4Finance-Foundation/FinRobot": {
       "2026-11-11": 8409,
@@ -2320,7 +2437,8 @@
       "2026-11-23": 8469,
       "2026-11-24": 8470,
       "2026-11-25": 8476,
-      "2026-11-26": 8485
+      "2026-11-26": 8485,
+      "2026-11-27": 8487
     },
     "ALAGENT-HKU/x2strategy": {
       "2026-11-11": 283,
@@ -2338,7 +2456,8 @@
       "2026-11-23": 283,
       "2026-11-24": 283,
       "2026-11-25": 283,
-      "2026-11-26": 283
+      "2026-11-26": 283,
+      "2026-11-27": 283
     },
     "ALSAREM/MazCryptoBot": {
       "2026-11-10": 4,
@@ -2370,7 +2489,8 @@
       "2026-11-23": 810,
       "2026-11-24": 812,
       "2026-11-25": 814,
-      "2026-11-26": 814
+      "2026-11-26": 814,
+      "2026-11-27": 815
     },
     "Aagam-Bothara/polyserve": {
       "2026-09-18": 5,
@@ -2398,7 +2518,8 @@
       "2026-11-23": 867,
       "2026-11-24": 867,
       "2026-11-25": 867,
-      "2026-11-26": 868
+      "2026-11-26": 868,
+      "2026-11-27": 868
     },
     "AetherLabsAI/Video2World": {
       "2026-10-26": 205,
@@ -2511,7 +2632,8 @@
       "2026-11-23": 688,
       "2026-11-24": 688,
       "2026-11-25": 688,
-      "2026-11-26": 688
+      "2026-11-26": 688,
+      "2026-11-27": 688
     },
     "Ali-Marandi/finsight-pro": {
       "2026-08-31": 109,
@@ -2533,7 +2655,8 @@
       "2026-11-23": 558,
       "2026-11-24": 558,
       "2026-11-25": 558,
-      "2026-11-26": 558
+      "2026-11-26": 558,
+      "2026-11-27": 558
     },
     "Alinebm17/finance-api-tool": {
       "2026-09-16": 142,
@@ -2589,7 +2712,8 @@
       "2026-11-23": 630,
       "2026-11-24": 629,
       "2026-11-25": 629,
-      "2026-11-26": 630
+      "2026-11-26": 630,
+      "2026-11-27": 630
     },
     "Alpha-Park/genpark-agent-codebase-ast-dependency-slicer-skill": {
       "2026-09-29": 7,
@@ -2706,6 +2830,9 @@
       "2026-09-17": 8,
       "2026-09-18": 8
     },
+    "AlphaGBM/skills": {
+      "2026-11-27": 3184
+    },
     "AminHP/gym-mtsim": {
       "2026-11-11": 527,
       "2026-11-12": 528,
@@ -2722,7 +2849,8 @@
       "2026-11-23": 528,
       "2026-11-24": 528,
       "2026-11-25": 528,
-      "2026-11-26": 528
+      "2026-11-26": 528,
+      "2026-11-27": 527
     },
     "AndreXes03/motion-lab": {
       "2026-10-15": 7,
@@ -2820,7 +2948,8 @@
       "2026-11-23": 8239,
       "2026-11-24": 8244,
       "2026-11-25": 8255,
-      "2026-11-26": 8268
+      "2026-11-26": 8268,
+      "2026-11-27": 8281
     },
     "Aryanutkarsh/SeeCode": {
       "2026-10-14": 468,
@@ -2859,7 +2988,8 @@
       "2026-11-23": 841,
       "2026-11-24": 841,
       "2026-11-25": 841,
-      "2026-11-26": 841
+      "2026-11-26": 841,
+      "2026-11-27": 841
     },
     "Atanasseri/agentic-engineering-assurance-system": {
       "2026-08-31": 5,
@@ -2929,7 +3059,8 @@
       "2026-11-23": 649,
       "2026-11-24": 649,
       "2026-11-25": 649,
-      "2026-11-26": 649
+      "2026-11-26": 649,
+      "2026-11-27": 650
     },
     "B-M-Capital-Research/hone-quant": {
       "2026-10-15": 5,
@@ -3010,7 +3141,8 @@
       "2026-11-23": 1895,
       "2026-11-24": 1899,
       "2026-11-25": 1900,
-      "2026-11-26": 1900
+      "2026-11-26": 1900,
+      "2026-11-27": 1899
     },
     "BeforeWave/agent-helm-extensions": {
       "2026-09-04": 8
@@ -3019,6 +3151,9 @@
       "2026-11-07": 51,
       "2026-11-08": 101,
       "2026-11-09": 90
+    },
+    "BenjiKCF/Neural-Net-with-Financial-Time-Series-Data": {
+      "2026-11-27": 765
     },
     "BerriAI/litellm": {
       "2026-10-26": 62039,
@@ -3073,7 +3208,8 @@
       "2026-11-23": 584,
       "2026-11-24": 584,
       "2026-11-25": 584,
-      "2026-11-26": 584
+      "2026-11-26": 584,
+      "2026-11-27": 584
     },
     "Blave-TW/blave-agent": {
       "2026-11-11": 341,
@@ -3091,7 +3227,8 @@
       "2026-11-23": 363,
       "2026-11-24": 365,
       "2026-11-25": 368,
-      "2026-11-26": 369
+      "2026-11-26": 369,
+      "2026-11-27": 382
     },
     "BloopAI/vibe-kanban": {
       "2026-10-27": 28474,
@@ -3124,7 +3261,8 @@
       "2026-11-23": 523,
       "2026-11-24": 523,
       "2026-11-25": 523,
-      "2026-11-26": 523
+      "2026-11-26": 523,
+      "2026-11-27": 523
     },
     "Boriwatopal/agent-skill-remotion-motion-graphics": {
       "2026-09-16": 15,
@@ -3156,7 +3294,8 @@
       "2026-11-23": 567,
       "2026-11-24": 571,
       "2026-11-25": 573,
-      "2026-11-26": 572
+      "2026-11-26": 572,
+      "2026-11-27": 573
     },
     "CHENG-LIANG1/real-company-interview-ai-coding-projects": {
       "2026-08-31": 277,
@@ -3177,7 +3316,8 @@
       "2026-11-23": 673,
       "2026-11-24": 693,
       "2026-11-25": 718,
-      "2026-11-26": 773
+      "2026-11-26": 773,
+      "2026-11-27": 806
     },
     "CacheCarti/dmoera-mcp": {
       "2026-08-31": 8,
@@ -3341,7 +3481,8 @@
       "2026-11-23": 5664,
       "2026-11-24": 5664,
       "2026-11-25": 5665,
-      "2026-11-26": 5666
+      "2026-11-26": 5666,
+      "2026-11-27": 5668
     },
     "CuriousLearnerDev/TrafficEye": {
       "2026-11-11": 661,
@@ -3359,7 +3500,8 @@
       "2026-11-23": 674,
       "2026-11-24": 676,
       "2026-11-25": 675,
-      "2026-11-26": 675
+      "2026-11-26": 675,
+      "2026-11-27": 675
     },
     "CypherSisters/HomeBotBuild": {
       "2026-10-22": 8,
@@ -3382,7 +3524,8 @@
       "2026-11-23": 1158,
       "2026-11-24": 1158,
       "2026-11-25": 1158,
-      "2026-11-26": 1158
+      "2026-11-26": 1158,
+      "2026-11-27": 1159
     },
     "DRAGOX7/aaos": {
       "2026-10-08": 5
@@ -3484,7 +3627,8 @@
       "2026-11-23": 316,
       "2026-11-24": 316,
       "2026-11-25": 316,
-      "2026-11-26": 316
+      "2026-11-26": 316,
+      "2026-11-27": 316
     },
     "Delugeamongestate/cryptohopper-trading-bot": {
       "2026-10-03": 2,
@@ -3518,7 +3662,8 @@
       "2026-11-23": 1520,
       "2026-11-24": 1521,
       "2026-11-25": 1521,
-      "2026-11-26": 1521
+      "2026-11-26": 1521,
+      "2026-11-27": 1521
     },
     "DenisSergeevitch/ex-ussr-kinship-research": {
       "2026-10-26": 552,
@@ -3625,7 +3770,8 @@
       "2026-11-23": 6973,
       "2026-11-24": 6982,
       "2026-11-25": 6985,
-      "2026-11-26": 6990
+      "2026-11-26": 6990,
+      "2026-11-27": 6991
     },
     "Drobiazkin/agent-gpu-calculator": {
       "2026-09-26": 7,
@@ -3670,7 +3816,8 @@
       "2026-11-23": 516,
       "2026-11-24": 515,
       "2026-11-25": 515,
-      "2026-11-26": 515
+      "2026-11-26": 515,
+      "2026-11-27": 515
     },
     "EL4CTEO/blender-skills": {
       "2026-10-20": 291,
@@ -3822,7 +3969,8 @@
       "2026-11-23": 492,
       "2026-11-24": 492,
       "2026-11-25": 492,
-      "2026-11-26": 492
+      "2026-11-26": 492,
+      "2026-11-27": 492
     },
     "Evangeline668/forex-market-balance-trading-system": {
       "2026-09-01": 75,
@@ -3955,7 +4103,8 @@
       "2026-11-23": 1260,
       "2026-11-24": 1261,
       "2026-11-25": 1261,
-      "2026-11-26": 1261
+      "2026-11-26": 1261,
+      "2026-11-27": 1262
     },
     "FinanceData/FinanceDataReader": {
       "2026-11-11": 1574,
@@ -3973,7 +4122,8 @@
       "2026-11-23": 1579,
       "2026-11-24": 1579,
       "2026-11-25": 1579,
-      "2026-11-26": 1580
+      "2026-11-26": 1580,
+      "2026-11-27": 1580
     },
     "Finnhub-Stock-API/finnhub-go": {
       "2026-11-04": 91,
@@ -4013,7 +4163,8 @@
       "2026-11-23": 1101,
       "2026-11-24": 1100,
       "2026-11-25": 1100,
-      "2026-11-26": 1100
+      "2026-11-26": 1100,
+      "2026-11-27": 1101
     },
     "Finnhub-Stock-API/finnhub-ruby": {
       "2026-11-04": 38,
@@ -4071,7 +4222,8 @@
       "2026-11-23": 1001,
       "2026-11-24": 1001,
       "2026-11-25": 1001,
-      "2026-11-26": 1000
+      "2026-11-26": 1000,
+      "2026-11-27": 1000
     },
     "GMGNAI/gmgn-skills": {
       "2026-11-11": 711,
@@ -4089,7 +4241,11 @@
       "2026-11-23": 735,
       "2026-11-24": 738,
       "2026-11-25": 742,
-      "2026-11-26": 744
+      "2026-11-26": 744,
+      "2026-11-27": 745
+    },
+    "Galihsahin552/sierra-chart": {
+      "2026-11-27": 304
     },
     "GamePhanesStudio/GamePhanes": {
       "2026-08-31": 540,
@@ -4131,7 +4287,8 @@
       "2026-11-23": 637,
       "2026-11-24": 637,
       "2026-11-25": 637,
-      "2026-11-26": 637
+      "2026-11-26": 637,
+      "2026-11-27": 637
     },
     "GenericCoding/VibeContainers": {
       "2026-08-31": 25,
@@ -4227,7 +4384,8 @@
       "2026-11-23": 4980,
       "2026-11-24": 4993,
       "2026-11-25": 5015,
-      "2026-11-26": 5025
+      "2026-11-26": 5025,
+      "2026-11-27": 5042
     },
     "Gunthor-xie/A-Simple-Quantitative-Trading-Strategy-Analysis-Platform-Based-On-Freqtrade": {
       "2026-10-05": 2,
@@ -4269,7 +4427,8 @@
       "2026-11-23": 23352,
       "2026-11-24": 23364,
       "2026-11-25": 23371,
-      "2026-11-26": 23386
+      "2026-11-26": 23386,
+      "2026-11-27": 23399
     },
     "HKUDS/RAG-Anything": {
       "2026-10-26": 24133,
@@ -4316,7 +4475,8 @@
       "2026-11-23": 38718,
       "2026-11-24": 38756,
       "2026-11-25": 38841,
-      "2026-11-26": 38954
+      "2026-11-26": 38954,
+      "2026-11-27": 39030
     },
     "HKUDS/nanobot": {
       "2026-10-15": 49040,
@@ -4355,7 +4515,8 @@
       "2026-11-23": 4126,
       "2026-11-24": 4126,
       "2026-11-25": 4128,
-      "2026-11-26": 4132
+      "2026-11-26": 4132,
+      "2026-11-27": 4132
     },
     "Haehnchen/crypto-trading-bot": {
       "2026-11-11": 3551,
@@ -4373,7 +4534,8 @@
       "2026-11-23": 3550,
       "2026-11-24": 3553,
       "2026-11-25": 3552,
-      "2026-11-26": 3552
+      "2026-11-26": 3552,
+      "2026-11-27": 3551
     },
     "HajibagheriLabs/Web-Vibe-Security": {
       "2026-09-02": 5,
@@ -4402,7 +4564,8 @@
       "2026-11-23": 1207,
       "2026-11-24": 1208,
       "2026-11-25": 1208,
-      "2026-11-26": 1210
+      "2026-11-26": 1210,
+      "2026-11-27": 1211
     },
     "Hangzhi/diffusion-jev-sglang": {
       "2026-10-02": 6,
@@ -4431,7 +4594,8 @@
       "2026-11-23": 963,
       "2026-11-24": 965,
       "2026-11-25": 968,
-      "2026-11-26": 969
+      "2026-11-26": 969,
+      "2026-11-27": 969
     },
     "Heluhan/Doccanon": {
       "2026-09-21": 5
@@ -4491,7 +4655,8 @@
       "2026-11-23": 403,
       "2026-11-24": 407,
       "2026-11-25": 407,
-      "2026-11-26": 408
+      "2026-11-26": 408,
+      "2026-11-27": 408
     },
     "Hithink-Tech-Org/Financial-API": {
       "2026-11-12": 4127,
@@ -4508,7 +4673,8 @@
       "2026-11-23": 4586,
       "2026-11-24": 4600,
       "2026-11-25": 4613,
-      "2026-11-26": 4622
+      "2026-11-26": 4622,
+      "2026-11-27": 4647
     },
     "Huage001/Ascend-H3": {
       "2026-11-04": 30,
@@ -4545,7 +4711,8 @@
       "2026-11-23": 1301,
       "2026-11-24": 1301,
       "2026-11-25": 1302,
-      "2026-11-26": 1301
+      "2026-11-26": 1301,
+      "2026-11-27": 1304
     },
     "IDouble/HTML-Crypto-Currency-Chart-Snippets": {
       "2026-11-11": 598,
@@ -4563,7 +4730,8 @@
       "2026-11-23": 600,
       "2026-11-24": 600,
       "2026-11-25": 602,
-      "2026-11-26": 603
+      "2026-11-26": 603,
+      "2026-11-27": 603
     },
     "InesJemmali/local-financial-agent": {
       "2026-10-02": 3,
@@ -4631,7 +4799,8 @@
       "2026-11-23": 976,
       "2026-11-24": 976,
       "2026-11-25": 976,
-      "2026-11-26": 976
+      "2026-11-26": 976,
+      "2026-11-27": 976
     },
     "JKorf/Binance.Net": {
       "2026-10-27": 1174,
@@ -4662,7 +4831,8 @@
       "2026-11-23": 1175,
       "2026-11-24": 1175,
       "2026-11-25": 1175,
-      "2026-11-26": 1175
+      "2026-11-26": 1175,
+      "2026-11-27": 1175
     },
     "JKorf/Bitfinex.Net": {
       "2026-10-20": 100,
@@ -4756,7 +4926,8 @@
       "2026-11-23": 9226,
       "2026-11-24": 9381,
       "2026-11-25": 9546,
-      "2026-11-26": 9661
+      "2026-11-26": 9661,
+      "2026-11-27": 9822
     },
     "Jardy1999/CodeNexus": {
       "2026-09-01": 16,
@@ -4817,7 +4988,8 @@
       "2026-11-23": 5559,
       "2026-11-24": 5563,
       "2026-11-25": 5564,
-      "2026-11-26": 5564
+      "2026-11-26": 5564,
+      "2026-11-27": 5568
     },
     "JessYanCoding/MVPArms": {
       "2026-11-11": 10222,
@@ -4835,7 +5007,8 @@
       "2026-11-23": 10221,
       "2026-11-24": 10221,
       "2026-11-25": 10221,
-      "2026-11-26": 10220
+      "2026-11-26": 10220,
+      "2026-11-27": 10220
     },
     "JetBrains/benjamin-plus-skill": {
       "2026-08-31": 297
@@ -4889,7 +5062,8 @@
       "2026-11-23": 1440,
       "2026-11-24": 1441,
       "2026-11-25": 1442,
-      "2026-11-26": 1442
+      "2026-11-26": 1442,
+      "2026-11-27": 1442
     },
     "Jokejoker-designer/QUANTSMART": {
       "2026-11-01": 2,
@@ -4918,7 +5092,8 @@
       "2026-11-23": 3958,
       "2026-11-24": 3958,
       "2026-11-25": 3961,
-      "2026-11-26": 3963
+      "2026-11-26": 3963,
+      "2026-11-27": 3965
     },
     "JuliusBrussee/caveman": {
       "2026-10-30": 116163,
@@ -4945,7 +5120,8 @@
       "2026-11-23": 800,
       "2026-11-24": 800,
       "2026-11-25": 800,
-      "2026-11-26": 800
+      "2026-11-26": 800,
+      "2026-11-27": 800
     },
     "JustinGongjj/chan-structure-workstation": {
       "2026-11-17": 344,
@@ -4957,7 +5133,8 @@
       "2026-11-23": 519,
       "2026-11-24": 525,
       "2026-11-25": 528,
-      "2026-11-26": 528
+      "2026-11-26": 528,
+      "2026-11-27": 528
     },
     "Jwuthri/SelfJev": {
       "2026-09-29": 39,
@@ -4994,7 +5171,8 @@
       "2026-11-23": 1284,
       "2026-11-24": 1290,
       "2026-11-25": 1303,
-      "2026-11-26": 1309
+      "2026-11-26": 1309,
+      "2026-11-27": 1312
     },
     "KanishkSaini-007/Corporate-Intelligence-Lab": {
       "2026-10-18": 2,
@@ -5010,7 +5188,8 @@
       "2026-10-29": 2
     },
     "Keith-web242/multicharts": {
-      "2026-11-26": 200
+      "2026-11-26": 200,
+      "2026-11-27": 307
     },
     "Kernel-Hunter/kandle": {
       "2026-10-26": 2,
@@ -5096,7 +5275,8 @@
       "2026-11-23": 871,
       "2026-11-24": 871,
       "2026-11-25": 872,
-      "2026-11-26": 874
+      "2026-11-26": 874,
+      "2026-11-27": 875
     },
     "Kurohiko-id/Kitab-Link-Self-Hosted": {
       "2026-09-22": 14,
@@ -5128,7 +5308,8 @@
       "2026-11-23": 909,
       "2026-11-24": 910,
       "2026-11-25": 910,
-      "2026-11-26": 912
+      "2026-11-26": 912,
+      "2026-11-27": 915
     },
     "LC248902/claude-code": {
       "2026-08-31": 7,
@@ -5150,7 +5331,8 @@
       "2026-11-23": 3136,
       "2026-11-24": 3137,
       "2026-11-25": 3137,
-      "2026-11-26": 3137
+      "2026-11-26": 3137,
+      "2026-11-27": 3138
     },
     "LLMQuant/quant-wiki": {
       "2026-11-11": 4444,
@@ -5168,7 +5350,8 @@
       "2026-11-23": 4463,
       "2026-11-24": 4466,
       "2026-11-25": 4468,
-      "2026-11-26": 4474
+      "2026-11-26": 4474,
+      "2026-11-27": 4475
     },
     "LYiHub/pub-ai-inputs": {
       "2026-08-31": 16,
@@ -5207,7 +5390,8 @@
       "2026-11-23": 2091,
       "2026-11-24": 2092,
       "2026-11-25": 2093,
-      "2026-11-26": 2093
+      "2026-11-26": 2093,
+      "2026-11-27": 2094
     },
     "Laurent150/Who-Is-JSON": {
       "2026-09-27": 20,
@@ -5230,7 +5414,8 @@
       "2026-11-23": 7875,
       "2026-11-24": 8204,
       "2026-11-25": 8455,
-      "2026-11-26": 8665
+      "2026-11-26": 8665,
+      "2026-11-27": 8922
     },
     "Leo4815162342/dukascopy-node": {
       "2026-11-11": 963,
@@ -5248,7 +5433,8 @@
       "2026-11-23": 984,
       "2026-11-24": 985,
       "2026-11-25": 990,
-      "2026-11-26": 991
+      "2026-11-26": 991,
+      "2026-11-27": 992
     },
     "Leon-Laszczak/Yfio": {
       "2026-08-31": 2,
@@ -5292,6 +5478,9 @@
       "2026-10-09": 8,
       "2026-10-10": 8,
       "2026-10-11": 8
+    },
+    "Linkbearleaf63/thinkorswim": {
+      "2026-11-27": 305
     },
     "Liszt-glitch/screener-scraper-pro": {
       "2026-10-24": 6,
@@ -5361,7 +5550,8 @@
       "2026-11-23": 277,
       "2026-11-24": 277,
       "2026-11-25": 279,
-      "2026-11-26": 280
+      "2026-11-26": 280,
+      "2026-11-27": 280
     },
     "Lucas-Joly-GH/trends-research": {
       "2026-10-18": 84,
@@ -5401,7 +5591,8 @@
       "2026-11-23": 685,
       "2026-11-24": 685,
       "2026-11-25": 684,
-      "2026-11-26": 684
+      "2026-11-26": 684,
+      "2026-11-27": 684
     },
     "LukePrior/Australian-Open-Banking-Data-Database": {
       "2026-11-09": 196,
@@ -5450,7 +5641,8 @@
       "2026-11-23": 2248,
       "2026-11-24": 2251,
       "2026-11-25": 2254,
-      "2026-11-26": 2253
+      "2026-11-26": 2253,
+      "2026-11-27": 2256
     },
     "Lxxz666/lxz-25buy": {
       "2026-08-31": 2
@@ -5529,7 +5721,8 @@
       "2026-11-23": 5927,
       "2026-11-24": 5934,
       "2026-11-25": 5940,
-      "2026-11-26": 5951
+      "2026-11-26": 5951,
+      "2026-11-27": 5956
     },
     "MaxHaiCom/VibeGauge": {
       "2026-09-24": 16,
@@ -5584,7 +5777,8 @@
       "2026-11-23": 4871,
       "2026-11-24": 4870,
       "2026-11-25": 4878,
-      "2026-11-26": 4879
+      "2026-11-26": 4879,
+      "2026-11-27": 4881
     },
     "MervinPraison/PraisonAI": {
       "2026-09-16": 9058,
@@ -5654,7 +5848,8 @@
       "2026-11-23": 519,
       "2026-11-24": 520,
       "2026-11-25": 520,
-      "2026-11-26": 522
+      "2026-11-26": 522,
+      "2026-11-27": 522
     },
     "Michael017801/Persona-Forge": {
       "2026-10-30": 41,
@@ -5691,7 +5886,8 @@
       "2026-11-23": 4186,
       "2026-11-24": 4187,
       "2026-11-25": 4186,
-      "2026-11-26": 4188
+      "2026-11-26": 4188,
+      "2026-11-27": 4188
     },
     "MikeCaldera/intel-arc-pro-b70-qwen38-vllm": {
       "2026-09-10": 27,
@@ -5818,7 +6014,8 @@
       "2026-11-23": 2300,
       "2026-11-24": 2300,
       "2026-11-25": 2299,
-      "2026-11-26": 2299
+      "2026-11-26": 2299,
+      "2026-11-27": 2299
     },
     "Morrowmake/dsv41-flash-cmp170hx-recipe": {
       "2026-11-04": 20,
@@ -5858,7 +6055,8 @@
       "2026-11-23": 508,
       "2026-11-24": 508,
       "2026-11-25": 508,
-      "2026-11-26": 510
+      "2026-11-26": 510,
+      "2026-11-27": 511
     },
     "NVIDIA-Omniverse/ovstage": {
       "2026-10-16": 21,
@@ -5958,7 +6156,8 @@
       "2026-11-23": 336,
       "2026-11-24": 336,
       "2026-11-25": 336,
-      "2026-11-26": 336
+      "2026-11-26": 336,
+      "2026-11-27": 336
     },
     "NeuralAlchemist-ai/Denoised-Neural-Portfolio-Optimizer": {
       "2026-10-28": 2,
@@ -5990,7 +6189,8 @@
       "2026-11-23": 878,
       "2026-11-24": 878,
       "2026-11-25": 878,
-      "2026-11-26": 878
+      "2026-11-26": 878,
+      "2026-11-27": 878
     },
     "Nexilume-AI/nexus-cloud": {
       "2026-10-10": 22,
@@ -6048,7 +6248,8 @@
       "2026-11-23": 13333,
       "2026-11-24": 13333,
       "2026-11-25": 13341,
-      "2026-11-26": 13347
+      "2026-11-26": 13347,
+      "2026-11-27": 13355
     },
     "NoizAI/YuE2-Turbo": {
       "2026-09-23": 56,
@@ -6096,7 +6297,8 @@
       "2026-11-23": 1493,
       "2026-11-24": 1493,
       "2026-11-25": 1492,
-      "2026-11-26": 1493
+      "2026-11-26": 1493,
+      "2026-11-27": 1492
     },
     "OSINT-Forge-Community/osint-forge-skills": {
       "2026-10-20": 8,
@@ -6122,7 +6324,8 @@
       "2026-11-23": 2602,
       "2026-11-24": 2603,
       "2026-11-25": 2606,
-      "2026-11-26": 2612
+      "2026-11-26": 2612,
+      "2026-11-27": 2614
     },
     "Oldcircle/geo-sleuth": {
       "2026-09-21": 210,
@@ -6179,7 +6382,8 @@
       "2026-11-23": 2944,
       "2026-11-24": 2948,
       "2026-11-25": 2948,
-      "2026-11-26": 2952
+      "2026-11-26": 2952,
+      "2026-11-27": 2952
     },
     "OpenBMB/UltraRAG": {
       "2026-08-31": 5676
@@ -6213,7 +6417,8 @@
       "2026-11-23": 13924,
       "2026-11-24": 13958,
       "2026-11-25": 13979,
-      "2026-11-26": 13998
+      "2026-11-26": 13998,
+      "2026-11-27": 14013
     },
     "OpenByteInc/QuantDinger_Codex_Plugin": {
       "2026-09-12": 2,
@@ -6292,7 +6497,8 @@
       "2026-11-23": 809,
       "2026-11-24": 810,
       "2026-11-25": 810,
-      "2026-11-26": 810
+      "2026-11-26": 810,
+      "2026-11-27": 809
     },
     "OuterDelegateCrimp/pinescript-trading-script": {
       "2026-09-06": 2,
@@ -6340,7 +6546,8 @@
       "2026-11-23": 974,
       "2026-11-24": 974,
       "2026-11-25": 974,
-      "2026-11-26": 975
+      "2026-11-26": 975,
+      "2026-11-27": 975
     },
     "PacktPublishing/Machine-Learning-for-Algorithmic-Trading-Second-Edition_Original": {
       "2026-11-11": 1649,
@@ -6358,7 +6565,8 @@
       "2026-11-23": 1651,
       "2026-11-24": 1651,
       "2026-11-25": 1651,
-      "2026-11-26": 1651
+      "2026-11-26": 1651,
+      "2026-11-27": 1652
     },
     "PacktPublishing/Python-Algorithmic-Trading-Cookbook": {
       "2026-11-11": 620,
@@ -6376,7 +6584,8 @@
       "2026-11-23": 618,
       "2026-11-24": 618,
       "2026-11-25": 618,
-      "2026-11-26": 619
+      "2026-11-26": 619,
+      "2026-11-27": 619
     },
     "PacktPublishing/Python-for-Algorithmic-Trading-Cookbook": {
       "2026-11-11": 1256,
@@ -6394,7 +6603,8 @@
       "2026-11-23": 1259,
       "2026-11-24": 1259,
       "2026-11-25": 1260,
-      "2026-11-26": 1260
+      "2026-11-26": 1260,
+      "2026-11-27": 1260
     },
     "ParnazAli/investment-portfolio-analysis": {
       "2026-09-05": 3,
@@ -6481,7 +6691,8 @@
       "2026-11-23": 2285,
       "2026-11-24": 2288,
       "2026-11-25": 2288,
-      "2026-11-26": 2288
+      "2026-11-26": 2288,
+      "2026-11-27": 2288
     },
     "PyPatel/Options-Trading-Strategies-in-Python": {
       "2026-11-11": 1102,
@@ -6499,7 +6710,8 @@
       "2026-11-23": 1107,
       "2026-11-24": 1109,
       "2026-11-25": 1109,
-      "2026-11-26": 1109
+      "2026-11-26": 1109,
+      "2026-11-27": 1110
     },
     "PyPortfolio/PyPortfolioOpt": {
       "2026-11-11": 6160,
@@ -6517,7 +6729,8 @@
       "2026-11-23": 6178,
       "2026-11-24": 6182,
       "2026-11-25": 6183,
-      "2026-11-26": 6185
+      "2026-11-26": 6185,
+      "2026-11-27": 6186
     },
     "PyneSys/pynecore": {
       "2026-10-27": 247,
@@ -6548,7 +6761,8 @@
       "2026-11-23": 279,
       "2026-11-24": 280,
       "2026-11-25": 281,
-      "2026-11-26": 282
+      "2026-11-26": 282,
+      "2026-11-27": 282
     },
     "Qiuner/QCode": {
       "2026-09-19": 197,
@@ -6578,7 +6792,8 @@
       "2026-11-23": 22663,
       "2026-11-24": 22680,
       "2026-11-25": 22702,
-      "2026-11-26": 22728
+      "2026-11-26": 22728,
+      "2026-11-27": 22744
     },
     "QuantJourneyOrg/quantjourney-bt": {
       "2026-11-11": 645,
@@ -6596,7 +6811,8 @@
       "2026-11-23": 692,
       "2026-11-24": 709,
       "2026-11-25": 716,
-      "2026-11-26": 720
+      "2026-11-26": 720,
+      "2026-11-27": 722
     },
     "QuantMLResearch/pyrust-bt": {
       "2026-11-11": 327,
@@ -6614,7 +6830,8 @@
       "2026-11-23": 329,
       "2026-11-24": 328,
       "2026-11-25": 328,
-      "2026-11-26": 328
+      "2026-11-26": 328,
+      "2026-11-27": 328
     },
     "Quantweb3-com/NexusTrader": {
       "2026-11-11": 671,
@@ -6632,7 +6849,8 @@
       "2026-11-23": 672,
       "2026-11-24": 672,
       "2026-11-25": 673,
-      "2026-11-26": 673
+      "2026-11-26": 673,
+      "2026-11-27": 673
     },
     "Quat3rnion/halogen-dashboard": {
       "2026-10-21": 9,
@@ -6734,7 +6952,8 @@
       "2026-11-23": 9131,
       "2026-11-24": 9140,
       "2026-11-25": 9146,
-      "2026-11-26": 9150
+      "2026-11-26": 9150,
+      "2026-11-27": 9150
     },
     "RodriMora/dgx-spark-grafana-dashboard": {
       "2026-08-31": 38
@@ -6768,7 +6987,8 @@
       "2026-11-23": 4942,
       "2026-11-24": 4942,
       "2026-11-25": 4942,
-      "2026-11-26": 4942
+      "2026-11-26": 4942,
+      "2026-11-27": 4943
     },
     "RonanLabsAI/dgx-station-frontier": {
       "2026-10-18": 15,
@@ -6798,7 +7018,8 @@
       "2026-11-23": 1052,
       "2026-11-24": 1053,
       "2026-11-25": 1055,
-      "2026-11-26": 1054
+      "2026-11-26": 1054,
+      "2026-11-27": 1055
     },
     "S2zxx0zxx/FinCo-pilot": {
       "2026-09-23": 8,
@@ -6834,7 +7055,8 @@
       "2026-11-23": 745,
       "2026-11-24": 755,
       "2026-11-25": 763,
-      "2026-11-26": 771
+      "2026-11-26": 771,
+      "2026-11-27": 782
     },
     "SEC-API-io/sec-api-node": {
       "2026-11-11": 314,
@@ -6852,7 +7074,8 @@
       "2026-11-23": 314,
       "2026-11-24": 314,
       "2026-11-25": 314,
-      "2026-11-26": 314
+      "2026-11-26": 314,
+      "2026-11-27": 314
     },
     "SEC-API-io/sec-api-python": {
       "2026-11-11": 324,
@@ -6870,7 +7093,8 @@
       "2026-11-23": 325,
       "2026-11-24": 325,
       "2026-11-25": 325,
-      "2026-11-26": 325
+      "2026-11-26": 325,
+      "2026-11-27": 325
     },
     "SII-WANGZJ/Polymarket_data": {
       "2026-11-11": 897,
@@ -6888,7 +7112,8 @@
       "2026-11-23": 900,
       "2026-11-24": 900,
       "2026-11-25": 901,
-      "2026-11-26": 901
+      "2026-11-26": 901,
+      "2026-11-27": 901
     },
     "SRN0129/Agenttrust": {
       "2026-10-26": 12,
@@ -6922,7 +7147,8 @@
       "2026-11-23": 826,
       "2026-11-24": 826,
       "2026-11-25": 826,
-      "2026-11-26": 826
+      "2026-11-26": 826,
+      "2026-11-27": 825
     },
     "SXC214/gee-deepseek-assistant": {
       "2026-08-31": 20,
@@ -6993,7 +7219,8 @@
       "2026-11-23": 1473,
       "2026-11-24": 1473,
       "2026-11-25": 1473,
-      "2026-11-26": 1473
+      "2026-11-26": 1473,
+      "2026-11-27": 1473
     },
     "ScottfreeLLC/AlphaPy": {
       "2026-11-11": 1784,
@@ -7011,7 +7238,8 @@
       "2026-11-23": 1792,
       "2026-11-24": 1792,
       "2026-11-25": 1792,
-      "2026-11-26": 1792
+      "2026-11-26": 1792,
+      "2026-11-27": 1791
     },
     "Sebastianmaxter/ai-profit-sniper-strategy": {
       "2026-09-01": 72,
@@ -7036,7 +7264,8 @@
       "2026-11-23": 668,
       "2026-11-24": 669,
       "2026-11-25": 669,
-      "2026-11-26": 669
+      "2026-11-26": 669,
+      "2026-11-27": 671
     },
     "Selim09hub/QuantMaster-V17-HFT-Core": {
       "2026-09-11": 2,
@@ -7199,7 +7428,8 @@
       "2026-11-23": 1952,
       "2026-11-24": 1952,
       "2026-11-25": 1951,
-      "2026-11-26": 1951
+      "2026-11-26": 1951,
+      "2026-11-27": 1951
     },
     "Spielewoy/autoprompt-skill": {
       "2026-08-31": 941
@@ -7259,7 +7489,8 @@
       "2026-11-23": 565,
       "2026-11-24": 565,
       "2026-11-25": 565,
-      "2026-11-26": 565
+      "2026-11-26": 565,
+      "2026-11-27": 565
     },
     "System64fumo/kappai": {
       "2026-08-31": 5
@@ -7290,7 +7521,8 @@
       "2026-11-23": 2559,
       "2026-11-24": 2567,
       "2026-11-25": 2568,
-      "2026-11-26": 2572
+      "2026-11-26": 2572,
+      "2026-11-27": 2576
     },
     "TakoData/tako-mcp": {
       "2026-10-25": 6,
@@ -7323,7 +7555,8 @@
       "2026-11-23": 763,
       "2026-11-24": 777,
       "2026-11-25": 781,
-      "2026-11-26": 782
+      "2026-11-26": 782,
+      "2026-11-27": 784
     },
     "TauricResearch/TradingAgents": {
       "2026-11-11": 121964,
@@ -7341,7 +7574,8 @@
       "2026-11-23": 123535,
       "2026-11-24": 123655,
       "2026-11-25": 123729,
-      "2026-11-26": 123807
+      "2026-11-26": 123807,
+      "2026-11-27": 123879
     },
     "TencentBlueKing/bk-job": {
       "2026-11-11": 875,
@@ -7359,7 +7593,8 @@
       "2026-11-23": 874,
       "2026-11-24": 874,
       "2026-11-25": 874,
-      "2026-11-26": 874
+      "2026-11-26": 874,
+      "2026-11-27": 874
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "2026-10-26": 29935,
@@ -7417,7 +7652,8 @@
       "2026-11-23": 895,
       "2026-11-24": 895,
       "2026-11-25": 895,
-      "2026-11-26": 895
+      "2026-11-26": 895,
+      "2026-11-27": 895
     },
     "The-Knowledge-Graph-Guys/vault-ld": {
       "2026-10-31": 243,
@@ -7444,7 +7680,8 @@
       "2026-11-23": 255,
       "2026-11-24": 255,
       "2026-11-25": 255,
-      "2026-11-26": 255
+      "2026-11-26": 255,
+      "2026-11-27": 255
     },
     "The-Swarm-Corporation/AutoHedge": {
       "2026-11-11": 6676,
@@ -7462,7 +7699,8 @@
       "2026-11-23": 6727,
       "2026-11-24": 6735,
       "2026-11-25": 6738,
-      "2026-11-26": 6741
+      "2026-11-26": 6741,
+      "2026-11-27": 6743
     },
     "The-Vibe-Company/Quivr": {
       "2026-09-01": 39437
@@ -7513,7 +7751,8 @@
       "2026-11-23": 710,
       "2026-11-24": 710,
       "2026-11-25": 711,
-      "2026-11-26": 711
+      "2026-11-26": 711,
+      "2026-11-27": 711
     },
     "ThinkFlowLab/system1-omni": {
       "2026-10-08": 27
@@ -7551,7 +7790,8 @@
       "2026-11-23": 938,
       "2026-11-24": 940,
       "2026-11-25": 941,
-      "2026-11-26": 942
+      "2026-11-26": 942,
+      "2026-11-27": 943
     },
     "Timeverse/My-TW-Coverage": {
       "2026-11-11": 569,
@@ -7569,7 +7809,8 @@
       "2026-11-23": 569,
       "2026-11-24": 569,
       "2026-11-25": 569,
-      "2026-11-26": 569
+      "2026-11-26": 569,
+      "2026-11-27": 569
     },
     "TommyLemon/APIAuto": {
       "2026-09-06": 2218
@@ -7604,7 +7845,8 @@
       "2026-11-23": 3136,
       "2026-11-24": 3139,
       "2026-11-25": 3140,
-      "2026-11-26": 3141
+      "2026-11-26": 3141,
+      "2026-11-27": 3141
     },
     "TraderAlice/OpenAlice": {
       "2026-10-27": 7378,
@@ -7635,7 +7877,8 @@
       "2026-11-23": 7485,
       "2026-11-24": 7489,
       "2026-11-25": 7492,
-      "2026-11-26": 7510
+      "2026-11-26": 7510,
+      "2026-11-27": 7520
     },
     "TreborNamor/TradingView-Machine-Learning-GUI": {
       "2026-11-11": 1021,
@@ -7653,7 +7896,8 @@
       "2026-11-23": 1029,
       "2026-11-24": 1030,
       "2026-11-25": 1031,
-      "2026-11-26": 1031
+      "2026-11-26": 1031,
+      "2026-11-27": 1030
     },
     "TrustifAI/typed_evals": {
       "2026-09-22": 6,
@@ -7685,7 +7929,8 @@
       "2026-11-23": 18858,
       "2026-11-24": 18866,
       "2026-11-25": 18870,
-      "2026-11-26": 18874
+      "2026-11-26": 18874,
+      "2026-11-27": 18875
     },
     "Unitygnome94594/Orderflow-Claude-skill-resocket": {
       "2026-10-30": 32,
@@ -7721,7 +7966,8 @@
       "2026-11-23": 527,
       "2026-11-24": 527,
       "2026-11-25": 527,
-      "2026-11-26": 527
+      "2026-11-26": 527,
+      "2026-11-27": 527
     },
     "ValueCell-ai/valuecell": {
       "2026-11-11": 11054,
@@ -7739,7 +7985,8 @@
       "2026-11-23": 11066,
       "2026-11-24": 11066,
       "2026-11-25": 11069,
-      "2026-11-26": 11069
+      "2026-11-26": 11069,
+      "2026-11-27": 11072
     },
     "VanGong1999/FDE": {
       "2026-09-30": 17,
@@ -7765,7 +8012,8 @@
       "2026-11-23": 674,
       "2026-11-24": 675,
       "2026-11-25": 675,
-      "2026-11-26": 675
+      "2026-11-26": 675,
+      "2026-11-27": 675
     },
     "VeKiner/akshare-stock-data-fetcher": {
       "2026-10-26": 121,
@@ -7893,7 +8141,8 @@
       "2026-11-23": 883,
       "2026-11-24": 883,
       "2026-11-25": 883,
-      "2026-11-26": 883
+      "2026-11-26": 883,
+      "2026-11-27": 883
     },
     "Wcrane-hhy/FinResearch-Agent": {
       "2026-09-09": 2,
@@ -7923,7 +8172,8 @@
       "2026-11-23": 681,
       "2026-11-24": 681,
       "2026-11-25": 681,
-      "2026-11-26": 681
+      "2026-11-26": 681,
+      "2026-11-27": 681
     },
     "WeThinkIn/AIGC-Interview-Book": {
       "2026-11-11": 5211,
@@ -7941,7 +8191,8 @@
       "2026-11-23": 5293,
       "2026-11-24": 5304,
       "2026-11-25": 5310,
-      "2026-11-26": 5316
+      "2026-11-26": 5316,
+      "2026-11-27": 5321
     },
     "WeaveHelperCrucible/Quant-Trading-Bot": {
       "2026-10-31": 100,
@@ -7964,7 +8215,8 @@
       "2026-11-23": 6026,
       "2026-11-24": 6026,
       "2026-11-25": 6026,
-      "2026-11-26": 6025
+      "2026-11-26": 6025,
+      "2026-11-27": 6025
     },
     "WellApp-ai/Well": {
       "2026-10-27": 346,
@@ -7995,11 +8247,13 @@
       "2026-11-23": 353,
       "2026-11-24": 353,
       "2026-11-25": 353,
-      "2026-11-26": 353
+      "2026-11-26": 353,
+      "2026-11-27": 353
     },
     "WhiteBr1ck/agy-powertools": {
       "2026-11-25": 563,
-      "2026-11-26": 1066
+      "2026-11-26": 1066,
+      "2026-11-27": 1652
     },
     "William-Trader/naked-k-analysis": {
       "2026-10-21": 3,
@@ -8074,7 +8328,8 @@
       "2026-11-23": 601,
       "2026-11-24": 612,
       "2026-11-25": 618,
-      "2026-11-26": 624
+      "2026-11-26": 624,
+      "2026-11-27": 628
     },
     "XHToken/Spark-X2.5": {
       "2026-09-01": 25,
@@ -8186,7 +8441,8 @@
       "2026-11-23": 571,
       "2026-11-24": 571,
       "2026-11-25": 571,
-      "2026-11-26": 573
+      "2026-11-26": 573,
+      "2026-11-27": 573
     },
     "Yinsongxu/LLM2Jev": {
       "2026-09-21": 99,
@@ -8209,7 +8465,8 @@
       "2026-11-23": 830,
       "2026-11-24": 831,
       "2026-11-25": 831,
-      "2026-11-26": 831
+      "2026-11-26": 831,
+      "2026-11-27": 830
     },
     "YorEthereallab4497-alt/grand-tour-rpocket": {
       "2026-10-30": 32,
@@ -8234,7 +8491,8 @@
       "2026-11-23": 782,
       "2026-11-24": 782,
       "2026-11-25": 781,
-      "2026-11-26": 781
+      "2026-11-26": 781,
+      "2026-11-27": 781
     },
     "Yu-ChangCheng/manufacturing-forecasting-framework": {
       "2026-10-09": 73,
@@ -8264,7 +8522,8 @@
       "2026-11-23": 1932,
       "2026-11-24": 1932,
       "2026-11-25": 1932,
-      "2026-11-26": 1932
+      "2026-11-26": 1932,
+      "2026-11-27": 1932
     },
     "ZGonce819/XiheAgent": {
       "2026-09-21": 8,
@@ -8287,7 +8546,8 @@
     "ZacharyHampton/HomeHarvest": {
       "2026-11-24": 765,
       "2026-11-25": 765,
-      "2026-11-26": 765
+      "2026-11-26": 765,
+      "2026-11-27": 765
     },
     "ZeroDeng01/sublinkPro": {
       "2026-11-11": 1749,
@@ -8305,7 +8565,8 @@
       "2026-11-23": 1760,
       "2026-11-24": 1762,
       "2026-11-25": 1763,
-      "2026-11-26": 1766
+      "2026-11-26": 1766,
+      "2026-11-27": 1769
     },
     "ZevFlashthorn/adaq-rpocket-team": {
       "2026-11-08": 42,
@@ -8325,7 +8586,8 @@
       "2026-11-23": 545,
       "2026-11-24": 558,
       "2026-11-25": 575,
-      "2026-11-26": 585
+      "2026-11-26": 585,
+      "2026-11-27": 598
     },
     "ZhuLinsen/daily_stock_analysis": {
       "2026-11-11": 69704,
@@ -8343,7 +8605,8 @@
       "2026-11-23": 73788,
       "2026-11-24": 74173,
       "2026-11-25": 74463,
-      "2026-11-26": 74656
+      "2026-11-26": 74656,
+      "2026-11-27": 74929
     },
     "ZiChuanLan/agent-purge": {
       "2026-10-30": 882,
@@ -8408,7 +8671,8 @@
       "2026-11-23": 1912,
       "2026-11-24": 1913,
       "2026-11-25": 1913,
-      "2026-11-26": 1913
+      "2026-11-26": 1913,
+      "2026-11-27": 1912
     },
     "achannarasappa/ticker": {
       "2026-11-11": 6265,
@@ -8426,7 +8690,8 @@
       "2026-11-23": 6270,
       "2026-11-24": 6271,
       "2026-11-25": 6273,
-      "2026-11-26": 6273
+      "2026-11-26": 6273,
+      "2026-11-27": 6274
     },
     "acryldev/acryl": {
       "2026-09-04": 237,
@@ -8512,7 +8777,8 @@
       "2026-11-23": 509,
       "2026-11-24": 509,
       "2026-11-25": 509,
-      "2026-11-26": 509
+      "2026-11-26": 509,
+      "2026-11-27": 506
     },
     "agentblazo/blazo": {
       "2026-10-02": 22,
@@ -8549,7 +8815,8 @@
       "2026-11-23": 622,
       "2026-11-24": 623,
       "2026-11-25": 622,
-      "2026-11-26": 622
+      "2026-11-26": 622,
+      "2026-11-27": 622
     },
     "agiprolabs/claude-trading-skills": {
       "2026-09-02": 333,
@@ -8579,7 +8846,8 @@
       "2026-11-23": 583,
       "2026-11-24": 588,
       "2026-11-25": 591,
-      "2026-11-26": 593
+      "2026-11-26": 593,
+      "2026-11-27": 599
     },
     "ahanqiliu903/not-enough-markets": {
       "2026-10-09": 2,
@@ -8660,7 +8928,8 @@
       "2026-11-23": 976,
       "2026-11-24": 976,
       "2026-11-25": 976,
-      "2026-11-26": 976
+      "2026-11-26": 976,
+      "2026-11-27": 976
     },
     "ailenwu2000/ricow": {
       "2026-09-21": 2,
@@ -8739,7 +9008,8 @@
       "2026-11-23": 2630,
       "2026-11-24": 2633,
       "2026-11-25": 2634,
-      "2026-11-26": 2641
+      "2026-11-26": 2641,
+      "2026-11-27": 2645
     },
     "akfamily/akshare": {
       "2026-11-11": 23292,
@@ -8757,7 +9027,8 @@
       "2026-11-23": 23438,
       "2026-11-24": 23458,
       "2026-11-25": 23470,
-      "2026-11-26": 23486
+      "2026-11-26": 23486,
+      "2026-11-27": 23495
     },
     "akfamily/aktools": {
       "2026-10-30": 1503,
@@ -8785,7 +9056,8 @@
       "2026-11-23": 1579,
       "2026-11-24": 1581,
       "2026-11-25": 1582,
-      "2026-11-26": 1584
+      "2026-11-26": 1584,
+      "2026-11-27": 1584
     },
     "al-jshen/flashmap": {
       "2026-10-21": 19,
@@ -8842,7 +9114,8 @@
       "2026-11-23": 505,
       "2026-11-24": 505,
       "2026-11-25": 507,
-      "2026-11-26": 510
+      "2026-11-26": 510,
+      "2026-11-27": 511
     },
     "alibaba/GaiaX": {
       "2026-11-11": 1284,
@@ -8860,7 +9133,8 @@
       "2026-11-23": 1282,
       "2026-11-24": 1282,
       "2026-11-25": 1282,
-      "2026-11-26": 1282
+      "2026-11-26": 1282,
+      "2026-11-27": 1282
     },
     "alibaba/MNN": {
       "2026-10-26": 16278,
@@ -8936,7 +9210,8 @@
       "2026-11-23": 30307,
       "2026-11-24": 30394,
       "2026-11-25": 30451,
-      "2026-11-26": 30509
+      "2026-11-26": 30509,
+      "2026-11-27": 30565
     },
     "alleyway/add-tradingview-alerts-tool": {
       "2026-11-11": 723,
@@ -8954,7 +9229,8 @@
       "2026-11-23": 723,
       "2026-11-24": 724,
       "2026-11-25": 724,
-      "2026-11-26": 724
+      "2026-11-26": 724,
+      "2026-11-27": 724
     },
     "alleyxd/SecondThought": {
       "2026-10-27": 20,
@@ -8996,7 +9272,8 @@
       "2026-11-23": 705,
       "2026-11-24": 705,
       "2026-11-25": 705,
-      "2026-11-26": 706
+      "2026-11-26": 706,
+      "2026-11-27": 706
     },
     "alpacahq/alpaca-mcp-server": {
       "2026-11-11": 1075,
@@ -9014,7 +9291,8 @@
       "2026-11-23": 1111,
       "2026-11-24": 1112,
       "2026-11-25": 1113,
-      "2026-11-26": 1116
+      "2026-11-26": 1116,
+      "2026-11-27": 1117
     },
     "alpacahq/alpaca-py": {
       "2026-11-11": 1592,
@@ -9032,7 +9310,8 @@
       "2026-11-23": 1604,
       "2026-11-24": 1604,
       "2026-11-25": 1605,
-      "2026-11-26": 1608
+      "2026-11-26": 1608,
+      "2026-11-27": 1613
     },
     "alphanume-markets/Alphanume-Strategy-Lab": {
       "2026-10-09": 65,
@@ -9271,7 +9550,8 @@
       "2026-11-23": 1867,
       "2026-11-24": 1867,
       "2026-11-25": 1867,
-      "2026-11-26": 1868
+      "2026-11-26": 1868,
+      "2026-11-27": 1868
     },
     "amirhosssein0/ai-platform-lab": {
       "2026-09-02": 5
@@ -9526,7 +9806,8 @@
       "2026-11-23": 1274,
       "2026-11-24": 1274,
       "2026-11-25": 1274,
-      "2026-11-26": 1274
+      "2026-11-26": 1274,
+      "2026-11-27": 1274
     },
     "apvcode/Termux-Dev": {
       "2026-08-31": 16,
@@ -9567,7 +9848,8 @@
       "2026-11-23": 1399,
       "2026-11-24": 1398,
       "2026-11-25": 1398,
-      "2026-11-26": 1398
+      "2026-11-26": 1398,
+      "2026-11-27": 1399
     },
     "arthurlin1979/no-pit-qwen38": {
       "2026-10-28": 28
@@ -9588,7 +9870,8 @@
       "2026-11-23": 1905,
       "2026-11-24": 1905,
       "2026-11-25": 1906,
-      "2026-11-26": 1907
+      "2026-11-26": 1907,
+      "2026-11-27": 1907
     },
     "asf0/libstrix": {
       "2026-11-08": 21,
@@ -9655,7 +9938,8 @@
       "2026-11-23": 5328,
       "2026-11-24": 5332,
       "2026-11-25": 5334,
-      "2026-11-26": 5339
+      "2026-11-26": 5339,
+      "2026-11-27": 5346
     },
     "attack68/rateslib": {
       "2026-11-11": 372,
@@ -9685,7 +9969,8 @@
       "2026-11-23": 1775,
       "2026-11-24": 1775,
       "2026-11-25": 1775,
-      "2026-11-26": 1775
+      "2026-11-26": 1775,
+      "2026-11-27": 1775
     },
     "automazeio/vibeproxy": {
       "2026-10-26": 3397,
@@ -9722,7 +10007,8 @@
       "2026-11-23": 1847,
       "2026-11-24": 1847,
       "2026-11-25": 1848,
-      "2026-11-26": 1849
+      "2026-11-26": 1849,
+      "2026-11-27": 1849
     },
     "avibecoder42/ZotLLM": {
       "2026-10-24": 13,
@@ -9819,7 +10105,8 @@
       "2026-11-23": 689,
       "2026-11-24": 689,
       "2026-11-25": 689,
-      "2026-11-26": 689
+      "2026-11-26": 689,
+      "2026-11-27": 689
     },
     "bangtutorial/bang-motion": {
       "2026-09-12": 148,
@@ -9844,7 +10131,8 @@
       "2026-11-23": 19242,
       "2026-11-24": 19248,
       "2026-11-25": 19254,
-      "2026-11-26": 19262
+      "2026-11-26": 19262,
+      "2026-11-27": 19268
     },
     "bcefghj/learn-nanobot": {
       "2026-11-11": 896,
@@ -9862,7 +10150,8 @@
       "2026-11-23": 909,
       "2026-11-24": 911,
       "2026-11-25": 913,
-      "2026-11-26": 915
+      "2026-11-26": 915,
+      "2026-11-27": 917
     },
     "be0hhh/blazing-market": {
       "2026-10-30": 6
@@ -9894,7 +10183,8 @@
       "2026-11-23": 1038,
       "2026-11-24": 1039,
       "2026-11-25": 1040,
-      "2026-11-26": 1041
+      "2026-11-26": 1041,
+      "2026-11-27": 1041
     },
     "bemlerlabs/qwen3.8-flash-next-dgx-spark-sglang": {
       "2026-09-02": 8,
@@ -9954,7 +10244,8 @@
       "2026-11-23": 1006,
       "2026-11-24": 1006,
       "2026-11-25": 1008,
-      "2026-11-26": 1008
+      "2026-11-26": 1008,
+      "2026-11-27": 1009
     },
     "bensyverson/contextfill": {
       "2026-11-07": 6
@@ -9981,7 +10272,8 @@
       "2026-11-23": 1331,
       "2026-11-24": 1331,
       "2026-11-25": 1331,
-      "2026-11-26": 1331
+      "2026-11-26": 1331,
+      "2026-11-27": 1331
     },
     "bex-co/beancount-io": {
       "2026-11-17": 653,
@@ -9993,7 +10285,8 @@
       "2026-11-23": 754,
       "2026-11-24": 859,
       "2026-11-25": 860,
-      "2026-11-26": 859
+      "2026-11-26": 859,
+      "2026-11-27": 864
     },
     "bi-box/Median": {
       "2026-11-11": 653,
@@ -10011,7 +10304,8 @@
       "2026-11-23": 670,
       "2026-11-24": 672,
       "2026-11-25": 671,
-      "2026-11-26": 675
+      "2026-11-26": 675,
+      "2026-11-27": 676
     },
     "bigcan/sharpen": {
       "2026-09-19": 2,
@@ -10044,7 +10338,8 @@
       "2026-11-23": 629,
       "2026-11-24": 630,
       "2026-11-25": 630,
-      "2026-11-26": 631
+      "2026-11-26": 631,
+      "2026-11-27": 631
     },
     "binance/binance-connector-go": {
       "2026-11-11": 342,
@@ -10062,7 +10357,8 @@
       "2026-11-23": 342,
       "2026-11-24": 343,
       "2026-11-25": 343,
-      "2026-11-26": 343
+      "2026-11-26": 343,
+      "2026-11-27": 343
     },
     "binance/binance-connector-java": {
       "2026-11-11": 583,
@@ -10080,7 +10376,8 @@
       "2026-11-23": 583,
       "2026-11-24": 583,
       "2026-11-25": 583,
-      "2026-11-26": 583
+      "2026-11-26": 583,
+      "2026-11-27": 583
     },
     "binance/binance-connector-js": {
       "2026-11-11": 755,
@@ -10098,7 +10395,8 @@
       "2026-11-23": 755,
       "2026-11-24": 755,
       "2026-11-25": 755,
-      "2026-11-26": 755
+      "2026-11-26": 755,
+      "2026-11-27": 754
     },
     "binance/binance-connector-python": {
       "2026-09-20": 2932,
@@ -10126,7 +10424,8 @@
       "2026-11-23": 2963,
       "2026-11-24": 2963,
       "2026-11-25": 2963,
-      "2026-11-26": 2964
+      "2026-11-26": 2964,
+      "2026-11-27": 2964
     },
     "binance/binance-connector-rust": {
       "2026-11-11": 345,
@@ -10144,7 +10443,8 @@
       "2026-11-23": 343,
       "2026-11-24": 343,
       "2026-11-25": 343,
-      "2026-11-26": 343
+      "2026-11-26": 343,
+      "2026-11-27": 343
     },
     "binance/binance-futures-connector-python": {
       "2026-11-11": 1239,
@@ -10162,7 +10462,8 @@
       "2026-11-23": 1237,
       "2026-11-24": 1237,
       "2026-11-25": 1237,
-      "2026-11-26": 1237
+      "2026-11-26": 1237,
+      "2026-11-27": 1237
     },
     "bitcoinvsalts/node-binance-trader": {
       "2026-11-11": 1224,
@@ -10243,7 +10544,8 @@
       "2026-11-23": 2484,
       "2026-11-24": 2486,
       "2026-11-25": 2486,
-      "2026-11-26": 2485
+      "2026-11-26": 2485,
+      "2026-11-27": 2485
     },
     "blockbrain-ai/cygnet-recipe": {
       "2026-10-06": 30,
@@ -10283,7 +10585,8 @@
       "2026-11-23": 3042,
       "2026-11-24": 3044,
       "2026-11-25": 3045,
-      "2026-11-26": 3048
+      "2026-11-26": 3048,
+      "2026-11-27": 3048
     },
     "bojieli/ai-infra-book": {
       "2026-11-11": 7482,
@@ -10301,7 +10604,8 @@
       "2026-11-23": 8231,
       "2026-11-24": 8273,
       "2026-11-25": 8308,
-      "2026-11-26": 8335
+      "2026-11-26": 8335,
+      "2026-11-27": 8356
     },
     "boshu2/agentops": {
       "2026-09-10": 434,
@@ -10334,7 +10638,8 @@
       "2026-11-23": 884,
       "2026-11-24": 884,
       "2026-11-25": 884,
-      "2026-11-26": 884
+      "2026-11-26": 884,
+      "2026-11-27": 884
     },
     "brackenjoe/agent-infrastructure": {
       "2026-10-25": 5,
@@ -10359,7 +10664,8 @@
       "2026-11-23": 377,
       "2026-11-24": 381,
       "2026-11-25": 382,
-      "2026-11-26": 384
+      "2026-11-26": 384,
+      "2026-11-27": 384
     },
     "bsolomon1124/pyfinance": {
       "2026-11-11": 337,
@@ -10377,7 +10683,8 @@
       "2026-11-23": 336,
       "2026-11-24": 336,
       "2026-11-25": 336,
-      "2026-11-26": 336
+      "2026-11-26": 336,
+      "2026-11-27": 336
     },
     "btschwertfeger/python-kraken-sdk": {
       "2026-10-19": 86,
@@ -10425,7 +10732,8 @@
       "2026-11-23": 920,
       "2026-11-24": 920,
       "2026-11-25": 920,
-      "2026-11-26": 921
+      "2026-11-26": 921,
+      "2026-11-27": 921
     },
     "bwjoke/BTC-Trading-Since-2020": {
       "2026-11-11": 1225,
@@ -10443,7 +10751,8 @@
       "2026-11-23": 1223,
       "2026-11-24": 1223,
       "2026-11-25": 1223,
-      "2026-11-26": 1223
+      "2026-11-26": 1223,
+      "2026-11-27": 1223
     },
     "byte-od/mixture-of-scars": {
       "2026-11-10": 5
@@ -10464,7 +10773,8 @@
       "2026-11-23": 1681,
       "2026-11-24": 1682,
       "2026-11-25": 1682,
-      "2026-11-26": 1682
+      "2026-11-26": 1682,
+      "2026-11-27": 1682
     },
     "cactus-compute/cactus": {
       "2026-09-25": 6058,
@@ -10548,7 +10858,8 @@
       "2026-11-23": 662,
       "2026-11-24": 662,
       "2026-11-25": 662,
-      "2026-11-26": 662
+      "2026-11-26": 662,
+      "2026-11-27": 662
     },
     "casual-silva/NewsCrawl": {
       "2026-11-11": 690,
@@ -10566,7 +10877,8 @@
       "2026-11-23": 688,
       "2026-11-24": 688,
       "2026-11-25": 688,
-      "2026-11-26": 688
+      "2026-11-26": 688,
+      "2026-11-27": 688
     },
     "cbecks1212/flexreport-python-client": {
       "2026-10-02": 2,
@@ -10608,7 +10920,8 @@
       "2026-11-23": 8838,
       "2026-11-24": 8838,
       "2026-11-25": 8837,
-      "2026-11-26": 8838
+      "2026-11-26": 8838,
+      "2026-11-27": 8839
     },
     "ccxt/node-binance-api": {
       "2026-11-11": 1673,
@@ -10626,7 +10939,8 @@
       "2026-11-23": 1671,
       "2026-11-24": 1671,
       "2026-11-25": 1671,
-      "2026-11-26": 1671
+      "2026-11-26": 1671,
+      "2026-11-27": 1670
     },
     "cellinlab/cyber-hengdian": {
       "2026-10-18": 7,
@@ -10666,7 +10980,8 @@
       "2026-11-23": 247,
       "2026-11-24": 247,
       "2026-11-25": 247,
-      "2026-11-26": 247
+      "2026-11-26": 247,
+      "2026-11-27": 248
     },
     "cfdude/mcp-finnhub": {
       "2026-11-02": 10
@@ -10699,7 +11014,8 @@
       "2026-11-23": 10520,
       "2026-11-24": 10523,
       "2026-11-25": 10547,
-      "2026-11-26": 10571
+      "2026-11-26": 10571,
+      "2026-11-27": 10584
     },
     "changdaeoh/sharpening-tax": {
       "2026-10-03": 21,
@@ -10729,7 +11045,8 @@
       "2026-11-23": 2073,
       "2026-11-24": 2076,
       "2026-11-25": 2077,
-      "2026-11-26": 2076
+      "2026-11-26": 2076,
+      "2026-11-27": 2079
     },
     "chenhg5/cc-connect": {
       "2026-10-26": 16089,
@@ -10804,7 +11121,8 @@
       "2026-11-23": 5617,
       "2026-11-24": 5620,
       "2026-11-25": 5623,
-      "2026-11-26": 5626
+      "2026-11-26": 5626,
+      "2026-11-27": 5627
     },
     "christopherowen/dgx-spark-networking": {
       "2026-10-07": 24,
@@ -10840,7 +11158,8 @@
       "2026-11-23": 1923,
       "2026-11-24": 1924,
       "2026-11-25": 1924,
-      "2026-11-26": 1924
+      "2026-11-26": 1924,
+      "2026-11-27": 1927
     },
     "cinar/indicatorts": {
       "2026-10-27": 481,
@@ -10867,7 +11186,8 @@
       "2026-11-23": 481,
       "2026-11-24": 481,
       "2026-11-25": 481,
-      "2026-11-26": 481
+      "2026-11-26": 481,
+      "2026-11-27": 481
     },
     "claw-codes/wx4py": {
       "2026-11-11": 803,
@@ -10885,7 +11205,8 @@
       "2026-11-23": 813,
       "2026-11-24": 813,
       "2026-11-25": 814,
-      "2026-11-26": 817
+      "2026-11-26": 817,
+      "2026-11-27": 817
     },
     "clawyi-com/china-market-data": {
       "2026-09-29": 7,
@@ -10947,7 +11268,8 @@
       "2026-11-23": 546,
       "2026-11-24": 546,
       "2026-11-25": 546,
-      "2026-11-26": 546
+      "2026-11-26": 546,
+      "2026-11-27": 548
     },
     "cmliu/WorkerVless2sub": {
       "2026-11-11": 6317,
@@ -10965,7 +11287,8 @@
       "2026-11-23": 6334,
       "2026-11-24": 6335,
       "2026-11-25": 6335,
-      "2026-11-26": 6337
+      "2026-11-26": 6337,
+      "2026-11-27": 6337
     },
     "cn-vhql/FactorHub": {
       "2026-11-11": 435,
@@ -10983,7 +11306,8 @@
       "2026-11-23": 435,
       "2026-11-24": 436,
       "2026-11-25": 435,
-      "2026-11-26": 435
+      "2026-11-26": 435,
+      "2026-11-27": 435
     },
     "coconinja2/layerlens": {
       "2026-09-16": 5,
@@ -11040,7 +11364,8 @@
       "2026-11-23": 2862,
       "2026-11-24": 2862,
       "2026-11-25": 2863,
-      "2026-11-26": 2863
+      "2026-11-26": 2863,
+      "2026-11-27": 2863
     },
     "coding-kitties/investing-algorithm-framework": {
       "2026-10-27": 2195,
@@ -11071,7 +11396,8 @@
       "2026-11-23": 2252,
       "2026-11-24": 2254,
       "2026-11-25": 2257,
-      "2026-11-26": 2258
+      "2026-11-26": 2258,
+      "2026-11-27": 2262
     },
     "coffeecoproject/layermap": {
       "2026-10-08": 5,
@@ -11109,7 +11435,8 @@
       "2026-11-23": 664,
       "2026-11-24": 665,
       "2026-11-25": 665,
-      "2026-11-26": 665
+      "2026-11-26": 665,
+      "2026-11-27": 666
     },
     "containers/ramalama": {
       "2026-10-14": 3085,
@@ -11137,7 +11464,8 @@
       "2026-11-23": 2173,
       "2026-11-24": 2175,
       "2026-11-25": 2176,
-      "2026-11-26": 2178
+      "2026-11-26": 2178,
+      "2026-11-27": 2180
     },
     "cosscom/shipyard": {
       "2026-10-08": 272,
@@ -11208,7 +11536,8 @@
       "2026-11-23": 1698,
       "2026-11-24": 1698,
       "2026-11-25": 1698,
-      "2026-11-26": 1698
+      "2026-11-26": 1698,
+      "2026-11-27": 1699
     },
     "csmar432/finai-research": {
       "2026-10-27": 108,
@@ -11245,7 +11574,8 @@
       "2026-11-23": 3735,
       "2026-11-24": 3736,
       "2026-11-25": 3736,
-      "2026-11-26": 3736
+      "2026-11-26": 3736,
+      "2026-11-27": 3736
     },
     "cuemacro/finmarketpy": {
       "2026-11-11": 3825,
@@ -11263,7 +11593,8 @@
       "2026-11-23": 3830,
       "2026-11-24": 3830,
       "2026-11-25": 3830,
-      "2026-11-26": 3830
+      "2026-11-26": 3830,
+      "2026-11-27": 3830
     },
     "cutetailbud/ff-ruyijs": {
       "2026-11-07": 862,
@@ -11287,7 +11618,8 @@
       "2026-11-23": 1327,
       "2026-11-24": 1327,
       "2026-11-25": 1327,
-      "2026-11-26": 1327
+      "2026-11-26": 1327,
+      "2026-11-27": 1327
     },
     "cybergeekgyan/Quant-Developers-Resources": {
       "2026-09-19": 3942,
@@ -11319,7 +11651,8 @@
       "2026-11-23": 4182,
       "2026-11-24": 4190,
       "2026-11-25": 4193,
-      "2026-11-26": 4196
+      "2026-11-26": 4196,
+      "2026-11-27": 4200
     },
     "damobianyuan0325/factor-forge-public": {
       "2026-09-23": 8,
@@ -11334,6 +11667,9 @@
       "2026-10-03": 19,
       "2026-10-04": 19,
       "2026-10-05": 19
+    },
+    "dangduc681/amibroker": {
+      "2026-11-27": 304
     },
     "daniel3303/Equibles": {
       "2026-10-27": 240,
@@ -11364,7 +11700,8 @@
       "2026-11-23": 247,
       "2026-11-24": 248,
       "2026-11-25": 248,
-      "2026-11-26": 248
+      "2026-11-26": 248,
+      "2026-11-27": 248
     },
     "danielvm-git/bigpowers": {
       "2026-10-26": 277,
@@ -11398,7 +11735,8 @@
       "2026-11-23": 11176,
       "2026-11-24": 11176,
       "2026-11-25": 11176,
-      "2026-11-26": 11176
+      "2026-11-26": 11176,
+      "2026-11-27": 11172
     },
     "daoyi2026/vibe-coding-zero-to-ship": {
       "2026-10-10": 21,
@@ -11462,7 +11800,8 @@
       "2026-11-23": 2962,
       "2026-11-24": 2965,
       "2026-11-25": 2966,
-      "2026-11-26": 2968
+      "2026-11-26": 2968,
+      "2026-11-27": 2967
     },
     "datawhalechina/zero-to-sglang": {
       "2026-11-05": 1707,
@@ -11530,7 +11869,8 @@
       "2026-11-23": 4620,
       "2026-11-24": 4622,
       "2026-11-25": 4624,
-      "2026-11-26": 4624
+      "2026-11-26": 4624,
+      "2026-11-27": 4626
     },
     "ddkellar01/AI-Muse-Trading-Advanced-Elite-Agent": {
       "2026-10-26": 3,
@@ -11568,7 +11908,8 @@
       "2026-11-23": 260,
       "2026-11-24": 260,
       "2026-11-25": 260,
-      "2026-11-26": 261
+      "2026-11-26": 261,
+      "2026-11-27": 261
     },
     "deepset-ai/haystack": {
       "2026-10-26": 26843,
@@ -11625,7 +11966,8 @@
       "2026-11-23": 566,
       "2026-11-24": 565,
       "2026-11-25": 565,
-      "2026-11-26": 565
+      "2026-11-26": 565,
+      "2026-11-27": 565
     },
     "disler/ten-levels-of-jev": {
       "2026-10-05": 180,
@@ -11674,7 +12016,8 @@
       "2026-11-23": 4173,
       "2026-11-24": 4177,
       "2026-11-25": 4176,
-      "2026-11-26": 4180
+      "2026-11-26": 4180,
+      "2026-11-27": 4182
     },
     "dorightyang/tushare-openclaw-skill": {
       "2026-10-14": 17,
@@ -11704,7 +12047,8 @@
       "2026-11-23": 2207,
       "2026-11-24": 2207,
       "2026-11-25": 2209,
-      "2026-11-26": 2209
+      "2026-11-26": 2209,
+      "2026-11-27": 2207
     },
     "dphnAI/sonar": {
       "2026-10-26": 1885,
@@ -11738,7 +12082,8 @@
       "2026-11-23": 815,
       "2026-11-24": 816,
       "2026-11-25": 814,
-      "2026-11-26": 815
+      "2026-11-26": 815,
+      "2026-11-27": 814
     },
     "dromara/dante-cloud": {
       "2026-11-11": 969,
@@ -11756,7 +12101,8 @@
       "2026-11-23": 972,
       "2026-11-24": 972,
       "2026-11-25": 972,
-      "2026-11-26": 972
+      "2026-11-26": 972,
+      "2026-11-27": 972
     },
     "dromara/northstar": {
       "2026-11-11": 598,
@@ -11774,7 +12120,8 @@
       "2026-11-23": 598,
       "2026-11-24": 598,
       "2026-11-25": 599,
-      "2026-11-26": 599
+      "2026-11-26": 599,
+      "2026-11-27": 599
     },
     "dromara/orion-visor": {
       "2026-11-11": 1325,
@@ -11792,7 +12139,8 @@
       "2026-11-23": 1324,
       "2026-11-24": 1325,
       "2026-11-25": 1325,
-      "2026-11-26": 1326
+      "2026-11-26": 1326,
+      "2026-11-27": 1326
     },
     "drowzeys/keys-vLLm.0.27.1-GLM-5.3-Flash-NVFP4-NVFP4KV-1M-Context-Abliterated": {
       "2026-09-01": 27,
@@ -11859,7 +12207,8 @@
       "2026-11-23": 316,
       "2026-11-24": 330,
       "2026-11-25": 351,
-      "2026-11-26": 362
+      "2026-11-26": 362,
+      "2026-11-27": 368
     },
     "dzhng/jevgrep": {
       "2026-09-28": 873,
@@ -11950,7 +12299,8 @@
       "2026-11-23": 814,
       "2026-11-24": 815,
       "2026-11-25": 816,
-      "2026-11-26": 817
+      "2026-11-26": 817,
+      "2026-11-27": 818
     },
     "edtechre/pybroker": {
       "2026-10-27": 3662,
@@ -11981,7 +12331,8 @@
       "2026-11-23": 3726,
       "2026-11-24": 3728,
       "2026-11-25": 3728,
-      "2026-11-26": 3729
+      "2026-11-26": 3729,
+      "2026-11-27": 3729
     },
     "eduwxyz/tucano": {
       "2026-11-10": 350
@@ -12075,7 +12426,8 @@
       "2026-11-23": 357,
       "2026-11-24": 358,
       "2026-11-25": 359,
-      "2026-11-26": 359
+      "2026-11-26": 359,
+      "2026-11-27": 360
     },
     "electkismet/eltdx": {
       "2026-11-11": 717,
@@ -12093,7 +12445,8 @@
       "2026-11-23": 751,
       "2026-11-24": 754,
       "2026-11-25": 754,
-      "2026-11-26": 758
+      "2026-11-26": 758,
+      "2026-11-27": 760
     },
     "eliahilse/kyora": {
       "2026-10-06": 8
@@ -12128,7 +12481,8 @@
       "2026-11-23": 596,
       "2026-11-24": 596,
       "2026-11-25": 596,
-      "2026-11-26": 596
+      "2026-11-26": 596,
+      "2026-11-27": 596
     },
     "elizaOS/eliza": {
       "2026-10-26": 19651,
@@ -12152,7 +12506,8 @@
       "2026-11-23": 701,
       "2026-11-24": 749,
       "2026-11-25": 895,
-      "2026-11-26": 1131
+      "2026-11-26": 1131,
+      "2026-11-27": 1527
     },
     "elzobrito/ESAA-Security": {
       "2026-10-04": 202,
@@ -12203,7 +12558,8 @@
       "2026-11-23": 2183,
       "2026-11-24": 2184,
       "2026-11-25": 2187,
-      "2026-11-26": 2190
+      "2026-11-26": 2190,
+      "2026-11-27": 2193
     },
     "ericpetrovengh0/polymarket-trading-arbitrage-bot-win11": {
       "2026-11-22": 201
@@ -12270,7 +12626,8 @@
       "2026-11-23": 1273,
       "2026-11-24": 1272,
       "2026-11-25": 1274,
-      "2026-11-26": 1274
+      "2026-11-26": 1274,
+      "2026-11-27": 1275
     },
     "evelyyyyynnnnn/3.0-Financial-Ai-Systems": {
       "2026-10-18": 284,
@@ -12302,7 +12659,8 @@
       "2026-11-23": 284,
       "2026-11-24": 284,
       "2026-11-25": 284,
-      "2026-11-26": 284
+      "2026-11-26": 284,
+      "2026-11-27": 284
     },
     "evidentlyai/evidently": {
       "2026-09-30": 7949,
@@ -12336,7 +12694,8 @@
       "2026-11-23": 1917,
       "2026-11-24": 1918,
       "2026-11-25": 1920,
-      "2026-11-26": 1920
+      "2026-11-26": 1920,
+      "2026-11-27": 1920
     },
     "facioquo/stock-indicators-dotnet": {
       "2026-10-27": 1249,
@@ -12367,7 +12726,8 @@
       "2026-11-23": 1253,
       "2026-11-24": 1254,
       "2026-11-25": 1255,
-      "2026-11-26": 1256
+      "2026-11-26": 1256,
+      "2026-11-27": 1257
     },
     "fadelmuhmmat883/crypto-trading-bot": {
       "2026-09-06": 48,
@@ -12389,7 +12749,8 @@
       "2026-11-23": 537,
       "2026-11-24": 537,
       "2026-11-25": 537,
-      "2026-11-26": 537
+      "2026-11-26": 537,
+      "2026-11-27": 538
     },
     "farion1231/cc-switch": {
       "2026-10-14": 143930,
@@ -12436,7 +12797,8 @@
       "2026-11-23": 3735,
       "2026-11-24": 3736,
       "2026-11-25": 3739,
-      "2026-11-26": 3755
+      "2026-11-26": 3755,
+      "2026-11-27": 3780
     },
     "fbertram/TuringTrader": {
       "2026-11-11": 538,
@@ -12454,7 +12816,8 @@
       "2026-11-23": 539,
       "2026-11-24": 539,
       "2026-11-25": 539,
-      "2026-11-26": 539
+      "2026-11-26": 539,
+      "2026-11-27": 539
     },
     "fdiblen/rseng-agent-skills": {
       "2026-09-09": 10,
@@ -12502,7 +12865,8 @@
       "2026-11-23": 2329,
       "2026-11-24": 2332,
       "2026-11-25": 2332,
-      "2026-11-26": 2333
+      "2026-11-26": 2333,
+      "2026-11-27": 2332
     },
     "feitangyuan/onetake": {
       "2026-10-10": 2045
@@ -12536,7 +12900,8 @@
       "2026-11-23": 334,
       "2026-11-24": 334,
       "2026-11-25": 334,
-      "2026-11-26": 334
+      "2026-11-26": 334,
+      "2026-11-27": 334
     },
     "financialdatanet/fdnpy": {
       "2026-10-22": 62,
@@ -12582,7 +12947,8 @@
       "2026-11-23": 296,
       "2026-11-24": 297,
       "2026-11-25": 297,
-      "2026-11-26": 297
+      "2026-11-26": 297,
+      "2026-11-27": 297
     },
     "fintechees/Expert-Advisor-Studio": {
       "2026-11-11": 366,
@@ -12600,7 +12966,8 @@
       "2026-11-23": 365,
       "2026-11-24": 367,
       "2026-11-25": 367,
-      "2026-11-26": 367
+      "2026-11-26": 367,
+      "2026-11-27": 367
     },
     "finvfamily/finshare": {
       "2026-11-11": 937,
@@ -12618,7 +12985,8 @@
       "2026-11-23": 939,
       "2026-11-24": 938,
       "2026-11-25": 938,
-      "2026-11-26": 938
+      "2026-11-26": 938,
+      "2026-11-27": 939
     },
     "fishlikeX/sm70-attn": {
       "2026-09-01": 6
@@ -12646,7 +13014,8 @@
       "2026-11-23": 510,
       "2026-11-24": 510,
       "2026-11-25": 510,
-      "2026-11-26": 510
+      "2026-11-26": 510,
+      "2026-11-27": 510
     },
     "flashinfer-ai/flashinfer": {
       "2026-10-26": 6785,
@@ -12680,7 +13049,11 @@
       "2026-11-23": 6060,
       "2026-11-24": 6061,
       "2026-11-25": 6061,
-      "2026-11-26": 6063
+      "2026-11-26": 6063,
+      "2026-11-27": 6065
+    },
+    "forgedeploy/ninjatrader-7": {
+      "2026-11-27": 307
     },
     "fourstoats/openfade": {
       "2026-10-06": 2,
@@ -12718,7 +13091,8 @@
       "2026-11-23": 2114,
       "2026-11-24": 2113,
       "2026-11-25": 2113,
-      "2026-11-26": 2113
+      "2026-11-26": 2113,
+      "2026-11-27": 2113
     },
     "franzenzenhofer/big-arrow-on-the-screen": {
       "2026-10-10": 503,
@@ -12748,7 +13122,8 @@
       "2026-11-23": 1077,
       "2026-11-24": 1077,
       "2026-11-25": 1078,
-      "2026-11-26": 1079
+      "2026-11-26": 1079,
+      "2026-11-27": 1080
     },
     "freqtrade/freqtrade-strategies": {
       "2026-11-11": 5645,
@@ -12766,7 +13141,8 @@
       "2026-11-23": 5674,
       "2026-11-24": 5680,
       "2026-11-25": 5681,
-      "2026-11-26": 5687
+      "2026-11-26": 5687,
+      "2026-11-27": 5688
     },
     "fumingyang2004/Tulpa": {
       "2026-10-07": 189,
@@ -12811,7 +13187,8 @@
       "2026-11-23": 3852,
       "2026-11-24": 3856,
       "2026-11-25": 3862,
-      "2026-11-26": 3868
+      "2026-11-26": 3868,
+      "2026-11-27": 3868
     },
     "gabrielolympie/sglang-flashnext-sm120": {
       "2026-09-09": 24,
@@ -12835,7 +13212,8 @@
       "2026-11-23": 816,
       "2026-11-24": 816,
       "2026-11-25": 817,
-      "2026-11-26": 817
+      "2026-11-26": 817,
+      "2026-11-27": 819
     },
     "garagesteve1155/PowerTrader_AI": {
       "2026-11-11": 820,
@@ -12853,7 +13231,8 @@
       "2026-11-23": 821,
       "2026-11-24": 821,
       "2026-11-25": 821,
-      "2026-11-26": 821
+      "2026-11-26": 821,
+      "2026-11-27": 821
     },
     "garnermccloud/sglang-ssd-stream": {
       "2026-09-10": 12
@@ -12885,7 +13264,8 @@
       "2026-11-23": 862,
       "2026-11-24": 862,
       "2026-11-25": 862,
-      "2026-11-26": 862
+      "2026-11-26": 862,
+      "2026-11-27": 862
     },
     "gbeced/basana": {
       "2026-10-27": 871,
@@ -12916,7 +13296,8 @@
       "2026-11-23": 878,
       "2026-11-24": 878,
       "2026-11-25": 878,
-      "2026-11-26": 878
+      "2026-11-26": 878,
+      "2026-11-27": 878
     },
     "geraked/metatrader5": {
       "2026-11-11": 690,
@@ -12934,7 +13315,8 @@
       "2026-11-23": 705,
       "2026-11-24": 707,
       "2026-11-25": 707,
-      "2026-11-26": 707
+      "2026-11-26": 707,
+      "2026-11-27": 711
     },
     "getrefined/Qwen3.8-Flash-Next-NVFP4-vLLM-DGX-Spark": {
       "2026-08-31": 8,
@@ -12964,7 +13346,8 @@
       "2026-11-23": 2341,
       "2026-11-24": 2342,
       "2026-11-25": 2344,
-      "2026-11-26": 2349
+      "2026-11-26": 2349,
+      "2026-11-27": 2351
     },
     "giodra96/project-wiki": {
       "2026-08-31": 8,
@@ -13057,7 +13440,8 @@
       "2026-11-23": 1522,
       "2026-11-24": 1523,
       "2026-11-25": 1524,
-      "2026-11-26": 1525
+      "2026-11-26": 1525,
+      "2026-11-27": 1528
     },
     "google/agents-cli": {
       "2026-10-26": 6176,
@@ -13115,7 +13499,8 @@
       "2026-11-23": 1883,
       "2026-11-24": 1884,
       "2026-11-25": 1884,
-      "2026-11-26": 1884
+      "2026-11-26": 1884,
+      "2026-11-27": 1883
     },
     "gunjanmimo/tradeflow": {
       "2026-09-30": 2,
@@ -13190,7 +13575,8 @@
       "2026-11-23": 897,
       "2026-11-24": 897,
       "2026-11-25": 897,
-      "2026-11-26": 897
+      "2026-11-26": 897,
+      "2026-11-27": 897
     },
     "hanliang97/MatrixMedia": {
       "2026-11-11": 1266,
@@ -13208,7 +13594,8 @@
       "2026-11-23": 1658,
       "2026-11-24": 1675,
       "2026-11-25": 1710,
-      "2026-11-26": 1748
+      "2026-11-26": 1748,
+      "2026-11-27": 1779
     },
     "hanxiao/DeepSeek-V4.1-Flash-1017-FP8-abliterated-4x-RTX-PRO-6000": {
       "2026-10-27": 25,
@@ -13299,7 +13686,8 @@
       "2026-11-23": 3194,
       "2026-11-24": 3197,
       "2026-11-25": 3200,
-      "2026-11-26": 3203
+      "2026-11-26": 3203,
+      "2026-11-27": 3206
     },
     "henrylin99/quantitative_analysis": {
       "2026-11-11": 638,
@@ -13317,7 +13705,8 @@
       "2026-11-23": 657,
       "2026-11-24": 660,
       "2026-11-25": 662,
-      "2026-11-26": 663
+      "2026-11-26": 663,
+      "2026-11-27": 664
     },
     "hermeshai/hermesh": {
       "2026-11-01": 12,
@@ -13331,7 +13720,8 @@
       "2026-11-23": 1225,
       "2026-11-24": 1225,
       "2026-11-25": 1225,
-      "2026-11-26": 1225
+      "2026-11-26": 1225,
+      "2026-11-27": 1225
     },
     "heubme2020/datasinking": {
       "2026-10-27": 22,
@@ -13400,7 +13790,8 @@
       "2026-11-23": 3593,
       "2026-11-24": 3595,
       "2026-11-25": 3604,
-      "2026-11-26": 3611
+      "2026-11-26": 3611,
+      "2026-11-27": 3614
     },
     "hkqr/my-free-code": {
       "2026-08-31": 472,
@@ -13430,7 +13821,8 @@
       "2026-11-23": 534,
       "2026-11-24": 534,
       "2026-11-25": 534,
-      "2026-11-26": 534
+      "2026-11-26": 534,
+      "2026-11-27": 534
     },
     "hongfaqiu/strata-manager": {
       "2026-10-14": 6,
@@ -13472,7 +13864,8 @@
       "2026-11-23": 2997,
       "2026-11-24": 2997,
       "2026-11-25": 2997,
-      "2026-11-26": 2997
+      "2026-11-26": 2997,
+      "2026-11-27": 2997
     },
     "hotyue/IP-Sentinel": {
       "2026-11-11": 2034,
@@ -13490,7 +13883,8 @@
       "2026-11-23": 2144,
       "2026-11-24": 2150,
       "2026-11-25": 2164,
-      "2026-11-26": 2168
+      "2026-11-26": 2168,
+      "2026-11-27": 2177
     },
     "howardc38/motion-fx-lab": {
       "2026-09-30": 7,
@@ -13537,7 +13931,8 @@
       "2026-11-23": 959,
       "2026-11-24": 961,
       "2026-11-25": 967,
-      "2026-11-26": 971
+      "2026-11-26": 971,
+      "2026-11-27": 979
     },
     "hugo2046/QuantsPlaybook": {
       "2026-11-11": 6873,
@@ -13555,7 +13950,8 @@
       "2026-11-23": 6920,
       "2026-11-24": 6926,
       "2026-11-25": 6933,
-      "2026-11-26": 6936
+      "2026-11-26": 6936,
+      "2026-11-27": 6937
     },
     "hustcer/star": {
       "2026-11-11": 1058,
@@ -13573,7 +13969,8 @@
       "2026-11-23": 1063,
       "2026-11-24": 1063,
       "2026-11-25": 1063,
-      "2026-11-26": 1062
+      "2026-11-26": 1062,
+      "2026-11-27": 1062
     },
     "hydrosquall/tiingo-python": {
       "2026-11-11": 321,
@@ -13591,7 +13988,8 @@
       "2026-11-23": 320,
       "2026-11-24": 320,
       "2026-11-25": 320,
-      "2026-11-26": 320
+      "2026-11-26": 320,
+      "2026-11-27": 320
     },
     "hyetigran/legacy-skills": {
       "2026-09-03": 7,
@@ -13623,7 +14021,8 @@
       "2026-11-23": 371,
       "2026-11-24": 375,
       "2026-11-25": 375,
-      "2026-11-26": 379
+      "2026-11-26": 379,
+      "2026-11-27": 379
     },
     "i-am-manware/Manware-s-AI-Learning-Toolkit": {
       "2026-09-09": 251,
@@ -13667,7 +14066,8 @@
       "2026-11-23": 739,
       "2026-11-24": 739,
       "2026-11-25": 739,
-      "2026-11-26": 739
+      "2026-11-26": 739,
+      "2026-11-27": 739
     },
     "iamneilroberts/shadetree-ai": {
       "2026-10-09": 6,
@@ -13695,7 +14095,8 @@
       "2026-11-23": 1796,
       "2026-11-24": 1796,
       "2026-11-25": 1796,
-      "2026-11-26": 1796
+      "2026-11-26": 1796,
+      "2026-11-27": 1799
     },
     "ibaihuo/chanvis": {
       "2026-11-11": 630,
@@ -13713,7 +14114,8 @@
       "2026-11-23": 633,
       "2026-11-24": 635,
       "2026-11-25": 637,
-      "2026-11-26": 637
+      "2026-11-26": 637,
+      "2026-11-27": 637
     },
     "ickma2311/FinRunbook": {
       "2026-09-05": 4,
@@ -13764,7 +14166,8 @@
       "2026-11-23": 1058,
       "2026-11-24": 1058,
       "2026-11-25": 1058,
-      "2026-11-26": 1058
+      "2026-11-26": 1058,
+      "2026-11-27": 1058
     },
     "ikarisz/PickleChart": {
       "2026-09-24": 11,
@@ -13848,7 +14251,8 @@
       "2026-11-23": 1705,
       "2026-11-24": 1706,
       "2026-11-25": 1707,
-      "2026-11-26": 1708
+      "2026-11-26": 1708,
+      "2026-11-27": 1708
     },
     "intel/gpu-ai-skills": {
       "2026-08-31": 16,
@@ -13877,7 +14281,8 @@
       "2026-11-23": 529,
       "2026-11-24": 529,
       "2026-11-25": 530,
-      "2026-11-26": 530
+      "2026-11-26": 530,
+      "2026-11-27": 531
     },
     "ismailperim/prompilot": {
       "2026-09-21": 5,
@@ -13924,7 +14329,8 @@
       "2026-11-23": 3548,
       "2026-11-24": 3548,
       "2026-11-25": 3548,
-      "2026-11-26": 3549
+      "2026-11-26": 3549,
+      "2026-11-27": 3550
     },
     "itriones/AI-Quant-Framework": {
       "2026-09-02": 10,
@@ -13960,7 +14366,8 @@
       "2026-11-23": 1720,
       "2026-11-24": 1722,
       "2026-11-25": 1722,
-      "2026-11-26": 1722
+      "2026-11-26": 1722,
+      "2026-11-27": 1722
     },
     "ivyfan-toowell/IvyClaw": {
       "2026-09-16": 59,
@@ -14012,7 +14419,8 @@
       "2026-11-23": 436,
       "2026-11-24": 475,
       "2026-11-25": 478,
-      "2026-11-26": 481
+      "2026-11-26": 481,
+      "2026-11-27": 484
     },
     "jackyideal/AlphaTeam": {
       "2026-11-11": 413,
@@ -14030,7 +14438,8 @@
       "2026-11-23": 413,
       "2026-11-24": 413,
       "2026-11-25": 413,
-      "2026-11-26": 413
+      "2026-11-26": 413,
+      "2026-11-27": 413
     },
     "jadepeng/pytrader": {
       "2026-11-11": 502,
@@ -14048,7 +14457,8 @@
       "2026-11-23": 502,
       "2026-11-24": 502,
       "2026-11-25": 502,
-      "2026-11-26": 504
+      "2026-11-26": 504,
+      "2026-11-27": 504
     },
     "jaedync/crucible-strix-halo": {
       "2026-10-24": 6,
@@ -14089,7 +14499,8 @@
       "2026-11-23": 643,
       "2026-11-24": 672,
       "2026-11-25": 689,
-      "2026-11-26": 702
+      "2026-11-26": 702,
+      "2026-11-27": 719
     },
     "jamro/tiny-engineer": {
       "2026-08-31": 126,
@@ -14123,7 +14534,8 @@
       "2026-11-23": 1203,
       "2026-11-24": 1203,
       "2026-11-25": 1203,
-      "2026-11-26": 1203
+      "2026-11-26": 1203,
+      "2026-11-27": 1203
     },
     "janushendersonassetallocation/loman": {
       "2026-11-11": 124
@@ -14137,7 +14549,8 @@
       "2026-11-23": 517,
       "2026-11-24": 518,
       "2026-11-25": 518,
-      "2026-11-26": 518
+      "2026-11-26": 518,
+      "2026-11-27": 518
     },
     "jasonjfoster/screen": {
       "2026-09-07": 20,
@@ -14214,7 +14627,8 @@
       "2026-11-23": 1660,
       "2026-11-24": 1660,
       "2026-11-25": 1660,
-      "2026-11-26": 1660
+      "2026-11-26": 1660,
+      "2026-11-27": 1660
     },
     "jdj40211/vibe-check-security": {
       "2026-08-31": 7,
@@ -14254,7 +14668,8 @@
       "2026-11-23": 8829,
       "2026-11-24": 8830,
       "2026-11-25": 8833,
-      "2026-11-26": 8836
+      "2026-11-26": 8836,
+      "2026-11-27": 8839
     },
     "jhisse/spoor": {
       "2026-10-14": 5,
@@ -14283,7 +14698,8 @@
       "2026-11-23": 932,
       "2026-11-24": 932,
       "2026-11-25": 933,
-      "2026-11-26": 932
+      "2026-11-26": 932,
+      "2026-11-27": 930
     },
     "jianzhnie/LLamaTuner": {
       "2026-11-11": 623,
@@ -14301,7 +14717,8 @@
       "2026-11-23": 622,
       "2026-11-24": 622,
       "2026-11-25": 622,
-      "2026-11-26": 622
+      "2026-11-26": 622,
+      "2026-11-27": 622
     },
     "jiawanlong/Cesium-Examples": {
       "2026-11-11": 2230,
@@ -14319,7 +14736,8 @@
       "2026-11-23": 2233,
       "2026-11-24": 2233,
       "2026-11-25": 2234,
-      "2026-11-26": 2235
+      "2026-11-26": 2235,
+      "2026-11-27": 2235
     },
     "jinbooooom/ai-infra-hpc": {
       "2026-11-11": 789,
@@ -14337,7 +14755,8 @@
       "2026-11-23": 795,
       "2026-11-24": 796,
       "2026-11-25": 797,
-      "2026-11-26": 799
+      "2026-11-26": 799,
+      "2026-11-27": 800
     },
     "jiyuanwang-afk/Explainable-AI-in-Financial-Fraud-and-Anomaly-Detection": {
       "2026-11-11": 788,
@@ -14355,7 +14774,8 @@
       "2026-11-23": 788,
       "2026-11-24": 788,
       "2026-11-25": 788,
-      "2026-11-26": 788
+      "2026-11-26": 788,
+      "2026-11-27": 788
     },
     "jkdansereau/goldeneye-pc-port": {
       "2026-09-05": 5,
@@ -14402,7 +14822,8 @@
       "2026-11-23": 2130,
       "2026-11-24": 2130,
       "2026-11-25": 2130,
-      "2026-11-26": 2130
+      "2026-11-26": 2130,
+      "2026-11-27": 2131
     },
     "jnardiello/GLM-5.3-Flash-FP8-4-DGX-Spark-Switchless": {
       "2026-09-12": 5,
@@ -14480,7 +14901,8 @@
       "2026-11-23": 3431,
       "2026-11-24": 3431,
       "2026-11-25": 3431,
-      "2026-11-26": 3431
+      "2026-11-26": 3431,
+      "2026-11-27": 3432
     },
     "josephchenhk/qtrader": {
       "2026-11-11": 550,
@@ -14498,7 +14920,8 @@
       "2026-11-23": 549,
       "2026-11-24": 549,
       "2026-11-25": 549,
-      "2026-11-26": 549
+      "2026-11-26": 549,
+      "2026-11-27": 549
     },
     "joshyattridge/smart-money-concepts": {
       "2026-11-11": 2209,
@@ -14516,7 +14939,8 @@
       "2026-11-23": 2263,
       "2026-11-24": 2268,
       "2026-11-25": 2270,
-      "2026-11-26": 2271
+      "2026-11-26": 2271,
+      "2026-11-27": 2275
     },
     "jpezzulli/sglang-rtxpro6000": {
       "2026-08-31": 34,
@@ -14544,7 +14968,8 @@
       "2026-11-23": 607,
       "2026-11-24": 607,
       "2026-11-25": 607,
-      "2026-11-26": 607
+      "2026-11-26": 607,
+      "2026-11-27": 607
     },
     "jshachm/pi-rs": {
       "2026-11-11": 541,
@@ -14562,7 +14987,8 @@
       "2026-11-23": 540,
       "2026-11-24": 541,
       "2026-11-25": 541,
-      "2026-11-26": 541
+      "2026-11-26": 541,
+      "2026-11-27": 541
     },
     "jugaad-py/jugaad-data": {
       "2026-11-11": 594,
@@ -14580,7 +15006,8 @@
       "2026-11-23": 601,
       "2026-11-24": 601,
       "2026-11-25": 601,
-      "2026-11-26": 601
+      "2026-11-26": 601,
+      "2026-11-27": 601
     },
     "juliankang4/spark-scope": {
       "2026-10-02": 12,
@@ -14612,7 +15039,8 @@
       "2026-11-23": 2038,
       "2026-11-24": 2052,
       "2026-11-25": 2063,
-      "2026-11-26": 2073
+      "2026-11-26": 2073,
+      "2026-11-27": 2077
     },
     "justkyriecai/nanovllm2deepinfer": {
       "2026-11-02": 22,
@@ -14650,7 +15078,8 @@
       "2026-11-23": 897,
       "2026-11-24": 897,
       "2026-11-25": 898,
-      "2026-11-26": 901
+      "2026-11-26": 901,
+      "2026-11-27": 903
     },
     "jyyang26/Terminal-RSI": {
       "2026-10-22": 12,
@@ -14738,7 +15167,8 @@
       "2026-11-23": 356,
       "2026-11-24": 356,
       "2026-11-25": 356,
-      "2026-11-26": 356
+      "2026-11-26": 356,
+      "2026-11-27": 356
     },
     "kdev1966/Handoff-CLI": {
       "2026-10-15": 5,
@@ -14770,7 +15200,8 @@
       "2026-11-23": 853,
       "2026-11-24": 853,
       "2026-11-25": 854,
-      "2026-11-26": 854
+      "2026-11-26": 854,
+      "2026-11-27": 854
     },
     "kerim0x1/bettercode": {
       "2026-10-04": 252
@@ -14791,7 +15222,8 @@
       "2026-11-23": 9281,
       "2026-11-24": 9288,
       "2026-11-25": 9295,
-      "2026-11-26": 9300
+      "2026-11-26": 9300,
+      "2026-11-27": 9309
     },
     "kerpopule/hermes-jev-skills": {
       "2026-09-21": 297,
@@ -14841,7 +15273,8 @@
       "2026-11-23": 1653,
       "2026-11-24": 1653,
       "2026-11-25": 1654,
-      "2026-11-26": 1679
+      "2026-11-26": 1679,
+      "2026-11-27": 1700
     },
     "kiesxoxo/burnout-crash-recomp": {
       "2026-10-19": 16,
@@ -14869,7 +15302,8 @@
       "2026-11-23": 245,
       "2026-11-24": 263,
       "2026-11-25": 280,
-      "2026-11-26": 292
+      "2026-11-26": 292,
+      "2026-11-27": 303
     },
     "kingofspace0wzz/cua-swe": {
       "2026-10-03": 5,
@@ -14901,7 +15335,8 @@
       "2026-11-23": 841,
       "2026-11-24": 841,
       "2026-11-25": 841,
-      "2026-11-26": 841
+      "2026-11-26": 841,
+      "2026-11-27": 841
     },
     "kingston-csj/jforgame": {
       "2026-11-11": 1102,
@@ -14919,7 +15354,8 @@
       "2026-11-23": 1103,
       "2026-11-24": 1103,
       "2026-11-25": 1103,
-      "2026-11-26": 1103
+      "2026-11-26": 1103,
+      "2026-11-27": 1103
     },
     "kiukfungeon/mdr": {
       "2026-11-01": 24,
@@ -14946,7 +15382,8 @@
       "2026-11-23": 1195,
       "2026-11-24": 1195,
       "2026-11-25": 1195,
-      "2026-11-26": 1195
+      "2026-11-26": 1195,
+      "2026-11-27": 1195
     },
     "klonnist/crypto-paper-bot": {
       "2026-09-28": 3,
@@ -15008,7 +15445,8 @@
       "2026-11-23": 427,
       "2026-11-24": 427,
       "2026-11-25": 427,
-      "2026-11-26": 427
+      "2026-11-26": 427,
+      "2026-11-27": 427
     },
     "kraken222/sovereign-observer-mcp": {
       "2026-09-06": 5,
@@ -15044,7 +15482,8 @@
       "2026-11-23": 816,
       "2026-11-24": 816,
       "2026-11-25": 818,
-      "2026-11-26": 820
+      "2026-11-26": 820,
+      "2026-11-27": 820
     },
     "krika2810/agent-trace": {
       "2026-11-07": 7,
@@ -15104,7 +15543,8 @@
       "2026-11-23": 317,
       "2026-11-24": 318,
       "2026-11-25": 317,
-      "2026-11-26": 317
+      "2026-11-26": 317,
+      "2026-11-27": 317
     },
     "kunpengtalk/OmniStudio": {
       "2026-09-10": 17,
@@ -15245,7 +15685,8 @@
       "2026-11-23": 554,
       "2026-11-24": 554,
       "2026-11-25": 554,
-      "2026-11-26": 554
+      "2026-11-26": 554,
+      "2026-11-27": 554
     },
     "lemomo-ai/lemo-opuscar": {
       "2026-09-28": 410,
@@ -15286,7 +15727,8 @@
       "2026-11-23": 788,
       "2026-11-24": 788,
       "2026-11-25": 788,
-      "2026-11-26": 788
+      "2026-11-26": 788,
+      "2026-11-27": 788
     },
     "liangdabiao/easy_investment_Agent_crewai": {
       "2026-11-11": 676,
@@ -15304,7 +15746,8 @@
       "2026-11-23": 678,
       "2026-11-24": 678,
       "2026-11-25": 679,
-      "2026-11-26": 679
+      "2026-11-26": 679,
+      "2026-11-27": 679
     },
     "liangdabiao/ecom-details-image": {
       "2026-11-11": 1648,
@@ -15322,7 +15765,8 @@
       "2026-11-23": 1766,
       "2026-11-24": 1777,
       "2026-11-25": 1788,
-      "2026-11-26": 1846
+      "2026-11-26": 1846,
+      "2026-11-27": 1892
     },
     "liangdabiao/make-prompt-seedance2": {
       "2026-11-11": 759,
@@ -15340,7 +15784,8 @@
       "2026-11-23": 775,
       "2026-11-24": 775,
       "2026-11-25": 776,
-      "2026-11-26": 778
+      "2026-11-26": 778,
+      "2026-11-27": 780
     },
     "lightseekorg/tokenspeed": {
       "2026-10-26": 2784,
@@ -15374,7 +15819,8 @@
       "2026-11-23": 8807,
       "2026-11-24": 8808,
       "2026-11-25": 8809,
-      "2026-11-26": 8813
+      "2026-11-26": 8813,
+      "2026-11-27": 8817
     },
     "lijiahangmax/orion-ops": {
       "2026-11-11": 522,
@@ -15392,7 +15838,8 @@
       "2026-11-23": 522,
       "2026-11-24": 522,
       "2026-11-25": 522,
-      "2026-11-26": 521
+      "2026-11-26": 521,
+      "2026-11-27": 521
     },
     "likaia/nginxpulse": {
       "2026-11-11": 2716,
@@ -15410,7 +15857,8 @@
       "2026-11-23": 2719,
       "2026-11-24": 2720,
       "2026-11-25": 2720,
-      "2026-11-26": 2719
+      "2026-11-26": 2719,
+      "2026-11-27": 2719
     },
     "limitedmovie/DeepSeek-Desktop---DeepSeek-AI-Assistant-2026": {
       "2026-08-31": 10,
@@ -15439,7 +15887,8 @@
       "2026-11-23": 780,
       "2026-11-24": 784,
       "2026-11-25": 786,
-      "2026-11-26": 787
+      "2026-11-26": 787,
+      "2026-11-27": 787
     },
     "linqiu919/better-context-engine": {
       "2026-09-11": 9,
@@ -15483,7 +15932,8 @@
       "2026-11-23": 846,
       "2026-11-24": 846,
       "2026-11-25": 846,
-      "2026-11-26": 846
+      "2026-11-26": 846,
+      "2026-11-27": 853
     },
     "liuhuanyong/ChainKnowledgeGraph": {
       "2026-11-11": 779,
@@ -15501,13 +15951,15 @@
       "2026-11-23": 780,
       "2026-11-24": 780,
       "2026-11-25": 781,
-      "2026-11-26": 781
+      "2026-11-26": 781,
+      "2026-11-27": 782
     },
     "liyupi/ai-code-helper": {
       "2026-11-23": 769,
       "2026-11-24": 771,
       "2026-11-25": 771,
-      "2026-11-26": 771
+      "2026-11-26": 771,
+      "2026-11-27": 773
     },
     "liyupi/ai-guide": {
       "2026-10-22": 21487,
@@ -15537,13 +15989,15 @@
       "2026-11-23": 2101,
       "2026-11-24": 2100,
       "2026-11-25": 2100,
-      "2026-11-26": 2100
+      "2026-11-26": 2100,
+      "2026-11-27": 2101
     },
     "liyupi/sql-generator": {
       "2026-11-23": 3410,
       "2026-11-24": 3411,
       "2026-11-25": 3412,
-      "2026-11-26": 3412
+      "2026-11-26": 3412,
+      "2026-11-27": 3412
     },
     "liyupi/yu-ai-agent": {
       "2026-11-11": 2771,
@@ -15561,19 +16015,22 @@
       "2026-11-23": 2787,
       "2026-11-24": 2792,
       "2026-11-25": 2795,
-      "2026-11-26": 2798
+      "2026-11-26": 2798,
+      "2026-11-27": 2800
     },
     "liyupi/yu-auto-reply": {
       "2026-11-23": 887,
       "2026-11-24": 887,
       "2026-11-25": 887,
-      "2026-11-26": 887
+      "2026-11-26": 887,
+      "2026-11-27": 887
     },
     "liyupi/yuindex": {
       "2026-11-23": 2111,
       "2026-11-24": 2111,
       "2026-11-25": 2112,
-      "2026-11-26": 2112
+      "2026-11-26": 2112,
+      "2026-11-27": 2111
     },
     "llmware-ai/llmware": {
       "2026-10-02": 14825,
@@ -15642,7 +16099,8 @@
       "2026-11-23": 406,
       "2026-11-24": 411,
       "2026-11-25": 419,
-      "2026-11-26": 422
+      "2026-11-26": 422,
+      "2026-11-27": 427
     },
     "loopai-hq/pulsar": {
       "2026-10-10": 5,
@@ -15743,7 +16201,8 @@
     },
     "lzwme/finance-quant-skills": {
       "2026-11-25": 500,
-      "2026-11-26": 500
+      "2026-11-26": 500,
+      "2026-11-27": 500
     },
     "m-sanchez/clawdeck": {
       "2026-09-02": 6,
@@ -15817,7 +16276,8 @@
       "2026-11-23": 502,
       "2026-11-24": 502,
       "2026-11-25": 502,
-      "2026-11-26": 502
+      "2026-11-26": 502,
+      "2026-11-27": 502
     },
     "marketcalls/openalgo-charts": {
       "2026-10-27": 180,
@@ -15844,7 +16304,8 @@
       "2026-11-23": 207,
       "2026-11-24": 212,
       "2026-11-25": 216,
-      "2026-11-26": 218
+      "2026-11-26": 218,
+      "2026-11-27": 223
     },
     "marketcalls/openscript": {
       "2026-09-20": 2,
@@ -15877,7 +16338,8 @@
       "2026-11-23": 1187,
       "2026-11-24": 1186,
       "2026-11-25": 1187,
-      "2026-11-26": 1187
+      "2026-11-26": 1187,
+      "2026-11-27": 1187
     },
     "marticastany/pyeventbt": {
       "2026-10-15": 61,
@@ -15910,7 +16372,8 @@
       "2026-11-23": 4472,
       "2026-11-24": 4472,
       "2026-11-25": 4472,
-      "2026-11-26": 4472
+      "2026-11-26": 4472,
+      "2026-11-27": 4473
     },
     "matthewprice/JobFinderOS": {
       "2026-09-18": 152,
@@ -15949,7 +16412,8 @@
       "2026-11-23": 23785,
       "2026-11-24": 23794,
       "2026-11-25": 23797,
-      "2026-11-26": 23809
+      "2026-11-26": 23809,
+      "2026-11-27": 23817
     },
     "merijjeyn/jive": {
       "2026-10-05": 177
@@ -15993,7 +16457,8 @@
       "2026-11-23": 3492,
       "2026-11-24": 3492,
       "2026-11-25": 3492,
-      "2026-11-26": 3492
+      "2026-11-26": 3492,
+      "2026-11-27": 3492
     },
     "mhchy10/Tavrixa": {
       "2026-11-02": 2,
@@ -16047,7 +16512,8 @@
       "2026-11-23": 50507,
       "2026-11-24": 50536,
       "2026-11-25": 50565,
-      "2026-11-26": 50595
+      "2026-11-26": 50595,
+      "2026-11-27": 50623
     },
     "milocaetano/quantick": {
       "2026-10-27": 48,
@@ -16081,7 +16547,8 @@
       "2026-11-23": 621,
       "2026-11-24": 621,
       "2026-11-25": 621,
-      "2026-11-26": 621
+      "2026-11-26": 621,
+      "2026-11-27": 621
     },
     "mingti-org/phyai": {
       "2026-10-26": 137,
@@ -16135,7 +16602,8 @@
       "2026-11-23": 346,
       "2026-11-24": 348,
       "2026-11-25": 350,
-      "2026-11-26": 350
+      "2026-11-26": 350,
+      "2026-11-27": 350
     },
     "missuo/herdrm": {
       "2026-08-31": 641,
@@ -16173,7 +16641,8 @@
       "2026-11-23": 648,
       "2026-11-24": 648,
       "2026-11-25": 648,
-      "2026-11-26": 648
+      "2026-11-26": 648,
+      "2026-11-27": 648
     },
     "mitkox/esf": {
       "2026-09-21": 72,
@@ -16200,7 +16669,8 @@
       "2026-11-23": 2289,
       "2026-11-24": 2291,
       "2026-11-25": 2292,
-      "2026-11-26": 2292
+      "2026-11-26": 2292,
+      "2026-11-27": 2292
     },
     "mlc-ai/web-llm": {
       "2026-10-31": 19337,
@@ -16229,7 +16699,8 @@
       "2026-11-23": 2494,
       "2026-11-24": 2495,
       "2026-11-25": 2497,
-      "2026-11-26": 2498
+      "2026-11-26": 2498,
+      "2026-11-27": 2498
     },
     "mmastrac/djev": {
       "2026-09-22": 14,
@@ -16262,7 +16733,8 @@
       "2026-11-23": 1450,
       "2026-11-24": 1450,
       "2026-11-25": 1453,
-      "2026-11-26": 1453
+      "2026-11-26": 1453,
+      "2026-11-27": 1453
     },
     "modal-projects/spindle": {
       "2026-10-10": 5,
@@ -16393,7 +16865,8 @@
       "2026-11-23": 392,
       "2026-11-24": 392,
       "2026-11-25": 393,
-      "2026-11-26": 393
+      "2026-11-26": 393,
+      "2026-11-27": 393
     },
     "mozophe/ComfyUI-Qwen-Image-2.1-PromptEnhancer-MTP": {
       "2026-09-27": 5,
@@ -16439,7 +16912,8 @@
       "2026-11-23": 3948,
       "2026-11-24": 3949,
       "2026-11-25": 3949,
-      "2026-11-26": 3949
+      "2026-11-26": 3949,
+      "2026-11-27": 3953
     },
     "mpquant/MyTT": {
       "2026-11-11": 2891,
@@ -16457,7 +16931,8 @@
       "2026-11-23": 2896,
       "2026-11-24": 2895,
       "2026-11-25": 2895,
-      "2026-11-26": 2896
+      "2026-11-26": 2896,
+      "2026-11-27": 2896
     },
     "mratsim/sglang-qwen38fn-sm120-turbo": {
       "2026-09-07": 14,
@@ -16518,7 +16993,8 @@
       "2026-11-23": 939,
       "2026-11-24": 939,
       "2026-11-25": 940,
-      "2026-11-26": 940
+      "2026-11-26": 940,
+      "2026-11-27": 940
     },
     "mtrinkner/edge-audit": {
       "2026-10-10": 2,
@@ -16598,7 +17074,8 @@
       "2026-11-23": 15319,
       "2026-11-24": 15332,
       "2026-11-25": 15342,
-      "2026-11-26": 15354
+      "2026-11-26": 15354,
+      "2026-11-27": 15374
     },
     "nachisama/ai-data-extractor": {
       "2026-10-08": 31,
@@ -16672,7 +17149,8 @@
       "2026-11-23": 2759,
       "2026-11-24": 2768,
       "2026-11-25": 2771,
-      "2026-11-26": 2782
+      "2026-11-26": 2782,
+      "2026-11-27": 2792
     },
     "nebulaanish/aftersight": {
       "2026-09-02": 7,
@@ -16727,7 +17205,8 @@
       "2026-11-23": 471,
       "2026-11-24": 471,
       "2026-11-25": 472,
-      "2026-11-26": 472
+      "2026-11-26": 472,
+      "2026-11-27": 472
     },
     "nexu-io/open-design": {
       "2026-09-04": 93921,
@@ -16764,7 +17243,8 @@
       "2026-11-23": 2925,
       "2026-11-24": 2926,
       "2026-11-25": 2927,
-      "2026-11-26": 2928
+      "2026-11-26": 2928,
+      "2026-11-27": 2928
     },
     "nieledran/Deribit_Grid_Bot": {
       "2026-10-21": 4,
@@ -16788,12 +17268,14 @@
       "2026-11-23": 5129,
       "2026-11-24": 5136,
       "2026-11-25": 5141,
-      "2026-11-26": 5147
+      "2026-11-26": 5147,
+      "2026-11-27": 5148
     },
     "nkjDSLcvanv/antigravity-codex-theme": {
       "2026-11-24": 508,
       "2026-11-25": 547,
-      "2026-11-26": 588
+      "2026-11-26": 588,
+      "2026-11-27": 670
     },
     "nktkas/hyperliquid": {
       "2026-11-11": 454,
@@ -16811,7 +17293,8 @@
       "2026-11-23": 455,
       "2026-11-24": 455,
       "2026-11-25": 455,
-      "2026-11-26": 456
+      "2026-11-26": 456,
+      "2026-11-27": 456
     },
     "nobodywho-ooo/nobodywho": {
       "2026-10-26": 1644,
@@ -16866,7 +17349,8 @@
       "2026-11-23": 620,
       "2026-11-24": 620,
       "2026-11-25": 620,
-      "2026-11-26": 620
+      "2026-11-26": 620,
+      "2026-11-27": 620
     },
     "noorxsingh/backtesting-engine": {
       "2026-09-16": 3,
@@ -16927,7 +17411,8 @@
       "2026-11-23": 647,
       "2026-11-24": 647,
       "2026-11-25": 647,
-      "2026-11-26": 647
+      "2026-11-26": 647,
+      "2026-11-27": 647
     },
     "nykooi1/vibe-wise": {
       "2026-10-06": 1930,
@@ -16976,7 +17461,8 @@
       "2026-11-23": 2104,
       "2026-11-24": 2108,
       "2026-11-25": 2110,
-      "2026-11-26": 2111
+      "2026-11-26": 2111,
+      "2026-11-27": 2113
     },
     "ohgeebtw/geezuz-qwen3.8-27b-dual-gpu": {
       "2026-10-21": 10,
@@ -17034,7 +17520,8 @@
       "2026-11-23": 571,
       "2026-11-24": 571,
       "2026-11-25": 571,
-      "2026-11-26": 571
+      "2026-11-26": 571,
+      "2026-11-27": 571
     },
     "open-net-worth-ai/open-net-worth": {
       "2026-11-15": 504,
@@ -17048,7 +17535,8 @@
       "2026-11-23": 696,
       "2026-11-24": 726,
       "2026-11-25": 723,
-      "2026-11-26": 722
+      "2026-11-26": 722,
+      "2026-11-27": 716
     },
     "openJiuwen-ai/agent-infer": {
       "2026-09-17": 22,
@@ -17105,7 +17593,8 @@
       "2026-11-23": 75652,
       "2026-11-24": 75692,
       "2026-11-25": 75717,
-      "2026-11-26": 75752
+      "2026-11-26": 75752,
+      "2026-11-27": 75785
     },
     "openlake-project/openlake": {
       "2026-10-26": 2637,
@@ -17253,7 +17742,8 @@
       "2026-11-23": 461,
       "2026-11-24": 461,
       "2026-11-25": 462,
-      "2026-11-26": 462
+      "2026-11-26": 462,
+      "2026-11-27": 462
     },
     "paulran/aioquant": {
       "2026-11-11": 501,
@@ -17271,7 +17761,8 @@
       "2026-11-23": 501,
       "2026-11-24": 501,
       "2026-11-25": 501,
-      "2026-11-26": 501
+      "2026-11-26": 501,
+      "2026-11-27": 501
     },
     "pavlenkovit/vibeling-tutor": {
       "2026-10-19": 10,
@@ -17326,7 +17817,8 @@
       "2026-11-23": 1492,
       "2026-11-24": 1493,
       "2026-11-25": 1493,
-      "2026-11-26": 1493
+      "2026-11-26": 1493,
+      "2026-11-27": 1493
     },
     "peizhengl/signaldesk": {
       "2026-10-14": 2,
@@ -17388,7 +17880,8 @@
       "2026-11-23": 2172,
       "2026-11-24": 2172,
       "2026-11-25": 2172,
-      "2026-11-26": 2171
+      "2026-11-26": 2171,
+      "2026-11-27": 2172
     },
     "phoenix-zhou/go-micro-shop": {
       "2026-11-11": 618,
@@ -17406,7 +17899,8 @@
       "2026-11-23": 618,
       "2026-11-24": 618,
       "2026-11-25": 618,
-      "2026-11-26": 618
+      "2026-11-26": 618,
+      "2026-11-27": 618
     },
     "phoenix-zhou/goshop": {
       "2026-11-11": 1089,
@@ -17424,7 +17918,8 @@
       "2026-11-23": 1089,
       "2026-11-24": 1089,
       "2026-11-25": 1089,
-      "2026-11-26": 1089
+      "2026-11-26": 1089,
+      "2026-11-27": 1089
     },
     "phuryn/product-engineering": {
       "2026-11-10": 422
@@ -17445,7 +17940,8 @@
       "2026-11-23": 610,
       "2026-11-24": 610,
       "2026-11-25": 611,
-      "2026-11-26": 611
+      "2026-11-26": 611,
+      "2026-11-27": 611
     },
     "pinoox/neuromesh": {
       "2026-08-31": 76,
@@ -17471,7 +17967,8 @@
       "2026-11-23": 411,
       "2026-11-24": 411,
       "2026-11-25": 411,
-      "2026-11-26": 413
+      "2026-11-26": 413,
+      "2026-11-27": 413
     },
     "pku-lemonade/TokenCake": {
       "2026-11-04": 15,
@@ -17511,7 +18008,8 @@
       "2026-11-23": 3045,
       "2026-11-24": 3045,
       "2026-11-25": 3046,
-      "2026-11-26": 3046
+      "2026-11-26": 3046,
+      "2026-11-27": 3046
     },
     "poisonxa16/pxa": {
       "2026-09-16": 42,
@@ -17550,7 +18048,8 @@
       "2026-11-23": 9917,
       "2026-11-24": 9927,
       "2026-11-25": 9941,
-      "2026-11-26": 9952
+      "2026-11-26": 9952,
+      "2026-11-27": 9963
     },
     "polytutor-ai/polymarket-black-scholes-hft-bot": {
       "2026-10-15": 20
@@ -17634,7 +18133,8 @@
       "2026-11-23": 206,
       "2026-11-24": 206,
       "2026-11-25": 206,
-      "2026-11-26": 206
+      "2026-11-26": 206,
+      "2026-11-27": 206
     },
     "pskoett/pmx-canvas": {
       "2026-10-27": 30,
@@ -17700,7 +18200,8 @@
       "2026-11-23": 1967,
       "2026-11-24": 2165,
       "2026-11-25": 2365,
-      "2026-11-26": 2608
+      "2026-11-26": 2608,
+      "2026-11-27": 2807
     },
     "qu-niao/LimApiTest": {
       "2026-11-11": 1221,
@@ -17718,7 +18219,8 @@
       "2026-11-23": 1219,
       "2026-11-24": 1219,
       "2026-11-25": 1219,
-      "2026-11-26": 1218
+      "2026-11-26": 1218,
+      "2026-11-27": 1218
     },
     "quant-king299/EasyXT": {
       "2026-11-11": 756,
@@ -17736,7 +18238,8 @@
       "2026-11-23": 760,
       "2026-11-24": 760,
       "2026-11-25": 760,
-      "2026-11-26": 761
+      "2026-11-26": 761,
+      "2026-11-27": 761
     },
     "quant-science/sunday-quant-scientist": {
       "2026-11-11": 1883,
@@ -17754,7 +18257,8 @@
       "2026-11-23": 1885,
       "2026-11-24": 1887,
       "2026-11-25": 1887,
-      "2026-11-26": 1887
+      "2026-11-26": 1887,
+      "2026-11-27": 1887
     },
     "quant-sentiment-ai/claude-equity-research": {
       "2026-10-27": 746,
@@ -17785,7 +18289,8 @@
       "2026-11-23": 765,
       "2026-11-24": 765,
       "2026-11-25": 767,
-      "2026-11-26": 765
+      "2026-11-26": 765,
+      "2026-11-27": 766
     },
     "quantopian/alphalens": {
       "2026-11-11": 4510,
@@ -17803,7 +18308,8 @@
       "2026-11-23": 4522,
       "2026-11-24": 4524,
       "2026-11-25": 4525,
-      "2026-11-26": 4529
+      "2026-11-26": 4529,
+      "2026-11-27": 4528
     },
     "quantopian/zipline": {
       "2026-11-11": 20230,
@@ -17821,7 +18327,8 @@
       "2026-11-23": 20264,
       "2026-11-24": 20266,
       "2026-11-25": 20265,
-      "2026-11-26": 20270
+      "2026-11-26": 20270,
+      "2026-11-27": 20272
     },
     "quarkfin/qf-lib": {
       "2026-08-31": 957,
@@ -17851,7 +18358,8 @@
       "2026-11-23": 977,
       "2026-11-24": 977,
       "2026-11-25": 977,
-      "2026-11-26": 977
+      "2026-11-26": 977,
+      "2026-11-27": 977
     },
     "questflowai/investorskills": {
       "2026-11-11": 1922,
@@ -17869,7 +18377,8 @@
       "2026-11-23": 1940,
       "2026-11-24": 1941,
       "2026-11-25": 1941,
-      "2026-11-26": 1943
+      "2026-11-26": 1943,
+      "2026-11-27": 1947
     },
     "quiknode-labs/hyperliquid-sdk": {
       "2026-11-11": 291,
@@ -17893,7 +18402,8 @@
       "2026-11-23": 1963,
       "2026-11-24": 2003,
       "2026-11-25": 2018,
-      "2026-11-26": 2022
+      "2026-11-26": 2022,
+      "2026-11-27": 2027
     },
     "qybaihe/mu": {
       "2026-09-27": 237,
@@ -18029,7 +18539,8 @@
       "2026-11-23": 685,
       "2026-11-24": 685,
       "2026-11-25": 685,
-      "2026-11-26": 685
+      "2026-11-26": 685,
+      "2026-11-27": 686
     },
     "rdilruba/codebase-map": {
       "2026-09-16": 6,
@@ -18118,7 +18629,8 @@
       "2026-11-23": 6889,
       "2026-11-24": 6892,
       "2026-11-25": 6895,
-      "2026-11-26": 6900
+      "2026-11-26": 6900,
+      "2026-11-27": 6899
     },
     "richardrx/autonomous-engineering": {
       "2026-11-01": 8,
@@ -18149,7 +18661,8 @@
       "2026-11-23": 369,
       "2026-11-24": 371,
       "2026-11-25": 371,
-      "2026-11-26": 371
+      "2026-11-26": 371,
+      "2026-11-27": 371
     },
     "richlearntodo-debug/vibe-flow": {
       "2026-08-31": 40,
@@ -18195,7 +18708,8 @@
       "2026-11-23": 239,
       "2026-11-24": 239,
       "2026-11-25": 239,
-      "2026-11-26": 239
+      "2026-11-26": 239,
+      "2026-11-27": 239
     },
     "robaho/go-trader": {
       "2026-11-11": 523,
@@ -18213,7 +18727,8 @@
       "2026-11-23": 522,
       "2026-11-24": 522,
       "2026-11-25": 522,
-      "2026-11-26": 522
+      "2026-11-26": 522,
+      "2026-11-27": 522
     },
     "robert0777/Automate-Financial-Data-Extraction-from-Banxico-into-Google-Sheets": {
       "2026-11-02": 9
@@ -18234,7 +18749,8 @@
       "2026-11-23": 782,
       "2026-11-24": 782,
       "2026-11-25": 782,
-      "2026-11-26": 782
+      "2026-11-26": 782,
+      "2026-11-27": 782
     },
     "rodrigo-brito/ninjabot": {
       "2026-11-11": 1634,
@@ -18252,7 +18768,8 @@
       "2026-11-23": 1634,
       "2026-11-24": 1636,
       "2026-11-25": 1636,
-      "2026-11-26": 1636
+      "2026-11-26": 1636,
+      "2026-11-27": 1636
     },
     "rokbenko/quackd": {
       "2026-08-31": 74,
@@ -18283,7 +18800,8 @@
       "2026-11-23": 618,
       "2026-11-24": 618,
       "2026-11-25": 618,
-      "2026-11-26": 618
+      "2026-11-26": 618,
+      "2026-11-27": 616
     },
     "rootSunc/CNEquity": {
       "2026-10-27": 876,
@@ -18314,7 +18832,8 @@
       "2026-11-23": 1076,
       "2026-11-24": 1082,
       "2026-11-25": 1087,
-      "2026-11-26": 1090
+      "2026-11-26": 1090,
+      "2026-11-27": 1095
     },
     "rosemarycox5334-debug/AlphaMaster": {
       "2026-11-11": 716,
@@ -18332,7 +18851,8 @@
       "2026-11-23": 726,
       "2026-11-24": 731,
       "2026-11-25": 731,
-      "2026-11-26": 732
+      "2026-11-26": 732,
+      "2026-11-27": 734
     },
     "rsalianto/tradoor": {
       "2026-10-27": 70,
@@ -18378,7 +18898,8 @@
       "2026-11-23": 249,
       "2026-11-24": 250,
       "2026-11-25": 250,
-      "2026-11-26": 250
+      "2026-11-26": 250,
+      "2026-11-27": 251
     },
     "ruc-datalab/EvoOntology": {
       "2026-09-19": 165,
@@ -18436,7 +18957,8 @@
       "2026-11-23": 912,
       "2026-11-24": 912,
       "2026-11-25": 912,
-      "2026-11-26": 912
+      "2026-11-26": 912,
+      "2026-11-27": 912
     },
     "ruthwik511/zelta-btc-strategy": {
       "2026-10-24": 2,
@@ -18461,7 +18983,8 @@
       "2026-11-23": 543,
       "2026-11-24": 543,
       "2026-11-25": 543,
-      "2026-11-26": 543
+      "2026-11-26": 543,
+      "2026-11-27": 543
     },
     "sahibzada-allahyar/Formal-Verification-RSI": {
       "2026-10-22": 2850,
@@ -18539,7 +19062,8 @@
       "2026-11-23": 1649,
       "2026-11-24": 1658,
       "2026-11-25": 1659,
-      "2026-11-26": 1661
+      "2026-11-26": 1661,
+      "2026-11-27": 1664
     },
     "san-digital/tokspur": {
       "2026-11-10": 8
@@ -18570,7 +19094,8 @@
       "2026-11-23": 1086,
       "2026-11-24": 1086,
       "2026-11-25": 1086,
-      "2026-11-26": 1086
+      "2026-11-26": 1086,
+      "2026-11-27": 1086
     },
     "sardi-dev/wirehouse": {
       "2026-10-29": 8,
@@ -18594,7 +19119,8 @@
       "2026-11-23": 628,
       "2026-11-24": 628,
       "2026-11-25": 626,
-      "2026-11-26": 626
+      "2026-11-26": 626,
+      "2026-11-27": 626
     },
     "sarpstar/cinecode": {
       "2026-11-07": 497,
@@ -18636,7 +19162,8 @@
       "2026-11-23": 905,
       "2026-11-24": 905,
       "2026-11-25": 905,
-      "2026-11-26": 905
+      "2026-11-26": 905,
+      "2026-11-27": 905
     },
     "sdi2200262/agentic-project-management": {
       "2026-10-26": 2443,
@@ -18670,7 +19197,8 @@
       "2026-11-23": 569,
       "2026-11-24": 569,
       "2026-11-25": 569,
-      "2026-11-26": 569
+      "2026-11-26": 569,
+      "2026-11-27": 569
     },
     "seanyourhighness/vllm-sm12x-nvfp4-dflash2": {
       "2026-08-31": 26,
@@ -18700,7 +19228,8 @@
       "2026-11-23": 1374,
       "2026-11-24": 1374,
       "2026-11-25": 1374,
-      "2026-11-26": 1375
+      "2026-11-26": 1375,
+      "2026-11-27": 1375
     },
     "sensorsdata/sa-sdk-ios": {
       "2026-11-11": 703,
@@ -18718,7 +19247,8 @@
       "2026-11-23": 703,
       "2026-11-24": 703,
       "2026-11-25": 703,
-      "2026-11-26": 703
+      "2026-11-26": 703,
+      "2026-11-27": 703
     },
     "sensorsdata/sa-sdk-javascript": {
       "2026-11-11": 958,
@@ -18736,7 +19266,8 @@
       "2026-11-23": 956,
       "2026-11-24": 955,
       "2026-11-25": 955,
-      "2026-11-26": 956
+      "2026-11-26": 956,
+      "2026-11-27": 956
     },
     "seoan1024/Korean-llm-v4": {
       "2026-09-12": 8,
@@ -18836,7 +19367,8 @@
       "2026-11-23": 4400,
       "2026-11-24": 4402,
       "2026-11-25": 4406,
-      "2026-11-26": 4407
+      "2026-11-26": 4407,
+      "2026-11-27": 4408
     },
     "shawnshekari/strixite": {
       "2026-10-06": 8,
@@ -18881,7 +19413,8 @@
       "2026-11-23": 4973,
       "2026-11-24": 4973,
       "2026-11-25": 4973,
-      "2026-11-26": 4972
+      "2026-11-26": 4972,
+      "2026-11-27": 4972
     },
     "shidenggui/easyquant": {
       "2026-11-11": 3689,
@@ -18899,7 +19432,8 @@
       "2026-11-23": 3697,
       "2026-11-24": 3698,
       "2026-11-25": 3698,
-      "2026-11-26": 3698
+      "2026-11-26": 3698,
+      "2026-11-27": 3699
     },
     "shidenggui/easytrader": {
       "2026-11-11": 10277,
@@ -18917,7 +19451,8 @@
       "2026-11-23": 10277,
       "2026-11-24": 10277,
       "2026-11-25": 10277,
-      "2026-11-26": 10279
+      "2026-11-26": 10279,
+      "2026-11-27": 10280
     },
     "shinnytech/tqsdk-python": {
       "2026-11-11": 5132,
@@ -18935,7 +19470,8 @@
       "2026-11-23": 5152,
       "2026-11-24": 5156,
       "2026-11-25": 5158,
-      "2026-11-26": 5161
+      "2026-11-26": 5161,
+      "2026-11-27": 5164
     },
     "shinshin86/mesh-avatar-studio": {
       "2026-10-05": 173,
@@ -18966,7 +19502,8 @@
       "2026-11-23": 2559,
       "2026-11-24": 2560,
       "2026-11-25": 2561,
-      "2026-11-26": 2561
+      "2026-11-26": 2561,
+      "2026-11-27": 2563
     },
     "shivam65-sketch/medusa": {
       "2026-10-24": 2,
@@ -18998,7 +19535,8 @@
       "2026-11-23": 48100,
       "2026-11-24": 48132,
       "2026-11-25": 48166,
-      "2026-11-26": 48204
+      "2026-11-26": 48204,
+      "2026-11-27": 48238
     },
     "shner-elmo/TradingView-Screener": {
       "2026-11-11": 1355,
@@ -19016,7 +19554,8 @@
       "2026-11-23": 1369,
       "2026-11-24": 1371,
       "2026-11-25": 1374,
-      "2026-11-26": 1374
+      "2026-11-26": 1374,
+      "2026-11-27": 1374
     },
     "shoemoney/shoemoneyx": {
       "2026-09-22": 19,
@@ -19082,7 +19621,8 @@
       "2026-11-23": 8201,
       "2026-11-24": 8233,
       "2026-11-25": 8264,
-      "2026-11-26": 8301
+      "2026-11-26": 8301,
+      "2026-11-27": 8342
     },
     "sidmanale643/helios": {
       "2026-09-01": 6,
@@ -19111,7 +19651,8 @@
       "2026-11-23": 4003,
       "2026-11-24": 4005,
       "2026-11-25": 4006,
-      "2026-11-26": 4012
+      "2026-11-26": 4012,
+      "2026-11-27": 4014
     },
     "simonlin1212/Vibe-Research": {
       "2026-11-07": 3517,
@@ -19133,7 +19674,8 @@
       "2026-11-23": 3860,
       "2026-11-24": 3864,
       "2026-11-25": 3869,
-      "2026-11-26": 3877
+      "2026-11-26": 3877,
+      "2026-11-27": 3886
     },
     "simonlin1212/a-stock-data": {
       "2026-10-27": 11161,
@@ -19164,7 +19706,8 @@
       "2026-11-23": 11985,
       "2026-11-24": 11998,
       "2026-11-25": 12013,
-      "2026-11-26": 12030
+      "2026-11-26": 12030,
+      "2026-11-27": 12051
     },
     "simonlin1212/global-stock-data": {
       "2026-11-11": 1867,
@@ -19182,7 +19725,8 @@
       "2026-11-23": 1917,
       "2026-11-24": 1923,
       "2026-11-25": 1927,
-      "2026-11-26": 1930
+      "2026-11-26": 1930,
+      "2026-11-27": 1933
     },
     "simonlin1212/investment-news": {
       "2026-11-13": 500,
@@ -19198,7 +19742,8 @@
       "2026-11-23": 505,
       "2026-11-24": 505,
       "2026-11-25": 505,
-      "2026-11-26": 505
+      "2026-11-26": 505,
+      "2026-11-27": 507
     },
     "simonlin1212/vibe-astock": {
       "2026-11-11": 1003,
@@ -19216,7 +19761,8 @@
       "2026-11-23": 1105,
       "2026-11-24": 1118,
       "2026-11-25": 1122,
-      "2026-11-26": 1128
+      "2026-11-26": 1128,
+      "2026-11-27": 1129
     },
     "simranjeet97/AI_Engineer_Roadmap_2027": {
       "2026-11-10": 5
@@ -19237,7 +19783,8 @@
       "2026-11-23": 1241,
       "2026-11-24": 1241,
       "2026-11-25": 1241,
-      "2026-11-26": 1242
+      "2026-11-26": 1242,
+      "2026-11-27": 1241
     },
     "sjbsjb233/ZJ_Quant_03": {
       "2026-10-24": 34,
@@ -19278,7 +19825,8 @@
       "2026-11-23": 320,
       "2026-11-24": 320,
       "2026-11-25": 320,
-      "2026-11-26": 320
+      "2026-11-26": 320,
+      "2026-11-27": 320
     },
     "skyf0xx/hedgehog-core-copywriting-prose-engineering": {
       "2026-09-06": 6,
@@ -19306,7 +19854,8 @@
       "2026-11-23": 4881,
       "2026-11-24": 4882,
       "2026-11-25": 4883,
-      "2026-11-26": 4883
+      "2026-11-26": 4883,
+      "2026-11-27": 4883
     },
     "skyzh/tiny-llm": {
       "2026-10-26": 4789,
@@ -19340,7 +19889,8 @@
       "2026-11-23": 8812,
       "2026-11-24": 8841,
       "2026-11-25": 8861,
-      "2026-11-26": 8878
+      "2026-11-26": 8878,
+      "2026-11-27": 8891
     },
     "sno-ai/sno-station": {
       "2026-09-26": 232,
@@ -19367,7 +19917,8 @@
       "2026-11-23": 761,
       "2026-11-24": 762,
       "2026-11-25": 762,
-      "2026-11-26": 765
+      "2026-11-26": 765,
+      "2026-11-27": 765
     },
     "sodiumsun/agenttrail": {
       "2026-08-31": 564,
@@ -19392,7 +19943,8 @@
       "2026-11-23": 663,
       "2026-11-24": 663,
       "2026-11-25": 663,
-      "2026-11-26": 662
+      "2026-11-26": 662,
+      "2026-11-27": 662
     },
     "sopersone/cabbage-trading-machine": {
       "2026-09-26": 188,
@@ -19422,7 +19974,8 @@
       "2026-11-23": 279,
       "2026-11-24": 279,
       "2026-11-25": 280,
-      "2026-11-26": 281
+      "2026-11-26": 281,
+      "2026-11-27": 281
     },
     "soumatheusgomes/vibe-coding-toolkit": {
       "2026-11-07": 2298,
@@ -19557,7 +20110,8 @@
       "2026-11-23": 21984,
       "2026-11-24": 22028,
       "2026-11-25": 22049,
-      "2026-11-26": 22064
+      "2026-11-26": 22064,
+      "2026-11-27": 22088
     },
     "stranger00135/PredictionDesk": {
       "2026-11-01": 2,
@@ -19594,7 +20148,8 @@
       "2026-11-23": 367,
       "2026-11-24": 367,
       "2026-11-25": 366,
-      "2026-11-26": 368
+      "2026-11-26": 368,
+      "2026-11-27": 368
     },
     "surajrimal07/NepseAPI-Unofficial": {
       "2026-10-27": 64,
@@ -19635,7 +20190,8 @@
       "2026-11-23": 854,
       "2026-11-24": 853,
       "2026-11-25": 852,
-      "2026-11-26": 852
+      "2026-11-26": 852,
+      "2026-11-27": 850
     },
     "swcstudiospace/PumpGrok": {
       "2026-09-01": 2,
@@ -19749,7 +20305,8 @@
       "2026-11-23": 784,
       "2026-11-24": 784,
       "2026-11-25": 784,
-      "2026-11-26": 784
+      "2026-11-26": 784,
+      "2026-11-27": 784
     },
     "tastytrade/tastytrade-mcp": {
       "2026-10-27": 34,
@@ -19814,7 +20371,8 @@
       "2026-11-23": 358,
       "2026-11-24": 358,
       "2026-11-25": 358,
-      "2026-11-26": 358
+      "2026-11-26": 358,
+      "2026-11-27": 358
     },
     "tensortrade-org/tensortrade": {
       "2026-11-11": 7269,
@@ -19832,7 +20390,8 @@
       "2026-11-23": 7273,
       "2026-11-24": 7274,
       "2026-11-25": 7276,
-      "2026-11-26": 7275
+      "2026-11-26": 7275,
+      "2026-11-27": 7308
     },
     "tetriz-ai/session-intelligence": {
       "2026-10-14": 17,
@@ -19868,7 +20427,8 @@
       "2026-11-23": 501,
       "2026-11-24": 502,
       "2026-11-25": 505,
-      "2026-11-26": 507
+      "2026-11-26": 507,
+      "2026-11-27": 509
     },
     "theOGognf/finagg": {
       "2026-11-11": 552,
@@ -19886,7 +20446,8 @@
       "2026-11-23": 551,
       "2026-11-24": 551,
       "2026-11-25": 550,
-      "2026-11-26": 550
+      "2026-11-26": 550,
+      "2026-11-27": 550
     },
     "thedotmack/claude-mem": {
       "2026-08-31": 92714,
@@ -19934,7 +20495,8 @@
       "2026-11-23": 1423,
       "2026-11-24": 1424,
       "2026-11-25": 1425,
-      "2026-11-26": 1426
+      "2026-11-26": 1426,
+      "2026-11-27": 1426
     },
     "thinkgem/jeesite5": {
       "2026-11-11": 1804,
@@ -19952,7 +20514,8 @@
       "2026-11-23": 1803,
       "2026-11-24": 1803,
       "2026-11-25": 1803,
-      "2026-11-26": 1803
+      "2026-11-26": 1803,
+      "2026-11-27": 1803
     },
     "thrasher-corp/gocryptotrader": {
       "2026-11-11": 3468,
@@ -19970,7 +20533,8 @@
       "2026-11-23": 3469,
       "2026-11-24": 3470,
       "2026-11-25": 3470,
-      "2026-11-26": 3470
+      "2026-11-26": 3470,
+      "2026-11-27": 3470
     },
     "thusinh1969/vibe_rescue": {
       "2026-10-27": 14,
@@ -20024,7 +20588,8 @@
       "2026-11-23": 642,
       "2026-11-24": 643,
       "2026-11-25": 644,
-      "2026-11-26": 645
+      "2026-11-26": 645,
+      "2026-11-27": 645
     },
     "tigerless-labs/agent-memory": {
       "2026-09-09": 618,
@@ -20054,7 +20619,8 @@
       "2026-11-23": 8484,
       "2026-11-24": 8485,
       "2026-11-25": 8485,
-      "2026-11-26": 8482
+      "2026-11-26": 8482,
+      "2026-11-27": 8482
     },
     "titechprabhasolutions/Brahma-Ai-Evo": {
       "2026-10-02": 9,
@@ -20084,7 +20650,8 @@
       "2026-11-23": 1951,
       "2026-11-24": 1952,
       "2026-11-25": 1952,
-      "2026-11-26": 1953
+      "2026-11-26": 1953,
+      "2026-11-27": 1953
     },
     "tlzmw001/naiyue-test-agent": {
       "2026-10-10": 10,
@@ -20260,7 +20827,8 @@
       "2026-11-23": 382,
       "2026-11-24": 382,
       "2026-11-25": 382,
-      "2026-11-26": 382
+      "2026-11-26": 382,
+      "2026-11-27": 383
     },
     "tradoor-terminal/tradoor": {
       "2026-11-18": 216,
@@ -20271,7 +20839,8 @@
       "2026-11-23": 321,
       "2026-11-24": 329,
       "2026-11-25": 335,
-      "2026-11-26": 339
+      "2026-11-26": 339,
+      "2026-11-27": 399
     },
     "transkatgirl/vibeclaude": {
       "2026-10-08": 36,
@@ -20370,7 +20939,8 @@
       "2026-11-23": 2314,
       "2026-11-24": 2314,
       "2026-11-25": 2314,
-      "2026-11-26": 2314
+      "2026-11-26": 2314,
+      "2026-11-27": 2314
     },
     "tw93/Waza": {
       "2026-10-26": 7358,
@@ -20404,7 +20974,8 @@
       "2026-11-23": 795,
       "2026-11-24": 795,
       "2026-11-25": 795,
-      "2026-11-26": 795
+      "2026-11-26": 795,
+      "2026-11-27": 800
     },
     "twinnydotdev/twinny": {
       "2026-09-26": 3651,
@@ -20503,7 +21074,8 @@
       "2026-11-23": 866,
       "2026-11-24": 866,
       "2026-11-25": 866,
-      "2026-11-26": 866
+      "2026-11-26": 866,
+      "2026-11-27": 866
     },
     "unitshaperextol/Legion-os": {
       "2026-10-31": 75,
@@ -20675,7 +21247,8 @@
       "2026-11-23": 2045,
       "2026-11-24": 2045,
       "2026-11-25": 2045,
-      "2026-11-26": 2044
+      "2026-11-26": 2044,
+      "2026-11-27": 2044
     },
     "virattt/dexter": {
       "2026-11-11": 27816,
@@ -20693,7 +21266,8 @@
       "2026-11-23": 28006,
       "2026-11-24": 28015,
       "2026-11-25": 28032,
-      "2026-11-26": 28043
+      "2026-11-26": 28043,
+      "2026-11-27": 28043
     },
     "virattt/financial-agent-ui": {
       "2026-11-11": 795,
@@ -20711,7 +21285,8 @@
       "2026-11-23": 794,
       "2026-11-24": 794,
       "2026-11-25": 794,
-      "2026-11-26": 794
+      "2026-11-26": 794,
+      "2026-11-27": 794
     },
     "vivian-labs/1point3acres-toolkit": {
       "2026-09-25": 10,
@@ -20806,7 +21381,8 @@
       "2026-11-23": 6634,
       "2026-11-24": 6636,
       "2026-11-25": 6637,
-      "2026-11-26": 6639
+      "2026-11-26": 6639,
+      "2026-11-27": 6643
     },
     "wangchenxi99/nova-trade-ai": {
       "2026-08-31": 12,
@@ -20834,7 +21410,8 @@
       "2026-11-23": 641,
       "2026-11-24": 641,
       "2026-11-25": 641,
-      "2026-11-26": 641
+      "2026-11-26": 641,
+      "2026-11-27": 641
     },
     "warp-id/solana-trading-bot": {
       "2026-11-11": 2346,
@@ -20852,7 +21429,8 @@
       "2026-11-23": 2349,
       "2026-11-24": 2351,
       "2026-11-25": 2351,
-      "2026-11-26": 2352
+      "2026-11-26": 2352,
+      "2026-11-27": 2352
     },
     "wayn111/newbee-mall-pro": {
       "2026-11-11": 512,
@@ -20870,7 +21448,8 @@
       "2026-11-23": 513,
       "2026-11-24": 514,
       "2026-11-25": 514,
-      "2026-11-26": 514
+      "2026-11-26": 514,
+      "2026-11-27": 514
     },
     "wbh604/UZI-Skill": {
       "2026-11-11": 7584,
@@ -20888,7 +21467,8 @@
       "2026-11-23": 7675,
       "2026-11-24": 7682,
       "2026-11-25": 7713,
-      "2026-11-26": 7719
+      "2026-11-26": 7719,
+      "2026-11-27": 7721
     },
     "webull-inc/webull-openapi-python-sdk": {
       "2026-10-27": 72,
@@ -20917,7 +21497,8 @@
       "2026-11-23": 13176,
       "2026-11-24": 13182,
       "2026-11-25": 13182,
-      "2026-11-26": 13189
+      "2026-11-26": 13189,
+      "2026-11-27": 13188
     },
     "weijt606/crypto-trident": {
       "2026-11-01": 2,
@@ -20949,7 +21530,8 @@
       "2026-11-23": 3028,
       "2026-11-24": 3027,
       "2026-11-25": 3027,
-      "2026-11-26": 3027
+      "2026-11-26": 3027,
+      "2026-11-27": 3027
     },
     "whaleyxbt/claude-motion": {
       "2026-10-11": 292
@@ -20970,7 +21552,8 @@
       "2026-11-23": 1143,
       "2026-11-24": 1143,
       "2026-11-25": 1144,
-      "2026-11-26": 1144
+      "2026-11-26": 1144,
+      "2026-11-27": 1145
     },
     "whittlem/pycryptobot": {
       "2026-11-11": 2061,
@@ -20988,7 +21571,8 @@
       "2026-11-23": 2061,
       "2026-11-24": 2061,
       "2026-11-25": 2061,
-      "2026-11-26": 2061
+      "2026-11-26": 2061,
+      "2026-11-27": 2061
     },
     "whyefkan/eLuajs": {
       "2026-11-07": 5,
@@ -21062,7 +21646,8 @@
       "2026-11-23": 233,
       "2026-11-24": 234,
       "2026-11-25": 234,
-      "2026-11-26": 235
+      "2026-11-26": 235,
+      "2026-11-27": 235
     },
     "wingsmith-dev/wingsmith": {
       "2026-10-29": 5,
@@ -21093,7 +21678,8 @@
       "2026-11-23": 813,
       "2026-11-24": 813,
       "2026-11-25": 813,
-      "2026-11-26": 813
+      "2026-11-26": 813,
+      "2026-11-27": 813
     },
     "wnstnb/foliome": {
       "2026-10-05": 7,
@@ -21136,7 +21722,8 @@
       "2026-11-23": 2753,
       "2026-11-24": 2753,
       "2026-11-25": 2753,
-      "2026-11-26": 2754
+      "2026-11-26": 2754,
+      "2026-11-27": 2754
     },
     "wshobson/maverick-mcp": {
       "2026-10-27": 711,
@@ -21167,7 +21754,8 @@
       "2026-11-23": 736,
       "2026-11-24": 737,
       "2026-11-25": 737,
-      "2026-11-26": 737
+      "2026-11-26": 737,
+      "2026-11-27": 737
     },
     "x1xhlol/system-prompts-and-models-of-ai-tools": {
       "2026-10-14": 144011,
@@ -21237,7 +21825,8 @@
       "2026-11-23": 14890,
       "2026-11-24": 14890,
       "2026-11-25": 14888,
-      "2026-11-26": 14890
+      "2026-11-26": 14890,
+      "2026-11-27": 14889
     },
     "xhluca/session-migrate": {
       "2026-08-31": 74
@@ -21261,7 +21850,8 @@
       "2026-11-23": 2915,
       "2026-11-24": 2915,
       "2026-11-25": 2916,
-      "2026-11-26": 2916
+      "2026-11-26": 2916,
+      "2026-11-27": 2916
     },
     "xiaomoBoy/pi-bluebook": {
       "2026-09-16": 226,
@@ -21288,7 +21878,8 @@
       "2026-11-23": 969,
       "2026-11-24": 970,
       "2026-11-25": 971,
-      "2026-11-26": 971
+      "2026-11-26": 971,
+      "2026-11-27": 972
     },
     "xinbetween/flowlight": {
       "2026-10-06": 6
@@ -21319,7 +21910,8 @@
       "2026-11-23": 899,
       "2026-11-24": 899,
       "2026-11-25": 899,
-      "2026-11-26": 900
+      "2026-11-26": 900,
+      "2026-11-27": 902
     },
     "xingwudao/xquant-learning": {
       "2026-11-11": 445,
@@ -21337,7 +21929,8 @@
       "2026-11-23": 452,
       "2026-11-24": 454,
       "2026-11-25": 454,
-      "2026-11-26": 455
+      "2026-11-26": 455,
+      "2026-11-27": 455
     },
     "xlabsg/prompTrading": {
       "2026-09-10": 2,
@@ -21398,7 +21991,8 @@
       "2026-11-23": 2510,
       "2026-11-24": 2510,
       "2026-11-25": 2510,
-      "2026-11-26": 2509
+      "2026-11-26": 2509,
+      "2026-11-27": 2509
     },
     "xuchonglang/investing-for-beginners": {
       "2026-11-11": 4452,
@@ -21416,7 +22010,8 @@
       "2026-11-23": 4642,
       "2026-11-24": 4652,
       "2026-11-25": 4659,
-      "2026-11-26": 4673
+      "2026-11-26": 4673,
+      "2026-11-27": 4686
     },
     "xxDoman/strata-gfx906": {
       "2026-10-09": 5,
@@ -21455,7 +22050,8 @@
       "2026-11-23": 606,
       "2026-11-24": 606,
       "2026-11-25": 606,
-      "2026-11-26": 606
+      "2026-11-26": 606,
+      "2026-11-27": 606
     },
     "xxjwxc/shares": {
       "2026-11-11": 674,
@@ -21473,7 +22069,8 @@
       "2026-11-23": 674,
       "2026-11-24": 674,
       "2026-11-25": 674,
-      "2026-11-26": 674
+      "2026-11-26": 674,
+      "2026-11-27": 674
     },
     "xxnuo/dns-benchmark": {
       "2026-11-11": 750,
@@ -21491,7 +22088,8 @@
       "2026-11-23": 751,
       "2026-11-24": 751,
       "2026-11-25": 750,
-      "2026-11-26": 750
+      "2026-11-26": 750,
+      "2026-11-27": 749
     },
     "xzf-thu/VoiceMem": {
       "2026-08-31": 416
@@ -21512,7 +22110,8 @@
       "2026-11-23": 727,
       "2026-11-24": 727,
       "2026-11-25": 727,
-      "2026-11-26": 727
+      "2026-11-26": 727,
+      "2026-11-27": 727
     },
     "yadavshivkumar/amazon-stock-analysis-excel-dashboard": {
       "2026-10-24": 2,
@@ -21548,7 +22147,8 @@
       "2026-11-23": 733,
       "2026-11-24": 734,
       "2026-11-25": 735,
-      "2026-11-26": 736
+      "2026-11-26": 736,
+      "2026-11-27": 736
     },
     "yanght27/GPU-Perf-Playground": {
       "2026-08-31": 104
@@ -21616,7 +22216,8 @@
       "2026-11-23": 2760,
       "2026-11-24": 2762,
       "2026-11-25": 2762,
-      "2026-11-26": 2763
+      "2026-11-26": 2763,
+      "2026-11-27": 2763
     },
     "yassinelsharkawy/Comparative-Analysis-of-Particle-Swarm-Optimization-Variants-for-Clustering": {
       "2026-10-20": 2,
@@ -21681,7 +22282,8 @@
       "2026-11-23": 291,
       "2026-11-24": 293,
       "2026-11-25": 293,
-      "2026-11-26": 293
+      "2026-11-26": 293,
+      "2026-11-27": 295
     },
     "yetone/cumora": {
       "2026-08-31": 3339
@@ -21727,7 +22329,8 @@
       "2026-11-23": 1107,
       "2026-11-24": 1108,
       "2026-11-25": 1108,
-      "2026-11-26": 1109
+      "2026-11-26": 1109,
+      "2026-11-27": 1112
     },
     "yjid/kensaku": {
       "2026-11-04": 740,
@@ -21765,7 +22368,8 @@
       "2026-11-23": 918,
       "2026-11-24": 919,
       "2026-11-25": 918,
-      "2026-11-26": 918
+      "2026-11-26": 918,
+      "2026-11-27": 918
     },
     "yukayuchen-star/stock_analyse": {
       "2026-10-14": 7,
@@ -21795,7 +22399,8 @@
       "2026-11-23": 359,
       "2026-11-24": 359,
       "2026-11-25": 359,
-      "2026-11-26": 360
+      "2026-11-26": 360,
+      "2026-11-27": 360
     },
     "yutiansut/QUANTAXIS": {
       "2026-11-11": 11359,
@@ -21813,7 +22418,8 @@
       "2026-11-23": 11384,
       "2026-11-24": 11386,
       "2026-11-25": 11388,
-      "2026-11-26": 11392
+      "2026-11-26": 11392,
+      "2026-11-27": 11394
     },
     "ywEdAi/teachable-code": {
       "2026-11-05": 10,
@@ -21842,7 +22448,8 @@
       "2026-11-23": 503,
       "2026-11-24": 556,
       "2026-11-25": 575,
-      "2026-11-26": 580
+      "2026-11-26": 580,
+      "2026-11-27": 582
     },
     "zadescoxp/order-flow-screener": {
       "2026-10-27": 33,
@@ -21859,7 +22466,8 @@
       "2026-11-23": 276,
       "2026-11-24": 277,
       "2026-11-25": 278,
-      "2026-11-26": 284
+      "2026-11-26": 284,
+      "2026-11-27": 296
     },
     "zai-org/GLM-5": {
       "2026-10-15": 7329,
@@ -21904,7 +22512,8 @@
       "2026-11-23": 517,
       "2026-11-24": 520,
       "2026-11-25": 520,
-      "2026-11-26": 520
+      "2026-11-26": 520,
+      "2026-11-27": 520
     },
     "zcakhaa/Deep-Learning-in-Quantitative-Trading": {
       "2026-11-11": 467,
@@ -21922,7 +22531,8 @@
       "2026-11-23": 468,
       "2026-11-24": 468,
       "2026-11-25": 468,
-      "2026-11-26": 469
+      "2026-11-26": 469,
+      "2026-11-27": 469
     },
     "zeroFhacker/vibeguard": {
       "2026-08-31": 7,
@@ -21954,7 +22564,8 @@
       "2026-11-23": 1077,
       "2026-11-24": 1093,
       "2026-11-25": 1106,
-      "2026-11-26": 1142
+      "2026-11-26": 1142,
+      "2026-11-27": 1162
     },
     "zhangshuibai/molten": {
       "2026-10-26": 12,
@@ -21986,7 +22597,8 @@
       "2026-11-23": 2008,
       "2026-11-24": 2009,
       "2026-11-25": 2012,
-      "2026-11-26": 2014
+      "2026-11-26": 2014,
+      "2026-11-27": 2013
     },
     "zhengzihaoPKU/KERV": {
       "2026-08-31": 114,
@@ -22009,7 +22621,8 @@
       "2026-11-23": 372,
       "2026-11-24": 374,
       "2026-11-25": 375,
-      "2026-11-26": 375
+      "2026-11-26": 375,
+      "2026-11-27": 377
     },
     "zickrian/isle": {
       "2026-10-25": 5,
@@ -22048,7 +22661,8 @@
       "2026-11-23": 677,
       "2026-11-24": 677,
       "2026-11-25": 677,
-      "2026-11-26": 677
+      "2026-11-26": 677,
+      "2026-11-27": 677
     },
     "zju3dv/PhysStudio": {
       "2026-11-04": 27,
@@ -22087,7 +22701,8 @@
       "2026-11-23": 680,
       "2026-11-24": 680,
       "2026-11-25": 680,
-      "2026-11-26": 680
+      "2026-11-26": 680,
+      "2026-11-27": 680
     },
     "ztx888/HaloWebUI": {
       "2026-11-11": 1157,
@@ -22105,7 +22720,8 @@
       "2026-11-23": 1153,
       "2026-11-24": 1153,
       "2026-11-25": 1151,
-      "2026-11-26": 1150
+      "2026-11-26": 1150,
+      "2026-11-27": 1150
     },
     "zvtvz/zvt": {
       "2026-11-11": 4335,
@@ -22123,7 +22739,8 @@
       "2026-11-23": 4339,
       "2026-11-24": 4339,
       "2026-11-25": 4340,
-      "2026-11-26": 4340
+      "2026-11-26": 4340,
+      "2026-11-27": 4342
     },
     "zwldarren/akshare-one": {
       "2026-10-27": 75,
@@ -22166,7 +22783,8 @@
       "2026-11-23": 342,
       "2026-11-24": 354,
       "2026-11-25": 358,
-      "2026-11-26": 368
+      "2026-11-26": 368,
+      "2026-11-27": 373
     },
     "zzn199216/Introduction-to-quantitative-trading": {
       "2026-11-11": 314,
@@ -22174,7 +22792,8 @@
       "2026-11-13": 314,
       "2026-11-14": 314,
       "2026-11-15": 314,
-      "2026-11-16": 314
+      "2026-11-16": 314,
+      "2026-11-27": 313
     }
   },
   "repositories": {
@@ -22682,6 +23301,38 @@
       ],
       "url": "https://github.com/AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api"
     },
+    "AlphaGBM/skills": {
+      "archived": false,
+      "created_at": "2026-04-06",
+      "description": "Open-source AI agent skills for stock analysis, options research and financial research in Claude Code and Cursor. Explicit data, access and usage limits.",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-27",
+      "forks": 358,
+      "full_name": "AlphaGBM/skills",
+      "id": 1202559832,
+      "language": "Python",
+      "license": "MIT",
+      "pushed_at": "2026-11-27",
+      "score": 19.01,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 3184,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "commodities",
+        "cursor",
+        "finance",
+        "financial-analysis",
+        "investment-research",
+        "options",
+        "stock-analysis"
+      ],
+      "url": "https://github.com/AlphaGBM/skills",
+      "verified_at": "2026-11-27"
+    },
     "AmpyFin/ampyfin": {
       "archived": false,
       "created_at": "2024-09-25",
@@ -22929,6 +23580,27 @@
         "solana-transactions"
       ],
       "url": "https://github.com/Beingfluresurrect/Solana-token-sniper"
+    },
+    "BenjiKCF/Neural-Net-with-Financial-Time-Series-Data": {
+      "archived": false,
+      "created_at": "2017-03-22",
+      "description": "This solution presents an accessible, non-trivial example of machine learning (Deep learning) with financial time series using TensorFlow",
+      "disabled": false,
+      "discovery": "historical",
+      "first_seen": "2026-11-27",
+      "forks": 302,
+      "full_name": "BenjiKCF/Neural-Net-with-Financial-Time-Series-Data",
+      "id": 85841405,
+      "language": "Python",
+      "license": null,
+      "pushed_at": "2026-11-27",
+      "score": 16.54,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 765,
+      "topics": [],
+      "url": "https://github.com/BenjiKCF/Neural-Net-with-Financial-Time-Series-Data",
+      "verified_at": "2026-11-27"
     },
     "Blave-TW/blave-agent": {
       "archived": false,
@@ -23450,6 +24122,47 @@
       ],
       "url": "https://github.com/GMGNAI/gmgn-skills",
       "verified_at": "2026-11-11"
+    },
+    "Galihsahin552/sierra-chart": {
+      "archived": false,
+      "created_at": "2026-11-24",
+      "description": "Sierra Chart for Windows 10/11. Charts futures and equities in real time, places trades directly from the chart and runs automated trading systems against live market data feeds.",
+      "disabled": false,
+      "discovery": "new",
+      "first_seen": "2026-11-27",
+      "forks": 0,
+      "full_name": "Galihsahin552/sierra-chart",
+      "id": 1470071707,
+      "language": null,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-25",
+      "score": 14.77,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 304,
+      "topics": [
+        "chart",
+        "high-sierra",
+        "macos",
+        "macos-high-sierra",
+        "sierra",
+        "sierra-api",
+        "sierra-chart",
+        "sierra-chart-cost",
+        "sierra-chart-download",
+        "sierra-chart-mac",
+        "sierra-chart-platform",
+        "sierra-chart-pro",
+        "sierra-chart-pro-download",
+        "sierra-chart-trading",
+        "sierra-charts",
+        "sierra-ils",
+        "sierra-leone",
+        "sierra-online",
+        "sierra-wireless",
+        "windows"
+      ],
+      "url": "https://github.com/Galihsahin552/sierra-chart"
     },
     "Gloweuriddle/Cortex-AI-Crypto-Arbitrage-Bot": {
       "created_at": "2026-10-04",
@@ -24039,6 +24752,42 @@
         "trading"
       ],
       "url": "https://github.com/Leo4815162342/dukascopy-node"
+    },
+    "Linkbearleaf63/thinkorswim": {
+      "archived": false,
+      "created_at": "2026-11-24",
+      "description": "Thinkorswim for Windows 10/11. Analyzes stock, options and futures charts in real time with customizable studies, paper trading and order execution, giving active traders a full workstation for planning and testing strategies before risking capital.",
+      "disabled": false,
+      "discovery": "active",
+      "first_seen": "2026-11-27",
+      "forks": 0,
+      "full_name": "Linkbearleaf63/thinkorswim",
+      "id": 1470151278,
+      "language": null,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-25",
+      "score": 14.78,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 305,
+      "topics": [
+        "desktop-app",
+        "install-thinkorswim",
+        "productivity",
+        "software",
+        "software-engineering",
+        "thinkorswim",
+        "thinkorswim-desktop",
+        "thinkorswim-download",
+        "thinkorswim-free",
+        "thinkorswim-install",
+        "utilities",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "windows-app"
+      ],
+      "url": "https://github.com/Linkbearleaf63/thinkorswim"
     },
     "Lqz13Th/extrema_infra": {
       "created_at": "2025-09-01",
@@ -27234,6 +27983,38 @@
       ],
       "url": "https://github.com/cybergeekgyan/Quant-Developers-Resources"
     },
+    "dangduc681/amibroker": {
+      "archived": false,
+      "created_at": "2026-11-24",
+      "description": "Amibroker for Windows 10/11. Backtests trading strategies on stocks, futures and forex, scans watchlists for entry signals, and plots custom indicators so you can automate and refine rule-based systems before risking real capital.",
+      "disabled": false,
+      "discovery": "new",
+      "first_seen": "2026-11-27",
+      "forks": 0,
+      "full_name": "dangduc681/amibroker",
+      "id": 1470011480,
+      "language": null,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-25",
+      "score": 14.77,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 304,
+      "topics": [
+        "amibroker",
+        "desktop-app",
+        "install-amibroker",
+        "productivity",
+        "software",
+        "software-engineering",
+        "utilities",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "windows-app"
+      ],
+      "url": "https://github.com/dangduc681/amibroker"
+    },
     "daniel3303/Equibles": {
       "created_at": "2026-03-24",
       "description": "Self-hosted, open-source financial data MCP server for AI agents — SEC filings, XBRL financials, 13F holdings, insider & congressional trades, short interest, FRED, CFTC/CBOE and daily prices across 64 MCP tools. Equibles Cloud adds earnings call transcripts, live quotes, options chains with Greeks, guidance and a screener.",
@@ -28056,6 +28837,47 @@
         "trading-robot"
       ],
       "url": "https://github.com/fintechees/Expert-Advisor-Studio"
+    },
+    "forgedeploy/ninjatrader-7": {
+      "archived": false,
+      "created_at": "2026-11-24",
+      "description": "Ninjatrader 7 for Windows 10/11. Builds and backtests automated trading strategies, places live orders and manages positions across futures, forex and equities from a single workspace with charting and market replay tools.",
+      "disabled": false,
+      "discovery": "new",
+      "first_seen": "2026-11-27",
+      "forks": 0,
+      "full_name": "forgedeploy/ninjatrader-7",
+      "id": 1470054082,
+      "language": null,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-25",
+      "score": 14.79,
+      "star_baseline_12m": null,
+      "star_baseline_6m": null,
+      "stars": 307,
+      "topics": [
+        "desktop-app",
+        "ninjatrader",
+        "ninjatrader-7-download",
+        "ninjatrader-7-free",
+        "ninjatrader-7-setup",
+        "ninjatrader-addon",
+        "ninjatrader-download",
+        "ninjatrader-indicators",
+        "ninjatrader-strategies",
+        "ninjatrader-trade-automation",
+        "ninjatrader8",
+        "ninjatrader8-components-strategies",
+        "productivity",
+        "software",
+        "software-engineering",
+        "utilities",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "windows-app"
+      ],
+      "url": "https://github.com/forgedeploy/ninjatrader-7"
     },
     "freqtrade/freqtrade": {
       "archived": false,
@@ -33057,7 +33879,12 @@
       "2611.23057",
       "2611.23533",
       "2611.23723",
-      "2611.24845"
+      "2611.24845",
+      "2611.30112",
+      "2611.30584",
+      "2611.31731",
+      "2611.33652",
+      "2611.33942"
     ],
     "repository_names": [
       "0Chencc/clawgod",
@@ -33084,6 +33911,7 @@
       "Ali-Marandi/finsight-pro",
       "Alinebm17/finance-api-tool",
       "AllTick-Official/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api",
+      "AlphaGBM/skills",
       "ApocData/ApocData-skill",
       "ArchDiverYank/lrt",
       "Aryanutkarsh/SeeCode",
@@ -33096,6 +33924,7 @@
       "Balanov/uncut",
       "Barca0412/Introduction-to-Quantitative-Finance",
       "Beingfluresurrect/Solana-token-sniper",
+      "BenjiKCF/Neural-Net-with-Financial-Time-Series-Data",
       "BerriAI/litellm",
       "BerriAI/moyai",
       "Betterfans-link/betterfans-mcp",
@@ -33137,6 +33966,7 @@
       "Fission-AI/OpenSpec",
       "ForceInjection/AI-fundamentals",
       "GMGNAI/gmgn-skills",
+      "Galihsahin552/sierra-chart",
       "GamePhanesStudio/GamePhanes",
       "Gathin23/tv-vibehack",
       "GenericCoding/VibeContainers",
@@ -33181,6 +34011,7 @@
       "Leo4815162342/dukascopy-node",
       "Leonccaa/ReVolta",
       "Leonxlnx/earshot",
+      "Linkbearleaf63/thinkorswim",
       "LockedinLabs-AI/agent-console",
       "Louis-CFM/coucou",
       "Lowaltitudeflight/local-llm-tuning-guide",
@@ -33399,6 +34230,7 @@
       "ctoldigital/axuse",
       "cutetailbud/ff-ruyijs",
       "cybergeekgyan/Quant-Developers-Resources",
+      "dangduc681/amibroker",
       "daniel3303/Equibles",
       "danielvm-git/bigpowers",
       "dataelement/bisheng",
@@ -33455,6 +34287,7 @@
       "fintechees/Expert-Advisor-Studio",
       "fitchmultz/pi-posthorse",
       "flashinfer-ai/flashinfer",
+      "forgedeploy/ninjatrader-7",
       "franzenzenhofer/big-arrow-on-the-screen",
       "fumingyang2004/Tulpa",
       "furkankly/zoetrope",

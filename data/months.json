@@ -4427,6 +4427,112 @@
         "published": "2026-11-18",
         "title": "Vibe-Trading: Towards Agent-Native Trading",
         "updated": "2026-11-18"
+      },
+      "2611.30112": {
+        "abstract": "On a given trading day, a stock-factor panel describes both how stocks differ across factors and how each factor varies across stocks. Most stock Transformers model relationships among stocks or across time. We introduce FToken, which also models relationships among factors. Its factor branch encodes all stocks' values for one factor as a token, applies self-attention across factors, and maps the result back to one return forecast per stock. A second branch applies attention across stocks in the same panel. A gate combines their forecasts using trailing factor covariance and market volatility. We evaluate both branches on NASDAQ, NYSE, and S&P 500 with the benchmarks' five price features and with 158 factors computed from the same data. On the 158-factor NASDAQ panel, averaging the two forecasts yields an information coefficient (IC) of 0.0421, compared with 0.0392 for the strongest external baseline. The gate raises IC to 0.0443 and gives the highest annualized excess return after costs. The equal-weight ensemble has the higher portfolio information ratio. Both combinations also improve on the strongest external baseline in mean IC on the other two 158-factor panels. On the five-feature NYSE panel, the differences are within the variation across seeds. ```",
+        "authors": [
+          "Juntang Wang",
+          "Yihan Wang",
+          "Sheng'en Li",
+          "Dongmian Zou",
+          "Shixin Xu"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-27",
+        "id": "2611.30112",
+        "paper_url": "https://arxiv.org/abs/2611.30112",
+        "pdf_url": "https://arxiv.org/pdf/2611.30112",
+        "published": "2026-11-23",
+        "title": "FToken: Factors as Tokens for Dual-Axis Cross-Sectional Return Prediction",
+        "updated": "2026-11-23"
+      },
+      "2611.30584": {
+        "abstract": "Although technical analysis remains widely used in practice, the need for manually constructed indicators is increasingly questioned as deep learning models can extract features directly from OHLC price data. This paper examines the standalone economic value of trading volume and manually constructed technical-indicator groups and whether adding these groups to OHLC candlestick charts provides incremental economic value. Using daily data for 1,707 Chinese A-share stocks from 2013 to 2025, we construct approximately 3.36 million stock-window samples and encode them as multi-channel images containing candlestick charts, trading volume, and seven widely used manually constructed technical indicators. The primary analysis uses a 2D CNN on these images; complementary tests apply a logistic regression, a 1D CNN, and an LSTM to numerical representations of the same samples. Out-of-sample performance from 2021 to 2025 is evaluated using decile portfolios, Sharpe ratios, Fama--French alphas, and formal pairwise tests. Our empirical results yield two central findings. First, specifications based separately on OHLC, trading volume, and each technical-indicator group produce significantly positive high-minus-low returns and factor-adjusted alphas, together with economically meaningful Sharpe ratios; the OHLC-only specifications generally perform best under the nonlinear models. Second, adding these technical-indicator groups to OHLC does not systematically improve any of these performance measures in our setting. Together, these results provide the first large-scale evidence from the Chinese A-share market on the standalone and incremental economic value of these technical-indicator groups across multiple representations and model architectures.",
+        "authors": [
+          "Peng Liu",
+          "Yanyan Zheng"
+        ],
+        "categories": [
+          "econ.GN",
+          "cs.CE",
+          "cs.LG",
+          "q-fin.PM",
+          "q-fin.TR"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-27",
+        "id": "2611.30584",
+        "paper_url": "https://arxiv.org/abs/2611.30584",
+        "pdf_url": "https://arxiv.org/pdf/2611.30584",
+        "published": "2026-11-23",
+        "title": "Do Candlestick Charts Suffice? The Incremental Economic Value of Technical Indicators in Stock Return Prediction",
+        "updated": "2026-11-23"
+      },
+      "2611.31731": {
+        "abstract": "Conventional post-hoc explanation methods were developed largely for non-spatial inputs and often provide limited explicit treatment of geographic context. We introduce Geo-SMILE, a model-agnostic framework that distinguishes substantive Feature explanation from geographic-position response through complementary perturbation branches. The Feature branch masks substantive predictors while retaining observed coordinates; the Geo branch relocates geographic units while holding substantive predictors fixed. Following the statistical-distance-weighted surrogate principle of SMILE, input-distribution Wasserstein distances determine coalition locality weights and weighted Ridge surrogates approximate expected black-box predictions. GeoSensitivity, signed in the keep orientation, quantifies fitted-model responses to geographic-player relocation under the specified design. Across crime prediction in Hull, housing-price prediction in Seattle and ride-hailing demand in Chicago, held-out weighted surrogate fidelity ranges from $R_w^2=0.910$ to $0.989$ in the Feature branch and from $0.842$ to $0.906$ in the Geo branch. The framework makes geographic position an explicit object of post-hoc explanation while requiring separate assessment of interpretation, stability and reference dependence.",
+        "authors": [
+          "Shadieh Mohammadi",
+          "Koorosh Aslansefat"
+        ],
+        "categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-27",
+        "id": "2611.31731",
+        "paper_url": "https://arxiv.org/abs/2611.31731",
+        "pdf_url": "https://arxiv.org/pdf/2611.31731",
+        "published": "2026-11-24",
+        "title": "Geo-SMILE: Statistical Model-Agnostic Interpretability with Local Explanations for Geospatial Machine Learning",
+        "updated": "2026-11-24"
+      },
+      "2611.33652": {
+        "abstract": "Portfolio management involves balancing diverse financial assets, a critical yet challenging task in quantitative trading. Although deep reinforcement learning has emerged as an active research domain for solving complex sequential decision-making problems over the past decade, deploying reinforcement learning frameworks in non-stationary financial markets raises formidable difficulties. Most existing reinforcement learning-based portfolio management models fail to account for tick-level intraday market dynamics (e.g., order flow imbalances and liquidity fluctuations), which reflect rapid capital movements. Simultaneously, these models suffer from unstable learning processes due to reinforcement learning's inherent high variance. This paper presents a Self-supervised Clipped-objective Portfolio management framework (SCP), which addresses these limitations through a two-phase architecture. Market feature integration phase (application contribution) integrates micro-level market microstructure patterns with macro-level financial indicators to enhance sensitivity to intraday asset trend dynamics. Policy optimization Phase (AI contribution) employs intermediate asset state representations to derive optimal portfolio allocations via a self-supervised clipped-objective policy-learner, ensuring both effectiveness and computational efficiency. Extensive evaluations on three major index datasets from China's A-share market demonstrate that SCP's superior performance in balancing risk-return trade-offs compared to state-of-the-art baselines. Exploratory and ablation studies further validate the contributions of SCP's key components.",
+        "authors": [
+          "Zongshen Mu"
+        ],
+        "categories": [
+          "cs.LG"
+        ],
+        "code_match": null,
+        "code_url": null,
+        "comment": "",
+        "first_seen": "2026-11-27",
+        "id": "2611.33652",
+        "paper_url": "https://arxiv.org/abs/2611.33652",
+        "pdf_url": "https://arxiv.org/pdf/2611.33652",
+        "published": "2026-11-25",
+        "title": "Self-supervised Clipped-objective Reinforcement Leaning Framework for Risk-aware Portfolio Management",
+        "updated": "2026-11-25"
+      },
+      "2611.33942": {
+        "abstract": "Quantum-inspired machine learning in econophysics describes states of financial markets through matrix Hamiltonians, using ground-state expectations to predict returns and spectral gaps to identify crises. Although early work reports encouraging advances, it remains unclear whether these stem from genuine noncommutative quantum geometry or from conventional classical regularization and scale effects. We test this in a controlled audit of matrix-form Quantum Cognition Machine Learning (QCML) and variational quantum circuits on the Moscow Exchange (2020-2025), combining daily equity data with causally lagged macro news under realistic trading costs, short-selling bans, and abrupt shifts in market regimes. By using capacity-matched operator swaps -- which progressively eliminate complex Berry phases and matrix noncommutativity down to a commuting classical Gibbs radial-basis limit under scale-invariant regularization -- as well as testing spectral indicators against radial-norm null hypotheses and untrained GUE random matrices, we isolate the contribution of each quantum element. In out-of-sample data, neither complex phases, noncommutativity, nor circuit entanglement improves the ranking of returns relative to classical controls. Once feature magnitudes are normalized, apparent crisis detection from raw spectral gaps drops below chance levels. These results show that on noisy equity panels, matrix-form QCML acts as an adaptive spectrally bounded classical smoothing kernel: it reliably integrates lagged news and curbs extreme crisis forecasts without passing economic multiple-testing thresholds, while our audit provides operator-swap and random-matrix controls for evaluating future quantum-inspired financial models.",
+        "authors": [
+          "Pavel Chuklanov"
+        ],
+        "categories": [
+          "quant-ph"
+        ],
+        "code_match": "arxiv-page",
+        "code_url": "https://github.com/alpha7en/QCML_Emerging_Market",
+        "comment": "",
+        "first_seen": "2026-11-27",
+        "id": "2611.33942",
+        "paper_url": "https://arxiv.org/abs/2611.33942",
+        "pdf_url": "https://arxiv.org/pdf/2611.33942",
+        "published": "2026-11-25",
+        "title": "Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market",
+        "updated": "2026-11-25"
       }
     },
     "repositories": {
@@ -4691,6 +4797,38 @@
         "url": "https://github.com/Adamant-im/adamant-tradebot",
         "verified_at": "2026-11-11"
       },
+      "AlphaGBM/skills": {
+        "archived": false,
+        "created_at": "2026-04-06",
+        "description": "Open-source AI agent skills for stock analysis, options research and financial research in Claude Code and Cursor. Explicit data, access and usage limits.",
+        "disabled": false,
+        "discovery": "historical",
+        "first_seen": "2026-11-27",
+        "forks": 358,
+        "full_name": "AlphaGBM/skills",
+        "id": 1202559832,
+        "language": "Python",
+        "license": "MIT",
+        "pushed_at": "2026-11-27",
+        "score": 19.01,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 3184,
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "claude-code",
+          "commodities",
+          "cursor",
+          "finance",
+          "financial-analysis",
+          "investment-research",
+          "options",
+          "stock-analysis"
+        ],
+        "url": "https://github.com/AlphaGBM/skills",
+        "verified_at": "2026-11-27"
+      },
       "AmpyFin/ampyfin": {
         "archived": false,
         "created_at": "2024-09-25",
@@ -4817,6 +4955,27 @@
           "solana-transactions"
         ],
         "url": "https://github.com/Beingfluresurrect/Solana-token-sniper"
+      },
+      "BenjiKCF/Neural-Net-with-Financial-Time-Series-Data": {
+        "archived": false,
+        "created_at": "2017-03-22",
+        "description": "This solution presents an accessible, non-trivial example of machine learning (Deep learning) with financial time series using TensorFlow",
+        "disabled": false,
+        "discovery": "historical",
+        "first_seen": "2026-11-27",
+        "forks": 302,
+        "full_name": "BenjiKCF/Neural-Net-with-Financial-Time-Series-Data",
+        "id": 85841405,
+        "language": "Python",
+        "license": null,
+        "pushed_at": "2026-11-27",
+        "score": 16.54,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 765,
+        "topics": [],
+        "url": "https://github.com/BenjiKCF/Neural-Net-with-Financial-Time-Series-Data",
+        "verified_at": "2026-11-27"
       },
       "Blave-TW/blave-agent": {
         "archived": false,
@@ -5092,6 +5251,47 @@
         ],
         "url": "https://github.com/GMGNAI/gmgn-skills",
         "verified_at": "2026-11-11"
+      },
+      "Galihsahin552/sierra-chart": {
+        "archived": false,
+        "created_at": "2026-11-24",
+        "description": "Sierra Chart for Windows 10/11. Charts futures and equities in real time, places trades directly from the chart and runs automated trading systems against live market data feeds.",
+        "disabled": false,
+        "discovery": "new",
+        "first_seen": "2026-11-27",
+        "forks": 0,
+        "full_name": "Galihsahin552/sierra-chart",
+        "id": 1470071707,
+        "language": null,
+        "license": "NOASSERTION",
+        "pushed_at": "2026-11-25",
+        "score": 14.77,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 304,
+        "topics": [
+          "chart",
+          "high-sierra",
+          "macos",
+          "macos-high-sierra",
+          "sierra",
+          "sierra-api",
+          "sierra-chart",
+          "sierra-chart-cost",
+          "sierra-chart-download",
+          "sierra-chart-mac",
+          "sierra-chart-platform",
+          "sierra-chart-pro",
+          "sierra-chart-pro-download",
+          "sierra-chart-trading",
+          "sierra-charts",
+          "sierra-ils",
+          "sierra-leone",
+          "sierra-online",
+          "sierra-wireless",
+          "windows"
+        ],
+        "url": "https://github.com/Galihsahin552/sierra-chart"
       },
       "HammerGPT/Hyper-Alpha-Arena": {
         "created_at": "2025-10-27",
@@ -5394,6 +5594,42 @@
         ],
         "url": "https://github.com/Leo4815162342/dukascopy-node",
         "verified_at": "2026-11-11"
+      },
+      "Linkbearleaf63/thinkorswim": {
+        "archived": false,
+        "created_at": "2026-11-24",
+        "description": "Thinkorswim for Windows 10/11. Analyzes stock, options and futures charts in real time with customizable studies, paper trading and order execution, giving active traders a full workstation for planning and testing strategies before risking capital.",
+        "disabled": false,
+        "discovery": "active",
+        "first_seen": "2026-11-27",
+        "forks": 0,
+        "full_name": "Linkbearleaf63/thinkorswim",
+        "id": 1470151278,
+        "language": null,
+        "license": "NOASSERTION",
+        "pushed_at": "2026-11-25",
+        "score": 14.78,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 305,
+        "topics": [
+          "desktop-app",
+          "install-thinkorswim",
+          "productivity",
+          "software",
+          "software-engineering",
+          "thinkorswim",
+          "thinkorswim-desktop",
+          "thinkorswim-download",
+          "thinkorswim-free",
+          "thinkorswim-install",
+          "utilities",
+          "windows",
+          "windows-10",
+          "windows-11",
+          "windows-app"
+        ],
+        "url": "https://github.com/Linkbearleaf63/thinkorswim"
       },
       "LucivHuang/heimdallr-sdk": {
         "archived": false,
@@ -7186,6 +7422,38 @@
         ],
         "url": "https://github.com/cn-vhql/FactorHub"
       },
+      "dangduc681/amibroker": {
+        "archived": false,
+        "created_at": "2026-11-24",
+        "description": "Amibroker for Windows 10/11. Backtests trading strategies on stocks, futures and forex, scans watchlists for entry signals, and plots custom indicators so you can automate and refine rule-based systems before risking real capital.",
+        "disabled": false,
+        "discovery": "new",
+        "first_seen": "2026-11-27",
+        "forks": 0,
+        "full_name": "dangduc681/amibroker",
+        "id": 1470011480,
+        "language": null,
+        "license": "NOASSERTION",
+        "pushed_at": "2026-11-25",
+        "score": 14.77,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 304,
+        "topics": [
+          "amibroker",
+          "desktop-app",
+          "install-amibroker",
+          "productivity",
+          "software",
+          "software-engineering",
+          "utilities",
+          "windows",
+          "windows-10",
+          "windows-11",
+          "windows-app"
+        ],
+        "url": "https://github.com/dangduc681/amibroker"
+      },
       "discountry/ritmex-bot": {
         "archived": false,
         "created_at": "2025-09-22",
@@ -7688,6 +7956,47 @@
           "trading-robot"
         ],
         "url": "https://github.com/fintechees/Expert-Advisor-Studio"
+      },
+      "forgedeploy/ninjatrader-7": {
+        "archived": false,
+        "created_at": "2026-11-24",
+        "description": "Ninjatrader 7 for Windows 10/11. Builds and backtests automated trading strategies, places live orders and manages positions across futures, forex and equities from a single workspace with charting and market replay tools.",
+        "disabled": false,
+        "discovery": "new",
+        "first_seen": "2026-11-27",
+        "forks": 0,
+        "full_name": "forgedeploy/ninjatrader-7",
+        "id": 1470054082,
+        "language": null,
+        "license": "NOASSERTION",
+        "pushed_at": "2026-11-25",
+        "score": 14.79,
+        "star_baseline_12m": null,
+        "star_baseline_6m": null,
+        "stars": 307,
+        "topics": [
+          "desktop-app",
+          "ninjatrader",
+          "ninjatrader-7-download",
+          "ninjatrader-7-free",
+          "ninjatrader-7-setup",
+          "ninjatrader-addon",
+          "ninjatrader-download",
+          "ninjatrader-indicators",
+          "ninjatrader-strategies",
+          "ninjatrader-trade-automation",
+          "ninjatrader8",
+          "ninjatrader8-components-strategies",
+          "productivity",
+          "software",
+          "software-engineering",
+          "utilities",
+          "windows",
+          "windows-10",
+          "windows-11",
+          "windows-app"
+        ],
+        "url": "https://github.com/forgedeploy/ninjatrader-7"
       },
       "freqtrade/freqtrade": {
         "archived": false,
